@@ -1,0 +1,149 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+🌏Other Language Wiki
+
+Wiki translations in other languages come from the community and do not represent the official position. They may be outdated or contain errors.
+
+Chinese: 中文
+
+Translator: SnowCutieOwO
+
+Site: Click here (点击这里)
+
+Previous🎉WelcomeNext💬Config Pack
+
+Last updated 2 months ago

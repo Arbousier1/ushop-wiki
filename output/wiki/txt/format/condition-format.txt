@@ -1,0 +1,340 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+📋Format
+
+⚖️Condition Format
+
+The condition format will consist of several options.
+
+The conditions in the Condition Format example only represent Condition Format start from here. Please refer to the page description of the corresponding function for specific option names, such as buy-conditions.
+
+General Options
+
+Apply Times
+
+This condition will only check when player have buy/sell spcified times product.
+
+start-apply: Start which times this condition will apply. Optional. Default to 0.
+
+end-apply: Last times the condition will apply. Optional. Default to infinite.
+
+apply: Which times this condition will apply, format: [1,2,3,4]. Optional. Default use start-apply option value.
+
+Copy
+conditions:
+1:
+apply: [1,2,3,4,5]
+start-apply: 1
+end-apply: 5
+
+Click Type
+
+This condition only checked when player use this click type to use the button.
+
+Copy
+conditions:
+1:
+click-type: LEFT
+
+Actions - Premium
+
+You can set actions for the entire condition, and if you want to do that, it's like this:
+
+Available Placeholders
+
+{world}
+
+{amount}
+
+{player_x}
+
+{player_y}
+
+{player_z}
+
+{player_pitch}
+
+{player_yaw}
+
+{player}
+
+{item} - Product ID
+
+{item-name} - Product Display Name
+
+{shop} - Shop ID
+
+{shop-name} - Shop Display Name
+
+{shop-menu} - Shop's Menu ID
+
+World
+
+Player must be in the world.
+
+Biome
+
+Player must be in the biome.
+
+Permission
+
+Player must has the permission.
+
+Remember that OP players will always have all permissions unless plugin set it not by default, so if you want to test this condition, you have to deop yourself.
+
+Placeholder
+
+Player must be meet the placeholder condition.
+
+Rule can be set to:
+
+>=
+
+<=
+
+>
+
+<
+
+== (String)
+
+= (Number)
+
+!= (Number or string)
+
+!*= (Number or string) Not contains.
+
+*= (String) Contains, for example, str *= string is true, but example *= ple is false.
+
+Any - Premium
+
+Not - Premium
+
+Previous🎬Action FormatNext➗Math Calculate Format
+
+Last updated 5 months ago
+
+General Options
+
+Available Placeholders
+
+World
+
+Biome
+
+Permission
+
+Placeholder
+
+Any - Premium
+
+Not - Premium
+
+Copy
+conditions:
+1:
+not-meet-actions:
+1:
+type: message
+message: 'Condition not meet'
+meet-actions:
+1:
+type: message
+message: 'Condition meet'
+
+Copy
+conditions:
+not-meet-actions:
+1:
+type: message
+message: 'You must use this apply item in world!'
+1:
+type: world
+world: 'test'
+
+Copy
+conditions:
+1:
+type: world
+world: lobby
+
+Copy
+conditions:
+1:
+type: biome
+biome: oraxen
+
+Copy
+conditions:
+1:
+type: permission
+permission: 'group.vip'
+
+Copy
+conditions:
+1:
+type: placeholder
+placeholder: '%player_health%'
+rule: '<='
+value: 5
+
+Copy
+conditions:
+1:
+type: any
+conditions:
+1:
+type: placeholder
+placeholder: '%eco_balance%'
+rule: '>='
+value: 200
+2:
+type: placeholder
+placeholder: '%player_points%'
+rule: '>='
+value: 400
+
+Copy
+conditions:
+1:
+type: not
+conditions:
+1:
+type: placeholder
+placeholder: '%eco_balance%'
+rule: '>='
+value: 200

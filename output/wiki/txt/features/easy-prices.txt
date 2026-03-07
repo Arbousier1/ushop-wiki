@@ -1,0 +1,182 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+✨Features
+
+💴Easy Prices
+
+❌This feature is no longer get support and will be removed in future version.
+
+You can use prices section in config.yml file to create new easy prices!
+
+For exmaple:
+
+Copy
+prices:
+example:
+economy-plugin: Vault
+placeholder: '200 Coins'
+mmoitems-example:
+hook-plugin: MMOItems
+hook-item: AXE;;TEST_AXE
+amount: 1
+placeholder: '1 Mythic Axe'
+
+This has 2 easy prices, one is example, the other is mmoitems-example. You can use them at shop products buy-prices and sell-prices section with type option. Just like:
+
+Copy
+products:
+A:
+give-item: true
+price-mode: ALL
+product-mode: ALL
+products:
+1:
+material: APPLE
+amount: 1
+buy-prices:
+1:
+custom-type: example # <--- New Option!
+amount: 20
+start-apply: 0
+2:
+custom-type: mmoitems-example # <--- New Option!
+placeholder: '{amount} axes'
+start-apply: 0
+
+Previous🎨Color CodeNext🪄Sell Stick - Premium
+
+Last updated 6 months ago

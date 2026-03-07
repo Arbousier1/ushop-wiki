@@ -1,0 +1,176 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+✨Features
+
+🔢Number Format
+
+Download and install PlaceholderAPI plugin in your server.
+
+Install Formatter expansion with this command /papi ecloud download Formatter. Click here to know more.
+
+Edit placeholder option in price configs to this: %formatter_number_format_{amount}%.
+
+Example:
+
+Copy
+C:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: potato
+amount: 1
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 20000000
+placeholder: '&6%formatter_number_format_{amount}% Coins'
+start-apply: 0
+
+Start from 2.3.2, you can just use those options in config.yml to let plugin help you change {amount} placeholder instead of you change it manually!
+
+Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
+
+Last updated 28 days ago
+
+Copy
+placeholder:
+auto-settings:
+# If enabled, we will try change {amount} in price placeholder option to the value you set here.
+change-amount-in-all-price-placeholder:
+enabled: true # <--- Change this to true
+replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as here

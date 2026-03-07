@@ -5,6 +5,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/",
       "file": "output/wiki/pages/index.html",
+      "text_file": "output/wiki/txt/index.txt",
       "title": "🎉Welcome | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -66,12 +67,14 @@
     {
       "url": "https://ultimateshop.superiormc.cn/cdn-cgi/l/email-protection",
       "file": "output/wiki/pages/cdn-cgi/l/email-protection.html",
+      "text_file": "output/wiki/txt/cdn-cgi/l/email-protection.txt",
       "title": "Email Protection | Cloudflare",
       "links": []
     },
     {
       "url": "https://ultimateshop.superiormc.cn/config-pack",
       "file": "output/wiki/pages/config-pack.html",
+      "text_file": "output/wiki/txt/config-pack.txt",
       "title": "💬Config Pack | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -134,6 +137,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/develop",
       "file": "output/wiki/pages/develop.html",
+      "text_file": "output/wiki/txt/develop.txt",
       "title": "Develop Guide | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -196,6 +200,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/develop/develop-guide",
       "file": "output/wiki/pages/develop/develop-guide.html",
+      "text_file": "output/wiki/txt/develop/develop-guide.txt",
       "title": "Develop Guide | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -258,6 +263,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/develop/events",
       "file": "output/wiki/pages/develop/events.html",
+      "text_file": "output/wiki/txt/develop/events.txt",
       "title": "Events | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -320,6 +326,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/develop/hook-into-ultimateshop",
       "file": "output/wiki/pages/develop/hook-into-ultimateshop.html",
+      "text_file": "output/wiki/txt/develop/hook-into-ultimateshop.txt",
       "title": "Hook into UltimateShop | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -382,6 +389,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/dynamic-prices",
       "file": "output/wiki/pages/dynamic-prices.html",
+      "text_file": "output/wiki/txt/dynamic-prices.txt",
       "title": "🔄Dynamic Price | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -444,6 +452,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price",
       "file": "output/wiki/pages/dynamic-prices/dynamic-price.html",
+      "text_file": "output/wiki/txt/dynamic-prices/dynamic-price.txt",
       "title": "🔄Dynamic Price | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -506,6 +515,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium",
       "file": "output/wiki/pages/dynamic-prices/dynamic-price-status-premium.html",
+      "text_file": "output/wiki/txt/dynamic-prices/dynamic-price-status-premium.txt",
       "title": "🔴Dynamic Price Status - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -568,6 +578,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features",
       "file": "output/wiki/pages/features.html",
+      "text_file": "output/wiki/txt/features.txt",
       "title": "🌏Advanced Language Managment | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -630,6 +641,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/advanced-language-managment",
       "file": "output/wiki/pages/features/advanced-language-managment.html",
+      "text_file": "output/wiki/txt/features/advanced-language-managment.txt",
       "title": "🌏Advanced Language Managment | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -692,6 +704,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/color-code",
       "file": "output/wiki/pages/features/color-code.html",
+      "text_file": "output/wiki/txt/features/color-code.txt",
       "title": "🎨Color Code | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -754,6 +767,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/custom-click-event-premium",
       "file": "output/wiki/pages/features/custom-click-event-premium.html",
+      "text_file": "output/wiki/txt/features/custom-click-event-premium.txt",
       "title": "🎮Custom Click Event - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -816,6 +830,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/custom-item-match-method",
       "file": "output/wiki/pages/features/custom-item-match-method.html",
+      "text_file": "output/wiki/txt/features/custom-item-match-method.txt",
       "title": "🔍Custom Item Match Method | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -878,6 +893,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/easy-prices",
       "file": "output/wiki/pages/features/easy-prices.html",
+      "text_file": "output/wiki/txt/features/easy-prices.txt",
       "title": "💴Easy Prices | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -940,6 +956,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/give-item-method",
       "file": "output/wiki/pages/features/give-item-method.html",
+      "text_file": "output/wiki/txt/features/give-item-method.txt",
       "title": "🔑Give Item Method | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1002,6 +1019,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/localized-item-name-premium",
       "file": "output/wiki/pages/features/localized-item-name-premium.html",
+      "text_file": "output/wiki/txt/features/localized-item-name-premium.txt",
       "title": "🌍Localized Item Name - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1064,6 +1082,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/log-transaction-premium",
       "file": "output/wiki/pages/features/log-transaction-premium.html",
+      "text_file": "output/wiki/txt/features/log-transaction-premium.txt",
       "title": "💳Log Transaction - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1126,6 +1145,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/multi-server-sync-premium",
       "file": "output/wiki/pages/features/multi-server-sync-premium.html",
+      "text_file": "output/wiki/txt/features/multi-server-sync-premium.txt",
       "title": "🌐Multi Server Sync - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1188,6 +1208,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/number-format",
       "file": "output/wiki/pages/features/number-format.html",
+      "text_file": "output/wiki/txt/features/number-format.txt",
       "title": "🔢Number Format | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1250,6 +1271,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/saved-item-item-manager",
       "file": "output/wiki/pages/features/saved-item-item-manager.html",
+      "text_file": "output/wiki/txt/features/saved-item-item-manager.txt",
       "title": "💾Saved Item (Item Manager) | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1312,6 +1334,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/sell-chest-premium",
       "file": "output/wiki/pages/features/sell-chest-premium.html",
+      "text_file": "output/wiki/txt/features/sell-chest-premium.txt",
       "title": "🎁Sell Chest - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1374,6 +1397,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/features/sell-stick-premium",
       "file": "output/wiki/pages/features/sell-stick-premium.html",
+      "text_file": "output/wiki/txt/features/sell-stick-premium.txt",
       "title": "🪄Sell Stick - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1436,6 +1460,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format",
       "file": "output/wiki/pages/format.html",
+      "text_file": "output/wiki/txt/format.txt",
       "title": "📊Understanding YAML/This wiki | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1498,6 +1523,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/action-format",
       "file": "output/wiki/pages/format/action-format.html",
+      "text_file": "output/wiki/txt/format/action-format.txt",
       "title": "🎬Action Format | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1560,6 +1586,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/condition-format",
       "file": "output/wiki/pages/format/condition-format.html",
+      "text_file": "output/wiki/txt/format/condition-format.txt",
       "title": "⚖️Condition Format | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1622,6 +1649,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/display-item-format",
       "file": "output/wiki/pages/format/display-item-format.html",
+      "text_file": "output/wiki/txt/format/display-item-format.txt",
       "title": "🖼️Display Item Format | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1684,6 +1712,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/economyformat-tm",
       "file": "output/wiki/pages/format/economyformat-tm.html",
+      "text_file": "output/wiki/txt/format/economyformat-tm.txt",
       "title": "💹EconomyFormat™ | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1747,6 +1776,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm",
       "file": "output/wiki/pages/format/info-of-itemformat-tm.html",
+      "text_file": "output/wiki/txt/format/info-of-itemformat-tm.txt",
       "title": "🛒Info of ItemFormat™ | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1809,6 +1839,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/itemformat-tm",
       "file": "output/wiki/pages/format/itemformat-tm.html",
+      "text_file": "output/wiki/txt/format/itemformat-tm.txt",
       "title": "📝ItemFormat™ | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1872,6 +1903,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format",
       "file": "output/wiki/pages/format/itemformat-tm/component-format.html",
+      "text_file": "output/wiki/txt/format/itemformat-tm/component-format.txt",
       "title": "Component Format | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1935,6 +1967,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/math-calculate-format",
       "file": "output/wiki/pages/format/math-calculate-format.html",
+      "text_file": "output/wiki/txt/format/math-calculate-format.txt",
       "title": "➗Math Calculate Format | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -1997,6 +2030,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki",
       "file": "output/wiki/pages/format/understanding-yaml-this-wiki.html",
+      "text_file": "output/wiki/txt/format/understanding-yaml-this-wiki.txt",
       "title": "📊Understanding YAML/This wiki | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2059,6 +2093,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info",
       "file": "output/wiki/pages/info.html",
+      "text_file": "output/wiki/txt/info.txt",
       "title": "✅Requirements | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2121,6 +2156,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/commands-and-permissions",
       "file": "output/wiki/pages/info/commands-and-permissions.html",
+      "text_file": "output/wiki/txt/info/commands-and-permissions.txt",
       "title": "⌨️Commands \u0026 Permissions | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2183,6 +2219,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/compare",
       "file": "output/wiki/pages/info/compare.html",
+      "text_file": "output/wiki/txt/info/compare.txt",
       "title": "🆚Compare | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2245,6 +2282,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/compatibility",
       "file": "output/wiki/pages/info/compatibility.html",
+      "text_file": "output/wiki/txt/info/compatibility.txt",
       "title": "🔗Compatibility | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2307,6 +2345,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/configuration-files",
       "file": "output/wiki/pages/info/configuration-files.html",
+      "text_file": "output/wiki/txt/info/configuration-files.txt",
       "title": "🛠️Configuration files | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2369,6 +2408,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/data",
       "file": "output/wiki/pages/info/data.html",
+      "text_file": "output/wiki/txt/info/data.txt",
       "title": "📊Data | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2431,6 +2471,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/faq",
       "file": "output/wiki/pages/info/faq.html",
+      "text_file": "output/wiki/txt/info/faq.txt",
       "title": "❓FAQ | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2493,6 +2534,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/install",
       "file": "output/wiki/pages/info/install.html",
+      "text_file": "output/wiki/txt/info/install.txt",
       "title": "⚙️Install | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2555,6 +2597,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/performance",
       "file": "output/wiki/pages/info/performance.html",
+      "text_file": "output/wiki/txt/info/performance.txt",
       "title": "🚀Performance | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2617,6 +2660,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/info/requirements",
       "file": "output/wiki/pages/info/requirements.html",
+      "text_file": "output/wiki/txt/info/requirements.txt",
       "title": "✅Requirements | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2679,6 +2723,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/menus",
       "file": "output/wiki/pages/menus.html",
+      "text_file": "output/wiki/txt/menus.txt",
       "title": "🔲General Menus | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2741,6 +2786,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium",
       "file": "output/wiki/pages/menus/bedrock-menus-premium.html",
+      "text_file": "output/wiki/txt/menus/bedrock-menus-premium.txt",
       "title": "🛏️Bedrock Menus - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2803,6 +2849,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/menus/buy-more-menus",
       "file": "output/wiki/pages/menus/buy-more-menus.html",
+      "text_file": "output/wiki/txt/menus/buy-more-menus.txt",
       "title": "🔽Buy More Menus | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2865,6 +2912,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/menus/display-item-add-lore",
       "file": "output/wiki/pages/menus/display-item-add-lore.html",
+      "text_file": "output/wiki/txt/menus/display-item-add-lore.txt",
       "title": "🥉Display Item Add Lore | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2927,6 +2975,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/menus/general-menus",
       "file": "output/wiki/pages/menus/general-menus.html",
+      "text_file": "output/wiki/txt/menus/general-menus.txt",
       "title": "🔲General Menus | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -2989,6 +3038,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/other-language-wiki",
       "file": "output/wiki/pages/other-language-wiki.html",
+      "text_file": "output/wiki/txt/other-language-wiki.txt",
       "title": "🌏Other Language Wiki | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3050,6 +3100,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/placeholders",
       "file": "output/wiki/pages/placeholders.html",
+      "text_file": "output/wiki/txt/placeholders.txt",
       "title": "🔧Built-in Placeholders | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3112,6 +3163,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders",
       "file": "output/wiki/pages/placeholders/built-in-placeholders.html",
+      "text_file": "output/wiki/txt/placeholders/built-in-placeholders.txt",
       "title": "🔧Built-in Placeholders | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3174,6 +3226,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium",
       "file": "output/wiki/pages/placeholders/conditional-placeholder-premium.html",
+      "text_file": "output/wiki/txt/placeholders/conditional-placeholder-premium.txt",
       "title": "⛓️Conditional Placeholder - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3236,6 +3289,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/placeholders/example-discount",
       "file": "output/wiki/pages/placeholders/example-discount.html",
+      "text_file": "output/wiki/txt/placeholders/example-discount.txt",
       "title": "🔖Example: Discount | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3298,6 +3352,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium",
       "file": "output/wiki/pages/placeholders/random-placeholder-premium.html",
+      "text_file": "output/wiki/txt/placeholders/random-placeholder-premium.txt",
       "title": "🔀Random Placeholder - Premium | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3360,6 +3415,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops",
       "file": "output/wiki/pages/shops.html",
+      "text_file": "output/wiki/txt/shops.txt",
       "title": "📂Shops | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3422,6 +3478,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/example-common-usage",
       "file": "output/wiki/pages/shops/example-common-usage.html",
+      "text_file": "output/wiki/txt/shops/example-common-usage.txt",
       "title": "⚡Example: Common Usage | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3484,6 +3541,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/example-daily-rewards",
       "file": "output/wiki/pages/shops/example-daily-rewards.html",
+      "text_file": "output/wiki/txt/shops/example-daily-rewards.txt",
       "title": "🏆Example: Daily Rewards | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3546,6 +3604,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop",
       "file": "output/wiki/pages/shops/example-daily-shop-rotating-shop.html",
+      "text_file": "output/wiki/txt/shops/example-daily-shop-rotating-shop.txt",
       "title": "📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3608,6 +3667,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life",
       "file": "output/wiki/pages/shops/example-stock-like-in-life.html",
+      "text_file": "output/wiki/txt/shops/example-stock-like-in-life.txt",
       "title": "🌱Example: Stock (like in life) | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3670,6 +3730,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset",
       "file": "output/wiki/pages/shops/product-config-buy-sell-times-reset.html",
+      "text_file": "output/wiki/txt/shops/product-config-buy-sell-times-reset.txt",
       "title": "♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3732,6 +3793,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/products",
       "file": "output/wiki/pages/shops/products.html",
+      "text_file": "output/wiki/txt/shops/products.txt",
       "title": "🛒Products | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3794,6 +3856,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/products-config-single-thing",
       "file": "output/wiki/pages/shops/products-config-single-thing.html",
+      "text_file": "output/wiki/txt/shops/products-config-single-thing.txt",
       "title": "💰Products Config: Single Thing | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",
@@ -3856,6 +3919,7 @@
     {
       "url": "https://ultimateshop.superiormc.cn/shops/shops",
       "file": "output/wiki/pages/shops/shops.html",
+      "text_file": "output/wiki/txt/shops/shops.txt",
       "title": "📂Shops | UltimateShop Wiki",
       "links": [
         "https://ultimateshop.superiormc.cn/",

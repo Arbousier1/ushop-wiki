@@ -1,0 +1,175 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+✨Features
+
+🔑Give Item Method
+
+You can change give item method at config.yml file with below content:
+
+Copy
+give-item:
+# Support value: BUKKIT, SMART
+# SMART will cost more server performance but will follow the vanilla max stack to give player item, also support check full.
+give-method: BUKKIT
+# Only support SMART give method.
+check-full: false
+
+Here are 2 give item method in plugin.
+
+BUKKIT
+
+The most stable way to give player item, but it will has problem when you buy more than the max stack amount of the item in once.
+
+For example, you buy x64 ender peral, plugin will stack them in one slot which is not correct.
+
+In this picture, the first slot shows you the problem.
+
+SMART - Early Alpha
+
+Smart method is provided by UltimateShop self, it will follow the vanilla max stack amount, for the same example, in this method, the item will be split into 4 stacks because the max stack limit for the Ender Pearl is 16 instead of 64. Also, this method support check inventory will full after buy.
+
+This method will cost extra plugin performance, be careful to use if you are running large server and have much online players.
+
+It is very difficult to attempt to restore the vanilla mechanism without contacting NMS, so this method may have a lot of problems and is still under testing.
+
+Previous🔍Custom Item Match MethodNext💳Log Transaction - Premium
+
+Last updated 1 year ago
+
+BUKKIT
+
+SMART - Early Alpha

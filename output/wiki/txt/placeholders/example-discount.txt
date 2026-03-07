@@ -1,0 +1,239 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+📍Placeholders
+
+🔖Example: Discount
+
+Create Conditional Placeholder
+
+Use conditional placeholder with MAX or MIN mode, discount feature can be easily implemented.
+
+Here we created 2 conditional placeholder for buy and sell.
+
+Copy
+mode: MAX
+
+value:
+default: 1
+vip: 1.5
+mvp: 2
+
+conditions:
+vip:
+1:
+type: permission
+permission: 'group.vip'
+mvp:
+1:
+type: permission
+permission: 'group.mvp'
+
+Use the placeholder in product configs
+
+5 is base price, then add {conditional_buy} or {conditional_sell} before it.
+
+If player meet vip condition, the {condition_buy} will return 0.5, so he will only need pay 0.5*4 which means only 2.5 coins!
+
+Auto Apply Discount
+
+Start from 2.3.2, you can auto apply conditional placeholder to all prices! Just configure it in config.yml file. This can helps you auto add discount for each products.
+
+It is recommend you disable this feature for dynamic price, if you want to enable it for dynamic price too, just change black-dynamic-price option to false here!
+
+If you want to disable this feature for specified shops, use black-shops option.
+
+Previous⛓️Conditional Placeholder - PremiumNext🔄Dynamic Price
+
+Last updated 2 months ago
+
+Create Conditional Placeholder
+
+Use the placeholder in product configs
+
+Auto Apply Discount
+
+Copy
+mode: MIN
+
+value:
+default: 1
+vip: 0.5
+mvp: 0.3
+
+conditions:
+vip:
+1:
+type: permission
+permission: 'group.vip'
+mvp:
+1:
+type: permission
+permission: 'group.mvp'
+
+Copy
+items:
+A:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: sea_lantern
+lore:
+- '%player_health%'
+buy-prices:
+1:
+economy-plugin: Vault
+amount: '{conditional_buy} * 5' # <--- Changed line
+start-apply: 0
+placeholder: '{amount} Coins'
+sell-prices:
+1:
+economy-plugin: Vault
+amount: '{conditional_sell} * 5' # <--- Changed line
+start-apply: 0
+placeholder: '{amount} Coins'
+
+Copy
+placeholder:
+auto-settings:
+add-conditional-in-all-price-amount:
+enabled: false
+buy-placeholder: buy
+sell-placeholder: sell
+black-dynamic-price: true
+black-shops:
+- 'example'

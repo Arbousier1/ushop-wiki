@@ -1,0 +1,201 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+📋Format
+
+🖼️Display Item Format
+
+You can use display item format in menu button and shop product's display-item option.
+
+Single
+
+If your display item is only one and does not have any condition to display it, simply use Item Format in this section!
+
+Copy
+B:
+display-item:
+material: BREAD
+name: '&cSuper Bread'
+
+Multi
+
+If you want set multi display item for this button or product and use condition system to make us choose one of it to display, simply use this new format as below:
+
+Copy
+1:
+display-item:
+default:
+material: GREEN_WOOL
+amount: 1
+name: '&eDay 1'
+lore:
+- '&fToday Reward:'
+- '&7 - 10 Gems'
+- ''
+- '&#FFFACDClick to claim!'
+claimed:
+material: RED_WOOL
+amount: 1
+name: '&eDay 1'
+lore:
+- '&fIncluded Reward:'
+- '&7 - 10 Gems'
+- ''
+- '&#ff3300Already claimed!'
+display-item-conditions:
+claimed: # Condition ID
+1: # Means first condition
+type: placeholder
+placeholder: '%ultimateshop_streak_A_{buy-times-player}%'
+rule: '>'
+value: '0'
+2: # You can add more condition with Condition Format
+type: world
+world: 'testCondition'
+default:
+1:
+type: placeholder
+placeholder: '%ultimateshop_streak_A_{buy-times-player}%'
+rule: '='
+value: '0'z
+
+Previous💹EconomyFormat™Next🎬Action Format
+
+Last updated 9 months ago
+
+Single
+
+Multi

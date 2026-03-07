@@ -1,0 +1,347 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+📦Info
+
+⌨️Commands & Permissions
+
+FAQ:
+
+Does the /shop command has permission?
+
+A: Use /shop can directly open a menu called main. This is a feature called Auto Open, and you can disable it at config.yml file with menu.auto-open.enabled option. If you only want some players to be exposed to this command, you can set conditions for the menu so that only players who meet the specified conditions can open the menu. For more info, please view Menus page.
+
+Why it say condition not meet when open daily example menu?
+
+A: That menu already set a condition and you can find it at menus/daily-shop-example.yml.
+
+ultimateshop.bypassprice
+
+This permission can help you bypass price check and won't cost any price.
+
+ultimateshop.bypass.protection
+
+This permission can help you bypass protection (anti grief) check when using sell stick.
+
+/shop menu <menuID>/<shopID>
+
+Open common menu or shop menu.
+
+Require ultimateshop.menu permission.
+
+For console, should extra add <player> arg at the end of command, like /shop menu test Player1.
+
+Support add -b at the end of the command to bypass menu open condition check. (Premium version only)
+
+/shop quickbuy <shopID> <productID> [amount]
+
+Quick purchase item.
+
+Require ultimateshop.quickbuy permission.
+
+For console, should extra add <player> arg at the end of command, like /shop quickbuy test A Player1.
+
+/shop quicksell <shopID> <productID> [amount]
+
+Same as quickbuy, just replace quickbuy to quicksell.
+
+amount arg can be replaced to * symbol, then plugin will auto sell all the items you can sell. (Premium version only)
+
+If the corresponding product is not displayed in the shop GUI, or if the player does not meet the conditions to open the corresponding shop menu, the item cannot be traded. If this is not desired, change the settings.secret-shop-items option in the shop configuration to false.
+
+/shop reload
+
+Reload the plugin, some configs need you restart server.
+
+Require ultimateshop.reload permission.
+
+/shop givesellstick <itemID> <playerID> [amount] (Premium version only)
+
+Give specifeid player specified amount (if not set, default to 1) sell stick.
+
+Require ultimateshop.givesellstick permission.
+
+/shop givesellchest <itemID> <playerID> [amount] (Premium version only)
+
+Give specifeid player specified amount (if not set, default to 1) sell chest.
+
+Require ultimateshop.givesellstick permission.
+
+/shop setbuytimes/setselltimes <shopID> <productID> <player>/global [times]
+
+Set player's specified product buy times to specified value.
+
+Require ultimateshop.setbuytimes permission.
+
+If didn't set times arg, we will think you are trying to reset the buy/sell times.
+
+productID arg can be replaced to * symbol, then plugin will auto pick up all product in specified shop. (Premium version only)
+
+setselltimes is similar to setbuytimes here.
+
+The global arg means set buy/sell times for {buy-times-server} or {sell-times-server} placeholer, not means set buy/sell times for all players.
+
+It is impossible to set all player data at once through commands in UltimateShop. Because assuming your server has hundreds of thousands of player data, without excellent performance optimization code, the server will immediately crash. You may see very few economy plugins or item plugins providing this feature, but they are selling it as a selling point. We have not declared ourselves providing this feature on any occasion, and this feature will not be added in the future because it is very time-consuming and not very meaningful. You can achieve similar functions through the auto reset function, and relevant information can be viewed on this page.
+
+/shop addbuytimes/addselltimes <shopID> <productID> <player>/global <times>
+
+Add specified value to player's specified product buy times.
+
+Require ultimateshop.addtbuytimes permission.
+
+productID arg can be replaced to * symbol, then plugin will auto pick up all product in specified shop. (Premium version only)
+
+addselltimes is similar to setbuytimes here.
+
+/shop sellall
+
+Open sellall menu.
+
+Require ultimateshop.sellall permission.
+
+/shop saveitem <saveItemID> <saveItemMethod>
+
+Save your hold items. For more info, please view Save Item page.
+
+Require ultimateshop.saveitem permission.
+
+/shop generateitemformat
+
+Generate hold item into Item Format at plugins/UltimateShop folder.
+
+Require ultimateshop.generateitemformat permission.
+
+/shop getplaceholdervalue <text> (Premium version only)
+
+Parse input text to get placeholder value in it.
+
+Require ultimateshop.getplaceholdervalue permission.
+
+/shop resetrandomplaceholder <placeholderID> [player] (Premium version only)
+
+Reset random placeholder value.
+
+The per player's random placeholder must enter the player name in the command parameters, while the per player's random placeholder cannot enter the player name in the command parameters, otherwise the plugin will prompt an error.
+
+Require ultimateshop.resetrandomplaceholder permission.
+
+/shop setrandomplaceholder <placeholderID> [element] [player] (Premium version only)
+
+Set random placeholder value.
+
+Different from resetrandomplaceholder, setrandomplaceholder command won't reset refresh time and allow users pick specifeid element.
+
+The per player's random placeholder must enter the player name in the command parameters, while the per player's random placeholder cannot enter the player name in the command parameters, otherwise the plugin will prompt an error.
+
+Support add -b at the end of the command to bypass element exist check, which means you can set the custom element you'd like. For example, my random placeholder only have A,B,C total 3 elements, if I type D as element here, plugin will print error message, if you add -b suffix, then the placeholder value will be set to D and plugin never print error message, but it is not recommended. (Removed in 3.12.0, now this command no longer check element exist)
+
+Require ultimateshop.setrandomplaceholder permission.
+
+/shop search
+
+Print the message that helps you know the hold item target product in shop.
+
+Require ultimateshop.search permission.
+
+/shop sellallhand
+
+Sell all hand item.
+
+Require ultimateshop.sellallhand permission.
+
+/shop updategui [player]
+
+Update GUI for specified player. Only buttons will be updated, inventory title will not update.
+
+Require ultimateshop.updategui permission.
+
+/shop updateguititle [player] (Premium version only)
+
+Update GUI title for specifed player. Only gui title will be updated, buttons will not update.
+
+Require server enable title update feature, for more info, please view this page.
+
+Require ultimateshop.updateguititle permission.
+
+Previous🛠️Configuration filesNext📊Data
+
+Last updated 8 days ago
+
+FAQ:
+
+Does the /shop command has permission?
+
+Why it say condition not meet when open daily example menu?
+
+ultimateshop.bypassprice
+
+ultimateshop.bypass.protection
+
+/shop menu <menuID>/<shopID>
+
+/shop quickbuy <shopID> <productID> [amount]
+
+/shop quicksell <shopID> <productID> [amount]
+
+/shop reload
+
+/shop givesellstick <itemID> <playerID> [amount] (Premium version only)
+
+/shop givesellchest <itemID> <playerID> [amount] (Premium version only)
+
+/shop setbuytimes/setselltimes <shopID> <productID> <player>/global [times]
+
+/shop addbuytimes/addselltimes <shopID> <productID> <player>/global <times>
+
+/shop sellall
+
+/shop saveitem <saveItemID> <saveItemMethod>
+
+/shop generateitemformat
+
+/shop getplaceholdervalue <text> (Premium version only)
+
+/shop resetrandomplaceholder <placeholderID> [player] (Premium version only)
+
+/shop setrandomplaceholder <placeholderID> [element] [player] (Premium version only)
+
+/shop search
+
+/shop sellallhand
+
+/shop updategui [player]
+
+/shop updateguititle [player] (Premium version only)

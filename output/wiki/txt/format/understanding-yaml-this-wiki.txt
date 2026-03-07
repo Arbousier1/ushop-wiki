@@ -1,0 +1,365 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+In the UltimateShop plugin, all configuration files use the YAML format. Understanding YAML syntax is essential for editing and customizing your setup. Let’s go through it with real examples from the plugin.
+
+Basic Syntax
+
+The basic structure of YAML is key: value. Example:
+
+Copy
+debug: false
+
+Important Rules:
+
+Keys are case-sensitive.
+
+There must be a space after the colon.
+
+When the value contains special characters (: or &), wrap it in quotes: prefix: "&a[UltimateShop]"
+
+When the value contains a single quote ('), escape it with two single quotes: message: "You can''t buy this item!"
+
+Hierarchy & Indentation
+
+Indentation represents parent-child relationships in YAML. Each level must be indented by two spaces. Example:
+
+Copy
+auto-save:
+hide-message: false
+
+Here:
+
+auto-save is the parent key.
+
+hide-message is its child key, means this option only work for auto save feature.
+
+false is the value, means we will not hide message when auto save.
+
+Let us take shop configs as complex example:
+
+1️⃣ Level 1 (Top Level) There are two main root keys:
+
+settings
+
+items
+
+They exist side by side at the top of the configuration. This is shop configs, so you should get available top level options at Shops page. In that page, we told you available keys with very big font size.
+
+with very detalied example.
+
+All of them has detelied info:
+
+2️⃣ Level 2 Under settings:
+
+menu
+
+buy-more
+
+shop-name
+
+hide-message
+are all child keys of settings.
+
+This means all of them are settings for this shop. Put them in other place will NOT work.
+
+Under items:
+
+A is a child key representing a product. A means this product ID is A, and all section under A will only work for this product.
+
+3️⃣ Level 3 Under items → A:
+
+price-mode
+
+product-mode
+
+products
+
+buy-prices
+
+and so on.
+are all children of A. All of those options will only work for product A, and should not put them in other place.
+
+Since it is product config, you can get all options available at Products page with detalied info.
+
+4️⃣ Level 4 Under products:
+
+“1” means the first defined product.
+
+Under buy-prices:
+
+“1” means the first defined price set.
+
+You can set unlimited sub price and product. All of those options available at Single Things page.
+
+5️⃣ Level 5 Under products → 1:
+
+material: GRASS_BLOCK → the item type.
+
+amount: 1 → the quantity.
+
+They are following ItemFormat.
+
+Under buy-prices → 1:
+
+economy-plugin: Vault → the economy system used.
+
+amount: '0.63' → the price.
+
+placeholder: '{amount}$' → how the price is displayed.
+
+They are following EconomyFormat and placeholder option inside price section.
+
+Hierarchical Tree Diagram
+
+Lists
+
+When a key holds multiple values, use a list.
+
+Example:
+
+Each “-” must be indented two spaces from its parent key.
+
+Empty and Default Values
+
+An empty list is represented as:
+
+The [] means the list is empty, and the plugin will use its default settings.
+This line can usually be safely removed.
+
+Previous🆚CompareNext🛒Info of ItemFormat™
+
+Last updated 23 days ago
+
+Basic Syntax
+
+Hierarchy & Indentation
+
+Hierarchical Tree Diagram
+
+Lists
+
+Empty and Default Values
+
+Copy
+settings:
+menu: 'example-shop-menu'
+buy-more: true
+shop-name: 'Blocks Shop'
+hide-message: false
+
+items:
+A:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: GRASS_BLOCK
+amount: 1
+buy-prices:
+1:
+economy-plugin: Vault
+amount: '0.63'
+placeholder: '{amount}$'
+
+Copy
+items:
+buy-prices: # Will not work
+1:
+economy-plugin: Vault
+amount: '0.63'
+placeholder: '{amount}$'
+A:
+menu: 'example-shop-menu' # Will not work.
+buy-more: true # Will not work.
+shop-name: 'Blocks Shop' # Will not work.
+hide-message: false # Will not work.
+price-mode: CLASSIC_ALL # Only work for product A
+product-mode: CLASSIC_ALL # Only work for product A
+products: # Only work for product A
+1:
+material: GRASS_BLOCK
+amount: 1
+
+Copy
+items: # Will work.
+B: # Will work.
+products: # Will work.
+1: # Will work.
+material: APPLE # Will work.
+amount: 64 # Will work.
+give-actions: # Will work.
+1: # Will work.
+multi-once: true # Will work.
+type: message # Will work.
+message: 'eco give {player} {amount}' # Will work.
+
+Copy
+settings
+│
+├─ menu
+├─ buy-more
+├─ shop-name
+└─ hide-message
+
+items
+└─ A
+├─ price-mode
+├─ product-mode
+├─ products
+│ └─ 1
+│ ├─ material
+│ └─ amount
+└─ buy-prices
+└─ 1
+├─ economy-plugin
+├─ amount
+└─ placeholder
+
+Copy
+menu:
+secret-shop-items:
+- diamond_sword
+- netherite_pickaxe
+- enchanted_golden_apple
+
+Copy
+menu:
+secret-shop-items: []

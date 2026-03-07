@@ -1,0 +1,197 @@
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🔀Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+📦Info
+
+✅Requirements
+
+Java Version
+
+Basic Requirement: Java16+
+
+Java 17+ is recommended. Java17 and above versions are recommended, but plugins are compiled using Java16, so theoretically, you only need Java16 or higher versions.
+
+Server Software
+
+Paper and its downstream forks are recommended. When the plugin detects that your server software is Paper, it will enable some features that are only available in Paper, some of which can provide subtle performance improvements.
+
+Folia server also supported. Please note: Folia's support is in the early testing stage and may be released in official versions or removed in the future. This support is not a guarantee.
+
+Server Version
+
+Version
+
+Can work in your server
+
+Can get offical support
+
+Below 1.14
+
+❌
+
+❌
+
+1.14 ~ 1.20.4
+
+❓
+The plugin can run on these versions, however, any issues caused on these versions will not be resolved.
+
+❌
+
+1.20.5 and above
+
+✅
+Using versions 1.21.5 and above is the most recommended, as you can enjoy the best features.
+
+✅
+
+If you encounter errors while using a certain version, please join our Discord feedback.
+
+An economy plugin if you want to use custom currency
+
+UltimateShop is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. Vault is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
+
+Previous💬Config PackNext⚙️Install
+
+Last updated 8 days ago
+
+Java Version
+
+Server Software
+
+Server Version
+
+An economy plugin if you want to use custom currency
