@@ -11,7 +11,7 @@ import (
 )
 
 var (
-    anchorPattern = regexp.MustCompile(`(?is)<a\b[^>]*href\s*=\s*(['"])(.*?)\1[^>]*>(.*?)</a>`)
+    anchorPattern = regexp.MustCompile(`(?is)<a\b[^>]*href\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))[^>]*>(.*?)</a>`)
     tagPattern    = regexp.MustCompile(`(?is)<[^>]+>`)
 )
 
@@ -34,8 +34,15 @@ func fetch(url string) (string, error) {
 func parseLinks(content string) error {
     matches := anchorPattern.FindAllStringSubmatch(content, -1)
     for i, m := range matches {
-        href := strings.TrimSpace(html.UnescapeString(m[2]))
-        text := tagPattern.ReplaceAllString(m[3], "")
+        href := m[1]
+        if href == "" {
+            href = m[2]
+        }
+        if href == "" {
+            href = m[3]
+        }
+        href = strings.TrimSpace(html.UnescapeString(href))
+        text := tagPattern.ReplaceAllString(m[4], "")
         text = strings.Join(strings.Fields(strings.TrimSpace(html.UnescapeString(text))), " ")
         fmt.Printf("link %d: text=%s href=%s\n", i, text, href)
     }
