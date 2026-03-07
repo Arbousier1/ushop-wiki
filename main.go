@@ -2,12 +2,17 @@ package main
 
 import (
     "fmt"
+    "html"
     "io"
     "log"
     "net/http"
+    "regexp"
     "strings"
+)
 
-    "github.com/PuerkitoBio/goquery"
+var (
+    anchorPattern = regexp.MustCompile(`(?is)<a\b[^>]*href\s*=\s*(['"])(.*?)\1[^>]*>(.*?)</a>`)
+    tagPattern    = regexp.MustCompile(`(?is)<[^>]+>`)
 )
 
 func fetch(url string) (string, error) {
@@ -26,16 +31,14 @@ func fetch(url string) (string, error) {
     return string(body), nil
 }
 
-func parseLinks(html string) error {
-    doc, err := goquery.NewDocumentFromReader(strings.NewReader(html))
-    if err != nil {
-        return err
-    }
-    doc.Find("a").Each(func(i int, s *goquery.Selection) {
-        href, _ := s.Attr("href")
-        text := strings.TrimSpace(s.Text())
+func parseLinks(content string) error {
+    matches := anchorPattern.FindAllStringSubmatch(content, -1)
+    for i, m := range matches {
+        href := strings.TrimSpace(html.UnescapeString(m[2]))
+        text := tagPattern.ReplaceAllString(m[3], "")
+        text = strings.Join(strings.Fields(strings.TrimSpace(html.UnescapeString(text))), " ")
         fmt.Printf("link %d: text=%s href=%s\n", i, text, href)
-    })
+    }
     return nil
 }
 
