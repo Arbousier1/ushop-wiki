@@ -1,6 +1,6 @@
 # uShop Wiki Scraper
 
-This repository contains a simple Go program that scrapes https://ultimateshop.superiormc.cn/ and a GitHub Action workflow to run it on a schedule.
+This repository contains a Go crawler for https://ultimateshop.superiormc.cn/ and a GitHub Action workflow that runs it on a schedule.
 
 ## Getting started
 
@@ -8,12 +8,24 @@ This repository contains a simple Go program that scrapes https://ultimateshop.s
 2. Clone the repo.
 3. Run:
    ```sh
-   go mod tidy
    go run main.go
    ```
 
-The program fetches the homepage, prints the number of bytes downloaded, and lists all anchor links found on the page.
+The crawler saves a snapshot into `output/wiki`:
+- `output/wiki/index.json`: metadata and discovered page list
+- `output/wiki/pages/*.html`: raw HTML content per crawled page
 
 ## GitHub Actions
 
-Workflow is defined at `.github/workflows/scrape.yml`. It triggers on push to `main`, on a daily cron schedule, and can be manually dispatched. The job builds the project and executes `main.go`.
+Workflow is defined at `.github/workflows/scrape.yml`.
+
+It triggers on:
+- push to `main` (except `output/wiki/**`)
+- daily cron schedule
+- manual dispatch
+
+The job:
+1. builds the project
+2. runs the crawler
+3. uploads `output/wiki` as a workflow artifact
+4. auto-commits and pushes `output/wiki` changes back to `main`

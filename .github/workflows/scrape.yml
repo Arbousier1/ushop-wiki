@@ -3,6 +3,8 @@ name: "Scrape Ultimate Shop"
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'output/wiki/**'
   schedule:
     - cron: '0 0 * * *' # every day at midnight UTC
   workflow_dispatch: {}
@@ -10,9 +12,13 @@ on:
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
@@ -22,3 +28,20 @@ jobs:
       - name: Run scraper
         run: |
           go run main.go
+      - name: Upload wiki snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-snapshot
+          path: output/wiki
+          if-no-files-found: error
+      - name: Commit wiki snapshot
+        run: |
+          if [ -n "$(git status --porcelain output/wiki)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add output/wiki
+            git commit -m "chore: update scraped wiki snapshot"
+            git push
+          else
+            echo "No wiki changes to commit."
+          fi
