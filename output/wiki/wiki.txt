@@ -1,10 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-07T11:19:16Z
+Generated UTC: 2026-03-07T11:23:23Z
 Page Count: 64
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
+
+Links: 54
 
 UltimateShop Wiki
 
@@ -232,7 +234,6 @@ Get support
 
 Info
 
-
 ============================================================
 Title: Email Protection | Cloudflare
 URL: https://ultimateshop.superiormc.cn/cdn-cgi/l/email-protection
@@ -251,20 +252,21 @@ How does Cloudflare protect email addresses on website from spammers?
 
 Can I sign up for Cloudflare?
 
-Cloudflare Ray ID: 9d8934360cc43922
+Cloudflare Ray ID: 9d893a457a8910be
 •
 
 Your IP:
 Click to reveal
-20.55.87.152
+64.236.176.149
 •
 
 Performance & security by Cloudflare
 
-
 ============================================================
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -421,10 +423,11 @@ Previous🌏Other Language WikiNext✅Requirements
 
 Last updated 2 months ago
 
-
 ============================================================
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -729,12 +732,13 @@ takeResult.take(sellUseTimes, 1, player.getInventory(), player);
 
 Copy
 ObjectItem item = takeResult.getThings().getItem();
-
 
 ============================================================
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
+Links: 55
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -1039,10 +1043,11 @@ takeResult.take(sellUseTimes, 1, player.getInventory(), player);
 Copy
 ObjectItem item = takeResult.getThings().getItem();
 
-
 ============================================================
 Title: Events | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/events
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -1194,10 +1199,11 @@ PreviousDevelop GuideNextHook into UltimateShop
 
 Last updated 1 year ago
 
-
 ============================================================
 Title: Hook into UltimateShop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/hook-into-ultimateshop
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -1383,10 +1389,11 @@ Item Plugins
 Copy
 HookManager.hookManager.registerNewEconomyHook("YourPluginName", new YourClassName())
 
-
 ============================================================
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -1721,12 +1728,13 @@ amount: '15 - {sell-times-player} * 0.1 + %ultimateshop_farming_B_sell-times-pla
 # We use the new format without { and } symbol.
 placeholder: '{amount}$'
 start-apply: 0
-
 
 ============================================================
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
+Links: 55
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -2061,10 +2069,11 @@ amount: '15 - {sell-times-player} * 0.1 + %ultimateshop_farming_B_sell-times-pla
 placeholder: '{amount}$'
 start-apply: 0
 
-
 ============================================================
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -2259,10 +2268,11 @@ up: '↑ &c+{math_(({compare}-{base})/{base}) * 100}% Debug: {compare} {base}'
 down: '↓ &a-{math_(({base}-{compare})/{base}) * 100}% Debug: {compare} {base}'
 same: '-'
 
-
 ============================================================
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -2549,12 +2559,13 @@ welcome: '[bossbar=GREEN,SOLID,1.0]&aHappy Today[/bossbar]'
 
 Copy
 welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_LEVELUP,1,1][/sound]'
-
 
 ============================================================
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
+Links: 55
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -2841,10 +2852,11 @@ welcome: '[bossbar=GREEN,SOLID,1.0]&aHappy Today[/bossbar]'
 Copy
 welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_LEVELUP,1,1][/sound]'
 
-
 ============================================================
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -3030,10 +3042,11 @@ MiniMessage
 
 Built-in Color Parser
 
-
 ============================================================
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -3285,10 +3298,11 @@ buy-more-menu:
 menu: buy-more-sell
 max-amount: 128
 
-
 ============================================================
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -3519,10 +3533,11 @@ has-name: false # This is the match rule key! Read MythicChanger wiki for list o
 buy-prices:
 # You can also use this in buy price!
 
-
 ============================================================
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -3707,10 +3722,11 @@ Previous🎨Color CodeNext🪄Sell Stick - Premium
 
 Last updated 6 months ago
 
-
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -3888,10 +3904,11 @@ BUKKIT
 
 SMART - Early Alpha
 
-
 ============================================================
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -4372,10 +4389,11 @@ buy-prices:
 economy-plugin: Vault
 amount: 10
 
-
 ============================================================
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -4558,10 +4576,11 @@ Format available placeholders:
 
 Showcase
 
-
 ============================================================
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -4719,10 +4738,11 @@ Previous🌍Localized Item Name - PremiumNext🔢Number Format
 
 Last updated 7 months ago
 
-
 ============================================================
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -4901,10 +4921,11 @@ change-amount-in-all-price-placeholder:
 enabled: true # <--- Change this to true
 replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as here
 
-
 ============================================================
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -5113,10 +5134,11 @@ Copy
 display-item:
 material: superior_sword # If saved item id is 'superior_sword'
 
-
 ============================================================
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -5395,10 +5417,11 @@ enabled: true
 # Support value: DecentHolograms, CMI
 plugin: 'DecentHolograms'
 
-
 ============================================================
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -5584,10 +5607,11 @@ Previous💴Easy PricesNext🎁Sell Chest - Premium
 
 Last updated 22 days ago
 
-
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -5955,10 +5979,11 @@ Copy
 menu:
 secret-shop-items: []
 
-
 ============================================================
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -6604,10 +6629,11 @@ actions:
 1:
 type: update_title
 
-
 ============================================================
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -6950,10 +6976,11 @@ placeholder: '%eco_balance%'
 rule: '>='
 value: 200
 
-
 ============================================================
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -7157,10 +7184,11 @@ Single
 
 Multi
 
-
 ============================================================
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
+
+Links: 56
 
 UltimateShop Wiki
 
@@ -7361,10 +7389,11 @@ economy-type: levels
 amount: 5
 placeholder: '5 levels'
 
-
 ============================================================
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -7636,10 +7665,11 @@ https://jd.papermc.io/paper/<version>/org/bukkit/Tag.html
 Copy
 https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 
-
 ============================================================
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
+
+Links: 56
 
 UltimateShop Wiki
 
@@ -8491,10 +8521,11 @@ slot: head
 Copy
 damage-resistant: is_fall # Damage Type Tag
 
-
 ============================================================
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
+
+Links: 56
 
 UltimateShop Wiki
 
@@ -8918,10 +8949,11 @@ can-sprint: true
 interact-vibrations: false
 speed-multiplier: 0.4
 
-
 ============================================================
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -9151,10 +9183,11 @@ Previous⚖️Condition FormatNext🔲General Menus
 
 Last updated 15 days ago
 
-
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -9522,10 +9555,11 @@ Copy
 menu:
 secret-shop-items: []
 
-
 ============================================================
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -9725,10 +9759,11 @@ Server Version
 
 An economy plugin if you want to use custom currency
 
-
 ============================================================
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -10078,10 +10113,11 @@ ultimateshop.bypass.protection
 
 /shop updateguititle [player] (Premium version only)
 
-
 ============================================================
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -10392,10 +10428,11 @@ Previous❓FAQNext📊Understanding YAML/This wiki
 
 Last updated 8 days ago
 
-
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -10809,10 +10846,11 @@ customNBT: 'Hello!'
 int:
 anotherNBTComponent.theNBTKey: 5
 
-
 ============================================================
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -11304,10 +11342,11 @@ enabled: true
 hide-message: false
 period-tick: 6000
 
-
 ============================================================
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -11536,10 +11575,11 @@ properties:
 user: root
 password: 123456
 
-
 ============================================================
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -11781,10 +11821,11 @@ Q: UltimateShop print Error:XXX message in console.
 
 Q: How to reset dynamic price?
 
-
 ============================================================
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -11948,10 +11989,11 @@ Previous✅RequirementsNext🔗Compatibility
 
 Last updated 1 month ago
 
-
 ============================================================
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -12213,10 +12255,11 @@ sell:
 # For each product, you can add match-item section to make custom sell match method, for more info, please view Wiki.
 sell-method: Bukkit
 
-
 ============================================================
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -12416,10 +12459,11 @@ Server Version
 
 An economy plugin if you want to use custom currency
 
-
 ============================================================
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -12821,10 +12865,11 @@ circle-update: false
 # But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
 click-update: false
 
-
 ============================================================
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -13102,10 +13147,11 @@ default: '&6Buy: {buy-price} &6| Sell: {sell-price}'
 only-buy: '&6Buy: {buy-price}'
 only-sell: '&6Sell: {sell-price}'
 
-
 ============================================================
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -13382,10 +13428,11 @@ only-sell:
 menu: buy-more-sell
 max-amount: 64
 
-
 ============================================================
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -13664,10 +13711,11 @@ add-lore:
 - '@b&eSell:'
 - '@a &7[-] &f {sell-price}'
 
-
 ============================================================
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -14069,10 +14117,11 @@ circle-update: false
 # But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
 click-update: false
 
-
 ============================================================
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
+
+Links: 54
 
 UltimateShop Wiki
 
@@ -14224,10 +14273,11 @@ Previous🎉WelcomeNext💬Config Pack
 
 Last updated 2 months ago
 
-
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -14730,12 +14780,13 @@ price:
 split-symbol-any: ';;' # <--- Changed this in config.yml
 split-symbol-all: ';;' # <--- Changed this in config.yml
 unknown: "Unknown"
-
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
+Links: 55
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -15238,10 +15289,11 @@ split-symbol-any: ';;' # <--- Changed this in config.yml
 split-symbol-all: ';;' # <--- Changed this in config.yml
 unknown: "Unknown"
 
-
 ============================================================
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -15470,10 +15522,11 @@ layout:
 - '000000000'
 - 'a0003000b'
 
-
 ============================================================
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -15715,10 +15768,11 @@ black-dynamic-price: true
 black-shops:
 - 'example'
 
-
 ============================================================
 Title: 🔀Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -16097,10 +16151,11 @@ amount: '{random_price;;1}' # <--- Changed line
 placeholder: '&6{amount} Coins'
 start-apply: 0
 
-
 ============================================================
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -16454,10 +16509,11 @@ secret-shop-items:
 require-display-in-menu: true
 require-meet-menu-open-conditions: true
 
-
 ============================================================
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -16796,10 +16852,11 @@ placeholder: '%rs_season%'
 rule: '=='
 value: 'Winter'
 
-
 ============================================================
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -17065,10 +17122,11 @@ default: '1'
 buy-times-reset-mode: 'TIMED'
 buy-times-reset-time: '00:00:00'
 
-
 ============================================================
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -17404,10 +17462,11 @@ actions:
 type: open_menu
 menu: main
 
-
 ============================================================
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -17608,10 +17667,11 @@ Set dynamic value for your product configs
 
 FAQ: Restock
 
-
 ============================================================
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -18067,10 +18127,11 @@ sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 # sell-times-reset-time-format: 'yyyy-MM-dd HH:mm:ss'
 # You do not need set a time format here, this just help you know there is a option that you can set custom time format.
 
-
 ============================================================
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -18569,10 +18630,11 @@ amount: '15 - {sell-times-player} * 0.1 + %ultimateshop_farming_B_sell-times-pla
 placeholder: '{amount}$'
 start-apply: 0
 
-
 ============================================================
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -19234,10 +19296,11 @@ add-price-lore:
 - '&fSell Price: &6{sell-price} &7per unit'
 - '&fWorth: &6{total-price}'
 
-
 ============================================================
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
+
+Links: 55
 
 UltimateShop Wiki
 
@@ -19590,5 +19653,4 @@ Copy
 secret-shop-items:
 require-display-in-menu: true
 require-meet-menu-open-conditions: true
-
 
