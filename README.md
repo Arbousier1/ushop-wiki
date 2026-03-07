@@ -14,6 +14,8 @@ This repository contains a Go crawler for https://ultimateshop.superiormc.cn/ an
 The crawler saves a snapshot into `output/wiki`:
 - `output/wiki/index.json`: metadata and discovered page list
 - `output/wiki/pages/*.html`: raw HTML content per crawled page
+- `output/wiki/txt/*.txt`: plain text per crawled page (AI-friendly)
+- `output/wiki/wiki.txt`: merged plain text of all crawled pages
 
 ## GitHub Actions
 
