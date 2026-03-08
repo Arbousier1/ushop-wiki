@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-07T11:23:23Z
+Generated UTC: 2026-03-08T01:28:46Z
 Page Count: 64
 
 ============================================================
@@ -252,12 +252,12 @@ How does Cloudflare protect email addresses on website from spammers?
 
 Can I sign up for Cloudflare?
 
-Cloudflare Ray ID: 9d893a457a8910be
+Cloudflare Ray ID: 9d8e109468083bb9
 •
 
 Your IP:
 Click to reveal
-64.236.176.149
+20.169.50.38
 •
 
 Performance & security by Cloudflare
@@ -1681,7 +1681,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Enable Math Feature
 
@@ -2021,7 +2021,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Enable Math Feature
 
@@ -4911,7 +4911,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Copy
 placeholder:
@@ -5364,7 +5364,7 @@ Showcase
 
 Previous🪄Sell Stick - PremiumNext💾Saved Item (Item Manager)
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Limitation
 
@@ -5605,7 +5605,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -8110,7 +8110,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Hook Item
 
@@ -9181,7 +9181,7 @@ false - Boolean constant representing 0
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -9749,7 +9749,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Java Version
 
@@ -10065,7 +10065,7 @@ Require ultimateshop.updateguititle permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 FAQ:
 
@@ -10734,7 +10734,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Direct compatibility
 
@@ -12189,7 +12189,7 @@ This can save some server performance, but the drawback is that the items to be 
 
 Previous📊DataNext❓FAQ
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -12449,7 +12449,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Java Version
 
@@ -12705,7 +12705,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Types
 
@@ -13672,7 +13672,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 General Setting
 
@@ -13957,7 +13957,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Types
 
@@ -16067,7 +16067,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Config
 
@@ -16494,7 +16494,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Settings
 
@@ -18922,7 +18922,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Single Thing Types
 
@@ -19639,7 +19639,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Settings
 
