@@ -1,6 +1,6 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-11T01:23:22Z
-Page Count: 65
+Generated UTC: 2026-03-12T01:24:22Z
+Page Count: 66
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
@@ -254,12 +254,12 @@ How does Cloudflare protect email addresses on website from spammers?
 
 Can I sign up for Cloudflare?
 
-Cloudflare Ray ID: 9da6c0ba8a58d8ab
+Cloudflare Ray ID: 9daeff882ad69657
 •
 
 Your IP:
 Click to reveal
-135.232.225.24
+68.220.62.145
 •
 
 Performance & security by Cloudflare
@@ -1695,7 +1695,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Enable Math Feature
 
@@ -2037,7 +2037,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Enable Math Feature
 
@@ -5408,7 +5408,7 @@ Showcase
 
 Previous🪄Sell Stick - PremiumNext💾Saved Item (Item Manager)
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Limitation
 
@@ -5651,7 +5651,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -5929,7 +5929,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 27 days ago
+Last updated 29 days ago
 
 Basic Syntax
 
@@ -6234,6 +6234,8 @@ PLAYER_MAX
 
 SERVER_MAX
 
+REQUIRE_CONDITION_NOT_MEET
+
 NOT_ENOUGH
 
 INVENTORY_FULL
@@ -6243,6 +6245,36 @@ Available Placeholders
 {world}
 
 {amount}
+
+Item-Level buy-actions and sell-actions
+
+When you use buy-actions or sell-actions on the item itself, {amount} means the item-level transaction amount prepared by the buy or sell flow.
+
+In practice:
+
+if display-item.calculate-amount is false, {amount} is always 1 for the item action layer
+
+if display-item.calculate-amount is true, {amount} is transaction quantity * display item amount
+
+Example:
+
+display item amount: 1
+
+player buys 5
+
+item buy-actions sees {amount} = 5
+
+Another example:
+
+display item amount: 64
+
+player buys 5
+
+item buy-actions sees {amount} = 320
+
+Single Thing give-actions and take-actions
+
+When you use give-actions or take-actions on a single thing, {amount} also means the real final amount of that specific single thing.
 
 {player_x}
 
@@ -6362,7 +6394,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 19 days ago
+Last updated 5 hours ago
 
 General Options
 
@@ -6371,6 +6403,10 @@ Java Only/Bedrock Only - PREMIUM
 Fail Type
 
 Available Placeholders
+
+Item-Level buy-actions and sell-actions
+
+Single Thing give-actions and take-actions
 
 Sound
 
@@ -6861,6 +6897,8 @@ click-type: LEFT
 
 Actions - Premium
 
+You should use fail-actions in products config if you want to modify the product buy or sell condition not meet message.
+
 You can set actions for the entire condition, and if you want to do that, it's like this:
 
 Available Placeholders
@@ -6868,6 +6906,40 @@ Available Placeholders
 {world}
 
 {amount}
+
+Item-Level buy-conditions and sell-conditions
+
+When you use buy-conditions or sell-conditions on the item itself, {amount} means the number of times the player is trying to buy or sell that item.
+
+If the player buys 5, then {amount} is 5.
+
+Single Thing apply-conditions and Legacy conditions
+
+When you use apply-conditions on a single thing, {amount} is always 1.
+
+The same is true for legacy conditions, because in code they work as the old form of apply-conditions.
+
+Why?
+
+apply-conditions are checked before the plugin finishes selecting the final single things
+
+at that stage, the real calculated amount is not ready yet
+
+So in this layer:
+
+{amount} does not mean the final price
+
+{amount} does not mean the final product amount
+
+{amount} is just 1
+
+This means apply-conditions are for choosing branches, not for checking the real calculated amount.
+
+Single Thing require-conditions
+
+When you use require-conditions on a single thing, {amount} means the final calculated amount of that selected single thing
+
+This is the most important difference from apply-conditions.
 
 {player_x}
 
@@ -6935,11 +7007,17 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 5 months ago
+Last updated 5 hours ago
 
 General Options
 
 Available Placeholders
+
+Item-Level buy-conditions and sell-conditions
+
+Single Thing apply-conditions and Legacy conditions
+
+Single Thing require-conditions
 
 World
 
@@ -7232,7 +7310,7 @@ value: '0'z
 
 Previous💹EconomyFormat™Next🎬Action Format
 
-Last updated 9 months ago
+Last updated 10 months ago
 
 Single
 
@@ -9245,7 +9323,7 @@ false - Boolean constant representing 0
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -9523,7 +9601,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 27 days ago
+Last updated 29 days ago
 
 Basic Syntax
 
@@ -9817,7 +9895,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Java Version
 
@@ -10135,7 +10213,7 @@ Require ultimateshop.updateguititle permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 FAQ:
 
@@ -10498,7 +10576,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -10808,7 +10886,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Direct compatibility
 
@@ -12273,7 +12351,7 @@ This can save some server performance, but the drawback is that the items to be 
 
 Previous📊DataNext❓FAQ
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -12535,7 +12613,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Java Version
 
@@ -12801,7 +12879,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 8 hours ago
+Last updated 1 day ago
 
 Types
 
@@ -13177,7 +13255,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 21 hours ago
+Last updated 2 days ago
 
 Requirements
 
@@ -13737,7 +13815,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 8 hours ago
+Last updated 1 day ago
 
 Set display condition
 
@@ -14002,7 +14080,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 General Setting
 
@@ -14297,7 +14375,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 8 hours ago
+Last updated 1 day ago
 
 Types
 
@@ -16439,7 +16517,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Config
 
@@ -16880,7 +16958,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 9 hours ago
+Last updated 1 day ago
 
 Settings
 
@@ -18065,7 +18143,7 @@ FAQ: Restock
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 56
+Links: 57
 
 UltimateShop Wiki
 
@@ -18421,9 +18499,9 @@ Reset Time Updated but Buy times/Sell times not cleared?
 
 If you must use placeholders in your reset time, switch to a reset mode that starts with COOLDOWN_.
 
-Previous💰Products Config: Single ThingNext⚡Example: Common Usage
+PreviousAnother version of 💰Products Config: Single Thing pageNext⚡Example: Common Usage
 
-Last updated 26 days ago
+Last updated 28 days ago
 
 Reset
 
@@ -18980,7 +19058,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 General Options
 
@@ -19032,7 +19110,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 56
+Links: 57
 
 UltimateShop Wiki
 
@@ -19103,6 +19181,8 @@ UltimateShop Wiki
 🛒Products
 
 💰Products Config: Single Thing
+
+Another version of 💰Products Config: Single Thing page
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -19176,6 +19256,959 @@ Copy
 
 💰Products Config: Single Thing
 
+This page explains the products, buy-prices, and sell-prices sections in a way that matches how the plugin actually works in code.
+
+If you only remember one idea, remember this:
+
+A single thing is one entry under products, buy-prices, or sell-prices.
+
+A product can have many single things.
+
+The plugin decides which single things are usable, calculates their amount, checks requirements, and then gives/takes them.
+
+What Is a Single Thing?
+
+Inside one shop item, these three sections are all made of single things:
+
+products
+
+What the player receives when buying, and what the player must provide when selling. Optional.
+
+If products does not exist:
+
+buying can still run buy-actions
+
+selling can still run sell-actions
+
+but the player will not receive any product on buy
+
+and will not need to provide any product on sell
+
+This is useful for command shops.
+
+buy-prices
+
+What the player must pay to buy. Optional, but if it does not exist, the product cannot be bought.
+
+sell-prices
+
+What the player receives after selling. Optional, but if it does not exist, the product cannot be sold.
+
+Example:
+
+In this example:
+
+products.1 is a single thing
+
+products.2 is a single thing
+
+buy-prices.1 is a single thing
+
+sell-prices.1 is a single thing
+
+How the Plugin Uses Single Things?
+
+When a player buys or sells, the plugin does not just read the section from top to bottom. It follows this logic:
+
+It reads all single things in products, buy-prices, or sell-prices.
+
+It filters them by apply-conditions or legacy conditions.
+
+It uses the section mode (ANY, ALL, CLASSIC_ANY, CLASSIC_ALL) to decide which single things are selected.
+
+It calculates the real amount of each selected single thing.
+
+It checks whether the player has enough of that thing.
+
+It checks require-conditions.
+
+It runs give-actions / take-actions and gives or takes the thing itself.
+
+This is why apply-conditions and require-conditions are not the same thing.
+
+Single Thing Types
+
+The plugin determines the type of a single thing from the options you put inside it.
+
+Vanilla Item
+
+Use normal ItemFormat to tell us what Minecraft item you want to sell in shop or you want to player pay. (Buy/Sell/Products)
+
+Use this when:
+
+the thing is a normal Minecraft item
+
+you want the plugin to compare, give, or take an actual item
+
+Hook Item
+
+Use Supported Plugins's item to tell us what custom item you want to sell in shop or you want to player pay. This type still use ItemFormat. (Buy/Sell/Products)
+
+Use this when:
+
+the thing is provided by another item plugin
+
+you still want UltimateShop to treat it like an item
+
+Match Item
+
+Use custom item matching rules from Custom Item Match Method to tell us which items you want to match. (Buy/Products)
+
+Use this when:
+
+there is no exact item ID to compare
+
+you want to match by lore, NBT, name, or other custom rules
+
+Vanilla Economy / Hook Economy
+
+Use an economy balance instead of an item. Following EconomyFormat.
+
+Use this when:
+
+the player should pay or receive money, points, exp, levels, etc.
+
+Custom - Premium
+
+Use match-placeholder when the thing is not a normal item or supported economy.
+
+Use this when:
+
+you want to compare any custom numeric value
+
+the plugin does not natively support that currency or system
+
+Important:
+
+the placeholder is used to read how much the player currently has
+
+take-actions / give-actions are what actually modify that value
+
+Free / Empty
+
+If a single thing does not define item data, economy data, match-item, or match-placeholder, it is treated as free.
+
+This is useful for:
+
+command shops
+
+permission shops
+
+action-only rewards
+
+Options for Single Things
+
+These options are the most important ones users actually work with.
+
+amount
+
+The base amount of the single thing.
+
+This can be:
+
+a fixed number
+
+a PlaceholderAPI value
+
+a math expression
+
+a dynamic formula
+
+Example:
+
+apply-conditions
+
+Whether this single thing should participate in the transaction.
+
+require-conditions
+
+Whether the transaction is allowed to use this single thing after selection.
+
+give-actions
+
+Actions that run when this single thing is given to the player.
+
+Typical uses:
+
+command shop rewards
+
+permission rewards
+
+custom currency rewards
+
+take-actions
+
+Actions that run when this single thing is taken from the player.
+
+Typical uses:
+
+taking a custom currency
+
+running a command cost
+
+syncing with another plugin
+
+give-item
+
+Only useful for product-like item rewards.
+
+If set to false, the plugin will not give the actual item, but give-actions can still run.
+
+This is how most command shops work.
+
+take
+
+If set to false, the single thing is still checked as a requirement, but it is not actually removed.
+
+This is useful when you want:
+
+a required item
+
+but not an item that gets consumed
+
+The Difference Between apply-conditions and require-conditions
+
+This is the most important part of the whole system.
+
+apply-conditions
+
+apply-conditions decides whether this single thing should be included in the transaction at all.
+
+If the condition is not met:
+
+the single thing is ignored
+
+it is not selected
+
+it does not affect price/product calculation
+
+This is useful for:
+
+VIP-only price tiers
+
+seasonal products
+
+different rewards for different players
+
+different prices based on permissions or placeholders
+
+Example:
+
+Result:
+
+normal players use products.1
+
+VIP players can also use products.2
+
+require-conditions
+
+require-conditions does not decide whether the single thing is selected. It decides whether the transaction is allowed to continue after that single thing has already been chosen and its amount has already been calculated.
+
+If the condition is not met:
+
+the transaction is blocked
+
+the product/price was selected, but it cannot be used
+
+This is useful for:
+
+requiring a permission before paying or receiving a specific thing
+
+blocking a reward unless a player meets an extra rule
+
+stopping a transaction when a calculated amount should only work in some cases
+
+Example:
+
+Result:
+
+this price can still be selected
+
+but the purchase fails if the player does not have shop.buy.special
+
+Different from single thing's give-actions / take-actions and item's buy-actions / sell-actions
+
+These two action levels look similar, but they are not meant for the same job.
+
+Single thing give-actions / take-actions
+
+These actions belong to one specific single thing.
+
+They only run when:
+
+that exact single thing is selected
+
+and that exact single thing is really being given or taken
+
+This means they are best for:
+
+one special reward branch
+
+one special price branch
+
+one custom currency branch
+
+one command that should only run for one single thing
+
+Item buy-actions / sell-actions
+
+These actions belong to the whole shop item.
+
+They run when:
+
+the whole buy transaction succeeds, or
+
+the whole sell transaction succeeds
+
+They are not tied to one specific single thing branch.
+
+This means they are best for:
+
+global success messages
+
+logging
+
+sounds
+
+commands that should always run after a successful buy or sell
+
+effects that belong to the whole product, not one price or reward branch
+
+The most important difference: {amount}
+
+For single thing actions:
+
+{amount} means the final amount of that specific single thing
+
+For item actions:
+
+{amount} means the product-level transaction amount passed by the buy/sell flow
+
+in common setups, this is the total displayed amount for the transaction
+
+if display-item.calculate-amount is disabled, it is usually just the buy/sell quantity
+
+Example:
+
+If the player buys this item 5 times:
+
+the single thing give-actions receives the real product amount for that branch
+
+the item-level buy-actions receives the transaction amount prepared by the item buy flow
+
+In many normal setups, both values may look similar. But they are still coming from different layers, and they should be used for different purposes.
+
+Practical rule
+
+Use single thing actions when the logic belongs to one selected price or reward.
+
+Use item actions when the logic should always run after a successful buy or sell, no matter which single thing branch was used.
+
+Price-Only Options
+
+These options mainly matter in buy-prices and sell-prices.
+
+placeholder
+
+The display name used in price placeholders like {price}.
+
+For prices, this should usually always be set.
+
+start-apply, end-apply, apply
+
+These control when a price applies.
+
+They are mainly meaningful in non-classic price modes:
+
+ANY
+
+ALL
+
+Use them when you want:
+
+early purchases to be cheap
+
+later purchases to be expensive
+
+specific purchase counts to use a specific price
+
+min-amount and max-amount
+
+These clamp the final dynamic amount.
+
+Use them when:
+
+your price formula can become too small
+
+your price formula can become too large
+
+Example:
+
+About Modes: ANY, ALL, CLASSIC_ANY, CLASSIC_ALL
+
+You do not need to understand every detail to use them, but this mental model helps:
+
+ANY: one applicable single thing is used each time, and dynamic apply ranges can matter per quantity
+
+ALL: all applicable single things are used each time
+
+CLASSIC_ANY: one applicable single thing is used, but treated more like a fixed bundle
+
+CLASSIC_ALL: all applicable single things are used as a fixed bundle
+
+Practical advice:
+
+use CLASSIC_ALL for simple fixed-price shops
+
+use CLASSIC_ANY for "pick one valid reward/price" setups
+
+use ANY / ALL only when you need apply ranges or more advanced dynamic behavior
+
+Shared Condition Keys
+
+The plugin also supports shared apply-condition sections through config.yml:
+
+That lets you write:
+
+Important:
+
+these shared keys are for apply conditions
+
+require-conditions is still configured inside the single thing itself
+
+Two Very Common Patterns
+
+Pattern A: Normal item shop
+
+This is the simplest setup:
+
+buying gives apples
+
+buying costs money
+
+selling takes apples
+
+selling gives money
+
+Pattern B: Command shop
+
+In the above two examples, the final execution effect is identical. But can you think of it? If combined with the conditions option, using the give actions method can enable different players to execute different conditions!
+
+Why this works:
+
+the product exists so the plugin has something to process
+
+give-item: false stops the fake item from being given
+
+give-actions gives the real reward by command
+
+When Should I Put Logic on the Item, and When on the Single Thing?
+
+Use single thing logic when the rule belongs to one specific price or reward.
+
+Good examples:
+
+one VIP reward among several rewards
+
+one seasonal price among several prices
+
+one command reward that should only run in one branch
+
+Use item-level logic like buy-actions, sell-actions, buy-conditions, sell-conditions when the rule should apply to the whole product no matter which single thing was selected.
+
+Best Practices
+
+Start with CLASSIC_ALL unless you really need advanced behavior.
+
+Use apply-conditions to choose a branch.
+
+Use require-conditions to block a transaction.
+
+Use give-item: false for command shops.
+
+Use take: false when something should be required but not consumed.
+
+Keep prices and rewards small and explicit before adding dynamic formulas.
+
+If you use dynamic values, add min-amount and max-amount to avoid extreme results.
+
+A Simple Rule of Thumb
+
+If you are unsure which option to use:
+
+"Should this branch be ignored?" -> use apply-conditions
+
+"Should the transaction fail?" -> use require-conditions
+
+"Should the plugin give/take a real item?" -> use give-item or take
+
+"Should a command run when this single thing is used?" -> use give-actions / take-actions
+
+That mental model is enough to build most shops correctly.
+
+Auto Display Price at Item Lore
+
+Download and install MythicChanger here. (This plugin requires packetevents)
+
+Create a new file called shop-display.yml in plugins/MythicChanger/rules folder.
+
+Copy those content in this file and restart the server.
+
+Previous🛒ProductsNextAnother version of 💰Products Config: Single Thing page
+
+Last updated 7 hours ago
+
+What Is a Single Thing?
+
+How the Plugin Uses Single Things?
+
+Single Thing Types
+
+Vanilla Item
+
+Hook Item
+
+Match Item
+
+Vanilla Economy / Hook Economy
+
+Custom - Premium
+
+Free / Empty
+
+Options for Single Things
+
+The Difference Between apply-conditions and require-conditions
+
+Different from single thing's give-actions / take-actions and item's buy-actions / sell-actions
+
+Price-Only Options
+
+About Modes: ANY, ALL, CLASSIC_ANY, CLASSIC_ALL
+
+Shared Condition Keys
+
+Two Very Common Patterns
+
+Pattern A: Normal item shop
+
+Pattern B: Command shop
+
+When Should I Put Logic on the Item, and When on the Single Thing?
+
+Best Practices
+
+A Simple Rule of Thumb
+
+Auto Display Price at Item Lore
+
+Copy
+items:
+A:
+products:
+1:
+material: emerald
+2:
+material: diamond
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '{amount}$'
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 20
+placeholder: '{amount}$'
+
+Copy
+products:
+1:
+material: emerald
+2:
+material: diamond
+amount: 16
+
+Copy
+products:
+1:
+hook-plugin: MMOItems
+hook-item: 'AXE;;MAGIC_AXE'
+
+Copy
+products:
+1:
+match-item:
+contains-lore:
+- 'Magic Flight Paper'
+amount: 64
+
+Copy
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 15
+placeholder: '{amount}$'
+
+Copy
+buy-prices:
+1:
+match-placeholder: '%player_health%'
+amount: 5
+placeholder: '{amount} Health'
+take-actions:
+1:
+multi-once: true
+type: console_command
+command: 'health take {player} {amount}'
+
+Copy
+amount: '55 + ({buy-times-server} - {sell-times-server}) * 0.1'
+
+Copy
+products:
+1:
+material: PAPER
+amount: 1
+2:
+material: PAPER
+amount: 2
+apply-conditions:
+1:
+type: permission
+permission: group.vip
+
+Copy
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 50
+placeholder: '{amount}$'
+require-conditions:
+1:
+type: permission
+permission: shop.buy.special
+
+Copy
+products:
+1:
+material: PAPER
+amount: 4
+give-actions:
+1:
+type: message
+message: 'Single thing amount = {amount}'
+
+buy-actions:
+1:
+type: message
+message: 'Item action amount = {amount}'
+
+Copy
+placeholder: '{amount}$'
+
+Copy
+buy-prices:
+1:
+economy-plugin: Vault
+amount: '55 + {buy-times-player} * 0.5'
+min-amount: 55
+max-amount: 500
+placeholder: '{amount}$'
+
+Copy
+conditions:
+products-key: 'products-conditions'
+buy-prices-key: 'buy-prices-conditions'
+sell-prices-key: 'sell-prices-conditions'
+display-item-key: 'display-item-conditions'
+
+Copy
+products:
+one:
+material: REDSTONE
+two:
+material: IRON_INGOT
+
+products-conditions:
+one:
+1:
+type: placeholder
+placeholder: '{random_daily}'
+rule: '=='
+value: 'A'
+two:
+1:
+type: placeholder
+placeholder: '{random_daily}'
+rule: '=='
+value: 'B'
+
+Copy
+A:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: APPLE
+amount: 64
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 150
+placeholder: '{amount}$'
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 30
+placeholder: '{amount}$'
+
+Copy
+A:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+display-item:
+name: 'Magic Crate Key'
+material: PAPER
+custom-model-data: 500
+amount: 1
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 150
+placeholder: '{amount}⛂'
+buy-actions: # In product config
+1:
+type: console_command
+command: "crate give {player} magic" # Put command here.
+2:
+multi-once: true # If you want to use {amount} placeholder in your give item command, make sure add this line to make sure this action only execute once when purchase multi quantity.
+type: console_command
+command: "crate give {player} magic {amount}"
+B:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+name: 'Magic Crate Key'
+material: PAPER
+custom-model-data: 500
+amount: 1
+give-item: false # You need add this to make sure the "fake" product will not give to player
+give-actions: # In single things config
+1:
+type: console_command
+command: "crate give {player} magic"
+2:
+multi-once: true # If you want to use {amount} placeholder in your give item command, make sure add this line to make sure this action only execute once when purchase multi quantity.
+type: console_command
+command: "crate give {player} magic {amount}"
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 150
+placeholder: '{amount}⛂'
+
+Copy
+B:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+name: 'Magic Crate Key'
+material: PAPER
+custom-model-data: 500
+amount: 1
+give-item: false # You need add this to make sure the "fake" product will not give to player
+give-actions: # In single things config
+1:
+multi-once: true
+type: console_command
+command: "crate give {player} magic {amount}"
+2:
+name: 'Magic Crate Key (VIP plus 1 for free)'
+material: PAPER
+custom-model-data: 500
+amount: 1
+give-item: false # You need add this to make sure the "fake" product will not give to player
+give-actions: # In single things config
+1:
+multi-once: true
+type: console_command
+command: "crate give {player} magic {amount}"
+conditions:
+1:
+type: permission
+permission: group.vip
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 150
+placeholder: '{amount}⛂'
+
+Copy
+weight: 15
+
+only-in-player-inventory: true
+
+fake-changes:
+add-price-lore:
+- '&fBuy Price: &6{buy-price} &7per unit'
+- '&fSell Price: &6{sell-price} &7per unit'
+- '&fWorth: &6{total-price}'
+
+============================================================
+Title: Another version of 💰Products Config: Single Thing page | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing/another-version-of-products-config-single-thing-page
+
+Links: 57
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+Another version of 💰Products Config: Single Thing page
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+💻Develop
+
+Develop Guide
+
+Events
+
+Hook into UltimateShop
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+🛍️Shops
+
+💰Products Config: Single Thing
+
+Another version of 💰Products Config: Single Thing page
+
 Each single product or price in one product we called single thing. So, each product have those thing type:
 
 Buy Prices: The buy price of this product, player need pay the buy price to obtain this product, if this thing type does not exist (which means buy-prices section does not exist in the config), this product can not be purcahsed.
@@ -19227,7 +20260,9 @@ In product configurations, we set the corresponding type of single thing through
 
 products: Product items. Support Item format and Economy format. You can also add Custom Sell Match Method or other things depend on single thing type here. Optional. If not set, player won't get anything after buy/sell. Useful for command shop.
 
-products.conditions: Player must meet the condition to use this product. Use Condition Format here.
+products.apply-conditions: Only players meet the condition will apply use this product. Use Condition Format here. Optional. Default don't have any conditions.
+
+products.require-conditions: Player must meet the condition to buy or sell this product. Use Condition Format here. Optional. Default don't have any conditions.
 
 products.give-actions: The action will run after this product is been give to player. Use Action Format here.
 
@@ -19247,7 +20282,9 @@ buy-prices.apply: Which times this price will apply, format: [1,2,3,4]. Only sup
 
 buy-prices.placeholder: Price display name in {price} placeholder. Required.
 
-buy-prices.conditions: Player must meet the condition to use this price. Use Condition Format here. Optional. Default don't have any conditions.
+products.apply-conditions: Only players meet the condition will apply use this buy price. Use Condition Format here. Optional. Default don't have any conditions.
+
+products.require-conditions: Player must meet the condition to use this price to buy or sell product. Use Condition Format here. Optional. Default don't have any conditions.
 
 buy-prices.take-actions: The action will run after this buy price is been taken from player. Use Action Format here.
 
@@ -19320,9 +20357,9 @@ Create a new file called shop-display.yml in plugins/MythicChanger/rules folder.
 
 Copy those content in this file and restart the server.
 
-Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
+Previous💰Products Config: Single ThingNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 1 month ago
+Last updated 6 hours ago
 
 Single Thing Types
 
@@ -19422,7 +20459,7 @@ products:
 material: emerald
 2:
 material: diamond
-conditions:
+apply-conditions:
 1:
 type: permission
 permission: group.vip
@@ -20053,7 +21090,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 9 hours ago
+Last updated 1 day ago
 
 Settings
 
