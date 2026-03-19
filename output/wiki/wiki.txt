@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-18T01:44:47Z
+Generated UTC: 2026-03-19T01:45:54Z
 Page Count: 65
 
 ============================================================
@@ -254,12 +254,12 @@ How does Cloudflare protect email addresses on website from spammers?
 
 Can I sign up for Cloudflare?
 
-Cloudflare Ray ID: 9de08dcc18a123d3
+Cloudflare Ray ID: 9de8cca09cecf070
 •
 
 Your IP:
 Click to reveal
-64.236.153.96
+172.215.209.64
 •
 
 Performance & security by Cloudflare
@@ -1695,7 +1695,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Enable Math Feature
 
@@ -2037,7 +2037,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Enable Math Feature
 
@@ -6394,7 +6394,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 5 days ago
+Last updated 7 days ago
 
 General Options
 
@@ -7007,7 +7007,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 5 days ago
+Last updated 7 days ago
 
 General Options
 
@@ -9323,7 +9323,7 @@ false - Boolean constant representing 0
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -9895,7 +9895,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Java Version
 
@@ -10213,7 +10213,7 @@ Require ultimateshop.updateguititle permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 FAQ:
 
@@ -10576,7 +10576,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12613,7 +12613,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Java Version
 
@@ -12879,7 +12879,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Types
 
@@ -13255,7 +13255,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 7 days ago
+Last updated 9 days ago
 
 Requirements
 
@@ -13815,7 +13815,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Set display condition
 
@@ -14080,7 +14080,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 General Setting
 
@@ -14375,7 +14375,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Types
 
@@ -16517,7 +16517,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Config
 
@@ -16958,7 +16958,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Settings
 
@@ -19058,7 +19058,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 General Options
 
@@ -19754,7 +19754,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 What Is a Single Thing?
 
@@ -20412,7 +20412,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Settings
 
