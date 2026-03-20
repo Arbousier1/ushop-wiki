@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-19T01:45:54Z
-Page Count: 65
+Generated UTC: 2026-03-20T01:27:57Z
+Page Count: 62
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 55
+Links: 53
 
 UltimateShop Wiki
 
@@ -135,10 +135,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -237,38 +233,10 @@ Get support
 Info
 
 ============================================================
-Title: Email Protection | Cloudflare
-URL: https://ultimateshop.superiormc.cn/cdn-cgi/l/email-protection
-
-Please enable cookies.
-
-Email Protection
-
-You are unable to access this email address ultimateshop.superiormc.cn
-
-The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
-
-If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
-
-How does Cloudflare protect email addresses on website from spammers?
-
-Can I sign up for Cloudflare?
-
-Cloudflare Ray ID: 9de8cca09cecf070
-•
-
-Your IP:
-Click to reveal
-172.215.209.64
-•
-
-Performance & security by Cloudflare
-
-============================================================
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -397,10 +365,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -431,7 +395,7 @@ Last updated 2 months ago
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -561,10 +525,6 @@ UltimateShop Wiki
 
 Develop Guide
 
-Events
-
-Hook into UltimateShop
-
 Powered by GitBook
 
 On this page
@@ -579,7 +539,7 @@ Please note that UltimateShop is not a traditional shop plugin. It can dynamical
 
 Add as dependency
 
-As of January 15, 2026, the latest plugin version number is 4.2.3. If this date is too far away, then you should check the latest plugin version number yourself, as the provided plugin version may be outdated or unavailable.
+As of March 20, 2026, the latest plugin version number is 4.3.4. If this date is too far away, then you should check the latest plugin version number yourself, as the provided plugin version may be outdated or unavailable.
 
 Copy
 <repositories>
@@ -609,77 +569,663 @@ dependencies {
 compileOnly group: 'cn.superiormc.ultimateshop', name: 'plugin', version: '[PLUGIN VERSION]'
 }
 
-Get shop object
+UltimateShop Developer Integration Guide
 
-Get product object
+This document is for developers who want to integrate with UltimateShop, not for regular server owners configuring shops.
 
-Start buy a product
+The content here is based on the current 4.3.4 source code and focuses on the most common integration scenarios:
 
-inventory is Bukkit inventory object, for player's inventory, use player.getInventory() method.
+Depending on UltimateShop from your own plugin
 
-shop is shop ID.
+Fetching shop items by shop ID / product ID
 
-product is product ID.
+Querying player buy/sell usage counts and previewing prices
 
-quick is whether send message after buy (will still send if you enable send-message-after-buy option in config.yml)
+Listening to transaction events
 
-test is whether take money or items from player, set it to true if you just want to know whether player has enough money or items.
+Triggering bulk sell
 
-multi is buy amount in one time, default set to 1.
+Opening a shop or triggering quick buy/sell from your plugin
 
-Start sell a product
+The code snippets below intentionally omit unrelated listener registration, class wrappers, and some basic imports, and only keep the parts directly related to UltimateShop integration.
 
-ableMaxSell is whether if player don't have enough money or items for now multi(amount) value, we will try to get max amount that player able to sell. Use for sell all command.
+1. Understand What UltimateShop Exposes
 
-Get player cache object
+From the source code, the best external entry points are mainly these:
 
-Can get player's buy times, sell times data and so on.
+cn.superiormc.ultimateshop.api.ShopHelper
 
-Get server cache object
+cn.superiormc.ultimateshop.api.ItemPreTransactionEvent
 
-Get price from ItemStack
+cn.superiormc.ultimateshop.api.ItemFinishTransactionEvent
 
-Get whether the price is Vault
+Besides that, there are also some public classes that are usable but are more internal implementation details:
 
-All price/product configs follows EconomyFormat or ItemFormat.
+cn.superiormc.ultimateshop.objects.ObjectShop
 
-Give GiveResult
+cn.superiormc.ultimateshop.objects.buttons.ObjectItem
 
-This will not follow buy/sell limits, conditions check and so on. If you want to plugin check out whether player can buy or sell this item, you need use BuyProductMethod or SellProductMethod.
+cn.superiormc.ultimateshop.gui.inv.ShopGUI
 
-Take TakeResult
+cn.superiormc.ultimateshop.methods.Product.BuyProductMethod
 
-This will not follow buy/sell limits, conditions check and so on. If you want to plugin check out whether player can buy or sell this item, you need use BuyProductMethod or SellProductMethod.
+cn.superiormc.ultimateshop.methods.Product.SellProductMethod
 
-Get TakeResult from which product
+The practical way to think about them is:
 
-Previous💳Log Transaction - PremiumNextEvents
+Prefer the api package first
 
-Last updated 2 months ago
+Use the objects package for read-only item/shop queries
+
+Use gui / methods only when you need more direct control, knowing they are more likely to change across upgrades
+
+2. Declare the Dependency in Your Plugin
+
+plugin.yml
+
+If your plugin integrates with UltimateShop only when it is present, add at least a softdepend:
+
+If your plugin cannot work without UltimateShop at all, use depend instead.
+
+3. Check at Runtime That UltimateShop Is Present
+
+If your integration logic should only be enabled when UltimateShop exists, this check is best placed in onEnable().
+
+4. Most Common Entry Point: Fetch an Item by ID
+
+The safest way is to fetch the target item directly by shop ID and product ID:
+
+This is the recommended approach because it is deterministic.
+
+Common read-only methods on ObjectItem include:
+
+getShop(): owning shop ID
+
+getProduct(): product ID
+
+getDisplayName(Player): display name
+
+getBuyPrice() / getSellPrice(): price definitions
+
+getReward(): product reward definition
+
+getPlayerBuyLimit(Player) / getPlayerSellLimit(Player): per-player limits
+
+getServerBuyLimit(Player) / getServerSellLimit(Player): global limits
+
+5. Query Current Player Usage Counts
+
+If you want to show something like "how many more times this player can still buy this item" inside your own plugin, use ShopHelper directly:
+
+A typical usage looks like this:
+
+Notes:
+
+-1 means unlimited
+
+ShopHelper will create the use-times cache automatically if it does not exist yet
+
+6. Preview Buy Cost
+
+If you only want to display something like "how much this batch of items is worth" in your own GUI or message flow, use the preview methods in ShopHelper.
+
+7. Preview Sell Reward
+
+If you need the raw result objects instead of formatted strings:
+
+These result objects are useful for display, logging, or secondary checks.
+
+8. Listen to Transaction Events
+
+UltimateShop provides two transaction events:
+
+ItemPreTransactionEvent
+
+ItemFinishTransactionEvent
+
+8.1 ItemPreTransactionEvent
+
+This event fires before the actual transaction is finalized. It is suitable for:
+
+statistics
+
+external logging
+
+webhook pushes
+
+side-channel syncing
+
+Example:
+
+This event also gives you two important result objects:
+
+getTakeResult(): what will be taken in this transaction
+
+getGiveResult(): what will be given in this transaction
+
+The common interpretation is:
+
+On buy: takeResult is usually the price the player pays, and giveResult is usually the product reward
+
+On sell: takeResult is usually the item(s) the player turns in, and giveResult is usually the sell reward
+
+8.2 ItemFinishTransactionEvent
+
+This event fires after a successful transaction completes. It is suitable for:
+
+success statistics
+
+achievement unlocks
+
+quest/task progress integration
+
+post-success notifications
+
+9. Bulk Sell: ShopHelper.sellAll
+
+If you want your plugin to trigger UltimateShop's built-in bulk selling logic, use:
+
+The third parameter, multiplier, is the sell reward multiplier.
+
+For example:
+
+1.0D: normal value
+
+2.0D: double sell reward
+
+0.5D: half sell reward
+
+This method already performs the real transaction
+
+This is the most common misuse point.
+
+Internally, sellAll(...) directly runs the sell flow. That means it will:
+
+check matching products
+
+actually remove sold items
+
+actually give sell rewards
+
+execute sell actions
+
+The returned Map<AbstractSingleThing, BigDecimal> is better understood as a summary of the sell result, not something that still needs another manual giveThing(...) call.
+
+Wrong usage:
+
+Correct understanding:
+
+sellAll already completes the transaction
+
+the return value is only for display, logging, or statistics
+
+10. Manually Execute Give / Take
+
+If you already have a TakeResult or GiveResult and want to execute it yourself, you can use either the result object methods or the helper methods on ShopHelper.
+
+Execute a Take
+
+Execute a Give from a Result Map
+
+Execute a Take from a Result Map
+
+This style is more appropriate when you are building your own custom business flow, not when you are repeating a transaction UltimateShop has already executed.
+
+11. Open a Shop from Your Plugin
+
+Option A: Use the Command, Best Compatibility
+
+If you do not want to depend on internal GUI classes, the safest approach is to dispatch the built-in command:
+
+Based on the current command implementation, the common forms are:
+
+Player opens their own shop: /shop menu <shop>
+
+Console opens a shop for a player: /shop menu <shop> <player>
+
+The advantages of this approach:
+
+no direct dependency on internal GUI classes
+
+better compatibility if the internal implementation changes later
+
+Option B: Call ShopGUI Directly
+
+If you explicitly want the direct internal path, you can do this:
+
+Parameter meaning:
+
+first false: whether to bypass menu conditions
+
+second false: whether this should be treated as a reopen
+
+Note: ShopGUI is not in the api package. This is an internal-class integration and is more likely to be affected by version changes than the command approach.
+
+12. Trigger Quick Buy / Sell Directly
+
+If you already know the exact shop and product, you can also call the internal trade methods directly.
+
+Direct Buy
+
+These parameters mean:
+
+item: target product
+
+player: player
+
+true: whether to force failure messages to display
+
+false: whether to skip the actual cost
+
+3: transaction amount
+
+Direct Sell
+
+These boolean parameters control:
+
+whether to force failure messages
+
+whether to skip actual cost / settlement
+
+whether to enable max-sell logic
+
+If you simply want your external plugin to perform one normal buy or sell, this is the most direct code path.
+
+Still, this is internal API usage, so it is less stable than using the api package.
+
+13. Practical Example: External GUI Entry with Remaining Usage Display
+
+This is a very common pattern:
+
+your own NPC or menu plugin only provides the entry point
+
+all product logic, pricing, limits, and sell rules are still delegated to UltimateShop
+
+That lets you reuse UltimateShop's existing systems as much as possible.
+
+14. Understanding TakeResult, GiveResult, and AbstractSingleThing
+
+These three types are easiest to understand together:
+
+AbstractThings represents a whole things container, such as the full products, buy-prices, or sell-prices section
+
+AbstractSingleThing represents one single entry inside that container
+
+TakeResult / GiveResult represent the final selected single things for one transaction, together with their calculated final amounts
+
+A practical mental model is:
+
+AbstractThings = a group of candidate rules
+
+AbstractSingleThing = one candidate branch
+
+TakeResult / GiveResult = the final selected branches for this transaction
+
+14.1 What AbstractSingleThing Is
+
+AbstractSingleThing is the abstract base class for all single things, defined in AbstractSingleThing.java.
+
+Conceptually, it describes one unit entry that can be checked, calculated, given, or taken.
+
+In the current implementation, the common subclasses are:
+
+ObjectSingleProduct: one product entry under products
+
+ObjectSinglePrice: one price entry under buy-prices or sell-prices
+
+The most important fields and responsibilities on it are:
+
+type: the single thing type, inferred from config
+
+singleSection: the config section for this one single thing
+
+applyCondition: whether this branch should participate in selection
+
+requireCondition: whether this branch is allowed to complete after being selected
+
+giveAction / takeAction: actions that run when it is actually given or taken
+
+things: the parent AbstractThings container
+
+The supported ThingType values are not limited to just "item". The detection logic lives in AbstractSingleThing.java:
+
+HOOK_ITEM
+
+MATCH_ITEM
+
+CUSTOM
+
+HOOK_ECONOMY
+
+VANILLA_ECONOMY
+
+VANILLA_ITEM
+
+FREE
+
+RESERVE
+
+So the important idea is that AbstractSingleThing is not "one item". It is "one transaction-capable unit".
+
+14.1.1 How Developers Can Tell Which Type a Single Thing Is
+
+UltimateShop does not require you to declare ThingType manually. It infers the type from the config fields.
+
+The detection order is important, because it is effectively "first matching rule wins".
+
+Based on the current source logic, the rules are:
+
+If both hook-plugin and hook-item exist, it is HOOK_ITEM
+
+If match-item exists and MythicChanger is loaded, it is MATCH_ITEM
+
+If match-placeholder exists and this is not the free version, it is CUSTOM
+
+If economy-plugin exists, it is HOOK_ECONOMY
+
+If economy-type exists but economy-plugin does not, it is VANILLA_ECONOMY
+
+If material or item exists, it is VANILLA_ITEM
+
+If only amount-style numeric definition exists and none of the above matched, it is RESERVE
+
+If none of the above matched, it is FREE
+
+You can use this quick mapping:
+
+hook-plugin + hook-item -> HOOK_ITEM
+
+match-item -> MATCH_ITEM
+
+match-placeholder -> CUSTOM
+
+economy-plugin -> HOOK_ECONOMY
+
+only economy-type -> VANILLA_ECONOMY
+
+material or item -> VANILLA_ITEM
+
+only amount -> RESERVE
+
+nothing meaningful defined -> FREE
+
+Some common examples:
+
+This is a Vault economy entry:
+
+so to know whether this is a Vault price, you can do this:
+
+14.2 What AbstractSingleThing Does During Transactions
+
+It mainly handles four jobs:
+
+deciding whether it should participate
+
+reading how much of it the player currently has
+
+checking whether the player has enough to pay or enough room to receive it
+
+producing real give/take behavior
+
+The key methods are:
+
+getApplyCondition(...): checks apply-conditions
+
+getRequireCondition(...): checks require-conditions
+
+playerHasAmount(...): reads owned amount
+
+playerHasEnough(...): checks affordability / availability and can optionally perform the take
+
+playerCanGive(...): checks whether this thing can be given
+
+This is also why the distinction matters so much:
+
+apply-conditions decide whether a branch is selected
+
+require-conditions decide whether a selected branch is allowed to continue
+
+14.3 What TakeResult Is
+
+TakeResult is the result object for "what this transaction needs to take", defined in TakeResult.java.
+
+Its most important internal structure is:
+
+That means:
+
+key: the selected single thing
+
+value: the final calculated amount / cost for that single thing in this transaction
+
+The key fields are:
+
+resultBoolean: whether the player has enough to pay / turn in these things
+
+conditionBoolean: whether all selected single things passed their require-conditions
+
+empty: whether the result is empty
+
+The most important distinction is:
+
+resultBoolean answers "is it affordable / available"
+
+conditionBoolean answers "is it allowed"
+
+TakeResult.addResultMapElement(...) checks require-conditions while the entries are being added.
+
+Actual execution happens in take(...).
+
+That execution is not just "remove items". It does this:
+
+calls playerHasEnough(..., true, cost) for each selected single thing
+
+then runs the single thing's takeAction
+
+So TakeResult is best understood as:
+
+first, "what needs to be taken"
+
+then, "execute the take and its related actions"
+
+14.4 What GiveResult Is
+
+GiveResult is the result object for "what this transaction needs to give", defined in GiveResult.java.
+
+Like TakeResult, it also stores:
+
+That means:
+
+key: the selected single thing
+
+value: the final amount that should be given for that single thing
+
+It also tracks:
+
+conditionBoolean
+
+empty
+
+But it does not have a resultBoolean field.
+
+That is because "can this actually be given" is not fixed when the result object is created. It is checked later inside give(...), where inventory capacity and item delivery are evaluated together.
+
+The give(...) flow is:
+
+iterate over resultMap
+
+call playerCanGive(...) on each AbstractSingleThing
+
+collect all GiveItemStack objects
+
+if any entry cannot be given, return false
+
+if all entries can be given, actually give them
+
+So the right way to think about GiveResult is:
+
+it describes "what should be given"
+
+whether it can actually be delivered is only known at give(...) time
+
+14.5 Where They Sit in the Full Transaction Flow
+
+A buy flow can be understood like this:
+
+ObjectPrices.take(...) calculates the cost and returns a TakeResult
+
+ObjectProducts.give(...) calculates the reward and returns a GiveResult
+
+the trade logic checks TakeResult.getResultBoolean()
+
+then checks TakeResult.getConditionBoolean() and GiveResult.getConditionBoolean()
+
+then executes GiveResult.give(...)
+
+finally executes TakeResult.take(...)
+
+The shared container abstraction is AbstractThings.java, which defines:
+
+give(...) -> GiveResult
+
+take(...) -> TakeResult
+
+So the most stable external mental model is:
+
+AbstractThings chooses final branches from a candidate set
+
+AbstractSingleThing handles the logic of one branch
+
+TakeResult / GiveResult store and execute the final selected result
+
+15. Hook Integration: Economy Sources and Item Sources
+
+UltimateShop manages economy hooks and item hooks through HookManager.
+
+Built-in implementations are auto-registered at startup, for example:
+
+Economy: Vault, PlayerPoints, CoinsEngine, UltraEconomy, and more
+
+Items: ItemsAdder, Oraxen, MMOItems, EcoItems, Nexo, CraftEngine, and more
+
+But HookManager also exposes public registration methods:
+
+registerNewEconomyHook(...)
+
+registerNewItemHook(...)
+
+That means other developers can register custom economy or item sources from their own plugin.
+
+15.1 Custom Economy Hook
+
+The abstract base class is AbstractEconomyHook.java.
+
+The core methods you need to implement are:
+
+getEconomy(Player, currencyID): read balance
+
+takeEconomy(Player, value, currencyID): withdraw
+
+giveEconomy(Player, value, currencyID): deposit
+
+Optional:
+
+isEnabled(): return false if the underlying provider is not ready
+
+The currencyID parameter comes from the config field economy-type:
+
+Single-currency hooks like Vault will usually ignore currencyID, while multi-currency hooks like CoinsEngine use it to resolve the specific currency.
+
+Minimal example:
+
+Registration:
+
+Important notes:
+
+the registration name must exactly match economy-plugin in config
+
+if you support multiple currencies, treat economy-type as your currencyID
+
+the default AbstractEconomyHook.checkEconomy(...) implementation checks balance first, then calls takeEconomy(...) when needed
+
+15.2 Custom Item Source Hook
+
+The abstract base class is AbstractItemHook.java.
+
+You need to implement two core methods:
+
+getHookItemByID(Player, itemID): build an item from the configured ID
+
+getIDByItemStack(ItemStack): reverse-resolve an item back into your source ID
+
+This maps to config like:
+
+Minimal example:
+
+Registration:
+
+Important notes:
+
+the registration name must exactly match hook-plugin in config
+
+the actual hook-item format is entirely defined by your hook
+
+if getIDByItemStack(...) cannot resolve an ID, UltimateShop can still build items from direct hook-item config, but reverse item-source detection features will not work
+
+15.3 Good Built-In References
+
+If you want working examples to copy from, the best built-in references are:
+
+Economy hooks:
+
+EconomyVaultHook: single currency, services-manager based
+
+EconomyCoinsEngineHook: multi-currency, explicitly uses currencyID
+
+Item hooks:
+
+ItemItemsAdderHook: simple ID -> ItemStack and ItemStack -> ID
+
+ItemMMOItemsHook: composite ID format using TYPE;;ID
+
+Together, these show the hook style UltimateShop expects.
+
+Previous💳Log Transaction - Premium
+
+Last updated 56 minutes ago
 
 Add as dependency
 
-Get shop object
+UltimateShop Developer Integration Guide
 
-Get product object
+1. Understand What UltimateShop Exposes
 
-Start buy a product
+2. Declare the Dependency in Your Plugin
 
-Start sell a product
+3. Check at Runtime That UltimateShop Is Present
 
-Get player cache object
+4. Most Common Entry Point: Fetch an Item by ID
 
-Get server cache object
+5. Query Current Player Usage Counts
 
-Get price from ItemStack
+6. Preview Buy Cost
 
-Get whether the price is Vault
+7. Preview Sell Reward
 
-Give GiveResult
+8. Listen to Transaction Events
 
-Take TakeResult
+9. Bulk Sell: ShopHelper.sellAll
 
-Get TakeResult from which product
+10. Manually Execute Give / Take
+
+11. Open a Shop from Your Plugin
+
+12. Trigger Quick Buy / Sell Directly
+
+13. Practical Example: External GUI Entry with Remaining Usage Display
+
+14. Understanding TakeResult, GiveResult, and AbstractSingleThing
+
+15. Hook Integration: Economy Sources and Item Sources
 
 Copy
 repositories {
@@ -691,31 +1237,163 @@ compileOnly("cn.superiormc.ultimateshop:plugin:[PLUGIN VERSION]")
 }
 
 Copy
-ConfigManager.configmanager.shopConfigs.get(shopID);
+softdepend:
+- UltimateShop
 
 Copy
-ObjectShop shop = ConfigManager.configmanager.shopConfigs.get(shopID);
-if (shop == null) {
+Plugin plugin = Bukkit.getPluginManager().getPlugin("UltimateShop");
+if (plugin == null || !plugin.isEnabled()) {
 return;
 }
-ObjectItem item = shop.getProduct("TEST");
-List<ObjectItem> items = shop.getProductList();
 
 Copy
-BuyProductMethod.startBuy(Inventory inventory, String shop, String product, Player player, boolean quick, boolean test, int multi);
+import cn.superiormc.ultimateshop.api.ShopHelper;
+import cn.superiormc.ultimateshop.objects.buttons.ObjectItem;
+
+ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
+if (item == null) {
+return;
+}
+
+String shopId = item.getShop();
+String productId = item.getProduct();
+String displayName = item.getDisplayName(player);
 
 Copy
-SellProductMethod.startSell(Inventory inventory, String shop, String product, Player player, boolean quick, boolean test, boolean ableMaxSell, int multi);
+int buyTimes = ShopHelper.getBuyUseTimes(item, player);
+int sellTimes = ShopHelper.getSellUseTimes(item, player);
+
+int playerBuyLimit = item.getPlayerBuyLimit(player);
+int playerSellLimit = item.getPlayerSellLimit(player);
 
 Copy
-CacheManager.cacheManager.playerCacheMap.get(player);
+int used = ShopHelper.getBuyUseTimes(item, player);
+int limit = item.getPlayerBuyLimit(player);
+
+if (limit != -1) {
+int remain = Math.max(0, limit - used);
+player.sendMessage("You can still buy " + remain + " more times");
+}
 
 Copy
-CacheManager.cacheManager.serverCache;
+ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
+String buyPriceDisplay = ShopHelper.getBuyPricesDisplay(items, player, 3);
+if (buyPriceDisplay != null) {
+player.sendMessage("Buying 3 times costs: " + buyPriceDisplay);
+}
 
 Copy
-ShopHelper.getBuyPrices(items, player, 1);
-ShopHelper.getSellPrices(items, player, 1);
+ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
+String sellPriceDisplay = ShopHelper.getSellPricesDisplay(items, player, 1);
+if (sellPriceDisplay != null) {
+player.sendMessage("Selling gives: " + sellPriceDisplay);
+}
+
+Copy
+ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
+TakeResult buyCost = ShopHelper.getBuyPrices(items, player, 3);
+GiveResult sellReward = ShopHelper.getSellPrices(items, player, 1);
+
+Copy
+import cn.superiormc.ultimateshop.api.ItemPreTransactionEvent;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+
+public final class ShopListener implements Listener {
+
+@EventHandler
+public void onPreTransaction(ItemPreTransactionEvent event) {
+String action = event.isBuyOrSell() ? "BUY" : "SELL";
+String shopId = event.getShop().getShopName();
+String productId = event.getItem().getProduct();
+int amount = event.getAmount();
+
+event.getPlayer().sendMessage(
+"About to execute " + action + " -> " + shopId + ":" + productId + " x" + amount
+);
+}
+}
+
+Copy
+@EventHandler
+public void onFinish(ItemFinishTransactionEvent event) {
+Player player = event.getPlayer();
+player.sendMessage("Transaction completed: " + event.getItem().getProduct());
+}
+
+Copy
+Map<AbstractSingleThing, BigDecimal> result =
+ShopHelper.sellAll(player, player.getInventory(), 1.0D);
+
+Copy
+Map<AbstractSingleThing, BigDecimal> result = ShopHelper.sellAll(player, inv, 1.0D);
+ShopHelper.giveThing(0, 0, player, 1.0D, result); // duplicates rewards
+
+Copy
+TakeResult takeResult = ShopHelper.getBuyPrices(player.getInventory(), player, 1);
+if (takeResult != null && takeResult.getResultBoolean()) {
+takeResult.take(0, 1, player.getInventory(), player);
+}
+
+Copy
+GiveResult giveResult = ShopHelper.getSellPrices(player.getInventory(), player, 1);
+if (giveResult != null) {
+boolean success = ShopHelper.giveThing(0, 1, player, 1.0D, giveResult.getResultMap());
+}
+
+Copy
+ShopHelper.takeThing(0, 1, player.getInventory(), player, takeResult.getResultMap());
+
+Copy
+Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "ultimateshop menu blocks Steve");
+
+Copy
+import cn.superiormc.ultimateshop.api.ShopHelper;
+import cn.superiormc.ultimateshop.gui.inv.ShopGUI;
+import cn.superiormc.ultimateshop.objects.ObjectShop;
+import cn.superiormc.ultimateshop.objects.buttons.ObjectItem;
+
+ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
+if (item == null) {
+return;
+}
+
+ObjectShop shop = item.getShopObject();
+ShopGUI.openGUI(player, shop, false, false);
+
+Copy
+import cn.superiormc.ultimateshop.methods.Product.BuyProductMethod;
+import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
+
+ProductTradeStatus status = BuyProductMethod.startBuy(item, player, true, false, 3);
+
+Copy
+import cn.superiormc.ultimateshop.methods.Product.SellProductMethod;
+import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
+
+ProductTradeStatus status = SellProductMethod.startSell(item, player, true, false, false, 3);
+
+Copy
+ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
+if (item == null) {
+return;
+}
+
+int used = ShopHelper.getBuyUseTimes(item, player);
+int limit = item.getPlayerBuyLimit(player);
+
+if (limit != -1) {
+player.sendMessage("Remaining buy count: " + Math.max(0, limit - used));
+}
+
+ShopGUI.openGUI(player, item.getShopObject(), false, false);
+
+Copy
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '{amount}$'
 
 Copy
 Map<AbstractSingleThing, BigDecimal> resultMap = takeResult.getResultMap();
@@ -726,24 +1404,78 @@ return "This price includes Vault";
 }
 
 Copy
-int sellUseTimes = ShopHelper.getSellUseTimes(item, player);
-GiveResult giveResult = ShopHelper.getSellPrices(items, player, 1);
-giveResult.give(sellUseTimes, 1, player, 1.01);
+Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
-int buyUseTimes = ShopHelper.getBuyUseTimes(item, player);
-TakeResult takeResult = ShopHelper.getBuyPrices(items, player, 1);
-if (!takeResult.getResultBoolean) return "Your money not enough";
-takeResult.take(sellUseTimes, 1, player.getInventory(), player);
+Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
-ObjectItem item = takeResult.getThings().getItem();
+buy-prices:
+1:
+economy-plugin: MyEconomy
+economy-type: gems
+amount: 100
+placeholder: '{amount} Gems'
+
+Copy
+public final class MyEconomyHook extends AbstractEconomyHook {
+
+public MyEconomyHook() {
+super("MyEconomy");
+}
+
+@Override
+public double getEconomy(Player player, String currencyID) {
+return MyEconomyApi.balance(player.getUniqueId(), currencyID);
+}
+
+@Override
+public void takeEconomy(Player player, double value, String currencyID) {
+MyEconomyApi.withdraw(player.getUniqueId(), currencyID, value);
+}
+
+@Override
+public void giveEconomy(Player player, double value, String currencyID) {
+MyEconomyApi.deposit(player.getUniqueId(), currencyID, value);
+}
+}
+
+Copy
+HookManager.hookManager.registerNewEconomyHook("MyEconomy", new MyEconomyHook());
+
+Copy
+products:
+1:
+hook-plugin: MyItems
+hook-item: sword_of_flame
+
+Copy
+public final class MyItemHook extends AbstractItemHook {
+
+public MyItemHook() {
+super("MyItems");
+}
+
+@Override
+public ItemStack getHookItemByID(Player player, String itemID) {
+ItemStack item = MyItemsApi.build(itemID);
+return item == null ? returnNullItem(itemID) : item;
+}
+
+@Override
+public String getIDByItemStack(ItemStack hookItem) {
+return MyItemsApi.findId(hookItem);
+}
+}
+
+Copy
+HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 
 ============================================================
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -873,10 +1605,6 @@ UltimateShop Wiki
 
 Develop Guide
 
-Events
-
-Hook into UltimateShop
-
 Powered by GitBook
 
 On this page
@@ -891,7 +1619,7 @@ Please note that UltimateShop is not a traditional shop plugin. It can dynamical
 
 Add as dependency
 
-As of January 15, 2026, the latest plugin version number is 4.2.3. If this date is too far away, then you should check the latest plugin version number yourself, as the provided plugin version may be outdated or unavailable.
+As of March 20, 2026, the latest plugin version number is 4.3.4. If this date is too far away, then you should check the latest plugin version number yourself, as the provided plugin version may be outdated or unavailable.
 
 Copy
 <repositories>
@@ -921,77 +1649,663 @@ dependencies {
 compileOnly group: 'cn.superiormc.ultimateshop', name: 'plugin', version: '[PLUGIN VERSION]'
 }
 
-Get shop object
+UltimateShop Developer Integration Guide
 
-Get product object
+This document is for developers who want to integrate with UltimateShop, not for regular server owners configuring shops.
 
-Start buy a product
+The content here is based on the current 4.3.4 source code and focuses on the most common integration scenarios:
 
-inventory is Bukkit inventory object, for player's inventory, use player.getInventory() method.
+Depending on UltimateShop from your own plugin
 
-shop is shop ID.
+Fetching shop items by shop ID / product ID
 
-product is product ID.
+Querying player buy/sell usage counts and previewing prices
 
-quick is whether send message after buy (will still send if you enable send-message-after-buy option in config.yml)
+Listening to transaction events
 
-test is whether take money or items from player, set it to true if you just want to know whether player has enough money or items.
+Triggering bulk sell
 
-multi is buy amount in one time, default set to 1.
+Opening a shop or triggering quick buy/sell from your plugin
 
-Start sell a product
+The code snippets below intentionally omit unrelated listener registration, class wrappers, and some basic imports, and only keep the parts directly related to UltimateShop integration.
 
-ableMaxSell is whether if player don't have enough money or items for now multi(amount) value, we will try to get max amount that player able to sell. Use for sell all command.
+1. Understand What UltimateShop Exposes
 
-Get player cache object
+From the source code, the best external entry points are mainly these:
 
-Can get player's buy times, sell times data and so on.
+cn.superiormc.ultimateshop.api.ShopHelper
 
-Get server cache object
+cn.superiormc.ultimateshop.api.ItemPreTransactionEvent
 
-Get price from ItemStack
+cn.superiormc.ultimateshop.api.ItemFinishTransactionEvent
 
-Get whether the price is Vault
+Besides that, there are also some public classes that are usable but are more internal implementation details:
 
-All price/product configs follows EconomyFormat or ItemFormat.
+cn.superiormc.ultimateshop.objects.ObjectShop
 
-Give GiveResult
+cn.superiormc.ultimateshop.objects.buttons.ObjectItem
 
-This will not follow buy/sell limits, conditions check and so on. If you want to plugin check out whether player can buy or sell this item, you need use BuyProductMethod or SellProductMethod.
+cn.superiormc.ultimateshop.gui.inv.ShopGUI
 
-Take TakeResult
+cn.superiormc.ultimateshop.methods.Product.BuyProductMethod
 
-This will not follow buy/sell limits, conditions check and so on. If you want to plugin check out whether player can buy or sell this item, you need use BuyProductMethod or SellProductMethod.
+cn.superiormc.ultimateshop.methods.Product.SellProductMethod
 
-Get TakeResult from which product
+The practical way to think about them is:
 
-Previous💳Log Transaction - PremiumNextEvents
+Prefer the api package first
 
-Last updated 2 months ago
+Use the objects package for read-only item/shop queries
+
+Use gui / methods only when you need more direct control, knowing they are more likely to change across upgrades
+
+2. Declare the Dependency in Your Plugin
+
+plugin.yml
+
+If your plugin integrates with UltimateShop only when it is present, add at least a softdepend:
+
+If your plugin cannot work without UltimateShop at all, use depend instead.
+
+3. Check at Runtime That UltimateShop Is Present
+
+If your integration logic should only be enabled when UltimateShop exists, this check is best placed in onEnable().
+
+4. Most Common Entry Point: Fetch an Item by ID
+
+The safest way is to fetch the target item directly by shop ID and product ID:
+
+This is the recommended approach because it is deterministic.
+
+Common read-only methods on ObjectItem include:
+
+getShop(): owning shop ID
+
+getProduct(): product ID
+
+getDisplayName(Player): display name
+
+getBuyPrice() / getSellPrice(): price definitions
+
+getReward(): product reward definition
+
+getPlayerBuyLimit(Player) / getPlayerSellLimit(Player): per-player limits
+
+getServerBuyLimit(Player) / getServerSellLimit(Player): global limits
+
+5. Query Current Player Usage Counts
+
+If you want to show something like "how many more times this player can still buy this item" inside your own plugin, use ShopHelper directly:
+
+A typical usage looks like this:
+
+Notes:
+
+-1 means unlimited
+
+ShopHelper will create the use-times cache automatically if it does not exist yet
+
+6. Preview Buy Cost
+
+If you only want to display something like "how much this batch of items is worth" in your own GUI or message flow, use the preview methods in ShopHelper.
+
+7. Preview Sell Reward
+
+If you need the raw result objects instead of formatted strings:
+
+These result objects are useful for display, logging, or secondary checks.
+
+8. Listen to Transaction Events
+
+UltimateShop provides two transaction events:
+
+ItemPreTransactionEvent
+
+ItemFinishTransactionEvent
+
+8.1 ItemPreTransactionEvent
+
+This event fires before the actual transaction is finalized. It is suitable for:
+
+statistics
+
+external logging
+
+webhook pushes
+
+side-channel syncing
+
+Example:
+
+This event also gives you two important result objects:
+
+getTakeResult(): what will be taken in this transaction
+
+getGiveResult(): what will be given in this transaction
+
+The common interpretation is:
+
+On buy: takeResult is usually the price the player pays, and giveResult is usually the product reward
+
+On sell: takeResult is usually the item(s) the player turns in, and giveResult is usually the sell reward
+
+8.2 ItemFinishTransactionEvent
+
+This event fires after a successful transaction completes. It is suitable for:
+
+success statistics
+
+achievement unlocks
+
+quest/task progress integration
+
+post-success notifications
+
+9. Bulk Sell: ShopHelper.sellAll
+
+If you want your plugin to trigger UltimateShop's built-in bulk selling logic, use:
+
+The third parameter, multiplier, is the sell reward multiplier.
+
+For example:
+
+1.0D: normal value
+
+2.0D: double sell reward
+
+0.5D: half sell reward
+
+This method already performs the real transaction
+
+This is the most common misuse point.
+
+Internally, sellAll(...) directly runs the sell flow. That means it will:
+
+check matching products
+
+actually remove sold items
+
+actually give sell rewards
+
+execute sell actions
+
+The returned Map<AbstractSingleThing, BigDecimal> is better understood as a summary of the sell result, not something that still needs another manual giveThing(...) call.
+
+Wrong usage:
+
+Correct understanding:
+
+sellAll already completes the transaction
+
+the return value is only for display, logging, or statistics
+
+10. Manually Execute Give / Take
+
+If you already have a TakeResult or GiveResult and want to execute it yourself, you can use either the result object methods or the helper methods on ShopHelper.
+
+Execute a Take
+
+Execute a Give from a Result Map
+
+Execute a Take from a Result Map
+
+This style is more appropriate when you are building your own custom business flow, not when you are repeating a transaction UltimateShop has already executed.
+
+11. Open a Shop from Your Plugin
+
+Option A: Use the Command, Best Compatibility
+
+If you do not want to depend on internal GUI classes, the safest approach is to dispatch the built-in command:
+
+Based on the current command implementation, the common forms are:
+
+Player opens their own shop: /shop menu <shop>
+
+Console opens a shop for a player: /shop menu <shop> <player>
+
+The advantages of this approach:
+
+no direct dependency on internal GUI classes
+
+better compatibility if the internal implementation changes later
+
+Option B: Call ShopGUI Directly
+
+If you explicitly want the direct internal path, you can do this:
+
+Parameter meaning:
+
+first false: whether to bypass menu conditions
+
+second false: whether this should be treated as a reopen
+
+Note: ShopGUI is not in the api package. This is an internal-class integration and is more likely to be affected by version changes than the command approach.
+
+12. Trigger Quick Buy / Sell Directly
+
+If you already know the exact shop and product, you can also call the internal trade methods directly.
+
+Direct Buy
+
+These parameters mean:
+
+item: target product
+
+player: player
+
+true: whether to force failure messages to display
+
+false: whether to skip the actual cost
+
+3: transaction amount
+
+Direct Sell
+
+These boolean parameters control:
+
+whether to force failure messages
+
+whether to skip actual cost / settlement
+
+whether to enable max-sell logic
+
+If you simply want your external plugin to perform one normal buy or sell, this is the most direct code path.
+
+Still, this is internal API usage, so it is less stable than using the api package.
+
+13. Practical Example: External GUI Entry with Remaining Usage Display
+
+This is a very common pattern:
+
+your own NPC or menu plugin only provides the entry point
+
+all product logic, pricing, limits, and sell rules are still delegated to UltimateShop
+
+That lets you reuse UltimateShop's existing systems as much as possible.
+
+14. Understanding TakeResult, GiveResult, and AbstractSingleThing
+
+These three types are easiest to understand together:
+
+AbstractThings represents a whole things container, such as the full products, buy-prices, or sell-prices section
+
+AbstractSingleThing represents one single entry inside that container
+
+TakeResult / GiveResult represent the final selected single things for one transaction, together with their calculated final amounts
+
+A practical mental model is:
+
+AbstractThings = a group of candidate rules
+
+AbstractSingleThing = one candidate branch
+
+TakeResult / GiveResult = the final selected branches for this transaction
+
+14.1 What AbstractSingleThing Is
+
+AbstractSingleThing is the abstract base class for all single things, defined in AbstractSingleThing.java.
+
+Conceptually, it describes one unit entry that can be checked, calculated, given, or taken.
+
+In the current implementation, the common subclasses are:
+
+ObjectSingleProduct: one product entry under products
+
+ObjectSinglePrice: one price entry under buy-prices or sell-prices
+
+The most important fields and responsibilities on it are:
+
+type: the single thing type, inferred from config
+
+singleSection: the config section for this one single thing
+
+applyCondition: whether this branch should participate in selection
+
+requireCondition: whether this branch is allowed to complete after being selected
+
+giveAction / takeAction: actions that run when it is actually given or taken
+
+things: the parent AbstractThings container
+
+The supported ThingType values are not limited to just "item". The detection logic lives in AbstractSingleThing.java:
+
+HOOK_ITEM
+
+MATCH_ITEM
+
+CUSTOM
+
+HOOK_ECONOMY
+
+VANILLA_ECONOMY
+
+VANILLA_ITEM
+
+FREE
+
+RESERVE
+
+So the important idea is that AbstractSingleThing is not "one item". It is "one transaction-capable unit".
+
+14.1.1 How Developers Can Tell Which Type a Single Thing Is
+
+UltimateShop does not require you to declare ThingType manually. It infers the type from the config fields.
+
+The detection order is important, because it is effectively "first matching rule wins".
+
+Based on the current source logic, the rules are:
+
+If both hook-plugin and hook-item exist, it is HOOK_ITEM
+
+If match-item exists and MythicChanger is loaded, it is MATCH_ITEM
+
+If match-placeholder exists and this is not the free version, it is CUSTOM
+
+If economy-plugin exists, it is HOOK_ECONOMY
+
+If economy-type exists but economy-plugin does not, it is VANILLA_ECONOMY
+
+If material or item exists, it is VANILLA_ITEM
+
+If only amount-style numeric definition exists and none of the above matched, it is RESERVE
+
+If none of the above matched, it is FREE
+
+You can use this quick mapping:
+
+hook-plugin + hook-item -> HOOK_ITEM
+
+match-item -> MATCH_ITEM
+
+match-placeholder -> CUSTOM
+
+economy-plugin -> HOOK_ECONOMY
+
+only economy-type -> VANILLA_ECONOMY
+
+material or item -> VANILLA_ITEM
+
+only amount -> RESERVE
+
+nothing meaningful defined -> FREE
+
+Some common examples:
+
+This is a Vault economy entry:
+
+so to know whether this is a Vault price, you can do this:
+
+14.2 What AbstractSingleThing Does During Transactions
+
+It mainly handles four jobs:
+
+deciding whether it should participate
+
+reading how much of it the player currently has
+
+checking whether the player has enough to pay or enough room to receive it
+
+producing real give/take behavior
+
+The key methods are:
+
+getApplyCondition(...): checks apply-conditions
+
+getRequireCondition(...): checks require-conditions
+
+playerHasAmount(...): reads owned amount
+
+playerHasEnough(...): checks affordability / availability and can optionally perform the take
+
+playerCanGive(...): checks whether this thing can be given
+
+This is also why the distinction matters so much:
+
+apply-conditions decide whether a branch is selected
+
+require-conditions decide whether a selected branch is allowed to continue
+
+14.3 What TakeResult Is
+
+TakeResult is the result object for "what this transaction needs to take", defined in TakeResult.java.
+
+Its most important internal structure is:
+
+That means:
+
+key: the selected single thing
+
+value: the final calculated amount / cost for that single thing in this transaction
+
+The key fields are:
+
+resultBoolean: whether the player has enough to pay / turn in these things
+
+conditionBoolean: whether all selected single things passed their require-conditions
+
+empty: whether the result is empty
+
+The most important distinction is:
+
+resultBoolean answers "is it affordable / available"
+
+conditionBoolean answers "is it allowed"
+
+TakeResult.addResultMapElement(...) checks require-conditions while the entries are being added.
+
+Actual execution happens in take(...).
+
+That execution is not just "remove items". It does this:
+
+calls playerHasEnough(..., true, cost) for each selected single thing
+
+then runs the single thing's takeAction
+
+So TakeResult is best understood as:
+
+first, "what needs to be taken"
+
+then, "execute the take and its related actions"
+
+14.4 What GiveResult Is
+
+GiveResult is the result object for "what this transaction needs to give", defined in GiveResult.java.
+
+Like TakeResult, it also stores:
+
+That means:
+
+key: the selected single thing
+
+value: the final amount that should be given for that single thing
+
+It also tracks:
+
+conditionBoolean
+
+empty
+
+But it does not have a resultBoolean field.
+
+That is because "can this actually be given" is not fixed when the result object is created. It is checked later inside give(...), where inventory capacity and item delivery are evaluated together.
+
+The give(...) flow is:
+
+iterate over resultMap
+
+call playerCanGive(...) on each AbstractSingleThing
+
+collect all GiveItemStack objects
+
+if any entry cannot be given, return false
+
+if all entries can be given, actually give them
+
+So the right way to think about GiveResult is:
+
+it describes "what should be given"
+
+whether it can actually be delivered is only known at give(...) time
+
+14.5 Where They Sit in the Full Transaction Flow
+
+A buy flow can be understood like this:
+
+ObjectPrices.take(...) calculates the cost and returns a TakeResult
+
+ObjectProducts.give(...) calculates the reward and returns a GiveResult
+
+the trade logic checks TakeResult.getResultBoolean()
+
+then checks TakeResult.getConditionBoolean() and GiveResult.getConditionBoolean()
+
+then executes GiveResult.give(...)
+
+finally executes TakeResult.take(...)
+
+The shared container abstraction is AbstractThings.java, which defines:
+
+give(...) -> GiveResult
+
+take(...) -> TakeResult
+
+So the most stable external mental model is:
+
+AbstractThings chooses final branches from a candidate set
+
+AbstractSingleThing handles the logic of one branch
+
+TakeResult / GiveResult store and execute the final selected result
+
+15. Hook Integration: Economy Sources and Item Sources
+
+UltimateShop manages economy hooks and item hooks through HookManager.
+
+Built-in implementations are auto-registered at startup, for example:
+
+Economy: Vault, PlayerPoints, CoinsEngine, UltraEconomy, and more
+
+Items: ItemsAdder, Oraxen, MMOItems, EcoItems, Nexo, CraftEngine, and more
+
+But HookManager also exposes public registration methods:
+
+registerNewEconomyHook(...)
+
+registerNewItemHook(...)
+
+That means other developers can register custom economy or item sources from their own plugin.
+
+15.1 Custom Economy Hook
+
+The abstract base class is AbstractEconomyHook.java.
+
+The core methods you need to implement are:
+
+getEconomy(Player, currencyID): read balance
+
+takeEconomy(Player, value, currencyID): withdraw
+
+giveEconomy(Player, value, currencyID): deposit
+
+Optional:
+
+isEnabled(): return false if the underlying provider is not ready
+
+The currencyID parameter comes from the config field economy-type:
+
+Single-currency hooks like Vault will usually ignore currencyID, while multi-currency hooks like CoinsEngine use it to resolve the specific currency.
+
+Minimal example:
+
+Registration:
+
+Important notes:
+
+the registration name must exactly match economy-plugin in config
+
+if you support multiple currencies, treat economy-type as your currencyID
+
+the default AbstractEconomyHook.checkEconomy(...) implementation checks balance first, then calls takeEconomy(...) when needed
+
+15.2 Custom Item Source Hook
+
+The abstract base class is AbstractItemHook.java.
+
+You need to implement two core methods:
+
+getHookItemByID(Player, itemID): build an item from the configured ID
+
+getIDByItemStack(ItemStack): reverse-resolve an item back into your source ID
+
+This maps to config like:
+
+Minimal example:
+
+Registration:
+
+Important notes:
+
+the registration name must exactly match hook-plugin in config
+
+the actual hook-item format is entirely defined by your hook
+
+if getIDByItemStack(...) cannot resolve an ID, UltimateShop can still build items from direct hook-item config, but reverse item-source detection features will not work
+
+15.3 Good Built-In References
+
+If you want working examples to copy from, the best built-in references are:
+
+Economy hooks:
+
+EconomyVaultHook: single currency, services-manager based
+
+EconomyCoinsEngineHook: multi-currency, explicitly uses currencyID
+
+Item hooks:
+
+ItemItemsAdderHook: simple ID -> ItemStack and ItemStack -> ID
+
+ItemMMOItemsHook: composite ID format using TYPE;;ID
+
+Together, these show the hook style UltimateShop expects.
+
+Previous💳Log Transaction - Premium
+
+Last updated 56 minutes ago
 
 Add as dependency
 
-Get shop object
+UltimateShop Developer Integration Guide
 
-Get product object
+1. Understand What UltimateShop Exposes
 
-Start buy a product
+2. Declare the Dependency in Your Plugin
 
-Start sell a product
+3. Check at Runtime That UltimateShop Is Present
 
-Get player cache object
+4. Most Common Entry Point: Fetch an Item by ID
 
-Get server cache object
+5. Query Current Player Usage Counts
 
-Get price from ItemStack
+6. Preview Buy Cost
 
-Get whether the price is Vault
+7. Preview Sell Reward
 
-Give GiveResult
+8. Listen to Transaction Events
 
-Take TakeResult
+9. Bulk Sell: ShopHelper.sellAll
 
-Get TakeResult from which product
+10. Manually Execute Give / Take
+
+11. Open a Shop from Your Plugin
+
+12. Trigger Quick Buy / Sell Directly
+
+13. Practical Example: External GUI Entry with Remaining Usage Display
+
+14. Understanding TakeResult, GiveResult, and AbstractSingleThing
+
+15. Hook Integration: Economy Sources and Item Sources
 
 Copy
 repositories {
@@ -1003,31 +2317,163 @@ compileOnly("cn.superiormc.ultimateshop:plugin:[PLUGIN VERSION]")
 }
 
 Copy
-ConfigManager.configmanager.shopConfigs.get(shopID);
+softdepend:
+- UltimateShop
 
 Copy
-ObjectShop shop = ConfigManager.configmanager.shopConfigs.get(shopID);
-if (shop == null) {
+Plugin plugin = Bukkit.getPluginManager().getPlugin("UltimateShop");
+if (plugin == null || !plugin.isEnabled()) {
 return;
 }
-ObjectItem item = shop.getProduct("TEST");
-List<ObjectItem> items = shop.getProductList();
 
 Copy
-BuyProductMethod.startBuy(Inventory inventory, String shop, String product, Player player, boolean quick, boolean test, int multi);
+import cn.superiormc.ultimateshop.api.ShopHelper;
+import cn.superiormc.ultimateshop.objects.buttons.ObjectItem;
+
+ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
+if (item == null) {
+return;
+}
+
+String shopId = item.getShop();
+String productId = item.getProduct();
+String displayName = item.getDisplayName(player);
 
 Copy
-SellProductMethod.startSell(Inventory inventory, String shop, String product, Player player, boolean quick, boolean test, boolean ableMaxSell, int multi);
+int buyTimes = ShopHelper.getBuyUseTimes(item, player);
+int sellTimes = ShopHelper.getSellUseTimes(item, player);
+
+int playerBuyLimit = item.getPlayerBuyLimit(player);
+int playerSellLimit = item.getPlayerSellLimit(player);
 
 Copy
-CacheManager.cacheManager.playerCacheMap.get(player);
+int used = ShopHelper.getBuyUseTimes(item, player);
+int limit = item.getPlayerBuyLimit(player);
+
+if (limit != -1) {
+int remain = Math.max(0, limit - used);
+player.sendMessage("You can still buy " + remain + " more times");
+}
 
 Copy
-CacheManager.cacheManager.serverCache;
+ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
+String buyPriceDisplay = ShopHelper.getBuyPricesDisplay(items, player, 3);
+if (buyPriceDisplay != null) {
+player.sendMessage("Buying 3 times costs: " + buyPriceDisplay);
+}
 
 Copy
-ShopHelper.getBuyPrices(items, player, 1);
-ShopHelper.getSellPrices(items, player, 1);
+ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
+String sellPriceDisplay = ShopHelper.getSellPricesDisplay(items, player, 1);
+if (sellPriceDisplay != null) {
+player.sendMessage("Selling gives: " + sellPriceDisplay);
+}
+
+Copy
+ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
+TakeResult buyCost = ShopHelper.getBuyPrices(items, player, 3);
+GiveResult sellReward = ShopHelper.getSellPrices(items, player, 1);
+
+Copy
+import cn.superiormc.ultimateshop.api.ItemPreTransactionEvent;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+
+public final class ShopListener implements Listener {
+
+@EventHandler
+public void onPreTransaction(ItemPreTransactionEvent event) {
+String action = event.isBuyOrSell() ? "BUY" : "SELL";
+String shopId = event.getShop().getShopName();
+String productId = event.getItem().getProduct();
+int amount = event.getAmount();
+
+event.getPlayer().sendMessage(
+"About to execute " + action + " -> " + shopId + ":" + productId + " x" + amount
+);
+}
+}
+
+Copy
+@EventHandler
+public void onFinish(ItemFinishTransactionEvent event) {
+Player player = event.getPlayer();
+player.sendMessage("Transaction completed: " + event.getItem().getProduct());
+}
+
+Copy
+Map<AbstractSingleThing, BigDecimal> result =
+ShopHelper.sellAll(player, player.getInventory(), 1.0D);
+
+Copy
+Map<AbstractSingleThing, BigDecimal> result = ShopHelper.sellAll(player, inv, 1.0D);
+ShopHelper.giveThing(0, 0, player, 1.0D, result); // duplicates rewards
+
+Copy
+TakeResult takeResult = ShopHelper.getBuyPrices(player.getInventory(), player, 1);
+if (takeResult != null && takeResult.getResultBoolean()) {
+takeResult.take(0, 1, player.getInventory(), player);
+}
+
+Copy
+GiveResult giveResult = ShopHelper.getSellPrices(player.getInventory(), player, 1);
+if (giveResult != null) {
+boolean success = ShopHelper.giveThing(0, 1, player, 1.0D, giveResult.getResultMap());
+}
+
+Copy
+ShopHelper.takeThing(0, 1, player.getInventory(), player, takeResult.getResultMap());
+
+Copy
+Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "ultimateshop menu blocks Steve");
+
+Copy
+import cn.superiormc.ultimateshop.api.ShopHelper;
+import cn.superiormc.ultimateshop.gui.inv.ShopGUI;
+import cn.superiormc.ultimateshop.objects.ObjectShop;
+import cn.superiormc.ultimateshop.objects.buttons.ObjectItem;
+
+ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
+if (item == null) {
+return;
+}
+
+ObjectShop shop = item.getShopObject();
+ShopGUI.openGUI(player, shop, false, false);
+
+Copy
+import cn.superiormc.ultimateshop.methods.Product.BuyProductMethod;
+import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
+
+ProductTradeStatus status = BuyProductMethod.startBuy(item, player, true, false, 3);
+
+Copy
+import cn.superiormc.ultimateshop.methods.Product.SellProductMethod;
+import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
+
+ProductTradeStatus status = SellProductMethod.startSell(item, player, true, false, false, 3);
+
+Copy
+ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
+if (item == null) {
+return;
+}
+
+int used = ShopHelper.getBuyUseTimes(item, player);
+int limit = item.getPlayerBuyLimit(player);
+
+if (limit != -1) {
+player.sendMessage("Remaining buy count: " + Math.max(0, limit - used));
+}
+
+ShopGUI.openGUI(player, item.getShopObject(), false, false);
+
+Copy
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '{amount}$'
 
 Copy
 Map<AbstractSingleThing, BigDecimal> resultMap = takeResult.getResultMap();
@@ -1038,374 +2484,78 @@ return "This price includes Vault";
 }
 
 Copy
-int sellUseTimes = ShopHelper.getSellUseTimes(item, player);
-GiveResult giveResult = ShopHelper.getSellPrices(items, player, 1);
-giveResult.give(sellUseTimes, 1, player, 1.01);
+Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
-int buyUseTimes = ShopHelper.getBuyUseTimes(item, player);
-TakeResult takeResult = ShopHelper.getBuyPrices(items, player, 1);
-if (!takeResult.getResultBoolean) return "Your money not enough";
-takeResult.take(sellUseTimes, 1, player.getInventory(), player);
+Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
-ObjectItem item = takeResult.getThings().getItem();
-
-============================================================
-Title: Events | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/develop/events
-
-Links: 56
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus
-
-🔲General Menus
-
-🔽Buy More Menus
-
-🔀Conditional Display - Premium
-
-🛏️Bedrock Menus - Premium
-
-🥉Display Item Add Lore
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-💻Develop
-
-Develop Guide
-
-Events
-
-Hook into UltimateShop
-
-Powered by GitBook
-
-On this page
+buy-prices:
+1:
+economy-plugin: MyEconomy
+economy-type: gems
+amount: 100
+placeholder: '{amount} Gems'
 
 Copy
+public final class MyEconomyHook extends AbstractEconomyHook {
 
-💻Develop
-
-Events
-
-Start from 3.6.0, UltimateShop bring 2 custom Bukkit events. They are:
-
-ItemPreTransactionEvent - will call we will start take price and give player products. Can modify GiveResult and TakeResult. The transaction maybe failed by player's inventory full.
-
-ItemFinshTransactionEvent - will call when all transaction steps are finished. Read-only.
-
-PreviousDevelop GuideNextHook into UltimateShop
-
-Last updated 1 year ago
-
-============================================================
-Title: Hook into UltimateShop | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/develop/hook-into-ultimateshop
-
-Links: 56
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus
-
-🔲General Menus
-
-🔽Buy More Menus
-
-🔀Conditional Display - Premium
-
-🛏️Bedrock Menus - Premium
-
-🥉Display Item Add Lore
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-💻Develop
-
-Develop Guide
-
-Events
-
-Hook into UltimateShop
-
-Powered by GitBook
-
-On this page
-
-Copy
-
-💻Develop
-
-Hook into UltimateShop
-
-Economy Plugins
-
-Add a new class that extends AbstractEconomyHook.
-
-Copy
-public class YourClassName extends AbstractEconomyHook {
-
-public YourClassName() {
-super("YourPluginName");
+public MyEconomyHook() {
+super("MyEconomy");
 }
 
 @Override
 public double getEconomy(Player player, String currencyID) {
-// Your code here.
+return MyEconomyApi.balance(player.getUniqueId(), currencyID);
 }
 
 @Override
 public void takeEconomy(Player player, double value, String currencyID) {
-// Your code here.;
+MyEconomyApi.withdraw(player.getUniqueId(), currencyID, value);
 }
 
 @Override
 public void giveEconomy(Player player, double value, String currencyID) {
-// Your code here.
+MyEconomyApi.deposit(player.getUniqueId(), currencyID, value);
 }
 }
-
-Register into our hook manager.
-
-Item Plugins
-
-Similar to economy plugins, no further elaboration is needed.
-
-PreviousEvents
-
-Last updated 1 year ago
-
-Economy Plugins
-
-Item Plugins
 
 Copy
-HookManager.hookManager.registerNewEconomyHook("YourPluginName", new YourClassName())
+HookManager.hookManager.registerNewEconomyHook("MyEconomy", new MyEconomyHook());
+
+Copy
+products:
+1:
+hook-plugin: MyItems
+hook-item: sword_of_flame
+
+Copy
+public final class MyItemHook extends AbstractItemHook {
+
+public MyItemHook() {
+super("MyItems");
+}
+
+@Override
+public ItemStack getHookItemByID(Player player, String itemID) {
+ItemStack item = MyItemsApi.build(itemID);
+return item == null ? returnNullItem(itemID) : item;
+}
+
+@Override
+public String getIDByItemStack(ItemStack hookItem) {
+return MyItemsApi.findId(hookItem);
+}
+}
+
+Copy
+HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 
 ============================================================
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -1534,10 +2684,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -1695,7 +2841,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Enable Math Feature
 
@@ -1747,7 +2893,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -1876,10 +3022,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -2037,7 +3179,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Enable Math Feature
 
@@ -2089,7 +3231,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -2218,10 +3360,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -2290,7 +3428,7 @@ same: '-'
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -2419,10 +3557,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -2584,7 +3718,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -2713,10 +3847,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -2878,7 +4008,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -3007,10 +4137,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -3070,7 +4196,7 @@ Built-in Color Parser
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -3199,10 +4325,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -3281,7 +4403,7 @@ Do not forgot also update your auto add lore configs to make product description
 
 Previous🔢Number FormatNext🔍Custom Item Match Method
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Options
 
@@ -3328,7 +4450,7 @@ max-amount: 128
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -3457,10 +4579,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -3565,7 +4683,7 @@ buy-prices:
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -3694,10 +4812,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -3756,7 +4870,7 @@ Last updated 7 months ago
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -3885,10 +4999,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -3940,7 +5050,7 @@ SMART - Early Alpha
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -4069,10 +5179,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -4427,7 +5533,7 @@ amount: 10
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -4556,10 +5662,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -4616,7 +5718,7 @@ Showcase
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -4745,10 +5847,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -4780,7 +5878,7 @@ Last updated 7 months ago
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -4909,10 +6007,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -4965,7 +6059,7 @@ replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as her
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -5094,10 +6188,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -5180,7 +6270,7 @@ material: superior_sword # If saved item id is 'superior_sword'
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -5309,10 +6399,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -5465,7 +6551,7 @@ plugin: 'DecentHolograms'
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -5594,10 +6680,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -5657,7 +6739,7 @@ Last updated 1 month ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -5786,10 +6868,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -6031,7 +7109,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -6160,10 +7238,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -6394,7 +7468,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 General Options
 
@@ -6719,7 +7793,7 @@ type: update_title
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -6848,10 +7922,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -7007,7 +8077,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 General Options
 
@@ -7110,7 +8180,7 @@ value: 200
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -7239,10 +8309,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -7320,7 +8386,7 @@ Multi
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 57
+Links: 55
 
 UltimateShop Wiki
 
@@ -7449,10 +8515,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -7527,7 +8589,7 @@ placeholder: '5 levels'
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -7656,10 +8718,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -7805,7 +8863,7 @@ https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 57
+Links: 55
 
 UltimateShop Wiki
 
@@ -7936,10 +8994,6 @@ Component Format
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -8663,7 +9717,7 @@ damage-resistant: is_fall # Damage Type Tag
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 57
+Links: 55
 
 UltimateShop Wiki
 
@@ -8794,10 +9848,6 @@ Component Format
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -9093,7 +10143,7 @@ speed-multiplier: 0.4
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -9222,10 +10272,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -9323,13 +10369,13 @@ false - Boolean constant representing 0
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -9458,10 +10504,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -9703,7 +10745,7 @@ secret-shop-items: []
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -9832,10 +10874,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -9895,7 +10933,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Java Version
 
@@ -9909,7 +10947,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -10038,10 +11076,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -10213,7 +11247,7 @@ Require ultimateshop.updateguititle permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 FAQ:
 
@@ -10265,7 +11299,7 @@ ultimateshop.bypass.protection
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -10394,10 +11428,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -10576,13 +11606,13 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -10711,10 +11741,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -11002,7 +12028,7 @@ anotherNBTComponent.theNBTKey: 5
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -11131,10 +12157,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -11500,7 +12522,7 @@ period-tick: 6000
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -11629,10 +12651,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -11712,7 +12730,7 @@ org.h2.Driver
 
 Previous⌨️Commands & PermissionsNext🚀Performance
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Data Type
 
@@ -11735,7 +12753,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -11864,10 +12882,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -11983,7 +12997,7 @@ Q: How to reset dynamic price?
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -12112,10 +13126,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -12153,7 +13163,7 @@ Last updated 1 month ago
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -12282,10 +13292,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -12421,7 +13427,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -12550,10 +13556,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -12613,7 +13615,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Java Version
 
@@ -12627,7 +13629,7 @@ An economy plugin if you want to use custom currency
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -12756,10 +13758,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -12879,7 +13877,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Types
 
@@ -13063,7 +14061,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -13193,10 +14191,6 @@ UltimateShop Wiki
 
 Develop Guide
 
-Events
-
-Hook into UltimateShop
-
 Powered by GitBook
 
 On this page
@@ -13255,7 +14249,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Requirements
 
@@ -13347,7 +14341,7 @@ only-sell: '&6Sell: {sell-price}'
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -13476,10 +14470,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -13630,7 +14620,7 @@ max-amount: 64
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -13759,10 +14749,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -13815,7 +14801,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Set display condition
 
@@ -13838,7 +14824,7 @@ layout:
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -13967,10 +14953,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -14080,7 +15062,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 General Setting
 
@@ -14123,7 +15105,7 @@ add-lore:
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -14252,10 +15234,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -14375,7 +15353,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Types
 
@@ -14559,7 +15537,7 @@ click-update: false
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 55
+Links: 53
 
 UltimateShop Wiki
 
@@ -14688,10 +15666,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -14717,7 +15691,7 @@ Last updated 2 months ago
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -14846,10 +15820,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -15227,7 +16197,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -15356,10 +16326,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -15737,7 +16703,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -15866,10 +16832,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -15972,7 +16934,7 @@ layout:
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -16101,10 +17063,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -16220,7 +17178,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -16349,10 +17307,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -16517,7 +17471,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Config
 
@@ -16605,7 +17559,7 @@ start-apply: 0
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -16734,10 +17688,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -16958,7 +17908,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Settings
 
@@ -16977,7 +17927,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -17106,10 +18056,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -17322,7 +18268,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -17451,10 +18397,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -17594,7 +18536,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -17723,10 +18665,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -17936,7 +18874,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -18065,10 +19003,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -18143,7 +19077,7 @@ FAQ: Restock
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -18272,10 +19206,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -18605,7 +19535,7 @@ sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -18734,10 +19664,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -19058,7 +19984,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 General Options
 
@@ -19110,7 +20036,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -19239,10 +20165,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -19754,7 +20676,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 What Is a Single Thing?
 
@@ -20059,7 +20981,7 @@ add-price-lore:
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 56
+Links: 54
 
 UltimateShop Wiki
 
@@ -20188,10 +21110,6 @@ UltimateShop Wiki
 💻Develop
 
 Develop Guide
-
-Events
-
-Hook into UltimateShop
 
 Powered by GitBook
 
@@ -20412,7 +21330,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Settings
 
