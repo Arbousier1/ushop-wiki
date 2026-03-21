@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-20T01:27:57Z
+Generated UTC: 2026-03-21T01:23:14Z
 Page Count: 62
 
 ============================================================
@@ -1191,7 +1191,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 56 minutes ago
+Last updated 14 hours ago
 
 Add as dependency
 
@@ -2271,7 +2271,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 56 minutes ago
+Last updated 14 hours ago
 
 Add as dependency
 
@@ -2841,7 +2841,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Enable Math Feature
 
@@ -3179,7 +3179,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Enable Math Feature
 
@@ -10933,7 +10933,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Java Version
 
@@ -11247,7 +11247,7 @@ Require ultimateshop.updateguititle permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 FAQ:
 
@@ -11606,7 +11606,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -13615,7 +13615,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Java Version
 
@@ -13877,7 +13877,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Types
 
@@ -14801,7 +14801,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Set display condition
 
@@ -15062,7 +15062,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 General Setting
 
@@ -15353,7 +15353,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Types
 
@@ -17471,7 +17471,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Config
 
@@ -17908,7 +17908,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Settings
 
@@ -19984,7 +19984,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 General Options
 
@@ -21330,7 +21330,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Settings
 
