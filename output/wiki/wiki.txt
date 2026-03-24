@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-23T01:46:09Z
+Generated UTC: 2026-03-24T01:26:19Z
 Page Count: 62
 
 ============================================================
@@ -1191,7 +1191,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Add as dependency
 
@@ -2271,7 +2271,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Add as dependency
 
@@ -2841,7 +2841,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Enable Math Feature
 
@@ -3179,7 +3179,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Enable Math Feature
 
@@ -7468,7 +7468,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 General Options
 
@@ -8077,7 +8077,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 General Options
 
@@ -10369,7 +10369,7 @@ false - Boolean constant representing 0
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -10933,7 +10933,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 23 days ago
+Last updated 25 days ago
 
 Java Version
 
@@ -11247,7 +11247,7 @@ Require ultimateshop.updateguititle permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 FAQ:
 
@@ -11606,7 +11606,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -13615,7 +13615,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 23 days ago
+Last updated 25 days ago
 
 Java Version
 
@@ -13877,7 +13877,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Types
 
@@ -14249,7 +14249,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Requirements
 
@@ -14801,7 +14801,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Set display condition
 
@@ -15353,7 +15353,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Types
 
@@ -16168,7 +16168,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Built-in Placeholders List
 
@@ -16674,7 +16674,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Built-in Placeholders List
 
@@ -16895,7 +16895,7 @@ Replace yourPlaceholderName to the file name of the conditional placeholder you 
 
 Previous🎲Random Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Config
 
@@ -17471,7 +17471,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Config
 
@@ -17908,7 +17908,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Settings
 
@@ -19984,7 +19984,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 23 days ago
+Last updated 25 days ago
 
 General Options
 
@@ -20676,7 +20676,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 What Is a Single Thing?
 
@@ -21330,7 +21330,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Settings
 
