@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-24T01:26:19Z
+Generated UTC: 2026-03-25T01:43:53Z
 Page Count: 62
 
 ============================================================
@@ -13,6 +13,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -222,7 +224,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Links
 
@@ -243,6 +245,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -402,6 +406,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -1191,7 +1197,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Add as dependency
 
@@ -1483,6 +1489,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -2271,7 +2279,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Add as dependency
 
@@ -2563,6 +2571,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -2841,7 +2851,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Enable Math Feature
 
@@ -2901,6 +2911,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -3179,7 +3191,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Enable Math Feature
 
@@ -3238,6 +3250,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -3435,6 +3449,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -3726,6 +3742,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -4016,6 +4034,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -4203,6 +4223,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -4458,6 +4480,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -4691,6 +4715,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -4878,6 +4904,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -5057,6 +5085,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -5541,6 +5571,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -5726,6 +5758,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -5885,6 +5919,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -6066,6 +6102,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -6277,6 +6315,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -6559,6 +6599,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -6746,6 +6788,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -7117,6 +7161,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -7468,7 +7514,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 General Options
 
@@ -7801,6 +7847,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -8077,7 +8125,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 General Options
 
@@ -8187,6 +8235,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -8394,6 +8444,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -8596,6 +8648,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -8870,6 +8924,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -9725,6 +9781,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -10151,6 +10209,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -10382,6 +10442,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -10753,6 +10815,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -10933,7 +10997,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Java Version
 
@@ -10954,6 +11018,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -11307,6 +11373,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -11606,7 +11674,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -11619,6 +11687,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -12035,6 +12105,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -12530,6 +12602,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -12760,6 +12834,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -13005,6 +13081,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -13170,6 +13248,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -13435,6 +13515,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -13615,7 +13697,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Java Version
 
@@ -13636,6 +13718,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -13877,7 +13961,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Types
 
@@ -14069,6 +14153,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -14249,7 +14335,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Requirements
 
@@ -14348,6 +14434,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -14628,6 +14716,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -14801,7 +14891,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Set display condition
 
@@ -14831,6 +14921,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -15113,6 +15205,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -15353,7 +15447,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Types
 
@@ -15545,6 +15639,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -15685,7 +15781,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -15698,6 +15794,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -16205,6 +16303,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -16711,6 +16811,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -16941,6 +17043,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -17185,6 +17289,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -17567,6 +17673,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -17908,7 +18016,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Settings
 
@@ -17934,6 +18042,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -18276,6 +18386,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -18543,6 +18655,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -18882,6 +18996,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -19084,6 +19200,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -19542,6 +19660,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -20043,6 +20163,8 @@ UltimateShop Wiki
 ⌘Ctrlk
 
 UltimateShop Wiki
+
+3.4.8+
 
 🎉Welcome
 
@@ -20989,6 +21111,8 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+3.4.8+
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -21330,7 +21454,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Settings
 
