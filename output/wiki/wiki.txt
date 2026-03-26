@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-25T01:43:53Z
+Generated UTC: 2026-03-26T01:50:09Z
 Page Count: 62
 
 ============================================================
@@ -1197,7 +1197,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Add as dependency
 
@@ -2279,7 +2279,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous💳Log Transaction - Premium
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Add as dependency
 
@@ -2851,7 +2851,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Enable Math Feature
 
@@ -3191,7 +3191,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Enable Math Feature
 
@@ -6292,7 +6292,7 @@ Saved items will be cached in memory continuously after loading to avoid repeate
 
 Previous🎁Sell Chest - PremiumNext🌍Localized Item Name - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Create your item
 
@@ -7514,7 +7514,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 12 days ago
+Last updated 14 days ago
 
 General Options
 
@@ -8125,7 +8125,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 12 days ago
+Last updated 14 days ago
 
 General Options
 
@@ -10997,7 +10997,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Java Version
 
@@ -11313,7 +11313,7 @@ Require ultimateshop.updateguititle permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 FAQ:
 
@@ -11674,7 +11674,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -13697,7 +13697,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Java Version
 
@@ -13961,7 +13961,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 Types
 
@@ -14335,7 +14335,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 14 days ago
+Last updated 16 days ago
 
 Requirements
 
@@ -14891,7 +14891,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 Set display condition
 
@@ -15447,7 +15447,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 Types
 
@@ -18016,7 +18016,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 Settings
 
@@ -20104,7 +20104,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 General Options
 
@@ -20798,7 +20798,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 7 days ago
+Last updated 9 days ago
 
 What Is a Single Thing?
 
@@ -21454,7 +21454,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 Settings
 
