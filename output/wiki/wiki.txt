@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-26T01:50:09Z
+Generated UTC: 2026-03-27T01:50:22Z
 Page Count: 62
 
 ============================================================
@@ -10997,7 +10997,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Java Version
 
@@ -14335,7 +14335,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Requirements
 
