@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-03-28T01:30:02Z
-Page Count: 62
+Generated UTC: 2026-03-29T01:52:39Z
+Page Count: 63
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 53
+Links: 54
 
 UltimateShop Wiki
 
@@ -133,6 +133,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -238,7 +240,7 @@ Info
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -365,6 +367,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -399,7 +403,7 @@ Last updated 2 months ago
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -526,6 +530,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -1195,9 +1201,9 @@ ItemMMOItemsHook: composite ID format using TYPE;;ID
 
 Together, these show the hook style UltimateShop expects.
 
-Previous💳Log Transaction - Premium
+Previous🌈Earn Limit
 
-Last updated 7 days ago
+Last updated 9 days ago
 
 Add as dependency
 
@@ -1481,7 +1487,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -1608,6 +1614,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -2277,9 +2285,9 @@ ItemMMOItemsHook: composite ID format using TYPE;;ID
 
 Together, these show the hook style UltimateShop expects.
 
-Previous💳Log Transaction - Premium
+Previous🌈Earn Limit
 
-Last updated 7 days ago
+Last updated 9 days ago
 
 Add as dependency
 
@@ -2563,7 +2571,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -2690,6 +2698,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -2851,7 +2861,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Enable Math Feature
 
@@ -2903,7 +2913,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -3030,6 +3040,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -3191,7 +3203,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Enable Math Feature
 
@@ -3243,7 +3255,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -3370,6 +3382,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -3442,7 +3456,7 @@ same: '-'
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -3569,6 +3583,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -3734,7 +3750,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -3861,6 +3877,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -4026,7 +4044,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -4153,6 +4171,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -4216,7 +4236,7 @@ Built-in Color Parser
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -4343,6 +4363,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -4472,7 +4494,7 @@ max-amount: 128
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -4599,6 +4621,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -4704,10 +4728,10 @@ buy-prices:
 # You can also use this in buy price!
 
 ============================================================
-Title: 💴Easy Prices | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/easy-prices
+Title: 🌈Earn Limit | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -4834,6 +4858,175 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+✨Features
+
+🌈Earn Limit
+
+EconomyLimit
+
+EconomyLimit is an earning limit plugin built around the Vault economy API.
+It injects into supported economy providers, tracks player income, and applies configurable earning caps based on your rules.
+When a player reaches the cap of any active rule during its reset period, the extra money is not lost.
+Instead, it is redirected into a virtual bank managed by the plugin.
+Players can withdraw money from the virtual bank later, but withdrawals still count as earned money.
+If a withdrawal would exceed the current earning limit, it will be denied.
+
+Get it here.
+
+Previous💳Log Transaction - PremiumNextDevelop Guide
+
+Last updated 35 minutes ago
+
+EconomyLimit
+
+Get it here.
+
+============================================================
+Title: 💴Easy Prices | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/easy-prices
+
+Links: 55
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+3.4.8+
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -4896,7 +5089,7 @@ Last updated 7 months ago
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -5023,6 +5216,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -5078,7 +5273,7 @@ SMART - Early Alpha
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -5205,6 +5400,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -5563,7 +5760,7 @@ amount: 10
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -5690,6 +5887,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -5738,7 +5937,7 @@ Format available placeholders:
 
 Showcase
 
-Previous🔑Give Item MethodNextDevelop Guide
+Previous🔑Give Item MethodNext🌈Earn Limit
 
 Last updated 4 months ago
 
@@ -5750,7 +5949,7 @@ Showcase
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -5877,6 +6076,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -5912,7 +6113,7 @@ Last updated 8 months ago
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -6039,6 +6240,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -6095,7 +6298,7 @@ replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as her
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -6222,6 +6425,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -6308,7 +6513,7 @@ material: superior_sword # If saved item id is 'superior_sword'
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -6435,6 +6640,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -6591,7 +6798,7 @@ plugin: 'DecentHolograms'
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -6718,6 +6925,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -6781,7 +6990,7 @@ Last updated 1 month ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -6908,6 +7117,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -7153,7 +7364,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -7281,6 +7492,8 @@ UltimateShop Wiki
 
 💳Log Transaction - Premium
 
+🌈Earn Limit
+
 💻Develop
 
 Develop Guide
@@ -7359,6 +7572,8 @@ REQUIRE_CONDITION_NOT_MEET
 NOT_ENOUGH
 
 INVENTORY_FULL
+
+API_CANCEL
 
 Available Placeholders
 
@@ -7514,7 +7729,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 15 days ago
+Last updated 10 minutes ago
 
 General Options
 
@@ -7839,7 +8054,7 @@ type: update_title
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -7966,6 +8181,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -8125,7 +8342,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 15 days ago
+Last updated 17 days ago
 
 General Options
 
@@ -8227,214 +8444,6 @@ value: 200
 ============================================================
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
-
-Links: 54
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-3.4.8+
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus
-
-🔲General Menus
-
-🔽Buy More Menus
-
-🔀Conditional Display - Premium
-
-🛏️Bedrock Menus - Premium
-
-🥉Display Item Add Lore
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-
-📋Format
-
-🖼️Display Item Format
-
-You can use display item format in menu button and shop product's display-item option.
-
-Single
-
-If your display item is only one and does not have any condition to display it, simply use Item Format in this section!
-
-Copy
-B:
-display-item:
-material: BREAD
-name: '&cSuper Bread'
-
-Multi
-
-If you want set multi display item for this button or product and use condition system to make us choose one of it to display, simply use this new format as below:
-
-Copy
-1:
-display-item:
-default:
-material: GREEN_WOOL
-amount: 1
-name: '&eDay 1'
-lore:
-- '&fToday Reward:'
-- '&7 - 10 Gems'
-- ''
-- '&#FFFACDClick to claim!'
-claimed:
-material: RED_WOOL
-amount: 1
-name: '&eDay 1'
-lore:
-- '&fIncluded Reward:'
-- '&7 - 10 Gems'
-- ''
-- '&#ff3300Already claimed!'
-display-item-conditions:
-claimed: # Condition ID
-1: # Means first condition
-type: placeholder
-placeholder: '%ultimateshop_streak_A_{buy-times-player}%'
-rule: '>'
-value: '0'
-2: # You can add more condition with Condition Format
-type: world
-world: 'testCondition'
-default:
-1:
-type: placeholder
-placeholder: '%ultimateshop_streak_A_{buy-times-player}%'
-rule: '='
-value: '0'z
-
-Previous💹EconomyFormat™Next🎬Action Format
-
-Last updated 10 months ago
-
-Single
-
-Multi
-
-============================================================
-Title: 💹EconomyFormat™ | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
 Links: 55
 
@@ -8564,6 +8573,8 @@ UltimateShop Wiki
 
 💳Log Transaction - Premium
 
+🌈Earn Limit
+
 💻Develop
 
 Develop Guide
@@ -8576,72 +8587,75 @@ Copy
 
 📋Format
 
-💹EconomyFormat™
+🖼️Display Item Format
 
-EconomyFormat is a configuration format provided by plugins that can associate with your server economy. If an option in a configuration file requires or supports EconomyFormat, we will annotate it.
+You can use display item format in menu button and shop product's display-item option.
 
-Please remember: UltimateShop is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. Vault is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
+Single
 
-Hook Economy
+If your display item is only one and does not have any condition to display it, simply use Item Format in this section!
 
-Hook economy use format as below:
+Copy
+B:
+display-item:
+material: BREAD
+name: '&cSuper Bread'
 
-economy-plugin: What plugin you want this price economy hook into, for now, UltimateShop supports Vault, GamePoints, PlayerPoints, CoinsEngine, UltraEconomy, EcoBits, PEconomy, RedisEconomy, RoyaleEconomy, VotingPlugin. Required.
+Multi
 
-economy-type: If economy plugin is multi-currency economy plugin, you have to type currency name here. Required if you set a multi-currency plugin, otherwise it's optional.
-
-amount: Price Amount. Required.
-
-max-amount: Max amount, useful for dynamic prices. Optional.
-
-min-amount: Min amount, useful for dynamic prices.Optional.
-
-Example:
+If you want set multi display item for this button or product and use condition system to make us choose one of it to display, simply use this new format as below:
 
 Copy
 1:
-economy-plugin: Vault
-# If you set Economy plugin to CoinsEngine, then:
-# economy-plugin: CoinsEngine
-# economy-type: Coin
-# Yeah, you need add economy-type option here because its a multi-currency plugin.
-# For this, players will always cost 5$.
-amount: 5
-placeholder: '$5'
-
-Vanilla Economy
-
-Vanilla economy use format as below.
-
-economy-type: Supports exp, levels. Required.
-
-amount: Price Amount. Required.
-
-max-amount: Max amount, useful for dynamic prices. Optional.
-
-min-amount: Min amount, useful for dynamic prices.Optional.
-
-Example:
-
-PreviousComponent FormatNext🖼️Display Item Format
-
-Last updated 1 year ago
-
-Hook Economy
-
-Vanilla Economy
-
-Copy
+display-item:
+default:
+material: GREEN_WOOL
+amount: 1
+name: '&eDay 1'
+lore:
+- '&fToday Reward:'
+- '&7 - 10 Gems'
+- ''
+- '&#FFFACDClick to claim!'
+claimed:
+material: RED_WOOL
+amount: 1
+name: '&eDay 1'
+lore:
+- '&fIncluded Reward:'
+- '&7 - 10 Gems'
+- ''
+- '&#ff3300Already claimed!'
+display-item-conditions:
+claimed: # Condition ID
+1: # Means first condition
+type: placeholder
+placeholder: '%ultimateshop_streak_A_{buy-times-player}%'
+rule: '>'
+value: '0'
+2: # You can add more condition with Condition Format
+type: world
+world: 'testCondition'
+default:
 1:
-economy-type: levels
-amount: 5
-placeholder: '5 levels'
+type: placeholder
+placeholder: '%ultimateshop_streak_A_{buy-times-player}%'
+rule: '='
+value: '0'z
+
+Previous💹EconomyFormat™Next🎬Action Format
+
+Last updated 10 months ago
+
+Single
+
+Multi
 
 ============================================================
-Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
+Title: 💹EconomyFormat™ | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 54
+Links: 56
 
 UltimateShop Wiki
 
@@ -8768,6 +8782,215 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+📋Format
+
+💹EconomyFormat™
+
+EconomyFormat is a configuration format provided by plugins that can associate with your server economy. If an option in a configuration file requires or supports EconomyFormat, we will annotate it.
+
+Please remember: UltimateShop is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. Vault is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
+
+Hook Economy
+
+Hook economy use format as below:
+
+economy-plugin: What plugin you want this price economy hook into, for now, UltimateShop supports Vault, GamePoints, PlayerPoints, CoinsEngine, UltraEconomy, EcoBits, PEconomy, RedisEconomy, RoyaleEconomy, VotingPlugin. Required.
+
+economy-type: If economy plugin is multi-currency economy plugin, you have to type currency name here. Required if you set a multi-currency plugin, otherwise it's optional.
+
+amount: Price Amount. Required.
+
+max-amount: Max amount, useful for dynamic prices. Optional.
+
+min-amount: Min amount, useful for dynamic prices.Optional.
+
+Example:
+
+Copy
+1:
+economy-plugin: Vault
+# If you set Economy plugin to CoinsEngine, then:
+# economy-plugin: CoinsEngine
+# economy-type: Coin
+# Yeah, you need add economy-type option here because its a multi-currency plugin.
+# For this, players will always cost 5$.
+amount: 5
+placeholder: '$5'
+
+Vanilla Economy
+
+Vanilla economy use format as below.
+
+economy-type: Supports exp, levels. Required.
+
+amount: Price Amount. Required.
+
+max-amount: Max amount, useful for dynamic prices. Optional.
+
+min-amount: Min amount, useful for dynamic prices.Optional.
+
+Example:
+
+PreviousComponent FormatNext🖼️Display Item Format
+
+Last updated 1 year ago
+
+Hook Economy
+
+Vanilla Economy
+
+Copy
+1:
+economy-type: levels
+amount: 5
+placeholder: '5 levels'
+
+============================================================
+Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
+
+Links: 55
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+3.4.8+
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -8917,7 +9140,7 @@ https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 55
+Links: 56
 
 UltimateShop Wiki
 
@@ -9046,6 +9269,8 @@ Component Format
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -9773,7 +9998,7 @@ damage-resistant: is_fall # Damage Type Tag
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 55
+Links: 56
 
 UltimateShop Wiki
 
@@ -9902,6 +10127,8 @@ Component Format
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -10201,7 +10428,7 @@ speed-multiplier: 0.4
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -10328,6 +10555,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -10435,7 +10664,7 @@ Last updated 1 month ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -10562,6 +10791,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -10807,7 +11038,7 @@ secret-shop-items: []
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -10934,6 +11165,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -10997,7 +11230,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Java Version
 
@@ -11011,7 +11244,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -11138,6 +11371,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -11311,9 +11546,15 @@ Require server enable title update feature, for more info, please view this page
 
 Require ultimateshop.updateguititle permission.
 
+/shop editor (Premium version only)
+
+Open in-game editor.
+
+Require ultimateshop.editor permission.
+
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 29 days ago
+Last updated 39 minutes ago
 
 FAQ:
 
@@ -11361,11 +11602,13 @@ ultimateshop.bypass.protection
 
 /shop updateguititle [player] (Premium version only)
 
+/shop editor (Premium version only)
+
 ============================================================
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -11492,6 +11735,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -11665,6 +11910,20 @@ Click here to know more.
 
 ✅
 
+Shulker Box Sell (Alpha)
+After enable this feature in config.yml file, plugin will auto check content of shulker box and sell them. Should support common sell, sell stick, sell all GUI, sell chest and so on.
+
+❌
+
+✅
+
+In-game Editor
+You can access to in-game editor by using /shop editor command.
+
+❌
+
+✅
+
 More...
 Many small differences were not mentioned here or, I forgot them put here, and more features that are only available in the paid version will be added in the future!
 
@@ -11674,13 +11933,13 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 29 days ago
+Last updated 18 minutes ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -11808,6 +12067,8 @@ UltimateShop Wiki
 
 💳Log Transaction - Premium
 
+🌈Earn Limit
+
 💻Develop
 
 Develop Guide
@@ -11906,6 +12167,8 @@ CMI
 
 DecentHolograms
 
+FancyHolograms
+
 Indirect compatibility
 
 Indirect compatibility refers to the flexible use of various features of plugins to enable them to associate with these plugins.
@@ -11982,7 +12245,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 1 month ago
+Last updated 40 minutes ago
 
 Direct compatibility
 
@@ -12098,7 +12361,7 @@ anotherNBTComponent.theNBTKey: 5
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -12225,6 +12488,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -12594,7 +12859,7 @@ period-tick: 6000
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -12721,6 +12986,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -12827,7 +13094,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -12954,6 +13221,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -13073,7 +13342,7 @@ Q: How to reset dynamic price?
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -13200,6 +13469,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -13241,7 +13512,7 @@ Last updated 1 month ago
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -13368,6 +13639,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -13507,7 +13780,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -13634,6 +13907,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -13697,7 +13972,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Java Version
 
@@ -13711,7 +13986,7 @@ An economy plugin if you want to use custom currency
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -13838,6 +14113,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -13961,7 +14238,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Types
 
@@ -14145,7 +14422,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -14273,6 +14550,8 @@ UltimateShop Wiki
 
 💳Log Transaction - Premium
 
+🌈Earn Limit
+
 💻Develop
 
 Develop Guide
@@ -14335,7 +14614,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 17 days ago
+Last updated 19 days ago
 
 Requirements
 
@@ -14427,7 +14706,7 @@ only-sell: '&6Sell: {sell-price}'
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -14554,6 +14833,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -14708,7 +14989,7 @@ max-amount: 64
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -14835,6 +15116,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -14891,7 +15174,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Set display condition
 
@@ -14914,7 +15197,7 @@ layout:
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -15041,6 +15324,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -15197,7 +15482,7 @@ add-lore:
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -15325,6 +15610,8 @@ UltimateShop Wiki
 
 💳Log Transaction - Premium
 
+🌈Earn Limit
+
 💻Develop
 
 Develop Guide
@@ -15447,7 +15734,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Types
 
@@ -15631,162 +15918,6 @@ click-update: false
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 53
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-3.4.8+
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus
-
-🔲General Menus
-
-🔽Buy More Menus
-
-🔀Conditional Display - Premium
-
-🛏️Bedrock Menus - Premium
-
-🥉Display Item Add Lore
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-
-🌏Other Language Wiki
-
-Wiki translations in other languages come from the community and do not represent the official position. They may be outdated or contain errors.
-
-Chinese: 中文
-
-Translator: SnowCutieOwO
-
-Site: Click here (点击这里)
-
-Previous🎉WelcomeNext💬Config Pack
-
-Last updated 3 months ago
-
-============================================================
-Title: 🔧Built-in Placeholders | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/placeholders
-
 Links: 54
 
 UltimateShop Wiki
@@ -15914,6 +16045,166 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+🌏Other Language Wiki
+
+Wiki translations in other languages come from the community and do not represent the official position. They may be outdated or contain errors.
+
+Chinese: 中文
+
+Translator: SnowCutieOwO
+
+Site: Click here (点击这里)
+
+Previous🎉WelcomeNext💬Config Pack
+
+Last updated 3 months ago
+
+============================================================
+Title: 🔧Built-in Placeholders | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/placeholders
+
+Links: 55
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+3.4.8+
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -16295,7 +16586,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -16422,6 +16713,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -16803,7 +17096,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -16930,6 +17223,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -17036,7 +17331,7 @@ layout:
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -17163,6 +17458,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -17282,7 +17579,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -17409,6 +17706,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -17665,7 +17964,7 @@ start-apply: 0
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -17792,6 +18091,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -18016,7 +18317,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Settings
 
@@ -18035,7 +18336,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -18163,6 +18464,8 @@ UltimateShop Wiki
 
 💳Log Transaction - Premium
 
+🌈Earn Limit
+
 💻Develop
 
 Develop Guide
@@ -18226,7 +18529,7 @@ Seasonal Product
 
 Previous♻️Product Config: Buy/Sell Times ResetNext🌱Example: Stock (like in life)
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Product A
 
@@ -18378,7 +18681,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -18505,6 +18808,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -18648,7 +18953,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -18775,6 +19080,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -18988,7 +19295,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -19115,6 +19422,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -19193,7 +19502,7 @@ FAQ: Restock
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -19320,6 +19629,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -19653,7 +19964,7 @@ sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -19780,6 +20091,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -20104,7 +20417,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 General Options
 
@@ -20156,7 +20469,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -20283,6 +20596,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -20798,7 +21113,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 What Is a Single Thing?
 
@@ -21103,7 +21418,7 @@ add-price-lore:
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 54
+Links: 55
 
 UltimateShop Wiki
 
@@ -21230,6 +21545,8 @@ UltimateShop Wiki
 🔑Give Item Method
 
 💳Log Transaction - Premium
+
+🌈Earn Limit
 
 💻Develop
 
@@ -21454,7 +21771,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Settings
 
