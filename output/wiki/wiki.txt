@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-03T01:49:49Z
+Generated UTC: 2026-04-04T01:43:00Z
 Page Count: 63
 
 ============================================================
@@ -3421,7 +3421,7 @@ Showcase
 
 Previous🔄Dynamic PriceNext🌏Advanced Language Managment
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Dynamic Price Status
 
@@ -3650,7 +3650,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Default Language
 
@@ -3942,7 +3942,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Default Language
 
@@ -7681,7 +7681,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 General Options
 
@@ -11863,7 +11863,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12465,7 +12465,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -14152,7 +14152,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Types
 
@@ -15082,7 +15082,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Set display condition
 
@@ -15638,7 +15638,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Types
 
@@ -15972,7 +15972,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -18207,7 +18207,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Settings
 
@@ -21645,7 +21645,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Settings
 
