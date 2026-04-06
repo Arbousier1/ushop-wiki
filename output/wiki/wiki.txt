@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-05T01:53:57Z
+Generated UTC: 2026-04-06T01:55:27Z
 Page Count: 63
 
 ============================================================
@@ -1197,7 +1197,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Add as dependency
 
@@ -2279,7 +2279,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Add as dependency
 
@@ -4862,7 +4862,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 EconomyLimit
 
@@ -8292,7 +8292,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 23 days ago
+Last updated 25 days ago
 
 General Options
 
@@ -11486,7 +11486,7 @@ Require ultimateshop.editor permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 FAQ:
 
@@ -11863,7 +11863,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 6 days ago
+Last updated 8 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12173,7 +12173,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 6 days ago
+Last updated 8 days ago
 
 Direct compatibility
 
@@ -14152,7 +14152,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Types
 
@@ -14526,7 +14526,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Requirements
 
@@ -15082,7 +15082,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Set display condition
 
@@ -15638,7 +15638,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Types
 
@@ -15972,7 +15972,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -18207,7 +18207,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Settings
 
@@ -21645,7 +21645,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Settings
 
