@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-07T01:51:55Z
+Generated UTC: 2026-04-08T01:52:31Z
 Page Count: 63
 
 ============================================================
@@ -7681,7 +7681,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 General Options
 
@@ -10149,7 +10149,7 @@ Misc
 
 Previous📝ItemFormat™Next💹EconomyFormat™
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Custom Name
 
@@ -11484,9 +11484,15 @@ Open in-game editor.
 
 Require ultimateshop.editor permission.
 
+/shop searchgui (Premium version only)
+
+Open search GUI.
+
+Require ultimateshop.searchgui permission.
+
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 7 days ago
+Last updated 22 minutes ago
 
 FAQ:
 
@@ -11535,6 +11541,8 @@ ultimateshop.bypass.protection
 /shop updateguititle [player] (Premium version only)
 
 /shop editor (Premium version only)
+
+/shop searchgui (Premium version only)
 
 ============================================================
 Title: 🆚Compare | UltimateShop Wiki
@@ -11863,7 +11871,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12173,7 +12181,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Direct compatibility
 
@@ -14152,7 +14160,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 26 days ago
+Last updated 28 days ago
 
 Types
 
@@ -14874,7 +14882,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 
 Previous🔲General MenusNext🔀Conditional Display - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Buy More Menus Config
 
@@ -15082,7 +15090,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🔽Buy More MenusNext🛏️Bedrock Menus - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Set display condition
 
@@ -15638,7 +15646,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 26 days ago
+Last updated 28 days ago
 
 Types
 
@@ -15972,7 +15980,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 3 days ago
+Last updated 5 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -18207,7 +18215,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Settings
 
@@ -20989,7 +20997,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 20 days ago
+Last updated 22 days ago
 
 What Is a Single Thing?
 
@@ -21645,7 +21653,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Settings
 
