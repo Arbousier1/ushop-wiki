@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-11T01:47:23Z
-Page Count: 64
+Generated UTC: 2026-04-12T01:58:54Z
+Page Count: 66
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 55
+Links: 57
 
 UltimateShop Wiki
 
@@ -66,6 +66,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -81,6 +83,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -240,7 +244,7 @@ Info
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -300,6 +304,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -315,6 +321,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -403,7 +411,7 @@ Last updated 3 months ago
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -463,6 +471,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -478,6 +488,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -1203,7 +1215,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Add as dependency
 
@@ -1487,7 +1499,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -1547,6 +1559,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -1562,6 +1576,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -2287,7 +2303,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Add as dependency
 
@@ -2571,7 +2587,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -2631,6 +2647,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -2646,6 +2664,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -2913,7 +2933,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -2973,6 +2993,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -2988,6 +3010,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -3255,7 +3279,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -3315,6 +3339,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -3330,6 +3356,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -3456,7 +3484,7 @@ same: '-'
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -3516,6 +3544,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -3531,6 +3561,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -3750,7 +3782,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -3810,6 +3842,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -3825,6 +3859,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -4044,7 +4080,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -4104,6 +4140,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -4119,6 +4157,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -4236,7 +4276,7 @@ Built-in Color Parser
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -4296,6 +4336,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -4311,6 +4353,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -4494,7 +4538,7 @@ max-amount: 128
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -4554,6 +4598,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -4569,6 +4615,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -4699,7 +4747,7 @@ An example product config can be found below, in this example, both emerald and 
 
 Previous🎮Custom Click Event - PremiumNext🔑Give Item Method
 
-Last updated 10 months ago
+Last updated 11 months ago
 
 Default Item Match Method
 
@@ -4731,7 +4779,7 @@ buy-prices:
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -4791,6 +4839,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -4806,6 +4856,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -4888,7 +4940,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 EconomyLimit
 
@@ -4898,7 +4950,7 @@ Get it here.
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -4958,6 +5010,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -4973,6 +5027,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -5089,7 +5145,7 @@ Last updated 7 months ago
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -5149,6 +5205,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -5164,6 +5222,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -5273,7 +5333,7 @@ SMART - Early Alpha
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -5333,6 +5393,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -5348,6 +5410,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -5760,7 +5824,7 @@ amount: 10
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -5820,6 +5884,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -5835,6 +5901,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -5949,7 +6017,7 @@ Showcase
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -6009,6 +6077,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -6024,6 +6094,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -6113,7 +6185,7 @@ Last updated 8 months ago
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -6173,6 +6245,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -6188,6 +6262,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -6298,7 +6374,7 @@ replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as her
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -6358,6 +6434,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -6373,6 +6451,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -6513,7 +6593,7 @@ material: superior_sword # If saved item id is 'superior_sword'
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -6573,6 +6653,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -6588,6 +6670,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -6798,7 +6882,7 @@ plugin: 'DecentHolograms'
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -6858,6 +6942,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -6873,6 +6959,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -6990,7 +7078,7 @@ Last updated 1 month ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -7050,6 +7138,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -7065,6 +7155,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -7364,7 +7456,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -7424,6 +7516,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -7439,6 +7533,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -7729,7 +7825,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 General Options
 
@@ -8054,7 +8150,7 @@ type: update_title
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -8114,6 +8210,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -8129,6 +8227,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -8342,7 +8442,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 28 days ago
+Last updated 1 month ago
 
 General Options
 
@@ -8445,7 +8545,7 @@ value: 200
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -8505,6 +8605,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -8520,6 +8622,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -8655,7 +8759,7 @@ Multi
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 57
+Links: 59
 
 UltimateShop Wiki
 
@@ -8715,6 +8819,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -8730,6 +8836,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -8862,7 +8970,7 @@ placeholder: '5 levels'
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -8922,6 +9030,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -8937,6 +9047,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -9140,7 +9252,7 @@ https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 57
+Links: 59
 
 UltimateShop Wiki
 
@@ -9202,6 +9314,8 @@ Component Format
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -9217,6 +9331,8 @@ Component Format
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -9998,7 +10114,7 @@ damage-resistant: is_fall # Damage Type Tag
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 57
+Links: 59
 
 UltimateShop Wiki
 
@@ -10060,6 +10176,8 @@ Component Format
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -10075,6 +10193,8 @@ Component Format
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -10428,7 +10548,7 @@ speed-multiplier: 0.4
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -10488,6 +10608,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -10503,6 +10625,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -10664,7 +10788,7 @@ Last updated 1 month ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -10724,6 +10848,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -10739,6 +10865,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -11038,7 +11166,7 @@ secret-shop-items: []
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -11098,6 +11226,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -11113,6 +11243,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -11244,7 +11376,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -11304,6 +11436,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -11319,6 +11453,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -11569,7 +11705,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 FAQ:
 
@@ -11627,7 +11763,7 @@ ultimateshop.bypass.protection
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -11687,6 +11823,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -11702,6 +11840,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -11950,6 +12090,13 @@ You can search product you want in Search GUI. For more info, please view this p
 
 ✅
 
+Shared Product Data (Alpha)
+You can set multi product share same product data like buy times/sell times/limits/cooldown reset time and so on. For more info, please view this page.
+
+❌
+
+✅
+
 More...
 Many small differences were not mentioned here or, I forgot them put here, and more features that are only available in the paid version will be added in the future!
 
@@ -11959,13 +12106,13 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 1 day ago
+Last updated 4 minutes ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -12025,6 +12172,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -12040,6 +12189,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -12271,7 +12422,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Direct compatibility
 
@@ -12387,7 +12538,7 @@ anotherNBTComponent.theNBTKey: 5
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -12447,6 +12598,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -12462,6 +12615,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -12885,7 +13040,7 @@ period-tick: 6000
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -12945,6 +13100,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -12960,6 +13117,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -13120,7 +13279,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -13180,6 +13339,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -13195,6 +13356,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -13368,7 +13531,7 @@ Q: How to reset dynamic price?
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -13428,6 +13591,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -13443,6 +13608,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -13538,7 +13705,7 @@ Last updated 2 months ago
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -13598,6 +13765,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -13613,6 +13782,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -13806,7 +13977,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -13866,6 +14037,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -13881,6 +14054,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -14012,7 +14187,7 @@ An economy plugin if you want to use custom currency
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -14072,6 +14247,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -14087,6 +14264,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -14448,7 +14627,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -14508,6 +14687,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -14523,6 +14704,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -14732,7 +14915,7 @@ only-sell: '&6Sell: {sell-price}'
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -14792,6 +14975,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -14807,6 +14992,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -15015,7 +15202,7 @@ max-amount: 64
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -15075,6 +15262,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -15090,6 +15279,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -15198,7 +15389,7 @@ This means that the products or buttons with IDs D, E, and F will be checked in 
 
 Also, you need set menu config's dynamic-layout option to true to use this feature.
 
-Previous🔍Search Menus - PremiumNext🛏️Bedrock Menus - Premium
+Previous🛒Sell All MenuNext🛏️Bedrock Menus - Premium
 
 Last updated 1 month ago
 
@@ -15223,7 +15414,7 @@ layout:
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -15283,6 +15474,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -15298,6 +15491,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -15508,7 +15703,7 @@ add-lore:
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -15568,6 +15763,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -15583,6 +15780,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -15944,7 +16143,7 @@ click-update: false
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/search-menus-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -16004,6 +16203,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -16019,6 +16220,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -16200,9 +16403,9 @@ typing cancel-keyword: cancels the current prompt
 
 typing clear-keyword: clears the current name filter
 
-Previous🔽Buy More MenusNext🔀Conditional Display - Premium
+Previous🔽Buy More MenusNext🛒Sell All Menu
 
-Last updated 8 hours ago
+Last updated 2 days ago
 
 Search Menus Config
 
@@ -16241,10 +16444,10 @@ prompt:
 clear-keyword: '{lang}'
 
 ============================================================
-Title: 🌏Other Language Wiki | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/other-language-wiki
+Title: 🛒Sell All Menu | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/menus/sell-all-menu
 
-Links: 55
+Links: 58
 
 UltimateShop Wiki
 
@@ -16304,6 +16507,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -16319,6 +16524,195 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+🔌Menus
+
+🛒Sell All Menu
+
+Sell All Menu Config
+
+You can find sell all menu settings at config.yml file. You can only set 1 menu to sell all menu.
+
+Copy
+menu:
+sell-all:
+size: 54
+title: '{lang}'
+black-slots: []
+
+size: Menu size, only support one of the number: 9,18,27,36,45,54.
+
+title: Menu title.
+
+black-slots: Which slots will not allow to place item to sell. For example: [0, 1, 2, 3].
+
+Sell All
+
+Close this menu to sell all items inside this GUI. This menu also follows max amount setting in sell.max-amount option, by default, the value is 128.
+
+Open Sell All Menu
+
+You can use /shop sellall command to open sell all menu. This command require ultimateshop.sellall permission.
+
+Previous🔍Search Menus - PremiumNext🔀Conditional Display - Premium
+
+Last updated 1 hour ago
+
+Sell All Menu Config
+
+Sell All
+
+Open Sell All Menu
+
+============================================================
+Title: 🌏Other Language Wiki | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/other-language-wiki
+
+Links: 57
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -16402,7 +16796,7 @@ Last updated 8 days ago
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -16462,6 +16856,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -16477,6 +16873,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -16912,7 +17310,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -16972,6 +17370,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -16987,6 +17387,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -17422,7 +17824,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -17482,6 +17884,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -17497,6 +17901,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -17657,7 +18063,7 @@ layout:
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -17717,6 +18123,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -17732,6 +18140,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -17905,7 +18315,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -17965,6 +18375,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -17980,6 +18392,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -18290,7 +18704,7 @@ start-apply: 0
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -18350,6 +18764,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -18365,6 +18781,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -18662,7 +19080,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -18722,6 +19140,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -18737,6 +19157,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -18853,7 +19275,7 @@ After purchase, we will execute buy-actions which includes execute the command y
 
 Seasonal Product
 
-Previous♻️Product Config: Buy/Sell Times ResetNext🌱Example: Stock (like in life)
+Previous🔗Shared Product Data - PremiumNext🌱Example: Stock (like in life)
 
 Last updated 2 months ago
 
@@ -19007,7 +19429,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -19067,6 +19489,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -19082,6 +19506,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -19279,7 +19705,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -19339,6 +19765,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -19354,6 +19782,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -19621,7 +20051,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -19681,6 +20111,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -19696,6 +20128,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -19828,7 +20262,7 @@ FAQ: Restock
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -19888,6 +20322,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -19903,6 +20339,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -20184,7 +20622,7 @@ Reset Time Updated but Buy times/Sell times not cleared?
 
 If you must use placeholders in your reset time, switch to a reset mode that starts with COOLDOWN_.
 
-Previous💰Products Config: Single ThingNext⚡Example: Common Usage
+Previous💰Products Config: Single ThingNext🔗Shared Product Data - Premium
 
 Last updated 1 month ago
 
@@ -20290,7 +20728,7 @@ sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -20350,6 +20788,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -20365,6 +20805,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -20442,6 +20884,7 @@ A:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
 sell-all: true
+shared-use-times: daily_bundle
 products:
 1:
 material: STRING
@@ -20507,6 +20950,8 @@ buy-more: Set whether this product can open buy more menu. Optional. (default to
 buy-more-menu: Set up separate buy more menu settings for the product. Optional. Require 2.2.10+ version. (if not set, will use default value set in config.yml file)
 
 sell-all: Set whether this product can use sell all feature. Optional, default to true. (Added in 3.9.3)
+
+shared-use-times: Please view this page.
 
 hide-message: Whether we hide the messages that will send after player buy or sell this product. Optional, default to false. (Added in 4.2.11)
 
@@ -20743,7 +21188,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 1 month ago
+Last updated 5 minutes ago
 
 General Options
 
@@ -20795,7 +21240,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -20855,6 +21300,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -20870,6 +21317,8 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
@@ -21741,10 +22190,10 @@ add-price-lore:
 - '&fWorth: &6{total-price}'
 
 ============================================================
-Title: 📂Shops | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/shops/shops
+Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
-Links: 56
+Links: 58
 
 UltimateShop Wiki
 
@@ -21804,6 +22253,8 @@ UltimateShop Wiki
 
 🔍Search Menus - Premium
 
+🛒Sell All Menu
+
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
@@ -21819,6 +22270,266 @@ UltimateShop Wiki
 💰Products Config: Single Thing
 
 ♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+
+🛍️Shops
+
+🔗Shared Product Data - Premium
+
+The shared product data feature is not currently introduced as a core function of UltimateShop and is still in the early testing phase. It may be officially released in future versions or potentially removed if it contains irreparable critical issues.
+Shared product data is now available at 4.4.2 or later version.
+
+Overview
+
+shared-use-times now does two things:
+
+it makes multiple products share the same use-times data. Shared data includes:
+
+player buy times
+
+player sell times
+
+player buy cooldown/reset time
+
+player sell cooldown/reset time
+
+global buy times
+
+global sell times
+
+persisted storage and cross-server sync data
+
+it makes shared-group use-times settings load from:
+
+Copy
+plugins/UltimateShop/shared_use_times/<group>.yml
+
+If multiple products in the same open GUI use the same shared group, clicking one product will refresh all product buttons in that GUI that use the same shared use-times cache.
+
+Basic Usage
+
+Set the same shared-use-times value on all products that should share one group:
+
+Products in the same shared group share the same value to those options too:
+
+Buy times
+
+buy-times-reset-mode
+
+buy-times-reset-time
+
+buy-times-reset-time-format
+
+buy-times-reset-value
+
+buy-times-max-value
+
+Legacy aliases still supported:
+
+buy-limits-reset-mode
+
+buy-limits-reset-time
+
+Sell times
+
+sell-times-reset-mode
+
+sell-times-reset-time
+
+sell-times-reset-time-format
+
+sell-times-reset-value
+
+sell-times-max-value
+
+You can use same shared group share the same value to those options:
+
+buy-limits
+
+sell-limits
+
+You need put the shared group settings into shared_use_times/<group>.yml, and keep only shared-use-times on the products.
+
+For an example of shared use times setting config file inside shared_use_times folder:
+
+Previous♻️Product Config: Buy/Sell Times ResetNext⚡Example: Common Usage
+
+Last updated 24 minutes ago
+
+Overview
+
+Basic Usage
+
+Copy
+items:
+diamond_pack_a:
+shared-use-times: daily_bundle
+buy-prices:
+# Buy Price Settings
+sell-prices:
+# Sell Price Settings
+
+diamond_pack_b:
+shared-use-times: daily_bundle
+buy-prices:
+# Buy Price Settings
+sell-prices:
+# Sell Price Settings
+
+Copy
+buy-limits:
+global: '{sell-times-server}'
+buy-times-reset-mode: COOLDOWN_TIMED
+buy-times-reset-time: 00:00:00
+
+============================================================
+Title: 📂Shops | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/shops/shops
+
+Links: 58
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
 
 ⚡Example: Common Usage
 
