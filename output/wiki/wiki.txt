@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-12T01:58:54Z
+Generated UTC: 2026-04-13T02:03:13Z
 Page Count: 66
 
 ============================================================
@@ -4940,7 +4940,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 EconomyLimit
 
@@ -5794,7 +5794,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 2 days ago
+Last updated 4 days ago
 
 Requirements
 
@@ -7354,7 +7354,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Basic Syntax
 
@@ -7825,7 +7825,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 General Options
 
@@ -11064,7 +11064,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Basic Syntax
 
@@ -11705,7 +11705,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 FAQ:
 
@@ -12106,7 +12106,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 4 minutes ago
+Last updated 1 day ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12422,7 +12422,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Direct compatibility
 
@@ -16405,7 +16405,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext🛒Sell All Menu
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Search Menus Config
 
@@ -16790,7 +16790,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -21188,7 +21188,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 5 minutes ago
+Last updated 1 day ago
 
 General Options
 
@@ -21888,7 +21888,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 What Is a Single Thing?
 
@@ -22419,7 +22419,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext⚡Example: Common Usage
 
-Last updated 24 minutes ago
+Last updated 1 day ago
 
 Overview
 
