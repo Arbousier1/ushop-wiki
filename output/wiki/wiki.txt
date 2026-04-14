@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-13T02:03:13Z
+Generated UTC: 2026-04-14T01:58:24Z
 Page Count: 66
 
 ============================================================
@@ -149,6 +149,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🎉Welcome
 
@@ -387,6 +388,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 💬Config Pack
 
@@ -554,6 +556,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 💻Develop
 
@@ -1215,7 +1218,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 22 days ago
+Last updated 24 days ago
 
 Add as dependency
 
@@ -1642,6 +1645,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 💻Develop
 
@@ -2303,7 +2307,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 22 days ago
+Last updated 24 days ago
 
 Add as dependency
 
@@ -2730,6 +2734,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 💰Dynamic Prices
 
@@ -3076,6 +3081,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 💰Dynamic Prices
 
@@ -3422,6 +3428,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 💰Dynamic Prices
 
@@ -3627,6 +3634,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -3925,6 +3933,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -4223,6 +4232,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -4419,6 +4429,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -4681,6 +4692,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -4922,6 +4934,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -5093,6 +5106,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -5139,7 +5153,7 @@ start-apply: 0
 
 Previous🎨Color CodeNext🪄Sell Stick - Premium
 
-Last updated 7 months ago
+Last updated 8 months ago
 
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
@@ -5288,6 +5302,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -5476,6 +5491,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -5967,6 +5983,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -6007,7 +6024,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Format available placeholders:
 
@@ -6160,6 +6177,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -6328,6 +6346,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -6517,6 +6536,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -6736,6 +6756,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -6825,7 +6846,7 @@ Showcase
 
 Previous🪄Sell Stick - PremiumNext💾Saved Item (Item Manager)
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Limitation
 
@@ -7025,6 +7046,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 ✨Features
 
@@ -7072,7 +7094,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -7221,6 +7243,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -7599,6 +7622,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -7825,7 +7849,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 General Options
 
@@ -8293,6 +8317,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -8688,6 +8713,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -8902,6 +8928,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -9113,6 +9140,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -9397,6 +9425,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -10259,6 +10288,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -10691,6 +10721,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -10931,6 +10962,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📋Format
 
@@ -11309,6 +11341,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -11519,6 +11552,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -11705,7 +11739,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 FAQ:
 
@@ -11906,6 +11940,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -12106,7 +12141,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12255,6 +12290,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -12422,7 +12458,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 Direct compatibility
 
@@ -12681,6 +12717,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -13183,6 +13220,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -13422,6 +13460,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -13674,6 +13713,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -13848,6 +13888,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -13907,7 +13948,7 @@ This can save some server performance, but the drawback is that the items to be 
 
 Previous📊DataNext❓FAQ
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -14120,6 +14161,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📦Info
 
@@ -14330,6 +14372,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -14770,6 +14813,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -15058,6 +15102,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -15345,6 +15390,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -15557,6 +15603,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -15846,6 +15893,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -16286,6 +16334,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -16405,7 +16454,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext🛒Sell All Menu
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Search Menus Config
 
@@ -16590,6 +16639,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🔌Menus
 
@@ -16622,7 +16672,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous🔍Search Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 1 hour ago
+Last updated 2 days ago
 
 Sell All Menu Config
 
@@ -16777,6 +16827,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🌏Other Language Wiki
 
@@ -16790,7 +16841,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 9 days ago
+Last updated 11 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -16939,6 +16990,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📍Placeholders
 
@@ -17453,6 +17505,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📍Placeholders
 
@@ -17967,6 +18020,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📍Placeholders
 
@@ -18206,6 +18260,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📍Placeholders
 
@@ -18458,6 +18513,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 📍Placeholders
 
@@ -18847,6 +18903,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -19223,6 +19280,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -19572,6 +19630,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -19848,6 +19907,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -19899,7 +19959,7 @@ Showcase
 
 Previous🌱Example: Stock (like in life)Next🏆Example: Daily Rewards
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Create random placeholder
 
@@ -20194,6 +20254,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -20405,6 +20466,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -20624,7 +20686,7 @@ If you must use placeholders in your reset time, switch to a reset mode that sta
 
 Previous💰Products Config: Single ThingNext🔗Shared Product Data - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Reset
 
@@ -20871,6 +20933,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -21188,7 +21251,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 General Options
 
@@ -21383,6 +21446,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -21888,7 +21952,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 What Is a Single Thing?
 
@@ -22336,6 +22400,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
@@ -22419,7 +22484,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext⚡Example: Common Usage
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Overview
 
@@ -22594,6 +22659,7 @@ Powered by GitBook
 On this page
 
 Copy
+On this page
 
 🛍️Shops
 
