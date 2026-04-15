@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-14T01:58:24Z
+Generated UTC: 2026-04-15T01:54:42Z
 Page Count: 66
 
 ============================================================
@@ -1218,7 +1218,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Add as dependency
 
@@ -2307,7 +2307,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Add as dependency
 
@@ -4953,7 +4953,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 EconomyLimit
 
@@ -5810,7 +5810,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Requirements
 
@@ -7849,7 +7849,7 @@ Require server enable title update feature, for more info, please view this page
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 General Options
 
@@ -11739,7 +11739,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 FAQ:
 
@@ -12141,7 +12141,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12458,7 +12458,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Direct compatibility
 
@@ -16454,7 +16454,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext🛒Sell All Menu
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Search Menus Config
 
@@ -16672,7 +16672,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous🔍Search Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Sell All Menu Config
 
@@ -16841,7 +16841,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -21251,7 +21251,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 General Options
 
@@ -21952,7 +21952,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 What Is a Single Thing?
 
@@ -22484,7 +22484,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext⚡Example: Common Usage
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Overview
 
