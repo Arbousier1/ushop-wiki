@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-15T01:54:42Z
-Page Count: 66
+Generated UTC: 2026-04-16T02:04:43Z
+Page Count: 67
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 57
+Links: 58
 
 UltimateShop Wiki
 
@@ -65,6 +65,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -245,7 +247,7 @@ Info
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -304,6 +306,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -413,7 +417,7 @@ Last updated 3 months ago
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -472,6 +476,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -1218,7 +1224,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Add as dependency
 
@@ -1502,7 +1508,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -1561,6 +1567,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -2307,7 +2315,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Add as dependency
 
@@ -2591,7 +2599,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -2650,6 +2658,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -2938,7 +2948,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -2997,6 +3007,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -3285,7 +3297,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -3344,6 +3356,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -3491,7 +3505,7 @@ same: '-'
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -3550,6 +3564,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -3790,7 +3806,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -3849,6 +3865,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -4089,7 +4107,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -4148,6 +4166,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -4286,7 +4306,7 @@ Built-in Color Parser
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -4345,6 +4365,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -4549,7 +4571,7 @@ max-amount: 128
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -4608,6 +4630,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -4791,7 +4815,7 @@ buy-prices:
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -4850,6 +4874,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -4953,7 +4979,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 16 days ago
+Last updated 18 days ago
 
 EconomyLimit
 
@@ -4963,7 +4989,7 @@ Get it here.
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -5022,6 +5048,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -5159,7 +5187,7 @@ Last updated 8 months ago
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -5218,6 +5246,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -5348,7 +5378,7 @@ SMART - Early Alpha
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -5407,6 +5437,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -5810,7 +5842,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 5 days ago
+Last updated 7 days ago
 
 Requirements
 
@@ -5840,7 +5872,7 @@ amount: 10
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -5899,6 +5931,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -6034,7 +6068,7 @@ Showcase
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -6093,6 +6127,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -6203,7 +6239,7 @@ Last updated 8 months ago
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -6262,6 +6298,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -6393,7 +6431,7 @@ replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as her
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -6452,6 +6490,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -6613,7 +6653,7 @@ material: superior_sword # If saved item id is 'superior_sword'
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -6672,6 +6712,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -6903,7 +6945,7 @@ plugin: 'DecentHolograms'
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -6962,6 +7004,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -7100,7 +7144,7 @@ Last updated 2 months ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -7159,6 +7203,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -7479,7 +7525,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -7538,6 +7584,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -7847,9 +7895,41 @@ Update GUI Title - Premium
 
 Require server enable title update feature, for more info, please view this page.
 
+Add Favourite - Premium
+
+Add the product to favourite list.
+
+Remove Favourite - Premium
+
+Remove this product from favourite list.
+
+Toggle Favourite - Premium
+
+Toggle the product favourite status, if it is exist, we will remove, if not exist, we will add.
+
+Prompt - Premium
+
+Asks the player to type something in chat before continuing with follow-up actions.
+
+{arg}
+
+The full raw input string.
+
+If the player enters:
+
+then:
+
+{arg_1}, {arg_2}, {arg_3} ...
+
+Whitespace-split arguments.
+
+If the player enters:
+
+then:
+
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 16 days ago
+Last updated 13 hours ago
 
 General Options
 
@@ -7916,6 +7996,14 @@ Connect - Premium
 Update GUI
 
 Update GUI Title - Premium
+
+Add Favourite - Premium
+
+Remove Favourite - Premium
+
+Toggle Favourite - Premium
+
+Prompt - Premium
 
 Copy
 actions:
@@ -8170,11 +8258,65 @@ actions:
 1:
 type: update_title
 
+Copy
+actions:
+1:
+type: add_favourite
+menu: favourite # The favourite menu.
+shop: '{shop}'
+item: '{item}'
+
+Copy
+actions:
+1:
+type: remove_favourite
+menu: favourite # The favourite menu.
+shop: '{shop}'
+item: '{item}'
+
+Copy
+actions:
+1:
+type: toggle_favourite
+menu: favourite # The favourite menu.
+shop: '{shop}'
+item: '{item}'
+
+Copy
+actions:
+1:
+type: prompt
+description: '&eEnter a note'
+reopen-on-submit: true
+reopen-on-cancel: true
+actions:
+1:
+type: message
+message: '&aSaved note: &f{arg}'
+cancel-actions:
+1:
+type: message
+message: '&cYou cancelled the prompt'
+
+Copy
+diamond sword 64
+
+Copy
+{arg} -> diamond sword 64
+
+Copy
+diamond sword 64
+
+Copy
+{arg_1} -> diamond
+{arg_2} -> sword
+{arg_3} -> 64
+
 ============================================================
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -8233,6 +8375,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -8461,13 +8605,33 @@ Rule can be set to:
 
 *= (String) Contains, for example, str *= string is true, but example *= ple is false.
 
+Menu
+
+Player is opening the specified menu.
+
+Menu Type
+
+Player is opening the specified type of menu.
+
+Supported menu type:
+
+COMMON
+
+SHOP
+
+MORE
+
+SEARCH
+
+FAVOURITE
+
 Any - Premium
 
 Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 1 month ago
+Last updated 14 hours ago
 
 General Options
 
@@ -8486,6 +8650,10 @@ Biome
 Permission
 
 Placeholder
+
+Menu
+
+Menu Type
 
 Any - Premium
 
@@ -8542,6 +8710,18 @@ value: 5
 Copy
 conditions:
 1:
+type: menu
+menu: 'example-shop-menu'
+
+Copy
+conditions:
+1:
+type: menu_type
+menu-type: 'favourite'
+
+Copy
+conditions:
+1:
 type: any
 conditions:
 1:
@@ -8570,7 +8750,7 @@ value: 200
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -8629,6 +8809,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -8785,7 +8967,7 @@ Multi
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 59
+Links: 60
 
 UltimateShop Wiki
 
@@ -8844,6 +9026,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -8997,7 +9181,7 @@ placeholder: '5 levels'
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -9056,6 +9240,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -9280,7 +9466,7 @@ https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 59
+Links: 60
 
 UltimateShop Wiki
 
@@ -9341,6 +9527,8 @@ Component Format
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -10143,7 +10331,7 @@ damage-resistant: is_fall # Damage Type Tag
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 59
+Links: 60
 
 UltimateShop Wiki
 
@@ -10204,6 +10392,8 @@ Component Format
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -10578,7 +10768,7 @@ speed-multiplier: 0.4
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -10637,6 +10827,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -10819,7 +11011,7 @@ Last updated 1 month ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -10878,6 +11070,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -11198,7 +11392,7 @@ secret-shop-items: []
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -11257,6 +11451,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -11409,7 +11605,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -11468,6 +11664,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -11739,7 +11937,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 5 days ago
+Last updated 7 days ago
 
 FAQ:
 
@@ -11797,7 +11995,7 @@ ultimateshop.bypass.protection
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -11856,6 +12054,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -12141,13 +12341,13 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -12206,6 +12406,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -12458,7 +12660,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Direct compatibility
 
@@ -12574,7 +12776,7 @@ anotherNBTComponent.theNBTKey: 5
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -12633,6 +12835,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -13077,7 +13281,7 @@ period-tick: 6000
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -13136,6 +13340,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -13317,7 +13523,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -13376,6 +13582,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -13570,7 +13778,7 @@ Q: How to reset dynamic price?
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -13629,6 +13837,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -13745,7 +13955,7 @@ Last updated 2 months ago
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -13804,6 +14014,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -14018,7 +14230,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -14077,6 +14289,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -14229,7 +14443,7 @@ An economy plugin if you want to use custom currency
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -14288,6 +14502,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -14670,7 +14886,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -14729,6 +14945,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -14959,7 +15177,7 @@ only-sell: '&6Sell: {sell-price}'
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -15018,6 +15236,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -15247,7 +15467,7 @@ max-amount: 64
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -15306,6 +15526,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -15460,7 +15682,7 @@ layout:
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -15519,6 +15741,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -15677,9 +15901,13 @@ Each line start with @+lower case will be consider as conditional line. We will 
 
 @k - This product has enabled buy more feature.
 
+@l - This product can use favourite feature.
+
 @m - This product can use sell all feature.
 
 @n - Buy/sell price (corresponding to the Click type) is valid. For example, buy click type require buy price is valid.
+
+@o - Player is opening favourite menu.
 
 @p - Player is opening buy more menu.
 
@@ -15707,7 +15935,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 1 month ago
+Last updated 13 hours ago
 
 General Setting
 
@@ -15747,10 +15975,10 @@ add-lore:
 - '@a &7[-] &f {sell-price}'
 
 ============================================================
-Title: 🔲General Menus | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/menus/general-menus
+Title: ❤️Favoutite Menus - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/menus/favoutite-menus-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -15809,6 +16037,252 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+🔌Menus
+
+❤️Favoutite Menus - Premium
+
+Favourite Menu Config
+
+Favourite menus have those special options compare than common menu:
+
+Copy
+result-items:
+- '1'
+
+edit-mode-item:
+D:
+normal-display-item:
+material: NAME_TAG
+name: '{lang:edit-mode-enable-name}'
+lore:
+- '{lang:edit-mode-enable-line-1}'
+editing-display-item:
+material: WRITABLE_BOOK
+name: '{lang:edit-mode-disable-name}'
+lore:
+- '{lang:edit-mode-disable-line-1}'
+
+empty-item:
+display-item:
+material: GRAY_STAINED_GLASS_PANE
+name: '{lang:favourite-empty-name}'
+lore:
+- '{lang:favourite-empty-line-1}'
+- '{lang:favourite-empty-line-2}'
+
+result-lore:
+- ' '
+- '{lang:favourite-result-shop}'
+- '{lang:favourite-result-product}'
+- '{lang:favourite-result-click}'
+- '{lang:favourite-result-enter-edit}'
+
+editing-result-lore:
+- ' '
+- '{lang:favourite-result-shop}'
+- '{lang:favourite-result-product}'
+- '{lang:favourite-result-edit-forward}'
+- '{lang:favourite-result-edit-backward}'
+- '{lang:favourite-result-edit-remove}'
+
+result-items: Defines the marker used for result slots. Matched products are displayed into these slots in order. Must be a single char, use this char in layout option to set where it will display in menu.
+
+edit-mode-item: Displays the edit mode button. Player have to enter edit mode to modify the favourite products. Each edit mode button supports:
+
+normal-display-item
+
+editing-display-item
+
+empty-item: If the result item slot is empty, we will replace it to this item instead.
+
+result-lore: Extra lore added to each result item.
+
+editing-result-lore: Extra lore added to each result item when in edit mode.
+
+Set Favoutite Menu
+
+You should put seach menu ID in menu.favoutire-gui.menu option in config.yml file.
+
+The default favourite menu file is menus/favourite.yml, and you can duplicate it to create more favourite menus.
+
+Command:
+
+Examples:
+
+Previous🔍Search Menus - PremiumNext🛒Sell All Menu
+
+Last updated 14 hours ago
+
+Favourite Menu Config
+
+Set Favoutite Menu
+
+Copy
+menu:
+favourite-gui:
+menu:
+- 'favourite'
+- 'favoutite2' # Put more search menu ID here.
+
+Copy
+/shop menu <menuName>
+
+Copy
+/shop menu favourite
+
+============================================================
+Title: 🔲General Menus | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/menus/general-menus
+
+Links: 59
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -16191,7 +16665,7 @@ click-update: false
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/search-menus-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -16250,6 +16724,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -16452,9 +16928,9 @@ typing cancel-keyword: cancels the current prompt
 
 typing clear-keyword: clears the current name filter
 
-Previous🔽Buy More MenusNext🛒Sell All Menu
+Previous🔽Buy More MenusNext❤️Favoutite Menus - Premium
 
-Last updated 5 days ago
+Last updated 7 days ago
 
 Search Menus Config
 
@@ -16496,7 +16972,7 @@ clear-keyword: '{lang}'
 Title: 🛒Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/sell-all-menu
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -16555,6 +17031,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -16670,9 +17148,9 @@ Open Sell All Menu
 
 You can use /shop sellall command to open sell all menu. This command require ultimateshop.sellall permission.
 
-Previous🔍Search Menus - PremiumNext🔀Conditional Display - Premium
+Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Sell All Menu Config
 
@@ -16684,7 +17162,7 @@ Open Sell All Menu
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 57
+Links: 58
 
 UltimateShop Wiki
 
@@ -16743,6 +17221,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -16841,13 +17321,13 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -16906,6 +17386,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -17362,7 +17844,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -17421,6 +17903,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -17877,7 +18361,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -17936,6 +18420,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -18117,7 +18603,7 @@ layout:
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -18176,6 +18662,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -18370,7 +18858,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -18429,6 +18917,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -18760,7 +19250,7 @@ start-apply: 0
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -18819,6 +19309,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -19137,7 +19629,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -19196,6 +19688,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -19487,7 +19981,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -19546,6 +20040,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -19764,7 +20260,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -19823,6 +20319,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -20111,7 +20609,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -20170,6 +20668,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -20323,7 +20823,7 @@ FAQ: Restock
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -20382,6 +20882,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -20790,7 +21292,7 @@ sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -20849,6 +21351,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -21251,7 +21755,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 General Options
 
@@ -21303,7 +21807,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -21362,6 +21866,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -21952,7 +22458,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 28 days ago
+Last updated 1 month ago
 
 What Is a Single Thing?
 
@@ -22257,7 +22763,7 @@ add-price-lore:
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -22316,6 +22822,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
@@ -22484,7 +22992,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext⚡Example: Common Usage
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Overview
 
@@ -22516,7 +23024,7 @@ buy-times-reset-time: 00:00:00
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 58
+Links: 59
 
 UltimateShop Wiki
 
@@ -22575,6 +23083,8 @@ UltimateShop Wiki
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
 
 🛒Sell All Menu
 
