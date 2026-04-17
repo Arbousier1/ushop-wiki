@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-16T02:04:43Z
+Generated UTC: 2026-04-17T01:59:06Z
 Page Count: 67
 
 ============================================================
@@ -7929,7 +7929,7 @@ then:
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 13 hours ago
+Last updated 22 hours ago
 
 General Options
 
@@ -8631,7 +8631,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 14 hours ago
+Last updated 23 hours ago
 
 General Options
 
@@ -12341,7 +12341,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12660,7 +12660,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Direct compatibility
 
@@ -15935,7 +15935,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 13 hours ago
+Last updated 23 hours ago
 
 General Setting
 
@@ -16199,7 +16199,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 14 hours ago
+Last updated 23 hours ago
 
 Favourite Menu Config
 
@@ -17150,7 +17150,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Sell All Menu Config
 
@@ -17321,7 +17321,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -21755,7 +21755,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 General Options
 
@@ -22992,7 +22992,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext⚡Example: Common Usage
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Overview
 
