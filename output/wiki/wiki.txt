@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-19T02:03:11Z
+Generated UTC: 2026-04-20T02:04:15Z
 Page Count: 67
 
 ============================================================
@@ -225,7 +225,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Links
 
@@ -1216,7 +1216,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Add as dependency
 
@@ -2307,7 +2307,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Add as dependency
 
@@ -4516,7 +4516,7 @@ Do not forgot also update your auto add lore configs to make product description
 
 Previous🔢Number FormatNext🔍Custom Item Match Method
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Options
 
@@ -4971,7 +4971,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 EconomyLimit
 
@@ -5834,7 +5834,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 Requirements
 
@@ -7921,7 +7921,7 @@ then:
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 General Options
 
@@ -8623,7 +8623,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 General Options
 
@@ -11929,7 +11929,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 FAQ:
 
@@ -12333,7 +12333,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 6 days ago
+Last updated 8 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12652,7 +12652,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Direct compatibility
 
@@ -13492,7 +13492,7 @@ org.h2.Driver
 
 Previous⌨️Commands & PermissionsNext🚀Performance
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Data Type
 
@@ -15927,7 +15927,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 General Setting
 
@@ -16191,7 +16191,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Favourite Menu Config
 
@@ -16922,7 +16922,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favoutite Menus - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Search Menus Config
 
@@ -17142,7 +17142,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Sell All Menu Config
 
@@ -17313,7 +17313,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -21747,7 +21747,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 General Options
 
@@ -22984,7 +22984,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext⚡Example: Common Usage
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Overview
 
