@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-27T02:08:40Z
+Generated UTC: 2026-04-28T02:14:56Z
 Page Count: 68
 
 ============================================================
@@ -227,7 +227,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Links
 
@@ -2898,7 +2898,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Enable Math Feature
 
@@ -3249,7 +3249,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Enable Math Feature
 
@@ -4997,7 +4997,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 EconomyLimit
 
@@ -5866,7 +5866,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Requirements
 
@@ -6086,7 +6086,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Format available placeholders:
 
@@ -6263,7 +6263,7 @@ Like most plugins, UltimateShop does not verify the accuracy and synchronization
 
 Previous🌍Localized Item Name - PremiumNext🔢Number Format
 
-Last updated 8 months ago
+Last updated 9 months ago
 
 ============================================================
 Title: 🔢Number Format | UltimateShop Wiki
@@ -6466,7 +6466,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 1 hour ago
+Last updated 1 day ago
 
 Built-in number format
 
@@ -7197,7 +7197,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -11672,7 +11672,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Java Version
 
@@ -12020,7 +12020,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 FAQ:
 
@@ -12426,7 +12426,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -12747,7 +12747,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Direct compatibility
 
@@ -13050,7 +13050,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -14853,7 +14853,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Java Version
 
@@ -16377,7 +16377,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 4 hours ago
+Last updated 1 day ago
 
 General Setting
 
@@ -17390,7 +17390,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favoutite Menus - Premium
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Search Menus Config
 
@@ -17612,7 +17612,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Sell All Menu Config
 
@@ -17785,7 +17785,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -20307,7 +20307,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Product A
 
@@ -22243,7 +22243,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 General Options
 
@@ -23466,7 +23466,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -23703,7 +23703,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Overview
 
