@@ -1,6 +1,6 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-04-29T02:24:30Z
-Page Count: 68
+Generated UTC: 2026-04-30T02:26:19Z
+Page Count: 67
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
@@ -227,7 +227,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Links
 
@@ -5866,7 +5866,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Requirements
 
@@ -6086,7 +6086,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Format available placeholders:
 
@@ -6466,7 +6466,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Built-in number format
 
@@ -7197,7 +7197,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -7992,7 +7992,7 @@ then:
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 General Options
 
@@ -8696,7 +8696,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 General Options
 
@@ -12020,7 +12020,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 FAQ:
 
@@ -12426,7 +12426,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -13050,7 +13050,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -16377,7 +16377,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 General Setting
 
@@ -16655,7 +16655,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Favourite Menu Config
 
@@ -17390,7 +17390,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favoutite Menus - Premium
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Search Menus Config
 
@@ -17612,7 +17612,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Sell All Menu Config
 
@@ -17785,7 +17785,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -20456,287 +20456,6 @@ rule: '=='
 value: 'Winter'
 
 ============================================================
-Title: 🏆Example: Daily Rewards | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
-
-Links: 60
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus
-
-🔲General Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favoutite Menus - Premium
-
-🛒Sell All Menu
-
-🔀Conditional Display - Premium
-
-🛏️Bedrock Menus - Premium
-
-🥉Display Item Add Lore
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-🛍️Shops
-
-🏆Example: Daily Rewards
-
-Rewards is very similar to Shops, but rewards don't have any price, and usually, it needs to be coordinated with the menu system.
-
-Example for Daily Rewards
-
-Create new shop config at /shops/ folder, then create new product like this:
-
-Copy
-A:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
-products:
-1:
-material: DIAMOND
-amount: 16
-2:
-material: IRON_INGOT
-amount: 64
-3:
-economy-plugin: Vault
-amount: 1500
-buy-prices:
-1:
-economy-type: exp
-amount: 0
-placeholder: 'Free'
-buy-limits:
-default: '1'
-buy-times-reset-mode: 'TIMED'
-buy-times-reset-time: '00:00:00'
-
-In this example, players can purchase this "product" once each day, and because the price is free, so we can consider it as "reward".
-
-If you want to make VIP players have bonus 64x bread, then just use our conditions system, like this:
-
-If you also want to VIP players have 50% chance to get bonus 1x diamond sword, then we need create a new random placeholder at config.yml:
-
-Then also use condition system:
-
-Previous📅Example: Daily Shop/Rotating ShopNext🔧Built-in Placeholders
-
-Last updated 1 year ago
-
-Copy
-A:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
-products:
-1:
-material: DIAMOND
-amount: 16
-2:
-material: IRON_INGOT
-amount: 64
-3:
-economy-plugin: Vault
-amount: 1500
-4:
-material: BREAD
-amount: 64
-conditions:
-1:
-type: permission
-permission: 'group.vip'
-buy-prices:
-1:
-economy-type: exp
-amount: 0
-placeholder: 'Free'
-buy-limits:
-default: '1'
-buy-times-reset-mode: 'TIMED'
-buy-times-reset-time: '00:00:00'
-
-Copy
-random:
-chance:
-reset-mode: ONCE
-reset-time: '00:00:00'
-elements:
-- '1~100'
-
-Copy
-A:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
-products:
-1:
-material: DIAMOND
-amount: 16
-2:
-material: IRON_INGOT
-amount: 64
-3:
-economy-plugin: Vault
-amount: 1500
-4:
-material: BREAD
-amount: 64
-conditions:
-1:
-type: permission
-permission: 'group.vip'
-5:
-material: BREAD
-amount: 64
-conditions:
-1:
-type: permission
-permission: 'group.vip'
-2:
-type: placeholder
-placeholder: '{random_chance}'
-rule: '>'
-value: '50'
-buy-prices:
-1:
-economy-type: exp
-amount: 0
-placeholder: 'Free'
-buy-limits:
-default: '1'
-buy-times-reset-mode: 'TIMED'
-buy-times-reset-time: '00:00:00'
-
-============================================================
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
@@ -22243,7 +21962,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 General Options
 
@@ -23466,7 +23185,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -23703,7 +23422,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Overview
 
