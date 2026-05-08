@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-07T02:14:01Z
+Generated UTC: 2026-05-08T02:29:42Z
 Page Count: 69
 
 ============================================================
@@ -229,7 +229,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Links
 
@@ -5898,7 +5898,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Requirements
 
@@ -6120,7 +6120,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Format available placeholders:
 
@@ -6504,7 +6504,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 Built-in number format
 
@@ -7241,7 +7241,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -8040,7 +8040,7 @@ then:
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 General Options
 
@@ -8746,7 +8746,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 General Options
 
@@ -9830,7 +9830,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Supported Plugin List
 
@@ -10308,7 +10308,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Hook Item
 
@@ -10945,7 +10945,7 @@ Misc
 
 Previous📝ItemFormat™Next🌉ItemBridge
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Custom Name
 
@@ -12349,7 +12349,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 FAQ:
 
@@ -12757,7 +12757,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -13082,7 +13082,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Direct compatibility
 
@@ -13387,7 +13387,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -16734,7 +16734,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 General Setting
 
@@ -17014,7 +17014,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Favourite Menu Config
 
@@ -17977,7 +17977,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Sell All Menu Config
 
@@ -22634,7 +22634,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 General Options
 
@@ -23861,7 +23861,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -24100,7 +24100,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Overview
 
