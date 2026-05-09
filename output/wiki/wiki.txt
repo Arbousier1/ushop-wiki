@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-08T02:29:42Z
+Generated UTC: 2026-05-09T02:14:11Z
 Page Count: 69
 
 ============================================================
@@ -229,7 +229,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Links
 
@@ -5898,7 +5898,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Requirements
 
@@ -7241,7 +7241,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -8040,7 +8040,7 @@ then:
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 General Options
 
@@ -8746,7 +8746,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 General Options
 
@@ -9830,7 +9830,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Supported Plugin List
 
@@ -10308,7 +10308,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Hook Item
 
@@ -12757,7 +12757,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -13082,7 +13082,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Direct compatibility
 
@@ -13387,7 +13387,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -17014,7 +17014,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Favourite Menu Config
 
@@ -17753,7 +17753,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favoutite Menus - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Search Menus Config
 
@@ -22634,7 +22634,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 General Options
 
@@ -23861,7 +23861,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
