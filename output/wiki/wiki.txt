@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-10T02:25:03Z
+Generated UTC: 2026-05-11T02:34:05Z
 Page Count: 69
 
 ============================================================
@@ -229,7 +229,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Links
 
@@ -6504,7 +6504,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 11 days ago
+Last updated 13 days ago
 
 Built-in number format
 
@@ -7241,7 +7241,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 17 days ago
+Last updated 19 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -10308,7 +10308,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Hook Item
 
@@ -13082,7 +13082,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Direct compatibility
 
@@ -13387,7 +13387,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -15477,7 +15477,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Types
 
@@ -16446,7 +16446,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🛒Sell All MenuNext🛏️Bedrock Menus - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Set display condition
 
@@ -16734,7 +16734,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 12 days ago
+Last updated 14 days ago
 
 General Setting
 
@@ -17014,7 +17014,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Favourite Menu Config
 
@@ -17300,7 +17300,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Types
 
@@ -17977,7 +17977,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Sell All Menu Config
 
@@ -23861,7 +23861,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -24100,7 +24100,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Overview
 
