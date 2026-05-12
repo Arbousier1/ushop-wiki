@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-11T02:34:05Z
+Generated UTC: 2026-05-12T02:27:43Z
 Page Count: 69
 
 ============================================================
@@ -229,7 +229,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Links
 
@@ -6120,7 +6120,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 18 days ago
+Last updated 20 days ago
 
 Format available placeholders:
 
@@ -6504,7 +6504,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 Built-in number format
 
@@ -8040,7 +8040,7 @@ then:
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 24 days ago
+Last updated 26 days ago
 
 General Options
 
@@ -8746,7 +8746,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 General Options
 
@@ -9076,7 +9076,7 @@ value: '0'z
 
 Previous💹EconomyFormat™Next🎬Action Format
 
-Last updated 11 months ago
+Last updated 12 months ago
 
 Single
 
@@ -9830,7 +9830,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Supported Plugin List
 
@@ -12757,7 +12757,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 28 days ago
+Last updated 1 month ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -16734,7 +16734,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 General Setting
 
@@ -17977,7 +17977,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Sell All Menu Config
 
@@ -22634,7 +22634,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 28 days ago
+Last updated 1 month ago
 
 General Options
 
