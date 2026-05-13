@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-12T02:27:43Z
+Generated UTC: 2026-05-13T02:34:19Z
 Page Count: 69
 
 ============================================================
@@ -229,7 +229,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Links
 
@@ -5229,7 +5229,7 @@ start-apply: 0
 
 Previous🎨Color CodeNext🪄Sell Stick - Premium
 
-Last updated 8 months ago
+Last updated 9 months ago
 
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
@@ -6120,7 +6120,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Format available placeholders:
 
@@ -7241,7 +7241,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 19 days ago
+Last updated 21 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -7530,7 +7530,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Basic Syntax
 
@@ -8040,7 +8040,7 @@ then:
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 General Options
 
@@ -8746,7 +8746,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 General Options
 
@@ -9830,7 +9830,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 7 days ago
+Last updated 9 days ago
 
 Supported Plugin List
 
@@ -10308,7 +10308,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Hook Item
 
@@ -11694,7 +11694,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Basic Syntax
 
@@ -13082,7 +13082,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 7 days ago
+Last updated 9 days ago
 
 Direct compatibility
 
@@ -13387,7 +13387,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 19 days ago
+Last updated 21 days ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -16734,7 +16734,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 General Setting
 
@@ -17014,7 +17014,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Favourite Menu Config
 
@@ -23861,7 +23861,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 19 days ago
+Last updated 21 days ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -24100,7 +24100,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Overview
 
