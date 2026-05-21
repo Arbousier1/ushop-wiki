@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-20T02:40:47Z
+Generated UTC: 2026-05-21T02:42:54Z
 Page Count: 69
 
 ============================================================
@@ -4328,7 +4328,7 @@ For Paper users who meet use MiniMessage requirements, we will auto translate bu
 
 Previous🌏Advanced Language ManagmentNext💴Easy Prices
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 MiniMessage
 
@@ -6120,7 +6120,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Format available placeholders:
 
@@ -6504,7 +6504,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Built-in number format
 
@@ -7241,7 +7241,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -9830,7 +9830,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Supported Plugin List
 
@@ -10308,7 +10308,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Hook Item
 
@@ -11405,7 +11405,7 @@ false - Boolean constant representing 0
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -13082,7 +13082,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Direct compatibility
 
@@ -13387,7 +13387,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -16734,7 +16734,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 General Setting
 
@@ -23861,7 +23861,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
