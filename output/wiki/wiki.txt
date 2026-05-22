@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-21T02:42:54Z
+Generated UTC: 2026-05-22T02:44:08Z
 Page Count: 69
 
 ============================================================
@@ -6120,7 +6120,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Format available placeholders:
 
@@ -7241,7 +7241,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -9830,7 +9830,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Supported Plugin List
 
@@ -10308,7 +10308,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Hook Item
 
@@ -12284,7 +12284,7 @@ Require ultimateshop.getplaceholdervalue permission.
 
 Reset random placeholder value.
 
-The per player's random placeholder must enter the player name in the command parameters, while the per player's random placeholder cannot enter the player name in the command parameters, otherwise the plugin will prompt an error.
+The per player's random placeholder must enter the player name in the command parameters, while the none-per player's random placeholder cannot enter the player name in the command parameters, otherwise the plugin will prompt an error.
 
 Require ultimateshop.resetrandomplaceholder permission.
 
@@ -12349,7 +12349,7 @@ Require ultimateshop.searchgui permission.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 1 month ago
+Last updated 1 minute ago
 
 FAQ:
 
@@ -13082,7 +13082,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Direct compatibility
 
@@ -13387,7 +13387,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Copy
 # UltimateShop by @PQguanfang
@@ -18650,7 +18650,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Built-in Placeholders List
 
@@ -19171,7 +19171,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Built-in Placeholders List
 
@@ -19407,7 +19407,7 @@ Replace yourPlaceholderName to the file name of the conditional placeholder you 
 
 Previous🎲Random Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Config
 
@@ -19641,7 +19641,7 @@ If you want to disable this feature for specified shops, use black-shops option.
 
 Previous⛓️Conditional Placeholder - PremiumNext🔄Dynamic Price
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Create Conditional Placeholder
 
@@ -23861,7 +23861,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
