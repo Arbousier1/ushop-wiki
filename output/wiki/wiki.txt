@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-26T02:37:00Z
-Page Count: 69
+Generated UTC: 2026-05-27T02:47:16Z
+Page Count: 70
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 60
+Links: 61
 
 UltimateShop Wiki
 
@@ -107,6 +107,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -243,7 +245,7 @@ Info
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -344,6 +346,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -417,7 +421,7 @@ Last updated 4 months ago
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -518,6 +522,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -1512,7 +1518,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -1613,6 +1619,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -2607,7 +2615,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -2708,6 +2716,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -2960,7 +2970,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -3061,6 +3071,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -3313,7 +3325,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -3414,6 +3426,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -3525,7 +3539,7 @@ same: '-'
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -3626,6 +3640,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -3830,7 +3846,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -3931,6 +3947,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -4135,7 +4153,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -4236,6 +4254,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -4338,7 +4358,7 @@ Built-in Color Parser
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -4439,6 +4459,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -4607,7 +4629,7 @@ max-amount: 128
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -4708,6 +4730,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -4855,7 +4879,7 @@ buy-prices:
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -4956,6 +4980,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -5033,7 +5059,7 @@ Get it here.
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -5134,6 +5160,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -5235,7 +5263,7 @@ Last updated 9 months ago
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -5336,6 +5364,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -5430,7 +5460,7 @@ SMART - Early Alpha
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -5531,6 +5561,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -5928,7 +5960,7 @@ amount: 10
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -6029,6 +6061,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -6130,7 +6164,7 @@ Showcase
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -6231,6 +6265,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -6299,13 +6335,13 @@ Like most plugins, UltimateShop does not verify the accuracy and synchronization
 
 Previous🌍Localized Item Name - PremiumNext🔢Number Format
 
-Last updated 9 months ago
+Last updated 10 months ago
 
 ============================================================
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -6406,6 +6442,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -6504,7 +6542,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Built-in number format
 
@@ -6522,7 +6560,7 @@ replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as her
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -6623,6 +6661,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -6748,7 +6788,7 @@ material: superior_sword # If saved item id is 'superior_sword'
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -6849,6 +6889,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -7044,7 +7086,7 @@ plugin: 'DecentHolograms'
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -7145,6 +7187,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -7247,7 +7291,7 @@ Last updated 1 month ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -7348,6 +7392,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -7632,7 +7678,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -7733,6 +7779,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -8427,7 +8475,7 @@ Copy
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -8528,6 +8576,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -8865,7 +8915,7 @@ value: 200
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -8966,6 +9016,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -9086,7 +9138,7 @@ Multi
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -9187,6 +9239,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -9304,7 +9358,7 @@ placeholder: '5 levels'
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -9405,6 +9459,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -9593,7 +9649,7 @@ https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 Title: 🌉ItemBridge | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itembridge
 
-Links: 62
+Links: 63
 
 UltimateShop Wiki
 
@@ -9694,6 +9750,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -9830,7 +9888,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Supported Plugin List
 
@@ -9852,7 +9910,7 @@ hook-item: 'myemoji:happy'
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 62
+Links: 63
 
 UltimateShop Wiki
 
@@ -9955,6 +10013,8 @@ Component Format
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -10308,7 +10368,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Hook Item
 
@@ -10723,7 +10783,7 @@ damage-resistant: is_fall # Damage Type Tag
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 62
+Links: 63
 
 UltimateShop Wiki
 
@@ -10826,6 +10886,8 @@ Component Format
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -11164,7 +11226,7 @@ speed-multiplier: 0.4
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -11265,6 +11327,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -11411,7 +11475,7 @@ Last updated 3 months ago
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -11512,6 +11576,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -11796,7 +11862,7 @@ secret-shop-items: []
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -11897,6 +11963,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -12013,7 +12081,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -12114,6 +12182,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -12347,9 +12417,13 @@ Open search GUI.
 
 Require ultimateshop.searchgui permission.
 
+Custom Placeholder Commands (Premium version only)
+
+For command list of custom placeholder feature, please view this page.
+
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 4 days ago
+Last updated 21 minutes ago
 
 FAQ:
 
@@ -12403,11 +12477,13 @@ ultimateshop.bypass.protection
 
 /shop searchgui [searchMenuID] (Premium version only)
 
+Custom Placeholder Commands (Premium version only)
+
 ============================================================
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -12508,6 +12584,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -12763,7 +12841,7 @@ Last updated 1 month ago
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -12864,6 +12942,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -13082,7 +13162,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Direct compatibility
 
@@ -13198,7 +13278,7 @@ anotherNBTComponent.theNBTKey: 5
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -13299,6 +13379,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -14032,7 +14114,7 @@ period-tick: 6000
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -14133,6 +14215,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -14278,7 +14362,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -14379,6 +14463,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -14537,7 +14623,7 @@ Q: How to reset dynamic price?
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -14638,6 +14724,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -14718,7 +14806,7 @@ Last updated 3 months ago
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -14819,6 +14907,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -14997,7 +15087,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -15098,6 +15188,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -15214,7 +15306,7 @@ An economy plugin if you want to use custom currency
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -15315,6 +15407,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -15661,7 +15755,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -15762,6 +15856,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -15956,7 +16052,7 @@ only-sell: '&6Sell: {sell-price}'
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -16057,6 +16153,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -16250,7 +16348,7 @@ max-amount: 64
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -16351,6 +16449,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -16469,7 +16569,7 @@ layout:
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -16570,6 +16670,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -16734,7 +16836,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 General Setting
 
@@ -16789,7 +16891,7 @@ add-lore:
 Title: ❤️Favoutite Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/favoutite-menus-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -16890,6 +16992,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -17037,7 +17141,7 @@ Copy
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -17138,6 +17242,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -17484,7 +17590,7 @@ click-update: false
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/search-menus-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -17585,6 +17691,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -17795,7 +17903,7 @@ clear-keyword: '{lang}'
 Title: 🛒Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/sell-all-menu
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -17896,6 +18004,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -17989,7 +18099,7 @@ Open Sell All Menu
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 60
+Links: 61
 
 UltimateShop Wiki
 
@@ -18090,6 +18200,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -18158,7 +18270,7 @@ Last updated 1 month ago
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -18259,6 +18371,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -18597,6 +18711,14 @@ For more info, please view Conditional Placeholders page.
 Anywhere in plugin
 PREMIUM
 
+{custom_<ID>}
+
+Use custom placeholder.
+For more info, please view Custom Placeholders page.
+
+Anywhere in plugin
+PREMIUM
+
 {compare_
 <number1>_<number2}
 
@@ -18650,7 +18772,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 5 months ago
+Last updated 6 minutes ago
 
 Built-in Placeholders List
 
@@ -18679,7 +18801,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -18780,6 +18902,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -19118,6 +19242,14 @@ For more info, please view Conditional Placeholders page.
 Anywhere in plugin
 PREMIUM
 
+{custom_<ID>}
+
+Use custom placeholder.
+For more info, please view Custom Placeholders page.
+
+Anywhere in plugin
+PREMIUM
+
 {compare_
 <number1>_<number2}
 
@@ -19171,7 +19303,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 5 months ago
+Last updated 6 minutes ago
 
 Built-in Placeholders List
 
@@ -19200,7 +19332,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -19301,6 +19433,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -19405,7 +19539,7 @@ Open your shop's menu configs, find layout option:
 
 Replace yourPlaceholderName to the file name of the conditional placeholder you used.
 
-Previous🎲Random Placeholder - PremiumNext🔖Example: Discount
+Previous🎲Random Placeholder - PremiumNext🗯️Custom Placeholder - Premium
 
 Last updated 5 months ago
 
@@ -19443,10 +19577,10 @@ layout:
 - 'a0003000b'
 
 ============================================================
-Title: 🔖Example: Discount | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
+Title: 🗯️Custom Placeholder - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -19547,6 +19681,212 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+📍Placeholders
+
+🗯️Custom Placeholder - Premium
+
+This feature was added in version 4.5.26, and still in BETA test.
+
+The main purpose of a custom placeholder is to record desired information, such as the quantity of same of material sold, or the earning. Simply modify the placeholder value using commands in the appropriate places to achieve the desired effect.
+
+Config
+
+All custom placeholder configs are stored in custom_placeholders folder. The file name is it's ID, for example: example.yml means it's ID is example. An example of it's config is like below:
+
+Copy
+type: number
+default-value: "1"
+per-player-value: true
+
+type: Support value: default or number. If you only want to record numeric data, then set this to number; otherwise, set it to default.
+
+default-value: If no value is set for this placeholder, the default value set here will be used.
+
+per-player-value: If set to true, each player has an independent placeholder value; otherwise, all players share the same placeholder value.
+
+Use Placeholder
+
+Use {custom_<ID>} placeholder to display it's value. For more info, please view Placeholders page. For example: {custom_example}
+
+Set Placeholder Value
+
+You need to set the value of the custom placeholder by using commands.
+
+/shop setcustomplaceholder <ID> <value> [playerName]
+If per-player-result is set to true, then playerName will be a required parameter; otherwise, the playerName parameter should not be entered.
+
+/shop addcustomplaceholder <ID> <value> [playerName]
+Only work number type of custom placeholder. It will be added to the current value of the placeholder. For example, if the current value is 1 and the value parameter entered here is 5, then the final placeholder value will be replaced with 6.
+
+Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
+
+Last updated 18 minutes ago
+
+Config
+
+Use Placeholder
+
+Set Placeholder Value
+
+============================================================
+Title: 🔖Example: Discount | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
+
+Links: 62
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favoutite Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -19639,7 +19979,7 @@ It is recommend you disable this feature for dynamic price, if you want to enabl
 
 If you want to disable this feature for specified shops, use black-shops option.
 
-Previous⛓️Conditional Placeholder - PremiumNext🔄Dynamic Price
+Previous🗯️Custom Placeholder - PremiumNext🔄Dynamic Price
 
 Last updated 5 months ago
 
@@ -19705,7 +20045,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -19806,6 +20146,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -19919,7 +20261,7 @@ Use {random_times_<ID>} placeholder to display the reset time of the placeholder
 
 Reset Placeholder
 
-You can reset placeholder by setting reset-mode and reset-time option.
+You can reset placeholder by setting reset-mode and reset-time option or use /shop resetrandomplaceholder command.
 
 Reset Mode
 
@@ -20013,7 +20355,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 3 months ago
+Last updated 9 minutes ago
 
 Config
 
@@ -20101,7 +20443,7 @@ start-apply: 0
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -20202,6 +20544,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -20484,7 +20828,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -20585,6 +20929,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -20840,7 +21186,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -20941,6 +21287,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -21123,7 +21471,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -21224,6 +21572,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -21476,7 +21826,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -21577,6 +21927,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -21694,7 +22046,7 @@ FAQ: Restock
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -21795,6 +22147,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -22167,7 +22521,7 @@ sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -22268,6 +22622,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -22491,7 +22847,7 @@ buy-actions: The action will run after buy this product, use Action Format here.
 
 sell-actions: The action will run after sell this product, use Action Format here. Optional.
 
-fail-actions: The action will run if we fail to buy or sell this product, use Action Format here. Optional. In example above we put this on general-configs and set it as a fail sound.
+fail-actions: The action will run if we fail to buy or sell this product, use Action Format here. Optional.
 
 buy-conditions: The condition player need to meet to buy this product, use Condition Format here. Optional.
 
@@ -22634,7 +22990,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 1 month ago
+Last updated 5 minutes ago
 
 General Options
 
@@ -22686,7 +23042,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -22787,6 +23143,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -23646,7 +24004,7 @@ add-price-lore:
 Title: 💰Sell Multiplier - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -23747,6 +24105,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -23867,7 +24227,7 @@ Last updated 1 month ago
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -23968,6 +24328,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
@@ -24132,7 +24494,7 @@ buy-times-reset-time: 00:00:00
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 61
+Links: 62
 
 UltimateShop Wiki
 
@@ -24233,6 +24595,8 @@ UltimateShop Wiki
 🎲Random Placeholder - Premium
 
 ⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
 
 🔖Example: Discount
 
