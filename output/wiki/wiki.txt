@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-27T02:47:16Z
+Generated UTC: 2026-05-28T02:34:26Z
 Page Count: 70
 
 ============================================================
@@ -2918,7 +2918,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Enable Math Feature
 
@@ -3273,7 +3273,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Enable Math Feature
 
@@ -9888,7 +9888,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Supported Plugin List
 
@@ -10368,7 +10368,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Hook Item
 
@@ -12067,7 +12067,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Java Version
 
@@ -12423,7 +12423,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 21 minutes ago
+Last updated 1 day ago
 
 FAQ:
 
@@ -13162,7 +13162,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Direct compatibility
 
@@ -15292,7 +15292,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Java Version
 
@@ -18772,7 +18772,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 6 minutes ago
+Last updated 1 day ago
 
 Built-in Placeholders List
 
@@ -19303,7 +19303,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 6 minutes ago
+Last updated 1 day ago
 
 Built-in Placeholders List
 
@@ -19772,7 +19772,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 18 minutes ago
+Last updated 1 day ago
 
 Config
 
@@ -20355,7 +20355,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 9 minutes ago
+Last updated 1 day ago
 
 Config
 
@@ -21034,7 +21034,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Product A
 
@@ -22990,7 +22990,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 5 minutes ago
+Last updated 1 day ago
 
 General Options
 
