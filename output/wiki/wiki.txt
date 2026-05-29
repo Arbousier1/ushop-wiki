@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-28T02:34:26Z
+Generated UTC: 2026-05-29T02:38:22Z
 Page Count: 70
 
 ============================================================
@@ -5049,7 +5049,7 @@ Get it here.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 EconomyLimit
 
@@ -9888,7 +9888,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Supported Plugin List
 
@@ -10368,7 +10368,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Hook Item
 
@@ -13162,7 +13162,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Direct compatibility
 
