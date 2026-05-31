@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-05-30T02:32:29Z
+Generated UTC: 2026-05-31T02:49:25Z
 Page Count: 70
 
 ============================================================
@@ -9888,7 +9888,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Supported Plugin List
 
@@ -10368,7 +10368,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Hook Item
 
@@ -12423,7 +12423,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 FAQ:
 
@@ -13162,7 +13162,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Direct compatibility
 
@@ -18772,7 +18772,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Built-in Placeholders List
 
@@ -19303,7 +19303,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Built-in Placeholders List
 
@@ -19772,7 +19772,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Config
 
@@ -20355,7 +20355,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Config
 
@@ -22036,7 +22036,7 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Set dynamic value for your product configs
 
@@ -22990,7 +22990,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 General Options
 
