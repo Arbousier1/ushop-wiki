@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-06T02:34:08Z
+Generated UTC: 2026-06-07T02:53:04Z
 Page Count: 70
 
 ============================================================
@@ -5147,7 +5147,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 EconomyLimit
 
@@ -12586,7 +12586,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 FAQ:
 
@@ -16486,7 +16486,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 
 Previous🔲General MenusNext🔍Search Menus - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Buy More Menus Config
 
@@ -18935,7 +18935,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Built-in Placeholders List
 
@@ -19466,7 +19466,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Built-in Placeholders List
 
@@ -19935,7 +19935,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Config
 
@@ -20518,7 +20518,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 Config
 
@@ -23153,7 +23153,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 General Options
 
