@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-08T02:55:47Z
+Generated UTC: 2026-06-09T02:33:11Z
 Page Count: 70
 
 ============================================================
@@ -585,6 +585,7 @@ Add as dependency
 As of March 20, 2026, the latest plugin version number is 4.3.4. If this date is too far away, then you should check the latest plugin version number yourself, as the provided plugin version may be outdated or unavailable.
 
 Copy
+
 <repositories>
 <repository>
 <id>repo-lanink-cn</id>
@@ -602,6 +603,7 @@ Copy
 </dependencies>
 
 Copy
+
 repositories {
 maven {
 url "https://repo.lanink.cn/repository/maven-public/"
@@ -1271,6 +1273,7 @@ UltimateShop Developer Integration Guide
 15. Hook Integration: Economy Sources and Item Sources
 
 Copy
+
 repositories {
 maven("https://repo.lanink.cn/repository/maven-public/")
 }
@@ -1280,16 +1283,19 @@ compileOnly("cn.superiormc.ultimateshop:plugin:[PLUGIN VERSION]")
 }
 
 Copy
+
 softdepend:
 - UltimateShop
 
 Copy
+
 Plugin plugin = Bukkit.getPluginManager().getPlugin("UltimateShop");
 if (plugin == null || !plugin.isEnabled()) {
 return;
 }
 
 Copy
+
 import cn.superiormc.ultimateshop.api.ShopHelper;
 import cn.superiormc.ultimateshop.objects.buttons.ObjectItem;
 
@@ -1303,6 +1309,7 @@ String productId = item.getProduct();
 String displayName = item.getDisplayName(player);
 
 Copy
+
 int buyTimes = ShopHelper.getBuyUseTimes(item, player);
 int sellTimes = ShopHelper.getSellUseTimes(item, player);
 
@@ -1310,6 +1317,7 @@ int playerBuyLimit = item.getPlayerBuyLimit(player);
 int playerSellLimit = item.getPlayerSellLimit(player);
 
 Copy
+
 int used = ShopHelper.getBuyUseTimes(item, player);
 int limit = item.getPlayerBuyLimit(player);
 
@@ -1319,6 +1327,7 @@ player.sendMessage("You can still buy " + remain + " more times");
 }
 
 Copy
+
 ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
 String buyPriceDisplay = ShopHelper.getBuyPricesDisplay(items, player, 3);
 if (buyPriceDisplay != null) {
@@ -1326,6 +1335,7 @@ player.sendMessage("Buying 3 times costs: " + buyPriceDisplay);
 }
 
 Copy
+
 ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
 String sellPriceDisplay = ShopHelper.getSellPricesDisplay(items, player, 1);
 if (sellPriceDisplay != null) {
@@ -1333,11 +1343,13 @@ player.sendMessage("Selling gives: " + sellPriceDisplay);
 }
 
 Copy
+
 ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
 TakeResult buyCost = ShopHelper.getBuyPrices(items, player, 3);
 GiveResult sellReward = ShopHelper.getSellPrices(items, player, 1);
 
 Copy
+
 import cn.superiormc.ultimateshop.api.ItemPreTransactionEvent;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -1358,6 +1370,7 @@ event.getPlayer().sendMessage(
 }
 
 Copy
+
 @EventHandler
 public void onFinish(ItemFinishTransactionEvent event) {
 Player player = event.getPlayer();
@@ -1365,32 +1378,39 @@ player.sendMessage("Transaction completed: " + event.getItem().getProduct());
 }
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> result =
 ShopHelper.sellAll(player, player.getInventory(), 1.0D);
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> result = ShopHelper.sellAll(player, inv, 1.0D);
 ShopHelper.giveThing(0, 0, player, 1.0D, result); // duplicates rewards
 
 Copy
+
 TakeResult takeResult = ShopHelper.getBuyPrices(player.getInventory(), player, 1);
 if (takeResult != null && takeResult.getResultBoolean()) {
 takeResult.take(0, 1, player.getInventory(), player);
 }
 
 Copy
+
 GiveResult giveResult = ShopHelper.getSellPrices(player.getInventory(), player, 1);
 if (giveResult != null) {
 boolean success = ShopHelper.giveThing(0, 1, player, 1.0D, giveResult.getResultMap());
 }
 
 Copy
+
 ShopHelper.takeThing(0, 1, player.getInventory(), player, takeResult.getResultMap());
 
 Copy
+
 Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "ultimateshop menu blocks Steve");
 
 Copy
+
 import cn.superiormc.ultimateshop.api.ShopHelper;
 import cn.superiormc.ultimateshop.gui.inv.ShopGUI;
 import cn.superiormc.ultimateshop.objects.ObjectShop;
@@ -1405,18 +1425,21 @@ ObjectShop shop = item.getShopObject();
 ShopGUI.openGUI(player, shop, false, false);
 
 Copy
+
 import cn.superiormc.ultimateshop.methods.Product.BuyProductMethod;
 import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
 
 ProductTradeStatus status = BuyProductMethod.startBuy(item, player, true, false, 3);
 
 Copy
+
 import cn.superiormc.ultimateshop.methods.Product.SellProductMethod;
 import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
 
 ProductTradeStatus status = SellProductMethod.startSell(item, player, true, false, false, 3);
 
 Copy
+
 ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
 if (item == null) {
 return;
@@ -1432,6 +1455,7 @@ player.sendMessage("Remaining buy count: " + Math.max(0, limit - used));
 ShopGUI.openGUI(player, item.getShopObject(), false, false);
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -1439,6 +1463,7 @@ amount: 100
 placeholder: '{amount}$'
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> resultMap = takeResult.getResultMap();
 for (AbstractSingleThing singleThing : resultMap.keySet()) {
 if (singleThing.getSingleSection().getString("economy-plugin", "").equals("Vault") {
@@ -1447,12 +1472,15 @@ return "This price includes Vault";
 }
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: MyEconomy
@@ -1461,6 +1489,7 @@ amount: 100
 placeholder: '{amount} Gems'
 
 Copy
+
 public final class MyEconomyHook extends AbstractEconomyHook {
 
 public MyEconomyHook() {
@@ -1484,15 +1513,18 @@ MyEconomyApi.deposit(player.getUniqueId(), currencyID, value);
 }
 
 Copy
+
 HookManager.hookManager.registerNewEconomyHook("MyEconomy", new MyEconomyHook());
 
 Copy
+
 products:
 1:
 hook-plugin: MyItems
 hook-item: sword_of_flame
 
 Copy
+
 public final class MyItemHook extends AbstractItemHook {
 
 public MyItemHook() {
@@ -1512,6 +1544,7 @@ return MyItemsApi.findId(hookItem);
 }
 
 Copy
+
 HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 
 ============================================================
@@ -1682,6 +1715,7 @@ Add as dependency
 As of March 20, 2026, the latest plugin version number is 4.3.4. If this date is too far away, then you should check the latest plugin version number yourself, as the provided plugin version may be outdated or unavailable.
 
 Copy
+
 <repositories>
 <repository>
 <id>repo-lanink-cn</id>
@@ -1699,6 +1733,7 @@ Copy
 </dependencies>
 
 Copy
+
 repositories {
 maven {
 url "https://repo.lanink.cn/repository/maven-public/"
@@ -2368,6 +2403,7 @@ UltimateShop Developer Integration Guide
 15. Hook Integration: Economy Sources and Item Sources
 
 Copy
+
 repositories {
 maven("https://repo.lanink.cn/repository/maven-public/")
 }
@@ -2377,16 +2413,19 @@ compileOnly("cn.superiormc.ultimateshop:plugin:[PLUGIN VERSION]")
 }
 
 Copy
+
 softdepend:
 - UltimateShop
 
 Copy
+
 Plugin plugin = Bukkit.getPluginManager().getPlugin("UltimateShop");
 if (plugin == null || !plugin.isEnabled()) {
 return;
 }
 
 Copy
+
 import cn.superiormc.ultimateshop.api.ShopHelper;
 import cn.superiormc.ultimateshop.objects.buttons.ObjectItem;
 
@@ -2400,6 +2439,7 @@ String productId = item.getProduct();
 String displayName = item.getDisplayName(player);
 
 Copy
+
 int buyTimes = ShopHelper.getBuyUseTimes(item, player);
 int sellTimes = ShopHelper.getSellUseTimes(item, player);
 
@@ -2407,6 +2447,7 @@ int playerBuyLimit = item.getPlayerBuyLimit(player);
 int playerSellLimit = item.getPlayerSellLimit(player);
 
 Copy
+
 int used = ShopHelper.getBuyUseTimes(item, player);
 int limit = item.getPlayerBuyLimit(player);
 
@@ -2416,6 +2457,7 @@ player.sendMessage("You can still buy " + remain + " more times");
 }
 
 Copy
+
 ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
 String buyPriceDisplay = ShopHelper.getBuyPricesDisplay(items, player, 3);
 if (buyPriceDisplay != null) {
@@ -2423,6 +2465,7 @@ player.sendMessage("Buying 3 times costs: " + buyPriceDisplay);
 }
 
 Copy
+
 ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
 String sellPriceDisplay = ShopHelper.getSellPricesDisplay(items, player, 1);
 if (sellPriceDisplay != null) {
@@ -2430,11 +2473,13 @@ player.sendMessage("Selling gives: " + sellPriceDisplay);
 }
 
 Copy
+
 ItemStack[] items = new ItemStack[]{player.getInventory().getItemInMainHand()};
 TakeResult buyCost = ShopHelper.getBuyPrices(items, player, 3);
 GiveResult sellReward = ShopHelper.getSellPrices(items, player, 1);
 
 Copy
+
 import cn.superiormc.ultimateshop.api.ItemPreTransactionEvent;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -2455,6 +2500,7 @@ event.getPlayer().sendMessage(
 }
 
 Copy
+
 @EventHandler
 public void onFinish(ItemFinishTransactionEvent event) {
 Player player = event.getPlayer();
@@ -2462,32 +2508,39 @@ player.sendMessage("Transaction completed: " + event.getItem().getProduct());
 }
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> result =
 ShopHelper.sellAll(player, player.getInventory(), 1.0D);
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> result = ShopHelper.sellAll(player, inv, 1.0D);
 ShopHelper.giveThing(0, 0, player, 1.0D, result); // duplicates rewards
 
 Copy
+
 TakeResult takeResult = ShopHelper.getBuyPrices(player.getInventory(), player, 1);
 if (takeResult != null && takeResult.getResultBoolean()) {
 takeResult.take(0, 1, player.getInventory(), player);
 }
 
 Copy
+
 GiveResult giveResult = ShopHelper.getSellPrices(player.getInventory(), player, 1);
 if (giveResult != null) {
 boolean success = ShopHelper.giveThing(0, 1, player, 1.0D, giveResult.getResultMap());
 }
 
 Copy
+
 ShopHelper.takeThing(0, 1, player.getInventory(), player, takeResult.getResultMap());
 
 Copy
+
 Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "ultimateshop menu blocks Steve");
 
 Copy
+
 import cn.superiormc.ultimateshop.api.ShopHelper;
 import cn.superiormc.ultimateshop.gui.inv.ShopGUI;
 import cn.superiormc.ultimateshop.objects.ObjectShop;
@@ -2502,18 +2555,21 @@ ObjectShop shop = item.getShopObject();
 ShopGUI.openGUI(player, shop, false, false);
 
 Copy
+
 import cn.superiormc.ultimateshop.methods.Product.BuyProductMethod;
 import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
 
 ProductTradeStatus status = BuyProductMethod.startBuy(item, player, true, false, 3);
 
 Copy
+
 import cn.superiormc.ultimateshop.methods.Product.SellProductMethod;
 import cn.superiormc.ultimateshop.methods.ProductTradeStatus;
 
 ProductTradeStatus status = SellProductMethod.startSell(item, player, true, false, false, 3);
 
 Copy
+
 ObjectItem item = ShopHelper.getItemFromID("blocks", "diamond_block");
 if (item == null) {
 return;
@@ -2529,6 +2585,7 @@ player.sendMessage("Remaining buy count: " + Math.max(0, limit - used));
 ShopGUI.openGUI(player, item.getShopObject(), false, false);
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -2536,6 +2593,7 @@ amount: 100
 placeholder: '{amount}$'
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> resultMap = takeResult.getResultMap();
 for (AbstractSingleThing singleThing : resultMap.keySet()) {
 if (singleThing.getSingleSection().getString("economy-plugin", "").equals("Vault") {
@@ -2544,12 +2602,15 @@ return "This price includes Vault";
 }
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
+
 Map<AbstractSingleThing, BigDecimal> resultMap
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: MyEconomy
@@ -2558,6 +2619,7 @@ amount: 100
 placeholder: '{amount} Gems'
 
 Copy
+
 public final class MyEconomyHook extends AbstractEconomyHook {
 
 public MyEconomyHook() {
@@ -2581,15 +2643,18 @@ MyEconomyApi.deposit(player.getUniqueId(), currencyID, value);
 }
 
 Copy
+
 HookManager.hookManager.registerNewEconomyHook("MyEconomy", new MyEconomyHook());
 
 Copy
+
 products:
 1:
 hook-plugin: MyItems
 hook-item: sword_of_flame
 
 Copy
+
 public final class MyItemHook extends AbstractItemHook {
 
 public MyItemHook() {
@@ -2609,6 +2674,7 @@ return MyItemsApi.findId(hookItem);
 }
 
 Copy
+
 HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 
 ============================================================
@@ -2779,6 +2845,7 @@ Change your config.yml file:
 Change
 
 Copy
+
 math:
 # Enabled base math calculate?
 # Will support + - * / only.
@@ -2787,6 +2854,7 @@ enabled: false
 to
 
 Copy
+
 math:
 # Enabled base math calculate?
 # Will support + - * / only.
@@ -2795,6 +2863,7 @@ enabled: true
 Change
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: false
@@ -2802,6 +2871,7 @@ can-used-in-amount: false
 to
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: true
@@ -2933,6 +3003,7 @@ Set buy / sell limits for your products
 Reset dynamic price
 
 Copy
+
 A:
 display-name: 'Custom Name!'
 price-mode: ALL
@@ -2958,6 +3029,7 @@ start-apply: 0
 placeholder: '{amount} Exp'
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -3134,6 +3206,7 @@ Change your config.yml file:
 Change
 
 Copy
+
 math:
 # Enabled base math calculate?
 # Will support + - * / only.
@@ -3142,6 +3215,7 @@ enabled: false
 to
 
 Copy
+
 math:
 # Enabled base math calculate?
 # Will support + - * / only.
@@ -3150,6 +3224,7 @@ enabled: true
 Change
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: false
@@ -3157,6 +3232,7 @@ can-used-in-amount: false
 to
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: true
@@ -3288,6 +3364,7 @@ Set buy / sell limits for your products
 Reset dynamic price
 
 Copy
+
 A:
 display-name: 'Custom Name!'
 price-mode: ALL
@@ -3313,6 +3390,7 @@ start-apply: 0
 placeholder: '{amount} Exp'
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -3487,6 +3565,7 @@ Dynamic Price Status
 You can use {status} placeholder in price section's amount option, like this:
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -3529,6 +3608,7 @@ Display Percentage Change
 Showcase
 
 Copy
+
 # Premium version only
 compare:
 up: '↑ &c+{math_(({compare}-{base})/{base}) * 100}% Debug: {compare} {base}'
@@ -3701,6 +3781,7 @@ Default Language
 You can set default language at config.yml file.
 
 Copy
+
 config-files:
 language: en_US
 # Premium version only.
@@ -3787,6 +3868,7 @@ Boss Bar - Early Alpha
 Sound
 
 Copy
+
 // ... The content originally present in the language file
 
 # Added content
@@ -3795,6 +3877,7 @@ override-lang:
 shop-title: 'Item Shop'
 
 Copy
+
 // ... The content originally present in the language file
 
 # Added content
@@ -3803,6 +3886,7 @@ override-lang:
 shop-title: '物品商店'
 
 Copy
+
 placeholder:
 # Premium version only
 compare:
@@ -3811,6 +3895,7 @@ down: '{lang}'
 same: '{lang}'
 
 Copy
+
 // ... The content originally present in the language file
 
 override-lang:
@@ -3821,25 +3906,32 @@ down: '↓'
 same: '-'
 
 Copy
+
 welcome: 'Welcome to the server!'
 
 Copy
+
 welcome: '[message]&aWelcome![/message]'
 
 Copy
+
 welcome: '[title=20,60,20]&6Welcome;;&eThis is sub title[/title]'
 # Format: [title=fadeIn,Stay,fadeOut]title;;subTitle[/title]
 
 Copy
+
 welcome: '[message]&aGood day![/message][title=20,60,20]&6Welcome;;&eThis is sub title[/title]'
 
 Copy
+
 welcome: '[actionbar]&7Please wait...[/actionbar]'
 
 Copy
+
 welcome: '[bossbar=GREEN,SOLID,1.0]&aHappy Today[/bossbar]'
 
 Copy
+
 welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_LEVELUP,1,1][/sound]'
 
 ============================================================
@@ -4008,6 +4100,7 @@ Default Language
 You can set default language at config.yml file.
 
 Copy
+
 config-files:
 language: en_US
 # Premium version only.
@@ -4094,6 +4187,7 @@ Boss Bar - Early Alpha
 Sound
 
 Copy
+
 // ... The content originally present in the language file
 
 # Added content
@@ -4102,6 +4196,7 @@ override-lang:
 shop-title: 'Item Shop'
 
 Copy
+
 // ... The content originally present in the language file
 
 # Added content
@@ -4110,6 +4205,7 @@ override-lang:
 shop-title: '物品商店'
 
 Copy
+
 placeholder:
 # Premium version only
 compare:
@@ -4118,6 +4214,7 @@ down: '{lang}'
 same: '{lang}'
 
 Copy
+
 // ... The content originally present in the language file
 
 override-lang:
@@ -4128,25 +4225,32 @@ down: '↓'
 same: '-'
 
 Copy
+
 welcome: 'Welcome to the server!'
 
 Copy
+
 welcome: '[message]&aWelcome![/message]'
 
 Copy
+
 welcome: '[title=20,60,20]&6Welcome;;&eThis is sub title[/title]'
 # Format: [title=fadeIn,Stay,fadeOut]title;;subTitle[/title]
 
 Copy
+
 welcome: '[message]&aGood day![/message][title=20,60,20]&6Welcome;;&eThis is sub title[/title]'
 
 Copy
+
 welcome: '[actionbar]&7Please wait...[/actionbar]'
 
 Copy
+
 welcome: '[bossbar=GREEN,SOLID,1.0]&aHappy Today[/bossbar]'
 
 Copy
+
 welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_LEVELUP,1,1][/sound]'
 
 ============================================================
@@ -4522,6 +4626,7 @@ Find those contents at config.yml file.
 We support override default click event for specifed product, for more info, please view Products page.
 
 Copy
+
 # Support value: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/inventory/ClickType.htm
 # Support use ;; symbol to make multi click type.
 click-event:
@@ -4591,6 +4696,7 @@ Showcase
 Example: Only Buy More Menu
 
 Copy
+
 # Support value: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/inventory/ClickType.html
 # Support use ;; symbol to make multi click type.
 click-event:
@@ -4799,6 +4905,7 @@ ItemFormat: ItemFormat can set ignore list of item's vanilla NBT. If you add enc
 Example config:
 
 Copy
+
 sell:
 # Support Value: Bukkit or ItemFormat.
 # For each product, you can add match-item section to make custom sell match method, for more info, please view Wiki.
@@ -4858,6 +4965,7 @@ Third-plugin Item
 Custom Match Method for each product - Require MythicChanger
 
 Copy
+
 A:
 price-mode: ALL
 product-mode: CLASSIC_ALL
@@ -5147,7 +5255,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 3 days ago
+Last updated 5 days ago
 
 EconomyLimit
 
@@ -5162,6 +5270,7 @@ Config
 Placeholders
 
 Copy
+
 rules:
 daily:
 display-name: "{lang:rules.daily.name}"
@@ -5180,41 +5289,52 @@ value: economylimit.rule.daily.bypass
 limit: -1
 
 Copy
+
 %economylimit_bank_balance%
 %economylimit_bank%
 
 Copy
+
 %economylimit_rule_<ruleId>_name%
 
 Copy
+
 %economylimit_rule_daily_name%
 %economylimit_rule_weekly_name%
 
 Copy
+
 %economylimit_rule_<ruleId>_earned%
 %economylimit_rule_<ruleId>_progress%
 %economylimit_rule_<ruleId>_current%
 
 Copy
+
 %economylimit_rule_daily_earned%
 
 Copy
+
 %economylimit_rule_<ruleId>_limit%
 
 Copy
+
 %economylimit_rule_daily_limit%
 
 Copy
+
 %economylimit_rule_<ruleId>_remaining%
 
 Copy
+
 %economylimit_rule_daily_remaining%
 
 Copy
+
 %economylimit_rule_<ruleId>_next_reset%
 %economylimit_rule_<ruleId>_reset%
 
 Copy
+
 %economylimit_rule_daily_next_reset%
 %economylimit_rule_weekly_reset%
 
@@ -5386,6 +5506,7 @@ You can use prices section in config.yml file to create new easy prices!
 For exmaple:
 
 Copy
+
 prices:
 example:
 economy-plugin: Vault
@@ -5399,6 +5520,7 @@ placeholder: '1 Mythic Axe'
 This has 2 easy prices, one is example, the other is mmoitems-example. You can use them at shop products buy-prices and sell-prices section with type option. Just like:
 
 Copy
+
 products:
 A:
 give-item: true
@@ -5586,6 +5708,7 @@ On this page
 You can change give item method at config.yml file with below content:
 
 Copy
+
 give-item:
 # Support value: BUKKIT, SMART
 # SMART will cost more server performance but will follow the vanilla max stack to give player item, also support check full.
@@ -5789,6 +5912,7 @@ Configs
 Open config.yml file, and fine below contents:
 
 Copy
+
 config-files:
 generate-default-files: true
 language: en_US
@@ -6093,7 +6217,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Requirements
 
@@ -6108,6 +6232,7 @@ Alternative methods
 Set custom display-item for product
 
 Copy
+
 items:
 A:
 display-name: 'Apple' # Added line!
@@ -6283,6 +6408,7 @@ On this page
 Open config.yml and find below contents:
 
 Copy
+
 log-transaction:
 enabled: true
 # If set to empty value, we will just print the log into console.
@@ -6666,6 +6792,7 @@ Built-in number format
 You can use plugin built-in number format and set them in config.yml file.
 
 Copy
+
 number-display:
 format:
 enabled: true
@@ -6687,6 +6814,7 @@ Edit placeholder option in price configs to this: %formatter_number_format_{amou
 Example:
 
 Copy
+
 C:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -6712,6 +6840,7 @@ Built-in number format
 Use other PAPI extension
 
 Copy
+
 placeholder:
 auto-settings:
 # If enabled, we will try change {amount} in price placeholder option to the value you set here.
@@ -6901,12 +7030,14 @@ ItemFormat: will parse item into Item Format.
 An example for item config file that use Bukkit save item method with Paper version of UltimateShop:
 
 Copy
+
 item: !!binary |-
 H4sIAAAAAAAA/21RzW4TMRCeJd0oWVB/1IIQXILEG/TGpSDxCKhXa2LPbkxsz8qepUlPPAonXoBn6nsw27TaViBZljzz/XmmAZjBy68oeE25eE4Ap3cLeOEdnEWfyGZs5ZPzGDm5GdSWhyQAMG+gsRx7TpSkNHA8gVtmRS7TINnLvSLUNTQFZcg4Fj7/Aqjg2GIyGG5wXwyhVJrj7SQScWeKoN2a4m9pNFw+9QicqdFqtRgj6QuOuoz7BRwJ7QQuvm18WenJhCHsV8lb+qCeHycFSnaDSaLGN13wevMPytk7qhp4819cmT2diVacT90YAhp4PTXsUISjSRhpSrcOAz2me/Vl1emMVuWGs1Pu+3+4kR0F43QrS5i3gVFKPRpd/dR7Ae8mwvdhS2vemT7gHteB4HzqsWzGnTp6th5hDjM4dRixI9NTNuvAdnvY0oWjFocgRvH6OVN6Inf1u22XUOchUHkY+vyeU+Bk0tXgiSo4s5wzWTEtZ+My96WqoT7o/Lm8VDr8BZMVpHJ0AgAA
 
 An example for item config file that use ItemFormat save item method with Paper version of UltimateShop:
 
 Copy
+
 material: DIAMOND
 amount: 6
 name: <blue>A good sword
@@ -6944,6 +7075,7 @@ Save your item
 Use saved item
 
 Copy
+
 display-item:
 material: superior_sword # If saved item id is 'superior_sword'
 
@@ -7205,6 +7337,7 @@ Setting in config.yml file
 Showcase
 
 Copy
+
 display-item:
 material: CHEST
 name: '&dSell Chest &7(500 times)'
@@ -7233,6 +7366,7 @@ sound: 'block.note_block.pling'
 conditions: []
 
 Copy
+
 sell-chest:
 enabled: true
 debug: false
@@ -7413,6 +7547,7 @@ Products that using dynamic price is also supported in sell stick. For example, 
 All sell stick configs are stored in sell_sticks folder. The file name is it's ID, for example: A.yml means it's ID is A. An example of it's config is like below:
 
 Copy
+
 display-item:
 material: STICK
 name: '&dSell Stick &7(5 times)'
@@ -7618,6 +7753,7 @@ Basic Syntax
 The basic structure of YAML is key: value. Example:
 
 Copy
+
 debug: false
 
 Important Rules:
@@ -7635,6 +7771,7 @@ Hierarchy & Indentation
 Indentation represents parent-child relationships in YAML. Each level must be indented by two spaces. Example:
 
 Copy
+
 auto-save:
 hide-message: false
 
@@ -7752,6 +7889,7 @@ Lists
 Empty and Default Values
 
 Copy
+
 settings:
 menu: 'example-shop-menu'
 buy-more: true
@@ -7773,6 +7911,7 @@ amount: '0.63'
 placeholder: '{amount}$'
 
 Copy
+
 items:
 buy-prices: # Will not work
 1:
@@ -7792,6 +7931,7 @@ material: GRASS_BLOCK
 amount: 1
 
 Copy
+
 items: # Will work.
 B: # Will work.
 products: # Will work.
@@ -7805,6 +7945,7 @@ type: message # Will work.
 message: 'eco give {player} {amount}' # Will work.
 
 Copy
+
 settings
 │
 ├─ menu
@@ -7827,6 +7968,7 @@ items
 └─ placeholder
 
 Copy
+
 menu:
 secret-shop-items:
 - diamond_sword
@@ -7834,6 +7976,7 @@ secret-shop-items:
 - enchanted_golden_apple
 
 Copy
+
 menu:
 secret-shop-items: []
 
@@ -8017,6 +8160,7 @@ end-apply: Last times the action will apply. Optional. Default to infinite.
 apply: Which times this action will apply, format: [1,2,3,4]. Optional. Default use start-apply option value.
 
 Copy
+
 actions:
 1:
 apply: [1,2,3,4,5]
@@ -8328,28 +8472,33 @@ Toggle Favourite - Premium
 Prompt - Premium
 
 Copy
+
 actions:
 1:
 sell-all-once: true # In sell all
 multi-once: true # In buy more menu
 
 Copy
+
 actions:
 1:
 open-once: true
 
 Copy
+
 actions:
 1:
 click-type: LEFT
 
 Copy
+
 actions:
 1:
 java-only: true
 bedrock-only: true
 
 Copy
+
 fail-actions:
 1:
 fail-type: 'PLAYER_MAX'
@@ -8357,6 +8506,7 @@ type: message
 message: 'Hello'
 
 Copy
+
 actions:
 1:
 type: sound
@@ -8365,12 +8515,14 @@ volume: 1
 pitch: 1
 
 Copy
+
 actions:
 1:
 type: message
 message: 'Hello!'
 
 Copy
+
 actions:
 1:
 type: title
@@ -8381,6 +8533,7 @@ stay: 70
 fade-out: 30
 
 Copy
+
 actions:
 1:
 type: particle
@@ -8392,12 +8545,14 @@ offset-z: 0.3
 speed: 0.01
 
 Copy
+
 actions:
 1:
 type: announcement
 message: 'Hello!'
 
 Copy
+
 actions:
 1:
 type: effect
@@ -8409,6 +8564,7 @@ particles: true # Optional
 icon: true # Optional
 
 Copy
+
 actions:
 1:
 type: teleport
@@ -8420,24 +8576,28 @@ pitch: 90 # Optional
 yaw: 0 # Optional
 
 Copy
+
 actions:
 1:
 type: player_command
 command: 'tell Hello!'
 
 Copy
+
 actions:
 1:
 type: op_command
 command: 'tell Hello!'
 
 Copy
+
 actions:
 1:
 type: console_command
 command: 'op {player}'
 
 Copy
+
 actions:
 1:
 type: entity_spawn
@@ -8448,6 +8608,7 @@ y: 2.0 # Optional
 z: -100.0 # Optional
 
 Copy
+
 actions:
 1:
 type: mythicmobs_spawn
@@ -8459,18 +8620,21 @@ y: 2.0 # Optional
 z: -100.0 # Optional
 
 Copy
+
 actions:
 1:
 type: open_menu
 menu: main
 
 Copy
+
 actions:
 1:
 type: shop_menu
 shop: farming
 
 Copy
+
 actions:
 1:
 type: buy_more_menu
@@ -8478,6 +8642,7 @@ shop: farming
 item: A
 
 Copy
+
 actions:
 1:
 type: buy_more_menu
@@ -8488,11 +8653,13 @@ menu: buy-more-buy
 max-amount: 128
 
 Copy
+
 actions:
 1:
 type: sell_all_menu
 
 Copy
+
 actions:
 1:
 type: buy
@@ -8501,6 +8668,7 @@ item: A
 amount: 5 # Optional
 
 Copy
+
 actions:
 1:
 type: sell
@@ -8510,11 +8678,13 @@ amount: 5 # Optional
 sell-all: true # Optional
 
 Copy
+
 actions:
 1:
 type: close
 
 Copy
+
 actions:
 1:
 type: delay
@@ -8526,6 +8696,7 @@ type: entity_spawn
 entity: ZOMBIE
 
 Copy
+
 actions:
 1:
 type: chance
@@ -8536,6 +8707,7 @@ type: entity_spawn
 entity: ZOMBIE
 
 Copy
+
 actions:
 1:
 type: any
@@ -8552,6 +8724,7 @@ type: entity_spawn
 entity: WITHER
 
 Copy
+
 actions:
 1:
 type: conditional
@@ -8565,22 +8738,26 @@ type: entity_spawn
 entity: ZOMBIE
 
 Copy
+
 actions:
 1:
 type: connect
 server: 'lobby'
 
 Copy
+
 actions:
 1:
 type: update_gui
 
 Copy
+
 actions:
 1:
 type: update_title
 
 Copy
+
 actions:
 1:
 type: add_favourite
@@ -8589,6 +8766,7 @@ shop: '{shop}'
 item: '{item}'
 
 Copy
+
 actions:
 1:
 type: remove_favourite
@@ -8597,6 +8775,7 @@ shop: '{shop}'
 item: '{item}'
 
 Copy
+
 actions:
 1:
 type: toggle_favourite
@@ -8605,6 +8784,7 @@ shop: '{shop}'
 item: '{item}'
 
 Copy
+
 actions:
 1:
 type: prompt
@@ -8621,15 +8801,19 @@ type: message
 message: '&cYou cancelled the prompt'
 
 Copy
+
 diamond sword 64
 
 Copy
+
 {arg} -> diamond sword 64
 
 Copy
+
 diamond sword 64
 
 Copy
+
 {arg_1} -> diamond
 {arg_2} -> sword
 {arg_3} -> 64
@@ -8812,6 +8996,7 @@ end-apply: Last times the condition will apply. Optional. Default to infinite.
 apply: Which times this condition will apply, format: [1,2,3,4]. Optional. Default use start-apply option value.
 
 Copy
+
 conditions:
 1:
 apply: [1,2,3,4,5]
@@ -8823,6 +9008,7 @@ Click Type
 This condition only checked when player use this click type to use the button.
 
 Copy
+
 conditions:
 1:
 click-type: LEFT
@@ -8988,6 +9174,7 @@ Any - Premium
 Not - Premium
 
 Copy
+
 conditions:
 1:
 not-meet-actions:
@@ -9000,6 +9187,7 @@ type: message
 message: 'Condition meet'
 
 Copy
+
 conditions:
 not-meet-actions:
 1:
@@ -9010,24 +9198,28 @@ type: world
 world: 'test'
 
 Copy
+
 conditions:
 1:
 type: world
 world: lobby
 
 Copy
+
 conditions:
 1:
 type: biome
 biome: oraxen
 
 Copy
+
 conditions:
 1:
 type: permission
 permission: 'group.vip'
 
 Copy
+
 conditions:
 1:
 type: placeholder
@@ -9036,18 +9228,21 @@ rule: '<='
 value: 5
 
 Copy
+
 conditions:
 1:
 type: menu
 menu: 'example-shop-menu'
 
 Copy
+
 conditions:
 1:
 type: menu_type
 menu-type: 'favourite'
 
 Copy
+
 conditions:
 1:
 type: any
@@ -9064,6 +9259,7 @@ rule: '>='
 value: 400
 
 Copy
+
 conditions:
 1:
 type: not
@@ -9242,6 +9438,7 @@ Single
 If your display item is only one and does not have any condition to display it, simply use Item Format in this section!
 
 Copy
+
 B:
 display-item:
 material: BREAD
@@ -9252,6 +9449,7 @@ Multi
 If you want set multi display item for this button or product and use condition system to make us choose one of it to display, simply use this new format as below:
 
 Copy
+
 1:
 display-item:
 default:
@@ -9479,6 +9677,7 @@ min-amount: Min amount, useful for dynamic prices.Optional.
 Example:
 
 Copy
+
 1:
 economy-plugin: Vault
 # If you set Economy plugin to CoinsEngine, then:
@@ -9512,6 +9711,7 @@ Hook Economy
 Vanilla Economy
 
 Copy
+
 1:
 economy-type: levels
 amount: 5
@@ -9689,16 +9889,19 @@ Each item parameters we will give you a link with <version> arg. Which you need 
 Flag
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/inventory/ItemFlag.html
 
 Sound
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/JukeboxSong.html
 
 Item Ratity
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/inventory/ItemRarity.html
 
 Enchantments
@@ -9706,6 +9909,7 @@ Enchantments
 After 1.20.5 version, we follow use Minecraft's vanilla enchantment ID instead of legacy one used in Spigot API, please go to Minecraft wiki site if you are using 1.20.5+ version.
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/enchantments/Enchantment.html
 
 Attribute ID
@@ -9779,33 +9983,43 @@ Before 1.20.5
 Music
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/attribute/Attribute.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/inventory/EquipmentSlot.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/block/banner/PatternType.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/DyeColor.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/inventory/meta/trim/TrimMaterial.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/inventory/meta/trim/TrimPattern.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/tag/DamageTypeTags.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/entity/EntityType.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/Tag.html
 
 Copy
+
 https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 
 ============================================================
@@ -10058,14 +10272,17 @@ Supported Plugin List
 Use ItemBridge as custom item provider
 
 Copy
+
 # Support value: DEFAULT or ITEMBRIDGE
 hook-item-method: 'DEFAULT'
 
 Copy
+
 hook-plugin: 'CraftEngine'
 hook-item: 'myemoji;;happy'
 
 Copy
+
 hook-plugin: 'CraftEngine'
 hook-item: 'myemoji:happy'
 
@@ -10245,6 +10462,7 @@ Hook Plugin
 Possible Value: EcoItems, EcoArmor, MMOItems, ItemsAdder, Oraxen, MythicMobs, eco, NeigeItems, ExecutableItems, Nexo, CraftEngine.
 
 Copy
+
 hook-plugin: MMOItems
 
 Hook Item
@@ -10676,19 +10894,24 @@ Damage Resistant
 Extra Item Format Options
 
 Copy
+
 hook-item: AXE;;TEST_AXE
 
 Copy
+
 material: APPLE
 
 Copy
+
 amount: 5
 
 Copy
+
 min-amount: 1
 max-amount: 15
 
 Copy
+
 component:
 name: '<blue>A good sword'
 lore:
@@ -10722,20 +10945,25 @@ operation: ADD_NUMBER
 slot: MAINHAND
 
 Copy
+
 name: '&fA smart sword'
 
 Copy
+
 item-name: '&bRare Sword'
 
 Copy
+
 lore:
 - '&fLine 1'
 - '&fLine 2'
 
 Copy
+
 max-stack: 99
 
 Copy
+
 food:
 eat-seconds: 0.25 # Removed in 1.21.2
 can-always-eat: true
@@ -10747,6 +10975,7 @@ effects: # Removed in 1.21.2
 - 'SPEED, 100, 1, true, true, false, 0.5'
 
 Copy
+
 tool:
 mining-speed: 1
 damage-per-block: 1
@@ -10756,22 +10985,28 @@ rules:
 # Support replace Blocks to Tag.
 
 Copy
+
 song: CAT
 show-song: false
 
 Copy
+
 fire-resistant: true
 
 Copy
+
 hide-tool-tip: true
 
 Copy
+
 unbreakable: true
 
 Copy
+
 rarity: COMMON
 
 Copy
+
 flags:
 - HIDE_ENCHANTS
 - HIDE_ATTRIBUTES
@@ -10783,16 +11018,20 @@ flags:
 - HIDE_ARMOR_TRIM
 
 Copy
+
 enchants:
 MENDING: 1
 
 Copy
+
 glow: true
 
 Copy
+
 custom-model-data: 15
 
 Copy
+
 attributes:
 GENERIC_ATTACK_DAMAGE:
 name: generic.attack_damage
@@ -10801,59 +11040,76 @@ operation: ADD_NUMBER # ADD_NUMBER, ADD_SCALAR, MULTIPLY_SCALAR_1
 slot: HAND
 
 Copy
+
 damage: 5
 
 Copy
+
 max-damage: 1500
 
 Copy
+
 stored-enchants:
 MENDING: 1
 
 Copy
+
 patterns:
 BASE: WHITE
 
 Copy
+
 base-effect: 'WATER'
 
 Copy
+
 base-effect: 'WATER, true, false'
 
 Copy
+
 effects:
 - 'SPEED, 100, 1, true, true, false'
 
 Copy
+
 color: '5'
 
 Copy
+
 trim:
 material: IRON
 pattern: TIDE
 
 Copy
+
 color: '0xff0000'
 
 Copy
+
 color: LUCY
 
 Copy
+
 color: WHITE
 
 Copy
+
 pattern-color: WHITE
 
 Copy
+
 pattern: KOB
 
 Copy
+
 skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzZmVkMTZmZDU1MTkwOWZhNWUyOWNkZDY5N2VlMzQ2ZTYzMzkwYjM4M2E0MzAwYTY2MmE4MGI2NGQ5ZWIxNyJ9fX0=
 
 Copy
+
 power: 1
 
 Copy
+
 firework:
 1:
 flicker: true
@@ -10866,6 +11122,7 @@ fade:
 type: BALL
 
 Copy
+
 firework:
 flicker: true
 trial: true
@@ -10877,10 +11134,12 @@ fade:
 type: BALL
 
 Copy
+
 effects:
 - 'SPEED, 100, 1, true, true, false'
 
 Copy
+
 contents:
 1:
 material: STONE
@@ -10889,10 +11148,12 @@ material: APPLE
 amount: 5
 
 Copy
+
 content:
 material: APPLE
 
 Copy
+
 spawner: ZOMBIE
 min-delay: 200
 max-delay: 800
@@ -10901,32 +11162,41 @@ player-range: 16
 spawn-range: 30
 
 Copy
+
 power: 3
 
 Copy
+
 music: PONDER_GOAT_HORN # Music
 
 Copy
+
 repair-cost: 15
 
 Copy
+
 enchantable: 15
 
 Copy
+
 glider: true
 
 Copy
+
 item-model: 'mycustom:itemmodel'
 
 Copy
+
 tootip-style: 'mycustom:tooltip'
 
 Copy
+
 use-cooldown:
 cooldown-group: 'minecraft:custom_weapon'
 cooldown-seconds: 1.5
 
 Copy
+
 equippable:
 entities:
 - 'zombie' # Entity Type ID
@@ -10940,6 +11210,7 @@ model: mycustomarmor
 slot: head
 
 Copy
+
 damage-resistant: is_fall # Damage Type Tag
 
 ============================================================
@@ -11112,18 +11383,21 @@ This feature is only available for 1.21.6+ Paper server users.
 Custom Name
 
 Copy
+
 component:
 name: '<blue>A good sword'
 
 Item Name
 
 Copy
+
 component:
 item-name: '<yellow>Not Bad sword'
 
 Lore
 
 Copy
+
 component:
 lore:
 - '<gray>This is really nice!'
@@ -11131,6 +11405,7 @@ lore:
 Custom Model Data
 
 Copy
+
 component:
 custom-model-data:
 float: # Custom Model Data Type
@@ -11207,10 +11482,12 @@ Misc
 1.21.11 newly added Components
 
 Copy
+
 component:
 max-stack: 5
 
 Copy
+
 component:
 food:
 can-always-eat: true
@@ -11218,6 +11495,7 @@ nutrition: 5
 saturation: 5
 
 Copy
+
 component:
 tool:
 damage-per-block: 5
@@ -11228,24 +11506,30 @@ rules:
 - 'stone, 1.4, true'
 
 Copy
+
 component:
 song: otherside
 
 Copy
+
 component:
 
 Copy
+
 component:
 
 Copy
+
 component:
 
 Copy
+
 component:
 hide-tooltip:
 - 'lore' # Data Type. For list of them, please view: https://jd.papermc.io/paper/1.21.5/io/papermc/paper/datacomponent/DataComponentTypes.html
 
 Copy
+
 component:
 enchants:
 mending: 1 # Enchant ID: Level
@@ -11253,6 +11537,7 @@ stored-enchants: # For enchantment book
 mending: 1
 
 Copy
+
 component:
 attributes:
 max_health: # Attribute ID
@@ -11262,11 +11547,13 @@ operation: ADD_NUMBER
 slot: ANY
 
 Copy
+
 component:
 damage: 5
 max-damage: 15
 
 Copy
+
 component:
 banner-patterns:
 BASE: WHITE # Pattern ID: Pattern Color
@@ -11345,6 +11632,7 @@ disable-blocking-seconds: 3
 skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzZmVkMTZmZDU1MTkwOWZhNWUyOWNkZDY5N2VlMzQ2ZTYzMzkwYjM4M2E0MzAwYTY2MmE4MGI2NGQ5ZWIxNyJ9fX0=
 
 Copy
+
 material: DIAMOND_SWORD
 component:
 name: <aqua>Test Kinetic Sword
@@ -11802,6 +12090,7 @@ Basic Syntax
 The basic structure of YAML is key: value. Example:
 
 Copy
+
 debug: false
 
 Important Rules:
@@ -11819,6 +12108,7 @@ Hierarchy & Indentation
 Indentation represents parent-child relationships in YAML. Each level must be indented by two spaces. Example:
 
 Copy
+
 auto-save:
 hide-message: false
 
@@ -11936,6 +12226,7 @@ Lists
 Empty and Default Values
 
 Copy
+
 settings:
 menu: 'example-shop-menu'
 buy-more: true
@@ -11957,6 +12248,7 @@ amount: '0.63'
 placeholder: '{amount}$'
 
 Copy
+
 items:
 buy-prices: # Will not work
 1:
@@ -11976,6 +12268,7 @@ material: GRASS_BLOCK
 amount: 1
 
 Copy
+
 items: # Will work.
 B: # Will work.
 products: # Will work.
@@ -11989,6 +12282,7 @@ type: message # Will work.
 message: 'eco give {player} {amount}' # Will work.
 
 Copy
+
 settings
 │
 ├─ menu
@@ -12011,6 +12305,7 @@ items
 └─ placeholder
 
 Copy
+
 menu:
 secret-shop-items:
 - diamond_sword
@@ -12018,6 +12313,7 @@ secret-shop-items:
 - enchanted_golden_apple
 
 Copy
+
 menu:
 secret-shop-items: []
 
@@ -12586,7 +12882,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 FAQ:
 
@@ -13354,6 +13650,7 @@ MythicChanger: Custom Item Match
 PlaceholderAPI: Extra placeholders
 
 Copy
+
 items:
 A:
 price-mode: CLASSIC_ALL
@@ -13370,6 +13667,7 @@ start-apply: 0
 placeholder: '&65 Coins'
 
 Copy
+
 display-item:
 material: APPLE
 # You can hold the item and type command /shop generateitemformat to get the ItemFormat here.
@@ -13391,6 +13689,7 @@ message: 'test message'
 amount: 64
 
 Copy
+
 products:
 1:
 # The product
@@ -13418,19 +13717,23 @@ command: 'eco give {player} {amount}'
 amount: 500
 
 Copy
+
 change-item:
 set-name: '&fGood Diamond Sword'
 
 Copy
+
 plugin-enchants:
 PLANTER: 5 # A AdvancedEnchantments enchantment
 
 Copy
+
 nbt:
 <NBT Type>:
 <NBT Key>: <NBT Value>
 
 Copy
+
 nbt:
 string:
 customNBT: 'Hello!'
@@ -13635,6 +13938,7 @@ Previous🔗CompatibilityNext⌨️Commands & Permissions
 Last updated 1 month ago
 
 Copy
+
 # UltimateShop by @PQguanfang
 #
 # Read the Wiki: ultimateshop.superiormc.cn
@@ -14455,6 +14759,7 @@ Auto Save
 You can use auto save feature so that plugin can store plugin data periodically to avoid data loss due to server crashes. It is not recommended to store at a high frequency, as this can cause server lag. You can find the following content in config.yml to set this feature:
 
 Copy
+
 auto-save:
 enabled: true
 hide-message: false
@@ -14513,6 +14818,7 @@ Auto Save
 Database
 
 Copy
+
 database:
 enabled: false
 jdbc-url: "jdbc:mysql://localhost:3306/ultimateshop?useSSL=false&autoReconnect=true"
@@ -15144,6 +15450,7 @@ Disable sell chest.
 If you are not using sell chest feature, you can disable this feature to save serve performance.
 
 Copy
+
 sell:
 sell-chest:
 enabled: false
@@ -15153,6 +15460,7 @@ Set placeholder.click.enabled option to false.
 This maybe save server performance.
 
 Copy
+
 click:
 # If enabled, {buy-click} and {sell-stick} will display different value according to product status.
 # But, it will maybe make server lag if you are running big server and have many products in your shop.
@@ -15199,6 +15507,7 @@ Use BUKKIT item give method.
 Use Bukkit sell item match method.
 
 Copy
+
 # Recommend use when you are running big server, it will make player no longer quickly click
 # and reopen shop menu to make sure UltimateShop not lag your server.
 # In ticks.
@@ -15207,6 +15516,7 @@ click: 6 # Default value is -1, set value greater than 5 is recommended.
 reopen: 20 # Default value is -1, set value greater than 5 is recommended.
 
 Copy
+
 menu-update:
 # Whether menu will refresh every buttons every 1 second.
 # This will refresh placeholder that displayed in display item lore.
@@ -15227,12 +15537,15 @@ click-update: true
 resend-items-pack: false
 
 Copy
+
 auto-reset-mode: true
 
 Copy
+
 auto-reset-mode: false
 
 Copy
+
 give-item:
 # Support value: BUKKIT, SMART
 # SMART will cost more server performance but will follow the vanilla max stack to give player item, also support check full.
@@ -15241,6 +15554,7 @@ give-method: BUKKIT
 check-full: false
 
 Copy
+
 sell:
 # Support Value: Bukkit or ItemFormat.
 # For each product, you can add match-item section to make custom sell match method, for more info, please view Wiki.
@@ -15734,7 +16048,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Types
 
@@ -15749,6 +16063,7 @@ Title Update - Premium, Require Paper
 All Buttons Update
 
 Copy
+
 title: 'Shop'
 
 size: 54
@@ -15799,6 +16114,7 @@ type: shop_menu
 menu: 'example'
 
 Copy
+
 # This is a shop config exist in /shops/ folder.
 settings:
 menu: 'example-shop-menu'
@@ -15815,6 +16131,7 @@ C:
 # ...
 
 Copy
+
 # This is a menu config exist in /menus/ folder.
 title: '{shop-name}'
 size: 54
@@ -15831,6 +16148,7 @@ buttons:
 # ...
 
 Copy
+
 # This is a shop config exist in /shops/ folder.
 settings:
 shop-name: 'Example Shop'
@@ -15849,6 +16167,7 @@ material: ARROW
 name: '{lang:back-button}'
 
 Copy
+
 layout:
 - '000000000'
 - '0`b1``b2``b3``b4``b5``b6``b7`0'
@@ -15858,6 +16177,7 @@ layout:
 - 'a0003000b'
 
 Copy
+
 items: # or buttons:
 b1: # Product ID
 price-mode: CLASSIC_ALL
@@ -15880,6 +16200,7 @@ b7:
 #...
 
 Copy
+
 dynamic-layout: true
 
 layout:
@@ -15892,6 +16213,7 @@ layout:
 - 'a0003000b'
 
 Copy
+
 # PREMIUM version only, if enabled, can update dynamic value used in GUI title.
 title-update:
 enabled: true # <--- Set it to true
@@ -15904,6 +16226,7 @@ click-update: true # <--- Set it to true
 resend-items-pack: false
 
 Copy
+
 menu-update:
 # Whether menu will refresh every buttons every 1 second.
 # This will refresh placeholder that displayed in display item lore.
@@ -16123,7 +16446,7 @@ You can enable price extra line feature in config.yml file, after enable, all pr
 
 Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Requirements
 
@@ -16134,6 +16457,7 @@ Extra options for bedrock menu
 Price Extra Line
 
 Copy
+
 A:
 display-item:
 material: GRASS_BLOCK
@@ -16142,6 +16466,7 @@ hide: false
 icon: 'url;;https://raw.githubusercontent.com/Jens-Co/MinecraftItemImages/main/1.20/melon_slice.png'
 
 Copy
+
 B:
 display-item:
 1:
@@ -16155,6 +16480,7 @@ type: permission
 permission: 'test'
 
 Copy
+
 D:
 price-mode: ANY
 product-mode: CLASSIC_ALL
@@ -16189,6 +16515,7 @@ placeholder: '&6{amount} Coins'
 start-apply: 0
 
 Copy
+
 title: '{shop-name}'
 size: 54
 
@@ -16203,6 +16530,7 @@ type: sound
 sound: 'item.book.page_turn'
 
 Copy
+
 # Premium version only
 bedrock:
 # Make this option be empty to disable.
@@ -16379,6 +16707,7 @@ Buy More Menus Config
 Buy more menus have those special options compare than common menu:
 
 Copy
+
 amount-items:
 1:
 display-item:
@@ -16495,6 +16824,7 @@ Set Buy More Menu
 FAQ: Can we separate buy more and sell more?
 
 Copy
+
 buy-more-menu:
 not-open-when-invalid: true
 default:
@@ -16675,6 +17005,7 @@ Set display condition
 You can set display-conditions option both in button configs or product configs. This section is following Condition Format. For example:
 
 Copy
+
 D:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -16709,16 +17040,18 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🛒Sell All MenuNext🛏️Bedrock Menus - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Set display condition
 
 Set menu configs layout option
 
 Copy
+
 `D||E||F`
 
 Copy
+
 dynamic-layout: true
 layout:
 - '000000000'
@@ -16898,6 +17231,7 @@ You can set it at config.yml file.
 Default example:
 
 Copy
+
 add-lore:
 - '@n '
 - '@a&ePurchase: {buy-price}'
@@ -17014,6 +17348,7 @@ Negation
 Multi Line Price
 
 Copy
+
 items:
 B:
 display-item:
@@ -17026,6 +17361,7 @@ add-lore: # <--- Custom Add Lore for this product
 - '&eDrop to buy, right to sell'
 
 Copy
+
 A:
 display-item:
 material: APPLE
@@ -17036,6 +17372,7 @@ sell-prices:
 # The section of sell price
 
 Copy
+
 placeholder:
 price:
 split-symbol-any: ';;' # <--- Changed this in config.yml
@@ -17043,6 +17380,7 @@ split-symbol-all: ';;' # <--- Changed this in config.yml
 unknown: "Unknown"
 
 Copy
+
 add-lore:
 - '@n '
 - '@a&ePurchase: '
@@ -17216,6 +17554,7 @@ Favourite Menu Config
 Favourite menus have those special options compare than common menu:
 
 Copy
+
 result-items:
 - '1'
 
@@ -17288,6 +17627,7 @@ Favourite Menu Config
 Set Favoutite Menu
 
 Copy
+
 menu:
 favourite-gui:
 menu:
@@ -17295,9 +17635,11 @@ menu:
 - 'favoutite2' # Put more search menu ID here.
 
 Copy
+
 /shop menu <menuName>
 
 Copy
+
 /shop menu favourite
 
 ============================================================
@@ -17569,7 +17911,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Types
 
@@ -17584,6 +17926,7 @@ Title Update - Premium, Require Paper
 All Buttons Update
 
 Copy
+
 title: 'Shop'
 
 size: 54
@@ -17634,6 +17977,7 @@ type: shop_menu
 menu: 'example'
 
 Copy
+
 # This is a shop config exist in /shops/ folder.
 settings:
 menu: 'example-shop-menu'
@@ -17650,6 +17994,7 @@ C:
 # ...
 
 Copy
+
 # This is a menu config exist in /menus/ folder.
 title: '{shop-name}'
 size: 54
@@ -17666,6 +18011,7 @@ buttons:
 # ...
 
 Copy
+
 # This is a shop config exist in /shops/ folder.
 settings:
 shop-name: 'Example Shop'
@@ -17684,6 +18030,7 @@ material: ARROW
 name: '{lang:back-button}'
 
 Copy
+
 layout:
 - '000000000'
 - '0`b1``b2``b3``b4``b5``b6``b7`0'
@@ -17693,6 +18040,7 @@ layout:
 - 'a0003000b'
 
 Copy
+
 items: # or buttons:
 b1: # Product ID
 price-mode: CLASSIC_ALL
@@ -17715,6 +18063,7 @@ b7:
 #...
 
 Copy
+
 dynamic-layout: true
 
 layout:
@@ -17727,6 +18076,7 @@ layout:
 - 'a0003000b'
 
 Copy
+
 # PREMIUM version only, if enabled, can update dynamic value used in GUI title.
 title-update:
 enabled: true # <--- Set it to true
@@ -17739,6 +18089,7 @@ click-update: true # <--- Set it to true
 resend-items-pack: false
 
 Copy
+
 menu-update:
 # Whether menu will refresh every buttons every 1 second.
 # This will refresh placeholder that displayed in display item lore.
@@ -17915,6 +18266,7 @@ Search Menus Config
 Search menus have those special options compare than common menu:
 
 Copy
+
 input-item: '1'
 result-item: '6'
 
@@ -18024,7 +18376,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favoutite Menus - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Search Menus Config
 
@@ -18037,6 +18389,7 @@ Item Search
 Text Search
 
 Copy
+
 menu:
 search-gui:
 menu:
@@ -18044,19 +18397,23 @@ menu:
 - 'search2' # Put more search menu ID here.
 
 Copy
+
 /shop searchgui
 /shop searchgui <menuName>
 
 Copy
+
 /shop searchgui search
 /shop searchgui search2
 
 Copy
+
 menu:
 prompt:
 cancel-keyword: 'cancel'
 
 Copy
+
 menu:
 search-gui:
 prompt:
@@ -18228,6 +18585,7 @@ Sell All Menu Config
 You can find sell all menu settings at config.yml file. You can only set 1 menu to sell all menu.
 
 Copy
+
 menu:
 sell-all:
 size: 54
@@ -18935,7 +19293,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Built-in Placeholders List
 
@@ -18944,16 +19302,19 @@ PlaceholderAPI Support
 New Line Symbol
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: false
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: true
 
 Copy
+
 placeholder:
 price:
 split-symbol-any: ';;' # <--- Changed this in config.yml
@@ -19466,7 +19827,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Built-in Placeholders List
 
@@ -19475,16 +19836,19 @@ PlaceholderAPI Support
 New Line Symbol
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: false
 
 Copy
+
 placeholder:
 data:
 can-used-in-amount: true
 
 Copy
+
 placeholder:
 price:
 split-symbol-any: ';;' # <--- Changed this in config.yml
@@ -19659,6 +20023,7 @@ Config
 All conditional placeholder configs are stored in conditional_placeholders folder. The file name is it's ID, for example: buy.yml means it's ID is buy. An example of it's config is like below:
 
 Copy
+
 mode: MAX
 
 value:
@@ -19713,6 +20078,7 @@ Use Placeholder
 Example: Conditional Product
 
 Copy
+
 mode: DEFAULT
 
 value:
@@ -19731,6 +20097,7 @@ type: permission
 permission: 'group.mvp'
 
 Copy
+
 dynamic-layout: true
 
 layout:
@@ -19909,6 +20276,7 @@ Config
 All custom placeholder configs are stored in custom_placeholders folder. The file name is it's ID, for example: example.yml means it's ID is example. An example of it's config is like below:
 
 Copy
+
 type: number
 default-value: "1"
 per-player-value: true
@@ -19935,7 +20303,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Config
 
@@ -20111,6 +20479,7 @@ Use conditional placeholder with MAX or MIN mode, discount feature can be easily
 Here we created 2 conditional placeholder for buy and sell.
 
 Copy
+
 mode: MAX
 
 value:
@@ -20153,6 +20522,7 @@ Use the placeholder in product configs
 Auto Apply Discount
 
 Copy
+
 mode: MIN
 
 value:
@@ -20171,6 +20541,7 @@ type: permission
 permission: 'group.mvp'
 
 Copy
+
 items:
 A:
 price-mode: CLASSIC_ALL
@@ -20194,6 +20565,7 @@ start-apply: 0
 placeholder: '{amount} Coins'
 
 Copy
+
 placeholder:
 auto-settings:
 add-conditional-in-all-price-amount:
@@ -20372,6 +20744,7 @@ Config
 All random placeholder configs are stored in random_placeholders folder. The file name is it's ID, for example: rotate.yml means it's ID is rotate. An example of it's config is like below:
 
 Copy
+
 reset-mode: TIMED
 reset-time: '00:00:00'
 per-player-element: true
@@ -20518,7 +20891,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Config
 
@@ -20541,17 +20914,20 @@ Create new random placeholder
 Set dynamic value in your product configs
 
 Copy
+
 elements:
 - 'A'
 - 'B'
 - 'C'
 
 Copy
+
 elements:
 # Random number from 5 to 100.
 - '5~100'
 
 Copy
+
 per-player-element: true # <--- Only support use condition when this option to true
 elements:
 A:
@@ -20566,14 +20942,17 @@ C:
 rate: 2
 
 Copy
+
 reset-mode: 'TIMED'
 reset-time: '20:00:00;;19:00:00'
 
 Copy
+
 reset-mode: 'CUSTOM'
 reset-time: '{cron_"0 0 0 ? * 5}'
 
 Copy
+
 reset-mode: TIMED
 reset-time: '00:00:00'
 element-sort: true
@@ -20587,6 +20966,7 @@ elements:
 - '55~140'
 
 Copy
+
 items:
 A:
 price-mode: CLASSIC_ALL
@@ -20766,6 +21146,7 @@ On this page
 An example shop file is here:
 
 Copy
+
 settings:
 menu: 'example-shop-menu'
 # Optional: inline menu config for this shop. You can use this without settings.menu.
@@ -20972,7 +21353,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Settings
 
@@ -20983,6 +21364,7 @@ Items
 Buttons
 
 Copy
+
 secret-shop-items:
 require-display-in-menu: true
 require-meet-menu-open-conditions: true
@@ -21149,6 +21531,7 @@ On this page
 ⚡Example: Common Usage
 
 Copy
+
 settings:
 menu: 'example-shop-menu'
 buy-more: true
@@ -21208,6 +21591,7 @@ Product C
 Seasonal Product
 
 Copy
+
 items:
 A:
 price-mode: CLASSIC_ALL
@@ -21241,6 +21625,7 @@ sell-limits-reset-mode: 'TIMED'
 sell-limits-reset-time: '00:00:00'
 
 Copy
+
 items:
 A:
 # ...
@@ -21266,6 +21651,7 @@ start-apply: 0
 placeholder: '1 Exp'
 
 Copy
+
 items:
 A:
 # ...
@@ -21295,6 +21681,7 @@ command: "ws give %player_name% spawner chicken 1"
 # command: "ws give %player_name% spawner chicken {amount}"
 
 Copy
+
 items:
 A:
 price-mode: CLASSIC_ALL
@@ -21513,6 +21900,7 @@ Example for Daily Rewards
 Create new shop config at /shops/ folder, then create new product like this:
 
 Copy
+
 A:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -21549,6 +21937,7 @@ Previous📅Example: Daily Shop/Rotating ShopNext🔧Built-in Placeholders
 Last updated 1 year ago
 
 Copy
+
 A:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -21580,6 +21969,7 @@ buy-times-reset-mode: 'TIMED'
 buy-times-reset-time: '00:00:00'
 
 Copy
+
 random:
 chance:
 reset-mode: ONCE
@@ -21588,6 +21978,7 @@ elements:
 - '1~100'
 
 Copy
+
 A:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -21811,6 +22202,7 @@ In this example, this daily shop will has 5 slots and 7 possible products, so ea
 Please view Random Placeholder page for more info about random placeholder.
 
 Copy
+
 reset-mode: TIMED
 reset-time: '00:00:00'
 element-amount: 5
@@ -21848,6 +22240,7 @@ Configure Menu
 Showcase
 
 Copy
+
 settings:
 menu: 'daily-shop-menu' # The menu ID
 buy-more: true
@@ -21957,6 +22350,7 @@ placeholder: '&6{amount} Coins'
 start-apply: 0
 
 Copy
+
 # PREMIUM version only.
 
 title: '{shop-name}'
@@ -22153,6 +22547,7 @@ Set dynamic value for your product configs
 The plugin itself does not store stock data, however, the logic of stock is essentially that player A sells an item to the shop, then the shop can sell the item sold by player A to player B. You only need to set a buy limit, and the value of the buy limit is the number of times the product is sold globally, that is, the placeholder: {server-times-server}. Read dynamic prices before read this page. Similar to Dynamic Prices, if you want to make stock system, do it in buy-limits option and put {server-times-server} placeholder in it, for example:
 
 Copy
+
 A:
 price-mode: ALL
 product-mode: CLASSIC_ALL
@@ -22609,6 +23004,7 @@ Reset Time does not correct?
 Reset Time Updated but Buy times/Sell times not cleared?
 
 Copy
+
 use-times:
 default-reset-mode: 'NEVER'
 default-reset-time: '00:00:00'
@@ -22623,10 +23019,12 @@ set-reset-value-by-default: true
 max-value-for-total-only: true
 
 Copy
+
 sell-times-reset-mode: 'TIMED'
 sell-times-reset-time: '20:00:00;;19:00:00'
 
 Copy
+
 reset-mode: ONCE
 elements:
 - '03:00:00'
@@ -22634,6 +23032,7 @@ elements:
 - '05:00:00'
 
 Copy
+
 B:
 price-mode: ALL
 product-mode: CLASSIC_ALL
@@ -22651,12 +23050,14 @@ buy-times-reset-mode: 'COOLDOWN_TIMED'
 buy-times-reset-time: '{random_reset}' # <--- Used here, sell-times also works!
 
 Copy
+
 reset-mode: ONCE
 elements:
 - '0~20' # A random number from 0 to 20
 - '40' # A fixed number
 
 Copy
+
 B:
 price-mode: ALL
 product-mode: CLASSIC_ALL
@@ -22675,6 +23076,7 @@ buy-times-reset-time: '19:00:00;;20:00:00' # <--- TIMED mode supports multi rese
 buy-times-reset-value: '{random_resetvalue}' # <--- Used random placeholder
 
 Copy
+
 sell-times-reset-mode: 'COOLDOWN_CUSTOM'
 sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 # sell-times-reset-time-format: 'yyyy-MM-dd HH:mm:ss'
@@ -22844,6 +23246,7 @@ On this page
 Here is an example of 2 product configs:
 
 Copy
+
 items:
 A:
 price-mode: CLASSIC_ALL
@@ -23153,7 +23556,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 General Options
 
@@ -23166,6 +23569,7 @@ Dynamic Value
 Sub Buttons - Premium
 
 Copy
+
 add-lore:
 - '@a&ePurchase: {buy-price}'
 - '@b&eSell: {sell-price}'
@@ -23175,6 +23579,7 @@ buy: 'DROP'
 sell: 'RIGHT'
 
 Copy
+
 buy-more: true
 sell-all: true
 hide-message: false
@@ -23183,6 +23588,7 @@ menu: buy-more-2
 max-amount: 16
 
 Copy
+
 buy-limits:
 default: 10
 vip: 20
@@ -23193,6 +23599,7 @@ type: permission
 permission: 'test.permission'
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -23909,6 +24316,7 @@ A Simple Rule of Thumb
 Auto Display Price at Item Lore
 
 Copy
+
 items:
 A:
 products:
@@ -23928,6 +24336,7 @@ amount: 20
 placeholder: '{amount}$'
 
 Copy
+
 products:
 1:
 material: emerald
@@ -23936,12 +24345,14 @@ material: diamond
 amount: 16
 
 Copy
+
 products:
 1:
 hook-plugin: MMOItems
 hook-item: 'AXE;;MAGIC_AXE'
 
 Copy
+
 products:
 1:
 match-item:
@@ -23950,6 +24361,7 @@ contains-lore:
 amount: 64
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -23957,6 +24369,7 @@ amount: 15
 placeholder: '{amount}$'
 
 Copy
+
 buy-prices:
 1:
 match-placeholder: '%player_health%'
@@ -23969,9 +24382,11 @@ type: console_command
 command: 'health take {player} {amount}'
 
 Copy
+
 amount: '55 + ({buy-times-server} - {sell-times-server}) * 0.1'
 
 Copy
+
 products:
 1:
 material: PAPER
@@ -23985,6 +24400,7 @@ type: permission
 permission: group.vip
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -23996,6 +24412,7 @@ type: permission
 permission: shop.buy.special
 
 Copy
+
 products:
 1:
 material: PAPER
@@ -24011,9 +24428,11 @@ type: message
 message: 'Item action amount = {amount}'
 
 Copy
+
 placeholder: '{amount}$'
 
 Copy
+
 buy-prices:
 1:
 economy-plugin: Vault
@@ -24023,6 +24442,7 @@ max-amount: 500
 placeholder: '{amount}$'
 
 Copy
+
 conditions:
 products-key: 'products-conditions'
 buy-prices-key: 'buy-prices-conditions'
@@ -24030,6 +24450,7 @@ sell-prices-key: 'sell-prices-conditions'
 display-item-key: 'display-item-conditions'
 
 Copy
+
 products:
 one:
 material: REDSTONE
@@ -24051,6 +24472,7 @@ rule: '=='
 value: 'B'
 
 Copy
+
 A:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -24070,6 +24492,7 @@ amount: 30
 placeholder: '{amount}$'
 
 Copy
+
 A:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -24116,6 +24539,7 @@ amount: 150
 placeholder: '{amount}⛂'
 
 Copy
+
 B:
 price-mode: CLASSIC_ALL
 product-mode: CLASSIC_ALL
@@ -24153,6 +24577,7 @@ amount: 150
 placeholder: '{amount}⛂'
 
 Copy
+
 weight: 15
 
 only-in-player-inventory: true
@@ -24329,6 +24754,7 @@ Sell chest and sell stick provide multiplier feature, their multiplier and this 
 sell.multiplier is a global sell bonus system. You can use it as tax for all players or bonus for VIP players. You can found it's config at config.yml file.
 
 Copy
+
 sell:
 # Premium version only
 multiplier:
@@ -24573,6 +24999,7 @@ persisted storage and cross-server sync data
 it makes shared-group use-times settings load from:
 
 Copy
+
 plugins/UltimateShop/shared_use_times/<group>.yml
 
 If multiple products in the same open GUI use the same shared group, clicking one product will refresh all product buttons in that GUI that use the same shared use-times cache.
@@ -24632,6 +25059,7 @@ Overview
 Basic Usage
 
 Copy
+
 items:
 diamond_pack_a:
 shared-use-times: daily_bundle
@@ -24648,6 +25076,7 @@ sell-prices:
 # Sell Price Settings
 
 Copy
+
 buy-limits:
 global: '{sell-times-server}'
 buy-times-reset-mode: COOLDOWN_TIMED
@@ -24817,6 +25246,7 @@ On this page
 An example shop file is here:
 
 Copy
+
 settings:
 menu: 'example-shop-menu'
 # Optional: inline menu config for this shop. You can use this without settings.menu.
@@ -25023,7 +25453,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Settings
 
@@ -25034,6 +25464,7 @@ Items
 Buttons
 
 Copy
+
 secret-shop-items:
 require-display-in-menu: true
 require-meet-menu-open-conditions: true
