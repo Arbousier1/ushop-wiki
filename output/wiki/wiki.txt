@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-09T02:33:11Z
+Generated UTC: 2026-06-10T02:47:02Z
 Page Count: 70
 
 ============================================================
@@ -5255,7 +5255,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 EconomyLimit
 
@@ -12882,7 +12882,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 FAQ:
 
@@ -19293,7 +19293,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Built-in Placeholders List
 
@@ -19827,7 +19827,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Built-in Placeholders List
 
@@ -20303,7 +20303,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Config
 
@@ -20891,7 +20891,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Config
 
@@ -23556,7 +23556,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 General Options
 
