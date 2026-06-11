@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-10T02:47:02Z
+Generated UTC: 2026-06-11T02:56:45Z
 Page Count: 70
 
 ============================================================
@@ -5255,7 +5255,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 EconomyLimit
 
@@ -5542,7 +5542,7 @@ start-apply: 0
 
 Previous🎨Color CodeNext🪄Sell Stick - Premium
 
-Last updated 9 months ago
+Last updated 10 months ago
 
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
@@ -7876,7 +7876,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Basic Syntax
 
@@ -12213,7 +12213,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Basic Syntax
 
@@ -12882,7 +12882,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 FAQ:
 
@@ -13294,7 +13294,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -18608,7 +18608,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favoutite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Sell All Menu Config
 
@@ -19293,7 +19293,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 Built-in Placeholders List
 
@@ -19827,7 +19827,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 Built-in Placeholders List
 
@@ -20303,7 +20303,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 Config
 
@@ -20891,7 +20891,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 Config
 
@@ -23556,7 +23556,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 General Options
 
@@ -25052,7 +25052,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Overview
 
