@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-11T02:56:45Z
+Generated UTC: 2026-06-12T02:53:29Z
 Page Count: 70
 
 ============================================================
@@ -245,7 +245,7 @@ Info
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 62
+Links: 61
 
 UltimateShop Wiki
 
@@ -404,7 +404,7 @@ Please note: The following products are NOT official products, they come from th
 
 Those config packs are not included in plugin, even not in premium version of plugin.
 
-Apply your work: [email protected]
+Apply your work: pqguanfang@foxmail.com
 
 All third-party developers who create UltimateShop configurations on MCModels can apply to display your work here, and I will not charge you any fees. But you must send us the configuration file in advance so that we can check whether your configuration is genuine, and provide links to your previous works so that we can determine whether the works you submit are personally owned by you. We will decide whether to showcase your work here based on its quality. A maximum of 10 works will be displayed here.
 The rules for displaying works here are as follows: at least 3 locations should be used to store the latest applied works. We encourage authors to donate licenses to our community, and we will give away all these licenses. The remaining 7 locations depend on the number of licenses you give away. The more licenses you give, the more we will consider keeping your works.
@@ -5255,7 +5255,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 EconomyLimit
 
@@ -12882,7 +12882,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 FAQ:
 
@@ -19293,7 +19293,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Built-in Placeholders List
 
@@ -19827,7 +19827,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Built-in Placeholders List
 
@@ -20303,7 +20303,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Config
 
@@ -20891,7 +20891,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Config
 
