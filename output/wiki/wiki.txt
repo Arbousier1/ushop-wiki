@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-16T03:28:43Z
+Generated UTC: 2026-06-17T03:01:23Z
 Page Count: 133
 
 ============================================================
@@ -6858,7 +6858,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 EconomyLimit
 
@@ -24624,6 +24624,8 @@ Each line start with @+lower case will be consider as conditional line. We will 
 
 @v - This button can sell product.
 
+@w - This button exist in buy more menu and already set click-type option.
+
 @z[vip] - Only show when multiplier id vip is active.
 
 (@z[vip]) - Only show when multiplier id vip is not active.
@@ -24642,7 +24644,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 1 month ago
+Last updated 25 minutes ago
 
 General Setting
 
@@ -28767,7 +28769,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Config
 
@@ -29492,7 +29494,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Config
 
@@ -33307,7 +33309,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 General Options
 
