@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-17T03:01:23Z
+Generated UTC: 2026-06-18T02:54:39Z
 Page Count: 133
 
 ============================================================
@@ -233,7 +233,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Links
 
@@ -1286,7 +1286,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Add as dependency
 
@@ -2418,7 +2418,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Add as dependency
 
@@ -6051,7 +6051,7 @@ Do not forgot also update your auto add lore configs to make product description
 
 Previous🔢Number FormatNext🔍Custom Item Match Method
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Options
 
@@ -6858,7 +6858,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 EconomyLimit
 
@@ -17907,7 +17907,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 20 days ago
+Last updated 22 days ago
 
 FAQ:
 
@@ -19144,7 +19144,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 3 days ago
+Last updated 5 days ago
 
 Direct compatibility
 
@@ -21270,7 +21270,7 @@ org.h2.Driver
 
 Previous⌨️Commands & PermissionsNext🚀Performance
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Data Type
 
@@ -24644,7 +24644,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 25 minutes ago
+Last updated 1 day ago
 
 General Setting
 
@@ -27270,7 +27270,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 20 days ago
+Last updated 22 days ago
 
 Built-in Placeholders List
 
@@ -27806,7 +27806,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 20 days ago
+Last updated 22 days ago
 
 Built-in Placeholders List
 
@@ -28769,7 +28769,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Config
 
@@ -29494,7 +29494,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Config
 
@@ -33309,7 +33309,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 General Options
 
