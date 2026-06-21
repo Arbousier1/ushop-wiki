@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-20T02:45:42Z
+Generated UTC: 2026-06-21T03:26:39Z
 Page Count: 133
 
 ============================================================
@@ -6858,7 +6858,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 EconomyLimit
 
@@ -8560,7 +8560,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Format available placeholders:
 
@@ -10081,7 +10081,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium.md
@@ -16620,7 +16620,7 @@ false - Boolean constant representing 0
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format.md
@@ -17907,7 +17907,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 FAQ:
 
@@ -19144,7 +19144,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Direct compatibility
 
@@ -19706,7 +19706,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Copy
 
@@ -24644,7 +24644,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 General Setting
 
@@ -27270,7 +27270,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Built-in Placeholders List
 
@@ -27806,7 +27806,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Built-in Placeholders List
 
@@ -28433,7 +28433,7 @@ Replace yourPlaceholderName to the file name of the conditional placeholder you 
 
 Previous🎲Random Placeholder - PremiumNext🗯️Custom Placeholder - Premium
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Config
 
@@ -28769,7 +28769,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Config
 
@@ -29040,7 +29040,7 @@ If you want to disable this feature for specified shops, use black-shops option.
 
 Previous🗯️Custom Placeholder - PremiumNext🔄Dynamic Price
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Create Conditional Placeholder
 
@@ -29494,7 +29494,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Config
 
@@ -33309,7 +33309,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 General Options
 
@@ -35637,7 +35637,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
