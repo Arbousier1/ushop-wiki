@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-23T02:39:33Z
+Generated UTC: 2026-06-24T02:39:53Z
 Page Count: 133
 
 ============================================================
@@ -6858,7 +6858,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 EconomyLimit
 
@@ -9336,7 +9336,7 @@ Saved items will be cached in memory continuously after loading to avoid repeate
 
 Previous🎁Sell Chest - PremiumNext🌍Localized Item Name - Premium
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Create your item
 
@@ -17907,7 +17907,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 FAQ:
 
@@ -19144,7 +19144,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 Direct compatibility
 
@@ -24644,7 +24644,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 General Setting
 
@@ -27270,7 +27270,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Built-in Placeholders List
 
@@ -27806,7 +27806,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Built-in Placeholders List
 
@@ -28769,7 +28769,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Config
 
@@ -29494,7 +29494,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Config
 
@@ -33309,7 +33309,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 General Options
 
