@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-24T02:39:53Z
+Generated UTC: 2026-06-25T02:41:09Z
 Page Count: 133
 
 ============================================================
@@ -454,13 +454,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/config-pack.md?ask=
+GET https://ultimateshop.superiormc.cn/config-pack.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -3556,13 +3558,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/develop/develop-guide.md?ask=
+GET https://ultimateshop.superiormc.cn/develop/develop-guide.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -4555,13 +4559,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -4757,13 +4763,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price.md?ask=
+GET https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -5553,13 +5561,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/advanced-language-managment.md?ask=
+GET https://ultimateshop.superiormc.cn/features/advanced-language-managment.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -5809,13 +5819,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/color-code.md?ask=
+GET https://ultimateshop.superiormc.cn/features/color-code.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -6214,13 +6226,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/custom-click-event-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/features/custom-click-event-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -6573,13 +6587,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/custom-item-match-method.md?ask=
+GET https://ultimateshop.superiormc.cn/features/custom-item-match-method.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -6858,7 +6874,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 EconomyLimit
 
@@ -7118,13 +7134,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/earn-limit.md?ask=
+GET https://ultimateshop.superiormc.cn/features/earn-limit.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -7378,10 +7396,12 @@ material: APPLE
 amount: 1
 buy-prices:
 1:
-custom-type: example #
+custom-type: example # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -7630,13 +7650,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/give-item-method.md?ask=
+GET https://ultimateshop.superiormc.cn/features/give-item-method.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -8348,13 +8370,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -8608,13 +8632,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/log-transaction-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/features/log-transaction-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -8820,13 +8846,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -9108,10 +9136,12 @@ placeholder:
 auto-settings:
 # If enabled, we will try change {amount} in price placeholder option to the value you set here.
 change-amount-in-all-price-placeholder:
-enabled: true #
+enabled: true # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -9424,13 +9454,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md?ask=
+GET https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -9864,13 +9896,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/sell-chest-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/features/sell-chest-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -10137,13 +10171,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/features/sell-stick-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/features/sell-stick-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -11974,13 +12010,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/action-format.md?ask=
+GET https://ultimateshop.superiormc.cn/format/action-format.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -12642,13 +12680,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/condition-format.md?ask=
+GET https://ultimateshop.superiormc.cn/format/condition-format.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -12951,13 +12991,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/display-item-format.md?ask=
+GET https://ultimateshop.superiormc.cn/format/display-item-format.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -13249,13 +13291,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/economyformat-tm.md?ask=
+GET https://ultimateshop.superiormc.cn/format/economyformat-tm.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -13682,13 +13726,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm.md?ask=
+GET https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -14045,13 +14091,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/itembridge.md?ask=
+GET https://ultimateshop.superiormc.cn/format/itembridge.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -15612,13 +15660,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/itemformat-tm.md?ask=
+GET https://ultimateshop.superiormc.cn/format/itemformat-tm.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -16360,13 +16410,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format.md?ask=
+GET https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -16705,10 +16757,12 @@ You need enable `math.enabled` option in your `config.yml` file to use this feat
 
 `=` - Compare if one number is greater than or equal to another (`1 >= 1`)
 
-`
+`&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -17327,13 +17381,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki.md?ask=
+GET https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -17907,7 +17963,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 FAQ:
 
@@ -18179,13 +18235,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/commands-and-permissions.md?ask=
+GET https://ultimateshop.superiormc.cn/info/commands-and-permissions.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -18804,13 +18862,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/compare.md?ask=
+GET https://ultimateshop.superiormc.cn/info/compare.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -19144,7 +19204,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Direct compatibility
 
@@ -19498,13 +19558,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/compatibility.md?ask=
+GET https://ultimateshop.superiormc.cn/info/compatibility.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -21027,13 +21089,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/configuration-files.md?ask=
+GET https://ultimateshop.superiormc.cn/info/configuration-files.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -21354,13 +21418,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/data.md?ask=
+GET https://ultimateshop.superiormc.cn/info/data.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -21709,13 +21775,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/faq.md?ask=
+GET https://ultimateshop.superiormc.cn/info/faq.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -21931,13 +21999,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/install.md?ask=
+GET https://ultimateshop.superiormc.cn/info/install.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -22358,13 +22428,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/performance.md?ask=
+GET https://ultimateshop.superiormc.cn/info/performance.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -22635,13 +22707,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/info/requirements.md?ask=
+GET https://ultimateshop.superiormc.cn/info/requirements.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -23641,13 +23715,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -24090,13 +24166,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/menus/buy-more-menus.md?ask=
+GET https://ultimateshop.superiormc.cn/menus/buy-more-menus.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -24360,10 +24438,12 @@ economy-plugin: Vault
 amount: '0.53'
 placeholder: '{amount}$'
 start-apply: 0
-display-conditions: #
+display-conditions: # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -24644,7 +24724,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 General Setting
 
@@ -24758,10 +24838,12 @@ display-item:
 material: BREAD
 name: '&cSuper Bread'
 display-name: "Bread"
-add-lore: #
+add-lore: # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -25116,13 +25198,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/menus/favourite-menus-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/menus/favourite-menus-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -25823,10 +25907,12 @@ Set `menu.title-update.enabled` option value to `true`, then set `menu.title-upd
 ```yaml
 # PREMIUM version only, if enabled, can update dynamic value used in GUI title.
 title-update:
-enabled: true #
+enabled: true # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -26295,13 +26381,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/menus/search-menus-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/menus/search-menus-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -26544,13 +26632,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/menus/sell-all-menu.md?ask=
+GET https://ultimateshop.superiormc.cn/menus/sell-all-menu.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -26751,13 +26841,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/other-language-wiki.md?ask=
+GET https://ultimateshop.superiormc.cn/other-language-wiki.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -27270,7 +27362,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Built-in Placeholders List
 
@@ -27806,7 +27898,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Built-in Placeholders List
 
@@ -28209,10 +28301,12 @@ Use `;;` symbol if you want to start a new line, this is very useful for some pe
 ```yaml
 placeholder:
 price:
-split-symbol-any: ';;' #
+split-symbol-any: ';;' # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -28559,13 +28653,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -28769,7 +28865,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Config
 
@@ -28825,13 +28921,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -29169,10 +29267,12 @@ lore:
 buy-prices:
 1:
 economy-plugin: Vault
-amount: '{conditional_buy} * 5' #
+amount: '{conditional_buy} * 5' # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -29494,7 +29594,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Config
 
@@ -29786,10 +29886,12 @@ amount: 1
 buy-prices:
 1:
 economy-plugin: Vault
-amount: '{random_price;;1}' #
+amount: '{random_price;;1}' # &goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -30745,13 +30847,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/example-common-usage.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/example-common-usage.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -31186,13 +31290,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/example-daily-rewards.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/example-daily-rewards.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -31757,13 +31863,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -32058,13 +32166,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -32822,13 +32932,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -33309,7 +33421,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 General Options
 
@@ -35050,13 +35162,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -35402,13 +35516,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/products.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/products.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -35706,13 +35822,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -36089,13 +36207,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/shared-product-data-premium.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/shared-product-data-premium.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -36713,13 +36833,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/shops/shops.md?ask=
+GET https://ultimateshop.superiormc.cn/shops/shops.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
@@ -36784,13 +36906,15 @@ This documentation is published with GitBook. GitBook is the documentation platf
 ## Querying This Documentation
 If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
 
 ```
-GET https://ultimateshop.superiormc.cn/welcome.md?ask=
+GET https://ultimateshop.superiormc.cn/welcome.md?ask=&goal=
 ```
 
-The question should be specific, self-contained, and written in natural language.
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
 The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
 Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
