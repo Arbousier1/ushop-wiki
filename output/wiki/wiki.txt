@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-26T02:44:56Z
+Generated UTC: 2026-06-27T02:36:27Z
 Page Count: 133
 
 ============================================================
@@ -3884,7 +3884,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Enable Math Feature
 
@@ -4247,7 +4247,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Enable Math Feature
 
@@ -6874,7 +6874,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 EconomyLimit
 
@@ -8593,7 +8593,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 2 hours ago
+Last updated 1 day ago
 
 Format available placeholders:
 
@@ -8838,7 +8838,7 @@ Like most plugins, UltimateShop does not verify the accuracy and synchronization
 
 Previous🌍Localized Item Name - PremiumNext🔢Number Format
 
-Last updated 10 months ago
+Last updated 11 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
@@ -9084,7 +9084,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Built-in number format
 
@@ -17621,7 +17621,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Java Version
 
@@ -17979,7 +17979,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 FAQ:
 
@@ -19220,7 +19220,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Direct compatibility
 
@@ -22668,7 +22668,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Java Version
 
@@ -24740,7 +24740,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 General Setting
 
@@ -27378,7 +27378,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Built-in Placeholders List
 
@@ -27914,7 +27914,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Built-in Placeholders List
 
@@ -28881,7 +28881,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Config
 
@@ -29610,7 +29610,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Config
 
@@ -33437,7 +33437,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 General Options
 
