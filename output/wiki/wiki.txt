@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-27T02:36:27Z
+Generated UTC: 2026-06-28T02:50:13Z
 Page Count: 133
 
 ============================================================
@@ -6874,7 +6874,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 EconomyLimit
 
@@ -8593,7 +8593,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Format available placeholders:
 
@@ -19220,7 +19220,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Direct compatibility
 
@@ -24740,7 +24740,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 General Setting
 
@@ -30514,7 +30514,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Product A
 
