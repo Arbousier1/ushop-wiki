@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-28T02:50:13Z
+Generated UTC: 2026-06-29T02:52:38Z
 Page Count: 133
 
 ============================================================
@@ -6874,7 +6874,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 23 days ago
+Last updated 25 days ago
 
 EconomyLimit
 
@@ -8593,7 +8593,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Format available placeholders:
 
@@ -17581,9 +17581,40 @@ Java 17+ is recommended. Java17 and above versions are recommended, but plugins 
 
 Server Software
 
-Paper and its downstream forks are recommended. When the plugin detects that your server software is Paper, it will enable some features that are only available in Paper, some of which can provide subtle performance improvements.
+Server
 
-Folia server also supported. Please note: Folia's support is in the early testing stage and may be released in official versions or removed in the future. This support is not a guarantee.
+Can work in your server
+
+Can get offical support
+
+Spigot
+
+✅
+Some features does not provide in Spigot servers
+
+✅
+
+Paper/Purpur
+
+✅
+Can provide subtle performance improvements.
+
+✅
+
+Folia
+
+❓
+Any problems only occurs in Folia servers may not be solved. Plugin is not designed for multi thread support.
+
+❓
+
+Folia's support is in the early testing stage and may be released in official versions or removed in the future. This support is not a guarantee.
+
+Other softwares
+
+❌
+
+❌
 
 Server Version
 
@@ -17621,7 +17652,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 4 months ago
+Last updated 0 minutes ago
 
 Java Version
 
@@ -19220,7 +19251,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 14 days ago
+Last updated 16 days ago
 
 Direct compatibility
 
@@ -22628,9 +22659,40 @@ Java 17+ is recommended. Java17 and above versions are recommended, but plugins 
 
 Server Software
 
-Paper and its downstream forks are recommended. When the plugin detects that your server software is Paper, it will enable some features that are only available in Paper, some of which can provide subtle performance improvements.
+Server
 
-Folia server also supported. Please note: Folia's support is in the early testing stage and may be released in official versions or removed in the future. This support is not a guarantee.
+Can work in your server
+
+Can get offical support
+
+Spigot
+
+✅
+Some features does not provide in Spigot servers
+
+✅
+
+Paper/Purpur
+
+✅
+Can provide subtle performance improvements.
+
+✅
+
+Folia
+
+❓
+Any problems only occurs in Folia servers may not be solved. Plugin is not designed for multi thread support.
+
+❓
+
+Folia's support is in the early testing stage and may be released in official versions or removed in the future. This support is not a guarantee.
+
+Other softwares
+
+❌
+
+❌
 
 Server Version
 
@@ -22668,7 +22730,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 4 months ago
+Last updated 0 minutes ago
 
 Java Version
 
@@ -22692,8 +22754,25 @@ URL: https://ultimateshop.superiormc.cn/info/requirements.md
 
 ## Server Software
 
-* **Paper** and its downstream forks are recommended. When the plugin detects that your server software is Paper, it will enable some features that are only available in Paper, some of which can provide subtle performance improvements.
-* **Folia** server also supported. Please note: Folia's support is in the early testing stage and may be released in official versions or removed in the future. This support is not a guarantee.
+| Server | Can work in your server | Can get offical support |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Spigot |
+✅
+Some features does not provide in Spigot servers
+| ✅ |
+| Paper/Purpur |
+✅
+Can provide subtle performance improvements.
+| ✅ |
+| Folia |
+❓
+Any problems only occurs in Folia servers may not be solved. Plugin is not designed for multi thread support.
+|
+❓
+
+Folia's support is in the early testing stage and may be released in official versions or removed in the future. This support is not a guarantee.
+|
+| Other softwares | ❌ | ❌ |
 
 ## Server Version
 
@@ -24740,7 +24819,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 10 days ago
+Last updated 12 days ago
 
 General Setting
 
@@ -34010,6 +34089,16 @@ The display name used in price placeholders like {price}.
 
 For prices, this should usually always be set.
 
+Supported placeholders:
+
+{amount}
+
+{status} - Display the dynamic price status.
+
+{display} - If the price is vanilla item or hook item, this placeholder can display it's name. Will cost extra server performance.
+
+All PlaceholderAPI placeholders.
+
 start-apply, end-apply, apply
 
 These control when a price applies.
@@ -34152,7 +34241,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 3 months ago
+Last updated 16 hours ago
 
 What Is a Single Thing?
 
@@ -34900,6 +34989,13 @@ placeholder: '{amount}$'
 ```
 
 For prices, this should usually always be set.
+
+Supported placeholders:
+
+* {amount}
+* {status} - Display the dynamic price status.
+* {display} - If the price is vanilla item or hook item, this placeholder can display it's name. Will cost extra server performance.
+* All PlaceholderAPI placeholders.
 
 #### `start-apply`, `end-apply`, `apply`
 
