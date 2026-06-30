@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-29T02:52:38Z
+Generated UTC: 2026-06-30T02:43:45Z
 Page Count: 133
 
 ============================================================
@@ -8593,7 +8593,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Format available placeholders:
 
@@ -17652,7 +17652,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 0 minutes ago
+Last updated 1 day ago
 
 Java Version
 
@@ -19251,7 +19251,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Direct compatibility
 
@@ -22730,7 +22730,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 0 minutes ago
+Last updated 1 day ago
 
 Java Version
 
