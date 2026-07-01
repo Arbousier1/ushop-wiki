@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-06-30T02:43:45Z
+Generated UTC: 2026-07-01T02:50:56Z
 Page Count: 133
 
 ============================================================
@@ -6874,7 +6874,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 EconomyLimit
 
@@ -8593,7 +8593,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Format available placeholders:
 
@@ -24819,7 +24819,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 General Setting
 
@@ -32188,7 +32188,7 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Set dynamic value for your product configs
 
@@ -34241,7 +34241,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 16 hours ago
+Last updated 1 day ago
 
 What Is a Single Thing?
 
