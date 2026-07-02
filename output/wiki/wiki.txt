@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-01T02:50:56Z
+Generated UTC: 2026-07-02T02:40:59Z
 Page Count: 133
 
 ============================================================
@@ -419,7 +419,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNext✅Requirements
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -6874,7 +6874,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 26 days ago
+Last updated 28 days ago
 
 EconomyLimit
 
@@ -8593,7 +8593,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Format available placeholders:
 
@@ -17652,7 +17652,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Java Version
 
@@ -19251,7 +19251,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 17 days ago
+Last updated 19 days ago
 
 Direct compatibility
 
@@ -21709,7 +21709,7 @@ A: View Dynamic Price page.
 
 Previous🚀PerformanceNext🆚Compare
 
-Last updated 8 months ago
+Last updated 9 months ago
 
 Q: Player don't cost money when buy product.
 
@@ -22730,7 +22730,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 Previous💬Config PackNext⚙️Install
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Java Version
 
@@ -24819,7 +24819,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 General Setting
 
@@ -26911,7 +26911,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/other-language-wiki.md
@@ -34241,7 +34241,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 1 day ago
+Last updated 3 days ago
 
 What Is a Single Thing?
 
