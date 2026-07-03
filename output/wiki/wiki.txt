@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-02T02:40:59Z
-Page Count: 133
+Generated UTC: 2026-07-03T02:15:55Z
+Page Count: 135
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 63
+Links: 64
 
 UltimateShop Wiki
 
@@ -19,6 +19,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -244,10 +246,10 @@ Get support
 Info
 
 ============================================================
-Title: 💬Config Pack | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/config-pack
+Title: Business License | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/business-license
 
-Links: 63
+Links: 64
 
 UltimateShop Wiki
 
@@ -260,6 +262,217 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+
+Copy
+On this page
+
+Business License
+
+If you are a creator of a paid server setup or similar product and wish to incorporate the UltimateShop premium version into your product, you may consider our business license.
+
+Price: For every sale of this product, you will need to pay us a license fee of $4. If the product has already been released, considering that some of your old users will no longer update your product, we will consider the average download volume of the last 3 major updates as the number of times it has been sold, and each new purchase by a user thereafter will be considered a sale.
+
+Support: Your product buyer cannot access our buyer support service. But you can always contact us and provide us with feedback on the issues your users have encountered.
+
+The first payment will be made based on the actual number of copies sold (if less than 10 copies, it will be calculated based on 10 copies, and any excess points can be deducted from subsequent sales activities and can be considered as a prepayment, but this prepayment does not include refunds), and will be settled monthly thereafter. If payment is delayed, it will be deemed as an automatic termination of the cooperation. If it is necessary to terminate the cooperation normally, it should be proposed at least one month in advance. After canceling the cooperation, you need to delete all historical versions containing the UltimateShop Premium jar file.
+
+Previous💬Config PackNext✅Requirements
+
+Last updated 17 minutes ago
+
+============================================================
+URL: https://ultimateshop.superiormc.cn/business-license.md
+
+> For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/business-license.md).
+
+# Business License
+
+If you are a creator of a paid server setup or similar product and wish to incorporate the UltimateShop premium version into your product, you may consider our business license.
+
+* Price: For every sale of this product, you will need to pay us a license fee of $4. If the product has already been released, considering that some of your old users will no longer update your product, we will consider the average download volume of the last 3 major updates as the number of times it has been sold, and each new purchase by a user thereafter will be considered a sale.
+* Support: Your product buyer cannot access our buyer support service. But you can always contact us and provide us with feedback on the issues your users have encountered.
+* The first payment will be made based on the actual number of copies sold (if less than 10 copies, it will be calculated based on 10 copies, and any excess points can be deducted from subsequent sales activities and can be considered as a prepayment, but this prepayment does not include refunds), and will be settled monthly thereafter. If payment is delayed, it will be deemed as an automatic termination of the cooperation. If it is necessary to terminate the cooperation normally, it should be proposed at least one month in advance. After canceling the cooperation, you need to delete all historical versions containing the UltimateShop Premium jar file.
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
+
+```
+GET https://ultimateshop.superiormc.cn/business-license.md?ask=&goal=
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+
+============================================================
+Title: 💬Config Pack | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/config-pack
+
+Links: 64
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+Business License
 
 📦Info
 
@@ -410,16 +623,13 @@ Those config packs are not included in plugin, even not in premium version of pl
 
 Apply your work: pqguanfang@foxmail.com
 
-All third-party developers who create UltimateShop configurations on MCModels can apply to display your work here, and I will not charge you any fees. But you must send us the configuration file in advance so that we can check whether your configuration is genuine, and provide links to your previous works so that we can determine whether the works you submit are personally owned by you. We will decide whether to showcase your work here based on its quality. A maximum of 10 works will be displayed here.
-The rules for displaying works here are as follows: at least 3 locations should be used to store the latest applied works. We encourage authors to donate licenses to our community, and we will give away all these licenses. The remaining 7 locations depend on the number of licenses you give away. The more licenses you give, the more we will consider keeping your works.
-
 Redstone Labs - Shop Configuration
 
 Click here to view.
 
-Previous🌏Other Language WikiNext✅Requirements
+Previous🌏Other Language WikiNextBusiness License
 
-Last updated 6 months ago
+Last updated 27 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -436,10 +646,6 @@ Those config packs are not included in plugin, even not in premium version of pl
 
 {% hint style="success" %}
 **Apply your work:** `pqguanfang@foxmail.com`
-
-All third-party developers who create UltimateShop configurations on MCModels can apply to display your work here, and I will not charge you any fees. But you must send us the configuration file in advance so that we can check whether your configuration is genuine, and provide links to your previous works so that we can determine whether the works you submit are personally owned by you. We will decide whether to showcase your work here based on its quality. A maximum of 10 works will be displayed here.\
-The rules for displaying works here are as follows: at least 3 locations should be used to store the latest applied works. We encourage authors to donate licenses to our community, and we will give away all these licenses. The remaining 7 locations depend on the number of licenses you give away. The more licenses you give, the more we will consider keeping your works.
-
 {% endhint %}
 
 ## Redstone Labs - Shop Configuration
@@ -471,7 +677,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -484,6 +690,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -1603,7 +1811,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -1616,6 +1824,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -3575,7 +3785,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -3588,6 +3798,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -3938,7 +4150,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -3951,6 +4163,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -4301,7 +4515,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -4314,6 +4528,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -4497,7 +4713,7 @@ Showcase
 
 Previous🔄Dynamic PriceNext🌏Advanced Language Managment
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Dynamic Price Status
 
@@ -4780,7 +4996,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -4793,6 +5009,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -5006,7 +5224,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Default Language
 
@@ -5101,7 +5319,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -5114,6 +5332,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -5327,7 +5547,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Default Language
 
@@ -5578,7 +5798,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -5591,6 +5811,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -5836,7 +6058,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -5849,6 +6071,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -6243,7 +6467,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -6256,6 +6480,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -6604,7 +6830,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -6617,6 +6843,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -7151,7 +7379,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -7164,6 +7392,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -7410,7 +7640,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -7423,6 +7653,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -7667,7 +7899,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -7680,6 +7912,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -8387,7 +8621,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -8400,6 +8634,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -8593,7 +8829,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Format available placeholders:
 
@@ -8665,7 +8901,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -8678,6 +8914,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -8879,7 +9117,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -8892,6 +9130,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -9166,7 +9406,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -9179,6 +9419,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -9487,7 +9729,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -9500,6 +9742,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -9929,7 +10173,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -9942,6 +10186,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -10204,7 +10450,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -10217,6 +10463,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -10601,7 +10849,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -10614,6 +10862,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -12043,7 +12293,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -12056,6 +12306,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -12713,7 +12965,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -12726,6 +12978,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -13024,7 +13278,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -13037,6 +13291,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -13324,7 +13580,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -13337,6 +13593,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -13759,7 +14017,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🌉ItemBridge | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itembridge
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -13772,6 +14030,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -14000,7 +14260,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Supported Plugin List
 
@@ -14124,7 +14384,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -14137,6 +14397,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -14585,7 +14847,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Hook Item
 
@@ -15693,7 +15955,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -15706,6 +15968,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -16443,7 +16707,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -16456,6 +16720,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -16787,7 +17053,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -16800,6 +17066,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -17414,7 +17682,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -17427,6 +17695,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -17650,9 +17920,9 @@ An economy plugin if you want to use custom currency
 
 UltimateShop is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. Vault is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
 
-Previous💬Config PackNext⚙️Install
+PreviousBusiness LicenseNext⚙️Install
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Java Version
 
@@ -17666,7 +17936,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -17679,6 +17949,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -18299,7 +18571,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -18312,6 +18584,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -18926,7 +19200,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -18939,6 +19213,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -19622,7 +19898,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -19635,6 +19911,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -21153,7 +21431,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -21166,6 +21444,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -21482,7 +21762,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -21495,6 +21775,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -21839,7 +22121,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -21852,6 +22134,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -22063,7 +22347,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -22076,6 +22360,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -22492,7 +22778,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -22505,6 +22791,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -22728,9 +23016,9 @@ An economy plugin if you want to use custom currency
 
 UltimateShop is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. Vault is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
 
-Previous💬Config PackNext⚙️Install
+PreviousBusiness LicenseNext⚙️Install
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Java Version
 
@@ -22825,6 +23113,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [🎉Welcome](https://ultimateshop.superiormc.cn/welcome.md)
 - [🌏Other Language Wiki](https://ultimateshop.superiormc.cn/other-language-wiki.md)
 - [💬Config Pack](https://ultimateshop.superiormc.cn/config-pack.md)
+- [Business License](https://ultimateshop.superiormc.cn/business-license.md)
 - [✅Requirements](https://ultimateshop.superiormc.cn/info/requirements.md)
 - [⚙️Install](https://ultimateshop.superiormc.cn/info/install.md)
 - [🔗Compatibility](https://ultimateshop.superiormc.cn/info/compatibility.md)
@@ -22909,7 +23198,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -22922,6 +23211,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -23369,7 +23660,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -23382,6 +23673,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -23827,7 +24120,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -23840,6 +24133,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -24278,7 +24573,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -24291,6 +24586,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -24547,7 +24844,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -24560,6 +24857,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -24947,7 +25246,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ❤️Favourite Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/favourite-menus-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -24960,6 +25259,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -25310,7 +25611,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -25323,6 +25624,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -26016,7 +26319,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/search-menus-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -26029,6 +26332,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -26493,7 +26798,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🛒Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/sell-all-menu
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -26506,6 +26811,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -26744,7 +27051,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 63
+Links: 64
 
 UltimateShop Wiki
 
@@ -26757,6 +27064,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -26953,7 +27262,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -26966,6 +27275,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -27489,7 +27800,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -27502,6 +27813,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -28410,7 +28723,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -28423,6 +28736,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -28765,7 +29080,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🗯️Custom Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -28778,6 +29093,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -29033,7 +29350,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -29046,6 +29363,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -29376,7 +29695,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -29389,6 +29708,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -29995,7 +30316,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -30008,6 +30329,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -30384,7 +30707,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -30397,6 +30720,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -30959,7 +31284,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -30972,6 +31297,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -31402,7 +31729,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -31415,6 +31742,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -31975,7 +32304,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -31988,6 +32317,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -32278,7 +32609,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -32291,6 +32622,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -33044,7 +33377,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -33057,6 +33390,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -33572,7 +33907,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -33585,6 +33920,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -34241,7 +34578,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 What Is a Single Thing?
 
@@ -35645,7 +35982,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 💰Sell Multiplier - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -35658,6 +35995,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -35951,7 +36290,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -35964,6 +36303,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
@@ -36336,7 +36677,7 @@ Use this mechanism when the answer is not explicitly present in the current page
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -36349,6 +36690,8 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
+
+Business License
 
 📦Info
 
