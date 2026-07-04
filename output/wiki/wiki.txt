@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-03T02:15:55Z
+Generated UTC: 2026-07-04T02:14:08Z
 Page Count: 135
 
 ============================================================
@@ -418,7 +418,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 17 minutes ago
+Last updated 23 hours ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -432,27 +432,6 @@ If you are a creator of a paid server setup or similar product and wish to incor
 * Price: For every sale of this product, you will need to pay us a license fee of $4. If the product has already been released, considering that some of your old users will no longer update your product, we will consider the average download volume of the last 3 major updates as the number of times it has been sold, and each new purchase by a user thereafter will be considered a sale.
 * Support: Your product buyer cannot access our buyer support service. But you can always contact us and provide us with feedback on the issues your users have encountered.
 * The first payment will be made based on the actual number of copies sold (if less than 10 copies, it will be calculated based on 10 copies, and any excess points can be deducted from subsequent sales activities and can be considered as a prepayment, but this prepayment does not include refunds), and will be settled monthly thereafter. If payment is delayed, it will be deemed as an automatic termination of the cooperation. If it is necessary to terminate the cooperation normally, it should be proposed at least one month in advance. After canceling the cooperation, you need to delete all historical versions containing the UltimateShop Premium jar file.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/business-license.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 💬Config Pack | UltimateShop Wiki
@@ -629,7 +608,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 27 minutes ago
+Last updated 1 day ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -651,27 +630,6 @@ Those config packs are not included in plugin, even not in premium version of pl
 ## Redstone Labs - Shop Configuration
 
 [Click here to view](https://mcmodels.net/products/15194/shop-configuration-ultimateshop).
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/config-pack.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: Develop Guide | UltimateShop Wiki
@@ -3760,27 +3718,6 @@ If you want working examples to copy from, the best built-in references are:
 
 Together, these show the hook style UltimateShop expects.
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/develop/develop-guide.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
@@ -4767,27 +4704,6 @@ same: '-'
 
 ## Showcase
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price.md
 
@@ -4970,27 +4886,6 @@ Please view [Products](/shops/products.md) page for info and example.
 Many people ask this question, and I feel that the person asking this question simply does not understand the essence of UltimateShop. The dynamic price is determined by a formula, so you cannot reset the price directly. To reset the price, the placeholders used in your formula must be reset. If you use placeholders such as `{buy-times-server}` exactly as described in this section, they can be reset.
 
 You can reset the buy times or sell times by our auto reset feature, you can find more info at [Buy/Sell Times Reset](/shops/product-config-buy-sell-times-reset.md) page or use `/shop setbuytimes/setselltimes` command
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
@@ -5773,27 +5668,6 @@ welcome: '[bossbar=GREEN,SOLID,1.0]&aHappy Today[/bossbar]'
 welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_LEVELUP,1,1][/sound]'
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/advanced-language-managment.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
@@ -6032,27 +5906,6 @@ UltimateShop provides 2 color code format. The plugin will automatically determi
 * Only useful color feature supported.
 * You can use it everywhere.
 * For Paper users who meet use MiniMessage requirements, we will auto translate built-in color parser to MiniMessage format.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/color-code.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
@@ -6442,27 +6295,6 @@ menu: buy-more-sell
 max-amount: 128
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/custom-click-event-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
@@ -6805,27 +6637,6 @@ buy-prices:
 # You can also use this in buy price!
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/custom-item-match-method.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
@@ -7102,7 +6913,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 EconomyLimit
 
@@ -7353,27 +7164,6 @@ Examples:
 
 Returns the next reset time of that rule.\
 If the rule does not reset, it returns `status.never` from the language file.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/earn-limit.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 💴Easy Prices | UltimateShop Wiki
@@ -7626,15 +7416,14 @@ material: APPLE
 amount: 1
 buy-prices:
 1:
-custom-type: example # &goal=
+custom-type: example # <--- New Option!
+amount: 20
+start-apply: 0
+2:
+custom-type: mmoitems-example # <--- New Option!
+placeholder: '{amount} axes'
+start-apply: 0
 ```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
@@ -7873,27 +7662,6 @@ Smart method is provided by UltimateShop self, it will follow the vanilla max st
 This method will cost extra plugin performance, be careful to use if you are running large server and have much online players.
 
 It is very difficult to attempt to restore the vanilla mechanism without contacting NMS, so this method may have a lot of problems and is still under testing.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/give-item-method.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
@@ -8596,27 +8364,6 @@ economy-plugin: Vault
 amount: 10
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
@@ -8829,7 +8576,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Format available placeholders:
 
@@ -8875,27 +8622,6 @@ time-format: "yyyy-MM-dd HH:mm:ss"
 * {multiplier} - The result value of [Sell Multiplier](/shops/sell-multiplier-premium.md).
 
 ## Showcase
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/log-transaction-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
@@ -9091,27 +8817,6 @@ URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
 * Change **UltimateShop** plugin's `config.yml` file's `database.enabled` option value to `true`, then setup your database settings.
 * Change **UltimateShop** plugin's `config.yml` file's `bungeecord-sync.enabled` option value to `true`.
 * Like most plugins, UltimateShop does not verify the accuracy and synchronization of data across different servers in BungeCord. If your BungeCord is experiencing data synchronization issues, you can try increasing the `cache.load-delay` value in the `config.yml` file. If your server is a large proxy server with very high synchronization requirements, we recommend that you choose other plugins.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🔢Number Format | UltimateShop Wiki
@@ -9392,15 +9097,9 @@ placeholder:
 auto-settings:
 # If enabled, we will try change {amount} in price placeholder option to the value you set here.
 change-amount-in-all-price-placeholder:
-enabled: true # &goal=
+enabled: true # <--- Change this to true
+replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as here
 ```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
@@ -9703,27 +9402,6 @@ material: superior_sword # If saved item id is 'superior_sword'
 ```
 
 Saved items will be cached in memory continuously after loading to avoid repeatedly reading the saved item file, which may consume too much server performance. However, the cost is that if you have too many saved items, it may correspondingly consume more memory.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
@@ -10148,27 +9826,6 @@ The purpose of doing this is to save server performance. We will not set separat
 
 ## Showcase
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/sell-chest-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
@@ -10424,27 +10081,6 @@ conditions: []
 After confiure the sell stick, you can reload the plugin then use `/shop givesellstick` to obtain sell stick item. For more info, please view [here](/info/commands-and-permissions.md#shop-givesellstick-less-than-itemid-greater-than-less-than-playerid-greater-than-amount-premium-vers).
 
 UltimateShop supports you prevent player use sell tick in protected area or other player's land.(OP players will not check this) You can check Supported Protection Plugins list [here](/info/compatibility.md#directly-supported-protection-plugins-list-premium). You can use permission `ultimateshop.bypass.protection` to bypass protection check for sell stick use.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/features/sell-stick-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -12268,27 +11904,6 @@ then:
 {arg_3} -> 64
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/action-format.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
@@ -12940,27 +12555,6 @@ rule: '>='
 value: 200
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/condition-format.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
@@ -13253,27 +12847,6 @@ rule: '='
 value: '0'z
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/display-item-format.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
@@ -13554,27 +13127,6 @@ economy-type: levels
 amount: 5
 placeholder: '5 levels'
 ```
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/economyformat-tm.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
@@ -13992,27 +13544,6 @@ https://jd.papermc.io/paper//org/bukkit/Tag.html
 https://jd.papermc.io/paper//org/bukkit/MusicInstrument.html
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🌉ItemBridge | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itembridge
@@ -14358,27 +13889,6 @@ hook-item: 'myemoji:happy'
 
 If you are unsure how to fill in the values for these two options, you can hold the corresponding item then use command `/shop generateitemformat` to parse the ItemFormat of it. After execute this command, a new file called `generated-item-format.yml` wll be generated at `plugins/UltimateShop` folder. (or `plugins/
 `)
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/itembridge.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 📝ItemFormat™ | UltimateShop Wiki
@@ -15930,27 +15440,6 @@ Supported plugins at the moment:
 * AdvancedEnchantments - Premium
 * NBTAPI - Premium
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/itemformat-tm.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
@@ -16682,27 +16171,6 @@ speed-multiplier: 0.4
 
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
@@ -17039,15 +16507,13 @@ You need enable `math.enabled` option in your `config.yml` file to use this feat
 
 `=` - Compare if one number is greater than or equal to another (`1 >= 1`)
 
-`&goal=
-```
+`<=` - Compare if one number is less than or equal to another (`0 <= 1`)
 
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+`|` - Boolean or (`true | false`), also accepts `||`
 
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+`&` - Boolean and (`true & true`), also accepts `&&`
 
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+`!` - Boolean not/inverse (`!true`)
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -17657,27 +17123,6 @@ secret-shop-items: []
 The `[]` means the list is empty, and the plugin will use its default settings.\
 This line can usually be safely removed.
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
@@ -17922,7 +17367,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Java Version
 
@@ -18546,27 +17991,6 @@ Require `ultimateshop.searchgui` permission.
 
 For command list of custom placeholder feature, please view [this page](/placeholders/custom-placeholder-premium.md).
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/commands-and-permissions.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
@@ -19175,27 +18599,6 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 ✅
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/compare.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
@@ -19527,7 +18930,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Direct compatibility
 
@@ -19872,27 +19275,6 @@ anotherNBTComponent.theNBTKey: 5
 ## PlaceholderAPI: Extra placeholders
 
 UltimateShop provides those new placeholders to PlaceholderAPI, for more info, please view [this page](/placeholders/built-in-placeholders.md#placeholderapi-support).
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/compatibility.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🛠️Configuration files | UltimateShop Wiki
@@ -21406,27 +20788,6 @@ hide-message: false
 period-tick: 6000
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/configuration-files.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
@@ -21736,27 +21097,6 @@ password: 123456
 | PostgreSQL (Added in 4.1.4) | jdbc:postgresql://localhost:5432/ultimateshop | org.postgresql.Driver |
 | SQLLite (Added in 4.1.4) | jdbc:sqlite:plugins/UltimateShop/data.db | org.sqlite.JDBC |
 | h2 (Added in 4.1.4) | jdbc:h2:file:./plugins/UltimateShop/data | org.h2.Driver |
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/data.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: ❓FAQ | UltimateShop Wiki
@@ -22096,27 +21436,6 @@ If there are no issues with the shop, there is no need to pay attention to it. T
 
 A: View [Dynamic Price](/dynamic-prices/dynamic-price.md) page.
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/faq.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
@@ -22302,7 +21621,7 @@ Default configs are just helping you understand the config framework, you need m
 
 Previous✅RequirementsNext🔗Compatibility
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -22321,27 +21640,6 @@ URL: https://ultimateshop.superiormc.cn/info/install.md
 * When using the [Localized Item Name](/features/localized-item-name-premium.md) feature, it is important to note that when switching server game versions, the previously generated localized files need to be deleted.
 * **UltimateShop** is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. **Vault** is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
 * Default configs are just helping you understand the config framework, you need modify them that meet your needs.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/install.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🚀Performance | UltimateShop Wiki
@@ -22753,27 +22051,6 @@ sell:
 sell-method: Bukkit
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/performance.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
@@ -23018,7 +22295,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Java Version
 
@@ -23081,27 +22358,6 @@ Using versions 1.21.5 and above is the most recommended, as you can enjoy the be
 ## An economy plugin if you want to use custom currency
 
 * **UltimateShop** is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. **Vault** is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/info/requirements.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/llms.txt
@@ -23178,21 +22434,6 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [Copy of Develop Guide](https://ultimateshop.superiormc.cn/develop/copy-of-develop-guide.md)
 - [Events](https://ultimateshop.superiormc.cn/develop/events.md)
 - [Hook into UltimateShop](https://ultimateshop.superiormc.cn/develop/hook-into-ultimateshop.md)
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information, you can query the documentation dynamically by asking a question.
-Perform an HTTP GET request on a page URL with the `ask` query parameter:
-```
-GET https://ultimateshop.superiormc.cn/welcome.md?ask=
-```
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🔲General Menus | UltimateShop Wiki
@@ -24095,27 +23336,6 @@ only-buy: '&6Buy: {buy-price}'
 only-sell: '&6Sell: {sell-price}'
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
@@ -24548,27 +23768,6 @@ Other option:
 
 A: This feature added in version 3.12.1, and premium version only, for example of it, please view [here](/features/custom-click-event-premium.md#example-only-buy-more-menu).
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/menus/buy-more-menus.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
@@ -24830,15 +24029,34 @@ economy-plugin: Vault
 amount: '0.53'
 placeholder: '{amount}$'
 start-apply: 0
-display-conditions: # &goal=
+display-conditions: # <--- Added content
+1:
+type: world
+world: 'world1'
 ```
 
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+## Set menu configs layout option
 
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+You should use this new format in layout option:
 
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+```yaml
+`D||E||F`
+```
+
+This means that the products or buttons with IDs D, E, and F will be checked in order until the display conditions of the corresponding product or button are met. For example, if the display conditions for D are not met, but the display conditions for E are met, then the corresponding slot will display the product or button with ID E.
+
+Also, you need set menu config's `dynamic-layout` option to `true` to use this feature.
+
+```yaml
+dynamic-layout: true
+layout:
+- '000000000'
+- '0ABC`D||E||F`EFG0'
+- '0HIJKLMN0'
+- '0OPQRSTU0'
+- '000000000'
+- 'a0003000b'
+```
 
 ============================================================
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
@@ -25118,7 +24336,7 @@ You need also update your add-lore settings:
 
 Previous🛏️Bedrock Menus - PremiumNext📂Shops
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 General Setting
 
@@ -25232,15 +24450,109 @@ display-item:
 material: BREAD
 name: '&cSuper Bread'
 display-name: "Bread"
-add-lore: # &goal=
+add-lore: # <--- Custom Add Lore for this product
+- '@a&ePurchase: {buy-price}'
+- '@b&eSell: {sell-price}'
+- '&eDrop to buy, right to sell'
 ```
 
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+## Hide
 
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+You can use `display-item.modify-lore` option to hide the display item add lore.
 
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+```yaml
+A:
+display-item:
+material: APPLE
+modify-lore: false # This line
+buy-prices:
+# The section of buy price
+sell-prices:
+# The section of sell price
+```
+
+## Prefix - Conditional Symbol
+
+Each line start with `@+lower case` will be consider as conditional line. We will only display this line when this condition is meet. Starting from version **4.0.0**, multiple conditional symbols can be set for each line.
+
+@a - This product has buy price. (Means has `buy-prices` section)
+
+@b - This product has sell price. (Means has `sell-prices` section)
+
+@c - This product has player buy limit. (Means has `buy-limits.player` option)
+
+@d - This product has server buy limit. (Means has `buy-limits.global` option)
+
+@e - This product has player sell limit. (Means has `sell-limits.player` option)
+
+@f - This product has server sell limit. (Means has `sell-limits.global` option)
+
+@g - This product has reached player buy limit.
+
+@h - This product has reached player sell limit.
+
+@i - This product has reached server buy limit.
+
+@j - This product has reached server sell limit.
+
+@k - This product has enabled buy more feature.
+
+@l - This product can use favourite feature.
+
+@m - This product can use sell all feature.
+
+@n - Buy/sell price (corresponding to the Click type) is valid. For example, buy click type require buy price is valid.
+
+@o - Player is opening favourite menu.
+
+@p - Player is opening buy more menu.
+
+@q - Player is **not** opening buy more menu.
+
+@x - Player is from bedrock version. Require using [Bedrock Menus](/menus/bedrock-menus-premium.md) feature.
+
+@y - Player is **not** from bedrock version. Require using [Bedrock Menus](/menus/bedrock-menus-premium.md) feature.
+
+@u - This button can buy product.
+
+@v - This button can sell product.
+
+@w - This button exist in buy more menu and already set `click-type` option.
+
+@z\[vip] - Only show when [multiplier](/shops/sell-multiplier-premium.md) id `vip` is active.
+
+(@z\[vip]) - Only show when [multiplier](/shops/sell-multiplier-premium.md) id `vip` is not active.
+
+## Negation
+
+You can reverse the conditional symbol by adding English parentheses before and after it. For example: `(@a)` represents the reversal of `@a`. (means this product does not has buy price)
+
+{% hint style="danger" %}
+Suffix has been removed in display item add lore from 4.0.0.
+{% endhint %}
+
+## Multi Line Price
+
+Use `;;` symbol if you want to display price in multi lines.
+
+```yaml
+placeholder:
+price:
+split-symbol-any: ';;' # <--- Changed this in config.yml
+split-symbol-all: ';;' # <--- Changed this in config.yml
+unknown: "Unknown"
+```
+
+You need also update your `add-lore` settings:
+
+```yaml
+add-lore:
+- '@n '
+- '@a&ePurchase: '
+- '@a &7[-] &f{buy-price}'
+- '@b&eSell:'
+- '@a &7[-] &f {sell-price}'
+```
 
 ============================================================
 Title: ❤️Favourite Menus - Premium | UltimateShop Wiki
@@ -25585,27 +24897,6 @@ Examples:
 ```yaml
 /shop menu favourite
 ```
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/menus/favourite-menus-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🔲General Menus | UltimateShop Wiki
@@ -26305,15 +25596,35 @@ Set `menu.title-update.enabled` option value to `true`, then set `menu.title-upd
 ```yaml
 # PREMIUM version only, if enabled, can update dynamic value used in GUI title.
 title-update:
-enabled: true # &goal=
+enabled: true # <--- Set it to true
+# Whether gui title will refresh every buttons every 1 second.
+# This will refresh placeholder that displayed in menu title.
+circle-update: false
+# Whether gui title will refresh every buttons when click any of them.
+# This will refresh placeholder that displayed in menu title.
+click-update: true # <--- Set it to true
+resend-items-pack: false
 ```
 
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+The Minecraft client itself does not support changing the title of a container after opening it, so you will see items flashing and quickly reappearing, which cannot be solved. You can try enable `menu.title-update.resend-items-pack` value to `true` in `config.yml` file. This will only slightly alleviate the situation.
 
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+## All Buttons Update
 
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+Set whether keep trying to refresh the button display in the GUI after the player opens it. Find those content at `config.yml` file. Do not recommend enable it as it will cost more performance.
+
+If you just want us trying to refresh the product button when we reset buy or sell times of it, you can use `use-times.auto-reset-mode` option instead. That option can help you filter out all button displays that only refresh when reset occurs, thereby saving server performance.
+
+```yaml
+menu-update:
+# Whether menu will refresh every buttons every 1 second.
+# This will refresh placeholder that displayed in display item lore.
+# But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
+circle-update: false
+# Whether menu will refresh every buttons when click any of them.
+# This will refresh placeholder that displayed in display item lore.
+# But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
+click-update: false
+```
 
 ============================================================
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
@@ -26773,27 +26084,6 @@ Meaning:
 * typing `cancel-keyword`: cancels the current prompt
 * typing `clear-keyword`: clears the current name filter
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/menus/search-menus-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🛒Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/sell-all-menu
@@ -27026,27 +26316,6 @@ Close this menu to sell all items inside this GUI. This menu also follows max am
 
 You can use `/shop sellall` command to open sell all menu. This command require `ultimateshop.sellall` permission.
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/menus/sell-all-menu.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
@@ -27236,27 +26505,6 @@ Wiki translations in other languages come from the community and do not represen
 **Translator:** SnowCutieOwO
 
 **Site:** [Click here (点击这里)](https://continue-project.netlify.app/wiki/UltimateShop/)
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/other-language-wiki.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
@@ -28709,15 +27957,10 @@ Use `;;` symbol if you want to start a new line, this is very useful for some pe
 ```yaml
 placeholder:
 price:
-split-symbol-any: ';;' # &goal=
+split-symbol-any: ';;' # <--- Changed this in config.yml
+split-symbol-all: ';;' # <--- Changed this in config.yml
+unknown: "Unknown"
 ```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
@@ -29055,27 +28298,6 @@ layout:
 
 Replace `yourPlaceholderName` to the file name of the conditional placeholder you used.
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🗯️Custom Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
@@ -29324,27 +28546,6 @@ You need to set the value of the custom placeholder by using commands.
 If `per-player-result` is set to `true`, then `playerName` will be a required parameter; otherwise, the playerName parameter should not be entered.
 * /shop addcustomplaceholder \ \ \[playerName]\
 Only work number type of custom placeholder. It will be added to the current value of the placeholder. For example, if the current value is 1 and the value parameter entered here is 5, then the final placeholder value will be replaced with 6.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🔖Example: Discount | UltimateShop Wiki
@@ -29681,15 +28882,38 @@ lore:
 buy-prices:
 1:
 economy-plugin: Vault
-amount: '{conditional_buy} * 5' # &goal=
+amount: '{conditional_buy} * 5' # <--- Changed line
+start-apply: 0
+placeholder: '{amount} Coins'
+sell-prices:
+1:
+economy-plugin: Vault
+amount: '{conditional_sell} * 5' # <--- Changed line
+start-apply: 0
+placeholder: '{amount} Coins'
 ```
 
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+* `5` is base price, then add `{conditional_buy}` or `{conditional_sell}` before it.
+* If player meet vip condition, the `{condition_buy}` will return `0.5`, so he will only need pay `0.5*4` which means only `2.5` coins!
 
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+## Auto Apply Discount
 
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+* Start from 2.3.2, you can auto apply conditional placeholder to all prices! Just configure it in `config.yml` file. This can helps you auto add discount for each products.
+
+```yaml
+placeholder:
+auto-settings:
+add-conditional-in-all-price-amount:
+enabled: false
+buy-placeholder: buy
+sell-placeholder: sell
+black-dynamic-price: true
+black-shops:
+- 'example'
+```
+
+* It is recommend you disable this feature for dynamic price, if you want to enable it for dynamic price too, just change `black-dynamic-price` option to false here!
+* If you want to disable this feature for specified shops, use `black-shops` option.
 
 ============================================================
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
@@ -30302,15 +29526,10 @@ amount: 1
 buy-prices:
 1:
 economy-plugin: Vault
-amount: '{random_price;;1}' # &goal=
+amount: '{random_price;;1}' # <--- Changed line
+placeholder: '&6{amount} Coins'
+start-apply: 0
 ```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 📂Shops | UltimateShop Wiki
@@ -31259,27 +30478,6 @@ rule: '=='
 value: 'Winter'
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/example-common-usage.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
@@ -31703,27 +30901,6 @@ default: '1'
 buy-times-reset-mode: 'TIMED'
 buy-times-reset-time: '00:00:00'
 ```
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/example-daily-rewards.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
@@ -32279,27 +31456,6 @@ menu: main
 
 ## Showcase
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
@@ -32583,27 +31739,6 @@ The person who asked this question didn't understand this plugin at all. Your st
 * This content of auto reset buy/sell times is introduced on [this page](/shops/product-config-buy-sell-times-reset.md).
 * Use command `/shop setselltimes
 global `. If you want to restock 50 amount, and the now sell time is 75, then you need put 125 to ``.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
@@ -33351,27 +32486,6 @@ You **MUST** make sure that time format of the result of Cron placeholder (set i
 ## Reset Time Updated but Buy times/Sell times not cleared?
 
 * If you must use placeholders in your `reset time`, switch to a reset mode that starts with `COOLDOWN_`.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🛒Products | UltimateShop Wiki
@@ -34578,7 +33692,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 What Is a Single Thing?
 
@@ -35603,27 +34717,6 @@ add-price-lore:
 - '&fWorth: &6{total-price}'
 ```
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/products.md
 
@@ -35957,27 +35050,6 @@ The example config of **Sub Buttons** can be found at [Shops](/shops/shops.md) p
 If the corresponding product of the sub button is not displayed in the shop GUI, or if the player does not meet the conditions to open the corresponding shop menu, the item cannot be traded. If this is not desired, change the `settings.secret-shop-items` option in the shop configuration to `false`.
 {% endhint %}
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/products.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 Title: 💰Sell Multiplier - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
@@ -36264,27 +35336,6 @@ Example:
 * MAX mode final result = `1.1`
 * STACK mode final result = `1 * 0.9 * 1.1 = 0.99`
 * value and value-conditions: The multiplier id in `value` must match the id in `value-conditions` exactly. Should use [Condition Format](/format/condition-format.md) in `value-conditions` option.
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -36651,27 +35702,6 @@ global: '{sell-times-server}'
 buy-times-reset-mode: COOLDOWN_TIMED
 buy-times-reset-time: 00:00:00
 ```
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/shared-product-data-premium.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
 ============================================================
 Title: 📂Shops | UltimateShop Wiki
@@ -37280,27 +36310,6 @@ For each button, we have those options:
 * fail-actions: The action will executed if we don't meet the condition of this button. Use [Action Forma](https://ultimateshop.superiormc.cn/format/action-format)[t](https://ultimateshop.superiormc.cn/format/action-format) here.
 * conditions: The condition of this button, if player don't meet this condition, then we will execute the `fail-action`. Use [Condition Format](https://ultimateshop.superiormc.cn/format/condition-format) here.
 
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/shops/shops.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
-
 ============================================================
 URL: https://ultimateshop.superiormc.cn/welcome.md
 
@@ -37352,25 +36361,4 @@ URL: https://ultimateshop.superiormc.cn/welcome.md
 * Auto transalte vanilla item name at plugin message, placeholder and so on. You don't need to manually set each product name for vanilla items. (Require 1.16+ server version, Premium)
 * Built-in Sell Stick, Sell All GUI which out any other addon plugins! (Sell Stick requires Premium)
 * Many, many, other things...
-
----
-
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://ultimateshop.superiormc.cn/welcome.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
 
