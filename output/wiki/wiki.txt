@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-05T02:29:22Z
-Page Count: 135
+Generated UTC: 2026-07-06T02:35:18Z
+Page Count: 137
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -77,6 +77,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -249,7 +251,7 @@ Info
 Title: Business License | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/business-license
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -320,6 +322,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -418,7 +422,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -437,7 +441,7 @@ If you are a creator of a paid server setup or similar product and wish to incor
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -508,6 +512,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -608,7 +614,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -635,7 +641,7 @@ Those config packs are not included in plugin, even not in premium version of pl
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -706,6 +712,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -1769,7 +1777,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -1840,6 +1848,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -3722,7 +3732,7 @@ Together, these show the hook style UltimateShop expects.
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -3793,6 +3803,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -4087,7 +4099,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -4158,6 +4170,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -4452,7 +4466,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -4523,6 +4537,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -4891,7 +4907,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -4962,6 +4978,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -5214,7 +5232,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -5285,6 +5303,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -5672,7 +5692,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -5743,6 +5763,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -5911,7 +5933,7 @@ UltimateShop provides 2 color code format. The plugin will automatically determi
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -5982,6 +6004,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -6299,7 +6323,7 @@ max-amount: 128
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -6370,6 +6394,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -6641,7 +6667,7 @@ buy-prices:
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -6712,6 +6738,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -7169,7 +7197,7 @@ If the rule does not reset, it returns `status.never` from the language file.
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -7240,6 +7268,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -7429,7 +7459,7 @@ start-apply: 0
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -7500,6 +7530,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -7667,7 +7699,7 @@ It is very difficult to attempt to restore the vanilla mechanism without contact
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -7738,6 +7770,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -8368,7 +8402,7 @@ amount: 10
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -8439,6 +8473,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -8576,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Format available placeholders:
 
@@ -8627,7 +8663,7 @@ time-format: "yyyy-MM-dd HH:mm:ss"
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -8698,6 +8734,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -8822,7 +8860,7 @@ URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -8893,6 +8931,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -9105,7 +9145,7 @@ replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as her
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -9176,6 +9216,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -9407,7 +9449,7 @@ Saved items will be cached in memory continuously after loading to avoid repeate
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -9478,6 +9520,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -9830,7 +9874,7 @@ The purpose of doing this is to save server performance. We will not set separat
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -9901,6 +9945,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -10086,7 +10132,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -10157,6 +10203,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -10485,7 +10533,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -10556,6 +10604,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -10898,9 +10948,13 @@ If the player enters:
 
 then:
 
+Back
+
+Back to the previous menu, if previous menu does not exist, will open the menu exist in menu option.
+
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 2 months ago
+Last updated 13 hours ago
 
 General Options
 
@@ -10975,6 +11029,8 @@ Remove Favourite - Premium
 Toggle Favourite - Premium
 
 Prompt - Premium
+
+Back
 
 Copy
 
@@ -11322,6 +11378,20 @@ Copy
 {arg_1} -> diamond
 {arg_2} -> sword
 {arg_3} -> 64
+
+Copy
+
+actions:
+1:
+type: back
+menu: main
+
+Copy
+
+actions:
+1:
+type: back
+shop: 'flowers'
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/format/action-format.md
@@ -11904,11 +11974,29 @@ then:
 {arg_3} -> 64
 ```
 
+## Back
+
+Back to the previous menu, if previous menu does not exist, will open the menu exist in menu option.
+
+```yaml
+actions:
+1:
+type: back
+menu: main
+```
+
+```yaml
+actions:
+1:
+type: back
+shop: 'flowers'
+```
+
 ============================================================
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -11979,6 +12067,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -12559,7 +12649,7 @@ value: 200
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -12630,6 +12720,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -12851,7 +12943,7 @@ value: '0'z
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -12922,6 +13014,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -13132,7 +13226,7 @@ placeholder: '5 levels'
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -13203,6 +13297,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -13548,7 +13644,7 @@ https://jd.papermc.io/paper//org/bukkit/MusicInstrument.html
 Title: 🌉ItemBridge | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itembridge
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -13619,6 +13715,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -13894,7 +13992,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -13967,6 +14065,8 @@ Component Format
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -15444,7 +15544,7 @@ Supported plugins at the moment:
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -15517,6 +15617,8 @@ Component Format
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -16175,7 +16277,7 @@ speed-multiplier: 0.4
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -16246,6 +16348,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -16519,7 +16623,7 @@ You need enable `math.enabled` option in your `config.yml` file to use this feat
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -16590,6 +16694,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -17127,7 +17233,7 @@ This line can usually be safely removed.
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -17198,6 +17304,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -17367,7 +17475,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Java Version
 
@@ -17381,7 +17489,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -17452,6 +17560,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -17995,7 +18105,7 @@ For command list of custom placeholder feature, please view [this page](/placeho
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -18066,6 +18176,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -18603,7 +18715,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -18674,6 +18786,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -18930,7 +19044,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 21 days ago
+Last updated 23 days ago
 
 Direct compatibility
 
@@ -19280,7 +19394,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -19351,6 +19465,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -19475,7 +19591,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 2 months ago
+Last updated 28 minutes ago
 
 Copy
 
@@ -19499,10 +19615,18 @@ minecraft-locate-file:
 enabled: false
 generate-new-one: false
 file: 'zh_cn.json'
+# Premium version only. Generates a Material -> vanilla texture path mapping from the Minecraft client assets.
+minecraft-item-material-file:
+enabled: false
+generate-new-one: false
+file: 'item-materials.json'
 
 # Support value: COMPONENT or LEGACY
 # COMPONENT mode only supports 1.21.6+ Paper servers and PREMIUM version.
 debuild-item-method: 'LEGACY'
+
+# Support value: DEFAULT or ITEMBRIDGE
+hook-item-method: 'DEFAULT'
 
 # By default, we will auto force display fail message to make sure player know whether they have successfully clicked the product button.
 # If set to false, we will not force display fail message and you can also use hide-message option in shop configs to hide the fail messages.
@@ -19587,6 +19711,9 @@ give-method: SMART
 check-full: true
 
 menu:
+# Require 1.19+ version and Paper servers.
+# This will cost extra server performance, only enable this if you found any dupe issue from this plugin.
+anti-dupe-checker: false
 prompt:
 cancel-keyword: '{lang}'
 # Recommend use when you are running big server, it will make player no longer quickly click
@@ -19629,8 +19756,45 @@ favourite-gui:
 menu:
 - 'favourite'
 # Premium version only
+# Require Paper 1.21.9+ version.
+dialog:
+enabled: false
+auto-add-sprite:
+enabled: true
+format: "<sprite:\"{namespace}:{atlas}\":{path}>"
+default-button: '{lang:menu.dialog.default-button}'
+search:
+input: '{lang:menu.dialog.search.input}'
+buttons:
+search: '{lang:menu.dialog.search.buttons.search}'
+buy-more:
+display-item: true
+title: '{lang:menu.dialog.buy-more.title}'
+input: '{lang:menu.dialog.buy-more.input}'
+buttons:
+confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
+info:
+title: '{lang:menu.dialog.info.title}'
+buttons:
+buy: '{lang:menu.dialog.info.buttons.buy}'
+sell: '{lang:menu.dialog.info.buttons.sell}'
+buy-more: '{lang:menu.dialog.info.buttons.buy-more}'
+sell-all: '{lang:menu.dialog.info.buttons.sell-all}'
+back: '{lang:menu.dialog.info.buttons.back}'
+favourite-edit:
+title: '{lang:menu.dialog.favourite-edit.title}'
+content: '{lang:menu.dialog.favourite-edit.content}'
+buttons:
+forward: '{lang:menu.dialog.favourite-edit.buttons.forward}'
+backward: '{lang:menu.dialog.favourite-edit.buttons.backward}'
+remove: '{lang:menu.dialog.favourite-edit.buttons.remove}'
+back: '{lang:menu.dialog.favourite-edit.buttons.back}'
+# Premium version only
 bedrock:
 enabled: true
+auto-add-icon:
+enabled: true
+format: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/refs/heads/{version}/assets/minecraft/textures/{path}.png"
 # Support value: FLOODGATE, UUID
 check-method: FLOODGATE
 # If enabled, we will try to reopen shop menu after player successfully buy or sell products.
@@ -19753,7 +19917,9 @@ enabled: true
 log-transaction:
 # It will cost extra performance cost.
 enabled: false
-# If set to empty value, we will just print the log into console.
+# file | database — database requires database.enabled: true
+storage: file
+# Used when storage is file. If set to empty value, we will just print the log into console.
 file: 'log.txt'
 format: '{time} | {player} | {shop} | {buy-or-sell} | {item-name} x{amount} | {price} | Price Multiplier: x{multiplier}'
 time-format: "yyyy-MM-dd HH:mm:ss"
@@ -19761,6 +19927,8 @@ time-format: "yyyy-MM-dd HH:mm:ss"
 display-item:
 # Require Paper 1.17.1+ version.
 auto-translate-item-name: true
+# Require Paper 1.21.9+ version, only supports Java players.
+auto-use-sprite-item-name: true
 # If set to true, if your product default amount is 10, and you purchase it x64 in one time, we will display 640 as result in amount placeholder.
 calculate-amount: true
 auto-set-first-product: true
@@ -19816,6 +19984,7 @@ unknown: "{lang}"
 unknown-price-type: "{lang}"
 empty: "{lang}"
 filter-for-one-line: ''
+item-auto-use-sprite: true
 click:
 # If enabled, {buy-click} and {sell-stick} will display different value according to product status.
 # But, it will maybe make server lag if you are running big server and have many products in your shop.
@@ -19839,8 +20008,6 @@ infinite: "{lang}"
 
 database:
 enabled: false
-# Legacy Option, do not enable it.
-auto-update-server-data: false
 jdbc-url: "jdbc:mysql://localhost:3306/ultimateshop?useSSL=false&autoReconnect=true"
 properties:
 user: root
@@ -19880,242 +20047,6 @@ period-tick: 6000
 
 bypass-plugin-check:
 - 'PluginNameHere'
-
-resend-items-pack: false
-menu-update:
-# Whether menu will refresh every buttons every 1 second.
-# This will refresh placeholder that displayed in display item lore.
-# But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
-circle-update: false
-# Whether menu will refresh every buttons when click any of them.
-# This will refresh placeholder that displayed in display item lore.
-# But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
-click-update: false
-sell-all:
-size: 54
-title: '{lang}'
-black-slots: []
-# Premium version only
-bedrock:
-enabled: true
-# Support value: FLOODGATE, UUID
-check-method: FLOODGATE
-# If enabled, we will try to reopen shop menu after player successfully buy or sell products.
-not-auto-close: true
-# Make this option be empty to disable.
-price-extra-line:
-default: '{lang}'
-only-buy: '{lang}'
-only-sell: '{lang}'
-buy-or-sell:
-title: '{lang}'
-buttons:
-amount:
-name: '{lang}'
-tip: '{lang}'
-info:
-title: '{lang}'
-buttons:
-buy: '{lang}'
-sell: '{lang}'
-buy-more: '{lang}'
-sell-all: '{lang}'
-# Remove this option if you don't want this button.
-back: '{lang}'
-buy-more-menu:
-not-open-when-invalid: true
-display-item-max-stack: true
-default:
-menu: buy-more
-max-amount: 64
-only-buy:
-menu: buy-more-buy
-max-amount: 64
-only-sell:
-menu: buy-more-sell
-max-amount: 64
-auto-open:
-enabled: true
-menu: main
-# Support value: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/inventory/ClickType.html
-# Support use ;; symbol to make multi click type.
-click-event:
-buy: 'SHIFT_LEFT'
-sell: 'RIGHT'
-buy-or-sell: 'LEFT'
-# If you want to disable select-amount feature, set this to NEVER.
-select-amount: 'SHIFT_RIGHT;;SWAP_OFFHAND'
-sell-all: 'DROP'
-# buy-one-stack: 'SWAP_OFFHAND'
-# Custom click actions for shop menu.
-# Premium version only.
-click-event-actions:
-buy-one-stack:
-display-name: 'Buy One Stack'
-buy-only: true
-1:
-type: buy
-shop: '{shop}'
-item: '{item}'
-amount: 64
-sell-one-stack:
-display-name: 'Sell One Stack'
-sell-only: true
-1:
-type: sell
-shop: '{shop}'
-item: '{item}'
-amount: 64
-
-secret-shop-items:
-require-display-in-menu: true
-require-meet-menu-open-conditions: true
-
-use-times:
-default-reset-mode: 'NEVER'
-default-reset-time: '00:00:00'
-# This only works for CUSTOM type of reset mode.
-default-reset-time-format: 'yyyy-MM-dd HH:mm:ss'
-default-reset-value: 0
-# Set -1 to disable.
-default-max-value: -1
-# If set to true, product default buy / sell times will be set to reset value set in product configs or default value above.
-set-reset-value-by-default: true
-# If set to true, max value set in product configs or default value set above will only work for total placeholder.
-max-value-for-total-only: true
-auto-reset-mode: true
-
-math:
-enabled: true
-scale: 2
-
-# Premium version only.
-log-transaction:
-# It will cost extra performance cost.
-enabled: false
-# If set to empty value, we will just print the log into console.
-file: 'log.txt'
-format: '{time} | {player} | {shop} | {buy-or-sell} | {item-name} x{amount} | {price}'
-time-format: "yyyy-MM-dd HH:mm:ss"
-
-display-item:
-# Require Paper 1.17.1+ version.
-auto-translate-item-name: true
-# If set to true, if your product default amount is 10, and you purchase it x64 in one time, we will display 640 as result in amount placeholder.
-calculate-amount: true
-auto-set-first-product: true
-# @+lower case means conditional lore, do not remove them here.
-# Otherwise, the line without this will always display it.
-add-lore:
-- '{lang}'
-
-placeholder:
-auto-settings:
-# If enabled, we will auto add conditional placeholder at all price amount.
-# This can avoid the need to add the discount option in the amount options for each price.
-add-conditional-in-all-price-amount:
-enabled: false
-buy-placeholder: buy
-sell-placeholder: sell
-black-dynamic-price: true
-black-shops:
-- 'example'
-# We will try adds dynamic up or down symbol for all dynamic price placeholder.
-# Please note that in your dynamic price amount option, first number must be the base price.
-# If you made the dynamic price according to the Wiki's instructions, then there is no problem at all.
-add-status-in-dynamic-price-placeholder:
-enabled: true
-# If enabled, we will try change {amount} in price placeholder option to the value you set here.
-change-amount-in-all-price-placeholder:
-enabled: false
-replace-value: '%formatter_number_format_{amount}%'
-# Premium version only
-compare:
-up: '{lang}'
-down: '{lang}'
-same: '{lang}'
-cron:
-format: "{lang}"
-data:
-# If your server never use dynamic value in prices or similar things, you can set this option to false.
-# This will improve little plugin performance.
-can-used-in-amount: true
-refresh:
-format: "{lang}"
-never: "{lang}"
-# Premium version only
-next:
-with-day-format: "{lang}"
-without-day-format: "{lang}"
-never: "{lang}"
-price:
-split-symbol-any: '{lang}'
-split-symbol-all: '{lang}'
-replace-new-line-symbol: '{lang}'
-unknown: "{lang}"
-unknown-price-type: "{lang}"
-empty: "{lang}"
-click:
-# If enabled, {buy-click} and {sell-stick} will display different value according to product status.
-# But, it will maybe make server lag if you are running big server and have many products in your shop.
-enabled: false
-buy: '{lang}'
-sell: '{lang}'
-buy-with-no-sell: '{lang}'
-sell-with-no-buy: '{lang}'
-buy-max-limit-player: '{lang}'
-buy-max-limit-server: '{lang}'
-sell-max-limit-player: '{lang}'
-sell-max-limit-server: '{lang}'
-buy-price-not-enough: '{lang}'
-sell-price-not-enough: '{lang}'
-error: '{lang}'
-buy-condition-not-meet: '{lang}'
-sell-condition-not-meet: '{lang}'
-# Premium version only.
-sell-stick:
-infinite: "{lang}"
-
-database:
-enabled: false
-# Legacy Option, do not enable it.
-auto-update-server-data: false
-jdbc-url: "jdbc:mysql://localhost:3306/ultimateshop?useSSL=false&autoReconnect=true"
-properties:
-user: root
-password: 123456
-
-# Premium version only.
-bungeecord-sync:
-enabled: false
-
-prices:
-example:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-mmoitems-example:
-hook-plugin: MMOItems
-hook-item: AXE;;TEST_AXE
-amount: 1
-placeholder: '{amount} Mythic Axe'
-
-conditions:
-products-key: 'products-conditions'
-buy-prices-key: 'buy-prices-conditions'
-sell-prices-key: 'sell-prices-conditions'
-display-item-key: 'display-item-conditions'
-
-time-offset:
-enabled: false
-offset-hours: 0
-offset-minutes: 0
-offset-seconds: 0
-
-auto-save:
-enabled: true
-hide-message: false
-period-tick: 6000
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/configuration-files.md
@@ -20169,10 +20100,18 @@ minecraft-locate-file:
 enabled: false
 generate-new-one: false
 file: 'zh_cn.json'
+# Premium version only. Generates a Material -> vanilla texture path mapping from the Minecraft client assets.
+minecraft-item-material-file:
+enabled: false
+generate-new-one: false
+file: 'item-materials.json'
 
 # Support value: COMPONENT or LEGACY
 # COMPONENT mode only supports 1.21.6+ Paper servers and PREMIUM version.
 debuild-item-method: 'LEGACY'
+
+# Support value: DEFAULT or ITEMBRIDGE
+hook-item-method: 'DEFAULT'
 
 # By default, we will auto force display fail message to make sure player know whether they have successfully clicked the product button.
 # If set to false, we will not force display fail message and you can also use hide-message option in shop configs to hide the fail messages.
@@ -20257,6 +20196,9 @@ give-method: SMART
 check-full: true
 
 menu:
+# Require 1.19+ version and Paper servers.
+# This will cost extra server performance, only enable this if you found any dupe issue from this plugin.
+anti-dupe-checker: false
 prompt:
 cancel-keyword: '{lang}'
 # Recommend use when you are running big server, it will make player no longer quickly click
@@ -20299,8 +20241,45 @@ favourite-gui:
 menu:
 - 'favourite'
 # Premium version only
+# Require Paper 1.21.9+ version.
+dialog:
+enabled: false
+auto-add-sprite:
+enabled: true
+format: ""
+default-button: '{lang:menu.dialog.default-button}'
+search:
+input: '{lang:menu.dialog.search.input}'
+buttons:
+search: '{lang:menu.dialog.search.buttons.search}'
+buy-more:
+display-item: true
+title: '{lang:menu.dialog.buy-more.title}'
+input: '{lang:menu.dialog.buy-more.input}'
+buttons:
+confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
+info:
+title: '{lang:menu.dialog.info.title}'
+buttons:
+buy: '{lang:menu.dialog.info.buttons.buy}'
+sell: '{lang:menu.dialog.info.buttons.sell}'
+buy-more: '{lang:menu.dialog.info.buttons.buy-more}'
+sell-all: '{lang:menu.dialog.info.buttons.sell-all}'
+back: '{lang:menu.dialog.info.buttons.back}'
+favourite-edit:
+title: '{lang:menu.dialog.favourite-edit.title}'
+content: '{lang:menu.dialog.favourite-edit.content}'
+buttons:
+forward: '{lang:menu.dialog.favourite-edit.buttons.forward}'
+backward: '{lang:menu.dialog.favourite-edit.buttons.backward}'
+remove: '{lang:menu.dialog.favourite-edit.buttons.remove}'
+back: '{lang:menu.dialog.favourite-edit.buttons.back}'
+# Premium version only
 bedrock:
 enabled: true
+auto-add-icon:
+enabled: true
+format: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/refs/heads/{version}/assets/minecraft/textures/{path}.png"
 # Support value: FLOODGATE, UUID
 check-method: FLOODGATE
 # If enabled, we will try to reopen shop menu after player successfully buy or sell products.
@@ -20423,7 +20402,9 @@ enabled: true
 log-transaction:
 # It will cost extra performance cost.
 enabled: false
-# If set to empty value, we will just print the log into console.
+# file | database — database requires database.enabled: true
+storage: file
+# Used when storage is file. If set to empty value, we will just print the log into console.
 file: 'log.txt'
 format: '{time} | {player} | {shop} | {buy-or-sell} | {item-name} x{amount} | {price} | Price Multiplier: x{multiplier}'
 time-format: "yyyy-MM-dd HH:mm:ss"
@@ -20431,6 +20412,8 @@ time-format: "yyyy-MM-dd HH:mm:ss"
 display-item:
 # Require Paper 1.17.1+ version.
 auto-translate-item-name: true
+# Require Paper 1.21.9+ version, only supports Java players.
+auto-use-sprite-item-name: true
 # If set to true, if your product default amount is 10, and you purchase it x64 in one time, we will display 640 as result in amount placeholder.
 calculate-amount: true
 auto-set-first-product: true
@@ -20486,6 +20469,7 @@ unknown: "{lang}"
 unknown-price-type: "{lang}"
 empty: "{lang}"
 filter-for-one-line: ''
+item-auto-use-sprite: true
 click:
 # If enabled, {buy-click} and {sell-stick} will display different value according to product status.
 # But, it will maybe make server lag if you are running big server and have many products in your shop.
@@ -20509,8 +20493,6 @@ infinite: "{lang}"
 
 database:
 enabled: false
-# Legacy Option, do not enable it.
-auto-update-server-data: false
 jdbc-url: "jdbc:mysql://localhost:3306/ultimateshop?useSSL=false&autoReconnect=true"
 properties:
 user: root
@@ -20550,249 +20532,13 @@ period-tick: 6000
 
 bypass-plugin-check:
 - 'PluginNameHere'
-
-resend-items-pack: false
-menu-update:
-# Whether menu will refresh every buttons every 1 second.
-# This will refresh placeholder that displayed in display item lore.
-# But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
-circle-update: false
-# Whether menu will refresh every buttons when click any of them.
-# This will refresh placeholder that displayed in display item lore.
-# But maybe lead to server lag if you have much online players, and they are all opening shop GUI.
-click-update: false
-sell-all:
-size: 54
-title: '{lang}'
-black-slots: []
-# Premium version only
-bedrock:
-enabled: true
-# Support value: FLOODGATE, UUID
-check-method: FLOODGATE
-# If enabled, we will try to reopen shop menu after player successfully buy or sell products.
-not-auto-close: true
-# Make this option be empty to disable.
-price-extra-line:
-default: '{lang}'
-only-buy: '{lang}'
-only-sell: '{lang}'
-buy-or-sell:
-title: '{lang}'
-buttons:
-amount:
-name: '{lang}'
-tip: '{lang}'
-info:
-title: '{lang}'
-buttons:
-buy: '{lang}'
-sell: '{lang}'
-buy-more: '{lang}'
-sell-all: '{lang}'
-# Remove this option if you don't want this button.
-back: '{lang}'
-buy-more-menu:
-not-open-when-invalid: true
-display-item-max-stack: true
-default:
-menu: buy-more
-max-amount: 64
-only-buy:
-menu: buy-more-buy
-max-amount: 64
-only-sell:
-menu: buy-more-sell
-max-amount: 64
-auto-open:
-enabled: true
-menu: main
-# Support value: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/inventory/ClickType.html
-# Support use ;; symbol to make multi click type.
-click-event:
-buy: 'SHIFT_LEFT'
-sell: 'RIGHT'
-buy-or-sell: 'LEFT'
-# If you want to disable select-amount feature, set this to NEVER.
-select-amount: 'SHIFT_RIGHT;;SWAP_OFFHAND'
-sell-all: 'DROP'
-# buy-one-stack: 'SWAP_OFFHAND'
-# Custom click actions for shop menu.
-# Premium version only.
-click-event-actions:
-buy-one-stack:
-display-name: 'Buy One Stack'
-buy-only: true
-1:
-type: buy
-shop: '{shop}'
-item: '{item}'
-amount: 64
-sell-one-stack:
-display-name: 'Sell One Stack'
-sell-only: true
-1:
-type: sell
-shop: '{shop}'
-item: '{item}'
-amount: 64
-
-secret-shop-items:
-require-display-in-menu: true
-require-meet-menu-open-conditions: true
-
-use-times:
-default-reset-mode: 'NEVER'
-default-reset-time: '00:00:00'
-# This only works for CUSTOM type of reset mode.
-default-reset-time-format: 'yyyy-MM-dd HH:mm:ss'
-default-reset-value: 0
-# Set -1 to disable.
-default-max-value: -1
-# If set to true, product default buy / sell times will be set to reset value set in product configs or default value above.
-set-reset-value-by-default: true
-# If set to true, max value set in product configs or default value set above will only work for total placeholder.
-max-value-for-total-only: true
-auto-reset-mode: true
-
-math:
-enabled: true
-scale: 2
-
-# Premium version only.
-log-transaction:
-# It will cost extra performance cost.
-enabled: false
-# If set to empty value, we will just print the log into console.
-file: 'log.txt'
-format: '{time} | {player} | {shop} | {buy-or-sell} | {item-name} x{amount} | {price}'
-time-format: "yyyy-MM-dd HH:mm:ss"
-
-display-item:
-# Require Paper 1.17.1+ version.
-auto-translate-item-name: true
-# If set to true, if your product default amount is 10, and you purchase it x64 in one time, we will display 640 as result in amount placeholder.
-calculate-amount: true
-auto-set-first-product: true
-# @+lower case means conditional lore, do not remove them here.
-# Otherwise, the line without this will always display it.
-add-lore:
-- '{lang}'
-
-placeholder:
-auto-settings:
-# If enabled, we will auto add conditional placeholder at all price amount.
-# This can avoid the need to add the discount option in the amount options for each price.
-add-conditional-in-all-price-amount:
-enabled: false
-buy-placeholder: buy
-sell-placeholder: sell
-black-dynamic-price: true
-black-shops:
-- 'example'
-# We will try adds dynamic up or down symbol for all dynamic price placeholder.
-# Please note that in your dynamic price amount option, first number must be the base price.
-# If you made the dynamic price according to the Wiki's instructions, then there is no problem at all.
-add-status-in-dynamic-price-placeholder:
-enabled: true
-# If enabled, we will try change {amount} in price placeholder option to the value you set here.
-change-amount-in-all-price-placeholder:
-enabled: false
-replace-value: '%formatter_number_format_{amount}%'
-# Premium version only
-compare:
-up: '{lang}'
-down: '{lang}'
-same: '{lang}'
-cron:
-format: "{lang}"
-data:
-# If your server never use dynamic value in prices or similar things, you can set this option to false.
-# This will improve little plugin performance.
-can-used-in-amount: true
-refresh:
-format: "{lang}"
-never: "{lang}"
-# Premium version only
-next:
-with-day-format: "{lang}"
-without-day-format: "{lang}"
-never: "{lang}"
-price:
-split-symbol-any: '{lang}'
-split-symbol-all: '{lang}'
-replace-new-line-symbol: '{lang}'
-unknown: "{lang}"
-unknown-price-type: "{lang}"
-empty: "{lang}"
-click:
-# If enabled, {buy-click} and {sell-stick} will display different value according to product status.
-# But, it will maybe make server lag if you are running big server and have many products in your shop.
-enabled: false
-buy: '{lang}'
-sell: '{lang}'
-buy-with-no-sell: '{lang}'
-sell-with-no-buy: '{lang}'
-buy-max-limit-player: '{lang}'
-buy-max-limit-server: '{lang}'
-sell-max-limit-player: '{lang}'
-sell-max-limit-server: '{lang}'
-buy-price-not-enough: '{lang}'
-sell-price-not-enough: '{lang}'
-error: '{lang}'
-buy-condition-not-meet: '{lang}'
-sell-condition-not-meet: '{lang}'
-# Premium version only.
-sell-stick:
-infinite: "{lang}"
-
-database:
-enabled: false
-# Legacy Option, do not enable it.
-auto-update-server-data: false
-jdbc-url: "jdbc:mysql://localhost:3306/ultimateshop?useSSL=false&autoReconnect=true"
-properties:
-user: root
-password: 123456
-
-# Premium version only.
-bungeecord-sync:
-enabled: false
-
-prices:
-example:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-mmoitems-example:
-hook-plugin: MMOItems
-hook-item: AXE;;TEST_AXE
-amount: 1
-placeholder: '{amount} Mythic Axe'
-
-conditions:
-products-key: 'products-conditions'
-buy-prices-key: 'buy-prices-conditions'
-sell-prices-key: 'sell-prices-conditions'
-display-item-key: 'display-item-conditions'
-
-time-offset:
-enabled: false
-offset-hours: 0
-offset-minutes: 0
-offset-seconds: 0
-
-auto-save:
-enabled: true
-hide-message: false
-period-tick: 6000
 ```
 
 ============================================================
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -20863,6 +20609,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -21102,7 +20850,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -21173,6 +20921,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -21440,7 +21190,7 @@ A: View [Dynamic Price](/dynamic-prices/dynamic-price.md) page.
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -21511,6 +21261,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -21645,7 +21397,7 @@ URL: https://ultimateshop.superiormc.cn/info/install.md
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -21716,6 +21468,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -22055,7 +21809,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -22126,6 +21880,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -22295,7 +22051,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Java Version
 
@@ -22396,6 +22152,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [🛒Sell All Menu](https://ultimateshop.superiormc.cn/menus/sell-all-menu.md)
 - [🔀Conditional Display - Premium](https://ultimateshop.superiormc.cn/menus/conditional-display-premium.md)
 - [🛏️Bedrock Menus - Premium](https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium.md)
+- [💬Dialog Menus - Premium](https://ultimateshop.superiormc.cn/menus/dialog-menus-premium.md)
 - [🥉Display Item Add Lore](https://ultimateshop.superiormc.cn/menus/display-item-add-lore.md)
 - [📂Shops](https://ultimateshop.superiormc.cn/shops/shops.md)
 - [🛒Products](https://ultimateshop.superiormc.cn/shops/products.md)
@@ -22439,7 +22196,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -22510,6 +22267,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -22636,7 +22395,9 @@ open-actions: Do action when open this menu, use Action Format here.
 
 close-actions: Do action when close this menu, use Action Format here. Please carefully note that when you have already opened a menu, if you open other menus through actions or other means, it will also trigger close actions of the opened menu.
 
-bedrock: Please view Bedrock Menu page to know about it.
+bedrock: Please view Bedrock Menus page to know about it. (PREMIUM)
+
+dialog: Please view Dialog Menus page to know about it. (PREMIUM)
 
 custom-command: Custom Command settings for common menu, if you want to set custom command for shop menu, please add them at Shops config. (PREMIUM)
 
@@ -22708,7 +22469,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 months ago
+Last updated 16 minutes ago
 
 Types
 
@@ -22731,6 +22492,12 @@ size: 54
 bedrock:
 enabled: true
 content: '&fWelcome to shop.'
+
+dialog:
+enabled: true
+content: '<gray>Select a category.'
+button-width: 180
+columns: 2
 
 custom-command:
 name: 'mineral'
@@ -22901,7 +22668,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -22972,6 +22739,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -23062,6 +22831,8 @@ On this page
 
 🛏️Bedrock Menus - Premium
 
+Bedrock Menu share same menu files with dialog menus and classic inventory menus. We can auto translate the menu into 3 different types, you do not need any manually change.
+
 Requirements
 
 Both Geyser and Floodgate are required in your Spigot server. If you are using BungeeCord proxy, you need install them both in backward server and proxy server.
@@ -23088,6 +22859,8 @@ For now, we support those options for bedrock buttons
 
 icon: The icon of this button, format is path;;<image path> or url;;<image url>. The image path is bedrock texture path, not your plugin path, for example: path;;textures/blocks/stone_granite.png.
 
+For auto add icon feature, please view below.
+
 For example:
 
 with the product config (menu buttons are similar):
@@ -23108,9 +22881,31 @@ Price Extra Line
 
 You can enable price extra line feature in config.yml file, after enable, all products button will display it's price at second line. Make the option value to empty to disable this feature.
 
-Previous🔀Conditional Display - PremiumNext🥉Display Item Add Lore
+Auto Add Icon - 4.7.0+
 
-Last updated 3 months ago
+If you think manually adding icons to each button is too troublesome, the plugin supports the function of automatically setting icons, and configuration options can be found in config.yml.
+
+Before you use this feature, you have to download the material -> vanilla text path mapping, find the content in config.yml file:
+
+Set both enabled and generate-new-one option to true.
+
+Stop your server and restart it.
+
+Plugin will auto download the file.
+
+After successfully download, you need set generate-new-one to false. If your server upgraded game version, you need delete old mapping file and regenerate new one.
+
+By default, we use Minecraft vanilla assets provided by this GitHub repository, which you see in the format option. In format option, we supports those placeholders:
+
+{version} - The server version, like 26.1.
+
+{path} - The path of the material in vanilla assets, like block/sunflower_front.
+
+You can also use these placeholders with URLs from other places. We only support matching various icons through materials. If your item has custom textures or models, we recommend manually setting the bedrock icon, as mentioned earlier.
+
+Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
+
+Last updated 14 hours ago
 
 Requirements
 
@@ -23119,6 +22914,8 @@ Extra options for bedrock buttons
 Extra options for bedrock menu
 
 Price Extra Line
+
+Auto Add Icon - 4.7.0+
 
 Copy
 
@@ -23203,12 +23000,34 @@ default: '&6Buy: {buy-price} &6| Sell: {sell-price}'
 only-buy: '&6Buy: {buy-price}'
 only-sell: '&6Sell: {sell-price}'
 
+Copy
+
+menu:
+bedrock:
+auto-add-icon:
+enabled: true # Set this to true.
+format: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/refs/heads/{version}/assets/minecraft/textures/{path}.png"
+
+Copy
+
+# Premium version only. Generates a Material -> vanilla texture path mapping from the Minecraft client assets.
+minecraft-item-material-file:
+enabled: false
+generate-new-one: false
+file: 'item-materials.json'
+
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium.md
 
 > For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium.md).
 
 # 🛏️Bedrock Menus - Premium
+
+{% hint style="info" %}
+
+## Bedrock Menu share same menu files with dialog menus and classic inventory menus. We can auto translate the menu into 3 different types, you do not need any manually change.
+
+{% endhint %}
 
 ## Requirements
 
@@ -23293,6 +23112,10 @@ For now, we support those options for bedrock buttons
 
 * icon: The icon of this button, format is `path;; or url;;`. The image path is bedrock texture path, not your plugin path, for example: `path;;textures/blocks/stone_granite.png`.
 
+{% hint style="info" %}
+For auto add icon feature, please view below.
+{% endhint %}
+
 For example:
 
 with the product config (menu buttons are similar):
@@ -23336,11 +23159,46 @@ only-buy: '&6Buy: {buy-price}'
 only-sell: '&6Sell: {sell-price}'
 ```
 
+## Auto Add Icon - 4.7.0+
+
+If you think manually adding icons to each button is too troublesome, the plugin supports the function of automatically setting icons, and configuration options can be found in `config.yml`.
+
+```yaml
+menu:
+bedrock:
+auto-add-icon:
+enabled: true # Set this to true.
+format: "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/refs/heads/{version}/assets/minecraft/textures/{path}.png"
+
+```
+
+Before you use this feature, you have to download the material -> vanilla text path mapping, find the content in config.yml file:
+
+```yaml
+# Premium version only. Generates a Material -> vanilla texture path mapping from the Minecraft client assets.
+minecraft-item-material-file:
+enabled: false
+generate-new-one: false
+file: 'item-materials.json'
+```
+
+* Set both `enabled` and `generate-new-one` option to `true`.
+* Stop your server and restart it.
+* Plugin will auto download the file.
+* After successfully download, you need set `generate-new-one` to `false`. **If your server upgraded game version, you need delete old mapping file and regenerate new one.**
+
+By default, we use Minecraft vanilla assets provided by this [GitHub repository](https://github.com/InventivetalentDev/minecraft-assets), which you see in the `format` option. In `format` option, we supports those placeholders:
+
+* {version} - The server version, like `26.1`.
+* {path} - The path of the material in vanilla assets, like `block/sunflower_front`.
+
+You can also use these placeholders with URLs from other places. We only support matching various icons through materials. If your item has custom textures or models, we recommend manually setting the bedrock icon, as mentioned earlier.
+
 ============================================================
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -23411,6 +23269,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -23616,7 +23476,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 
 Previous🔲General MenusNext🔍Search Menus - Premium
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Buy More Menus Config
 
@@ -23772,7 +23632,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -23843,6 +23703,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -24059,10 +23921,10 @@ layout:
 ```
 
 ============================================================
-Title: 🥉Display Item Add Lore | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
+Title: 💬Dialog Menus - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/menus/dialog-menus-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -24133,6 +23995,579 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+
+Copy
+On this page
+
+🔌Menus
+
+💬Dialog Menus - Premium
+
+Dialog Menu share same menu files with bedrock menus and classic inventory menus. We can auto translate the menu into 3 different types, you do not need any manually change.
+
+Requirements
+
+Dialog menus use Minecraft's native Dialog UI and require Paper 1.21.9 or newer and plugin version 4.7.0 or newer.
+
+Because plugin has a feature called close action, but client close the dialog UI will not send any packet to server, so dialog menus in this plugin do not support closed by ESC, you have to provide at least one button to let player close the UI with close action.
+
+Enabling Dialog Menus
+
+Enable the global feature in config.yml:
+
+Copy
+
+menu:
+dialog:
+enabled: true # <--- Set it to true
+
+Add a Dialog section to each menu that should use it:
+
+Copy
+
+dialog:
+enabled: true # <--- Set it to true.
+content: '<gray>Select a product or action.'
+button-width: 150
+columns: 2
+
+After enable, dialog menus will override the classic inventory menu, some menu types does not support dialog menu.
+
+Extra options for dialog menus
+
+You can add those extra options for menu configs. For example:
+
+A display item with an empty name does not create a Dialog button.
+
+enabled: Uses Dialog for this menu. The global option must also be enabled.
+
+content: Body shown below the title. Supports language placeholders and MiniMessage.
+
+button-width: Default to 150. Width of each action button.
+
+columns: Default to 2. Number of button columns.
+
+Product Information and Amount Selection
+
+Selecting a product opens its information Dialog. Depending on the product configuration, it automatically includes:
+
+Product lore and dynamic price information
+
+Buy button
+
+Sell button
+
+Sell-all button
+
+Amount selection button
+
+Back button
+
+Eligible custom actions from menu.click-event-actions
+
+The labels are configured under menu.dialog.info in config.yml.
+
+When buy-more is enabled for a product, the amount button opens a number input Dialog:
+
+Search and Favourite Menus
+
+A menu with menu-type: search provides a keyword input and search button in Dialog, followed by matching products.
+
+A menu with menu-type: favourite displays favourite products and supports edit mode, moving entries forward or backward, and removing entries. Both menu types use their own dialog.content, button-width, and columns values.
+
+Sprite Icons
+
+Automatic Sprites
+
+By default, buttons in dialog menus do not include any icons, it's boring for view, so we support you auto add sprite compoents at each button to display the item icon before each button.
+
+Before you use this feature, you have to download the material -> vanilla text path mapping, find the content in config.yml file:
+
+Set both enabled and generate-new-one option to true.
+
+Stop your server and restart it.
+
+Plugin will auto download the file.
+
+After successfully download, you need set generate-new-one to false. If your server upgraded game version, you need delete old mapping file and regenerate new one.
+
+Explicit Display Item Sprite
+
+Set a complete MiniMessage sprite under display-item to override the Material mapping:
+
+The sprite value must be a complete MiniMessage expression beginning with <sprite, not only a texture path.
+
+We only support matching various icons through materials. If your item has custom textures or models, we recommend manually setting the dialog sprite, as mentioned earlier.
+
+Sprite in Product Message
+
+You can even use sprite in product message, set display-item.auto-use-sprite-item-name option to true then the product name in message will become a icon! Only supports vanilla items.
+
+Global Text Options
+
+The following options are under menu.dialog in config.yml:
+
+default-button: fallback close button when no custom actions exist
+
+search.*: search input and button labels
+
+buy-more.*: amount selection labels
+
+info.*: product information button labels
+
+favourite-edit.*: favourite editing labels
+
+These values support {lang:...} language references. Product information strings also support relevant placeholders such as {item-name} and {amount}.
+
+Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
+
+Last updated 14 hours ago
+
+Requirements
+
+Enabling Dialog Menus
+
+Extra options for dialog menus
+
+Product Information and Amount Selection
+
+Search and Favourite Menus
+
+Sprite Icons
+
+Automatic Sprites
+
+Explicit Display Item Sprite
+
+Sprite in Product Message
+
+Global Text Options
+
+Copy
+
+title: '{shop-name}'
+size: 54
+
+# Added line
+dialog:
+enabled: true
+content: '<gray>Select a category.'
+button-width: 180
+columns: 2
+
+Copy
+
+menu:
+dialog:
+buy-more:
+display-item: true
+title: '{lang:menu.dialog.buy-more.title}'
+input: '{lang:menu.dialog.buy-more.input}'
+buttons:
+confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
+
+Copy
+
+menu:
+dialog:
+auto-add-sprite:
+enabled: true # <--- Set this to true
+format: '<sprite:"{namespace}:{atlas}":{path}>'
+
+Copy
+
+# Premium version only. Generates a Material -> vanilla texture path mapping from the Minecraft client assets.
+minecraft-item-material-file:
+enabled: false
+generate-new-one: false
+file: 'item-materials.json'
+
+Copy
+
+display-item:
+material: SUNFLOWER
+name: '<yellow>Sunflower'
+sprite: '<sprite:"minecraft:blocks":block/sunflower_front>'
+
+Copy
+
+display-item:
+# Require Paper 1.21.9+ version, only supports Java players.
+auto-use-sprite-item-name: true
+
+Copy
+
+# Premium version only
+# Require Paper 1.21.9+ version.
+dialog:
+default-button: '{lang:menu.dialog.default-button}'
+search:
+input: '{lang:menu.dialog.search.input}'
+buttons:
+search: '{lang:menu.dialog.search.buttons.search}'
+buy-more:
+display-item: true
+title: '{lang:menu.dialog.buy-more.title}'
+input: '{lang:menu.dialog.buy-more.input}'
+buttons:
+confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
+info:
+title: '{lang:menu.dialog.info.title}'
+buttons:
+buy: '{lang:menu.dialog.info.buttons.buy}'
+sell: '{lang:menu.dialog.info.buttons.sell}'
+buy-more: '{lang:menu.dialog.info.buttons.buy-more}'
+sell-all: '{lang:menu.dialog.info.buttons.sell-all}'
+back: '{lang:menu.dialog.info.buttons.back}'
+favourite-edit:
+title: '{lang:menu.dialog.favourite-edit.title}'
+content: '{lang:menu.dialog.favourite-edit.content}'
+buttons:
+forward: '{lang:menu.dialog.favourite-edit.buttons.forward}'
+backward: '{lang:menu.dialog.favourite-edit.buttons.backward}'
+remove: '{lang:menu.dialog.favourite-edit.buttons.remove}'
+back: '{lang:menu.dialog.favourite-edit.buttons.back}'
+
+============================================================
+URL: https://ultimateshop.superiormc.cn/menus/dialog-menus-premium.md
+
+> For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/menus/dialog-menus-premium.md).
+
+# 💬Dialog Menus - Premium
+
+{% hint style="info" %}
+
+## Dialog Menu share same menu files with bedrock menus and classic inventory menus. We can auto translate the menu into 3 different types, you do not need any manually change.
+
+{% endhint %}
+
+## Requirements
+
+Dialog menus use Minecraft's native Dialog UI and require Paper 1.21.9 or newer and plugin version 4.7.0 or newer.
+
+Because plugin has a feature called close action, but client close the dialog UI will not send any packet to server, so dialog menus in this plugin do not support closed by ESC, **you have to provide at least one button to let player close the UI with** [**close**](/format/action-format.md#close) **action.**
+
+## Enabling Dialog Menus
+
+Enable the global feature in `config.yml`:
+
+```yml
+menu:
+dialog:
+enabled: true # Select a product or action.'
+button-width: 150
+columns: 2
+```
+
+After enable, dialog menus will override the classic inventory menu, some menu types does not support dialog menu.
+
+## Extra options for dialog menus
+
+You can add those extra options for menu configs. For example:
+
+title: '{shop-name}'
+size: 54
+
+# Added line
+dialog:
+enabled: true
+content: '<gray>Select a category.'
+button-width: 180
+columns: 2
+
+A display item with an empty name does not create a Dialog button.
+
+* enabled: Uses Dialog for this menu. The global option must also be enabled.
+* content: Body shown below the title. Supports language placeholders and MiniMessage.
+* button-width: Default to 150. Width of each action button.
+* columns: Default to 2. Number of button columns.
+
+## Product Information and Amount Selection
+
+Selecting a product opens its information Dialog. Depending on the product configuration, it automatically includes:
+
+* Product lore and dynamic price information
+* Buy button
+* Sell button
+* Sell-all button
+* Amount selection button
+* Back button
+* Eligible custom actions from `menu.click-event-actions`
+
+The labels are configured under `menu.dialog.info` in `config.yml`.
+
+When `buy-more` is enabled for a product, the amount button opens a number input Dialog:
+
+```yml
+menu:
+dialog:
+buy-more:
+display-item: true
+title: '{lang:menu.dialog.buy-more.title}'
+input: '{lang:menu.dialog.buy-more.input}'
+buttons:
+confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
+```
+
+## Search and Favourite Menus
+
+A menu with `menu-type: search` provides a keyword input and search button in Dialog, followed by matching products.
+
+A menu with `menu-type: favourite` displays favourite products and supports edit mode, moving entries forward or backward, and removing entries. Both menu types use their own `dialog.content`, `button-width`, and `columns` values.
+
+## Sprite Icons
+
+### Automatic Sprites
+
+By default, buttons in dialog menus do not include any icons, it's boring for view, so we support you auto add sprite compoents at each button to display the item icon before each button.
+
+```yml
+menu:
+dialog:
+auto-add-sprite:
+enabled: true # '
+```
+
+Before you use this feature, you have to download the material -> vanilla text path mapping, find the content in config.yml file:
+
+```yaml
+# Premium version only. Generates a Material -> vanilla texture path mapping from the Minecraft client assets.
+minecraft-item-material-file:
+enabled: false
+generate-new-one: false
+file: 'item-materials.json'
+```
+
+* Set both `enabled` and `generate-new-one` option to `true`.
+* Stop your server and restart it.
+* Plugin will auto download the file.
+* After successfully download, you need set `generate-new-one` to `false`. **If your server upgraded game version, you need delete old mapping file and regenerate new one.**
+
+### Explicit Display Item Sprite
+
+Set a complete MiniMessage sprite under `display-item` to override the Material mapping:
+
+```yml
+display-item:
+material: SUNFLOWER
+name: 'Sunflower'
+sprite: ''
+```
+
+The `sprite` value must be a complete MiniMessage expression beginning with `
+
+```yaml
+display-item:
+# Require Paper 1.21.9+ version, only supports Java players.
+auto-use-sprite-item-name: true
+```
+
+### Global Text Options
+
+The following options are under `menu.dialog` in `config.yml`:
+
+* `default-button`: fallback close button when no custom actions exist
+* `search.*`: search input and button labels
+* `buy-more.*`: amount selection labels
+* `info.*`: product information button labels
+* `favourite-edit.*`: favourite editing labels
+
+These values support `{lang:...}` language references. Product information strings also support relevant placeholders such as `{item-name}` and `{amount}`.
+
+```yaml
+# Premium version only
+# Require Paper 1.21.9+ version.
+dialog:
+default-button: '{lang:menu.dialog.default-button}'
+search:
+input: '{lang:menu.dialog.search.input}'
+buttons:
+search: '{lang:menu.dialog.search.buttons.search}'
+buy-more:
+display-item: true
+title: '{lang:menu.dialog.buy-more.title}'
+input: '{lang:menu.dialog.buy-more.input}'
+buttons:
+confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
+info:
+title: '{lang:menu.dialog.info.title}'
+buttons:
+buy: '{lang:menu.dialog.info.buttons.buy}'
+sell: '{lang:menu.dialog.info.buttons.sell}'
+buy-more: '{lang:menu.dialog.info.buttons.buy-more}'
+sell-all: '{lang:menu.dialog.info.buttons.sell-all}'
+back: '{lang:menu.dialog.info.buttons.back}'
+favourite-edit:
+title: '{lang:menu.dialog.favourite-edit.title}'
+content: '{lang:menu.dialog.favourite-edit.content}'
+buttons:
+forward: '{lang:menu.dialog.favourite-edit.buttons.forward}'
+backward: '{lang:menu.dialog.favourite-edit.buttons.backward}'
+remove: '{lang:menu.dialog.favourite-edit.buttons.remove}'
+back: '{lang:menu.dialog.favourite-edit.buttons.back}'
+```
+
+============================================================
+Title: 🥉Display Item Add Lore | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
+
+Links: 66
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+Business License
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -24334,9 +24769,9 @@ Use ;; symbol if you want to display price in multi lines.
 
 You need also update your add-lore settings:
 
-Previous🛏️Bedrock Menus - PremiumNext📂Shops
+Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 General Setting
 
@@ -24558,7 +24993,7 @@ add-lore:
 Title: ❤️Favourite Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/favourite-menus-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -24629,6 +25064,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -24902,7 +25339,7 @@ Examples:
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -24973,6 +25410,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -25099,7 +25538,9 @@ open-actions: Do action when open this menu, use Action Format here.
 
 close-actions: Do action when close this menu, use Action Format here. Please carefully note that when you have already opened a menu, if you open other menus through actions or other means, it will also trigger close actions of the opened menu.
 
-bedrock: Please view Bedrock Menu page to know about it.
+bedrock: Please view Bedrock Menus page to know about it. (PREMIUM)
+
+dialog: Please view Dialog Menus page to know about it. (PREMIUM)
 
 custom-command: Custom Command settings for common menu, if you want to set custom command for shop menu, please add them at Shops config. (PREMIUM)
 
@@ -25171,7 +25612,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 months ago
+Last updated 16 minutes ago
 
 Types
 
@@ -25194,6 +25635,12 @@ size: 54
 bedrock:
 enabled: true
 content: '&fWelcome to shop.'
+
+dialog:
+enabled: true
+content: '<gray>Select a category.'
+button-width: 180
+columns: 2
 
 custom-command:
 name: 'mineral'
@@ -25394,7 +25841,8 @@ The `layout` option and `size` option must correspond. If your layout is based o
 * conditions: Only players who meet the conditions can open this menu, use [Condition Format](/format/condition-format.md) here.
 * open-actions: Do action when open this menu, use [Action Format](/format/action-format.md) here.
 * close-actions: Do action when close this menu, use [Action Format](/format/action-format.md) here. **Please carefully note that when you have already opened a menu, if you open other menus through actions or other means, it will also trigger close actions of the opened menu****.**
-* bedrock: Please view [Bedrock M](/menus/bedrock-menus-premium.md)[enu](/menus/bedrock-menus-premium.md) page to know about it.
+* bedrock: Please view [Bedrock Menus](/menus/bedrock-menus-premium.md) page to know about it. **(PREMIUM)**
+* dialog: Please view [Dialog Menus](/menus/dialog-menus-premium.md) page to know about it. **(PREMIUM)**
 * custom-command: Custom Command settings for common menu, if you want to set custom command for shop menu, please add them at [Shops](/shops/shops.md) config. **(PREMIUM)**
 
 Example:
@@ -25407,6 +25855,12 @@ size: 54
 bedrock:
 enabled: true
 content: '&fWelcome to shop.'
+
+dialog:
+enabled: true
+content: 'Select a category.'
+button-width: 180
+columns: 2
 
 custom-command:
 name: 'mineral'
@@ -25630,7 +26084,7 @@ click-update: false
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/search-menus-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -25701,6 +26155,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -26088,7 +26544,7 @@ Meaning:
 Title: 🛒Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/sell-all-menu
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -26159,6 +26615,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -26320,7 +26778,7 @@ You can use `/shop sellall` command to open sell all menu. This command require 
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 64
+Links: 65
 
 UltimateShop Wiki
 
@@ -26391,6 +26849,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -26510,7 +26970,7 @@ Wiki translations in other languages come from the community and do not represen
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -26581,6 +27041,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -27048,7 +27510,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -27119,6 +27581,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -27966,7 +28430,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -28037,6 +28501,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -28302,7 +28768,7 @@ Replace `yourPlaceholderName` to the file name of the conditional placeholder yo
 Title: 🗯️Custom Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -28373,6 +28839,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -28551,7 +29019,7 @@ Only work number type of custom placeholder. It will be added to the current val
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -28622,6 +29090,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -28919,7 +29389,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -28990,6 +29460,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -29535,7 +30007,7 @@ start-apply: 0
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -29606,6 +30078,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -29926,7 +30400,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -29997,6 +30471,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -30482,7 +30958,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -30553,6 +31029,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -30906,7 +31384,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -30977,6 +31455,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -31460,7 +31940,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -31531,6 +32011,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -31744,7 +32226,7 @@ global `. If you want to restock 50 amount, and the now sell time is 75, then yo
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -31815,6 +32297,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -32491,7 +32975,7 @@ You **MUST** make sure that time format of the result of Cron placeholder (set i
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -32562,6 +33046,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -33021,7 +33507,7 @@ start-apply: 0
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -33092,6 +33578,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -33692,7 +34180,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 What Is a Single Thing?
 
@@ -35054,7 +35542,7 @@ If the corresponding product of the sub button is not displayed in the shop GUI,
 Title: 💰Sell Multiplier - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -35125,6 +35613,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -35341,7 +35831,7 @@ Example:
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -35412,6 +35902,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
@@ -35707,7 +36199,7 @@ buy-times-reset-time: 00:00:00
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -35778,6 +36270,8 @@ Business License
 🔀Conditional Display - Premium
 
 🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
 
 🥉Display Item Add Lore
 
