@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-06T02:35:18Z
+Generated UTC: 2026-07-07T02:30:03Z
 Page Count: 137
 
 ============================================================
@@ -8612,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 Format available placeholders:
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 13 hours ago
+Last updated 17 hours ago
 
 General Options
 
@@ -15778,7 +15778,7 @@ Misc
 
 Previous📝ItemFormat™Next🌉ItemBridge
 
-Last updated 5 months ago
+Last updated 6 months ago
 
 Custom Name
 
@@ -17475,7 +17475,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Java Version
 
@@ -19591,7 +19591,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 28 minutes ago
+Last updated 4 hours ago
 
 Copy
 
@@ -22051,7 +22051,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Java Version
 
@@ -22469,7 +22469,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 16 minutes ago
+Last updated 4 hours ago
 
 Types
 
@@ -22905,7 +22905,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 14 hours ago
+Last updated 18 hours ago
 
 Requirements
 
@@ -24131,34 +24131,6 @@ button-width: Default to 150. Width of each action button.
 
 columns: Default to 2. Number of button columns.
 
-Product Information and Amount Selection
-
-Selecting a product opens its information Dialog. Depending on the product configuration, it automatically includes:
-
-Product lore and dynamic price information
-
-Buy button
-
-Sell button
-
-Sell-all button
-
-Amount selection button
-
-Back button
-
-Eligible custom actions from menu.click-event-actions
-
-The labels are configured under menu.dialog.info in config.yml.
-
-When buy-more is enabled for a product, the amount button opens a number input Dialog:
-
-Search and Favourite Menus
-
-A menu with menu-type: search provides a keyword input and search button in Dialog, followed by matching products.
-
-A menu with menu-type: favourite displays favourite products and supports edit mode, moving entries forward or backward, and removing entries. Both menu types use their own dialog.content, button-width, and columns values.
-
 Sprite Icons
 
 Automatic Sprites
@@ -24185,7 +24157,7 @@ We only support matching various icons through materials. If your item has custo
 
 Sprite in Product Message
 
-You can even use sprite in product message, set display-item.auto-use-sprite-item-name option to true then the product name in message will become a icon! Only supports vanilla items.
+You can even use sprite in product message, set display-item.auto-use-sprite-item-name option to true in config.yml file then the product name in message will become a icon! Only supports vanilla items.
 
 Global Text Options
 
@@ -24205,17 +24177,13 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 14 hours ago
+Last updated 1 hour ago
 
 Requirements
 
 Enabling Dialog Menus
 
 Extra options for dialog menus
-
-Product Information and Amount Selection
-
-Search and Favourite Menus
 
 Sprite Icons
 
@@ -24238,17 +24206,6 @@ enabled: true
 content: '<gray>Select a category.'
 button-width: 180
 columns: 2
-
-Copy
-
-menu:
-dialog:
-buy-more:
-display-item: true
-title: '{lang:menu.dialog.buy-more.title}'
-input: '{lang:menu.dialog.buy-more.input}'
-buttons:
-confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
 
 Copy
 
@@ -24365,39 +24322,6 @@ A display item with an empty name does not create a Dialog button.
 * content: Body shown below the title. Supports language placeholders and MiniMessage.
 * button-width: Default to 150. Width of each action button.
 * columns: Default to 2. Number of button columns.
-
-## Product Information and Amount Selection
-
-Selecting a product opens its information Dialog. Depending on the product configuration, it automatically includes:
-
-* Product lore and dynamic price information
-* Buy button
-* Sell button
-* Sell-all button
-* Amount selection button
-* Back button
-* Eligible custom actions from `menu.click-event-actions`
-
-The labels are configured under `menu.dialog.info` in `config.yml`.
-
-When `buy-more` is enabled for a product, the amount button opens a number input Dialog:
-
-```yml
-menu:
-dialog:
-buy-more:
-display-item: true
-title: '{lang:menu.dialog.buy-more.title}'
-input: '{lang:menu.dialog.buy-more.input}'
-buttons:
-confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
-```
-
-## Search and Favourite Menus
-
-A menu with `menu-type: search` provides a keyword input and search button in Dialog, followed by matching products.
-
-A menu with `menu-type: favourite` displays favourite products and supports edit mode, moving entries forward or backward, and removing entries. Both menu types use their own `dialog.content`, `button-width`, and `columns` values.
 
 ## Sprite Icons
 
@@ -25612,7 +25536,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 16 minutes ago
+Last updated 4 hours ago
 
 Types
 
