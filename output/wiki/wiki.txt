@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-08T02:03:34Z
+Generated UTC: 2026-07-09T02:24:02Z
 Page Count: 137
 
 ============================================================
@@ -422,7 +422,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -614,7 +614,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -8176,7 +8176,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Requirements
 
@@ -8612,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Format available placeholders:
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 1 day ago
+Last updated 3 days ago
 
 General Options
 
@@ -17475,7 +17475,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Java Version
 
@@ -19044,7 +19044,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 24 days ago
+Last updated 26 days ago
 
 Direct compatibility
 
@@ -19591,7 +19591,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 1 day ago
+Last updated 3 days ago
 
 Copy
 
@@ -22051,7 +22051,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Java Version
 
@@ -22469,7 +22469,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 1 day ago
+Last updated 3 days ago
 
 Types
 
@@ -22905,7 +22905,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 1 day ago
+Last updated 3 days ago
 
 Requirements
 
@@ -23837,7 +23837,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🛒Sell All MenuNext🛏️Bedrock Menus - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Set display condition
 
@@ -24177,7 +24177,7 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Requirements
 
@@ -24695,7 +24695,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 20 days ago
+Last updated 22 days ago
 
 General Setting
 
@@ -25536,7 +25536,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 1 day ago
+Last updated 3 days ago
 
 Types
 
@@ -26286,7 +26286,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favourite Menus - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Search Menus Config
 
@@ -30304,7 +30304,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Settings
 
@@ -34104,7 +34104,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 What Is a Single Thing?
 
@@ -36496,7 +36496,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Settings
 
