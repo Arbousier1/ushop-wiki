@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-09T02:24:02Z
+Generated UTC: 2026-07-10T02:22:37Z
 Page Count: 137
 
 ============================================================
@@ -614,7 +614,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -17475,7 +17475,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 9 days ago
+Last updated 11 days ago
 
 Java Version
 
@@ -19044,7 +19044,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Direct compatibility
 
@@ -19591,7 +19591,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Copy
 
@@ -22469,7 +22469,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Types
 
@@ -25536,7 +25536,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Types
 
