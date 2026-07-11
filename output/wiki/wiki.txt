@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-10T02:22:37Z
+Generated UTC: 2026-07-11T02:01:55Z
 Page Count: 137
 
 ============================================================
@@ -422,7 +422,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -7403,7 +7403,7 @@ start-apply: 0
 
 Previous🎨Color CodeNext🪄Sell Stick - Premium
 
-Last updated 10 months ago
+Last updated 11 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -8612,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 13 days ago
+Last updated 15 days ago
 
 Format available placeholders:
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 General Options
 
@@ -18463,7 +18463,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -22051,7 +22051,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 9 days ago
+Last updated 11 days ago
 
 Java Version
 
@@ -22361,6 +22361,36 @@ On this page
 
 All menu files are saved in /menus/ folder.
 
+Create the menu
+
+Create a config file at plugins/UltimateShop/menus/<menuID>.yml:
+
+PUT_MENU_ID_INTO_FILE_NAME.yml
+
+Copy
+
+title: '{shop-name}'
+size: 18
+
+layout:
+- '000000000'
+- '000D00X00'
+
+buttons:
+0:
+display-item:
+material: BLACK_STAINED_GLASS_PANE
+name: ' '
+X:
+display-item:
+material: BARRIER
+name: '&cClose'
+actions:
+1:
+type: close
+
+D is the product ID used under shop config's items section. Menu layouts use one-character product IDs directly; advanced sub-buttons can represent the same product in additional slots or menus. For more info, please view Layout Option.
+
 Types
 
 There are 3 types of menus.
@@ -22469,7 +22499,9 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 4 days ago
+Last updated 37 minutes ago
+
+Create the menu
 
 Types
 
@@ -22905,7 +22937,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Requirements
 
@@ -24177,7 +24209,7 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 2 days ago
+Last updated 4 days ago
 
 Requirements
 
@@ -24695,7 +24727,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 22 days ago
+Last updated 24 days ago
 
 General Setting
 
@@ -25428,6 +25460,36 @@ On this page
 
 All menu files are saved in /menus/ folder.
 
+Create the menu
+
+Create a config file at plugins/UltimateShop/menus/<menuID>.yml:
+
+PUT_MENU_ID_INTO_FILE_NAME.yml
+
+Copy
+
+title: '{shop-name}'
+size: 18
+
+layout:
+- '000000000'
+- '000D00X00'
+
+buttons:
+0:
+display-item:
+material: BLACK_STAINED_GLASS_PANE
+name: ' '
+X:
+display-item:
+material: BARRIER
+name: '&cClose'
+actions:
+1:
+type: close
+
+D is the product ID used under shop config's items section. Menu layouts use one-character product IDs directly; advanced sub-buttons can represent the same product in additional slots or menus. For more info, please view Layout Option.
+
 Types
 
 There are 3 types of menus.
@@ -25536,7 +25598,9 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 4 days ago
+Last updated 37 minutes ago
+
+Create the menu
 
 Types
 
@@ -25739,6 +25803,38 @@ URL: https://ultimateshop.superiormc.cn/menus/general-menus.md
 # 🔲General Menus
 
 All menu files are saved in `/menus/` folder.
+
+## Create the menu
+
+Create a config file at `plugins/UltimateShop/menus/.yml`:
+
+{% code title="PUT\_MENU\_ID\_INTO\_FILE\_NAME.yml" %}
+
+```yaml
+title: '{shop-name}'
+size: 18
+
+layout:
+- '000000000'
+- '000D00X00'
+
+buttons:
+0:
+display-item:
+material: BLACK_STAINED_GLASS_PANE
+name: ' '
+X:
+display-item:
+material: BARRIER
+name: '&cClose'
+actions:
+1:
+type: close
+```
+
+{% endcode %}
+
+`D` is the product ID used under [shop](/shops/shops.md) config's `items` section. Menu layouts use one-character product IDs directly; advanced sub-buttons can represent the same product in additional slots or menus. For more info, please view [Layout Option](/menus/general-menus.md#layout-option).
 
 ## Types
 
@@ -26659,7 +26755,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favourite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Sell All Menu Config
 
@@ -30130,118 +30226,13 @@ type: sound
 sound: block.note_block.bass
 
 items:
-A:
-display-name: "Apple"
-price-mode: ANY
-product-mode: ALL
-products:
-1:
-material: APPLE
-amount: 1
-2:
-material: BREAD
-amount: 5
-conditions:
-1:
-type: permission
-permission: 'group.vip'
-give-actions:
-1:
-type: message
-message: 'Wow, seems that you are a VIP player, so we bonud give you 5 breads!'
-buy-prices:
-1:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-start-apply: 0
-2:
-economy-plugin: PlayerPoints
-amount: 10
-placeholder: '{amount} Points'
-start-apply: 5
-sell-prices:
-1:
-economy-plugin: Vault
-amount: 50
-placeholder: '{amount} Coins'
-2:
-economy-plugin: PlayerPoints
-amount: 1
-start-apply: 5
-placeholder: '{amount} Points'
-give-actions:
-1:
-type: message:
-message: 'Wow, seems that you have already sell 5 apples!'
-buy-actions:
-1:
-type: player_command
-command: 'say %player_name% purchased an Apple!'
-2:
-type: announcement
-message: '&7%player_name% purchased an Apple!'
-B:
-display-item:
-material: BREAD
-name: '&cSuper Bread'
-display-name: "Bread"
-add-lore:
-- '@a&ePurchase: {buy-price}'
-- '@b&eSell: {sell-price}'
-- '&eDrop to buy, right to sell'
-click-event:
-buy: 'DROP'
-sell: 'RIGHT'
-bedrock:
-hide: false
-icon: 'url;;https://raw.githubusercontent.com/Jens-Co/MinecraftItemImages/main/1.20/bread.png'
-buy-more: true
-buy-more-menu:
-menu: buy-more-2
-max-amount: 16
-price-mode: ANY
-product-mode: ALL
-products:
-1:
-material: BREAD
-amount: 1
-buy-prices:
-1:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-start-apply: 0
-2:
-economy-plugin: PlayerPoints
-amount: 10
-placeholder: '{amount} Points'
-start-apply: 5
-sell-prices:
-1:
-economy-plugin: Vault
-amount: 50
-placeholder: '{amount} Coins'
-2:
-economy-plugin: PlayerPoints
-amount: 1
-start-apply: 5
-placeholder: '{amount} Points'
-buy-limits:
-global: 100
-default: 10
-test-condition: 20
-buy-limits-conditions:
-test-condition:
-1:
-type: permission
-permission: 'test.permission'
-buy-times-reset-mode: 'TIMED'
-buy-times-reset-time: '00:00:00'
-C:
-display-item:
-material: DIAMOND
-as-sub-button: A
+A: # Product A config
+#...
+B: # Product B config
+#...
+C: # Product C config
+#...
+
 buttons:
 a:
 display-item:
@@ -30253,6 +30244,10 @@ actions:
 1:
 type: shop_menu
 shop: 'crops'
+
+Create the shop
+
+Create a config file at plugins/UltimateShop/shops/<shopName>.yml:
 
 Settings
 
@@ -30304,7 +30299,9 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 4 months ago
+Last updated 40 minutes ago
+
+Create the shop
 
 Settings
 
@@ -30313,6 +30310,37 @@ General Configs
 Items
 
 Buttons
+
+PUT_SHOP_ID_INTO_FILE_NAME.yml
+
+Copy
+
+settings:
+menu: starter-menu
+buy-more: true
+shop-name: Starter Shop
+hide-message: false
+
+items:
+D:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: DIAMOND
+amount: 1
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '&6$100'
+start-apply: 0
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 60
+placeholder: '&6$60'
+start-apply: 0
 
 Copy
 
@@ -30503,7 +30531,7 @@ B:
 C:
 # ...
 
-Product A
+Product A - VIP Limits
 
 This example has sell limits, which means player can only sell this product X times every day.
 
@@ -30515,7 +30543,7 @@ In this example, sell limits will reset at local time '0:00:00', which means mid
 
 In this example, we set price and product mode has CLASSIC_ prefix, this will save server performance, you should use this when you didn't set start-apply option to other value in prices section.
 
-Product B
+Product B - Experience Price
 
 Product A only brought an item from vanilla, let's try to obtain an item from a third-party plugin! Meanwhile, using Vault as an economy is too boring! Let's try something different, such as vanilla's experience points!
 
@@ -30523,7 +30551,7 @@ To get how to write hook-plugin option and hook-item option, please read Item Fo
 
 To get how to write economy-type option or economy-plugin option, please read Economy Format page.
 
-Product C
+Product C - Command Product
 
 Sometimes, we do not support the third-party plugin items you are using, so you can solve this by creating a command shop!
 
@@ -30537,13 +30565,13 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 5 months ago
+Last updated 2 hours ago
 
-Product A
+Product A - VIP Limits
 
-Product B
+Product B - Experience Price
 
-Product C
+Product C - Command Product
 
 Seasonal Product
 
@@ -30712,7 +30740,7 @@ C:
 # ...
 ```
 
-## Product A
+## Product A - VIP Limits
 
 This example has sell limits, which means player can only sell this product X times every day.
 
@@ -30755,7 +30783,7 @@ sell-limits-reset-mode: 'TIMED'
 sell-limits-reset-time: '00:00:00'
 ```
 
-## Product B
+## Product B - Experience Price
 
 Product A only brought an item from vanilla, let's try to obtain an item from a third-party plugin! Meanwhile, using **Vault** as an economy is too boring! Let's try something different, such as vanilla's experience points!
 
@@ -30786,7 +30814,7 @@ amount: 1
 start-apply: 0
 placeholder: '1 Exp'
 
-## Product C
+## Product C - Command Product
 
 Sometimes, we do not support the third-party plugin items you are using, so you can solve this by creating a command shop!
 
@@ -31510,6 +31538,8 @@ Configure Shop
 
 The various options used in this example are detailed on the Shops page. If you are unsure of the purpose of each option, please refer to that article.
 
+Add products A through G; their IDs must match the placeholder elements.
+
 Configure Menu
 
 The various options used in this example are detailed on the Menus page. If you are unsure of the purpose of each option, please refer to that article.
@@ -31518,7 +31548,7 @@ Showcase
 
 Previous🌱Example: Stock (like in life)Next🏆Example: Daily Rewards
 
-Last updated 7 months ago
+Last updated 2 hours ago
 
 Create random placeholder
 
@@ -31713,6 +31743,8 @@ elements:
 ## Configure Shop
 
 The various options used in this example are detailed on the [Shops](/shops/shops.md) page. If you are unsure of the purpose of each option, please refer to that article.
+
+Add products `A` through `G`; their IDs must match the placeholder elements.
 
 ```yaml
 settings:
@@ -32029,6 +32061,18 @@ On this page
 
 This means real life stock, for set limit of buy/sell times, please view Products page.
 
+UltimateShop does not store a separate warehouse inventory. Instead, use server-wide transaction counts: the number sold becomes the buy limit.
+
+Copy
+
+Player A sells 5 items
+↓
+server sell count becomes 5
+↓
+shop buy limit becomes 5
+↓
+Player B can buy at most those 5 items
+
 Set dynamic value for your product configs
 
 The plugin itself does not store stock data, however, the logic of stock is essentially that player A sells an item to the shop, then the shop can sell the item sold by player A to player B. You only need to set a buy limit, and the value of the buy limit is the number of times the product is sold globally, that is, the placeholder: {server-times-server}. Read dynamic prices before read this page. Similar to Dynamic Prices, if you want to make stock system, do it in buy-limits option and put {server-times-server} placeholder in it, for example:
@@ -32071,9 +32115,19 @@ buy-limits-reset-mode option to 'NEVER'
 
 In this way, we can ensure that players can only purchase items in the same quantity as the sell times (means restocking by other players sell it)
 
-FAQ: Restock
+Variations
 
-The person who asked this question didn't understand this plugin at all. Your stock is achieved by setting a buy limit for the product. To restock, it is essentially resetting the buy times.
+Replace server placeholders with player placeholders for a personal stock system.
+
+Use {buy-times-server} in a sell limit to model demand before supply.
+
+Add a fixed amount in a math expression to provide initial stock.
+
+Combine this with dynamic prices so scarce products become more expensive.
+
+Restock Manually
+
+Restocking means changing transaction counts or the formula that determines the limit.
 
 This content of auto reset buy/sell times is introduced on this page.
 
@@ -32081,11 +32135,13 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 6 months ago
+Last updated 2 hours ago
 
 Set dynamic value for your product configs
 
-FAQ: Restock
+Variations
+
+Restock Manually
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life.md
@@ -32097,6 +32153,18 @@ URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life.md
 {% hint style="info" %}
 This means real life stock, for set limit of buy/sell times, please view [Products](/shops/products.md) page.
 {% endhint %}
+
+UltimateShop does not store a separate warehouse inventory. Instead, use server-wide transaction counts: the number sold becomes the buy limit.
+
+```
+Player A sells 5 items
+↓
+server sell count becomes 5
+↓
+shop buy limit becomes 5
+↓
+Player B can buy at most those 5 items
+```
 
 ## Set dynamic value for your product configs
 
@@ -32138,9 +32206,16 @@ We changed:
 
 In this way, we can ensure that players can only purchase items in the same quantity as the sell times (means restocking by other players sell it)
 
-## FAQ: Restock
+## Variations
 
-The person who asked this question didn't understand this plugin at all. Your stock is achieved by setting a buy limit for the product. To restock, it is essentially resetting the buy times.
+* Replace server placeholders with player placeholders for a personal stock system.
+* Use `{buy-times-server}` in a sell limit to model demand before supply.
+* Add a fixed amount in a math expression to provide initial stock.
+* Combine this with dynamic prices so scarce products become more expensive.
+
+## Restock Manually
+
+Restocking means changing transaction counts or the formula that determines the limit.
 
 * This content of auto reset buy/sell times is introduced on [this page](/shops/product-config-buy-sell-times-reset.md).
 * Use command `/shop setselltimes
@@ -33068,53 +33143,119 @@ Copy
 
 items:
 A:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
-sell-all: true
-shared-use-times: daily_bundle
+display-name: "Apple"
+price-mode: ANY
+product-mode: ALL
 products:
 1:
-material: STRING
+material: APPLE
 amount: 1
+2:
+material: BREAD
+amount: 5
+conditions:
+1:
+type: permission
+permission: 'group.vip'
 give-actions:
 1:
 type: message
-message: 'You get a string!'
+message: 'Wow, seems that you are a VIP player, so we bonud give you 5 breads!'
 buy-prices:
 1:
-match-placeholder: '%player_health%'
-amount: '1.65'
-placeholder: '{amount}$'
+economy-plugin: Vault
+amount: 200
+placeholder: '{amount} Coins'
 start-apply: 0
+2:
+economy-plugin: PlayerPoints
+amount: 10
+placeholder: '{amount} Points'
+start-apply: 5
 sell-prices:
 1:
-match-placeholder: '%player_health%'
-amount: '1.65'
-placeholder: '{amount}$'
-start-apply: 0
+economy-plugin: Vault
+amount: 50
+placeholder: '{amount} Coins'
+2:
+economy-plugin: PlayerPoints
+amount: 1
+start-apply: 5
+placeholder: '{amount} Points'
 give-actions:
 1:
-type: console_command
-command: 'eco give {player} {amount}'
+type: message:
+message: 'Wow, seems that you have already sell 5 apples!'
+buy-actions:
+1:
+type: player_command
+command: 'say %player_name% purchased an Apple!'
+2:
+type: announcement
+message: '&7%player_name% purchased an Apple!'
 B:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
+display-item:
+material: BREAD
+name: '&cSuper Bread'
+display-name: "Bread"
+add-lore:
+- '@a&ePurchase: {buy-price}'
+- '@b&eSell: {sell-price}'
+- '&eDrop to buy, right to sell'
+click-event:
+buy: 'DROP'
+sell: 'RIGHT'
+bedrock:
+hide: false
+icon: 'url;;https://raw.githubusercontent.com/Jens-Co/MinecraftItemImages/main/1.20/bread.png'
+buy-more: true
+buy-more-menu:
+menu: buy-more-2
+max-amount: 16
+price-mode: ANY
+product-mode: ALL
 products:
 1:
-material: FEATHER
+material: BREAD
 amount: 1
 buy-prices:
 1:
 economy-plugin: Vault
-amount: '0.55'
-placeholder: '{amount}$'
+amount: 200
+placeholder: '{amount} Coins'
 start-apply: 0
+2:
+economy-plugin: PlayerPoints
+amount: 10
+placeholder: '{amount} Points'
+start-apply: 5
 sell-prices:
 1:
 economy-plugin: Vault
-amount: '0.52'
-placeholder: '{amount}$'
-start-apply: 0
+amount: 50
+placeholder: '{amount} Coins'
+2:
+economy-plugin: PlayerPoints
+amount: 1
+start-apply: 5
+placeholder: '{amount} Points'
+buy-limits:
+global: 100
+default: 10
+test-condition: 20
+buy-limits-conditions:
+test-condition:
+1:
+type: permission
+permission: 'test.permission'
+buy-times-reset-mode: 'TIMED'
+buy-times-reset-time: '00:00:00'
+C:
+display-item:
+material: DIAMOND
+as-sub-button: A
+
+Model
 
 General Options
 
@@ -33150,83 +33291,7 @@ Try also set force-display-fail-message option value to true in your config.yml 
 
 buy-prices/sell-prices/products: Please view this page.
 
-price-mode: Support ANY, ALL, CLASSIC_ANY, CLASSIC_ALL. Required.
-
-product-mode: Same as above. Required if you have products section.
-
-ANY and ALL mode should only be used when you are using dynamic value in products or prices configs. If your configuration uses static values, we will automatically switch your mode to CLASSIC mode to avoid unnecessary performance waste.
-
-Mode
-
-ANY
-
-ALL
-
-CLASSIC_ANY
-
-CLASSIC_ALL
-
-Product Give
-
-Give random products that meet conditions.
-
-Give all products.
-
-Same as ANY.
-
-Same as ALL.
-
-Product /Price Take
-
-First product/price that we found player meet condition and have enough amount.
-
-Players must have all products/prices that meet conditions to sell.
-
-Same as ANY.
-
-Same as ALL.
-
-Price Give (means sell)
-
-First prices meet the condition requirements.
-
-All prices will be given.
-
-Same as ANY.
-
-Same as ALL.
-
-Price Support
-
-Support dynamic price & apply option.
-
-Same as ALL.
-
-Price must be same at everytime.
-
-Same as CLASSIC_ALL.
-
-Support Sell All if you are using dynamic value in products amount option.
-
-No
-Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
-
-No
-Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
-
-Yes
-
-Yes
-
-Server Performances
-
-Maybe high when you have much buy/sell requests.
-
-Same as ALL.
-
-Low, just like other shop plugins doing!
-
-Same as CLASSIC_ANY.
+price-mode/product-mode: Support ANY, ALL, CLASSIC_ANY, CLASSIC_ALL. Plase see Mode to know more. Required.
 
 buy-actions: The action will run after buy this product, use Action Format here. Optional.
 
@@ -33373,9 +33438,97 @@ The example config of Sub Buttons can be found at Shops page, please check out t
 
 If the corresponding product of the sub button is not displayed in the shop GUI, or if the player does not meet the conditions to open the corresponding shop menu, the item cannot be traded. If this is not desired, change the settings.secret-shop-items option in the shop configuration to false.
 
+Mode
+
+ALL example: coins and diamonds
+
+The player must provide both entries.
+
+ANY example: money or points
+
+Only one applicable alternative is used. Conditions can control which alternative is available.
+
+When not to use CLASSIC modes
+
+Use ALL or ANY when entries rely on staged application such as use dynamic price, use start-apply, end-apply, or complex per-entry conditions. Use a CLASSIC_ mode only when the configuration follows the simple immediate-application model.
+
+Mode
+
+ANY
+
+ALL
+
+CLASSIC_ANY
+
+CLASSIC_ALL
+
+Product Give
+
+Give random products that meet conditions.
+
+Give all products.
+
+Same as ANY.
+
+Same as ALL.
+
+Product /Price Take
+
+First product/price that we found player meet condition and have enough amount.
+
+Players must have all products/prices that meet conditions to sell.
+
+Same as ANY.
+
+Same as ALL.
+
+Price Give (means sell)
+
+First prices meet the condition requirements.
+
+All prices will be given.
+
+Same as ANY.
+
+Same as ALL.
+
+Price Support
+
+Support dynamic price & apply option.
+
+Same as ALL.
+
+Price must be same at everytime.
+
+Same as CLASSIC_ALL.
+
+Support Sell All if you are using dynamic value in products amount option.
+
+No
+Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
+
+No
+Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
+
+Yes
+
+Yes
+
+Server Performances
+
+Maybe high when you have much buy/sell requests.
+
+Same as ALL.
+
+Low, just like other shop plugins doing!
+
+Same as CLASSIC_ANY.
+
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 1 month ago
+Last updated 1 hour ago
+
+Model
 
 General Options
 
@@ -33386,6 +33539,26 @@ Buy/Sell Times Reset Options
 Dynamic Value
 
 Sub Buttons - Premium
+
+Mode
+
+ALL example: coins and diamonds
+
+ANY example: money or points
+
+When not to use CLASSIC modes
+
+Copy
+
+Shop file
+└─ Product entry
+├─ display item and menu behavior
+├─ products → what changes hands as the product
+├─ buy-prices → what the player pays when buying
+├─ sell-prices → what the player receives when selling
+├─ buy-conditions/sell-conditions → who may use or see it
+├─ buy-actions/sell-actions → what else happens
+└─ buy-limits/sell-limits → how often it may be used
 
 Copy
 
@@ -33426,6 +33599,32 @@ amount: '15 - {sell-times-player} * 0.1 + %ultimateshop_farming_B_sell-times-pla
 # We use the new format without { and } symbol.
 placeholder: '{amount}$'
 start-apply: 0
+
+Copy
+
+price-mode: ALL
+buy-prices:
+coins:
+economy-plugin: Vault
+amount: 500
+placeholder: '&6$500'
+diamonds:
+material: DIAMOND
+amount: 8
+placeholder: '&b8 diamonds'
+
+Copy
+
+price-mode: ANY
+buy-prices:
+money:
+economy-plugin: Vault
+amount: 1000
+placeholder: '&6$1,000'
+points:
+economy-plugin: PlayerPoints
+amount: 50
+placeholder: '&e50 points'
 
 ============================================================
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
@@ -34104,7 +34303,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 10 days ago
+Last updated 12 days ago
 
 What Is a Single Thing?
 
@@ -35141,53 +35340,131 @@ Here is an example of 2 product configs:
 ```yaml
 items:
 A:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
-sell-all: true
-shared-use-times: daily_bundle
+display-name: "Apple"
+price-mode: ANY
+product-mode: ALL
 products:
 1:
-material: STRING
+material: APPLE
 amount: 1
+2:
+material: BREAD
+amount: 5
+conditions:
+1:
+type: permission
+permission: 'group.vip'
 give-actions:
 1:
 type: message
-message: 'You get a string!'
+message: 'Wow, seems that you are a VIP player, so we bonud give you 5 breads!'
 buy-prices:
 1:
-match-placeholder: '%player_health%'
-amount: '1.65'
-placeholder: '{amount}$'
+economy-plugin: Vault
+amount: 200
+placeholder: '{amount} Coins'
 start-apply: 0
+2:
+economy-plugin: PlayerPoints
+amount: 10
+placeholder: '{amount} Points'
+start-apply: 5
 sell-prices:
 1:
-match-placeholder: '%player_health%'
-amount: '1.65'
-placeholder: '{amount}$'
-start-apply: 0
+economy-plugin: Vault
+amount: 50
+placeholder: '{amount} Coins'
+2:
+economy-plugin: PlayerPoints
+amount: 1
+start-apply: 5
+placeholder: '{amount} Points'
 give-actions:
 1:
-type: console_command
-command: 'eco give {player} {amount}'
+type: message:
+message: 'Wow, seems that you have already sell 5 apples!'
+buy-actions:
+1:
+type: player_command
+command: 'say %player_name% purchased an Apple!'
+2:
+type: announcement
+message: '&7%player_name% purchased an Apple!'
 B:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
+display-item:
+material: BREAD
+name: '&cSuper Bread'
+display-name: "Bread"
+add-lore:
+- '@a&ePurchase: {buy-price}'
+- '@b&eSell: {sell-price}'
+- '&eDrop to buy, right to sell'
+click-event:
+buy: 'DROP'
+sell: 'RIGHT'
+bedrock:
+hide: false
+icon: 'url;;https://raw.githubusercontent.com/Jens-Co/MinecraftItemImages/main/1.20/bread.png'
+buy-more: true
+buy-more-menu:
+menu: buy-more-2
+max-amount: 16
+price-mode: ANY
+product-mode: ALL
 products:
 1:
-material: FEATHER
+material: BREAD
 amount: 1
 buy-prices:
 1:
 economy-plugin: Vault
-amount: '0.55'
-placeholder: '{amount}$'
+amount: 200
+placeholder: '{amount} Coins'
 start-apply: 0
+2:
+economy-plugin: PlayerPoints
+amount: 10
+placeholder: '{amount} Points'
+start-apply: 5
 sell-prices:
 1:
 economy-plugin: Vault
-amount: '0.52'
-placeholder: '{amount}$'
-start-apply: 0
+amount: 50
+placeholder: '{amount} Coins'
+2:
+economy-plugin: PlayerPoints
+amount: 1
+start-apply: 5
+placeholder: '{amount} Points'
+buy-limits:
+global: 100
+default: 10
+test-condition: 20
+buy-limits-conditions:
+test-condition:
+1:
+type: permission
+permission: 'test.permission'
+buy-times-reset-mode: 'TIMED'
+buy-times-reset-time: '00:00:00'
+C:
+display-item:
+material: DIAMOND
+as-sub-button: A
+```
+
+## Model
+
+```
+Shop file
+└─ Product entry
+├─ display item and menu behavior
+├─ products → what changes hands as the product
+├─ buy-prices → what the player pays when buying
+├─ sell-prices → what the player receives when selling
+├─ buy-conditions/sell-conditions → who may use or see it
+├─ buy-actions/sell-actions → what else happens
+└─ buy-limits/sell-limits → how often it may be used
 ```
 
 ## General Options
@@ -35236,85 +35513,7 @@ Try also set placeholder.click.enabled option value to true in your config.yml f
 Try also set force-display-fail-message option value to true in your config.yml file. This way is recommended. (4.2.11+)
 
 * buy-prices/sell-prices/products: Please view [this page](/shops/products-config-single-thing.md).
-* price-mode: Support `ANY, ALL, CLASSIC_ANY, CLASSIC_ALL`. **Required.**
-* product-mode: Same as above. **Required if you have products section.**
-
-{% hint style="info" %}
-**ANY** and **ALL** mode should only be used when you are using dynamic value in products or prices configs. If your configuration uses static values, we will automatically switch your mode to **CLASSIC** mode to avoid unnecessary performance waste.
-{% endhint %}
-
-Mode
-
-ANY
-
-ALL
-
-CLASSIC_ANY
-
-CLASSIC_ALL
-
-Product Give
-
-Give random products that meet conditions.
-
-Give all products.
-
-Same as ANY.
-
-Same as ALL.
-
-Product /Price Take
-
-First product/price that we found player meet condition and have enough amount.
-
-Players must have all products/prices that meet conditions to sell.
-
-Same as ANY.
-
-Same as ALL.
-
-Price Give (means sell)
-
-First prices meet the condition requirements.
-
-All prices will be given.
-
-Same as ANY.
-
-Same as ALL.
-
-Price Support
-
-Support dynamic price & apply option.
-
-Same as ALL.
-
-Price must be same at everytime.
-
-Same as CLASSIC_ALL.
-
-Support Sell All if you are using dynamic value in products amount option.
-
-No
-Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
-
-No
-Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
-
-Yes
-
-Yes
-
-Server Performances
-
-Maybe high when you have much buy/sell requests.
-
-Same as ALL.
-
-Low, just like other shop plugins doing!
-
-Same as CLASSIC_ANY.
-
+* price-mode/product-mode: Support `ANY, ALL, CLASSIC_ANY, CLASSIC_ALL`. Plase see [Mode](#mode) to know more. **Required.**
 * buy-actions: The action will run after buy this product, use [Action Forma](/format/action-format.md)[t](/format/action-format.md) here. **Optional.**
 * sell-actions: The action will run after sell this product, use [Action Format](/format/action-format.md) here. **Optional.**
 * fail-actions: The action will run if we fail to buy or sell this product, use [Action Format](/format/action-format.md) here. **Optional.**
@@ -35461,6 +35660,118 @@ The example config of **Sub Buttons** can be found at [Shops](/shops/shops.md) p
 {% hint style="warning" %}
 If the corresponding product of the sub button is not displayed in the shop GUI, or if the player does not meet the conditions to open the corresponding shop menu, the item cannot be traded. If this is not desired, change the `settings.secret-shop-items` option in the shop configuration to `false`.
 {% endhint %}
+
+## Mode
+
+### ALL example: coins and diamonds
+
+```yaml
+price-mode: ALL
+buy-prices:
+coins:
+economy-plugin: Vault
+amount: 500
+placeholder: '&6$500'
+diamonds:
+material: DIAMOND
+amount: 8
+placeholder: '&b8 diamonds'
+```
+
+The player must provide both entries.
+
+### ANY example: money or points
+
+```yaml
+price-mode: ANY
+buy-prices:
+money:
+economy-plugin: Vault
+amount: 1000
+placeholder: '&6$1,000'
+points:
+economy-plugin: PlayerPoints
+amount: 50
+placeholder: '&e50 points'
+```
+
+Only one applicable alternative is used. Conditions can control which alternative is available.
+
+### When not to use CLASSIC modes
+
+Use `ALL` or `ANY` when entries rely on staged application such as use dynamic price, use `start-apply`, `end-apply`, or complex per-entry conditions. Use a `CLASSIC_` mode only when the configuration follows the simple immediate-application model.
+
+Mode
+
+ANY
+
+ALL
+
+CLASSIC_ANY
+
+CLASSIC_ALL
+
+Product Give
+
+Give random products that meet conditions.
+
+Give all products.
+
+Same as ANY.
+
+Same as ALL.
+
+Product /Price Take
+
+First product/price that we found player meet condition and have enough amount.
+
+Players must have all products/prices that meet conditions to sell.
+
+Same as ANY.
+
+Same as ALL.
+
+Price Give (means sell)
+
+First prices meet the condition requirements.
+
+All prices will be given.
+
+Same as ANY.
+
+Same as ALL.
+
+Price Support
+
+Support dynamic price & apply option.
+
+Same as ALL.
+
+Price must be same at everytime.
+
+Same as CLASSIC_ALL.
+
+Support Sell All if you are using dynamic value in products amount option.
+
+No
+Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
+
+No
+Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
+
+Yes
+
+Yes
+
+Server Performances
+
+Maybe high when you have much buy/sell requests.
+
+Same as ALL.
+
+Low, just like other shop plugins doing!
+
+Same as CLASSIC_ANY.
 
 ============================================================
 Title: 💰Sell Multiplier - Premium | UltimateShop Wiki
@@ -35997,7 +36308,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Overview
 
@@ -36322,118 +36633,13 @@ type: sound
 sound: block.note_block.bass
 
 items:
-A:
-display-name: "Apple"
-price-mode: ANY
-product-mode: ALL
-products:
-1:
-material: APPLE
-amount: 1
-2:
-material: BREAD
-amount: 5
-conditions:
-1:
-type: permission
-permission: 'group.vip'
-give-actions:
-1:
-type: message
-message: 'Wow, seems that you are a VIP player, so we bonud give you 5 breads!'
-buy-prices:
-1:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-start-apply: 0
-2:
-economy-plugin: PlayerPoints
-amount: 10
-placeholder: '{amount} Points'
-start-apply: 5
-sell-prices:
-1:
-economy-plugin: Vault
-amount: 50
-placeholder: '{amount} Coins'
-2:
-economy-plugin: PlayerPoints
-amount: 1
-start-apply: 5
-placeholder: '{amount} Points'
-give-actions:
-1:
-type: message:
-message: 'Wow, seems that you have already sell 5 apples!'
-buy-actions:
-1:
-type: player_command
-command: 'say %player_name% purchased an Apple!'
-2:
-type: announcement
-message: '&7%player_name% purchased an Apple!'
-B:
-display-item:
-material: BREAD
-name: '&cSuper Bread'
-display-name: "Bread"
-add-lore:
-- '@a&ePurchase: {buy-price}'
-- '@b&eSell: {sell-price}'
-- '&eDrop to buy, right to sell'
-click-event:
-buy: 'DROP'
-sell: 'RIGHT'
-bedrock:
-hide: false
-icon: 'url;;https://raw.githubusercontent.com/Jens-Co/MinecraftItemImages/main/1.20/bread.png'
-buy-more: true
-buy-more-menu:
-menu: buy-more-2
-max-amount: 16
-price-mode: ANY
-product-mode: ALL
-products:
-1:
-material: BREAD
-amount: 1
-buy-prices:
-1:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-start-apply: 0
-2:
-economy-plugin: PlayerPoints
-amount: 10
-placeholder: '{amount} Points'
-start-apply: 5
-sell-prices:
-1:
-economy-plugin: Vault
-amount: 50
-placeholder: '{amount} Coins'
-2:
-economy-plugin: PlayerPoints
-amount: 1
-start-apply: 5
-placeholder: '{amount} Points'
-buy-limits:
-global: 100
-default: 10
-test-condition: 20
-buy-limits-conditions:
-test-condition:
-1:
-type: permission
-permission: 'test.permission'
-buy-times-reset-mode: 'TIMED'
-buy-times-reset-time: '00:00:00'
-C:
-display-item:
-material: DIAMOND
-as-sub-button: A
+A: # Product A config
+#...
+B: # Product B config
+#...
+C: # Product C config
+#...
+
 buttons:
 a:
 display-item:
@@ -36445,6 +36651,10 @@ actions:
 1:
 type: shop_menu
 shop: 'crops'
+
+Create the shop
+
+Create a config file at plugins/UltimateShop/shops/<shopName>.yml:
 
 Settings
 
@@ -36496,7 +36706,9 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 4 months ago
+Last updated 40 minutes ago
+
+Create the shop
 
 Settings
 
@@ -36505,6 +36717,37 @@ General Configs
 Items
 
 Buttons
+
+PUT_SHOP_ID_INTO_FILE_NAME.yml
+
+Copy
+
+settings:
+menu: starter-menu
+buy-more: true
+shop-name: Starter Shop
+hide-message: false
+
+items:
+D:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: DIAMOND
+amount: 1
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '&6$100'
+start-apply: 0
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 60
+placeholder: '&6$60'
+start-apply: 0
 
 Copy
 
@@ -36554,118 +36797,13 @@ type: sound
 sound: block.note_block.bass
 
 items:
-A:
-display-name: "Apple"
-price-mode: ANY
-product-mode: ALL
-products:
-1:
-material: APPLE
-amount: 1
-2:
-material: BREAD
-amount: 5
-conditions:
-1:
-type: permission
-permission: 'group.vip'
-give-actions:
-1:
-type: message
-message: 'Wow, seems that you are a VIP player, so we bonud give you 5 breads!'
-buy-prices:
-1:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-start-apply: 0
-2:
-economy-plugin: PlayerPoints
-amount: 10
-placeholder: '{amount} Points'
-start-apply: 5
-sell-prices:
-1:
-economy-plugin: Vault
-amount: 50
-placeholder: '{amount} Coins'
-2:
-economy-plugin: PlayerPoints
-amount: 1
-start-apply: 5
-placeholder: '{amount} Points'
-give-actions:
-1:
-type: message:
-message: 'Wow, seems that you have already sell 5 apples!'
-buy-actions:
-1:
-type: player_command
-command: 'say %player_name% purchased an Apple!'
-2:
-type: announcement
-message: '&7%player_name% purchased an Apple!'
-B:
-display-item:
-material: BREAD
-name: '&cSuper Bread'
-display-name: "Bread"
-add-lore:
-- '@a&ePurchase: {buy-price}'
-- '@b&eSell: {sell-price}'
-- '&eDrop to buy, right to sell'
-click-event:
-buy: 'DROP'
-sell: 'RIGHT'
-bedrock:
-hide: false
-icon: 'url;;https://raw.githubusercontent.com/Jens-Co/MinecraftItemImages/main/1.20/bread.png'
-buy-more: true
-buy-more-menu:
-menu: buy-more-2
-max-amount: 16
-price-mode: ANY
-product-mode: ALL
-products:
-1:
-material: BREAD
-amount: 1
-buy-prices:
-1:
-economy-plugin: Vault
-amount: 200
-placeholder: '{amount} Coins'
-start-apply: 0
-2:
-economy-plugin: PlayerPoints
-amount: 10
-placeholder: '{amount} Points'
-start-apply: 5
-sell-prices:
-1:
-economy-plugin: Vault
-amount: 50
-placeholder: '{amount} Coins'
-2:
-economy-plugin: PlayerPoints
-amount: 1
-start-apply: 5
-placeholder: '{amount} Points'
-buy-limits:
-global: 100
-default: 10
-test-condition: 20
-buy-limits-conditions:
-test-condition:
-1:
-type: permission
-permission: 'test.permission'
-buy-times-reset-mode: 'TIMED'
-buy-times-reset-time: '00:00:00'
-C:
-display-item:
-material: DIAMOND
-as-sub-button: A
+A: # Product A config
+#...
+B: # Product B config
+#...
+C: # Product C config
+#...
+
 buttons:
 a:
 display-item:
@@ -36678,6 +36816,43 @@ actions:
 type: shop_menu
 shop: 'crops'
 ```
+
+## Create the shop
+
+Create a config file at `plugins/UltimateShop/shops/.yml`:
+
+{% code title="PUT\_SHOP\_ID\_INTO\_FILE\_NAME.yml" %}
+
+```yaml
+settings:
+menu: starter-menu
+buy-more: true
+shop-name: Starter Shop
+hide-message: false
+
+items:
+D:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: DIAMOND
+amount: 1
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '&6$100'
+start-apply: 0
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 60
+placeholder: '&6$60'
+start-apply: 0
+```
+
+{% endcode %}
 
 ## Settings
 
