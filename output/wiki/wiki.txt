@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-11T02:01:55Z
+Generated UTC: 2026-07-12T02:05:07Z
 Page Count: 137
 
 ============================================================
@@ -422,7 +422,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -614,7 +614,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -8612,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Format available placeholders:
 
@@ -10425,7 +10425,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Basic Syntax
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 General Options
 
@@ -16916,7 +16916,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Basic Syntax
 
@@ -17475,7 +17475,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Java Version
 
@@ -19044,7 +19044,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Direct compatibility
 
@@ -19591,7 +19591,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Copy
 
@@ -22051,7 +22051,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Java Version
 
@@ -22499,7 +22499,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 37 minutes ago
+Last updated 1 day ago
 
 Create the menu
 
@@ -22937,7 +22937,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Requirements
 
@@ -24209,7 +24209,7 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Requirements
 
@@ -24727,7 +24727,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 General Setting
 
@@ -25598,7 +25598,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 37 minutes ago
+Last updated 1 day ago
 
 Create the menu
 
@@ -30299,7 +30299,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 40 minutes ago
+Last updated 1 day ago
 
 Create the shop
 
@@ -30565,7 +30565,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 2 hours ago
+Last updated 1 day ago
 
 Product A - VIP Limits
 
@@ -31548,7 +31548,7 @@ Showcase
 
 Previous🌱Example: Stock (like in life)Next🏆Example: Daily Rewards
 
-Last updated 2 hours ago
+Last updated 1 day ago
 
 Create random placeholder
 
@@ -32135,7 +32135,7 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 2 hours ago
+Last updated 1 day ago
 
 Set dynamic value for your product configs
 
@@ -33526,7 +33526,7 @@ Same as CLASSIC_ANY.
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 1 hour ago
+Last updated 1 day ago
 
 Model
 
@@ -34303,7 +34303,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 What Is a Single Thing?
 
@@ -36706,7 +36706,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 40 minutes ago
+Last updated 1 day ago
 
 Create the shop
 
