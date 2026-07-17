@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-16T01:59:53Z
+Generated UTC: 2026-07-17T02:04:23Z
 Page Count: 137
 
 ============================================================
@@ -422,7 +422,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -614,7 +614,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -8612,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Format available placeholders:
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 General Options
 
@@ -16524,9 +16524,390 @@ false - Boolean constant representing 0
 
 ! - Boolean not/inverse (!true)
 
+Functions
+
+The math expression system provides several built-in functions for performing common calculations, including summation, minimum and maximum value selection, averages, and random number generation.
+
+These functions are available when the following option is enabled in config.yml file:
+
+When this option is disabled, custom math functions will not be registered.
+
+Available Functions
+
+sum
+
+Returns the sum of all provided numbers.
+
+Syntax
+
+Examples
+
+Result:
+
+Result:
+
+When no arguments are provided, the result is 0:
+
+Result:
+
+max
+
+Returns the largest number among all provided arguments.
+
+Syntax
+
+Examples
+
+Result:
+
+Result:
+
+When no arguments are provided, the result is 0:
+
+Result:
+
+min
+
+Returns the smallest number among all provided arguments.
+
+Syntax
+
+Examples
+
+Result:
+
+Result:
+
+When no arguments are provided, the result is 0:
+
+Result:
+
+avg
+
+Returns the arithmetic average of all provided numbers.
+
+The function adds all arguments together and divides the result by the number of arguments.
+
+Syntax
+
+Examples
+
+Result:
+
+Result:
+
+When no arguments are provided, the result is 0:
+
+Result:
+
+random
+
+Generates a random decimal number.
+
+The behavior depends on the number of arguments provided.
+
+random()
+
+Returns a random decimal number from 0, inclusive, to 1, exclusive.
+
+Example
+
+Possible results include:
+
+The result satisfies the following range:
+
+random(max)
+
+Returns a random decimal number between 0 and the provided value.
+
+Example
+
+The result satisfies:
+
+Negative values are also supported:
+
+The result satisfies:
+
+If the provided value is 0, the result is always 0:
+
+Result:
+
+random(min, max)
+
+Returns a random decimal number between the two provided values.
+
+Example
+
+The result satisfies:
+
+The argument order does not matter. The function automatically determines which value is smaller:
+
+This behaves the same as:
+
+When both values are equal, that value is returned directly:
+
+Result:
+
+Only the first two arguments are used when more than two arguments are provided:
+
+This behaves the same as:
+
+The upper boundary of a random range is exclusive. For example, random(1, 5) can return values greater than or equal to 1, but it will not return exactly 5.
+
+Function Summary
+
+Function
+
+Description
+
+No-argument result
+
+sum(...)
+
+Adds all provided numbers
+
+0
+
+max(...)
+
+Returns the largest provided number
+
+0
+
+min(...)
+
+Returns the smallest provided number
+
+0
+
+avg(...)
+
+Returns the arithmetic average
+
+0
+
+random()
+
+Returns a random value from 0 to 1
+
+Random value
+
+random(max)
+
+Returns a random value between 0 and max
+
+Not applicable
+
+random(min, max)
+
+Returns a random value between two values
+
+Not applicable
+
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 4 months ago
+Last updated 6 hours ago
+
+List of match calculate format
+
+Functions
+
+Available Functions
+
+random()
+
+random(max)
+
+random(min, max)
+
+Function Summary
+
+Copy
+
+math:
+enable-function: true
+
+Copy
+
+sum(number1, number2, ...)
+
+Copy
+
+sum(1, 2, 3)
+
+Copy
+
+6
+
+Copy
+
+sum(10, -3, 2.5)
+
+Copy
+
+9.5
+
+Copy
+
+sum()
+
+Copy
+
+0
+
+Copy
+
+max(number1, number2, ...)
+
+Copy
+
+max(5, 12, 8)
+
+Copy
+
+12
+
+Copy
+
+max(-10, -3, -20)
+
+Copy
+
+-3
+
+Copy
+
+max()
+
+Copy
+
+0
+
+Copy
+
+min(number1, number2, ...)
+
+Copy
+
+min(5, 12, 8)
+
+Copy
+
+5
+
+Copy
+
+min(-10, -3, -20)
+
+Copy
+
+-20
+
+Copy
+
+min()
+
+Copy
+
+0
+
+Copy
+
+avg(number1, number2, ...)
+
+Copy
+
+avg(10, 20, 30)
+
+Copy
+
+20
+
+Copy
+
+avg(2, 3, 7)
+
+Copy
+
+4
+
+Copy
+
+avg()
+
+Copy
+
+0
+
+Copy
+
+random()
+
+Copy
+
+0.137
+0.5
+0.999
+
+Copy
+
+0 <= result < 1
+
+Copy
+
+random(10)
+
+Copy
+
+0 <= result < 10
+
+Copy
+
+random(-10)
+
+Copy
+
+-10 <= result < 0
+
+Copy
+
+random(0)
+
+Copy
+
+0
+
+Copy
+
+random(5, 10)
+
+Copy
+
+5 <= result < 10
+
+Copy
+
+random(10, 5)
+
+Copy
+
+random(5, 10)
+
+Copy
+
+random(5, 5)
+
+Copy
+
+5
+
+Copy
+
+random(1, 10, 100)
+
+Copy
+
+random(1, 10)
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format.md
@@ -16611,13 +16992,19 @@ You need enable `math.enabled` option in your `config.yml` file to use this feat
 
 `=` - Compare if one number is greater than or equal to another (`1 >= 1`)
 
-`<=` - Compare if one number is less than or equal to another (`0 <= 1`)
+` The upper boundary of a random range is exclusive. For example, `random(1, 5)` can return values greater than or equal to `1`, but it will not return exactly `5`.
 
-`|` - Boolean or (`true | false`), also accepts `||`
+### Function Summary
 
-`&` - Boolean and (`true & true`), also accepts `&&`
-
-`!` - Boolean not/inverse (`!true`)
+| Function | Description | No-argument result |
+| ------------------ | -------------------------------------------- | -----------------: |
+| `sum(...)` | Adds all provided numbers | `0` |
+| `max(...)` | Returns the largest provided number | `0` |
+| `min(...)` | Returns the smallest provided number | `0` |
+| `avg(...)` | Returns the arithmetic average | `0` |
+| `random()` | Returns a random value from `0` to `1` | Random value |
+| `random(max)` | Returns a random value between `0` and `max` | Not applicable |
+| `random(min, max)` | Returns a random value between two values | Not applicable |
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
@@ -17475,7 +17862,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Java Version
 
@@ -19591,7 +19978,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Copy
 
@@ -22051,7 +22438,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 16 days ago
+Last updated 17 days ago
 
 Java Version
 
@@ -22499,7 +22886,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Create the menu
 
@@ -22937,7 +23324,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 10 days ago
+Last updated 11 days ago
 
 Requirements
 
@@ -24209,7 +24596,7 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Requirements
 
@@ -24727,7 +25114,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 General Setting
 
@@ -25598,7 +25985,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Create the menu
 
@@ -30299,7 +30686,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Create the shop
 
@@ -30565,7 +30952,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Product A - VIP Limits
 
@@ -31548,7 +31935,7 @@ Showcase
 
 Previous🌱Example: Stock (like in life)Next🏆Example: Daily Rewards
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Create random placeholder
 
@@ -32135,7 +32522,7 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Set dynamic value for your product configs
 
@@ -33526,7 +33913,7 @@ Same as CLASSIC_ANY.
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Model
 
@@ -34303,7 +34690,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 What Is a Single Thing?
 
@@ -36706,7 +37093,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Create the shop
 
