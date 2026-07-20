@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-19T02:02:29Z
+Generated UTC: 2026-07-20T02:24:25Z
 Page Count: 137
 
 ============================================================
@@ -422,7 +422,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 16 days ago
+Last updated 37 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -614,7 +614,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 16 days ago
+Last updated 37 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -1462,7 +1462,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 4 months ago
+Last updated 1 hour ago
 
 Add as dependency
 
@@ -2598,7 +2598,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 4 months ago
+Last updated 1 hour ago
 
 Add as dependency
 
@@ -4045,7 +4045,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 4 months ago
+Last updated 1 hour ago
 
 Enable Math Feature
 
@@ -4412,7 +4412,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 4 months ago
+Last updated 1 hour ago
 
 Enable Math Feature
 
@@ -4666,7 +4666,7 @@ Showcase
 
 Previous🔄Dynamic PriceNext🌏Advanced Language Managment
 
-Last updated 6 months ago
+Last updated 2 hours ago
 
 Dynamic Price Status
 
@@ -5137,7 +5137,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 6 months ago
+Last updated 2 hours ago
 
 Default Language
 
@@ -5462,7 +5462,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 6 months ago
+Last updated 2 hours ago
 
 Default Language
 
@@ -5893,7 +5893,7 @@ For Paper users who meet use MiniMessage requirements, we will auto translate bu
 
 Previous🌏Advanced Language ManagmentNext💴Easy Prices
 
-Last updated 7 months ago
+Last updated 2 hours ago
 
 MiniMessage
 
@@ -6164,7 +6164,7 @@ Do not forgot also update your auto add lore configs to make product description
 
 Previous🔢Number FormatNext🔍Custom Item Match Method
 
-Last updated 7 months ago
+Last updated 2 hours ago
 
 Options
 
@@ -6548,7 +6548,7 @@ An example product config can be found below, in this example, both emerald and 
 
 Previous🎮Custom Click Event - PremiumNext🔑Give Item Method
 
-Last updated 1 year ago
+Last updated 2 hours ago
 
 Default Item Match Method
 
@@ -6941,7 +6941,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 1 month ago
+Last updated 2 hours ago
 
 EconomyLimit
 
@@ -7403,7 +7403,7 @@ start-apply: 0
 
 Previous🎨Color CodeNext🪄Sell Stick - Premium
 
-Last updated 11 months ago
+Last updated 2 hours ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -7653,7 +7653,7 @@ It is very difficult to attempt to restore the vanilla mechanism without contact
 
 Previous🔍Custom Item Match MethodNext💳Log Transaction - Premium
 
-Last updated 1 year ago
+Last updated 2 hours ago
 
 BUKKIT
 
@@ -8176,7 +8176,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 3 months ago
+Last updated 1 hour ago
 
 Requirements
 
@@ -8612,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 23 days ago
+Last updated 2 hours ago
 
 Format available placeholders:
 
@@ -8840,7 +8840,7 @@ Like most plugins, UltimateShop does not verify the accuracy and synchronization
 
 Previous🌍Localized Item Name - PremiumNext🔢Number Format
 
-Last updated 11 months ago
+Last updated 2 hours ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
@@ -9069,7 +9069,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 2 months ago
+Last updated 2 hours ago
 
 Built-in number format
 
@@ -9365,7 +9365,7 @@ Saved items will be cached in memory continuously after loading to avoid repeate
 
 Previous🎁Sell Chest - PremiumNext🌍Localized Item Name - Premium
 
-Last updated 6 months ago
+Last updated 2 hours ago
 
 Create your item
 
@@ -9696,7 +9696,7 @@ Showcase
 
 Previous🪄Sell Stick - PremiumNext💾Saved Item (Item Manager)
 
-Last updated 5 months ago
+Last updated 1 hour ago
 
 Limitation
 
@@ -9759,7 +9759,7 @@ URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium.md
 # 🎁Sell Chest - Premium
 
 {% hint style="warning" %}
-The **sell chest** feature is not currently introduced as a core function of UltimateShop and is still in the early testing phase. It may be officially released in future versions or potentially removed if it contains irreparable critical issues. \
+The **sell chest** feature is not currently introduced as a core function of UltimateShop and is still in the early testing phase. It may be officially released in future versions or potentially removed if it contains irreparable critical issues.\
 Sell chest is now available at **4.2.0b or later** version.
 {% endhint %}
 
@@ -10080,7 +10080,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 2 months ago
+Last updated 2 hours ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium.md
@@ -10425,7 +10425,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 5 months ago
+Last updated 37 minutes ago
 
 Basic Syntax
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 13 days ago
+Last updated 38 minutes ago
 
 General Options
 
@@ -12325,7 +12325,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 3 months ago
+Last updated 1 hour ago
 
 General Options
 
@@ -12870,7 +12870,7 @@ value: '0'z
 
 Previous💹EconomyFormat™Next🎬Action Format
 
-Last updated 1 year ago
+Last updated 1 hour ago
 
 Single
 
@@ -13154,7 +13154,7 @@ Example:
 
 Previous🌉ItemBridgeNext🖼️Display Item Format
 
-Last updated 1 year ago
+Last updated 1 hour ago
 
 Hook Economy
 
@@ -13455,7 +13455,7 @@ Music
 
 Previous📊Understanding YAML/This wikiNext📝ItemFormat™
 
-Last updated 1 year ago
+Last updated 37 minutes ago
 
 Item parameter possible value list
 
@@ -13889,7 +13889,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 2 months ago
+Last updated 37 minutes ago
 
 Supported Plugin List
 
@@ -14283,7 +14283,7 @@ Attributes
 
 Please note that 1.20.5 has changed attribute format, if you generated item before 1.20.5, you have to reconfig them into new format.
 
-Config section format is Attribute ID and then has multi sub options.
+Each list entry is one attribute modifier. type is the Attribute ID. Entries are applied in list order, and the same attribute type can appear more than once.
 
 Damageable
 
@@ -14307,7 +14307,7 @@ Banner
 
 Patterns
 
-Config section format is: Pattern ID: Pattern Color.
+Patterns are applied in list order. The same pattern type can appear more than once.
 
 Potion
 
@@ -14457,7 +14457,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 2 months ago
+Last updated 37 minutes ago
 
 Hook Item
 
@@ -14646,8 +14646,8 @@ enchants:
 mending: 1
 glow: true
 attributes:
-max_health:
-name: 'GENERIC_MAX_HEALTH' # Attribute ID
+- type: MAX_HEALTH
+name: 'generic.max_health'
 amount: 5
 operation: ADD_NUMBER
 slot: MAINHAND
@@ -14741,7 +14741,7 @@ custom-model-data: 15
 Copy
 
 attributes:
-GENERIC_ATTACK_DAMAGE:
+- type: MAX_HEALTH
 name: generic.attack_damage
 amount: 12
 operation: ADD_NUMBER # ADD_NUMBER, ADD_SCALAR, MULTIPLY_SCALAR_1
@@ -14763,7 +14763,9 @@ MENDING: 1
 Copy
 
 patterns:
-BASE: WHITE
+- 'RHOMBUS: CYAN'
+- 'BORDER: LIGHT_GRAY'
+- 'BORDER: BLACK'
 
 Copy
 
@@ -15041,8 +15043,8 @@ enchants:
 mending: 1
 glow: true
 attributes:
-max_health:
-name: 'GENERIC_MAX_HEALTH' # Attribute ID
+- type: MAX_HEALTH
+name: 'generic.max_health'
 amount: 5
 operation: ADD_NUMBER
 slot: MAINHAND
@@ -15192,11 +15194,11 @@ custom-model-data: 15
 
 Please note that 1.20.5 has changed attribute format, if you generated item before 1.20.5, you have to reconfig them into new format.
 
-Config section format is `Attribute ID` and then has multi sub options.
+Each list entry is one attribute modifier. `type` is the Attribute ID. Entries are applied in list order, and the same attribute type can appear more than once.
 
 ```yaml
 attributes:
-GENERIC_ATTACK_DAMAGE:
+- type: MAX_HEALTH
 name: generic.attack_damage
 amount: 12
 operation: ADD_NUMBER # ADD_NUMBER, ADD_SCALAR, MULTIPLY_SCALAR_1
@@ -15238,11 +15240,13 @@ MENDING: 1
 
 ### Patterns
 
-Config section format is: `Pattern ID: Pattern Color`.
+Patterns are applied in list order. The same pattern type can appear more than once.
 
 ```yaml
 patterns:
-BASE: WHITE
+- 'RHOMBUS: CYAN'
+- 'BORDER: LIGHT_GRAY'
+- 'BORDER: BLACK'
 ```
 
 ## Potion
@@ -15778,7 +15782,7 @@ Misc
 
 Previous📝ItemFormat™Next🌉ItemBridge
 
-Last updated 6 months ago
+Last updated 1 hour ago
 
 Custom Name
 
@@ -15873,7 +15877,7 @@ Copy
 
 component:
 attributes:
-max_health: # Attribute ID
+- type: MAX_HEALTH # Attribute ID
 name: 'UltiamteShop'
 amount: 5
 operation: ADD_NUMBER
@@ -15889,7 +15893,9 @@ Copy
 
 component:
 banner-patterns:
-BASE: WHITE # Pattern ID: Pattern Color
+- 'BASE: WHITE' # Pattern ID: Pattern Color
+- 'BORDER: BLACK'
+- 'BORDER: WHITE'
 potion:
 base-effect: 'WATER'
 effects:
@@ -16132,7 +16138,7 @@ mending: 1
 ```yaml
 component:
 attributes:
-max_health: # Attribute ID
+- type: MAX_HEALTH # Attribute ID
 name: 'UltiamteShop'
 amount: 5
 operation: ADD_NUMBER
@@ -16152,7 +16158,9 @@ max-damage: 15
 ```yaml
 component:
 banner-patterns:
-BASE: WHITE # Pattern ID: Pattern Color
+- 'BASE: WHITE' # Pattern ID: Pattern Color
+- 'BORDER: BLACK'
+- 'BORDER: WHITE'
 potion:
 base-effect: 'WATER'
 effects:
@@ -16706,7 +16714,7 @@ Not applicable
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 2 days ago
+Last updated 1 hour ago
 
 List of match calculate format
 
@@ -17303,7 +17311,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 5 months ago
+Last updated 37 minutes ago
 
 Basic Syntax
 
@@ -17862,7 +17870,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 19 days ago
+Last updated 33 minutes ago
 
 Java Version
 
@@ -18212,19 +18220,13 @@ Open in-game editor.
 
 Require ultimateshop.editor permission.
 
-/shop searchgui [searchMenuID] (Premium version only)
-
-Open search GUI.
-
-Require ultimateshop.searchgui permission.
-
 Custom Placeholder Commands (Premium version only)
 
 For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 1 month ago
+Last updated 37 minutes ago
 
 FAQ:
 
@@ -18275,8 +18277,6 @@ ultimateshop.bypass.protection
 /shop updateguititle [player] (Premium version only)
 
 /shop editor (Premium version only)
-
-/shop searchgui [searchMenuID] (Premium version only)
 
 Custom Placeholder Commands (Premium version only)
 
@@ -18454,7 +18454,7 @@ Sell all hand item.
 Require `ultimateshop.sellallhand` permission.
 
 {% hint style="info" %}
-sellhand = sell only the held stack.\
+sellhand = sell only the held stack.\
 sellallhand = use the held item as selector, then sell matching items from inventory.
 {% endhint %}
 
@@ -18477,12 +18477,6 @@ Require `ultimateshop.updateguititle` permission.
 Open in-game editor.
 
 Require `ultimateshop.editor` permission.
-
-## /shop searchgui \[searchMenuID] **(Premium version only)**
-
-Open search GUI.
-
-Require `ultimateshop.searchgui` permission.
 
 ## Custom Placeholder Commands **(Premium version only)**
 
@@ -18850,7 +18844,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 3 months ago
+Last updated 37 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -19431,7 +19425,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 1 month ago
+Last updated 33 minutes ago
 
 Direct compatibility
 
@@ -19978,7 +19972,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 12 days ago
+Last updated 37 minutes ago
 
 Copy
 
@@ -21157,7 +21151,7 @@ org.h2.Driver
 
 Previous⌨️Commands & PermissionsNext🚀Performance
 
-Last updated 7 months ago
+Last updated 33 minutes ago
 
 Data Type
 
@@ -21468,7 +21462,7 @@ A: View Dynamic Price page.
 
 Previous🚀PerformanceNext🆚Compare
 
-Last updated 9 months ago
+Last updated 37 minutes ago
 
 Q: Player don't cost money when buy product.
 
@@ -21760,7 +21754,7 @@ Default configs are just helping you understand the config framework, you need m
 
 Previous✅RequirementsNext🔗Compatibility
 
-Last updated 5 months ago
+Last updated 37 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -22003,7 +21997,7 @@ This can save some server performance, but the drawback is that the items to be 
 
 Previous📊DataNext❓FAQ
 
-Last updated 5 months ago
+Last updated 37 minutes ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -22438,7 +22432,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 19 days ago
+Last updated 33 minutes ago
 
 Java Version
 
@@ -22886,7 +22880,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 8 days ago
+Last updated 34 minutes ago
 
 Create the menu
 
@@ -23324,7 +23318,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 13 days ago
+Last updated 34 minutes ago
 
 Requirements
 
@@ -23895,7 +23889,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 
 Previous🔲General MenusNext🔍Search Menus - Premium
 
-Last updated 5 months ago
+Last updated 38 minutes ago
 
 Buy More Menus Config
 
@@ -24256,7 +24250,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🛒Sell All MenuNext🛏️Bedrock Menus - Premium
 
-Last updated 4 months ago
+Last updated 37 minutes ago
 
 Set display condition
 
@@ -24596,7 +24590,7 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 12 days ago
+Last updated 37 minutes ago
 
 Requirements
 
@@ -25114,7 +25108,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 1 month ago
+Last updated 1 hour ago
 
 General Setting
 
@@ -25570,7 +25564,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 3 months ago
+Last updated 1 hour ago
 
 Favourite Menu Config
 
@@ -25985,7 +25979,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 8 days ago
+Last updated 34 minutes ago
 
 Create the menu
 
@@ -26221,7 +26215,7 @@ type: close
 
 {% endcode %}
 
-`D` is the product ID used under [shop](/shops/shops.md) config's `items` section. Menu layouts use one-character product IDs directly; advanced sub-buttons can represent the same product in additional slots or menus. For more info, please view [Layout Option](/menus/general-menus.md#layout-option).
+`D` is the product ID used under [shop](/shops/shops.md) config's `items` section. Menu layouts use one-character product IDs directly; advanced sub-buttons can represent the same product in additional slots or menus. For more info, please view [Layout Option](#layout-option).
 
 ## Types
 
@@ -26769,7 +26763,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favourite Menus - Premium
 
-Last updated 3 months ago
+Last updated 1 hour ago
 
 Search Menus Config
 
@@ -26791,13 +26785,12 @@ menu:
 
 Copy
 
-/shop searchgui
-/shop searchgui <menuName>
+/shop menu <menuName>
 
 Copy
 
-/shop searchgui search
-/shop searchgui search2
+/shop menu search
+/shop menu search2
 
 Copy
 
@@ -26893,15 +26886,14 @@ The default search menu file is `menus/search.yml`, and you can duplicate it to 
 Command:
 
 ```yaml
-/shop searchgui
-/shop searchgui
+/shop menu
 ```
 
 Examples:
 
 ```yaml
-/shop searchgui search
-/shop searchgui search2
+/shop menu search
+/shop menu search2
 ```
 
 ## Search Behavior
@@ -27142,7 +27134,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favourite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 3 months ago
+Last updated 37 minutes ago
 
 Sell All Menu Config
 
@@ -27356,7 +27348,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 3 months ago
+Last updated 37 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/other-language-wiki.md
@@ -27885,7 +27877,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 1 hour ago
 
 Built-in Placeholders List
 
@@ -28425,7 +28417,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 1 hour ago
 
 Built-in Placeholders List
 
@@ -29053,7 +29045,7 @@ Replace yourPlaceholderName to the file name of the conditional placeholder you 
 
 Previous🎲Random Placeholder - PremiumNext🗯️Custom Placeholder - Premium
 
-Last updated 6 months ago
+Last updated 2 hours ago
 
 Config
 
@@ -29374,7 +29366,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 1 month ago
+Last updated 2 hours ago
 
 Config
 
@@ -29417,7 +29409,7 @@ Use `{custom_}` placeholder to display it's value. For more info, please view [P
 
 You need to set the value of the custom placeholder by using commands.
 
-* /shop setcustomplaceholder \ \ \[playerName] \
+* /shop setcustomplaceholder \ \ \[playerName]\
 If `per-player-result` is set to `true`, then `playerName` will be a required parameter; otherwise, the playerName parameter should not be entered.
 * /shop addcustomplaceholder \ \ \[playerName]\
 Only work number type of custom placeholder. It will be added to the current value of the placeholder. For example, if the current value is 1 and the value parameter entered here is 5, then the final placeholder value will be replaced with 6.
@@ -29630,7 +29622,7 @@ If you want to disable this feature for specified shops, use black-shops option.
 
 Previous🗯️Custom Placeholder - PremiumNext🔄Dynamic Price
 
-Last updated 6 months ago
+Last updated 2 hours ago
 
 Create Conditional Placeholder
 
@@ -30113,7 +30105,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 34 minutes ago
 
 Config
 
@@ -30686,7 +30678,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 8 days ago
+Last updated 1 hour ago
 
 Create the shop
 
@@ -30952,7 +30944,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 8 days ago
+Last updated 3 hours ago
 
 Product A - VIP Limits
 
@@ -31501,7 +31493,7 @@ Then also use condition system:
 
 Previous📅Example: Daily Shop/Rotating ShopNext🔧Built-in Placeholders
 
-Last updated 1 year ago
+Last updated 3 hours ago
 
 Copy
 
@@ -31935,7 +31927,7 @@ Showcase
 
 Previous🌱Example: Stock (like in life)Next🏆Example: Daily Rewards
 
-Last updated 8 days ago
+Last updated 3 hours ago
 
 Create random placeholder
 
@@ -32522,7 +32514,7 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 8 days ago
+Last updated 1 hour ago
 
 Set dynamic value for your product configs
 
@@ -32989,7 +32981,7 @@ If you must use placeholders in your reset time, switch to a reset mode that sta
 
 Previous💰Products Config: Single ThingNext🔗Shared Product Data - Premium
 
-Last updated 5 months ago
+Last updated 18 minutes ago
 
 Reset
 
@@ -33913,7 +33905,7 @@ Same as CLASSIC_ANY.
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 8 days ago
+Last updated 2 hours ago
 
 Model
 
@@ -34690,7 +34682,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 20 days ago
+Last updated 2 hours ago
 
 What Is a Single Thing?
 
@@ -36388,7 +36380,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 2 months ago
+Last updated 1 hour ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
@@ -36695,7 +36687,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 3 months ago
+Last updated 3 hours ago
 
 Overview
 
@@ -36733,7 +36725,7 @@ URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium.md
 # 🔗Shared Product Data - Premium
 
 {% hint style="warning" %}
-The **shared product data** feature is not currently introduced as a core function of UltimateShop and is still in the early testing phase. It may be officially released in future versions or potentially removed if it contains irreparable critical issues. \
+The **shared product data** feature is not currently introduced as a core function of UltimateShop and is still in the early testing phase. It may be officially released in future versions or potentially removed if it contains irreparable critical issues.\
 Shared product data is now available at **4.4.2 or later** version.
 {% endhint %}
 
@@ -37093,7 +37085,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 8 days ago
+Last updated 1 hour ago
 
 Create the shop
 
