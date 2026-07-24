@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-23T02:09:15Z
+Generated UTC: 2026-07-24T02:03:20Z
 Page Count: 137
 
 ============================================================
@@ -4045,7 +4045,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Enable Math Feature
 
@@ -10425,7 +10425,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Basic Syntax
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 General Options
 
@@ -17311,7 +17311,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Basic Syntax
 
@@ -17870,7 +17870,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Java Version
 
@@ -18226,7 +18226,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 FAQ:
 
@@ -21462,7 +21462,7 @@ A: View Dynamic Price page.
 
 Previous🚀PerformanceNext🆚Compare
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -21754,7 +21754,7 @@ Default configs are just helping you understand the config framework, you need m
 
 Previous✅RequirementsNext🔗Compatibility
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -22880,7 +22880,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create the menu
 
@@ -23318,7 +23318,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Requirements
 
@@ -25979,7 +25979,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create the menu
 
@@ -30678,7 +30678,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create the shop
 
@@ -32981,7 +32981,7 @@ If you must use placeholders in your reset time, switch to a reset mode that sta
 
 Previous💰Products Config: Single ThingNext🔗Shared Product Data - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Reset
 
@@ -36380,7 +36380,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
