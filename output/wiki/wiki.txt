@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-07-26T02:07:21Z
+Generated UTC: 2026-07-27T02:14:45Z
 Page Count: 137
 
 ============================================================
@@ -422,7 +422,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -614,7 +614,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -1462,7 +1462,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Add as dependency
 
@@ -2598,7 +2598,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Add as dependency
 
@@ -4045,7 +4045,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Enable Math Feature
 
@@ -4412,7 +4412,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Enable Math Feature
 
@@ -4666,7 +4666,7 @@ Showcase
 
 Previous🔄Dynamic PriceNext🌏Advanced Language Managment
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Dynamic Price Status
 
@@ -5137,7 +5137,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Default Language
 
@@ -5462,7 +5462,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Default Language
 
@@ -5893,7 +5893,7 @@ For Paper users who meet use MiniMessage requirements, we will auto translate bu
 
 Previous🌏Advanced Language ManagmentNext💴Easy Prices
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 MiniMessage
 
@@ -6164,7 +6164,7 @@ Do not forgot also update your auto add lore configs to make product description
 
 Previous🔢Number FormatNext🔍Custom Item Match Method
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Options
 
@@ -6548,7 +6548,7 @@ An example product config can be found below, in this example, both emerald and 
 
 Previous🎮Custom Click Event - PremiumNext🔑Give Item Method
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Default Item Match Method
 
@@ -6941,7 +6941,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 EconomyLimit
 
@@ -7403,7 +7403,7 @@ start-apply: 0
 
 Previous🎨Color CodeNext🪄Sell Stick - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -7653,7 +7653,7 @@ It is very difficult to attempt to restore the vanilla mechanism without contact
 
 Previous🔍Custom Item Match MethodNext💳Log Transaction - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 BUKKIT
 
@@ -8176,7 +8176,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Requirements
 
@@ -8612,7 +8612,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Format available placeholders:
 
@@ -8840,7 +8840,7 @@ Like most plugins, UltimateShop does not verify the accuracy and synchronization
 
 Previous🌍Localized Item Name - PremiumNext🔢Number Format
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
@@ -9069,7 +9069,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Built-in number format
 
@@ -9365,7 +9365,7 @@ Saved items will be cached in memory continuously after loading to avoid repeate
 
 Previous🎁Sell Chest - PremiumNext🌍Localized Item Name - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create your item
 
@@ -9696,7 +9696,7 @@ Showcase
 
 Previous🪄Sell Stick - PremiumNext💾Saved Item (Item Manager)
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Limitation
 
@@ -10080,7 +10080,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium.md
@@ -10425,7 +10425,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Basic Syntax
 
@@ -10954,7 +10954,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 General Options
 
@@ -12325,7 +12325,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 General Options
 
@@ -12870,7 +12870,7 @@ value: '0'z
 
 Previous💹EconomyFormat™Next🎬Action Format
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Single
 
@@ -13154,7 +13154,7 @@ Example:
 
 Previous🌉ItemBridgeNext🖼️Display Item Format
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Hook Economy
 
@@ -13455,7 +13455,7 @@ Music
 
 Previous📊Understanding YAML/This wikiNext📝ItemFormat™
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Item parameter possible value list
 
@@ -13889,7 +13889,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Supported Plugin List
 
@@ -14457,7 +14457,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Hook Item
 
@@ -15782,7 +15782,7 @@ Misc
 
 Previous📝ItemFormat™Next🌉ItemBridge
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Custom Name
 
@@ -16714,7 +16714,7 @@ Not applicable
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 List of match calculate format
 
@@ -17311,7 +17311,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Basic Syntax
 
@@ -17870,7 +17870,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Java Version
 
@@ -18226,7 +18226,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 FAQ:
 
@@ -18844,7 +18844,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -19425,7 +19425,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Direct compatibility
 
@@ -19972,7 +19972,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Copy
 
@@ -21151,7 +21151,7 @@ org.h2.Driver
 
 Previous⌨️Commands & PermissionsNext🚀Performance
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Data Type
 
@@ -21462,7 +21462,7 @@ A: View Dynamic Price page.
 
 Previous🚀PerformanceNext🆚Compare
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -21754,7 +21754,7 @@ Default configs are just helping you understand the config framework, you need m
 
 Previous✅RequirementsNext🔗Compatibility
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -21997,7 +21997,7 @@ This can save some server performance, but the drawback is that the items to be 
 
 Previous📊DataNext❓FAQ
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -22432,7 +22432,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Java Version
 
@@ -22880,7 +22880,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create the menu
 
@@ -23318,7 +23318,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Requirements
 
@@ -23889,7 +23889,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 
 Previous🔲General MenusNext🔍Search Menus - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Buy More Menus Config
 
@@ -24250,7 +24250,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🛒Sell All MenuNext🛏️Bedrock Menus - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Set display condition
 
@@ -24590,7 +24590,7 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Requirements
 
@@ -25108,7 +25108,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 General Setting
 
@@ -25564,7 +25564,7 @@ Examples:
 
 Previous🔍Search Menus - PremiumNext🛒Sell All Menu
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Favourite Menu Config
 
@@ -25979,7 +25979,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create the menu
 
@@ -26763,7 +26763,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext❤️Favourite Menus - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Search Menus Config
 
@@ -27134,7 +27134,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favourite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Sell All Menu Config
 
@@ -27348,7 +27348,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/other-language-wiki.md
@@ -27877,7 +27877,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Built-in Placeholders List
 
@@ -28417,7 +28417,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Built-in Placeholders List
 
@@ -29045,7 +29045,7 @@ Replace yourPlaceholderName to the file name of the conditional placeholder you 
 
 Previous🎲Random Placeholder - PremiumNext🗯️Custom Placeholder - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Config
 
@@ -29366,7 +29366,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Config
 
@@ -29622,7 +29622,7 @@ If you want to disable this feature for specified shops, use black-shops option.
 
 Previous🗯️Custom Placeholder - PremiumNext🔄Dynamic Price
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create Conditional Placeholder
 
@@ -30105,7 +30105,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Config
 
@@ -30678,7 +30678,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create the shop
 
@@ -30944,7 +30944,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Product A - VIP Limits
 
@@ -31493,7 +31493,7 @@ Then also use condition system:
 
 Previous📅Example: Daily Shop/Rotating ShopNext🔧Built-in Placeholders
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Copy
 
@@ -31927,7 +31927,7 @@ Showcase
 
 Previous🌱Example: Stock (like in life)Next🏆Example: Daily Rewards
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create random placeholder
 
@@ -32514,7 +32514,7 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Set dynamic value for your product configs
 
@@ -32981,7 +32981,7 @@ If you must use placeholders in your reset time, switch to a reset mode that sta
 
 Previous💰Products Config: Single ThingNext🔗Shared Product Data - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Reset
 
@@ -33905,7 +33905,7 @@ Same as CLASSIC_ANY.
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Model
 
@@ -34682,7 +34682,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 What Is a Single Thing?
 
@@ -36380,7 +36380,7 @@ value and value-conditions: The multiplier id in value must match the id in valu
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
@@ -36687,7 +36687,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Overview
 
@@ -37085,7 +37085,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create the shop
 
