@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-08-13T01:23:16Z
+Generated UTC: 2026-08-14T01:19:53Z
 Page Count: 137
 
 ============================================================
@@ -5137,7 +5137,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Default Language
 
@@ -21997,7 +21997,7 @@ This can save some server performance, but the drawback is that the items to be 
 
 Previous📊DataNext❓FAQ
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -22880,7 +22880,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Create the menu
 
@@ -25108,7 +25108,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 General Setting
 
@@ -27877,7 +27877,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Built-in Placeholders List
 
@@ -30678,7 +30678,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 24 days ago
+Last updated 25 days ago
 
 Create the shop
 
