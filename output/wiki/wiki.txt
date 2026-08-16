@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-08-15T00:51:50Z
-Page Count: 137
+Generated UTC: 2026-08-16T00:54:57Z
+Page Count: 139
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -69,6 +69,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -237,7 +239,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Links
 
@@ -251,7 +253,7 @@ Info
 Title: Business License | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/business-license
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -314,6 +316,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -422,7 +426,7 @@ The first payment will be made based on the actual number of copies sold (if les
 
 Previous💬Config PackNext✅Requirements
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/business-license.md
@@ -441,7 +445,7 @@ If you are a creator of a paid server setup or similar product and wish to incor
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -504,6 +508,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -614,7 +620,7 @@ Click here to view.
 
 Previous🌏Other Language WikiNextBusiness License
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -641,7 +647,7 @@ Those config packs are not included in plugin, even not in premium version of pl
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -704,6 +710,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -1462,7 +1470,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Add as dependency
 
@@ -1777,7 +1785,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -1840,6 +1848,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -2598,7 +2608,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Add as dependency
 
@@ -3732,7 +3742,7 @@ Together, these show the hook style UltimateShop expects.
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -3795,6 +3805,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -4045,7 +4057,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Enable Math Feature
 
@@ -4099,7 +4111,7 @@ start-apply: 0
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -4162,6 +4174,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -4412,7 +4426,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 
 Previous🔖Example: DiscountNext🔴Dynamic Price Status - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Enable Math Feature
 
@@ -4466,7 +4480,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -4529,6 +4543,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -4666,7 +4682,7 @@ Showcase
 
 Previous🔄Dynamic PriceNext🌏Advanced Language Managment
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Dynamic Price Status
 
@@ -4907,7 +4923,7 @@ You can reset the buy times or sell times by our auto reset feature, you can fin
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -4970,6 +4986,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -5137,7 +5155,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Default Language
 
@@ -5232,7 +5250,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -5295,6 +5313,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -5462,7 +5482,7 @@ Sound
 
 Previous🔴Dynamic Price Status - PremiumNext🎨Color Code
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Default Language
 
@@ -5692,7 +5712,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -5755,6 +5775,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -5893,7 +5915,7 @@ For Paper users who meet use MiniMessage requirements, we will auto translate bu
 
 Previous🌏Advanced Language ManagmentNext💴Easy Prices
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 MiniMessage
 
@@ -5933,7 +5955,7 @@ UltimateShop provides 2 color code format. The plugin will automatically determi
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -5996,6 +6018,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -6164,7 +6188,7 @@ Do not forgot also update your auto add lore configs to make product description
 
 Previous🔢Number FormatNext🔍Custom Item Match Method
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Options
 
@@ -6323,7 +6347,7 @@ max-amount: 128
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -6386,6 +6410,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -6548,7 +6574,7 @@ An example product config can be found below, in this example, both emerald and 
 
 Previous🎮Custom Click Event - PremiumNext🔑Give Item Method
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Default Item Match Method
 
@@ -6667,7 +6693,7 @@ buy-prices:
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -6730,6 +6756,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -6941,7 +6969,7 @@ If the rule does not reset, it returns status.never from the language file.
 
 Previous💳Log Transaction - PremiumNextDevelop Guide
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 EconomyLimit
 
@@ -7197,7 +7225,7 @@ If the rule does not reset, it returns `status.never` from the language file.
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -7260,6 +7288,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -7403,7 +7433,7 @@ start-apply: 0
 
 Previous🎨Color CodeNext🪄Sell Stick - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -7459,7 +7489,7 @@ start-apply: 0
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -7522,6 +7552,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -7653,7 +7685,7 @@ It is very difficult to attempt to restore the vanilla mechanism without contact
 
 Previous🔍Custom Item Match MethodNext💳Log Transaction - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 BUKKIT
 
@@ -7699,7 +7731,7 @@ It is very difficult to attempt to restore the vanilla mechanism without contact
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -7762,6 +7794,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -8176,7 +8210,7 @@ For example:
 
 Previous💾Saved Item (Item Manager)Next🌐Multi Server Sync - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Requirements
 
@@ -8402,7 +8436,7 @@ amount: 10
 Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -8465,6 +8499,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -8612,7 +8648,7 @@ Showcase
 
 Previous🔑Give Item MethodNext🌈Earn Limit
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Format available placeholders:
 
@@ -8663,7 +8699,7 @@ time-format: "yyyy-MM-dd HH:mm:ss"
 Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -8726,6 +8762,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -8840,7 +8878,7 @@ Like most plugins, UltimateShop does not verify the accuracy and synchronization
 
 Previous🌍Localized Item Name - PremiumNext🔢Number Format
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
@@ -8860,7 +8898,7 @@ URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
 Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -8923,6 +8961,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -9069,7 +9109,7 @@ Start from 2.3.2, you can just use those options in config.yml to let plugin hel
 
 Previous🌐Multi Server Sync - PremiumNext🎮Custom Click Event - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Built-in number format
 
@@ -9145,7 +9185,7 @@ replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as her
 Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -9208,6 +9248,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -9365,7 +9407,7 @@ Saved items will be cached in memory continuously after loading to avoid repeate
 
 Previous🎁Sell Chest - PremiumNext🌍Localized Item Name - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Create your item
 
@@ -9449,7 +9491,7 @@ Saved items will be cached in memory continuously after loading to avoid repeate
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -9512,6 +9554,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -9696,7 +9740,7 @@ Showcase
 
 Previous🪄Sell Stick - PremiumNext💾Saved Item (Item Manager)
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Limitation
 
@@ -9874,7 +9918,7 @@ The purpose of doing this is to save server performance. We will not set separat
 Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -9937,6 +9981,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -10080,7 +10126,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 
 Previous💴Easy PricesNext🎁Sell Chest - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium.md
@@ -10132,7 +10178,7 @@ UltimateShop supports you prevent player use sell tick in protected area or othe
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -10195,6 +10241,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -10425,7 +10473,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Basic Syntax
 
@@ -10533,7 +10581,7 @@ secret-shop-items: []
 Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -10596,6 +10644,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -10954,7 +11004,7 @@ Back to the previous menu, if previous menu does not exist, will open the menu e
 
 Previous🖼️Display Item FormatNext⚖️Condition Format
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 General Options
 
@@ -11996,7 +12046,7 @@ shop: 'flowers'
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -12059,6 +12109,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -12325,7 +12377,7 @@ Not - Premium
 
 Previous🎬Action FormatNext➗Math Calculate Format
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 General Options
 
@@ -12649,7 +12701,7 @@ value: 200
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -12712,6 +12764,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -12870,7 +12924,7 @@ value: '0'z
 
 Previous💹EconomyFormat™Next🎬Action Format
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Single
 
@@ -12943,7 +12997,7 @@ value: '0'z
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -13006,6 +13060,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -13154,7 +13210,7 @@ Example:
 
 Previous🌉ItemBridgeNext🖼️Display Item Format
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Hook Economy
 
@@ -13226,7 +13282,7 @@ placeholder: '5 levels'
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -13289,6 +13345,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -13455,7 +13513,7 @@ Music
 
 Previous📊Understanding YAML/This wikiNext📝ItemFormat™
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Item parameter possible value list
 
@@ -13644,7 +13702,7 @@ https://jd.papermc.io/paper//org/bukkit/MusicInstrument.html
 Title: 🌉ItemBridge | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itembridge
 
-Links: 67
+Links: 68
 
 UltimateShop Wiki
 
@@ -13707,6 +13765,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -13889,7 +13949,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 
 PreviousComponent FormatNext💹EconomyFormat™
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Supported Plugin List
 
@@ -13992,7 +14052,7 @@ If you are unsure how to fill in the values for these two options, you can hold 
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 67
+Links: 68
 
 UltimateShop Wiki
 
@@ -14057,6 +14117,8 @@ Component Format
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -14457,7 +14519,7 @@ NBTAPI - Premium
 
 Previous🛒Info of ItemFormat™NextComponent Format
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Hook Item
 
@@ -15548,7 +15610,7 @@ Supported plugins at the moment:
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 67
+Links: 68
 
 UltimateShop Wiki
 
@@ -15613,6 +15675,8 @@ Component Format
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -15782,7 +15846,7 @@ Misc
 
 Previous📝ItemFormat™Next🌉ItemBridge
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Custom Name
 
@@ -16285,7 +16349,7 @@ speed-multiplier: 0.4
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -16348,6 +16412,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -16714,7 +16780,7 @@ Not applicable
 
 Previous⚖️Condition FormatNext🔲General Menus
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 List of match calculate format
 
@@ -17018,7 +17084,7 @@ You need enable `math.enabled` option in your `config.yml` file to use this feat
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -17081,6 +17147,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -17311,7 +17379,7 @@ This line can usually be safely removed.
 
 Previous🆚CompareNext🛒Info of ItemFormat™
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Basic Syntax
 
@@ -17628,7 +17696,7 @@ This line can usually be safely removed.
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -17691,6 +17759,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -17870,7 +17940,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Java Version
 
@@ -17884,7 +17954,7 @@ An economy plugin if you want to use custom currency
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -17947,6 +18017,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -18055,7 +18127,7 @@ A: Use /shop can directly open a menu called main. This is a feature called Auto
 
 Why it say condition not meet when open daily example menu?
 
-A: That menu already set a condition and you can find it at menus/daily-shop-example.yml.
+A: That menu already has a condition, which you can find in shop_menu_templates/daily-shop-menu.yml.
 
 ultimateshop.bypassprice
 
@@ -18226,7 +18298,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 25 days ago
+Last updated 37 minutes ago
 
 FAQ:
 
@@ -18295,7 +18367,7 @@ A: Use `/shop` can directly open a menu called `main`. This is a feature called 
 
 ### Why it say condition not meet when open daily example menu?
 
-A: That menu already set a condition and you can find it at `menus/daily-shop-example.yml`.
+A: That menu already has a condition, which you can find in `shop_menu_templates/daily-shop-menu.yml`.
 
 ## ultimateshop.bypassprice
 
@@ -18486,7 +18558,7 @@ For command list of custom placeholder feature, please view [this page](/placeho
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -18549,6 +18621,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -18844,7 +18918,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 
 Previous❓FAQNext📊Understanding YAML/This wiki
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -19096,7 +19170,7 @@ Many small differences were not mentioned here or, I forgot them put here, and m
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -19159,6 +19233,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -19425,7 +19501,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 
 Previous⚙️InstallNext🛠️Configuration files
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Direct compatibility
 
@@ -19775,7 +19851,7 @@ UltimateShop provides those new placeholders to PlaceholderAPI, for more info, p
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -19838,6 +19914,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -19946,7 +20024,17 @@ items: The location for storing saved item files.
 
 languages: The location for storing language files. You can set the language file used by the plugin through the config-files.language option in the config.yml file. You can customize various messages within the plugin game through language files. For per player language, or send action bar/title/boss bar/sound, please view this page.
 
-menus: The location for storing menu configuration files.
+menus: The location for storing common menu configuration files.
+
+shop_menu_templates: The location for storing shop menu template files.
+
+buy_more_menus: The location for storing buy more menu files.
+
+favourite_menus: The location for storing favourite menu files.
+
+search_menus: The location for storing search menu files.
+
+item_sell_menus: The location for storing item sell menu files.
 
 Many people seem to be confused about one thing: what you open through the /shop command is a menu, not a shop. If you want to set the slot for items in the shop menu, you should set it in the configuration file of the menu.
 
@@ -19972,7 +20060,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 25 days ago
+Last updated 18 minutes ago
 
 Copy
 
@@ -20083,6 +20171,39 @@ vip:
 1:
 type: permission
 permission: 'group.vip'
+price-modifier:
+item-sell-menu:
+# Products with `price-modifier: true` open this item sell menu when clicked.
+enabled: true
+menu: item-sell
+durability:
+type: durability
+enabled: true
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+lore:
+type: lore
+enabled: false
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+nbt:
+type: nbt
+enabled: false
+key: item_value
+value-type: AUTO
+operation: SET
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+mythic-changer:
+type: match_item
+enabled: false
+mode: STACK
+rules: {}
 
 give-item:
 # Support value: BUKKIT, SMART
@@ -20441,7 +20562,12 @@ The plugin generates the following configuration files, some of which will only 
 * `datas`: The location for storing plugin data files. It will only be generated without using a database. Do not modify any content here.
 * `items`: The location for storing saved item files.
 * `languages`: The location for storing language files. You can set the language file used by the plugin through the `config-files.language` option in the `config.yml` file. You can customize various messages within the plugin game through language files. For per player language, or send action bar/title/boss bar/sound, please view [this page](/features/advanced-language-managment.md).
-* `menus`: The location for storing menu configuration files.
+* `menus`: The location for storing common menu configuration files.
+* `shop_menu_templates`: The location for storing shop menu template files.
+* `buy_more_menus`: The location for storing buy more menu files.
+* `favourite_menus`: The location for storing favourite menu files.
+* `search_menus`: The location for storing search menu files.
+* `item_sell_menus`: The location for storing item sell menu files.
 
 {% hint style="info" %}
 Many people seem to be confused about one thing: what you open through the `/shop` command is a menu, not a shop. If you want to set the slot for items in the shop menu, you should set it in the configuration file of the menu.
@@ -20568,6 +20694,39 @@ vip:
 1:
 type: permission
 permission: 'group.vip'
+price-modifier:
+item-sell-menu:
+# Products with `price-modifier: true` open this item sell menu when clicked.
+enabled: true
+menu: item-sell
+durability:
+type: durability
+enabled: true
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+lore:
+type: lore
+enabled: false
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+nbt:
+type: nbt
+enabled: false
+key: item_value
+value-type: AUTO
+operation: SET
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+mythic-changer:
+type: match_item
+enabled: false
+mode: STACK
+rules: {}
 
 give-item:
 # Support value: BUKKIT, SMART
@@ -20919,7 +21078,7 @@ bypass-plugin-check:
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -20982,6 +21141,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -21151,7 +21312,7 @@ org.h2.Driver
 
 Previous⌨️Commands & PermissionsNext🚀Performance
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Data Type
 
@@ -21231,7 +21392,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -21294,6 +21455,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -21408,7 +21571,7 @@ A: Use /shop can directly open a menu called main. This is a feature called Auto
 
 Q: Why it say condition not meet when open daily example menu?
 
-A: That menu already set a condition and you can find it at menus/daily-shop-example.yml.
+A: That menu already has a condition, which you can find in shop_menu_templates/daily-shop-menu.yml.
 
 Q: Why can I only sell 64x (or other amunt) items at once?
 
@@ -21462,7 +21625,7 @@ A: View Dynamic Price page.
 
 Previous🚀PerformanceNext🆚Compare
 
-Last updated 25 days ago
+Last updated 1 minute ago
 
 Q: Player don't cost money when buy product.
 
@@ -21515,7 +21678,7 @@ A: Use `/shop` can directly open a menu called `main`. This is a feature called 
 
 ## Q: Why it say condition not meet when open daily example menu?
 
-A: That menu already set a condition and you can find it at `menus/daily-shop-example.yml`.
+A: That menu already has a condition, which you can find in `shop_menu_templates/daily-shop-menu.yml`.
 
 ## **Q: Why can I only sell 64x (or other amunt) items at once?**
 
@@ -21571,7 +21734,7 @@ A: View [Dynamic Price](/dynamic-prices/dynamic-price.md) page.
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -21634,6 +21797,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -21754,7 +21919,7 @@ Default configs are just helping you understand the config framework, you need m
 
 Previous✅RequirementsNext🔗Compatibility
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -21778,7 +21943,7 @@ URL: https://ultimateshop.superiormc.cn/info/install.md
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -21841,6 +22006,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -21997,7 +22164,7 @@ This can save some server performance, but the drawback is that the items to be 
 
 Previous📊DataNext❓FAQ
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -22190,7 +22357,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -22253,6 +22420,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -22432,7 +22601,7 @@ UltimateShop is just a shop plugin and does not provide custom economy functiona
 
 PreviousBusiness LicenseNext⚙️Install
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Java Version
 
@@ -22529,6 +22698,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [🔲General Menus](https://ultimateshop.superiormc.cn/menus/general-menus.md)
 - [🔽Buy More Menus](https://ultimateshop.superiormc.cn/menus/buy-more-menus.md)
 - [🔍Search Menus - Premium](https://ultimateshop.superiormc.cn/menus/search-menus-premium.md)
+- [💰Item Sell Menus](https://ultimateshop.superiormc.cn/menus/item-sell-menus.md)
 - [❤️Favourite Menus - Premium](https://ultimateshop.superiormc.cn/menus/favourite-menus-premium.md)
 - [🛒Sell All Menu](https://ultimateshop.superiormc.cn/menus/sell-all-menu.md)
 - [🔀Conditional Display - Premium](https://ultimateshop.superiormc.cn/menus/conditional-display-premium.md)
@@ -22577,7 +22747,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -22640,6 +22810,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -22740,7 +22912,19 @@ On this page
 
 🔲General Menus
 
-All menu files are saved in /menus/ folder.
+Menu files are separated by purpose:
+
+/menus/: common menus
+
+/shop_menu_templates/: shop menu templates
+
+/buy_more_menus/: buy more menus
+
+/favourite_menus/: favourite menus
+
+/search_menus/: search menus
+
+/item_sell_menus/: menus where players place and confirm the sale of items
 
 Create the menu
 
@@ -22880,7 +23064,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 25 days ago
+Last updated 37 minutes ago
 
 Create the menu
 
@@ -23081,7 +23265,7 @@ click-update: false
 Title: 🛏️Bedrock Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/bedrock-menus-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -23144,6 +23328,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -23318,7 +23504,7 @@ You can also use these placeholders with URLs from other places. We only support
 
 Previous🔀Conditional Display - PremiumNext💬Dialog Menus - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Requirements
 
@@ -23611,7 +23797,7 @@ You can also use these placeholders with URLs from other places. We only support
 Title: 🔽Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/buy-more-menus
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -23674,6 +23860,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -23777,6 +23965,8 @@ On this page
 Buy more menu means select quantity you want, not means open a new menu that can purchase this item again.
 
 Buy More Menus Config
+
+Buy more menu files are saved in the /buy_more_menus/ folder.
 
 Buy more menus have those special options compare than common menu:
 
@@ -23889,7 +24079,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 
 Previous🔲General MenusNext🔍Search Menus - Premium
 
-Last updated 25 days ago
+Last updated 55 minutes ago
 
 Buy More Menus Config
 
@@ -23923,6 +24113,8 @@ Buy more menu means select quantity you want, not means open a new menu that can
 {% endhint %}
 
 ## Buy More Menus Config
+
+Buy more menu files are saved in the `/buy_more_menus/` folder.
 
 Buy more menus have those special options compare than common menu:
 
@@ -24045,7 +24237,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 Title: 🔀Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/conditional-display-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -24108,6 +24300,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -24250,7 +24444,7 @@ Also, you need set menu config's dynamic-layout option to true to use this featu
 
 Previous🛒Sell All MenuNext🛏️Bedrock Menus - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Set display condition
 
@@ -24337,7 +24531,7 @@ layout:
 Title: 💬Dialog Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/dialog-menus-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -24400,6 +24594,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -24590,7 +24786,7 @@ These values support {lang:...} language references. Product information strings
 
 Previous🛏️Bedrock Menus - PremiumNext🥉Display Item Add Lore
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Requirements
 
@@ -24832,7 +25028,7 @@ back: '{lang:menu.dialog.favourite-edit.buttons.back}'
 Title: 🥉Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/display-item-add-lore
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -24895,6 +25091,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -25108,7 +25306,7 @@ You need also update your add-lore settings:
 
 Previous💬Dialog Menus - PremiumNext📂Shops
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 General Setting
 
@@ -25330,7 +25528,7 @@ add-lore:
 Title: ❤️Favourite Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/favourite-menus-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -25393,6 +25591,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -25556,15 +25756,15 @@ Set Favoutite Menu
 
 You should put seach menu ID in menu.favoutire-gui.menu option in config.yml file.
 
-The default favourite menu file is menus/favourite.yml, and you can duplicate it to create more favourite menus.
+The default favourite menu file is favourite_menus/favourite.yml, and you can duplicate it to create more favourite menus.
 
 Command:
 
 Examples:
 
-Previous🔍Search Menus - PremiumNext🛒Sell All Menu
+Previous💰Item Sell MenusNext🛒Sell All Menu
 
-Last updated 25 days ago
+Last updated 37 minutes ago
 
 Favourite Menu Config
 
@@ -25658,7 +25858,7 @@ menu:
 - 'favoutite2' # Put more search menu ID here.
 ```
 
-The default favourite menu file is `menus/favourite.yml`, and you can duplicate it to create more favourite menus.
+The default favourite menu file is `favourite_menus/favourite.yml`, and you can duplicate it to create more favourite menus.
 
 Command:
 
@@ -25676,7 +25876,7 @@ Examples:
 Title: 🔲General Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -25739,6 +25939,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -25839,7 +26041,19 @@ On this page
 
 🔲General Menus
 
-All menu files are saved in /menus/ folder.
+Menu files are separated by purpose:
+
+/menus/: common menus
+
+/shop_menu_templates/: shop menu templates
+
+/buy_more_menus/: buy more menus
+
+/favourite_menus/: favourite menus
+
+/search_menus/: search menus
+
+/item_sell_menus/: menus where players place and confirm the sale of items
 
 Create the menu
 
@@ -25979,7 +26193,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 25 days ago
+Last updated 37 minutes ago
 
 Create the menu
 
@@ -26183,7 +26397,14 @@ URL: https://ultimateshop.superiormc.cn/menus/general-menus.md
 
 # 🔲General Menus
 
-All menu files are saved in `/menus/` folder.
+Menu files are separated by purpose:
+
+* `/menus/`: common menus
+* `/shop_menu_templates/`: shop menu templates
+* `/buy_more_menus/`: buy more menus
+* `/favourite_menus/`: favourite menus
+* `/search_menus/`: search menus
+* `/item_sell_menus/`: menus where players place and confirm the sale of items
 
 ## Create the menu
 
@@ -26482,10 +26703,10 @@ click-update: false
 ```
 
 ============================================================
-Title: 🔍Search Menus - Premium | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/menus/search-menus-premium
+Title: 💰Item Sell Menus | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -26548,6 +26769,188 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
+
+❤️Favourite Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+
+Copy
+On this page
+
+🔌Menus
+
+💰Item Sell Menus
+
+Previous🔍Search Menus - PremiumNext❤️Favourite Menus - Premium
+
+Last updated 1 minute ago
+
+============================================================
+URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
+
+> For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/menus/item-sell-menus.md).
+
+# 💰Item Sell Menus
+
+============================================================
+Title: 🔍Search Menus - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/menus/search-menus-premium
+
+Links: 67
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+Business License
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -26726,7 +27129,7 @@ Set Search Menu
 
 You should put seach menu ID in menu.search-gui.menu option in config.yml file.
 
-The default search menu file is menus/search.yml, and you can duplicate it to create more search menus.
+The default search menu file is search_menus/search.yml, and you can duplicate it to create more search menus.
 
 Command:
 
@@ -26761,9 +27164,9 @@ typing cancel-keyword: cancels the current prompt
 
 typing clear-keyword: clears the current name filter
 
-Previous🔽Buy More MenusNext❤️Favourite Menus - Premium
+Previous🔽Buy More MenusNext💰Item Sell Menus
 
-Last updated 25 days ago
+Last updated 37 minutes ago
 
 Search Menus Config
 
@@ -26881,7 +27284,7 @@ menu:
 - 'search2' # Put more search menu ID here.
 ```
 
-The default search menu file is `menus/search.yml`, and you can duplicate it to create more search menus.
+The default search menu file is `search_menus/search.yml`, and you can duplicate it to create more search menus.
 
 Command:
 
@@ -26943,7 +27346,7 @@ Meaning:
 Title: 🛒Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/sell-all-menu
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -27006,6 +27409,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -27134,7 +27539,7 @@ You can use /shop sellall command to open sell all menu. This command require ul
 
 Previous❤️Favourite Menus - PremiumNext🔀Conditional Display - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Sell All Menu Config
 
@@ -27177,7 +27582,7 @@ You can use `/shop sellall` command to open sell all menu. This command require 
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 65
+Links: 66
 
 UltimateShop Wiki
 
@@ -27240,6 +27645,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -27348,7 +27755,7 @@ Site: Click here (点击这里)
 
 Previous🎉WelcomeNext💬Config Pack
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/other-language-wiki.md
@@ -27369,7 +27776,7 @@ Wiki translations in other languages come from the community and do not represen
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -27432,6 +27839,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -27877,7 +28286,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Built-in Placeholders List
 
@@ -27909,7 +28318,7 @@ unknown: "Unknown"
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -27972,6 +28381,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -28417,7 +28828,7 @@ Use ;; symbol if you want to start a new line, this is very useful for some peop
 
 Previous🏆Example: Daily RewardsNext🎲Random Placeholder - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Built-in Placeholders List
 
@@ -28829,7 +29240,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -28892,6 +29303,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -29045,7 +29458,7 @@ Replace yourPlaceholderName to the file name of the conditional placeholder you 
 
 Previous🎲Random Placeholder - PremiumNext🗯️Custom Placeholder - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Config
 
@@ -29167,7 +29580,7 @@ Replace `yourPlaceholderName` to the file name of the conditional placeholder yo
 Title: 🗯️Custom Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -29230,6 +29643,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -29366,7 +29781,7 @@ Only work number type of custom placeholder. It will be added to the current val
 
 Previous⛓️Conditional Placeholder - PremiumNext🔖Example: Discount
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Config
 
@@ -29418,7 +29833,7 @@ Only work number type of custom placeholder. It will be added to the current val
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -29481,6 +29896,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -29622,7 +30039,7 @@ If you want to disable this feature for specified shops, use black-shops option.
 
 Previous🗯️Custom Placeholder - PremiumNext🔄Dynamic Price
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Create Conditional Placeholder
 
@@ -29788,7 +30205,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -29851,6 +30268,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -30105,7 +30524,7 @@ Use {random_price} placeholder at any product's price config. Like I add this pl
 
 Previous🔧Built-in PlaceholdersNext⛓️Conditional Placeholder - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Config
 
@@ -30406,7 +30825,7 @@ start-apply: 0
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -30469,6 +30888,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -30632,7 +31053,7 @@ Settings
 
 menu: Shop menu name, which means menu file name. It’s the central hub that connects your shop and menu. In this example, we set it to example-shop-menu.
 
-You should be find the menu file at the menus folder, it will called example-shop-menu.yml. For info about menus, please view Menus page.
+You can find the menu file in the shop_menu_templates folder; it is called example-shop-menu.yml. For info about menus, please view Menus page.
 
 menu-settings: You can set up a separate menu configuration exclusively for this shop. This part will overwrite the corresponding menu configuration. You can remove menu option if this part include all menu options you want to.
 
@@ -30678,7 +31099,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 25 days ago
+Last updated 3 minutes ago
 
 Create the shop
 
@@ -30731,7 +31152,7 @@ require-meet-menu-open-conditions: true
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -30794,6 +31215,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -30944,7 +31367,7 @@ Seasonal Product
 
 Previous💰Sell Multiplier - PremiumNext🌱Example: Stock (like in life)
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Product A - VIP Limits
 
@@ -31289,7 +31712,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -31352,6 +31775,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -31493,7 +31918,7 @@ Then also use condition system:
 
 Previous📅Example: Daily Shop/Rotating ShopNext🔧Built-in Placeholders
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Copy
 
@@ -31715,7 +32140,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -31778,6 +32203,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -31927,7 +32354,7 @@ Showcase
 
 Previous🌱Example: Stock (like in life)Next🏆Example: Daily Rewards
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Create random placeholder
 
@@ -32275,7 +32702,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -32338,6 +32765,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -32514,7 +32943,7 @@ Use command /shop setselltimes <shop> <product> global <newStockPlusNowSellTimes
 
 Previous⚡Example: Common UsageNext📅Example: Daily Shop/Rotating Shop
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Set dynamic value for your product configs
 
@@ -32604,7 +33033,7 @@ global `. If you want to restock 50 amount, and the now sell time is 75, then yo
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -32667,6 +33096,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -32981,7 +33412,7 @@ If you must use placeholders in your reset time, switch to a reset mode that sta
 
 Previous💰Products Config: Single ThingNext🔗Shared Product Data - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Reset
 
@@ -33353,7 +33784,7 @@ You **MUST** make sure that time format of the result of Cron placeholder (set i
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -33416,6 +33847,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -33657,6 +34090,8 @@ buy-more: Set whether this product can open buy more menu. Optional. (default to
 buy-more-menu: Set up separate buy more menu settings for the product. Optional. Require 2.2.10+ version. (if not set, will use default value set in config.yml file)
 
 sell-all: Set whether this product can use sell all feature. Optional, default to true. (Added in 3.9.3)
+
+price-modifier: Enables global sell.price-modifier rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Such products remain sellable in that menu even when sell-all is false. Optional, default to false.
 
 shared-use-times: Please view this page.
 
@@ -33905,7 +34340,7 @@ Same as CLASSIC_ANY.
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 25 days ago
+Last updated 27 minutes ago
 
 Model
 
@@ -33953,6 +34388,7 @@ Copy
 
 buy-more: true
 sell-all: true
+price-modifier: false
 hide-message: false
 buy-more-menu:
 menu: buy-more-2
@@ -34009,7 +34445,7 @@ placeholder: '&e50 points'
 Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -34072,6 +34508,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -34682,7 +35120,7 @@ Copy those content in this file and restart the server.
 
 Previous🛒ProductsNext♻️Product Config: Buy/Sell Times Reset
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 What Is a Single Thing?
 
@@ -35875,6 +36313,7 @@ sell: 'RIGHT'
 ```yaml
 buy-more: true
 sell-all: true
+price-modifier: false
 hide-message: false
 buy-more-menu:
 menu: buy-more-2
@@ -35882,6 +36321,7 @@ max-amount: 16
 ```
 
 * sell-all: Set whether this product can use sell all feature. **Optional, default to true. (Added in 3.9.3)**
+* price-modifier: Enables global `sell.price-modifier` rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Such products remain sellable in that menu even when `sell-all` is false. **Optional, default to false.**
 * shared-use-times: Please view [this page](/shops/shared-product-data-premium.md).
 * hide-message: Whether we hide the messages that will send after player buy or sell this product. **Optional, default to false. (Added in 4.2.11)**
 
@@ -36156,7 +36596,7 @@ Same as CLASSIC_ANY.
 Title: 💰Sell Multiplier - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -36219,6 +36659,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -36378,9 +36820,79 @@ STACK mode final result = 1 * 0.9 * 1.1 = 0.99
 
 value and value-conditions: The multiplier id in value must match the id in value-conditions exactly. Should use Condition Format in value-conditions option.
 
+Separate item-aware price modifiers
+
+sell.price-modifier is independent from sell.multiplier. Its rules are global, but only products with price-modifier: true use them. Each matching modifier is merged into the transaction's final multiplier in configuration order.
+
+The durability modifier uses 1 - (lost durability ratio x deduction-coefficient). It never drops below minimum-multiplier; minimum-price can also set a floor for the current numeric price. Non-damageable items use 1.
+
+The Lore modifier searches each lore line with pattern and reads value-group from the first match. Formatting codes are removed when strip-color is true. operation: SET uses the captured number as the price of each sold trade unit, so stack splitting does not change the total, while MULTIPLY multiplies the current price by that number. Values outside the inclusive minimum-value/maximum-value range, values longer than maximum-number-length, and invalid or unmatched lore leave the price unchanged. Unsupported operations are reported as configuration errors and ignored instead of silently falling back to MULTIPLY.
+
+The NBT modifier reads the scalar value at key; nested compounds use dot notation such as custom.price. value-type can be AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE, or STRING. Numeric strings are accepted. It uses the same operations and numeric safety options as the Lore modifier and requires NBTAPI. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
+
+The MythicChanger modifier uses MythicChanger match-item rules. MULTIPLY uses value as a multiplier, while ADD adds value to 1. Unsupported rule operations are reported and the affected rule is ignored. Its mode supports MAX/HIGHEST, MIN/LOWEST, and STACK. If MythicChanger is unavailable, this modifier has no effect.
+
+Enable item-aware pricing for a product in its shop configuration:
+
+Such a product exposes its dynamic sell price in the shop menu's added lore, calculated from its displayed item. Its sell price is hidden from normal sell APIs and all non-item-sell-menu flows, so it can only be sold through an item sell menu. When item-sell-menu.enabled is true, clicking the product in Java, Bedrock, or dialog shop menus opens the configured item-sell-menu.menu directly.
+
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 25 days ago
+Last updated 2 minutes ago
+
+Copy
+
+sell:
+price-modifier:
+item-sell-menu:
+# Products with `price-modifier: true` open this menu when clicked.
+enabled: true
+menu: item-sell
+durability:
+type: durability
+enabled: true
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+# minimum-price: 1
+lore:
+type: lore
+enabled: false
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+strip-color: true
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+nbt:
+type: nbt
+enabled: false
+operation: SET
+key: item_value
+value-type: AUTO
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+mythic-changer:
+type: match_item
+enabled: false
+mode: STACK
+rules:
+named-item:
+operation: MULTIPLY
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
+
+Copy
+
+price-modifier: true
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
@@ -36441,11 +36953,81 @@ Example:
 * STACK mode final result = `1 * 0.9 * 1.1 = 0.99`
 * value and value-conditions: The multiplier id in `value` must match the id in `value-conditions` exactly. Should use [Condition Format](/format/condition-format.md) in `value-conditions` option.
 
+## Separate item-aware price modifiers
+
+`sell.price-modifier` is independent from `sell.multiplier`. Its rules are global, but only products with `price-modifier: true` use them. Each matching modifier is merged into the transaction's final multiplier in configuration order.
+
+```yaml
+sell:
+price-modifier:
+item-sell-menu:
+# Products with `price-modifier: true` open this menu when clicked.
+enabled: true
+menu: item-sell
+durability:
+type: durability
+enabled: true
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+# minimum-price: 1
+lore:
+type: lore
+enabled: false
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+strip-color: true
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+nbt:
+type: nbt
+enabled: false
+operation: SET
+key: item_value
+value-type: AUTO
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+mythic-changer:
+type: match_item
+enabled: false
+mode: STACK
+rules:
+named-item:
+operation: MULTIPLY
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
+```
+
+The durability modifier uses `1 - (lost durability ratio x deduction-coefficient)`. It never drops below `minimum-multiplier`; `minimum-price` can also set a floor for the current numeric price. Non-damageable items use `1`.
+
+The Lore modifier searches each lore line with `pattern` and reads `value-group` from the first match. Formatting codes are removed when `strip-color` is true. `operation: SET` uses the captured number as the price of each sold trade unit, so stack splitting does not change the total, while `MULTIPLY` multiplies the current price by that number. Values outside the inclusive `minimum-value`/`maximum-value` range, values longer than `maximum-number-length`, and invalid or unmatched lore leave the price unchanged. Unsupported operations are reported as configuration errors and ignored instead of silently falling back to `MULTIPLY`.
+
+The NBT modifier reads the scalar value at `key`; nested compounds use dot notation such as `custom.price`. `value-type` can be `AUTO`, `BYTE`, `SHORT`, `INT`, `LONG`, `FLOAT`, `DOUBLE`, or `STRING`. Numeric strings are accepted. It uses the same operations and numeric safety options as the Lore modifier and requires NBTAPI. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
+
+The MythicChanger modifier uses MythicChanger `match-item` rules. `MULTIPLY` uses `value` as a multiplier, while `ADD` adds `value` to `1`. Unsupported rule operations are reported and the affected rule is ignored. Its mode supports `MAX`/`HIGHEST`, `MIN`/`LOWEST`, and `STACK`. If MythicChanger is unavailable, this modifier has no effect.
+
+Enable item-aware pricing for a product in its shop configuration:
+
+```yaml
+price-modifier: true
+```
+
+Such a product exposes its dynamic sell price in the shop menu's added lore, calculated from its displayed item. Its sell price is hidden from normal sell APIs and all non-item-sell-menu flows, so it can only be sold through an item sell menu. When `item-sell-menu.enabled` is true, clicking the product in Java, Bedrock, or dialog shop menus opens the configured `item-sell-menu.menu` directly.
+
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -36508,6 +37090,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -36687,7 +37271,7 @@ For an example of shared use times setting config file inside shared_use_times f
 
 Previous♻️Product Config: Buy/Sell Times ResetNext💰Sell Multiplier - Premium
 
-Last updated 25 days ago
+Last updated 27 days ago
 
 Overview
 
@@ -36813,7 +37397,7 @@ buy-times-reset-time: 00:00:00
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 66
+Links: 67
 
 UltimateShop Wiki
 
@@ -36876,6 +37460,8 @@ Business License
 🔽Buy More Menus
 
 🔍Search Menus - Premium
+
+💰Item Sell Menus
 
 ❤️Favourite Menus - Premium
 
@@ -37039,7 +37625,7 @@ Settings
 
 menu: Shop menu name, which means menu file name. It’s the central hub that connects your shop and menu. In this example, we set it to example-shop-menu.
 
-You should be find the menu file at the menus folder, it will called example-shop-menu.yml. For info about menus, please view Menus page.
+You can find the menu file in the shop_menu_templates folder; it is called example-shop-menu.yml. For info about menus, please view Menus page.
 
 menu-settings: You can set up a separate menu configuration exclusively for this shop. This part will overwrite the corresponding menu configuration. You can remove menu option if this part include all menu options you want to.
 
@@ -37085,7 +37671,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 25 days ago
+Last updated 3 minutes ago
 
 Create the shop
 
@@ -37237,7 +37823,7 @@ start-apply: 0
 
 * menu: Shop menu name, which means menu file name. It’s the central hub that connects your shop and menu. In this example, we set it to `example-shop-menu`.
 
-You should be find the menu file at the `menus` folder, it will called `example-shop-menu.yml`. For info about menus, please view [Menus](/menus/general-menus.md) page.
+You can find the menu file in the `shop_menu_templates` folder; it is called `example-shop-menu.yml`. For info about menus, please view [Menus](/menus/general-menus.md) page.
 * menu-settings: You can set up a separate menu configuration exclusively for this shop. This part will overwrite the corresponding menu configuration. You can remove `menu` option if this part include all menu options you want to.
 * buy-more: Whether product in this shop can open buy more menu.
 * shop-name: Shop display name, which used in `{shop-name}` placeholder.
