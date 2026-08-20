@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-08-19T00:51:22Z
+Generated UTC: 2026-08-20T00:52:30Z
 Page Count: 139
 
 ============================================================
@@ -15846,7 +15846,7 @@ Misc
 
 Previous📝ItemFormat™Next🌉ItemBridge
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Custom Name
 
@@ -18298,7 +18298,7 @@ For command list of custom placeholder feature, please view this page.
 
 Previous🛠️Configuration filesNext📊Data
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 FAQ:
 
@@ -20060,7 +20060,7 @@ It is recommend that you view this file at GitHub, becuase Wiki's config.yml may
 
 Previous🔗CompatibilityNext⌨️Commands & Permissions
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Copy
 
@@ -21625,7 +21625,7 @@ A: View Dynamic Price page.
 
 Previous🚀PerformanceNext🆚Compare
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -23064,7 +23064,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create the menu
 
@@ -24079,7 +24079,7 @@ A: This feature added in version 3.12.1, and premium version only, for example o
 
 Previous🔲General MenusNext🔍Search Menus - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Buy More Menus Config
 
@@ -25764,7 +25764,7 @@ Examples:
 
 Previous💰Item Sell MenusNext🛒Sell All Menu
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Favourite Menu Config
 
@@ -26193,7 +26193,7 @@ If you just want us trying to refresh the product button when we reset buy or se
 
 Previous➗Math Calculate FormatNext🔽Buy More Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create the menu
 
@@ -26873,7 +26873,7 @@ On this page
 
 Previous🔍Search Menus - PremiumNext❤️Favourite Menus - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -27166,7 +27166,7 @@ typing clear-keyword: clears the current name filter
 
 Previous🔽Buy More MenusNext💰Item Sell Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Search Menus Config
 
@@ -31099,7 +31099,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create the shop
 
@@ -34340,7 +34340,7 @@ Same as CLASSIC_ANY.
 
 Previous📂ShopsNext💰Products Config: Single Thing
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Model
 
@@ -36838,7 +36838,7 @@ Such a product exposes its dynamic sell price in the shop menu's added lore, cal
 
 Previous🔗Shared Product Data - PremiumNext⚡Example: Common Usage
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Copy
 
@@ -37671,7 +37671,7 @@ conditions: The condition of this button, if player don't meet this condition, t
 
 Previous🥉Display Item Add LoreNext🛒Products
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create the shop
 
