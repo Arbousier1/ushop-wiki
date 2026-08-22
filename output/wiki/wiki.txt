@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-08-21T00:56:14Z
+Generated UTC: 2026-08-22T00:52:57Z
 Page Count: 139
 
 ============================================================
@@ -19,8 +19,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -97,6 +95,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -250,200 +250,6 @@ Get support
 Info
 
 ============================================================
-Title: Business License | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/business-license
-
-Links: 66
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-Business License
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus
-
-🔲General Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-💰Item Sell Menus
-
-❤️Favourite Menus - Premium
-
-🛒Sell All Menu
-
-🔀Conditional Display - Premium
-
-🛏️Bedrock Menus - Premium
-
-💬Dialog Menus - Premium
-
-🥉Display Item Add Lore
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-For the complete documentation index, see llms.txt. This page is also available as Markdown.
-
-Copy
-On this page
-
-Business License
-
-If you are a creator of a paid server setup or similar product and wish to incorporate the UltimateShop premium version into your product, you may consider our business license.
-
-Price: For every sale of this product, you will need to pay us a license fee of $4. If the product has already been released, considering that some of your old users will no longer update your product, we will consider the average download volume of the last 3 major updates as the number of times it has been sold, and each new purchase by a user thereafter will be considered a sale.
-
-Support: Your product buyer cannot access our buyer support service. But you can always contact us and provide us with feedback on the issues your users have encountered.
-
-The first payment will be made based on the actual number of copies sold (if less than 10 copies, it will be calculated based on 10 copies, and any excess points can be deducted from subsequent sales activities and can be considered as a prepayment, but this prepayment does not include refunds), and will be settled monthly thereafter. If payment is delayed, it will be deemed as an automatic termination of the cooperation. If it is necessary to terminate the cooperation normally, it should be proposed at least one month in advance. After canceling the cooperation, you need to delete all historical versions containing the UltimateShop Premium jar file.
-
-Previous💬Config Pack
-
-Next✅Requirements
-
-Last updated 1 month ago
-
-============================================================
-URL: https://ultimateshop.superiormc.cn/business-license.md
-
-> For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/business-license.md).
-
-# Business License
-
-If you are a creator of a paid server setup or similar product and wish to incorporate the UltimateShop premium version into your product, you may consider our business license.
-
-* Price: For every sale of this product, you will need to pay us a license fee of $4. If the product has already been released, considering that some of your old users will no longer update your product, we will consider the average download volume of the last 3 major updates as the number of times it has been sold, and each new purchase by a user thereafter will be considered a sale.
-* Support: Your product buyer cannot access our buyer support service. But you can always contact us and provide us with feedback on the issues your users have encountered.
-* The first payment will be made based on the actual number of copies sold (if less than 10 copies, it will be calculated based on 10 copies, and any excess points can be deducted from subsequent sales activities and can be considered as a prepayment, but this prepayment does not include refunds), and will be settled monthly thereafter. If payment is delayed, it will be deemed as an automatic termination of the cooperation. If it is necessary to terminate the cooperation normally, it should be proposed at least one month in advance. After canceling the cooperation, you need to delete all historical versions containing the UltimateShop Premium jar file.
-
-============================================================
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
@@ -461,8 +267,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -538,6 +342,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -616,15 +422,17 @@ Those config packs are not included in plugin, even not in premium version of pl
 
 Apply your work: pqguanfang@foxmail.com
 
+Display your work here do not charge creator anything but the creator must provide it product files to approve so we can confirm your work in real and do not have major issues.
+
 Redstone Labs - Shop Configuration
 
 Click here to view.
 
 Previous🌏Other Language Wiki
 
-NextBusiness License
+Next✅Requirements
 
-Last updated 1 month ago
+Last updated 16 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -641,6 +449,8 @@ Those config packs are not included in plugin, even not in premium version of pl
 
 {% hint style="success" %}
 **Apply your work:** `pqguanfang@foxmail.com`
+
+Display your work here do not charge creator anything but the creator must provide it product files to approve so we can confirm your work in real and do not have major issues.
 {% endhint %}
 
 ## Redstone Labs - Shop Configuration
@@ -664,8 +474,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -742,6 +550,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -1803,8 +1613,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -1880,6 +1688,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -3760,8 +3570,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -3837,6 +3645,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -4131,8 +3941,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -4208,6 +4016,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -4502,8 +4312,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -4579,6 +4387,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -4947,8 +4757,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -5024,6 +4832,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -5276,8 +5086,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -5353,6 +5161,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -5740,8 +5550,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -5817,6 +5625,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -5985,8 +5795,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -6062,6 +5870,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -6379,8 +6189,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -6456,6 +6264,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -6727,8 +6537,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -6804,6 +6612,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -7261,8 +7071,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -7338,6 +7146,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -7412,7 +7222,7 @@ On this page
 
 💴Easy Prices
 
-❌This feature is no longer get support and will be removed in future version.
+The code provided for this feature has not been updated for a long time and may have potential issues. The plugin author does not plan to provide any fixes or follow-up updates for this feature. Use it at your own risk.
 
 You can use prices section in config.yml file to create new easy prices!
 
@@ -7457,7 +7267,7 @@ Previous🎨Color Code
 
 Next🪄Sell Stick - Premium
 
-Last updated 1 month ago
+Last updated 36 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -7466,8 +7276,8 @@ URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
 
 # 💴Easy Prices
 
-{% hint style="warning" %}
-❌This feature is no longer get support and will be removed in future version.
+{% hint style="danger" %}
+The code provided for this feature has not been updated for a long time and may have potential issues. The plugin author does not plan to provide any fixes or follow-up updates for this feature. Use it at your own risk.
 {% endhint %}
 
 You can use `prices` section in `config.yml` file to create new easy prices!
@@ -7526,8 +7336,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -7604,6 +7412,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -7771,8 +7581,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -7848,6 +7656,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -8478,8 +8288,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -8555,6 +8363,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -8743,8 +8553,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -8820,6 +8628,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -8944,8 +8754,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -9021,6 +8829,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -9233,8 +9043,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -9310,6 +9118,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -9541,8 +9351,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -9618,6 +9426,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -9970,8 +9780,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -10047,6 +9855,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -10232,8 +10042,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -10309,6 +10117,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -10637,8 +10447,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -10714,6 +10522,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -12104,8 +11914,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -12181,6 +11989,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -12761,8 +12571,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -12838,6 +12646,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -13059,8 +12869,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -13136,6 +12944,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -13346,8 +13156,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -13423,6 +13231,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -13768,8 +13578,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -13845,6 +13653,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -14120,8 +13930,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -14199,6 +14007,8 @@ Component Format
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -15680,8 +15490,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -15759,6 +15567,8 @@ Component Format
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -16421,8 +16231,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -16498,6 +16306,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -17158,8 +16968,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -17235,6 +17043,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -17772,8 +17582,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -17849,6 +17657,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -18000,7 +17810,7 @@ An economy plugin if you want to use custom currency
 
 UltimateShop is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. Vault is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
 
-PreviousBusiness License
+Previous💬Config Pack
 
 Next⚙️Install
 
@@ -18031,8 +17841,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -18109,6 +17917,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -18364,7 +18174,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 FAQ:
 
@@ -18638,8 +18448,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -18715,6 +18523,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -19252,8 +19062,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -19329,6 +19137,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -19935,8 +19745,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -20012,6 +19820,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -20132,7 +19942,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Copy
 
@@ -21164,8 +20974,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -21241,6 +21049,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -21480,8 +21290,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -21557,6 +21365,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -21701,7 +21511,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -21824,8 +21634,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -21901,6 +21709,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -22035,8 +21845,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -22112,6 +21920,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -22451,8 +22261,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -22528,6 +22336,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -22679,7 +22489,7 @@ An economy plugin if you want to use custom currency
 
 UltimateShop is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. Vault is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
 
-PreviousBusiness License
+Previous💬Config Pack
 
 Next⚙️Install
 
@@ -22757,7 +22567,6 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [🎉Welcome](https://ultimateshop.superiormc.cn/welcome.md)
 - [🌏Other Language Wiki](https://ultimateshop.superiormc.cn/other-language-wiki.md)
 - [💬Config Pack](https://ultimateshop.superiormc.cn/config-pack.md)
-- [Business License](https://ultimateshop.superiormc.cn/business-license.md)
 - [✅Requirements](https://ultimateshop.superiormc.cn/info/requirements.md)
 - [⚙️Install](https://ultimateshop.superiormc.cn/info/install.md)
 - [🔗Compatibility](https://ultimateshop.superiormc.cn/info/compatibility.md)
@@ -22794,6 +22603,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [♻️Product Config: Buy/Sell Times Reset](https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md)
 - [🔗Shared Product Data - Premium](https://ultimateshop.superiormc.cn/shops/shared-product-data-premium.md)
 - [💰Sell Multiplier - Premium](https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md)
+- [💹Price Modifier](https://ultimateshop.superiormc.cn/shops/price-modifier.md)
 - [⚡Example: Common Usage](https://ultimateshop.superiormc.cn/shops/example-common-usage.md)
 - [🌱Example: Stock (like in life)](https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life.md)
 - [📅Example: Daily Shop/Rotating Shop](https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop.md)
@@ -22842,8 +22652,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -22920,6 +22728,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -23148,7 +22958,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Create the menu
 
@@ -23363,8 +23173,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -23440,6 +23248,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -23897,8 +23707,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -23974,6 +23782,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -24167,7 +23977,7 @@ Previous🔲General Menus
 
 Next🔍Search Menus - Premium
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Buy More Menus Config
 
@@ -24339,8 +24149,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -24416,6 +24224,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -24635,8 +24445,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -24712,6 +24520,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -25134,8 +24944,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -25211,6 +25019,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -25636,8 +25446,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -25713,6 +25521,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -25860,7 +25670,7 @@ Previous💰Item Sell Menus
 
 Next🛒Sell All Menu
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Favourite Menu Config
 
@@ -25986,8 +25796,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -26063,6 +25871,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -26291,7 +26101,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Create the menu
 
@@ -26818,8 +26628,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -26895,6 +26703,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -26969,11 +26779,65 @@ On this page
 
 💰Item Sell Menus
 
+Item sell menus let players place item stacks into configured slots, preview their adjusted sell price, and confirm the sale with one button. Files are stored in /item_sell_menus/ and can be opened with /shop menu <menuName>.
+
+The default example is item_sell_menus/item-sell.yml.
+
+Menu structure
+
+Copy
+
+menu-type: item-sell
+title: 'Sell Items'
+size: 54
+max-sell-amount: -1
+
+layout:
+- '000000000'
+- '0IIIIIII0'
+- '0IIIIIII0'
+- '0IIIIIII0'
+- '000000000'
+- '00B0C0X00'
+
+input-item: 'I'
+confirm-item: 'C'
+
+confirm-button:
+display-item:
+material: EMERALD
+name: '&aConfirm Sale'
+lore:
+- '&7Price: &f{price}'
+- '&7Original price: &f{original-price}'
+- '&7Final multiplier: &fx{multiplier}'
+- '&7Sellable items: &f{item-amount}'
+- '&7Unsellable items: &f{unsellable-amount}'
+- '&aClick to sell.'
+
+input-item is the layout marker for slots that accept player items. confirm-item is the marker for the confirmation button. max-sell-amount limits the total number of product trade units sold by one confirmation across all input slots; -1 means unlimited. Unsold or unsupported items remain in the menu and are returned when it closes.
+
+The confirmation display supports these placeholders:
+
+{price}: final price after the global sell multiplier and its item-aware modifiers
+
+{original-price}: product sell price before multipliers
+
+{multiplier}: the combined final sell multiplier
+
+{item-amount}: amount that can currently be sold
+
+{unsellable-amount}: amount that cannot currently be sold
+
+The transaction still uses the normal product sell flow, including sell conditions, player/server limits, actions, events, logging, and the global sell multiplier. Item-aware price modifiers are configured globally under sell.price-modifier in config.yml; an item sell menu does not have its own modifier configuration.
+
+Products with price-modifier: true use these rules. Their sell price is unavailable to other sell flows; enable sell.price-modifier.item-sell-menu.enabled and set sell.price-modifier.item-sell-menu.menu to redirect product clicks to an item sell menu.
+
 Previous🔍Search Menus - Premium
 
 Next❤️Favourite Menus - Premium
 
-Last updated 4 days ago
+Last updated 25 minutes ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -26981,6 +26845,56 @@ URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
 > For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/menus/item-sell-menus.md).
 
 # 💰Item Sell Menus
+
+Item sell menus let players place item stacks into configured slots, preview their adjusted sell price, and confirm the sale with one button. Files are stored in `/item_sell_menus/` and can be opened with `/shop menu `.
+
+The default example is `item_sell_menus/item-sell.yml`.
+
+## Menu structure
+
+```yaml
+menu-type: item-sell
+title: 'Sell Items'
+size: 54
+max-sell-amount: -1
+
+layout:
+- '000000000'
+- '0IIIIIII0'
+- '0IIIIIII0'
+- '0IIIIIII0'
+- '000000000'
+- '00B0C0X00'
+
+input-item: 'I'
+confirm-item: 'C'
+
+confirm-button:
+display-item:
+material: EMERALD
+name: '&aConfirm Sale'
+lore:
+- '&7Price: &f{price}'
+- '&7Original price: &f{original-price}'
+- '&7Final multiplier: &fx{multiplier}'
+- '&7Sellable items: &f{item-amount}'
+- '&7Unsellable items: &f{unsellable-amount}'
+- '&aClick to sell.'
+```
+
+`input-item` is the layout marker for slots that accept player items. `confirm-item` is the marker for the confirmation button. `max-sell-amount` limits the total number of product trade units sold by one confirmation across all input slots; `-1` means unlimited. Unsold or unsupported items remain in the menu and are returned when it closes.
+
+The confirmation display supports these placeholders:
+
+* `{price}`: final price after the global sell multiplier and its item-aware modifiers
+* `{original-price}`: product sell price before multipliers
+* `{multiplier}`: the combined final sell multiplier
+* `{item-amount}`: amount that can currently be sold
+* `{unsellable-amount}`: amount that cannot currently be sold
+
+The transaction still uses the normal product sell flow, including sell conditions, player/server limits, actions, events, logging, and the global sell multiplier. Item-aware price modifiers are configured globally under `sell.price-modifier` in `config.yml`; an item sell menu does not have its own modifier configuration.
+
+Products with `price-modifier: true` use these rules. Their sell price is unavailable to other sell flows; enable `sell.price-modifier.item-sell-menu.enabled` and set `sell.price-modifier.item-sell-menu.menu` to redirect product clicks to an item sell menu.
 
 ============================================================
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
@@ -26999,8 +26913,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -27077,6 +26989,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -27268,7 +27182,7 @@ Previous🔽Buy More Menus
 
 Next💰Item Sell Menus
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Search Menus Config
 
@@ -27462,8 +27376,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -27539,6 +27451,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -27700,8 +27614,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -27777,6 +27689,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -27896,8 +27810,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -27974,6 +27886,8 @@ Business License
 
 💰Sell Multiplier - Premium
 
+💹Price Modifier
+
 ⚡Example: Common Usage
 
 🌱Example: Stock (like in life)
@@ -28046,6 +27960,8 @@ On this page
 📍Placeholders
 
 🔧Built-in Placeholders
+
+The {random-last-reset_<ID>} placeholder displays the last time a random placeholder value was reset. It returns the configured placeholder.refresh.never text before the first reset.
 
 By default, placeholder displayed in GUI will only refreshed when player open the menu or click the button. If you want to auto update placeholder value, you need enable menu.shop.update option in config.yml file. Remeber: this can even cost x20 plugin performance than normal when open the GUI. This is NOT a good choice to enable this.
 
@@ -28380,7 +28296,7 @@ Start from 2.5.6 version, you don't need put {} symbol into builtInPlaceholder a
 
 %ultimateshop_example_A_buy-limit-player%
 
-For random, random times, random next, compare and conditional placeholder, you don't need specife the shop and the product, just put the placeholder after ultimateshop. For example:
+For random, random times, random last reset, random next, compare and conditional placeholder, you don't need specife the shop and the product, just put the placeholder after ultimateshop. For example:
 
 %ultimateshop_{random-times_rotate}%
 
@@ -28394,7 +28310,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 1 hour ago
 
 Built-in Placeholders List
 
@@ -28440,8 +28356,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -28518,6 +28432,8 @@ Business License
 
 💰Sell Multiplier - Premium
 
+💹Price Modifier
+
 ⚡Example: Common Usage
 
 🌱Example: Stock (like in life)
@@ -28590,6 +28506,8 @@ On this page
 📍Placeholders
 
 🔧Built-in Placeholders
+
+The {random-last-reset_<ID>} placeholder displays the last time a random placeholder value was reset. It returns the configured placeholder.refresh.never text before the first reset.
 
 By default, placeholder displayed in GUI will only refreshed when player open the menu or click the button. If you want to auto update placeholder value, you need enable menu.shop.update option in config.yml file. Remeber: this can even cost x20 plugin performance than normal when open the GUI. This is NOT a good choice to enable this.
 
@@ -28924,7 +28842,7 @@ Start from 2.5.6 version, you don't need put {} symbol into builtInPlaceholder a
 
 %ultimateshop_example_A_buy-limit-player%
 
-For random, random times, random next, compare and conditional placeholder, you don't need specife the shop and the product, just put the placeholder after ultimateshop. For example:
+For random, random times, random last reset, random next, compare and conditional placeholder, you don't need specife the shop and the product, just put the placeholder after ultimateshop. For example:
 
 %ultimateshop_{random-times_rotate}%
 
@@ -28938,7 +28856,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 1 hour ago
 
 Built-in Placeholders List
 
@@ -28974,6 +28892,8 @@ Links: 4
 > For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md).
 
 # 🔧Built-in Placeholders
+
+The `{random-last-reset_}` placeholder displays the last time a random placeholder value was reset. It returns the configured `placeholder.refresh.never` text before the first reset.
 
 {% hint style="info" %}
 By default, **placeholder displayed in GUI** will only refreshed when player **open the menu or click the button**. If you want to auto update placeholder value, you need enable `menu.shop.update` option in `config.yml` file. Remeber: this can even cost **x20** plugin performance than normal when open the GUI. This is **NOT** a good choice to enable this.
@@ -29328,7 +29248,7 @@ For example:
 
 `%ultimateshop_example_A_buy-limit-player%`
 
-For random, random times, random next, compare and conditional placeholder, you don't need specife the shop and the product, just put the placeholder after `ultimateshop`. For example:
+For random, random times, random last reset, random next, compare and conditional placeholder, you don't need specife the shop and the product, just put the placeholder after `ultimateshop`. For example:
 
 `%ultimateshop_{random-times_rotate}%`
 
@@ -29363,8 +29283,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -29441,6 +29359,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -29706,8 +29626,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -29783,6 +29701,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -29961,8 +29881,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -30038,6 +29956,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -30335,8 +30255,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -30412,6 +30330,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -30542,7 +30462,9 @@ Use Placeholder
 
 Use {random_<ID>;;<Number>} placeholder to display it's value, like {random_daily;;2} will query daily random placeholder's second element picked. For more info, please view Placeholders page. For example of this placeholder usage, please view Daily Shop page.
 
-Use {random_times_<ID>} placeholder to display the reset time of the placeholder, like {random_times_daily}.
+Use {random-times_<ID>} placeholder to display the reset time of the placeholder, like {random-times_daily}.
+
+Use {random-last-reset_<ID>} placeholder to display the last time its value was reset, like {random-last-reset_daily}. It displays Never until the first reset occurs.
 
 Reset Placeholder
 
@@ -30560,11 +30482,11 @@ TIMER: It will reset after the time you specify, for example, after 5 hours.
 
 TIMED: It will be reset at the corresponding time, such as 8:15 pm.
 
-CUSTOM: Directly enter the reset time in reset time, and the plugin will not perform any calculations. Recommend obtain reset time through the Placeholder API results. You need set time format at reset-time-format option to helps us know how does your PlaceholderAPI results be like.
+CUSTOM: Directly enter the reset time in reset time, and the plugin will not perform any calculations. Recommend obtain reset time through the Placeholder API results. You need set time format at time-format option to helps us know how does your PlaceholderAPI results be like.
 
-We will first generate reset time after random placeholder be used once. The reset time will not automatically adjust based on configuration updates. If you set the reset time incorrectly, you will need to delete the corresponding data.
+We first generate the reset time after the random placeholder is used. CUSTOM targets are re-evaluated when the placeholder or its refresh time is queried, and the pooled task is updated when the target changes.
 
-Do NOT use COOLDOWN_TIMER/COOLDOWN_TIMED/COOLDOWN_CUSTOM reset mode here, they will not work in random placeholder, and since random placeholder data is always saved in server, so random placeholder's TIMER/TIMED/CUSTOM effect is same as product config's CUSTOM_TIMER/CUSTOM_TIMED/COOLDOWN_CUSTOM reset mode.
+Do NOT use COOLDOWN_TIMER, COOLDOWN_TIMED, or COOLDOWN_CUSTOM reset mode here; they are not supported by random placeholders.
 
 Reset Time
 
@@ -30604,11 +30526,11 @@ If you want to do a daily shop, days should be set to 0, and if you want to do a
 
 This type of reset mode also supports set multi reset time, each reset time use ;; to splite, we will pick up the earliest reset time. For example:
 
-In this example, this product or random placeholder will reset reset at 19:00 and 20:00 every day.
+In this example, this random placeholder will reset at 19:00 and 20:00 every day.
 
 CUSTOM
 
-You only need to enter a Placeholder API placeholder here, and the result of the placeholder must include the complete year, month, day, hour, minute, and second. You also need to enter their format in the reset time format option, because different types of placeholders return different time formats, making it difficult for plugins to achieve uniformity.
+You only need to enter a Placeholder API placeholder here, and the result of the placeholder must include the complete year, month, day, hour, minute, and second. You also need to enter its format in the time-format option. The same CUSTOM target executes only once; lastResetTime is persisted so it will not repeat after a restart.
 
 Cron Reset (Weekly Reset/Monthly Reset)
 
@@ -30622,7 +30544,7 @@ For example:
 
 You can obtain the Cron expression you want by asking ChatGPT or use this tool. For example, the Cron expression in this example means to reset at 0:00 every Thursday. We do not provide any help related to how to write Cron expression.
 
-You MUST make sure that time format of the result of Cron placeholder (set it in config.yml file) and the time format you set here is same. By default, they are same.
+You MUST make sure that time format of the result of Cron placeholder (set it in config.yml file) and the time-format you set here is same. By default, they are same.
 
 Testing
 
@@ -30642,7 +30564,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 1 hour ago
 
 Config
 
@@ -30701,6 +30623,7 @@ Copy
 
 reset-mode: 'CUSTOM'
 reset-time: '{cron_"0 0 0 ? * 5}'
+time-format: 'yyyy-MM-dd HH:mm:ss'
 
 Copy
 
@@ -30807,7 +30730,9 @@ The second is to use the form of subsections, where each element has options for
 ```yaml
 per-player-element: true # ;;}` placeholder to display it's value, like `{random_daily;;2}` will query `daily` random placeholder's **second** element picked. For more info, please view [Placeholders](/placeholders/built-in-placeholders.md) page. For example of this placeholder usage, please view [Daily Shop](/shops/example-daily-shop-rotating-shop.md) page.
 
-Use `{random_times_}` placeholder to display the reset time of the placeholder, like `{random_times_daily}`.
+Use `{random-times_}` placeholder to display the reset time of the placeholder, like `{random-times_daily}`.
+
+Use `{random-last-reset_}` placeholder to display the last time its value was reset, like `{random-last-reset_daily}`. It displays `Never` until the first reset occurs.
 
 ## Reset Placeholder
 
@@ -30821,11 +30746,11 @@ Supports below reset mode:
 * **ONCE**: Each time the placeholer is used, it will reset and is not able to use in the price, as the price seen by the player opening the shop and the actual transaction result are calculated twice, so you cannot achieve price synchronization which means price player seen in shop will not same as the price player actually cost.
 * **TIMER**: It will reset after the time you specify, for example, after 5 hours.
 * **TIMED**: It will be reset at the corresponding time, such as 8:15 pm.
-* **CUSTOM**: Directly enter the reset time in reset time, and the plugin will not perform any calculations. Recommend obtain reset time through the Placeholder API results. You need set time format at `reset-time-format` option to helps us know how does your PlaceholderAPI results be like.
+* **CUSTOM**: Directly enter the reset time in reset time, and the plugin will not perform any calculations. Recommend obtain reset time through the Placeholder API results. You need set time format at `time-format` option to helps us know how does your PlaceholderAPI results be like.
 
-We will first generate reset time after random placeholder be used once. The reset time will not automatically adjust based on configuration updates. If you set the reset time incorrectly, you will need to delete the corresponding data.
+We first generate the reset time after the random placeholder is used. CUSTOM targets are re-evaluated when the placeholder or its refresh time is queried, and the pooled task is updated when the target changes.
 
-Do **NOT** use `COOLDOWN_TIMER/COOLDOWN_TIMED/COOLDOWN_CUSTOM` reset mode here, they will not work in random placeholder, and since random placeholder data is always saved in server, so random placeholder's `TIMER/TIMED/CUSTOM` effect is same as product config's `CUSTOM_TIMER/CUSTOM_TIMED/COOLDOWN_CUSTOM` reset mode.
+Do **NOT** use `COOLDOWN_TIMER`, `COOLDOWN_TIMED`, or `COOLDOWN_CUSTOM` reset mode here; they are not supported by random placeholders.
 
 ### Reset Time
 
@@ -30866,11 +30791,11 @@ reset-mode: 'TIMED'
 reset-time: '20:00:00;;19:00:00'
 ```
 
-In this example, this product or random placeholder will reset reset at 19:00 and 20:00 every day.
+In this example, this random placeholder will reset at 19:00 and 20:00 every day.
 
 #### CUSTOM
 
-You only need to enter a Placeholder API placeholder here, and the result of the placeholder must include the complete year, month, day, hour, minute, and second. You also need to enter their format in the reset time format option, because different types of placeholders return different time formats, making it difficult for plugins to achieve uniformity.
+You only need to enter a Placeholder API placeholder here, and the result of the placeholder must include the complete year, month, day, hour, minute, and second. You also need to enter its format in the `time-format` option. The same CUSTOM target executes only once; `lastResetTime` is persisted so it will not repeat after a restart.
 
 ### Cron Reset (Weekly Reset/Monthly Reset)
 
@@ -30884,12 +30809,13 @@ For example:
 ```yaml
 reset-mode: 'CUSTOM'
 reset-time: '{cron_"0 0 0 ? * 5}'
+time-format: 'yyyy-MM-dd HH:mm:ss'
 ```
 
 You can obtain the Cron expression you want by asking ChatGPT or use [this tool](https://freeformatter.com/cron-expression-generator-quartz.html). For example, the Cron expression in this example means to reset at 0:00 every Thursday. We do not provide any help related to how to write Cron expression.
 
 {% hint style="info" %}
-You **MUST** make sure that time format of the result of Cron placeholder (set it in `config.yml` file) and the time format you set here is same. By default, they are same.
+You **MUST** make sure that time format of the result of Cron placeholder (set it in `config.yml` file) and the `time-format` you set here is same. By default, they are same.
 {% endhint %}
 
 ## Testing
@@ -30956,8 +30882,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -31034,6 +30958,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -31219,7 +31145,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Create the shop
 
@@ -31285,8 +31211,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -31363,6 +31287,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -31485,7 +31411,7 @@ After purchase, we will execute buy-actions which includes execute the command y
 
 Seasonal Product
 
-Previous💰Sell Multiplier - Premium
+Previous💹Price Modifier
 
 Next🌱Example: Stock (like in life)
 
@@ -31848,8 +31774,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -31925,6 +31849,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -32278,8 +32204,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -32355,6 +32279,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -32842,8 +32768,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -32919,6 +32843,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -33158,8 +33084,8 @@ Restocking means changing transaction counts or the formula that determines the 
 global `. If you want to restock 50 amount, and the now sell time is 75, then you need put 125 to ``.
 
 ============================================================
-Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
+Title: 💹Price Modifier | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/shops/price-modifier
 
 Links: 67
 
@@ -33174,8 +33100,6 @@ UltimateShop Wiki
 🌏Other Language Wiki
 
 💬Config Pack
-
-Business License
 
 📦Info
 
@@ -33252,6 +33176,561 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder - Premium
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+
+Copy
+On this page
+
+🛍️Shops
+
+💹Price Modifier
+
+This feature is offered to users as an early experimental feature, and will be available after version 5.0.0. This feature is still under testing, so much so that it's not mentioned in the plugin's changelog. If you happen to stumble upon this page someday, then you're in luck!
+
+You can find price modifier config section at config.yml file. You can create unlimited price modifier with this format and plugin itself register 3 different type of price modifier.
+
+Copy
+
+sell:
+# Item-aware modifiers are a separate global sell feature.
+# Modifiers are applied in configuration order and merged into the final multiplier.
+price-modifier:
+item-sell-menu:
+# Products with `price-modifier: true` open this item sell menu when clicked.
+enabled: true
+menu: item-sell
+durability:
+type: durability
+enabled: true
+# 1 means losing 1% durability deducts 1% from the price.
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+# You can use minimum-price instead of, or together with, minimum-multiplier.
+# minimum-price: 1
+lore:
+type: lore
+enabled: false
+# SET uses the captured number as the price; MULTIPLY multiplies the current price by it.
+# Invalid operations are reported and the modifier is ignored.
+operation: SET
+# The default pattern matches lore such as: Item Value: 500
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+strip-color: true
+case-sensitive: true
+# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+nbt:
+type: nbt
+enabled: false
+# Requires the NBTAPI plugin. Nested keys can use dot notation.
+key: item_value
+# AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE or STRING.
+value-type: AUTO
+# SET uses the NBT value as the price; MULTIPLY multiplies the current price by it.
+# Invalid operations are reported and the modifier is ignored.
+operation: SET
+# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+mythic-changer:
+type: match_item
+enabled: false
+# MAX, MIN or STACK. STACK applies matching rules in configuration order.
+mode: STACK
+rules:
+named-item:
+# ADD or MULTIPLY. Invalid operations are reported and this rule is ignored.
+operation: MULTIPLY
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+# ADD adds this value to the price multiplier: 1 + 0.1 = 1.1.
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
+
+Price modifier API
+
+Global item-aware price modifiers are created through PriceModifierRegistry. A custom implementation only needs to implement PriceModifier and register a factory:
+
+Each modifier receives the player, the actual sold ItemStack, and the current numeric price. It returns a non-negative multiplier. The backward-compatible four-argument overload also receives the number of trade units when a modifier needs quantity-aware behavior such as SET. Modifiers declared under sell.price-modifier are applied in configuration order to every sell method.
+
+Durability modifier
+
+The formula is:
+
+The result never drops below minimum-multiplier. If minimum-price is configured, the modifier also prevents the current total numeric price from dropping below that value. Non-damageable items keep a multiplier of 1.
+
+Lore value modifier
+
+The first matching lore line supplies the number. SET makes that number the price of each sold trade unit, so selling a stack produces the same total as selling its contents separately. MULTIPLY multiplies the current price by the number. value-group selects the regular-expression capture group. Values outside the inclusive minimum-value/maximum-value range, values longer than maximum-number-length, and unmatched or invalid values leave the price unchanged. An unsupported operation is reported as a configuration error and the modifier is ignored instead of falling back to MULTIPLY.
+
+NBT value modifier
+
+The NBT modifier requires NBTAPI. key supports nested paths such as custom.price. value-type supports AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE, and STRING; numeric strings are accepted. SET, MULTIPLY, and the numeric safety options behave the same as in the Lore modifier. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
+
+Match item modifier
+
+This modifier uses MythicChanger match-item rules. If MythicChanger is unavailable, the modifier has no effect.
+
+Every matching rule produces a multiplier:
+
+MULTIPLY: uses value directly, so 1.2 means 120% of the current price.
+
+ADD: adds value to the multiplier, so 0.1 means 110%.
+
+Unsupported rule operations are reported as configuration errors and the affected rule is ignored.
+
+mode controls multiple matching rules:
+
+MAX or HIGHEST: use the highest resulting multiplier.
+
+MIN or LOWEST: use the lowest resulting multiplier.
+
+STACK: process matching rules in configuration order; MULTIPLY values multiply and ADD values add to the accumulated multiplier.
+
+Previous💰Sell Multiplier - Premium
+
+Next⚡Example: Common Usage
+
+Last updated 13 minutes ago
+
+Price modifier API
+
+Durability modifier
+
+Lore value modifier
+
+NBT value modifier
+
+Match item modifier
+
+Copy
+
+PriceModifierRegistry.register("my-modifier", MyPriceModifier::new);
+
+Copy
+
+sell:
+price-modifier:
+durability:
+type: durability
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+# minimum-price: 1
+
+Copy
+
+1 - (lost durability ratio × deduction-coefficient)
+
+Copy
+
+sell:
+price-modifier:
+lore-value:
+type: lore
+enabled: true
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+strip-color: true
+case-sensitive: true
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+
+Copy
+
+sell:
+price-modifier:
+nbt-value:
+type: nbt
+enabled: true
+operation: SET
+key: item_value
+value-type: AUTO
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+
+Copy
+
+sell:
+price-modifier:
+mythic-changer:
+type: match_item
+mode: STACK
+rules:
+named-item:
+operation: MULTIPLY
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
+
+============================================================
+URL: https://ultimateshop.superiormc.cn/shops/price-modifier.md
+
+> For the complete documentation index, see [llms.txt](https://ultimateshop.superiormc.cn/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://ultimateshop.superiormc.cn/shops/price-modifier.md).
+
+# 💹Price Modifier
+
+{% hint style="danger" %}
+This feature is offered to users as an early experimental feature, and will be available after version 5.0.0. This feature is still under testing, so much so that it's not mentioned in the plugin's changelog. If you happen to stumble upon this page someday, then you're in luck!
+{% endhint %}
+
+You can find price modifier config section at `config.yml` file. You can create unlimited price modifier with this format and plugin itself register 3 different type of price modifier.
+
+{% code title="" %}
+
+```yaml
+sell:
+# Item-aware modifiers are a separate global sell feature.
+# Modifiers are applied in configuration order and merged into the final multiplier.
+price-modifier:
+item-sell-menu:
+# Products with `price-modifier: true` open this item sell menu when clicked.
+enabled: true
+menu: item-sell
+durability:
+type: durability
+enabled: true
+# 1 means losing 1% durability deducts 1% from the price.
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+# You can use minimum-price instead of, or together with, minimum-multiplier.
+# minimum-price: 1
+lore:
+type: lore
+enabled: false
+# SET uses the captured number as the price; MULTIPLY multiplies the current price by it.
+# Invalid operations are reported and the modifier is ignored.
+operation: SET
+# The default pattern matches lore such as: Item Value: 500
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+strip-color: true
+case-sensitive: true
+# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+nbt:
+type: nbt
+enabled: false
+# Requires the NBTAPI plugin. Nested keys can use dot notation.
+key: item_value
+# AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE or STRING.
+value-type: AUTO
+# SET uses the NBT value as the price; MULTIPLY multiplies the current price by it.
+# Invalid operations are reported and the modifier is ignored.
+operation: SET
+# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+mythic-changer:
+type: match_item
+enabled: false
+# MAX, MIN or STACK. STACK applies matching rules in configuration order.
+mode: STACK
+rules:
+named-item:
+# ADD or MULTIPLY. Invalid operations are reported and this rule is ignored.
+operation: MULTIPLY
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+# ADD adds this value to the price multiplier: 1 + 0.1 = 1.1.
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
+```
+
+{% endcode %}
+
+## Price modifier API
+
+Global item-aware price modifiers are created through `PriceModifierRegistry`. A custom implementation only needs to implement `PriceModifier` and register a factory:
+
+```java
+PriceModifierRegistry.register("my-modifier", MyPriceModifier::new);
+```
+
+Each modifier receives the player, the actual sold `ItemStack`, and the current numeric price. It returns a non-negative multiplier. The backward-compatible four-argument overload also receives the number of trade units when a modifier needs quantity-aware behavior such as `SET`. Modifiers declared under `sell.price-modifier` are applied in configuration order to every sell method.
+
+## Durability modifier
+
+```yaml
+sell:
+price-modifier:
+durability:
+type: durability
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+# minimum-price: 1
+```
+
+The formula is:
+
+```
+1 - (lost durability ratio × deduction-coefficient)
+```
+
+The result never drops below `minimum-multiplier`. If `minimum-price` is configured, the modifier also prevents the current total numeric price from dropping below that value. Non-damageable items keep a multiplier of `1`.
+
+## Lore value modifier
+
+```yaml
+sell:
+price-modifier:
+lore-value:
+type: lore
+enabled: true
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+strip-color: true
+case-sensitive: true
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+```
+
+The first matching lore line supplies the number. `SET` makes that number the price of each sold trade unit, so selling a stack produces the same total as selling its contents separately. `MULTIPLY` multiplies the current price by the number. `value-group` selects the regular-expression capture group. Values outside the inclusive `minimum-value`/`maximum-value` range, values longer than `maximum-number-length`, and unmatched or invalid values leave the price unchanged. An unsupported operation is reported as a configuration error and the modifier is ignored instead of falling back to `MULTIPLY`.
+
+## NBT value modifier
+
+```yaml
+sell:
+price-modifier:
+nbt-value:
+type: nbt
+enabled: true
+operation: SET
+key: item_value
+value-type: AUTO
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+```
+
+The NBT modifier requires NBTAPI. `key` supports nested paths such as `custom.price`. `value-type` supports `AUTO`, `BYTE`, `SHORT`, `INT`, `LONG`, `FLOAT`, `DOUBLE`, and `STRING`; numeric strings are accepted. `SET`, `MULTIPLY`, and the numeric safety options behave the same as in the Lore modifier. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
+
+## Match item modifier
+
+This modifier uses MythicChanger `match-item` rules. If MythicChanger is unavailable, the modifier has no effect.
+
+```yaml
+sell:
+price-modifier:
+mythic-changer:
+type: match_item
+mode: STACK
+rules:
+named-item:
+operation: MULTIPLY
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
+```
+
+Every matching rule produces a multiplier:
+
+* `MULTIPLY`: uses `value` directly, so `1.2` means 120% of the current price.
+* `ADD`: adds `value` to the multiplier, so `0.1` means 110%.
+
+Unsupported rule operations are reported as configuration errors and the affected rule is ignored.
+
+`mode` controls multiple matching rules:
+
+* `MAX` or `HIGHEST`: use the highest resulting multiplier.
+* `MIN` or `LOWEST`: use the lowest resulting multiplier.
+* `STACK`: process matching rules in configuration order; `MULTIPLY` values multiply and `ADD` values add to the accumulated multiplier.
+
+============================================================
+Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
+
+Links: 67
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus
+
+🔲General Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+💰Item Sell Menus
+
+❤️Favourite Menus - Premium
+
+🛒Sell All Menu
+
+🔀Conditional Display - Premium
+
+🛏️Bedrock Menus - Premium
+
+💬Dialog Menus - Premium
+
+🥉Display Item Add Lore
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Products Config: Single Thing
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -33928,8 +34407,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -34005,6 +34482,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -34472,7 +34951,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Model
 
@@ -34591,8 +35070,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -34668,6 +35145,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -36744,8 +37223,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -36821,6 +37298,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -36972,9 +37451,9 @@ Such a product exposes its dynamic sell price in the shop menu's added lore, cal
 
 Previous🔗Shared Product Data - Premium
 
-Next⚡Example: Common Usage
+Next💹Price Modifier
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Copy
 
@@ -37177,8 +37656,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -37254,6 +37731,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -37549,8 +38028,6 @@ UltimateShop Wiki
 
 💬Config Pack
 
-Business License
-
 📦Info
 
 ✅Requirements
@@ -37626,6 +38103,8 @@ Business License
 🔗Shared Product Data - Premium
 
 💰Sell Multiplier - Premium
+
+💹Price Modifier
 
 ⚡Example: Common Usage
 
@@ -37811,7 +38290,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Create the shop
 
