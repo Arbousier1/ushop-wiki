@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-08-24T00:53:38Z
+Generated UTC: 2026-08-25T00:53:33Z
 Page Count: 139
 
 ============================================================
@@ -432,7 +432,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -7267,7 +7267,7 @@ Previous🎨Color Code
 
 Next🪄Sell Stick - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -18174,7 +18174,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 FAQ:
 
@@ -19942,7 +19942,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Copy
 
@@ -21511,7 +21511,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -22958,7 +22958,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create the menu
 
@@ -23977,7 +23977,7 @@ Previous🔲General Menus
 
 Next🔍Search Menus - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Buy More Menus Config
 
@@ -25670,7 +25670,7 @@ Previous💰Item Sell Menus
 
 Next🛒Sell All Menu
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Favourite Menu Config
 
@@ -26101,7 +26101,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create the menu
 
@@ -26837,7 +26837,7 @@ Previous🔍Search Menus - Premium
 
 Next❤️Favourite Menus - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -27182,7 +27182,7 @@ Previous🔽Buy More Menus
 
 Next💰Item Sell Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Search Menus Config
 
@@ -28310,7 +28310,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Built-in Placeholders List
 
@@ -28856,7 +28856,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Built-in Placeholders List
 
@@ -30564,7 +30564,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Config
 
@@ -31145,7 +31145,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create the shop
 
@@ -33367,7 +33367,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Price modifier API
 
@@ -34951,7 +34951,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Model
 
@@ -37453,7 +37453,7 @@ Previous🔗Shared Product Data - Premium
 
 Next💹Price Modifier
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Copy
 
@@ -38290,7 +38290,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create the shop
 
