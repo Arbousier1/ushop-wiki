@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-09-03T02:29:22Z
+Generated UTC: 2026-09-04T02:23:15Z
 Page Count: 139
 
 ============================================================
@@ -7267,7 +7267,7 @@ Previous🎨Color Code
 
 Next🪄Sell Stick - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -23402,7 +23402,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Requirements
 
@@ -25677,7 +25677,7 @@ Previous💰Item Sell Menus
 
 Next🛒Sell All Menu
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 Favourite Menu Config
 
@@ -26844,7 +26844,7 @@ Previous🔍Search Menus - Premium
 
 Next❤️Favourite Menus - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -27189,7 +27189,7 @@ Previous🔽Buy More Menus
 
 Next💰Item Sell Menus
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 Search Menus Config
 
@@ -30571,7 +30571,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Config
 
@@ -31152,7 +31152,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 Create the shop
 
@@ -33376,7 +33376,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Price modifier API
 
@@ -37464,7 +37464,7 @@ Previous🔗Shared Product Data - Premium
 
 Next💹Price Modifier
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 Copy
 
@@ -38301,7 +38301,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 Create the shop
 
