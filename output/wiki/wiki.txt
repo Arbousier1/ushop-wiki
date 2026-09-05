@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-09-04T02:23:15Z
+Generated UTC: 2026-09-05T02:25:34Z
 Page Count: 139
 
 ============================================================
@@ -432,7 +432,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 12 days ago
+Last updated 14 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -7267,7 +7267,7 @@ Previous🎨Color Code
 
 Next🪄Sell Stick - Premium
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -16386,6 +16386,17 @@ Unlike most plugins, UltimateShop allows you to fill in the Placeholder API and 
 
 You need enable math.enabled option in your config.yml file to use this feature.
 
+Result precision
+
+math.scale controls the number of decimal places in mathematical results. UltimateShop uses HALF_UP rounding. Applying a multiplier also counts as a mathematical calculation, so multiplier results—including sell price modifiers, previews, and final rewards—use the same scale.
+
+Copy
+
+math:
+scale: 2
+
+For example, with scale: 2, multiplying 10 by 0.333333 produces 3.33.
+
 List of match calculate format
 
 max - Compare two number and return bigger value. (max(4,5))
@@ -16650,7 +16661,9 @@ Previous⚖️Condition Format
 
 Next🔲General Menus
 
-Last updated 1 month ago
+Last updated 4 hours ago
+
+Result precision
 
 List of match calculate format
 
@@ -16865,6 +16878,17 @@ Unlike most plugins, UltimateShop allows you to fill in the Placeholder API and 
 {% hint style="info" %}
 You need enable `math.enabled` option in your `config.yml` file to use this feature.
 {% endhint %}
+
+## Result precision
+
+`math.scale` controls the number of decimal places in mathematical results. UltimateShop uses `HALF_UP` rounding. Applying a multiplier also counts as a mathematical calculation, so multiplier results—including sell price modifiers, previews, and final rewards—use the same scale.
+
+```yaml
+math:
+scale: 2
+```
+
+For example, with `scale: 2`, multiplying `10` by `0.333333` produces `3.33`.
 
 ## List of match calculate format
 
@@ -18174,7 +18198,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 18 days ago
+Last updated 20 days ago
 
 FAQ:
 
@@ -19942,7 +19966,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 18 days ago
+Last updated 4 hours ago
 
 Copy
 
@@ -20053,22 +20077,28 @@ vip:
 1:
 type: permission
 permission: 'group.vip'
+# Item-aware modifiers are a separate global sell feature.
+# Modifiers are applied in configuration order and merged into the final multiplier.
 price-modifier:
 item-sell-menu:
-# Products with `price-modifier: true` open this item sell menu when clicked.
+# Products with `price-modifier: true` open this item sell menu when a sell action is chosen.
 enabled: true
 menu: item-sell
 durability:
 type: durability
 enabled: true
+# 1 means losing 1% durability deducts 1% from the price.
 deduction-coefficient: 1
 minimum-multiplier: 0.1
+# minimum-price: 1
 lore:
 type: lore
 enabled: false
 operation: SET
 pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
 value-group: 1
+strip-color: true
+case-sensitive: true
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
@@ -20085,7 +20115,20 @@ mythic-changer:
 type: match_item
 enabled: false
 mode: STACK
-rules: {}
+rules:
+named-item:
+# ADD or MULTIPLY. Invalid operations are reported and this rule is ignored.
+operation: MULTIPLY
+# Supports math expressions and PlaceholderAPI. Invalid expressions are reported and ignored.
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
 
 give-item:
 # Support value: BUKKIT, SMART
@@ -20286,6 +20329,7 @@ auto-reset-mode: true
 
 math:
 enabled: true
+# Decimal places used by math results. Applying a multiplier also counts as a math calculation.
 scale: 2
 static-scale: false
 
@@ -20576,22 +20620,28 @@ vip:
 1:
 type: permission
 permission: 'group.vip'
+# Item-aware modifiers are a separate global sell feature.
+# Modifiers are applied in configuration order and merged into the final multiplier.
 price-modifier:
 item-sell-menu:
-# Products with `price-modifier: true` open this item sell menu when clicked.
+# Products with `price-modifier: true` open this item sell menu when a sell action is chosen.
 enabled: true
 menu: item-sell
 durability:
 type: durability
 enabled: true
+# 1 means losing 1% durability deducts 1% from the price.
 deduction-coefficient: 1
 minimum-multiplier: 0.1
+# minimum-price: 1
 lore:
 type: lore
 enabled: false
 operation: SET
 pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
 value-group: 1
+strip-color: true
+case-sensitive: true
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
@@ -20608,7 +20658,20 @@ mythic-changer:
 type: match_item
 enabled: false
 mode: STACK
-rules: {}
+rules:
+named-item:
+# ADD or MULTIPLY. Invalid operations are reported and this rule is ignored.
+operation: MULTIPLY
+# Supports math expressions and PlaceholderAPI. Invalid expressions are reported and ignored.
+value: 1.2
+match-item:
+has-name: true
+special-lore:
+operation: ADD
+value: 0.1
+match-item:
+contains-lore:
+- 'Special'
 
 give-item:
 # Support value: BUKKIT, SMART
@@ -20809,6 +20872,7 @@ auto-reset-mode: true
 
 math:
 enabled: true
+# Decimal places used by math results. Applying a multiplier also counts as a math calculation.
 scale: 2
 static-scale: false
 
@@ -21511,7 +21575,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 18 days ago
+Last updated 20 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -22958,7 +23022,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 18 days ago
+Last updated 20 days ago
 
 Create the menu
 
@@ -23402,7 +23466,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Requirements
 
@@ -23984,7 +24048,7 @@ Previous🔲General Menus
 
 Next🔍Search Menus - Premium
 
-Last updated 18 days ago
+Last updated 20 days ago
 
 Buy More Menus Config
 
@@ -25677,7 +25741,7 @@ Previous💰Item Sell Menus
 
 Next🛒Sell All Menu
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Favourite Menu Config
 
@@ -26108,7 +26172,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 18 days ago
+Last updated 20 days ago
 
 Create the menu
 
@@ -26826,25 +26890,29 @@ input-item is the layout marker for slots that accept player items. confirm-item
 
 The confirmation display supports these placeholders:
 
-{price}: final price after the global sell multiplier and its item-aware modifiers
+{price}: final price after the global sell multiplier and item-aware modifiers
 
 {original-price}: product sell price before multipliers
 
-{multiplier}: the combined final sell multiplier
+{multiplier}: combined final sell multiplier
 
 {item-amount}: amount that can currently be sold
 
 {unsellable-amount}: amount that cannot currently be sold
 
-The transaction still uses the normal product sell flow, including sell conditions, player/server limits, actions, events, logging, and the global sell multiplier. Item-aware price modifiers are configured globally under sell.price-modifier in config.yml; an item sell menu does not have its own modifier configuration.
+The transaction still uses the normal product sell flow, including sell conditions, player/server limits, actions, events, logging, and the global sell multiplier. An item sell menu does not have its own modifier configuration.
 
-Products with price-modifier: true use these rules. Their sell price is unavailable to other sell flows; enable sell.price-modifier.item-sell-menu.enabled and set sell.price-modifier.item-sell-menu.menu to redirect product clicks to an item sell menu.
+Products with price-modifier: true can only be sold through an item sell menu. Enable sell.price-modifier.item-sell-menu.enabled and set sell.price-modifier.item-sell-menu.menu to choose that menu.
+
+Choosing sell or sell-all for one of these products opens the configured item sell menu. Buy, amount-selection, and custom click actions keep their normal behavior. Bedrock forms and dialog shop lists open the product information view first so that buy and sell remain separate choices.
+
+See Price Modifier for modifier types, formulas, validation, calculation precision, and the developer API.
 
 Previous🔍Search Menus - Premium
 
 Next❤️Favourite Menus - Premium
 
-Last updated 13 days ago
+Last updated 4 hours ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -26893,15 +26961,19 @@ lore:
 
 The confirmation display supports these placeholders:
 
-* `{price}`: final price after the global sell multiplier and its item-aware modifiers
+* `{price}`: final price after the global sell multiplier and item-aware modifiers
 * `{original-price}`: product sell price before multipliers
-* `{multiplier}`: the combined final sell multiplier
+* `{multiplier}`: combined final sell multiplier
 * `{item-amount}`: amount that can currently be sold
 * `{unsellable-amount}`: amount that cannot currently be sold
 
-The transaction still uses the normal product sell flow, including sell conditions, player/server limits, actions, events, logging, and the global sell multiplier. Item-aware price modifiers are configured globally under `sell.price-modifier` in `config.yml`; an item sell menu does not have its own modifier configuration.
+The transaction still uses the normal product sell flow, including sell conditions, player/server limits, actions, events, logging, and the global sell multiplier. An item sell menu does not have its own modifier configuration.
 
-Products with `price-modifier: true` use these rules. Their sell price is unavailable to other sell flows; enable `sell.price-modifier.item-sell-menu.enabled` and set `sell.price-modifier.item-sell-menu.menu` to redirect product clicks to an item sell menu.
+Products with `price-modifier: true` can only be sold through an item sell menu. Enable `sell.price-modifier.item-sell-menu.enabled` and set `sell.price-modifier.item-sell-menu.menu` to choose that menu.
+
+Choosing `sell` or `sell-all` for one of these products opens the configured item sell menu. Buy, amount-selection, and custom click actions keep their normal behavior. Bedrock forms and dialog shop lists open the product information view first so that buy and sell remain separate choices.
+
+See [Price Modifier](/shops/price-modifier.md) for modifier types, formulas, validation, calculation precision, and the developer API.
 
 ============================================================
 Title: 🔍Search Menus - Premium | UltimateShop Wiki
@@ -27189,7 +27261,7 @@ Previous🔽Buy More Menus
 
 Next💰Item Sell Menus
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Search Menus Config
 
@@ -28317,7 +28389,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 12 days ago
+Last updated 14 days ago
 
 Built-in Placeholders List
 
@@ -28863,7 +28935,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 12 days ago
+Last updated 14 days ago
 
 Built-in Placeholders List
 
@@ -30571,7 +30643,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Config
 
@@ -31152,7 +31224,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Create the shop
 
@@ -33259,138 +33331,785 @@ On this page
 
 💹Price Modifier
 
-This feature is offered to users as an early experimental feature, and will be available after version 5.0.0. This feature is still under testing, so much so that it's not mentioned in the plugin's changelog. If you happen to stumble upon this page someday, then you're in luck!
+This feature is offered to users as an early experimental feature and will be officially available after version 5.0.0.
 
-You can find price modifier config section at config.yml file. You can create unlimited price modifier with this format and plugin itself register 3 different type of price modifier.
+The feature is still under testing and may change before its final release.
 
-Only product with price-modifier option enabled will use this feature, for more info, please view this page.
+Price Modifier allows UltimateShop to adjust a product's sell reward according to properties of the actual item being sold.
+
+For example, you can:
+
+Reduce the sell price of a damaged item.
+
+Read a numeric value from item lore and use it as the sell price.
+
+Read a numeric value from NBT and use it as the sell price.
+
+Apply different multipliers according to MythicChanger match-item rules.
+
+Price modifiers are configured globally under:
 
 Copy
 
 sell:
-# Item-aware modifiers are a separate global sell feature.
-# Modifiers are applied in configuration order and merged into the final multiplier.
 price-modifier:
-item-sell-menu:
-# Products with `price-modifier: true` open this item sell menu when clicked.
-enabled: true
-menu: item-sell
-durability:
-type: durability
-enabled: true
-# 1 means losing 1% durability deducts 1% from the price.
-deduction-coefficient: 1
-minimum-multiplier: 0.1
-# You can use minimum-price instead of, or together with, minimum-multiplier.
-# minimum-price: 1
-lore:
-type: lore
-enabled: false
-# SET uses the captured number as the price; MULTIPLY multiplies the current price by it.
-# Invalid operations are reported and the modifier is ignored.
-operation: SET
-# The default pattern matches lore such as: Item Value: 500
-pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
-value-group: 1
-strip-color: true
-case-sensitive: true
-# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
-minimum-value: 0
-maximum-value: 1000000
-maximum-number-length: 64
-nbt:
-type: nbt
-enabled: false
-# Requires the NBTAPI plugin. Nested keys can use dot notation.
-key: item_value
-# AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE or STRING.
-value-type: AUTO
-# SET uses the NBT value as the price; MULTIPLY multiplies the current price by it.
-# Invalid operations are reported and the modifier is ignored.
-operation: SET
-# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
-minimum-value: 0
-maximum-value: 1000000
-maximum-number-length: 64
-mythic-changer:
-type: match_item
-enabled: false
-# MAX, MIN or STACK. STACK applies matching rules in configuration order.
-mode: STACK
-rules:
-named-item:
-# ADD or MULTIPLY. Invalid operations are reported and this rule is ignored.
-operation: MULTIPLY
-value: 1.2
-match-item:
-has-name: true
-special-lore:
-operation: ADD
-# ADD adds this value to the price multiplier: 1 + 0.1 = 1.1.
-value: 0.1
-match-item:
-contains-lore:
-- 'Special'
 
-Price modifier API
+However, a product will only use them when the following option is enabled in that product:
 
-Global item-aware price modifiers are created through PriceModifierRegistry. A custom implementation only needs to implement PriceModifier and register a factory:
+Copy
 
-Each modifier receives the player, the actual sold ItemStack, and the current numeric price. It returns a non-negative multiplier. The backward-compatible four-argument overload also receives the number of trade units when a modifier needs quantity-aware behavior such as SET. Modifiers declared under sell.price-modifier are applied in configuration order to every sell method.
+price-modifier: true
 
-Durability modifier
+See Products for more information about product options.
 
-The formula is:
+Item Matching vs Price Modifier
 
-The result never drops below minimum-multiplier. If minimum-price is configured, the modifier also prevents the current total numeric price from dropping below that value. Non-damageable items keep a multiplier of 1.
+Item matching and Price Modifier are two different systems.
 
-Lore value modifier
+Item matching decides:
 
-The first matching lore line supplies the number. SET makes that number the price of each sold trade unit, so selling a stack produces the same total as selling its contents separately. MULTIPLY multiplies the current price by the number. value-group selects the regular-expression capture group. Values outside the inclusive minimum-value/maximum-value range, values longer than maximum-number-length, and unmatched or invalid values leave the price unchanged. An unsupported operation is reported as a configuration error and the modifier is ignored instead of falling back to MULTIPLY.
+Can this item be sold as this product?
 
-NBT value modifier
+Price Modifier decides:
 
-The NBT modifier requires NBTAPI. key supports nested paths such as custom.price. value-type supports AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE, and STRING; numeric strings are accepted. SET, MULTIPLY, and the numeric safety options behave the same as in the Lore modifier. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
+How much should this actual item be worth?
 
-Match item modifier
+The simplified selling process is:
 
-This modifier uses MythicChanger match-item rules. If MythicChanger is unavailable, the modifier has no effect.
+This distinction is especially important when a Price Modifier uses item data that is expected to change between different items.
 
-Every matching rule produces a multiplier:
+For example, suppose a shop sells and buys a diamond sword.
 
-MULTIPLY: uses value directly, so 1.2 means 120% of the current price.
+The configured product contains:
 
-ADD: adds value to the multiplier, so 0.1 means 110%.
+But the player tries to sell:
 
-Unsupported rule operations are reported as configuration errors and the affected rule is ignored.
+If the two items fail the sell matching check, the damaged sword will never reach the durability Price Modifier.
 
-mode controls multiple matching rules:
+The Price Modifier does not automatically make differently damaged, named, enchanted, or otherwise modified items match the same product.
 
-MAX or HIGHEST: use the highest resulting multiplier.
+Bukkit and ItemFormat sell methods
 
-MIN or LOWEST: use the lowest resulting multiplier.
+UltimateShop supports two global item matching methods:
 
-STACK: process matching rules in configuration order; MULTIPLY values multiply and ADD values add to the accumulated multiplier.
+and:
+
+With Bukkit, UltimateShop uses Bukkit's item similarity check. Differences in item data such as durability, lore, enchantments, names, components, or NBT may cause an item to no longer match the configured product.
+
+ItemFormat provides more control because specific item properties can be ignored during the matching process.
+
+Example:
+
+In this example, different durability values do not prevent items from matching the product.
+
+Ignoring a property in item-format.ignore-key only affects item matching.
+
+It does not remove that information from the actual item.
+
+For example, if damage is ignored during matching, the durability Price Modifier can still read the actual damage value of the item being sold.
+
+For more information about item matching, see Custom Item Match Method.
+
+You can also hold an item and use:
+
+to inspect its ItemFormat data and determine the correct key path.
+
+Basic Configuration
+
+A complete example can look like this:
+
+Modifiers are processed in configuration order.
+
+Enable Price Modifier for a Product
+
+Price Modifier is disabled for products by default.
+
+Enable it by adding:
+
+to the product configuration.
+
+Example:
+
+The configured sell price is still the product's base sell price.
+
+Price Modifier changes that price according to the actual item being sold.
+
+Durability Modifier
+
+The durability modifier reduces the sell price according to how much durability the item has lost.
+
+Example:
+
+The basic formula is:
+
+For example:
+
+If the base sell price is:
+
+the modified price becomes:
+
+Non-damageable items use a multiplier of 1.
+
+minimum-multiplier
+
+You can prevent damaged items from becoming almost worthless:
+
+For example, even if the durability calculation produces:
+
+the final modifier will be:
+
+minimum-price
+
+You can also specify a minimum numeric price:
+
+This prevents the calculated numeric price from dropping below the configured value.
+
+minimum-price and minimum-multiplier can be used separately or together.
+
+Item matching for durability
+
+If damaged and undamaged items should be treated as the same sellable product, their different damage values must not prevent item matching.
+
+The recommended configuration is:
+
+This creates the following behavior:
+
+damage is ignored only when deciding whether the item matches the product. The modifier still receives the actual damaged ItemStack.
+
+Lore Value Modifier
+
+The Lore modifier reads a numeric value from an item's lore.
+
+Example item:
+
+Configuration:
+
+The first matching lore line supplies the numeric value.
+
+SET
+
+With:
+
+the captured value becomes the price of each sold trade unit.
+
+For example:
+
+results in:
+
+When multiple trade units are sold together, UltimateShop keeps the result consistent with selling those units separately.
+
+MULTIPLY
+
+With:
+
+the captured value multiplies the current price.
+
+For example:
+
+results in:
+
+Numeric safety options
+
+The following options prevent invalid or unreasonable values from being used:
+
+Values outside the configured range are ignored.
+
+Values longer than maximum-number-length are also ignored.
+
+Missing, invalid, or unmatched values leave the current price unchanged.
+
+Unsupported operations are reported as configuration errors and the affected modifier is ignored.
+
+Item matching for Lore
+
+If the lore used by the modifier is expected to differ between individual items, the lore difference must not prevent the item from matching the product.
+
+For example:
+
+If both should be sellable as the same product, you can use:
+
+Ignoring lore during item matching does not prevent the Lore Price Modifier from reading the actual lore of the sold item.
+
+However, ignoring the complete lore property means all lore differences are ignored during sell matching.
+
+Only do this if all such lore differences are acceptable for that product.
+
+For more precise item matching, consider using product-level match-item rules.
+
+NBT Value Modifier
+
+The NBT modifier reads a numeric value from the item's NBT data.
+
+This modifier requires the NBTAPI plugin.
+
+Example:
+
+Nested NBT paths are supported:
+
+value-type
+
+Supported values are:
+
+AUTO automatically attempts to obtain a usable numeric value.
+
+Numeric strings are also accepted.
+
+SET and MULTIPLY
+
+The NBT modifier supports the same operations as the Lore modifier.
+
+SET
+
+uses the NBT value as the unit price.
+
+MULTIPLY
+
+multiplies the current price by the NBT value.
+
+Invalid values
+
+The modifier leaves the current price unchanged when the NBT value is:
+
+Missing.
+
+Invalid.
+
+Non-numeric.
+
+Non-finite.
+
+Outside minimum-value and maximum-value.
+
+Longer than maximum-number-length.
+
+Item matching for NBT
+
+If the NBT value used as the dynamic price differs between individual items, that value may also need to be ignored during ItemFormat matching.
+
+For example, after inspecting the item with:
+
+you may find a key such as:
+
+You can then configure:
+
+Whenever possible, ignore only the specific dynamic NBT key.
+
+Avoid ignoring the entire nbt section unless you intentionally want all NBT differences to be ignored.
+
+For example:
+
+may cause many otherwise different items to be treated as the same product.
+
+Use /shop generateitemformat to determine the most specific ItemFormat key available for your item.
+
+Match Item Modifier
+
+The match_item modifier uses MythicChanger match-item rules.
+
+The legacy type:
+
+remains available as an alias.
+
+This modifier requires MythicChanger.
+
+If MythicChanger is unavailable, the modifier has no effect.
+
+Example:
+
+Each rule contains:
+
+The match-item section uses MythicChanger's item matching system.
+
+MULTIPLY
+
+produces a multiplier of:
+
+which means:
+
+of the current price.
+
+ADD
+
+adds the value to the multiplier.
+
+For example:
+
+which means:
+
+of the current price.
+
+A valid expression whose result is 0 is still accepted.
+
+Invalid values or unsupported operations are reported through UltimateShop's error manager and the affected rule is ignored.
+
+Multiple Match Item Rules
+
+The mode option controls what happens when multiple rules match.
+
+Supported modes are:
+
+MAX / HIGHEST
+
+Uses the highest resulting multiplier.
+
+For example:
+
+result:
+
+MIN / LOWEST
+
+Uses the lowest resulting multiplier.
+
+For example:
+
+result:
+
+STACK
+
+Processes matching rules in configuration order.
+
+MULTIPLY values multiply the accumulated multiplier.
+
+ADD values add to the accumulated multiplier.
+
+For example:
+
+Final multiplier:
+
+Multiple Price Modifiers
+
+All enabled Price Modifiers under:
+
+are applied in configuration order.
+
+For example:
+
+the durability modifier is processed before the lore modifier.
+
+The result of an earlier modifier becomes part of the current price used by later modifiers.
+
+Therefore, changing the configuration order may also change the final result.
+
+Selling Flow
+
+Products with:
+
+require access to the actual ItemStack being sold.
+
+Because of this, sell flows that cannot provide an actual item stack do not directly display or execute the normal sell price.
+
+When the player chooses:
+
+or:
+
+UltimateShop opens the item sell menu configured here:
+
+Buy actions, amount-selection actions, and custom actions are not redirected by this behavior.
+
+Bedrock forms and dialog shop lists open the product information view first, where buy and sell remain separate actions.
+
+A product with Price Modifier enabled can still be sold through the item sell menu even if:
+
+is configured for that product.
+
+Price Calculation Order
+
+The simplified numeric calculation is:
+
+For example:
+
+Precision and Rounding
+
+Applying a multiplier is treated as a mathematical calculation.
+
+UltimateShop rounds calculation results using:
+
+to the decimal places configured by:
+
+This applies to:
+
+Price Modifiers.
+
+Global sell multipliers.
+
+Price previews.
+
+Final sell rewards.
+
+For more information, see Math Calculate Format.
+
+Transaction Event Behavior
+
+During an actual transaction, the sell price stored in the post-event GiveResult is authoritative.
+
+If another plugin changes the sell price through:
+
+UltimateShop preserves that changed result.
+
+When different actual ItemStacks need different Price Modifier results, recalculated stack prices are used only to determine how the already-authoritative total should be distributed between those stacks before their item-aware modifiers are applied.
+
+This prevents a transaction event's price modification from being accidentally replaced by a second normal price calculation.
+
+Recommended Configurations
+
+Durability-based price
+
+If the only dynamic property is durability:
+
+Product:
+
+Lore-based price
+
+If the price stored in lore is expected to vary:
+
+Product:
+
+NBT-based price
+
+First inspect the item:
+
+Then ignore only the dynamic ItemFormat key if necessary:
+
+Product:
+
+Common Problems
+
+Damaged items cannot be sold
+
+If you are using:
+
+but damaged items cannot be sold, check your global sell method.
+
+Using:
+
+may cause different damage values to fail item matching.
+
+Consider:
+
+with:
+
+Lore modifier does not run
+
+If the item's lore differs from the product item, the item may be rejected before the modifier is reached.
+
+If that lore difference is intentional, configure the item matching system accordingly.
+
+NBT modifier does not run
+
+Check both systems separately:
+
+Can the actual item match the product?
+
+Can the NBT modifier find the configured NBT key?
+
+Use:
+
+to inspect ItemFormat matching data.
+
+The NBT key used by the Price Modifier and the ItemFormat key used by ignore-key represent related item data, but they are configured for different purposes.
+
+Price Modifier has no effect
+
+Check that the product contains:
+
+Also check that the corresponding global modifier contains:
+
+For example:
+
+Different items are unexpectedly treated as the same product
+
+Check:
+
+Do not ignore more item data than necessary.
+
+For example:
+
+is much broader than:
+
+Use the most specific key possible.
+
+Price Modifier API
+
+Global item-aware Price Modifiers are registered through PriceModifierRegistry.
+
+A custom implementation only needs to implement PriceModifier and register a factory:
+
+Each modifier receives:
+
+The player.
+
+The actual sold ItemStack.
+
+The current numeric price.
+
+It returns a non-negative multiplier.
+
+The four-argument overload also receives the number of trade units for modifiers that require quantity-aware behavior, such as SET.
+
+Modifiers configured under:
+
+are applied in configuration order.
+
+Registering a new factory, or replacing an existing factory with the same type, immediately rebuilds the configured Price Modifier chain.
+
+A server reload is not required.
 
 Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 5 days ago
+Last updated 4 hours ago
 
-Price modifier API
+Item Matching vs Price Modifier
 
-Durability modifier
+Bukkit and ItemFormat sell methods
 
-Lore value modifier
+Basic Configuration
 
-NBT value modifier
+Enable Price Modifier for a Product
 
-Match item modifier
+Durability Modifier
+
+minimum-multiplier
+
+minimum-price
+
+Item matching for durability
+
+Lore Value Modifier
+
+SET
+
+MULTIPLY
+
+Numeric safety options
+
+Item matching for Lore
+
+NBT Value Modifier
+
+value-type
+
+SET and MULTIPLY
+
+Invalid values
+
+Item matching for NBT
+
+Match Item Modifier
+
+MULTIPLY
+
+ADD
+
+Multiple Match Item Rules
+
+MAX / HIGHEST
+
+MIN / LOWEST
+
+STACK
+
+Multiple Price Modifiers
+
+Selling Flow
+
+Price Calculation Order
+
+Precision and Rounding
+
+Transaction Event Behavior
+
+Recommended Configurations
+
+Durability-based price
+
+Lore-based price
+
+NBT-based price
+
+Common Problems
+
+Damaged items cannot be sold
+
+Lore modifier does not run
+
+NBT modifier does not run
+
+Price Modifier has no effect
+
+Different items are unexpectedly treated as the same product
+
+Price Modifier API
 
 Copy
 
-PriceModifierRegistry.register("my-modifier", MyPriceModifier::new);
+Actual item in player inventory
+↓
+Find a matching product
+↓
+Check whether the item matches the product
+↓
+Calculate normal sell price
+↓
+Apply conditional sell multiplier
+↓
+Apply Price Modifier using the actual ItemStack
+↓
+Round the calculated result
+↓
+Give the final sell reward
+
+Copy
+
+Diamond Sword
+Damage: 0
+
+Copy
+
+Diamond Sword
+Damage: 500
+
+Copy
+
+sell:
+sell-method: Bukkit
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'damage'
+
+Copy
+
+/shop generateitemformat
+
+Copy
+
+sell:
+# Item matching method.
+#
+# ItemFormat is recommended when a Price Modifier depends on item
+# properties that are expected to differ between otherwise sellable items.
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+# Allow different durability values to match the same product.
+- 'damage'
+
+# Global Price Modifier configuration.
+price-modifier:
+
+item-sell-menu:
+# Products with `price-modifier: true` open this menu when
+# the player chooses a sell action.
+enabled: true
+menu: item-sell
+
+durability:
+type: durability
+enabled: true
+
+# Losing 1% durability deducts 1% from the price.
+deduction-coefficient: 1
+
+# Final modifier cannot become lower than this value.
+minimum-multiplier: 0.1
+
+# You can also set a minimum numeric price.
+# minimum-price: 1
+
+lore:
+type: lore
+enabled: false
+
+# SET or MULTIPLY.
+operation: SET
+
+# Example:
+# Item Value: 500
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+
+value-group: 1
+strip-color: true
+case-sensitive: true
+
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+
+nbt:
+type: nbt
+enabled: false
+
+# Requires NBTAPI.
+key: item_value
+
+# AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE or STRING.
+value-type: AUTO
+
+# SET or MULTIPLY.
+operation: SET
+
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+
+mythic-changer:
+type: match_item
+enabled: false
+
+# MAX, MIN or STACK.
+mode: STACK
+
+rules:
+named-item:
+operation: MULTIPLY
+value: 1.2
+
+match-item:
+has-name: true
+
+special-lore:
+operation: ADD
+value: 0.1
+
+match-item:
+contains-lore:
+- 'Special'
+
+Copy
+
+price-modifier: true
+
+Copy
+
+items:
+diamond-sword:
+price-modifier: true
+
+products:
+1:
+material: DIAMOND_SWORD
+amount: 1
+
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '{amount} Coins'
 
 Copy
 
@@ -33398,13 +34117,91 @@ sell:
 price-modifier:
 durability:
 type: durability
+enabled: true
 deduction-coefficient: 1
 minimum-multiplier: 0.1
-# minimum-price: 1
 
 Copy
 
-1 - (lost durability ratio × deduction-coefficient)
+1 - (lost durability ratio × deduction coefficient)
+
+Copy
+
+Item durability lost: 30%
+deduction-coefficient: 1
+
+Multiplier:
+1 - (0.30 × 1)
+= 0.70
+
+Copy
+
+100
+
+Copy
+
+100 × 0.70
+= 70
+
+Copy
+
+minimum-multiplier: 0.1
+
+Copy
+
+0.03
+
+Copy
+
+0.1
+
+Copy
+
+minimum-price: 10
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'damage'
+
+Copy
+
+Shop item:
+Diamond Sword
+Damage: 0
+
+Player item:
+Diamond Sword
+Damage: 500
+
+↓
+
+ItemFormat matching
+damage is ignored
+
+↓
+
+Item matches product
+
+↓
+
+Durability Price Modifier
+reads actual Damage: 500
+
+↓
+
+Sell price is reduced
+
+Copy
+
+Legendary Sword
+Damage: 25
+Item Value: 500
 
 Copy
 
@@ -33413,14 +34210,72 @@ price-modifier:
 lore-value:
 type: lore
 enabled: true
+
 operation: SET
+
 pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+
 value-group: 1
 strip-color: true
 case-sensitive: true
+
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
+
+Copy
+
+operation: SET
+
+Copy
+
+Base sell price: 100
+Lore:
+Item Value: 500
+
+Copy
+
+Final unit price: 500
+
+Copy
+
+operation: MULTIPLY
+
+Copy
+
+Current price: 100
+
+Lore:
+Price Multiplier: 1.5
+
+Copy
+
+100 × 1.5
+= 150
+
+Copy
+
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+
+Copy
+
+Sword A:
+Item Value: 100
+
+Sword B:
+Item Value: 500
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'lore'
 
 Copy
 
@@ -33429,12 +34284,65 @@ price-modifier:
 nbt-value:
 type: nbt
 enabled: true
-operation: SET
+
 key: item_value
 value-type: AUTO
+
+operation: SET
+
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
+
+Copy
+
+key: custom.price
+
+Copy
+
+AUTO
+BYTE
+SHORT
+INT
+LONG
+FLOAT
+DOUBLE
+STRING
+
+Copy
+
+operation: SET
+
+Copy
+
+operation: MULTIPLY
+
+Copy
+
+/shop generateitemformat
+
+Copy
+
+nbt.string.item_value
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'nbt.string.item_value'
+
+Copy
+
+ignore-key:
+- 'nbt'
+
+Copy
+
+type: mythic_changer
 
 Copy
 
@@ -33442,19 +34350,327 @@ sell:
 price-modifier:
 mythic-changer:
 type: match_item
+enabled: true
+
 mode: STACK
+
 rules:
 named-item:
 operation: MULTIPLY
 value: 1.2
+
 match-item:
 has-name: true
+
 special-lore:
 operation: ADD
 value: 0.1
+
 match-item:
 contains-lore:
 - 'Special'
+
+Copy
+
+operation:
+value:
+match-item:
+
+Copy
+
+operation: MULTIPLY
+value: 1.2
+
+Copy
+
+1.2
+
+Copy
+
+120%
+
+Copy
+
+operation: ADD
+value: 0.1
+
+Copy
+
+1 + 0.1
+= 1.1
+
+Copy
+
+110%
+
+Copy
+
+MAX
+HIGHEST
+MIN
+LOWEST
+STACK
+
+Copy
+
+Rule A: 1.2
+Rule B: 1.5
+
+Copy
+
+1.5
+
+Copy
+
+Rule A: 1.2
+Rule B: 1.5
+
+Copy
+
+1.2
+
+Copy
+
+Initial multiplier:
+1
+
+Rule A:
+MULTIPLY 1.5
+
+1 × 1.5
+= 1.5
+
+Rule B:
+ADD 0.2
+
+1.5 + 0.2
+= 1.7
+
+Copy
+
+1.7
+
+Copy
+
+sell:
+price-modifier:
+
+Copy
+
+price-modifier:
+
+durability:
+type: durability
+enabled: true
+
+lore:
+type: lore
+enabled: true
+
+Copy
+
+price-modifier: true
+
+Copy
+
+sell
+
+Copy
+
+sell-all
+
+Copy
+
+sell:
+price-modifier:
+item-sell-menu:
+enabled: true
+menu: item-sell
+
+Copy
+
+sell-all: false
+
+Copy
+
+Base sell price
+↓
+Conditional sell multiplier
+↓
+Price Modifier chain
+↓
+Configured numeric precision
+↓
+Final reward
+
+Copy
+
+Base price:
+100
+
+Conditional sell multiplier:
+1.2
+
+After conditional multiplier:
+120
+
+Durability modifier:
+0.5
+
+Final:
+120 × 0.5
+= 60
+
+Copy
+
+HALF_UP
+
+Copy
+
+math:
+scale:
+
+Copy
+
+ItemPreTransactionEvent
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'damage'
+
+price-modifier:
+durability:
+type: durability
+enabled: true
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+
+Copy
+
+price-modifier: true
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'lore'
+
+price-modifier:
+lore-value:
+type: lore
+enabled: true
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+minimum-value: 0
+maximum-value: 1000000
+
+Copy
+
+price-modifier: true
+
+Copy
+
+/shop generateitemformat
+
+Copy
+
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'nbt.string.item_value'
+
+price-modifier:
+nbt-value:
+type: nbt
+enabled: true
+key: item_value
+value-type: AUTO
+operation: SET
+minimum-value: 0
+maximum-value: 1000000
+
+Copy
+
+price-modifier: true
+
+Copy
+
+type: durability
+
+Copy
+
+sell-method: Bukkit
+
+Copy
+
+sell-method: ItemFormat
+
+Copy
+
+ignore-key:
+- 'damage'
+
+Copy
+
+/shop generateitemformat
+
+Copy
+
+price-modifier: true
+
+Copy
+
+enabled: true
+
+Copy
+
+sell:
+price-modifier:
+durability:
+type: durability
+enabled: true
+
+Copy
+
+sell:
+item-format:
+ignore-key:
+
+Copy
+
+ignore-key:
+- 'nbt'
+
+Copy
+
+ignore-key:
+- 'nbt.string.item_value'
+
+Copy
+
+PriceModifierRegistry.register(
+"my-modifier",
+MyPriceModifier::new
+);
+
+Copy
+
+sell:
+price-modifier:
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/price-modifier.md
@@ -33464,115 +34680,441 @@ URL: https://ultimateshop.superiormc.cn/shops/price-modifier.md
 # 💹Price Modifier
 
 {% hint style="danger" %}
-This feature is offered to users as an early experimental feature, and will be available after version 5.0.0. This feature is still under testing, so much so that it's not mentioned in the plugin's changelog. If you happen to stumble upon this page someday, then you're in luck!
+This feature is offered to users as an early experimental feature and will be officially available after version 5.0.0.
+
+The feature is still under testing and may change before its final release.
 {% endhint %}
 
-You can find price modifier config section at `config.yml` file. You can create unlimited price modifier with this format and plugin itself register 3 different type of price modifier.
+Price Modifier allows UltimateShop to adjust a product's sell reward according to properties of the **actual item being sold**.
 
-Only product with `price-modifier` option enabled will use this feature, for more info, please view [this page](/shops/products.md#general-options).
+For example, you can:
 
-{% code title="" %}
+* Reduce the sell price of a damaged item.
+* Read a numeric value from item lore and use it as the sell price.
+* Read a numeric value from NBT and use it as the sell price.
+* Apply different multipliers according to MythicChanger `match-item` rules.
+
+Price modifiers are configured globally under:
 
 ```yaml
 sell:
-# Item-aware modifiers are a separate global sell feature.
-# Modifiers are applied in configuration order and merged into the final multiplier.
 price-modifier:
+```
+
+However, a product will only use them when the following option is enabled in that product:
+
+```yaml
+price-modifier: true
+```
+
+See [Products](/shops/products.md#general-options) for more information about product options.
+
+***
+
+## Item Matching vs Price Modifier
+
+{% hint style="warning" %}
+**Item matching and Price Modifier are two different systems.**
+
+Item matching decides:
+
+> **Can this item be sold as this product?**
+
+Price Modifier decides:
+
+> **How much should this actual item be worth?**
+> {% endhint %}
+
+The simplified selling process is:
+
+```
+Actual item in player inventory
+↓
+Find a matching product
+↓
+Check whether the item matches the product
+↓
+Calculate normal sell price
+↓
+Apply conditional sell multiplier
+↓
+Apply Price Modifier using the actual ItemStack
+↓
+Round the calculated result
+↓
+Give the final sell reward
+```
+
+This distinction is especially important when a Price Modifier uses item data that is expected to change between different items.
+
+For example, suppose a shop sells and buys a diamond sword.
+
+The configured product contains:
+
+```
+Diamond Sword
+Damage: 0
+```
+
+But the player tries to sell:
+
+```
+Diamond Sword
+Damage: 500
+```
+
+If the two items fail the sell matching check, the damaged sword will never reach the durability Price Modifier.
+
+The Price Modifier does **not** automatically make differently damaged, named, enchanted, or otherwise modified items match the same product.
+
+***
+
+### Bukkit and ItemFormat sell methods
+
+UltimateShop supports two global item matching methods:
+
+```yaml
+sell:
+sell-method: Bukkit
+```
+
+and:
+
+```yaml
+sell:
+sell-method: ItemFormat
+```
+
+With `Bukkit`, UltimateShop uses Bukkit's item similarity check. Differences in item data such as durability, lore, enchantments, names, components, or NBT may cause an item to no longer match the configured product.
+
+`ItemFormat` provides more control because specific item properties can be ignored during the matching process.
+
+Example:
+
+```yaml
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'damage'
+```
+
+In this example, different durability values do not prevent items from matching the product.
+
+{% hint style="info" %}
+Ignoring a property in `item-format.ignore-key` only affects **item matching**.
+
+It does **not** remove that information from the actual item.
+
+For example, if `damage` is ignored during matching, the durability Price Modifier can still read the actual damage value of the item being sold.
+{% endhint %}
+
+For more information about item matching, see [Custom Item Match Method](/features/custom-item-match-method.md).
+
+You can also hold an item and use:
+
+```
+/shop generateitemformat
+```
+
+to inspect its ItemFormat data and determine the correct key path.
+
+***
+
+## Basic Configuration
+
+A complete example can look like this:
+
+```yaml
+sell:
+# Item matching method.
+#
+# ItemFormat is recommended when a Price Modifier depends on item
+# properties that are expected to differ between otherwise sellable items.
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+# Allow different durability values to match the same product.
+- 'damage'
+
+# Global Price Modifier configuration.
+price-modifier:
+
 item-sell-menu:
-# Products with `price-modifier: true` open this item sell menu when clicked.
+# Products with `price-modifier: true` open this menu when
+# the player chooses a sell action.
 enabled: true
 menu: item-sell
+
 durability:
 type: durability
 enabled: true
-# 1 means losing 1% durability deducts 1% from the price.
+
+# Losing 1% durability deducts 1% from the price.
 deduction-coefficient: 1
+
+# Final modifier cannot become lower than this value.
 minimum-multiplier: 0.1
-# You can use minimum-price instead of, or together with, minimum-multiplier.
+
+# You can also set a minimum numeric price.
 # minimum-price: 1
+
 lore:
 type: lore
 enabled: false
-# SET uses the captured number as the price; MULTIPLY multiplies the current price by it.
-# Invalid operations are reported and the modifier is ignored.
+
+# SET or MULTIPLY.
 operation: SET
-# The default pattern matches lore such as: Item Value: 500
+
+# Example:
+# Item Value: 500
 pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+
 value-group: 1
 strip-color: true
 case-sensitive: true
-# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
+
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
+
 nbt:
 type: nbt
 enabled: false
-# Requires the NBTAPI plugin. Nested keys can use dot notation.
+
+# Requires NBTAPI.
 key: item_value
+
 # AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE or STRING.
 value-type: AUTO
-# SET uses the NBT value as the price; MULTIPLY multiplies the current price by it.
-# Invalid operations are reported and the modifier is ignored.
+
+# SET or MULTIPLY.
 operation: SET
-# Values outside this inclusive range, or longer than maximum-number-length, are ignored.
+
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
+
 mythic-changer:
 type: match_item
 enabled: false
-# MAX, MIN or STACK. STACK applies matching rules in configuration order.
+
+# MAX, MIN or STACK.
 mode: STACK
+
 rules:
 named-item:
-# ADD or MULTIPLY. Invalid operations are reported and this rule is ignored.
 operation: MULTIPLY
 value: 1.2
+
 match-item:
 has-name: true
+
 special-lore:
 operation: ADD
-# ADD adds this value to the price multiplier: 1 + 0.1 = 1.1.
 value: 0.1
+
 match-item:
 contains-lore:
 - 'Special'
 ```
 
-{% endcode %}
+Modifiers are processed in configuration order.
 
-## Price modifier API
+***
 
-Global item-aware price modifiers are created through `PriceModifierRegistry`. A custom implementation only needs to implement `PriceModifier` and register a factory:
+## Enable Price Modifier for a Product
 
-```java
-PriceModifierRegistry.register("my-modifier", MyPriceModifier::new);
+Price Modifier is disabled for products by default.
+
+Enable it by adding:
+
+```yaml
+price-modifier: true
 ```
 
-Each modifier receives the player, the actual sold `ItemStack`, and the current numeric price. It returns a non-negative multiplier. The backward-compatible four-argument overload also receives the number of trade units when a modifier needs quantity-aware behavior such as `SET`. Modifiers declared under `sell.price-modifier` are applied in configuration order to every sell method.
+to the product configuration.
 
-## Durability modifier
+Example:
+
+```yaml
+items:
+diamond-sword:
+price-modifier: true
+
+products:
+1:
+material: DIAMOND_SWORD
+amount: 1
+
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 100
+placeholder: '{amount} Coins'
+```
+
+The configured sell price is still the product's **base sell price**.
+
+Price Modifier changes that price according to the actual item being sold.
+
+***
+
+## Durability Modifier
+
+The durability modifier reduces the sell price according to how much durability the item has lost.
+
+Example:
 
 ```yaml
 sell:
 price-modifier:
 durability:
 type: durability
+enabled: true
 deduction-coefficient: 1
 minimum-multiplier: 0.1
-# minimum-price: 1
 ```
 
-The formula is:
+The basic formula is:
 
 ```
-1 - (lost durability ratio × deduction-coefficient)
+1 - (lost durability ratio × deduction coefficient)
 ```
 
-The result never drops below `minimum-multiplier`. If `minimum-price` is configured, the modifier also prevents the current total numeric price from dropping below that value. Non-damageable items keep a multiplier of `1`.
+For example:
 
-## Lore value modifier
+```
+Item durability lost: 30%
+deduction-coefficient: 1
+
+Multiplier:
+1 - (0.30 × 1)
+= 0.70
+```
+
+If the base sell price is:
+
+```
+100
+```
+
+the modified price becomes:
+
+```
+100 × 0.70
+= 70
+```
+
+Non-damageable items use a multiplier of `1`.
+
+***
+
+### minimum-multiplier
+
+You can prevent damaged items from becoming almost worthless:
+
+```yaml
+minimum-multiplier: 0.1
+```
+
+For example, even if the durability calculation produces:
+
+```
+0.03
+```
+
+the final modifier will be:
+
+```
+0.1
+```
+
+***
+
+### minimum-price
+
+You can also specify a minimum numeric price:
+
+```yaml
+minimum-price: 10
+```
+
+This prevents the calculated numeric price from dropping below the configured value.
+
+`minimum-price` and `minimum-multiplier` can be used separately or together.
+
+***
+
+### Item matching for durability
+
+{% hint style="warning" %}
+If damaged and undamaged items should be treated as the same sellable product, their different damage values must not prevent item matching.
+{% endhint %}
+
+The recommended configuration is:
+
+```yaml
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'damage'
+```
+
+This creates the following behavior:
+
+```
+Shop item:
+Diamond Sword
+Damage: 0
+
+Player item:
+Diamond Sword
+Damage: 500
+
+↓
+
+ItemFormat matching
+damage is ignored
+
+↓
+
+Item matches product
+
+↓
+
+Durability Price Modifier
+reads actual Damage: 500
+
+↓
+
+Sell price is reduced
+```
+
+`damage` is ignored only when deciding whether the item matches the product. The modifier still receives the actual damaged ItemStack.
+
+***
+
+## Lore Value Modifier
+
+The Lore modifier reads a numeric value from an item's lore.
+
+Example item:
+
+```
+Legendary Sword
+Damage: 25
+Item Value: 500
+```
+
+Configuration:
 
 ```yaml
 sell:
@@ -33580,19 +35122,147 @@ price-modifier:
 lore-value:
 type: lore
 enabled: true
+
 operation: SET
+
 pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+
 value-group: 1
 strip-color: true
 case-sensitive: true
+
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
 ```
 
-The first matching lore line supplies the number. `SET` makes that number the price of each sold trade unit, so selling a stack produces the same total as selling its contents separately. `MULTIPLY` multiplies the current price by the number. `value-group` selects the regular-expression capture group. Values outside the inclusive `minimum-value`/`maximum-value` range, values longer than `maximum-number-length`, and unmatched or invalid values leave the price unchanged. An unsupported operation is reported as a configuration error and the modifier is ignored instead of falling back to `MULTIPLY`.
+The first matching lore line supplies the numeric value.
 
-## NBT value modifier
+***
+
+### SET
+
+With:
+
+```yaml
+operation: SET
+```
+
+the captured value becomes the price of each sold trade unit.
+
+For example:
+
+```
+Base sell price: 100
+Lore:
+Item Value: 500
+```
+
+results in:
+
+```
+Final unit price: 500
+```
+
+When multiple trade units are sold together, UltimateShop keeps the result consistent with selling those units separately.
+
+***
+
+### MULTIPLY
+
+With:
+
+```yaml
+operation: MULTIPLY
+```
+
+the captured value multiplies the current price.
+
+For example:
+
+```
+Current price: 100
+
+Lore:
+Price Multiplier: 1.5
+```
+
+results in:
+
+```
+100 × 1.5
+= 150
+```
+
+***
+
+### Numeric safety options
+
+The following options prevent invalid or unreasonable values from being used:
+
+```yaml
+minimum-value: 0
+maximum-value: 1000000
+maximum-number-length: 64
+```
+
+Values outside the configured range are ignored.
+
+Values longer than `maximum-number-length` are also ignored.
+
+Missing, invalid, or unmatched values leave the current price unchanged.
+
+Unsupported operations are reported as configuration errors and the affected modifier is ignored.
+
+***
+
+### Item matching for Lore
+
+If the lore used by the modifier is expected to differ between individual items, the lore difference must not prevent the item from matching the product.
+
+For example:
+
+```
+Sword A:
+Item Value: 100
+
+Sword B:
+Item Value: 500
+```
+
+If both should be sellable as the same product, you can use:
+
+```yaml
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'lore'
+```
+
+{% hint style="info" %}
+Ignoring `lore` during item matching does not prevent the Lore Price Modifier from reading the actual lore of the sold item.
+{% endhint %}
+
+However, ignoring the complete `lore` property means **all lore differences** are ignored during sell matching.
+
+Only do this if all such lore differences are acceptable for that product.
+
+For more precise item matching, consider using product-level `match-item` rules.
+
+***
+
+## NBT Value Modifier
+
+The NBT modifier reads a numeric value from the item's NBT data.
+
+{% hint style="warning" %}
+This modifier requires the **NBTAPI** plugin.
+{% endhint %}
+
+Example:
 
 ```yaml
 sell:
@@ -33600,52 +35270,747 @@ price-modifier:
 nbt-value:
 type: nbt
 enabled: true
-operation: SET
+
 key: item_value
 value-type: AUTO
+
+operation: SET
+
 minimum-value: 0
 maximum-value: 1000000
 maximum-number-length: 64
 ```
 
-The NBT modifier requires NBTAPI. `key` supports nested paths such as `custom.price`. `value-type` supports `AUTO`, `BYTE`, `SHORT`, `INT`, `LONG`, `FLOAT`, `DOUBLE`, and `STRING`; numeric strings are accepted. `SET`, `MULTIPLY`, and the numeric safety options behave the same as in the Lore modifier. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
+Nested NBT paths are supported:
 
-## Match item modifier
+```yaml
+key: custom.price
+```
 
-This modifier uses MythicChanger `match-item` rules. If MythicChanger is unavailable, the modifier has no effect.
+***
+
+### value-type
+
+Supported values are:
+
+```
+AUTO
+BYTE
+SHORT
+INT
+LONG
+FLOAT
+DOUBLE
+STRING
+```
+
+`AUTO` automatically attempts to obtain a usable numeric value.
+
+Numeric strings are also accepted.
+
+***
+
+### SET and MULTIPLY
+
+The NBT modifier supports the same operations as the Lore modifier.
+
+#### SET
+
+```yaml
+operation: SET
+```
+
+uses the NBT value as the unit price.
+
+#### MULTIPLY
+
+```yaml
+operation: MULTIPLY
+```
+
+multiplies the current price by the NBT value.
+
+***
+
+### Invalid values
+
+The modifier leaves the current price unchanged when the NBT value is:
+
+* Missing.
+* Invalid.
+* Non-numeric.
+* Non-finite.
+* Outside `minimum-value` and `maximum-value`.
+* Longer than `maximum-number-length`.
+
+***
+
+### Item matching for NBT
+
+If the NBT value used as the dynamic price differs between individual items, that value may also need to be ignored during ItemFormat matching.
+
+For example, after inspecting the item with:
+
+```
+/shop generateitemformat
+```
+
+you may find a key such as:
+
+```
+nbt.string.item_value
+```
+
+You can then configure:
+
+```yaml
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'nbt.string.item_value'
+```
+
+{% hint style="warning" %}
+Whenever possible, ignore only the specific dynamic NBT key.
+
+Avoid ignoring the entire `nbt` section unless you intentionally want all NBT differences to be ignored.
+{% endhint %}
+
+For example:
+
+```yaml
+ignore-key:
+- 'nbt'
+```
+
+may cause many otherwise different items to be treated as the same product.
+
+Use `/shop generateitemformat` to determine the most specific ItemFormat key available for your item.
+
+***
+
+## Match Item Modifier
+
+The `match_item` modifier uses MythicChanger `match-item` rules.
+
+The legacy type:
+
+```yaml
+type: mythic_changer
+```
+
+remains available as an alias.
+
+{% hint style="warning" %}
+This modifier requires **MythicChanger**.
+
+If MythicChanger is unavailable, the modifier has no effect.
+{% endhint %}
+
+Example:
 
 ```yaml
 sell:
 price-modifier:
 mythic-changer:
 type: match_item
+enabled: true
+
 mode: STACK
+
 rules:
 named-item:
 operation: MULTIPLY
 value: 1.2
+
 match-item:
 has-name: true
+
 special-lore:
 operation: ADD
 value: 0.1
+
 match-item:
 contains-lore:
 - 'Special'
 ```
 
-Every matching rule produces a multiplier:
+Each rule contains:
 
-* `MULTIPLY`: uses `value` directly, so `1.2` means 120% of the current price.
-* `ADD`: adds `value` to the multiplier, so `0.1` means 110%.
+```yaml
+operation:
+value:
+match-item:
+```
 
-Unsupported rule operations are reported as configuration errors and the affected rule is ignored.
+The `match-item` section uses MythicChanger's item matching system.
 
-`mode` controls multiple matching rules:
+***
 
-* `MAX` or `HIGHEST`: use the highest resulting multiplier.
-* `MIN` or `LOWEST`: use the lowest resulting multiplier.
-* `STACK`: process matching rules in configuration order; `MULTIPLY` values multiply and `ADD` values add to the accumulated multiplier.
+### MULTIPLY
+
+```yaml
+operation: MULTIPLY
+value: 1.2
+```
+
+produces a multiplier of:
+
+```
+1.2
+```
+
+which means:
+
+```
+120%
+```
+
+of the current price.
+
+***
+
+### ADD
+
+```yaml
+operation: ADD
+value: 0.1
+```
+
+adds the value to the multiplier.
+
+For example:
+
+```
+1 + 0.1
+= 1.1
+```
+
+which means:
+
+```
+110%
+```
+
+of the current price.
+
+A valid expression whose result is `0` is still accepted.
+
+Invalid values or unsupported operations are reported through UltimateShop's error manager and the affected rule is ignored.
+
+***
+
+## Multiple Match Item Rules
+
+The `mode` option controls what happens when multiple rules match.
+
+Supported modes are:
+
+```
+MAX
+HIGHEST
+MIN
+LOWEST
+STACK
+```
+
+***
+
+### MAX / HIGHEST
+
+Uses the highest resulting multiplier.
+
+For example:
+
+```
+Rule A: 1.2
+Rule B: 1.5
+```
+
+result:
+
+```
+1.5
+```
+
+***
+
+### MIN / LOWEST
+
+Uses the lowest resulting multiplier.
+
+For example:
+
+```
+Rule A: 1.2
+Rule B: 1.5
+```
+
+result:
+
+```
+1.2
+```
+
+***
+
+### STACK
+
+Processes matching rules in configuration order.
+
+`MULTIPLY` values multiply the accumulated multiplier.
+
+`ADD` values add to the accumulated multiplier.
+
+For example:
+
+```
+Initial multiplier:
+1
+
+Rule A:
+MULTIPLY 1.5
+
+1 × 1.5
+= 1.5
+
+Rule B:
+ADD 0.2
+
+1.5 + 0.2
+= 1.7
+```
+
+Final multiplier:
+
+```
+1.7
+```
+
+***
+
+## Multiple Price Modifiers
+
+All enabled Price Modifiers under:
+
+```yaml
+sell:
+price-modifier:
+```
+
+are applied in configuration order.
+
+For example:
+
+```yaml
+price-modifier:
+
+durability:
+type: durability
+enabled: true
+
+lore:
+type: lore
+enabled: true
+```
+
+the durability modifier is processed before the lore modifier.
+
+The result of an earlier modifier becomes part of the current price used by later modifiers.
+
+Therefore, changing the configuration order may also change the final result.
+
+***
+
+## Selling Flow
+
+Products with:
+
+```yaml
+price-modifier: true
+```
+
+require access to the actual ItemStack being sold.
+
+Because of this, sell flows that cannot provide an actual item stack do not directly display or execute the normal sell price.
+
+When the player chooses:
+
+```
+sell
+```
+
+or:
+
+```
+sell-all
+```
+
+UltimateShop opens the item sell menu configured here:
+
+```yaml
+sell:
+price-modifier:
+item-sell-menu:
+enabled: true
+menu: item-sell
+```
+
+Buy actions, amount-selection actions, and custom actions are not redirected by this behavior.
+
+Bedrock forms and dialog shop lists open the product information view first, where buy and sell remain separate actions.
+
+A product with Price Modifier enabled can still be sold through the item sell menu even if:
+
+```yaml
+sell-all: false
+```
+
+is configured for that product.
+
+***
+
+## Price Calculation Order
+
+The simplified numeric calculation is:
+
+```
+Base sell price
+↓
+Conditional sell multiplier
+↓
+Price Modifier chain
+↓
+Configured numeric precision
+↓
+Final reward
+```
+
+For example:
+
+```
+Base price:
+100
+
+Conditional sell multiplier:
+1.2
+
+After conditional multiplier:
+120
+
+Durability modifier:
+0.5
+
+Final:
+120 × 0.5
+= 60
+```
+
+***
+
+## Precision and Rounding
+
+Applying a multiplier is treated as a mathematical calculation.
+
+UltimateShop rounds calculation results using:
+
+```
+HALF_UP
+```
+
+to the decimal places configured by:
+
+```yaml
+math:
+scale:
+```
+
+This applies to:
+
+* Price Modifiers.
+* Global sell multipliers.
+* Price previews.
+* Final sell rewards.
+
+For more information, see [Math Calculate Format](/format/math-calculate-format.md#result-precision).
+
+***
+
+## Transaction Event Behavior
+
+During an actual transaction, the sell price stored in the post-event `GiveResult` is authoritative.
+
+If another plugin changes the sell price through:
+
+```
+ItemPreTransactionEvent
+```
+
+UltimateShop preserves that changed result.
+
+When different actual ItemStacks need different Price Modifier results, recalculated stack prices are used only to determine how the already-authoritative total should be distributed between those stacks before their item-aware modifiers are applied.
+
+This prevents a transaction event's price modification from being accidentally replaced by a second normal price calculation.
+
+***
+
+## Recommended Configurations
+
+### Durability-based price
+
+If the only dynamic property is durability:
+
+```yaml
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'damage'
+
+price-modifier:
+durability:
+type: durability
+enabled: true
+deduction-coefficient: 1
+minimum-multiplier: 0.1
+```
+
+Product:
+
+```yaml
+price-modifier: true
+```
+
+***
+
+### Lore-based price
+
+If the price stored in lore is expected to vary:
+
+```yaml
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'lore'
+
+price-modifier:
+lore-value:
+type: lore
+enabled: true
+operation: SET
+pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
+value-group: 1
+minimum-value: 0
+maximum-value: 1000000
+```
+
+Product:
+
+```yaml
+price-modifier: true
+```
+
+***
+
+### NBT-based price
+
+First inspect the item:
+
+```
+/shop generateitemformat
+```
+
+Then ignore only the dynamic ItemFormat key if necessary:
+
+```yaml
+sell:
+sell-method: ItemFormat
+
+item-format:
+require-same-key: false
+ignore-key:
+- 'nbt.string.item_value'
+
+price-modifier:
+nbt-value:
+type: nbt
+enabled: true
+key: item_value
+value-type: AUTO
+operation: SET
+minimum-value: 0
+maximum-value: 1000000
+```
+
+Product:
+
+```yaml
+price-modifier: true
+```
+
+***
+
+## Common Problems
+
+### Damaged items cannot be sold
+
+If you are using:
+
+```yaml
+type: durability
+```
+
+but damaged items cannot be sold, check your global sell method.
+
+Using:
+
+```yaml
+sell-method: Bukkit
+```
+
+may cause different damage values to fail item matching.
+
+Consider:
+
+```yaml
+sell-method: ItemFormat
+```
+
+with:
+
+```yaml
+ignore-key:
+- 'damage'
+```
+
+***
+
+### Lore modifier does not run
+
+If the item's lore differs from the product item, the item may be rejected before the modifier is reached.
+
+If that lore difference is intentional, configure the item matching system accordingly.
+
+***
+
+### NBT modifier does not run
+
+Check both systems separately:
+
+1. Can the actual item match the product?
+2. Can the NBT modifier find the configured NBT key?
+
+Use:
+
+```
+/shop generateitemformat
+```
+
+to inspect ItemFormat matching data.
+
+The NBT key used by the Price Modifier and the ItemFormat key used by `ignore-key` represent related item data, but they are configured for different purposes.
+
+***
+
+### Price Modifier has no effect
+
+Check that the product contains:
+
+```yaml
+price-modifier: true
+```
+
+Also check that the corresponding global modifier contains:
+
+```yaml
+enabled: true
+```
+
+For example:
+
+```yaml
+sell:
+price-modifier:
+durability:
+type: durability
+enabled: true
+```
+
+***
+
+### Different items are unexpectedly treated as the same product
+
+Check:
+
+```yaml
+sell:
+item-format:
+ignore-key:
+```
+
+Do not ignore more item data than necessary.
+
+For example:
+
+```yaml
+ignore-key:
+- 'nbt'
+```
+
+is much broader than:
+
+```yaml
+ignore-key:
+- 'nbt.string.item_value'
+```
+
+Use the most specific key possible.
+
+***
+
+## Price Modifier API
+
+Global item-aware Price Modifiers are registered through `PriceModifierRegistry`.
+
+A custom implementation only needs to implement `PriceModifier` and register a factory:
+
+```java
+PriceModifierRegistry.register(
+"my-modifier",
+MyPriceModifier::new
+);
+```
+
+Each modifier receives:
+
+* The player.
+* The actual sold `ItemStack`.
+* The current numeric price.
+
+It returns a non-negative multiplier.
+
+The four-argument overload also receives the number of trade units for modifiers that require quantity-aware behavior, such as `SET`.
+
+Modifiers configured under:
+
+```yaml
+sell:
+price-modifier:
+```
+
+are applied in configuration order.
+
+Registering a new factory, or replacing an existing factory with the same type, immediately rebuilds the configured Price Modifier chain.
+
+A server reload is not required.
 
 ============================================================
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
@@ -34711,7 +37076,7 @@ buy-more-menu: Set up separate buy more menu settings for the product. Optional.
 
 sell-all: Set whether this product can use sell all feature. Optional, default to true. (Added in 3.9.3)
 
-price-modifier: Enables global sell.price-modifier rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Such products remain sellable in that menu even when sell-all is false. Optional, default to false.
+price-modifier: Enables global sell.price-modifier rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Choosing sell or sell-all opens that menu; buy, amount-selection, and custom actions keep their normal behavior. Such products remain sellable in the item sell menu even when sell-all is false. See Price Modifier. Optional, default to false.
 
 shared-use-times: Please view this page.
 
@@ -34962,7 +37327,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 18 days ago
+Last updated 4 hours ago
 
 Model
 
@@ -36945,7 +39310,7 @@ max-amount: 16
 ```
 
 * sell-all: Set whether this product can use sell all feature. **Optional, default to true. (Added in 3.9.3)**
-* price-modifier: Enables global `sell.price-modifier` rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Such products remain sellable in that menu even when `sell-all` is false. **Optional, default to false.**
+* price-modifier: Enables global `sell.price-modifier` rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Choosing `sell` or `sell-all` opens that menu; buy, amount-selection, and custom actions keep their normal behavior. Such products remain sellable in the item sell menu even when `sell-all` is false. See [Price Modifier](/shops/price-modifier.md). **Optional, default to false.**
 * shared-use-times: Please view [this page](/shops/shared-product-data-premium.md).
 * hide-message: Whether we hide the messages that will send after player buy or sell this product. **Optional, default to false. (Added in 4.2.11)**
 
@@ -37387,7 +39752,7 @@ On this page
 
 Sell chest and sell stick provide multiplier feature, their multiplier and this feature are independent of each other, and the final price result will be superimposed.
 
-sell.multiplier is a global sell bonus system. You can use it as tax for all players or bonus for VIP players. You can found it's config at config.yml file.
+sell.multiplier is a global sell bonus system. You can use it as tax for all players or bonus for VIP players. You can find its configuration in config.yml.
 
 Copy
 
@@ -37418,107 +39783,31 @@ vip:
 type: permission
 permission: 'group.vip'
 
-enabled: To use this feature, you have to make sure this option being set to true.
+enabled: Must be true to enable the global multiplier.
 
-display-original-price: If set to false, we will display price that has modified by the multiplier in shop GUI.
+display-original-price: When false, the shop GUI displays the price after applying the multiplier.
 
-mode: Support value: MAX and STACK.
+mode: Supports MAX and STACK.
 
-MAX: Use the biggest value among all matched multiplier entries and default.
+MAX: Uses the largest value among default and all matched entries.
 
-STACK: Start from default, then multiply every matched value together.
+STACK: Starts with default, then multiplies all matched entries together.
 
-Example:
+value and value-conditions: IDs must match exactly. Conditions use Condition Format.
 
-default = 1
+For example, if default is 1, rich is 0.9, vip is 1.1, and the player matches both conditions, MAX produces 1.1 while STACK produces 0.99.
 
-rich = 0.9
+Item-aware price modifiers
 
-vip = 1.1
+sell.price-modifier is separate from this global multiplier. For products with price-modifier: true, item-aware modifiers are applied to the actual sold stacks and then combined with sell.multiplier for the final sell reward.
 
-Player matches both rich and vip
-
-MAX mode final result = 1.1
-
-STACK mode final result = 1 * 0.9 * 1.1 = 0.99
-
-value and value-conditions: The multiplier id in value must match the id in value-conditions exactly. Should use Condition Format in value-conditions option.
-
-Separate item-aware price modifiers
-
-sell.price-modifier is independent from sell.multiplier. Its rules are global, but only products with price-modifier: true use them. Each matching modifier is merged into the transaction's final multiplier in configuration order.
-
-The durability modifier uses 1 - (lost durability ratio x deduction-coefficient). It never drops below minimum-multiplier; minimum-price can also set a floor for the current numeric price. Non-damageable items use 1.
-
-The Lore modifier searches each lore line with pattern and reads value-group from the first match. Formatting codes are removed when strip-color is true. operation: SET uses the captured number as the price of each sold trade unit, so stack splitting does not change the total, while MULTIPLY multiplies the current price by that number. Values outside the inclusive minimum-value/maximum-value range, values longer than maximum-number-length, and invalid or unmatched lore leave the price unchanged. Unsupported operations are reported as configuration errors and ignored instead of silently falling back to MULTIPLY.
-
-The NBT modifier reads the scalar value at key; nested compounds use dot notation such as custom.price. value-type can be AUTO, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE, or STRING. Numeric strings are accepted. It uses the same operations and numeric safety options as the Lore modifier and requires NBTAPI. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
-
-The MythicChanger modifier uses MythicChanger match-item rules. MULTIPLY uses value as a multiplier, while ADD adds value to 1. Unsupported rule operations are reported and the affected rule is ignored. Its mode supports MAX/HIGHEST, MIN/LOWEST, and STACK. If MythicChanger is unavailable, this modifier has no effect.
-
-Enable item-aware pricing for a product in its shop configuration:
-
-Such a product exposes its dynamic sell price in the shop menu's added lore, calculated from its displayed item. Its sell price is hidden from normal sell APIs and all non-item-sell-menu flows, so it can only be sold through an item sell menu. When item-sell-menu.enabled is true, clicking the product in Java, Bedrock, or dialog shop menus opens the configured item-sell-menu.menu directly.
+See Price Modifier for its configuration and behavior.
 
 Previous🔗Shared Product Data - Premium
 
 Next💹Price Modifier
 
-Last updated 19 days ago
-
-Copy
-
-sell:
-price-modifier:
-item-sell-menu:
-# Products with `price-modifier: true` open this menu when clicked.
-enabled: true
-menu: item-sell
-durability:
-type: durability
-enabled: true
-deduction-coefficient: 1
-minimum-multiplier: 0.1
-# minimum-price: 1
-lore:
-type: lore
-enabled: false
-operation: SET
-pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
-value-group: 1
-strip-color: true
-minimum-value: 0
-maximum-value: 1000000
-maximum-number-length: 64
-nbt:
-type: nbt
-enabled: false
-operation: SET
-key: item_value
-value-type: AUTO
-minimum-value: 0
-maximum-value: 1000000
-maximum-number-length: 64
-mythic-changer:
-type: match_item
-enabled: false
-mode: STACK
-rules:
-named-item:
-operation: MULTIPLY
-value: 1.2
-match-item:
-has-name: true
-special-lore:
-operation: ADD
-value: 0.1
-match-item:
-contains-lore:
-- 'Special'
-
-Copy
-
-price-modifier: true
+Last updated 5 hours ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
@@ -37531,7 +39820,7 @@ URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
 Sell chest and sell stick provide multiplier feature, their multiplier and this feature are independent of each other, and the final price result will be superimposed.
 {% endhint %}
 
-`sell.multiplier` is a global sell bonus system. You can use it as tax for all players or bonus for VIP players. You can found it's config at `config.yml` file.
+`sell.multiplier` is a global sell bonus system. You can use it as tax for all players or bonus for VIP players. You can find its configuration in `config.yml`.
 
 ```yaml
 sell:
@@ -37562,92 +39851,20 @@ type: permission
 permission: 'group.vip'
 ```
 
-* enabled: To use this feature, you have to make sure this option being set to `true`.
-* display-original-price: If set to `false`, we will display price that has modified by the multiplier in shop GUI.
-* mode: Support value: **MAX** and **STACK**.
+* `enabled`: Must be `true` to enable the global multiplier.
+* `display-original-price`: When `false`, the shop GUI displays the price after applying the multiplier.
+* `mode`: Supports `MAX` and `STACK`.
+* `MAX`: Uses the largest value among `default` and all matched entries.
+* `STACK`: Starts with `default`, then multiplies all matched entries together.
+* `value` and `value-conditions`: IDs must match exactly. Conditions use [Condition Format](/format/condition-format.md).
 
-* MAX: Use the biggest value among all matched multiplier entries and `default`.
-* STACK: Start from `default`, then multiply every matched value together.
+For example, if `default` is `1`, `rich` is `0.9`, `vip` is `1.1`, and the player matches both conditions, `MAX` produces `1.1` while `STACK` produces `0.99`.
 
-Example:
+## Item-aware price modifiers
 
-* `default = 1`
-* `rich = 0.9`
-* `vip = 1.1`
-* Player matches both `rich` and `vip`
-* MAX mode final result = `1.1`
-* STACK mode final result = `1 * 0.9 * 1.1 = 0.99`
-* value and value-conditions: The multiplier id in `value` must match the id in `value-conditions` exactly. Should use [Condition Format](/format/condition-format.md) in `value-conditions` option.
+`sell.price-modifier` is separate from this global multiplier. For products with `price-modifier: true`, item-aware modifiers are applied to the actual sold stacks and then combined with `sell.multiplier` for the final sell reward.
 
-## Separate item-aware price modifiers
-
-`sell.price-modifier` is independent from `sell.multiplier`. Its rules are global, but only products with `price-modifier: true` use them. Each matching modifier is merged into the transaction's final multiplier in configuration order.
-
-```yaml
-sell:
-price-modifier:
-item-sell-menu:
-# Products with `price-modifier: true` open this menu when clicked.
-enabled: true
-menu: item-sell
-durability:
-type: durability
-enabled: true
-deduction-coefficient: 1
-minimum-multiplier: 0.1
-# minimum-price: 1
-lore:
-type: lore
-enabled: false
-operation: SET
-pattern: 'Item Value[：:]\s*([+-]?(?:\d+(?:\.\d+)?|\.\d+))'
-value-group: 1
-strip-color: true
-minimum-value: 0
-maximum-value: 1000000
-maximum-number-length: 64
-nbt:
-type: nbt
-enabled: false
-operation: SET
-key: item_value
-value-type: AUTO
-minimum-value: 0
-maximum-value: 1000000
-maximum-number-length: 64
-mythic-changer:
-type: match_item
-enabled: false
-mode: STACK
-rules:
-named-item:
-operation: MULTIPLY
-value: 1.2
-match-item:
-has-name: true
-special-lore:
-operation: ADD
-value: 0.1
-match-item:
-contains-lore:
-- 'Special'
-```
-
-The durability modifier uses `1 - (lost durability ratio x deduction-coefficient)`. It never drops below `minimum-multiplier`; `minimum-price` can also set a floor for the current numeric price. Non-damageable items use `1`.
-
-The Lore modifier searches each lore line with `pattern` and reads `value-group` from the first match. Formatting codes are removed when `strip-color` is true. `operation: SET` uses the captured number as the price of each sold trade unit, so stack splitting does not change the total, while `MULTIPLY` multiplies the current price by that number. Values outside the inclusive `minimum-value`/`maximum-value` range, values longer than `maximum-number-length`, and invalid or unmatched lore leave the price unchanged. Unsupported operations are reported as configuration errors and ignored instead of silently falling back to `MULTIPLY`.
-
-The NBT modifier reads the scalar value at `key`; nested compounds use dot notation such as `custom.price`. `value-type` can be `AUTO`, `BYTE`, `SHORT`, `INT`, `LONG`, `FLOAT`, `DOUBLE`, or `STRING`. Numeric strings are accepted. It uses the same operations and numeric safety options as the Lore modifier and requires NBTAPI. Missing, non-finite, out-of-range, oversized, or invalid values leave the price unchanged.
-
-The MythicChanger modifier uses MythicChanger `match-item` rules. `MULTIPLY` uses `value` as a multiplier, while `ADD` adds `value` to `1`. Unsupported rule operations are reported and the affected rule is ignored. Its mode supports `MAX`/`HIGHEST`, `MIN`/`LOWEST`, and `STACK`. If MythicChanger is unavailable, this modifier has no effect.
-
-Enable item-aware pricing for a product in its shop configuration:
-
-```yaml
-price-modifier: true
-```
-
-Such a product exposes its dynamic sell price in the shop menu's added lore, calculated from its displayed item. Its sell price is hidden from normal sell APIs and all non-item-sell-menu flows, so it can only be sold through an item sell menu. When `item-sell-menu.enabled` is true, clicking the product in Java, Bedrock, or dialog shop menus opens the configured `item-sell-menu.menu` directly.
+See [Price Modifier](/shops/price-modifier.md) for its configuration and behavior.
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -38301,7 +40518,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Create the shop
 
