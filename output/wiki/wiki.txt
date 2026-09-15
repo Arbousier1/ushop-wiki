@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-09-14T02:48:41Z
+Generated UTC: 2026-09-15T02:51:46Z
 Page Count: 139
 
 ============================================================
@@ -432,7 +432,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -9539,9 +9539,35 @@ The display item of sell chest ONLY support use CHEST as material. Otherwise, it
 
 The most thing is same as Sell Stick, I will only tell you about different things:
 
-holograms: The content of the hologram showed above sell chest. Require DecentHolograms.
+holograms: The content of the hologram shown above the sell chest. Requires an enabled supported hologram plugin.
 
 y-offset: The height deviation of the hologram compared to the sell chest can be adjusted according to the number of rows in the hologram.
+
+Hologram placeholders
+
+Placeholder
+
+Display Info
+
+{id}
+
+Sell chest config ID.
+
+{owner}
+
+Username of the player who placed the sell chest.
+
+{usage}
+
+Remaining usages, or the configured infinite text for an infinite sell chest.
+
+{multiplier}
+
+Sell price multiplier.
+
+{price}
+
+Earnings from the last successful selling attempt, or the configured price-empty text if there is no history.
 
 Setting in config.yml file
 
@@ -9588,13 +9614,15 @@ Previous🪄Sell Stick - Premium
 
 Next💾Saved Item (Item Manager)
 
-Last updated 1 month ago
+Last updated 13 minutes ago
 
 Limitation
 
 Note
 
 Config
+
+Hologram placeholders
 
 Setting in config.yml file
 
@@ -9618,6 +9646,7 @@ y-offset: 2.25
 holograms:
 - '&e&lSell chest'
 - '&7ID: {id}'
+- '&7Owner: {owner}'
 - '&7Left Times: {usage}'
 - '&7Multiplier: {multiplier}'
 - '&7Last Earn: {price}'
@@ -9696,6 +9725,7 @@ y-offset: 2.25
 holograms:
 - '&e&lSell chest'
 - '&7ID: {id}'
+- '&7Owner: {owner}'
 - '&7Left Times: {usage}'
 - '&7Multiplier: {multiplier}'
 - '&7Last Earn: {price}'
@@ -9714,8 +9744,18 @@ The display item of sell chest **ONLY** support use **CHEST** as material. Other
 
 The most thing is same as [Sell Stick](/features/sell-stick-premium.md), I will only tell you about different things:
 
-* holograms: The content of the hologram showed above sell chest. Require DecentHolograms.
+* holograms: The content of the hologram shown above the sell chest. Requires an enabled [supported hologram plugin](/info/compatibility.md#directly-supported-protection-plugins-list-premium-1).
 * y-offset: The height deviation of the hologram compared to the sell chest can be adjusted according to the number of rows in the hologram.
+
+### Hologram placeholders
+
+| Placeholder | Display Info |
+| -------------- | --------------------------------------------------------------------------------------------------------------- |
+| `{id}` | Sell chest config ID. |
+| `{owner}` | Username of the player who placed the sell chest. |
+| `{usage}` | Remaining usages, or the configured infinite text for an infinite sell chest. |
+| `{multiplier}` | Sell price multiplier. |
+| `{price}` | Earnings from the last successful selling attempt, or the configured `price-empty` text if there is no history. |
 
 ## Setting in config.yml file
 
@@ -16661,7 +16701,7 @@ Previous⚖️Condition Format
 
 Next🔲General Menus
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Result precision
 
@@ -19966,7 +20006,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 9 days ago
+Last updated 8 minutes ago
 
 Copy
 
@@ -20201,6 +20241,7 @@ input: '{lang:menu.dialog.buy-more.input}'
 buttons:
 confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
 info:
+display-item: true
 title: '{lang:menu.dialog.info.title}'
 buttons:
 buy: '{lang:menu.dialog.info.buttons.buy}'
@@ -20744,6 +20785,7 @@ input: '{lang:menu.dialog.buy-more.input}'
 buttons:
 confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
 info:
+display-item: true
 title: '{lang:menu.dialog.info.title}'
 buttons:
 buy: '{lang:menu.dialog.info.buttons.buy}'
@@ -23022,7 +23064,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Create the menu
 
@@ -23466,7 +23508,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Requirements
 
@@ -24757,11 +24799,15 @@ The following options are under menu.dialog in config.yml:
 
 default-button: fallback close button when no custom actions exist
 
+not-auto-close: keeps the product information Dialog open after a buy or sell action
+
 search.*: search input and button labels
 
 buy-more.*: amount selection labels
 
-info.*: product information button labels
+info.display-item: displays the product's display item as an item body in the product information Dialog
+
+info.*: product information title and button labels
 
 favourite-edit.*: favourite editing labels
 
@@ -24771,7 +24817,7 @@ Previous🛏️Bedrock Menus - Premium
 
 Next🥉Display Item Add Lore
 
-Last updated 7 days ago
+Last updated 13 minutes ago
 
 Requirements
 
@@ -24854,6 +24900,7 @@ input: '{lang:menu.dialog.buy-more.input}'
 buttons:
 confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
 info:
+display-item: true
 title: '{lang:menu.dialog.info.title}'
 buttons:
 buy: '{lang:menu.dialog.info.buttons.buy}'
@@ -24995,9 +25042,11 @@ auto-use-sprite-item-name: true
 The following options are under `menu.dialog` in `config.yml`:
 
 * `default-button`: fallback close button when no custom actions exist
+* `not-auto-close`: keeps the product information Dialog open after a buy or sell action
 * `search.*`: search input and button labels
 * `buy-more.*`: amount selection labels
-* `info.*`: product information button labels
+* `info.display-item`: displays the product's display item as an item body in the product information Dialog
+* `info.*`: product information title and button labels
 * `favourite-edit.*`: favourite editing labels
 
 These values support `{lang:...}` language references. Product information strings also support relevant placeholders such as `{item-name}` and `{amount}`.
@@ -25018,6 +25067,7 @@ input: '{lang:menu.dialog.buy-more.input}'
 buttons:
 confirm: '{lang:menu.dialog.buy-more.buttons.confirm}'
 info:
+display-item: true
 title: '{lang:menu.dialog.info.title}'
 buttons:
 buy: '{lang:menu.dialog.info.buttons.buy}'
@@ -26210,7 +26260,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 28 days ago
+Last updated 29 days ago
 
 Create the menu
 
@@ -26950,7 +27000,7 @@ Previous🔍Search Menus - Premium
 
 Next❤️Favourite Menus - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -28395,6 +28445,10 @@ You can set result scale at placeholder.math.scale option.
 
 Anywhere in plugin
 
+Sell chest hologram placeholders
+
+The sell chest hologram also supports {id}, {owner}, {usage}, {multiplier}, and {price}. See the Sell Chest page for the value and behavior of each placeholder.
+
 Use built-in placeholder in amount option requires you change this option in config.yml file from
 
 to
@@ -28427,9 +28481,11 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 13 minutes ago
 
 Built-in Placeholders List
+
+Sell chest hologram placeholders
 
 PlaceholderAPI Support
 
@@ -28941,6 +28997,10 @@ You can set result scale at placeholder.math.scale option.
 
 Anywhere in plugin
 
+Sell chest hologram placeholders
+
+The sell chest hologram also supports {id}, {owner}, {usage}, {multiplier}, and {price}. See the Sell Chest page for the value and behavior of each placeholder.
+
 Use built-in placeholder in amount option requires you change this option in config.yml file from
 
 to
@@ -28973,9 +29033,11 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 13 minutes ago
 
 Built-in Placeholders List
+
+Sell chest hologram placeholders
 
 PlaceholderAPI Support
 
@@ -29330,6 +29392,10 @@ Require you enable math.enabled option in config.yml file.
 You can set result scale at placeholder.math.scale option.
 
 Anywhere in plugin
+
+### Sell chest hologram placeholders
+
+The sell chest hologram also supports `{id}`, `{owner}`, `{usage}`, `{multiplier}`, and `{price}`. See the [Sell Chest](/features/sell-chest-premium.md#hologram-placeholders) page for the value and behavior of each placeholder.
 
 {% hint style="info" %}
 Use built-in placeholder in `amount` option requires you change this option in `config.yml` file from
@@ -33896,7 +33962,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Item Matching vs Price Modifier
 
@@ -37365,7 +37431,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Model
 
@@ -39845,7 +39911,7 @@ Previous🔗Shared Product Data - Premium
 
 Next💹Price Modifier
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
