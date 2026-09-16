@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-09-15T02:51:46Z
+Generated UTC: 2026-09-16T02:47:07Z
 Page Count: 139
 
 ============================================================
@@ -239,7 +239,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 4 months ago
+Last updated 5 months ago
 
 Links
 
@@ -432,7 +432,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -7267,7 +7267,7 @@ Previous🎨Color Code
 
 Next🪄Sell Stick - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -9614,7 +9614,7 @@ Previous🪄Sell Stick - Premium
 
 Next💾Saved Item (Item Manager)
 
-Last updated 13 minutes ago
+Last updated 19 hours ago
 
 Limitation
 
@@ -18238,7 +18238,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 FAQ:
 
@@ -20006,7 +20006,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 8 minutes ago
+Last updated 21 hours ago
 
 Copy
 
@@ -21617,7 +21617,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Q: Player don't cost money when buy product.
 
@@ -23064,7 +23064,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Create the menu
 
@@ -23508,7 +23508,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Requirements
 
@@ -24090,7 +24090,7 @@ Previous🔲General Menus
 
 Next🔍Search Menus - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Buy More Menus Config
 
@@ -24817,7 +24817,7 @@ Previous🛏️Bedrock Menus - Premium
 
 Next🥉Display Item Add Lore
 
-Last updated 13 minutes ago
+Last updated 20 hours ago
 
 Requirements
 
@@ -25829,7 +25829,7 @@ Previous💰Item Sell Menus
 
 Next🛒Sell All Menu
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Favourite Menu Config
 
@@ -26260,7 +26260,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Create the menu
 
@@ -27349,7 +27349,7 @@ Previous🔽Buy More Menus
 
 Next💰Item Sell Menus
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Search Menus Config
 
@@ -28481,7 +28481,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 13 minutes ago
+Last updated 19 hours ago
 
 Built-in Placeholders List
 
@@ -29033,7 +29033,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 13 minutes ago
+Last updated 19 hours ago
 
 Built-in Placeholders List
 
@@ -30747,7 +30747,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Config
 
@@ -31328,7 +31328,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Create the shop
 
@@ -40622,7 +40622,7 @@ Previous🥉Display Item Add Lore
 
 Next🛒Products
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Create the shop
 
