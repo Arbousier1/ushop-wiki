@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-09-17T02:51:12Z
+Generated UTC: 2026-09-18T02:37:33Z
 Page Count: 139
 
 ============================================================
@@ -432,7 +432,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/config-pack.md
@@ -1284,7 +1284,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Add as dependency
 
@@ -3873,7 +3873,7 @@ Previous🔖Example: Discount
 
 Next🔴Dynamic Price Status - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Enable Math Feature
 
@@ -4244,7 +4244,7 @@ Previous🔖Example: Discount
 
 Next🔴Dynamic Price Status - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Enable Math Feature
 
@@ -4977,7 +4977,7 @@ Previous🔴Dynamic Price Status - Premium
 
 Next🎨Color Code
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Default Language
 
@@ -5306,7 +5306,7 @@ Previous🔴Dynamic Price Status - Premium
 
 Next🎨Color Code
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Default Language
 
@@ -6404,7 +6404,7 @@ Previous🎮Custom Click Event - Premium
 
 Next🔑Give Item Method
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Default Item Match Method
 
@@ -6801,7 +6801,7 @@ Previous💳Log Transaction - Premium
 
 NextDevelop Guide
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 EconomyLimit
 
@@ -9253,7 +9253,7 @@ Previous🎁Sell Chest - Premium
 
 Next🌍Localized Item Name - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Create your item
 
@@ -10365,7 +10365,7 @@ Previous🆚Compare
 
 Next🛒Info of ItemFormat™
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Basic Syntax
 
@@ -10898,7 +10898,7 @@ Previous🖼️Display Item Format
 
 Next⚖️Condition Format
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 General Options
 
@@ -13110,7 +13110,7 @@ Previous🌉ItemBridge
 
 Next🖼️Display Item Format
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Hook Economy
 
@@ -14425,7 +14425,7 @@ Previous🛒Info of ItemFormat™
 
 NextComponent Format
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Hook Item
 
@@ -16701,7 +16701,7 @@ Previous⚖️Condition Format
 
 Next🔲General Menus
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Result precision
 
@@ -17315,7 +17315,7 @@ Previous🆚Compare
 
 Next🛒Info of ItemFormat™
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Basic Syntax
 
@@ -17878,7 +17878,7 @@ Previous💬Config Pack
 
 Next⚙️Install
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Java Version
 
@@ -18860,7 +18860,7 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -19445,7 +19445,7 @@ Previous⚙️Install
 
 Next🛠️Configuration files
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Direct compatibility
 
@@ -20006,7 +20006,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Copy
 
@@ -21302,7 +21302,7 @@ Previous⌨️Commands & Permissions
 
 Next🚀Performance
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Data Type
 
@@ -21913,7 +21913,7 @@ Previous✅Requirements
 
 Next🔗Compatibility
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -22160,7 +22160,7 @@ Previous📊Data
 
 Next❓FAQ
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -22599,7 +22599,7 @@ Previous💬Config Pack
 
 Next⚙️Install
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Java Version
 
@@ -23508,7 +23508,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Requirements
 
@@ -24457,7 +24457,7 @@ Previous🛒Sell All Menu
 
 Next🛏️Bedrock Menus - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Set display condition
 
@@ -24817,7 +24817,7 @@ Previous🛏️Bedrock Menus - Premium
 
 Next🥉Display Item Add Lore
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Requirements
 
@@ -25369,7 +25369,7 @@ Previous💬Dialog Menus - Premium
 
 Next📂Shops
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 General Setting
 
@@ -27000,7 +27000,7 @@ Previous🔍Search Menus - Premium
 
 Next❤️Favourite Menus - Premium
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -27724,7 +27724,7 @@ Previous❤️Favourite Menus - Premium
 
 Next🔀Conditional Display - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Sell All Menu Config
 
@@ -27942,7 +27942,7 @@ Previous🎉Welcome
 
 Next💬Config Pack
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/other-language-wiki.md
@@ -28481,7 +28481,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Built-in Placeholders List
 
@@ -29033,7 +29033,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Built-in Placeholders List
 
@@ -33180,7 +33180,7 @@ Previous⚡Example: Common Usage
 
 Next📅Example: Daily Shop/Rotating Shop
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Set dynamic value for your product configs
 
@@ -33962,7 +33962,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Item Matching vs Price Modifier
 
@@ -36501,7 +36501,7 @@ Previous💰Products Config: Single Thing
 
 Next🔗Shared Product Data - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Reset
 
@@ -37431,7 +37431,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 Model
 
@@ -38213,7 +38213,7 @@ Previous🛒Products
 
 Next♻️Product Config: Buy/Sell Times Reset
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 What Is a Single Thing?
 
@@ -39911,7 +39911,7 @@ Previous🔗Shared Product Data - Premium
 
 Next💹Price Modifier
 
-Last updated 12 days ago
+Last updated 13 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
@@ -40220,7 +40220,7 @@ Previous♻️Product Config: Buy/Sell Times Reset
 
 Next💰Sell Multiplier - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Overview
 
