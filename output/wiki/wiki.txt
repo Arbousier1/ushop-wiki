@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-09-18T02:37:33Z
+Generated UTC: 2026-09-19T02:36:41Z
 Page Count: 139
 
 ============================================================
@@ -2422,7 +2422,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Add as dependency
 
@@ -4502,7 +4502,7 @@ Previous🔄Dynamic Price
 
 Next🌏Advanced Language Managment
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Dynamic Price Status
 
@@ -5741,7 +5741,7 @@ Previous🌏Advanced Language Managment
 
 Next💴Easy Prices
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 MiniMessage
 
@@ -6016,7 +6016,7 @@ Previous🔢Number Format
 
 Next🔍Custom Item Match Method
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Options
 
@@ -7267,7 +7267,7 @@ Previous🎨Color Code
 
 Next🪄Sell Stick - Premium
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/easy-prices.md
@@ -7521,7 +7521,7 @@ Previous🔍Custom Item Match Method
 
 Next💳Log Transaction - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 BUKKIT
 
@@ -8048,7 +8048,7 @@ Previous💾Saved Item (Item Manager)
 
 Next🌐Multi Server Sync - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Requirements
 
@@ -8488,7 +8488,7 @@ Previous🔑Give Item Method
 
 Next🌈Earn Limit
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Format available placeholders:
 
@@ -8720,7 +8720,7 @@ Previous🌍Localized Item Name - Premium
 
 Next🔢Number Format
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
@@ -8953,7 +8953,7 @@ Previous🌐Multi Server Sync - Premium
 
 Next🎮Custom Click Event - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Built-in number format
 
@@ -9614,7 +9614,7 @@ Previous🪄Sell Stick - Premium
 
 Next💾Saved Item (Item Manager)
 
-Last updated 2 days ago
+Last updated 4 days ago
 
 Limitation
 
@@ -10016,7 +10016,7 @@ Previous💴Easy Prices
 
 Next🎁Sell Chest - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium.md
@@ -12273,7 +12273,7 @@ Previous🎬Action Format
 
 Next➗Math Calculate Format
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 General Options
 
@@ -12822,7 +12822,7 @@ Previous💹EconomyFormat™
 
 Next🎬Action Format
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Single
 
@@ -13415,7 +13415,7 @@ Previous📊Understanding YAML/This wiki
 
 Next📝ItemFormat™
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Item parameter possible value list
 
@@ -13853,7 +13853,7 @@ PreviousComponent Format
 
 Next💹EconomyFormat™
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Supported Plugin List
 
@@ -15754,7 +15754,7 @@ Previous📝ItemFormat™
 
 Next🌉ItemBridge
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Custom Name
 
@@ -16701,7 +16701,7 @@ Previous⚖️Condition Format
 
 Next🔲General Menus
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Result precision
 
@@ -20006,7 +20006,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Copy
 
@@ -23508,7 +23508,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Requirements
 
@@ -24817,7 +24817,7 @@ Previous🛏️Bedrock Menus - Premium
 
 Next🥉Display Item Add Lore
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Requirements
 
@@ -27000,7 +27000,7 @@ Previous🔍Search Menus - Premium
 
 Next❤️Favourite Menus - Premium
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/menus/item-sell-menus.md
@@ -29673,7 +29673,7 @@ Previous🎲Random Placeholder - Premium
 
 Next🗯️Custom Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Config
 
@@ -29998,7 +29998,7 @@ Previous⛓️Conditional Placeholder - Premium
 
 Next🔖Example: Discount
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Config
 
@@ -30258,7 +30258,7 @@ Previous🗯️Custom Placeholder - Premium
 
 Next🔄Dynamic Price
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Create Conditional Placeholder
 
@@ -30747,7 +30747,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 26 days ago
+Last updated 27 days ago
 
 Config
 
@@ -31598,7 +31598,7 @@ Previous💹Price Modifier
 
 Next🌱Example: Stock (like in life)
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Product A - VIP Limits
 
@@ -32151,7 +32151,7 @@ Previous📅Example: Daily Shop/Rotating Shop
 
 Next🔧Built-in Placeholders
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Copy
 
@@ -32589,7 +32589,7 @@ Previous🌱Example: Stock (like in life)
 
 Next🏆Example: Daily Rewards
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Create random placeholder
 
@@ -33962,7 +33962,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Item Matching vs Price Modifier
 
@@ -37431,7 +37431,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 Model
 
@@ -39911,7 +39911,7 @@ Previous🔗Shared Product Data - Premium
 
 Next💹Price Modifier
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
