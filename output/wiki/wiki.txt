@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-09-24T02:36:46Z
+Generated UTC: 2026-09-25T02:53:52Z
 Page Count: 139
 
 ============================================================
@@ -9614,7 +9614,7 @@ Previous🪄Sell Stick - Premium
 
 Next💾Saved Item (Item Manager)
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Limitation
 
@@ -23508,7 +23508,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 29 days ago
+Last updated 1 month ago
 
 Requirements
 
@@ -28481,7 +28481,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Built-in Placeholders List
 
@@ -29033,7 +29033,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 Built-in Placeholders List
 
@@ -39911,7 +39911,7 @@ Previous🔗Shared Product Data - Premium
 
 Next💹Price Modifier
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md
