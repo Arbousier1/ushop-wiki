@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-10-08T03:56:23Z
+Generated UTC: 2026-10-09T04:01:24Z
 Page Count: 141
 
 ============================================================
@@ -6036,7 +6036,7 @@ Previous🔢Number Format
 
 Next🔍Custom Item Match Method
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Options
 
@@ -9932,7 +9932,7 @@ Previous🪄Sell Stick - Premium
 
 Next💾Saved Item (Item Manager)
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Limitation
 
@@ -11220,7 +11220,7 @@ Previous🖼️Display Item Format
 
 Next⚖️Condition Format
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 General Options
 
@@ -19242,7 +19242,7 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -20444,7 +20444,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Copy
 
@@ -23532,7 +23532,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Create the menu
 
@@ -24000,7 +24000,7 @@ Previous🔀Conditional Display - Premium
 
 Next💬Dialog Menus - Premium
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Requirements
 
@@ -25728,7 +25728,7 @@ Previous🛏️Bedrock Menus - Premium
 
 Next🥉Display Item Add Lore
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Quick start
 
@@ -26760,7 +26760,7 @@ Previous💬Dialog Menus - Premium
 
 Next📂Shops
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 General Setting
 
@@ -27723,7 +27723,7 @@ Previous➗Math Calculate Format
 
 Next🔽Buy More Menus
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Create the menu
 
@@ -29996,7 +29996,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Built-in Placeholders List
 
@@ -30548,7 +30548,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 23 days ago
+Last updated 24 days ago
 
 Built-in Placeholders List
 
@@ -38960,7 +38960,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 Model
 
