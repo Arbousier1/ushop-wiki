@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-10-17T02:31:19Z
+Generated UTC: 2026-10-18T02:30:57Z
 Page Count: 158
 
 ============================================================
@@ -554,7 +554,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Quick start: display conditions
 
@@ -1149,7 +1149,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Quick start: global and per-product configuration
 
@@ -4703,7 +4703,7 @@ Previous🔖Example: Discount
 
 Next🔴Dynamic Price Status - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Enable Math Feature
 
@@ -8631,7 +8631,7 @@ Previous💾Saved Item (Item Manager)
 
 Next🌐Multi Server Sync - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md
@@ -11103,7 +11103,7 @@ Previous🖼️Display Item Format
 
 Next⚖️Condition Format
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 General Options
 
@@ -12512,7 +12512,7 @@ Previous🎬Action Format
 
 Next➗Math Calculate Format
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 General Options
 
@@ -13091,7 +13091,7 @@ Previous💹EconomyFormat™
 
 Next🎬Action Format
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Single
 
@@ -13409,7 +13409,7 @@ Previous🌉ItemBridge
 
 Next🖼️Display Item Format
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Hook Economy
 
@@ -13744,7 +13744,7 @@ Previous📊Understanding YAML/This wiki
 
 Next📝ItemFormat™
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Item parameter possible value list
 
@@ -14212,7 +14212,7 @@ PreviousTesting Paper Components
 
 Next💹EconomyFormat™
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Supported Plugin List
 
@@ -14818,7 +14818,7 @@ Previous🛒Info of ItemFormat™
 
 NextComponent Format
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Hook Item
 
@@ -16567,7 +16567,7 @@ Previous📝ItemFormat™
 
 NextTesting Paper Components
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Server version support
 
@@ -18490,7 +18490,7 @@ PreviousComponent Format
 
 Next🌉ItemBridge
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/testing-paper-components.md
@@ -19621,7 +19621,7 @@ Previous🆚Compare
 
 Next🛒Info of ItemFormat™
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Basic Syntax
 
@@ -21040,7 +21040,7 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -21711,7 +21711,7 @@ Previous⚙️Install
 
 Next🛠️Configuration files
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Direct compatibility
 
@@ -22308,7 +22308,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Copy
 
@@ -23995,7 +23995,7 @@ Previous⌨️Commands & Permissions
 
 Next🚀Performance
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Data Type
 
@@ -24340,7 +24340,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Q: Player don't cost money when buy product.
 
@@ -24666,7 +24666,7 @@ Previous✅Requirements
 
 Next🔗Compatibility
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -24943,7 +24943,7 @@ Previous📊Data
 
 Next❓FAQ
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -25412,7 +25412,7 @@ Previous💬Config Pack
 
 Next⚙️Install
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 Java Version
 
@@ -25919,7 +25919,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Enable and select the quantity menu
 
@@ -26510,7 +26510,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Add products to favourites
 
@@ -26937,7 +26937,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Create one
 
@@ -27840,7 +27840,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Create an Inventory Search menu
 
@@ -28232,7 +28232,7 @@ PreviousItem Sell Menus
 
 NextUI Modes Overview
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Open Sell All
 
@@ -28551,7 +28551,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Two files, two responsibilities
 
@@ -29013,7 +29013,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Enable ArcMenu
 
@@ -29502,7 +29502,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Enable Form
 
@@ -30043,7 +30043,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Enable native Dialog
 
@@ -30465,7 +30465,7 @@ PreviousUI Modes Overview
 
 NextBedrock Form UI - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Open Inventory instead of Dialog / ArcMenu / Form
 
@@ -30895,7 +30895,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Quick start
 
@@ -31334,7 +31334,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Choose with native switches, not ui.mode
 
@@ -31999,7 +31999,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 3 minutes ago
+Last updated 1 day ago
 
 Basic Layout
 
@@ -34510,7 +34510,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 52 minutes ago
+Last updated 1 day ago
 
 Menu Types
 
@@ -35120,7 +35120,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 First graphical menu
 
@@ -35869,7 +35869,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Create one
 
@@ -36103,7 +36103,7 @@ Previous🎉Welcome
 
 Next💬Config Pack
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/other-language-wiki.md
@@ -37342,7 +37342,7 @@ Previous🎲Random Placeholder - Premium
 
 Next🗯️Custom Placeholder - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Config
 
@@ -38506,7 +38506,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Config
 
@@ -44103,7 +44103,7 @@ Previous💰Products Config: Single Thing
 
 Next🔗Shared Product Data - Premium
 
-Last updated 12 hours ago
+Last updated 1 day ago
 
 Reset
 
