@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-10-24T02:49:43Z
+Generated UTC: 2026-10-25T02:41:19Z
 Page Count: 158
 
 ============================================================
@@ -554,7 +554,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Quick start: display conditions
 
@@ -1149,7 +1149,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Quick start: global and per-product configuration
 
@@ -1658,7 +1658,7 @@ PreviousDisplay Item Add Lore
 
 NextTroubleshooting
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Native keys
 
@@ -2043,7 +2043,7 @@ PreviousMenu Configuration Compatibility
 
 Next📂Shops
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Menu cannot open
 
@@ -6286,7 +6286,7 @@ Previous✏️In-game Editor - Premium
 
 Next🔍Custom Item Match Method
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Options
 
@@ -6808,7 +6808,7 @@ Previous🎮Custom Click Event - Premium
 
 Next🔑Give Item Method
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Default Item Match Method
 
@@ -8340,7 +8340,7 @@ Previous🔢Number Format
 
 Next🎮Custom Click Event - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Enable the editor
 
@@ -8631,7 +8631,7 @@ Previous💾Saved Item (Item Manager)
 
 Next🌐Multi Server Sync - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md
@@ -9764,7 +9764,7 @@ Previous🎁Sell Chest - Premium
 
 Next🌍Localized Item Name - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create your item
 
@@ -11103,7 +11103,7 @@ Previous🖼️Display Item Format
 
 Next⚖️Condition Format
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 General Options
 
@@ -14818,7 +14818,7 @@ Previous🛒Info of ItemFormat™
 
 NextComponent Format
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Hook Item
 
@@ -16567,7 +16567,7 @@ Previous📝ItemFormat™
 
 NextTesting Paper Components
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Server version support
 
@@ -18490,7 +18490,7 @@ PreviousComponent Format
 
 Next🌉ItemBridge
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/testing-paper-components.md
@@ -20322,7 +20322,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 FAQ:
 
@@ -21040,7 +21040,7 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -22308,7 +22308,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Copy
 
@@ -24340,7 +24340,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -25827,7 +25827,7 @@ Inventory amount-selection example
 
 Amount/preview/confirmation keys
 
-All Common menu settings also apply, including title, layout, ordinary buttons, conditions/actions and UI selection.
+Inventory title, size, layout, ordinary buttons and lifecycle actions use the Common menu settings. The only presentation selector read from this file is dialog.enabled: it chooses native quantity input when global Dialog support is enabled. bedrock, arcmenu, ui, per-control graphical placements and display-items-ui are not supported here, and this menu does not inherit global menu.ui or the parent shop's settings.menu-settings. The parent shop is retained only as the trade context.
 
 Additional key
 
@@ -25857,10 +25857,6 @@ display-items-padding-item
 
 Display Item Format for unused preview slots after the first
 
-display-items-ui.ui
-
-Optional graphical placement/style of a preview; this does not turn Buy More into an ArcMenu screen
-
 confirm-items.<id>.display-item
 
 Confirmation button appearance; {amount} is the selected quantity
@@ -25876,10 +25872,6 @@ Default true; generate the product price/stock/action lore using the selected am
 amount-items.<id>.menu-visibility, confirm-items.<id>.menu-visibility
 
 Filter a control by presentation
-
-amount-items.<id>.ui, confirm-items.<id>.ui
-
-Graphical placement/style metadata; does not make ArcMenu render an Inventory Buy More menu
 
 Preview stacks split the selected count across preview slots in list order, using the effective stack maximum (99 when enabled, otherwise the material maximum). Extra preview space shows the padding item or air. Preview capacity is visual; it does not replace max-amount. Quantity controls clamp the count to the permitted range. Supply at least one valid confirmation button for the trade direction you intend to support.
 
@@ -25897,9 +25889,9 @@ Bedrock Form
 
 Text input, then product information; no Inventory amount buttons
 
-Native Dialog / Ore
+Native Dialog
 
-Native amount input, then product information; no Inventory slot layout
+Native amount input when this file enables Dialog, then product information; otherwise Inventory
 
 ArcMenu
 
@@ -25909,7 +25901,7 @@ ArcMenu details require Buy More and a menu, and adjustment requires an availabl
 
 Without a manual quantity selection, product operations keep default-buy-amount and default-sell-amount independently. After selection, both directions use the chosen count. {buy-amount} and {sell-amount} in generated lore reflect that distinction. Explicit display-item stack amounts are separate from the number of trade units. See Default Trade Amounts.
 
-Form and Dialog labels are configured in their native bedrock and dialog sections; graphical product styling/actions are documented in Graphical UI Layout - Premium. Editing an Inventory confirmation label will not rename a Form information action.
+Form quantity labels are read from the source shop menu's bedrock.buy-or-sell (global menu.bedrock.buy-or-sell fallback). Dialog quantity labels come from that shop menu's dialog.buy-more (global menu.dialog.buy-more fallback), not this Buy More file. A custom buy_more_menu action retains its selected menu and max-amount throughout Dialog quantity entry and confirmation. Graphical product styling/actions are documented in Graphical UI Layout - Premium. Editing an Inventory confirmation label will not rename a Form information action.
 
 Related documentation
 
@@ -25919,7 +25911,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 7 days ago
+Last updated 11 hours ago
 
 Enable and select the quantity menu
 
@@ -26090,7 +26082,7 @@ modify-lore: true
 
 ## Amount/preview/confirmation keys
 
-All [Common menu settings](/menu-types/general-menus.md) also apply, including title, layout, ordinary buttons, conditions/actions and UI selection.
+Inventory title, size, layout, ordinary buttons and lifecycle actions use the [Common menu settings](/menu-types/general-menus.md). The only presentation selector read from this file is `dialog.enabled`: it chooses native quantity input when global Dialog support is enabled. `bedrock`, `arcmenu`, `ui`, per-control graphical placements and `display-items-ui` are not supported here, and this menu does not inherit global `menu.ui` or the parent shop's `settings.menu-settings`. The parent shop is retained only as the trade context.
 
 | Additional key | Meaning |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -26100,29 +26092,27 @@ All [Common menu settings](/menu-types/general-menus.md) also apply, including t
 | `display-items` | Ordered list of preview layout IDs; takes precedence over singular `display-item` |
 | `display-item` | A single preview marker alternative to `display-items` |
 | `display-items-padding-item` | Display Item Format for unused preview slots after the first |
-| `display-items-ui.ui` | Optional graphical placement/style of a preview; this does not turn Buy More into an ArcMenu screen |
 | `confirm-items..display-item` | Confirmation button appearance; `{amount}` is the selected quantity |
 | `confirm-items..click-action` | Optional fixed operation such as `buy`, `sell`, `buy-or-sell`, `sell-all`; omitted means use the current click operation |
 | `confirm-items..modify-lore` | Default true; generate the product price/stock/action lore using the selected amount |
 | `amount-items..menu-visibility`, `confirm-items..menu-visibility` | Filter a control by presentation |
-| `amount-items..ui`, `confirm-items..ui` | Graphical placement/style metadata; does not make ArcMenu render an Inventory Buy More menu |
 
 Preview stacks split the selected count across preview slots in list order, using the effective stack maximum (99 when enabled, otherwise the material maximum). Extra preview space shows the padding item or air. Preview capacity is visual; it does not replace `max-amount`. Quantity controls clamp the count to the permitted range. Supply at least one valid confirmation button for the trade direction you intend to support.
 
 ## Quantity controls by presentation
 
 | Presentation | Quantity UI |
-| ------------------- | ------------------------------------------------------------------------------------------ |
+| ------------- | ------------------------------------------------------------------------------------------------ |
 | Inventory | Uses `amount-items`, preview markers and `confirm-items` from this file |
 | Bedrock Form | Text input, then product information; no Inventory amount buttons |
-| Native Dialog / Ore | Native amount input, then product information; no Inventory slot layout |
+| Native Dialog | Native amount input when this file enables Dialog, then product information; otherwise Inventory |
 | ArcMenu | `select-amount` opens product details directly; plus/minus and scrolling adjust the amount |
 
 ArcMenu details require Buy More and a menu, and adjustment requires an available `select-amount` binding. The same product maximum limits it, but it does not read this file's amount/confirmation layout. Right-click defaults to `select-amount` and can be changed in `ui.renderers.arcmenu.right-click-action`.
 
 Without a manual quantity selection, product operations keep `default-buy-amount` and `default-sell-amount` independently. After selection, both directions use the chosen count. `{buy-amount}` and `{sell-amount}` in generated lore reflect that distinction. Explicit display-item stack amounts are separate from the number of trade units. See [Default Trade Amounts](/shops/products.md#default-trade-amounts).
 
-Form and Dialog labels are configured in their native `bedrock` and `dialog` sections; graphical product styling/actions are documented in [Graphical UI Layout - Premium](/menus-getting-started/ui-layout.md). Editing an Inventory confirmation label will not rename a Form information action.
+Form quantity labels are read from the source shop menu's `bedrock.buy-or-sell` (global `menu.bedrock.buy-or-sell` fallback). Dialog quantity labels come from that shop menu's `dialog.buy-more` (global `menu.dialog.buy-more` fallback), not this Buy More file. A custom `buy_more_menu` action retains its selected menu and `max-amount` throughout Dialog quantity entry and confirmation. Graphical product styling/actions are documented in [Graphical UI Layout - Premium](/menus-getting-started/ui-layout.md). Editing an Inventory confirmation label will not rename a Form information action.
 
 ## Related documentation
 
@@ -26414,7 +26404,7 @@ Show/hide the editing toggle per presentation
 
 edit-mode-item.<id>.ui
 
-Ore/ArcMenu graphical placement and appearance of the toggle
+ArcMenu graphical placement and appearance of the toggle
 
 empty-item.display-item
 
@@ -26464,7 +26454,7 @@ Removing a favourite does not remove shop stock or player items. Toggle editing 
 
 Presentation-specific behavior
 
-Select presentations with the global/menu dialog.enabled, bedrock.enabled and arcmenu.enabled switches. The ui section only configures Ore/ArcMenu graphical layout.
+Select presentations with the global/menu dialog.enabled, bedrock.enabled and arcmenu.enabled switches. The ui section configures ArcMenu graphical layout for this menu. Ore graphics are not implemented for Favourite; dialog.layout: ore uses native multi-action Dialog and does not generate Ore assets for this menu.
 
 Presentation
 
@@ -26484,7 +26474,7 @@ Product information Form
 
 Selecting a product opens Forward/Backward/Remove/Back; closing returns to the editing list
 
-Native Dialog / Ore
+Native Dialog
 
 Product information/actions
 
@@ -26496,7 +26486,7 @@ Product cards and shared actions/details
 
 Forward/Backward/Remove buttons on each card; also left/right/middle edit clicks (middle removes)
 
-Form can display configured empty-slot buttons. Ore/ArcMenu require graphical ui.placement for the toggle and ordinary controls, and ui.products.placement for result cards. The bundled example disables graphical placement on empty slots.
+Form can display configured empty-slot buttons. ArcMenu requires graphical ui.placement for the toggle and ordinary controls, and ui.products.placement for result cards. The bundled example disables graphical placement on empty slots.
 
 Global Form editing text is under menu.bedrock.favourite-edit: title, content, and buttons.forward, backward, remove, back. Dialog has the same structure under menu.dialog.favourite-edit. Titles/content accept {item-name}.
 
@@ -26510,7 +26500,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 7 days ago
+Last updated 11 hours ago
 
 Add products to favourites
 
@@ -26593,7 +26583,7 @@ All [Common menu settings](/menu-types/general-menus.md) remain available. Ordin
 | `edit-mode-item..display-item` | Fallback display if the current normal/editing variant is missing |
 | `edit-mode-item..slot` | Optional zero-based fallback slot when the ID is not found in `layout` |
 | `edit-mode-item..menu-visibility` | Show/hide the editing toggle per presentation |
-| `edit-mode-item..ui` | Ore/ArcMenu graphical placement and appearance of the toggle |
+| `edit-mode-item..ui` | ArcMenu graphical placement and appearance of the toggle |
 | `empty-item.display-item` | Placeholder shown in unoccupied result slots |
 | `empty-item.menu-visibility` | Presentation visibility for empty-slot placeholders |
 | `empty-item.ui` | Graphical placement of empty-slot placeholders |
@@ -26618,16 +26608,16 @@ Removing a favourite does not remove shop stock or player items. Toggle editing 
 
 ## Presentation-specific behavior
 
-Select presentations with the global/menu `dialog.enabled`, `bedrock.enabled` and `arcmenu.enabled` switches. The `ui` section only configures Ore/ArcMenu graphical layout.
+Select presentations with the global/menu `dialog.enabled`, `bedrock.enabled` and `arcmenu.enabled` switches. The `ui` section configures ArcMenu graphical layout for this menu. Ore graphics are not implemented for Favourite; `dialog.layout: ore` uses native `multi-action` Dialog and does not generate Ore assets for this menu.
 
 | Presentation | Normal mode | Editing mode |
-| ------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| ------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Inventory | Product click bindings | Left/right/drop controls above |
 | Form | Product information Form | Selecting a product opens Forward/Backward/Remove/Back; closing returns to the editing list |
-| Native Dialog / Ore | Product information/actions | Dedicated editing controls; native Dialog omits empty result slots |
+| Native Dialog | Product information/actions | Dedicated editing controls; native Dialog omits empty result slots |
 | ArcMenu | Product cards and shared actions/details | Forward/Backward/Remove buttons on each card; also left/right/middle edit clicks (middle removes) |
 
-Form can display configured empty-slot buttons. Ore/ArcMenu require graphical `ui.placement` for the toggle and ordinary controls, and `ui.products.placement` for result cards. The bundled example disables graphical placement on empty slots.
+Form can display configured empty-slot buttons. ArcMenu requires graphical `ui.placement` for the toggle and ordinary controls, and `ui.products.placement` for result cards. The bundled example disables graphical placement on empty slots.
 
 Global Form editing text is under `menu.bedrock.favourite-edit`: `title`, `content`, and `buttons.forward`, `backward`, `remove`, `back`. Dialog has the same structure under `menu.dialog.favourite-edit`. Titles/content accept `{item-name}`.
 
@@ -26937,7 +26927,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create one
 
@@ -27356,7 +27346,7 @@ For those products, sell and sell-all route to the selected Item Sell menu. Buy,
 
 Presentation and related settings
 
-This is an Inventory deposit interface, including for players whose ordinary shops use Form, Dialog, Ore or ArcMenu. Its bundled ui settings do not create Form input slots or ArcMenu drag/drop sale controls. Configure Inventory size, layout, input and confirmation markers for this screen.
+This is an Inventory-only deposit interface, including for players whose ordinary shops use Form, Dialog, Ore or ArcMenu. It does not support dialog, bedrock, arcmenu, ui or button ui.placement settings, and does not inherit global menu.ui defaults. Configure Inventory size, layout, input and confirmation markers for this screen.
 
 max-sell-amount belongs to this menu and caps the combined confirmation. The global sell engine still applies its own restrictions; raising this value does not bypass stock, limits or product conditions. See Price Modifier for calculation and Sell Multiplier - Premium for reward multipliers.
 
@@ -27368,7 +27358,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 7 days ago
+Last updated 11 hours ago
 
 Inventory deposit example
 
@@ -27478,7 +27468,7 @@ For those products, `sell` and `sell-all` route to the selected Item Sell menu. 
 
 ## Presentation and related settings
 
-This is an Inventory deposit interface, including for players whose ordinary shops use Form, Dialog, Ore or ArcMenu. Its bundled `ui` settings do not create Form input slots or ArcMenu drag/drop sale controls. Configure Inventory `size`, `layout`, input and confirmation markers for this screen.
+This is an Inventory-only deposit interface, including for players whose ordinary shops use Form, Dialog, Ore or ArcMenu. It does not support `dialog`, `bedrock`, `arcmenu`, `ui` or button `ui.placement` settings, and does not inherit global `menu.ui` defaults. Configure Inventory `size`, `layout`, input and confirmation markers for this screen.
 
 `max-sell-amount` belongs to this menu and caps the combined confirmation. The global sell engine still applies its own restrictions; raising this value does not bypass stock, limits or product conditions. See [Price Modifier](/shops/price-modifier.md) for calculation and [Sell Multiplier - Premium](/shops/sell-multiplier-premium.md) for reward multipliers.
 
@@ -27790,7 +27780,7 @@ Boolean presentation visibility for a special button
 
 Special button ui.placement / ui.appearance
 
-Ore/ArcMenu position and appearance
+ArcMenu position and appearance
 
 Layout markers use the normal token rules, including backtick-delimited longer IDs. Do not fill input/result markers with ordinary buttons. Place each special action/state ID in root layout; use a valid no-result-item.slot. Result capacity remains relevant to non-Inventory views.
 
@@ -27818,7 +27808,7 @@ Form
 
 Dedicated Search button opens a Custom Form; ordinary buttons are included; no physical input or Inventory special status controls
 
-Native Dialog / Ore
+Native Dialog
 
 Keyword input and result information; no physical item deposit filter
 
@@ -27830,7 +27820,7 @@ Form opens its home first. Search input prefills the previous keyword; cancel re
 
 Form text defaults are menu.bedrock.search.input and menu.bedrock.search.buttons.search; Dialog uses menu.dialog.search.*. Chat keyword controls still use the prompt keywords above. Choose presentations through the global/menu dialog.enabled, bedrock.enabled and arcmenu.enabled switches.
 
-For ArcMenu/Ore, configure ui.layout, ui.products.placement, and ui.placement on graphical controls. Layout pagination does not remove the result-slot capacity defined at root. See ArcMenu - Premium and Dialog - Premium and Ore - Premium for exact renderer differences.
+Ore graphics are not implemented for Search. dialog.layout: ore uses native multi-action Dialog and does not generate Ore assets for this menu. For ArcMenu, configure ui.layout, ui.products.placement, and ui.placement on graphical controls. Layout pagination does not remove the result-slot capacity defined at root. See ArcMenu - Premium and Dialog - Premium and Ore - Premium for exact renderer differences.
 
 Related documentation
 
@@ -27840,7 +27830,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 7 days ago
+Last updated 11 hours ago
 
 Create an Inventory Search menu
 
@@ -27933,7 +27923,7 @@ The [Common menu settings](/menu-types/general-menus.md) remain available. Use o
 | `no-result-item.display-item` | Display when a search has no matches |
 | `result-lore` | Extra lore on result entries; `{shop}` and `{product}` identify the source |
 | Special button `menu-visibility` | Boolean presentation visibility for a special button |
-| Special button `ui.placement` / `ui.appearance` | Ore/ArcMenu position and appearance |
+| Special button `ui.placement` / `ui.appearance` | ArcMenu position and appearance |
 
 Layout markers use the [normal token rules](/menus-getting-started/layout-and-buttons.md), including backtick-delimited longer IDs. Do not fill input/result markers with ordinary buttons. Place each special action/state ID in root `layout`; use a valid `no-result-item.slot`. Result capacity remains relevant to non-Inventory views.
 
@@ -27959,17 +27949,17 @@ clear-keyword: clear
 ## How search differs by presentation
 
 | Presentation | Search input and controls |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Inventory | Physical item slots, chat keyword entry, action/state/no-result items |
 | Form | Dedicated Search button opens a Custom Form; ordinary buttons are included; no physical input or Inventory special status controls |
-| Native Dialog / Ore | Keyword input and result information; no physical item deposit filter |
+| Native Dialog | Keyword input and result information; no physical item deposit filter |
 | ArcMenu | Chat keyword entry, clear-search, action/state/no-result controls, graphical result cards |
 
 Form opens its home first. Search input prefills the previous keyword; cancel returns to that home and preserves it. Form/Dialog blank keywords show no products. Selecting a result opens information; Back restores the search and keyword. Editing/submitting/cancelling the built-in input flow does not repeatedly run menu open/close actions. Ordinary navigation buttons leave the search flow and run with LEFT click in Form/Dialog.
 
 Form text defaults are `menu.bedrock.search.input` and `menu.bedrock.search.buttons.search`; Dialog uses `menu.dialog.search.*`. Chat keyword controls still use the prompt keywords above. Choose presentations through the global/menu `dialog.enabled`, `bedrock.enabled` and `arcmenu.enabled` switches.
 
-For ArcMenu/Ore, configure `ui.layout`, `ui.products.placement`, and `ui.placement` on graphical controls. Layout pagination does not remove the result-slot capacity defined at root. See [ArcMenu - Premium](/menu-ui-modes/arcmenu-menus-premium.md) and [Dialog - Premium](/menu-ui-modes/dialog-menus-premium.md) and [Ore - Premium](/menu-ui-modes/ore-menus-premium.md) for exact renderer differences.
+Ore graphics are not implemented for Search. `dialog.layout: ore` uses native `multi-action` Dialog and does not generate Ore assets for this menu. For ArcMenu, configure `ui.layout`, `ui.products.placement`, and `ui.placement` on graphical controls. Layout pagination does not remove the result-slot capacity defined at root. See [ArcMenu - Premium](/menu-ui-modes/arcmenu-menus-premium.md) and [Dialog - Premium](/menu-ui-modes/dialog-menus-premium.md) and [Ore - Premium](/menu-ui-modes/ore-menus-premium.md) for exact renderer differences.
 
 ## Related documentation
 
@@ -28232,7 +28222,7 @@ PreviousItem Sell Menus
 
 NextUI Modes Overview
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Open Sell All
 
@@ -28551,7 +28541,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Two files, two responsibilities
 
@@ -29013,7 +29003,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Enable ArcMenu
 
@@ -29502,7 +29492,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Enable Form
 
@@ -30043,7 +30033,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Enable native Dialog
 
@@ -30465,7 +30455,7 @@ PreviousUI Modes Overview
 
 NextBedrock Form UI - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Open Inventory instead of Dialog / ArcMenu / Form
 
@@ -30759,6 +30749,8 @@ On this page
 
 Ore draws graphical cards and controls using the supported Paper Dialog API and a generated client resource pack. It shares graphical canvas/area settings with ArcMenu, but it is selected through dialog.layout: ore, not ui.mode.
 
+Ore graphical rendering supports Common and Shop menus. Search and Favourite use native Dialog even when dialog.layout: ore is configured. Buy More uses native quantity input or Inventory; Item Sell, Sell All and the editor remain Inventory-only. See the supported menu table.
+
 Quick start
 
 In config.yml:
@@ -30895,7 +30887,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 7 days ago
+Last updated 11 hours ago
 
 Quick start
 
@@ -30927,6 +30919,8 @@ URL: https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium.md
 # Ore UI - Premium
 
 Ore draws graphical cards and controls using the supported Paper Dialog API and a generated client resource pack. It shares graphical canvas/area settings with ArcMenu, but it is **selected through `dialog.layout: ore`**, not `ui.mode`.
+
+Ore graphical rendering supports Common and Shop menus. Search and Favourite use native Dialog even when `dialog.layout: ore` is configured. Buy More uses native quantity input or Inventory; Item Sell, Sell All and the editor remain Inventory-only. See the [supported menu table](/menu-ui-modes/ui-overview.md#supported-menu-types).
 
 ## Quick start
 
@@ -31292,6 +31286,84 @@ ArcMenu → Dialog / Ore → Inventory. If ArcMenu fails to open, the normal men
 
 dialog.layout is a menu-level selector: multi-action, item-action-list or ore. It does not configure pixel coordinates.
 
+Supported menu types
+
+Menu type
+
+Inventory
+
+Bedrock Form
+
+Native Dialog
+
+Ore graphics
+
+ArcMenu graphics
+
+Common / Shop
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Search / Favourite
+
+Yes
+
+Yes
+
+Yes
+
+No; uses native multi-action Dialog
+
+Yes
+
+Buy More file
+
+Slot controls
+
+Uses the source shop's quantity Form
+
+Quantity input when this file enables Dialog
+
+No
+
+No
+
+Item Sell / Sell All
+
+Yes
+
+No
+
+No
+
+No
+
+No
+
+In-game editor
+
+Yes
+
+No
+
+No
+
+No
+
+No
+
+Search and Favourite keep their ArcMenu ui layout but do not inherit Ore renderer templates. Setting dialog.layout: ore on either type uses a native multi-action Dialog; these menus do not produce Ore pack assets. Buy More does not inherit graphical defaults. ArcMenu's select-amount operation adjusts quantity in the source screen's product details, rather than rendering a Buy More file.
+
+The in-game editor limits its preset fields to these capabilities, including typed menus in common_menus. Existing unsupported fields remain available through raw section editing for cleanup.
+
 Where does each configuration belong?
 
 What you want to change
@@ -31334,7 +31406,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 7 days ago
+Last updated 11 hours ago
 
 Choose with native switches, not ui.mode
 
@@ -31349,6 +31421,8 @@ Ore - Premium
 ArcMenu - Premium
 
 Java priority
+
+Supported menu types
 
 Where does each configuration belong?
 
@@ -31422,6 +31496,20 @@ When a menu omits `dialog.enabled` or `bedrock.enabled`, it defaults to `true`. 
 **ArcMenu → Dialog / Ore → Inventory.** If ArcMenu fails to open, the normal menu-opening flow can try Dialog/Ore when enabled and supported. If neither graphical/native route applies, Inventory is used. Bedrock Form is selected separately for Bedrock players.
 
 `dialog.layout` is a *menu-level selector*: `multi-action`, `item-action-list` or `ore`. It does not configure pixel coordinates.
+
+## Supported menu types
+
+| Menu type | Inventory | Bedrock Form | Native Dialog | Ore graphics | ArcMenu graphics |
+| -------------------- | ------------- | ------------------------------------ | -------------------------------------------- | ----------------------------------- | ---------------- |
+| Common / Shop | Yes | Yes | Yes | Yes | Yes |
+| Search / Favourite | Yes | Yes | Yes | No; uses native multi-action Dialog | Yes |
+| Buy More file | Slot controls | Uses the source shop's quantity Form | Quantity input when this file enables Dialog | No | No |
+| Item Sell / Sell All | Yes | No | No | No | No |
+| In-game editor | Yes | No | No | No | No |
+
+Search and Favourite keep their ArcMenu `ui` layout but do not inherit Ore renderer templates. Setting `dialog.layout: ore` on either type uses a native `multi-action` Dialog; these menus do not produce Ore pack assets. Buy More does not inherit graphical defaults. ArcMenu's `select-amount` operation adjusts quantity in the source screen's product details, rather than rendering a Buy More file.
+
+The in-game editor limits its preset fields to these capabilities, including typed menus in `common_menus`. Existing unsupported fields remain available through raw section editing for cleanup.
 
 ## Where does each configuration belong?
 
@@ -31999,7 +32087,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Basic Layout
 
@@ -32992,6 +33080,8 @@ Shop Menu:
 
 Only graphical ui settings use the recursive default-filling mechanism shown above. Dialog, Bedrock, and other global settings are resolved through their respective configuration lookup methods.
 
+Item Sell is Inventory-only and does not inherit menu.ui or support Dialog, Ore, ArcMenu or Bedrock Form settings. Sell All is also Inventory-only and uses its own global menu.sell-all settings. Buy More does not inherit graphical defaults; only its dialog.enabled selector can choose native quantity input. Search and Favourite inherit ArcMenu layout defaults, excluding Ore templates. See supported menu types.
+
 Configuration Inheritance & Priority
 
 UltimateShop uses different inheritance rules depending on the configuration type.
@@ -33384,7 +33474,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 6 days ago
+Last updated 11 hours ago
 
 Configuration Structure
 
@@ -33827,6 +33917,8 @@ Final menu configuration
 ```
 
 Only graphical `ui` settings use the recursive default-filling mechanism shown above. Dialog, Bedrock, and other global settings are resolved through their respective configuration lookup methods.
+
+Item Sell is Inventory-only and does not inherit `menu.ui` or support Dialog, Ore, ArcMenu or Bedrock Form settings. Sell All is also Inventory-only and uses its own global `menu.sell-all` settings. Buy More does not inherit graphical defaults; only its `dialog.enabled` selector can choose native quantity input. Search and Favourite inherit ArcMenu layout defaults, excluding Ore templates. See [supported menu types](/menu-ui-modes/ui-overview.md#supported-menu-types).
 
 ## Configuration Inheritance & Priority
 
@@ -34510,7 +34602,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Menu Types
 
@@ -35026,10 +35118,6 @@ card.buttons.inset-x, inset-bottom, gap
 
 ArcMenu operation button positioning
 
-card.price-lines
-
-Available in the example configuration; ArcMenu renders compact prices without applying this limit
-
 card.lore-lines
 
 Maximum product lore lines in Ore card bodies
@@ -35110,7 +35198,7 @@ ui.text.cancel and ui.text.no-extra label the extra-action popup. ui.text.favour
 
 Ore vs ArcMenu
 
-ArcMenu uses compact product price text and adjustable font scales; Ore uses generated assets, native text rendering and card body lore. Shared keys do not imply identical visual behavior. ArcMenu does not apply ui.products.card.price-lines to its compact price text.
+ArcMenu uses compact product price text and adjustable font scales; Ore uses generated assets, native text rendering and card body lore. Shared keys do not imply identical visual behavior. ui.products.card.price-lines is not supported; compact price text does not use a configurable line limit.
 
 For entry-specific overrides, product ui.actions and ui.price take precedence over the owning shop menu and global menu.ui.products. Ordinary navigation entries need their own placements; a sidebar/back button is not automatically created.
 
@@ -35120,7 +35208,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 7 days ago
+Last updated 11 hours ago
 
 First graphical menu
 
@@ -35263,7 +35351,6 @@ buttons:
 inset-x: 6
 inset-bottom: 6
 gap: 3
-price-lines: 1
 lore-lines: 6
 description-lines: 2
 price:
@@ -35505,7 +35592,6 @@ buttons:
 inset-x: 6
 inset-bottom: 6
 gap: 3
-price-lines: 1
 lore-lines: 6
 description-lines: 2
 price:
@@ -35523,14 +35609,13 @@ sell: 'Sell'
 ```
 
 | Path relative to `ui.products` | Meaning |
-| --------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | `placement` | Default product area/placement, using the entry keys above |
 | `card.icon-size` | Material/item icon size |
 | `card.padding` | Card content padding |
 | `card.name-size`, `price-size` | ArcMenu name and compact price font scales |
 | `card.button-font-size`, `button-height` | ArcMenu operation button font and height |
 | `card.buttons.inset-x`, `inset-bottom`, `gap` | ArcMenu operation button positioning |
-| `card.price-lines` | Available in the example configuration; ArcMenu renders compact prices without applying this limit |
 | `card.lore-lines` | Maximum product lore lines in Ore card bodies |
 | `card.description-lines` | Maximum Ore category-card description lines; ArcMenu calculates fitting lines from card space |
 | `price.enabled` | Enable the compact product price line |
@@ -35563,7 +35648,7 @@ Price text reuses dynamic price calculation and sell multiplier display. Compact
 
 ## Ore vs ArcMenu
 
-ArcMenu uses compact product price text and adjustable font scales; Ore uses generated assets, native text rendering and card body lore. Shared keys do not imply identical visual behavior. ArcMenu does not apply `ui.products.card.price-lines` to its compact price text.
+ArcMenu uses compact product price text and adjustable font scales; Ore uses generated assets, native text rendering and card body lore. Shared keys do not imply identical visual behavior. `ui.products.card.price-lines` is not supported; compact price text does not use a configurable line limit.
 
 For entry-specific overrides, product `ui.actions` and `ui.price` take precedence over the owning shop menu and global `menu.ui.products`. Ordinary navigation entries need their own placements; a sidebar/back button is not automatically created.
 
@@ -35869,7 +35954,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create one
 
@@ -37342,7 +37427,7 @@ Previous🎲Random Placeholder - Premium
 
 Next🗯️Custom Placeholder - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Config
 
@@ -37697,7 +37782,7 @@ Previous⛓️Conditional Placeholder - Premium
 
 Next🔖Example: Discount
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Config
 
@@ -38506,7 +38591,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Config
 
@@ -41540,7 +41625,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Item Matching vs Price Modifier
 
@@ -44103,7 +44188,7 @@ Previous💰Products Config: Single Thing
 
 Next🔗Shared Product Data - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Reset
 
@@ -45077,7 +45162,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Model
 
@@ -48462,7 +48547,7 @@ PreviousTroubleshooting
 
 Next🛒Products
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create the shop
 
