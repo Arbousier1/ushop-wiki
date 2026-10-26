@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-10-25T02:41:19Z
+Generated UTC: 2026-10-26T02:39:12Z
 Page Count: 158
 
 ============================================================
@@ -554,7 +554,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Quick start: display conditions
 
@@ -1149,7 +1149,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Quick start: global and per-product configuration
 
@@ -1658,7 +1658,7 @@ PreviousDisplay Item Add Lore
 
 NextTroubleshooting
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Native keys
 
@@ -2043,7 +2043,7 @@ PreviousMenu Configuration Compatibility
 
 Next📂Shops
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Menu cannot open
 
@@ -6286,7 +6286,7 @@ Previous✏️In-game Editor - Premium
 
 Next🔍Custom Item Match Method
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Options
 
@@ -6808,7 +6808,7 @@ Previous🎮Custom Click Event - Premium
 
 Next🔑Give Item Method
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Default Item Match Method
 
@@ -8340,7 +8340,7 @@ Previous🔢Number Format
 
 Next🎮Custom Click Event - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Enable the editor
 
@@ -8631,7 +8631,7 @@ Previous💾Saved Item (Item Manager)
 
 Next🌐Multi Server Sync - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md
@@ -9764,7 +9764,7 @@ Previous🎁Sell Chest - Premium
 
 Next🌍Localized Item Name - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create your item
 
@@ -11103,7 +11103,7 @@ Previous🖼️Display Item Format
 
 Next⚖️Condition Format
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 General Options
 
@@ -14818,7 +14818,7 @@ Previous🛒Info of ItemFormat™
 
 NextComponent Format
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Hook Item
 
@@ -16567,7 +16567,7 @@ Previous📝ItemFormat™
 
 NextTesting Paper Components
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Server version support
 
@@ -18490,7 +18490,7 @@ PreviousComponent Format
 
 Next🌉ItemBridge
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/testing-paper-components.md
@@ -20322,7 +20322,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 FAQ:
 
@@ -21040,7 +21040,7 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -22308,7 +22308,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Copy
 
@@ -24340,7 +24340,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -25911,7 +25911,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 Enable and select the quantity menu
 
@@ -26500,7 +26500,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 Add products to favourites
 
@@ -26927,7 +26927,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create one
 
@@ -27358,7 +27358,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 Inventory deposit example
 
@@ -27830,7 +27830,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 Create an Inventory Search menu
 
@@ -28222,7 +28222,7 @@ PreviousItem Sell Menus
 
 NextUI Modes Overview
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Open Sell All
 
@@ -28541,7 +28541,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Two files, two responsibilities
 
@@ -29003,7 +29003,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Enable ArcMenu
 
@@ -29492,7 +29492,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Enable Form
 
@@ -30033,7 +30033,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Enable native Dialog
 
@@ -30455,7 +30455,7 @@ PreviousUI Modes Overview
 
 NextBedrock Form UI - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Open Inventory instead of Dialog / ArcMenu / Form
 
@@ -30887,7 +30887,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 Quick start
 
@@ -31406,7 +31406,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 Choose with native switches, not ui.mode
 
@@ -32087,7 +32087,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Basic Layout
 
@@ -33474,7 +33474,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 Configuration Structure
 
@@ -34602,7 +34602,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Menu Types
 
@@ -35208,7 +35208,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 11 hours ago
+Last updated 1 day ago
 
 First graphical menu
 
@@ -35954,7 +35954,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create one
 
@@ -37427,7 +37427,7 @@ Previous🎲Random Placeholder - Premium
 
 Next🗯️Custom Placeholder - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Config
 
@@ -37782,7 +37782,7 @@ Previous⛓️Conditional Placeholder - Premium
 
 Next🔖Example: Discount
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Config
 
@@ -38591,7 +38591,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Config
 
@@ -41625,7 +41625,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Item Matching vs Price Modifier
 
@@ -44188,7 +44188,7 @@ Previous💰Products Config: Single Thing
 
 Next🔗Shared Product Data - Premium
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Reset
 
@@ -45162,7 +45162,7 @@ Previous📂Shops
 
 Next💰Products Config: Single Thing
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Model
 
@@ -48547,7 +48547,7 @@ PreviousTroubleshooting
 
 Next🛒Products
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Create the shop
 
