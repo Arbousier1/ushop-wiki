@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-13T04:31:41Z
+Generated UTC: 2026-11-14T04:28:02Z
 Page Count: 158
 
 ============================================================
@@ -7,6 +7,8 @@ Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -269,7 +271,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 6 months ago
+Last updated 7 months ago
 
 Links
 
@@ -284,6 +286,8 @@ Title: Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/advanced-menus-and-support/conditional-display-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -554,7 +558,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Quick start: display conditions
 
@@ -640,6 +644,8 @@ Title: Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/advanced-menus-and-support/display-item-add-lore
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -1149,7 +1155,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Quick start: global and per-product configuration
 
@@ -1358,6 +1364,8 @@ Title: Menu Configuration Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/advanced-menus-and-support/migration-guide
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -1658,7 +1666,7 @@ PreviousDisplay Item Add Lore
 
 NextTroubleshooting
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Native keys
 
@@ -1753,6 +1761,8 @@ Title: Troubleshooting | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/advanced-menus-and-support/troubleshooting
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -2043,7 +2053,7 @@ PreviousMenu Configuration Compatibility
 
 Next📂Shops
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Menu cannot open
 
@@ -2132,6 +2142,8 @@ Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -2344,7 +2356,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 11 days ago
+Last updated 12 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -2382,6 +2394,8 @@ Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -4370,6 +4384,8 @@ URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -4770,6 +4786,8 @@ Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -5245,6 +5263,8 @@ Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -5740,6 +5760,8 @@ URL: https://ultimateshop.superiormc.cn/features/color-code
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -6014,6 +6036,8 @@ Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -6563,6 +6587,8 @@ URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -6820,7 +6846,7 @@ Previous🎮Custom Click Event - Premium
 
 Next🔑Give Item Method
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Default Item Match Method
 
@@ -6940,6 +6966,8 @@ Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -7505,6 +7533,8 @@ URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -7801,6 +7831,8 @@ URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -8074,6 +8106,8 @@ Title: ✏️In-game Editor - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/in-game-editor-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -8352,7 +8386,7 @@ Previous🔢Number Format
 
 Next🎮Custom Click Event - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Enable the editor
 
@@ -8428,6 +8462,8 @@ Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -8643,7 +8679,7 @@ Previous💾Saved Item (Item Manager)
 
 Next🌐Multi Server Sync - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md
@@ -8674,6 +8710,8 @@ Title: 💳Log Transaction - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -8970,6 +9008,8 @@ URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -9200,6 +9240,8 @@ Title: 🔢Number Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/number-format
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -9520,6 +9562,8 @@ URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
 Links: 79
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -9776,7 +9820,7 @@ Previous🎁Sell Chest - Premium
 
 Next🌍Localized Item Name - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Create your item
 
@@ -9866,6 +9910,8 @@ Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -10172,7 +10218,7 @@ Previous🪄Sell Stick - Premium
 
 Next💾Saved Item (Item Manager)
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Limitation
 
@@ -10365,6 +10411,8 @@ Title: 🪄Sell Stick - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -10657,6 +10705,8 @@ Title: 🎬Action Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/action-format
 
 Links: 79
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -12163,6 +12213,8 @@ URL: https://ultimateshop.superiormc.cn/format/condition-format
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -12850,6 +12902,8 @@ URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -13178,6 +13232,8 @@ URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -13494,6 +13550,8 @@ Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -13947,6 +14005,8 @@ URL: https://ultimateshop.superiormc.cn/format/itembridge
 
 Links: 79
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -14328,6 +14388,8 @@ Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
 Links: 80
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -14830,7 +14892,7 @@ Previous🛒Info of ItemFormat™
 
 NextComponent Format
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Hook Item
 
@@ -15893,6 +15955,8 @@ URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
 Links: 80
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -16579,7 +16643,7 @@ Previous📝ItemFormat™
 
 NextTesting Paper Components
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Server version support
 
@@ -18299,6 +18363,8 @@ URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/testing-paper-compo
 
 Links: 80
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -18502,7 +18568,7 @@ PreviousComponent Format
 
 Next🌉ItemBridge
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/testing-paper-components.md
@@ -18516,6 +18582,8 @@ Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -19308,6 +19376,8 @@ URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -19952,6 +20022,8 @@ URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -20334,7 +20406,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 FAQ:
 
@@ -20605,6 +20677,8 @@ Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -21052,7 +21126,7 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/compare.md
@@ -21361,6 +21435,8 @@ Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -22075,6 +22151,8 @@ URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
 Links: 79
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -22320,7 +22398,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Copy
 
@@ -23743,6 +23821,8 @@ URL: https://ultimateshop.superiormc.cn/info/data
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -24089,6 +24169,8 @@ URL: https://ultimateshop.superiormc.cn/info/faq
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -24352,7 +24434,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -24462,6 +24544,8 @@ Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -24703,6 +24787,8 @@ Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -25150,6 +25236,8 @@ URL: https://ultimateshop.superiormc.cn/info/requirements
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -25584,6 +25672,8 @@ URL: https://ultimateshop.superiormc.cn/menu-types/buy-more-menus
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -25923,7 +26013,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Enable and select the quantity menu
 
@@ -26135,6 +26225,8 @@ Title: Favourite Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -26512,7 +26604,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Add products to favourites
 
@@ -26644,6 +26736,8 @@ Title: Common Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/general-menus
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -26939,7 +27033,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Create one
 
@@ -27057,6 +27151,8 @@ Title: Item Sell Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/item-sell-menus
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -27370,7 +27466,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Inventory deposit example
 
@@ -27493,6 +27589,8 @@ Title: Search Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/search-menus-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -27842,7 +27940,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Create an Inventory Search menu
 
@@ -27982,6 +28080,8 @@ Title: Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/sell-all-menu
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -28234,7 +28334,7 @@ PreviousItem Sell Menus
 
 NextUI Modes Overview
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Open Sell All
 
@@ -28300,6 +28400,8 @@ Title: Shop Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/shop-menus
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -28553,7 +28655,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Two files, two responsibilities
 
@@ -28717,6 +28819,8 @@ Title: ArcMenu UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -29059,7 +29163,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Enable ArcMenu
 
@@ -29343,6 +29447,8 @@ Title: Bedrock Form UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/bedrock-menus-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -29693,7 +29799,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Enable Form
 
@@ -29889,6 +29995,8 @@ Title: Native Dialog UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/dialog-menus-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -30234,7 +30342,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Enable native Dialog
 
@@ -30380,6 +30488,8 @@ Title: Inventory UI | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/inventory-ui
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -30656,7 +30766,7 @@ PreviousUI Modes Overview
 
 NextBedrock Form UI - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Open Inventory instead of Dialog / ArcMenu / Form
 
@@ -30754,6 +30864,8 @@ Title: Ore UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -31088,7 +31200,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Quick start
 
@@ -31231,6 +31343,8 @@ Title: UI Modes Overview | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -31615,7 +31729,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Choose with native switches, not ui.mode
 
@@ -31769,6 +31883,8 @@ Title: Layout & Buttons | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -32320,7 +32436,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Basic Layout
 
@@ -33031,6 +33147,8 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -33707,7 +33825,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 Configuration Structure
 
@@ -34538,6 +34656,8 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/menus
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -34835,7 +34955,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Menu Types
 
@@ -34938,6 +35058,8 @@ Title: Graphical UI Layout - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -35441,7 +35563,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 First graphical menu
 
@@ -35893,6 +36015,8 @@ URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -36187,7 +36311,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Create one
 
@@ -36217,6 +36341,8 @@ Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -36443,6 +36569,8 @@ Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -36990,7 +37118,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 Built-in Placeholders List
 
@@ -37412,6 +37540,8 @@ URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-pre
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -37660,7 +37790,7 @@ Previous🎲Random Placeholder - Premium
 
 Next🗯️Custom Placeholder - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Config
 
@@ -37783,6 +37913,8 @@ Title: 🗯️Custom Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -38015,7 +38147,7 @@ Previous⛓️Conditional Placeholder - Premium
 
 Next🔖Example: Discount
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Config
 
@@ -38068,6 +38200,8 @@ Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -38473,6 +38607,8 @@ URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -38824,7 +38960,7 @@ Previous🔧Built-in Placeholders
 
 Next⛓️Conditional Placeholder - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Config
 
@@ -39130,6 +39266,8 @@ Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -39723,6 +39861,8 @@ URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -40182,6 +40322,8 @@ Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -40777,6 +40919,8 @@ URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -41139,6 +41283,8 @@ Title: 💹Price Modifier | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/price-modifier
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -41858,7 +42004,7 @@ Previous💰Sell Multiplier - Premium
 
 Next⚡Example: Common Usage
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Item Matching vs Price Modifier
 
@@ -44012,6 +44158,8 @@ URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-rese
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -44421,7 +44569,7 @@ Previous💰Products Config: Single Thing
 
 Next🔗Shared Product Data - Premium
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Reset
 
@@ -44794,6 +44942,8 @@ Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -45532,6 +45682,8 @@ Title: 💰Products Config: Single Thing | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -47759,6 +47911,8 @@ URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -48073,6 +48227,8 @@ Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
 Links: 78
+
+Skip to content
 
 UltimateShop Wiki
 
@@ -48476,6 +48632,8 @@ URL: https://ultimateshop.superiormc.cn/shops/shops
 
 Links: 78
 
+Skip to content
+
 UltimateShop Wiki
 
 ⌘Ctrlk
@@ -48780,7 +48938,7 @@ PreviousTroubleshooting
 
 Next🛒Products
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 Create the shop
 
