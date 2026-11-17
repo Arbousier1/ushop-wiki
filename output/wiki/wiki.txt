@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-16T04:13:33Z
+Generated UTC: 2026-11-17T05:59:44Z
 Page Count: 156
 
 ============================================================
@@ -583,7 +583,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Choose between two entries
 
@@ -1155,7 +1155,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Global and per-product lore
 
@@ -1698,7 +1698,7 @@ PreviousDisplay Item Add Lore
 
 Next📂Shops
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Configuration locations
 
@@ -2023,7 +2023,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 14 days ago
+Last updated 15 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -2913,7 +2913,7 @@ Together, these show the hook style UltimateShop expects.
 
 Previous🌈Earn Limit
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Add as dependency
 
@@ -2922,6 +2922,8 @@ UltimateShop Developer Integration Guide
 1. Understand What UltimateShop Exposes
 
 2. Declare the Dependency in Your Plugin
+
+plugin.yml
 
 3. Check at Runtime That UltimateShop Is Present
 
@@ -2935,19 +2937,57 @@ UltimateShop Developer Integration Guide
 
 8. Listen to Transaction Events
 
+8.1 ItemPreTransactionEvent
+
+8.2 ItemFinishTransactionEvent
+
 9. Bulk Sell: ShopHelper.sellAll
+
+This method already performs the real transaction
 
 10. Manually Execute Give / Take
 
+Execute a Take
+
+Execute a Give from a Result Map
+
+Execute a Take from a Result Map
+
 11. Open a Shop from Your Plugin
 
+Option A: Use the Command, Best Compatibility
+
+Option B: Call ShopGUI Directly
+
 12. Trigger Quick Buy / Sell Directly
+
+Direct Buy
+
+Direct Sell
 
 13. Practical Example: External GUI Entry with Remaining Usage Display
 
 14. Understanding TakeResult, GiveResult, and AbstractSingleThing
 
+14.1 What AbstractSingleThing Is
+
+14.1.1 How Developers Can Tell Which Type a Single Thing Is
+
+14.2 What AbstractSingleThing Does During Transactions
+
+14.3 What TakeResult Is
+
+14.4 What GiveResult Is
+
+14.5 Where They Sit in the Full Transaction Flow
+
 15. Hook Integration: Economy Sources and Item Sources
+
+15.1 Custom Economy Hook
+
+15.2 Custom Item Source Hook
+
+15.3 Good Built-In References
 
 Copy
 
@@ -4394,7 +4434,7 @@ Previous🔖Example: Discount
 
 Next🔴Dynamic Price Status - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Enable Math Feature
 
@@ -4682,7 +4722,7 @@ Previous🔄Dynamic Price
 
 Next🌏Advanced Language Managment
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Dynamic Price Status
 
@@ -5187,7 +5227,7 @@ Previous🔴Dynamic Price Status - Premium
 
 Next🎨Color Code
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Default Language
 
@@ -5652,7 +5692,7 @@ Previous🌏Advanced Language Managment
 
 Next💴Easy Prices
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 MiniMessage
 
@@ -6926,7 +6966,7 @@ Previous💳Log Transaction - Premium
 
 NextDevelop Guide
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 EconomyLimit
 
@@ -6934,11 +6974,29 @@ Install
 
 Commands
 
+Player Commands
+
+Admin Commands
+
 Permissions
 
 Config
 
+Condition Types
+
 Placeholders
+
+Bank Balance
+
+Rule Name
+
+Earned Amount
+
+Rule Limit
+
+Remaining Earnings
+
+Next Reset Time
 
 Copy
 
@@ -7706,7 +7764,7 @@ Previous🔍Custom Item Match Method
 
 Next💳Log Transaction - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 BUKKIT
 
@@ -8596,7 +8654,7 @@ Previous🔑Give Item Method
 
 Next🌈Earn Limit
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Format available placeholders:
 
@@ -8858,7 +8916,7 @@ Previous🌍Localized Item Name - Premium
 
 Next🔢Number Format
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md
@@ -9121,7 +9179,7 @@ Previous🌐Multi Server Sync - Premium
 
 Next✏️In-game Editor - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Built-in number format
 
@@ -10283,7 +10341,7 @@ Previous💴Easy Prices
 
 Next🎁Sell Chest - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium.md
@@ -10797,6 +10855,14 @@ Next⚖️Condition Format
 Last updated 1 month ago
 
 General Options
+
+Apply Times
+
+Sell All Once / Multi Once
+
+Open Once
+
+Click Type
 
 Java Only/Bedrock Only - PREMIUM
 
@@ -12203,9 +12269,15 @@ Previous🎬Action Format
 
 Next➗Math Calculate Format
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 General Options
+
+Apply Times
+
+Click Type
+
+Actions - Premium
 
 Available Placeholders
 
@@ -12782,7 +12854,7 @@ Previous💹EconomyFormat™
 
 Next🎬Action Format
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Single
 
@@ -13100,7 +13172,7 @@ Previous🌉ItemBridge
 
 Next🖼️Display Item Format
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Hook Economy
 
@@ -13435,7 +13507,7 @@ Previous📊Understanding YAML/This wiki
 
 Next📝ItemFormat™
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Item parameter possible value list
 
@@ -13903,7 +13975,7 @@ PreviousTesting Paper Components
 
 Next💹EconomyFormat™
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Supported Plugin List
 
@@ -18678,6 +18750,16 @@ Functions
 
 Available Functions
 
+sum
+
+max
+
+min
+
+avg
+
+random
+
 random()
 
 random(max)
@@ -19312,7 +19394,7 @@ Previous🆚Compare
 
 Next🛒Info of ItemFormat™
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Basic Syntax
 
@@ -21402,7 +21484,7 @@ Previous⚙️Install
 
 Next🛠️Configuration files
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Direct compatibility
 
@@ -22001,7 +22083,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 19 hours ago
+Last updated 1 day ago
 
 Copy
 
@@ -23447,7 +23529,7 @@ Previous⌨️Commands & Permissions
 
 Next🚀Performance
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Data Type
 
@@ -23822,6 +23904,8 @@ Q: Why my item name is in Chinese?
 
 Q: UltimateShop print Error:XXX message in console.
 
+Error: Can not get prices section in your shop config!!
+
 Q: How to reset dynamic price?
 
 ============================================================
@@ -24118,7 +24202,7 @@ Previous✅Requirements
 
 Next🔗Compatibility
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/info/install.md
@@ -24395,7 +24479,7 @@ Previous📊Data
 
 Next❓FAQ
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Do not use ANY, ALL price/product mode unless necessary.
 
@@ -24864,7 +24948,7 @@ Previous💬Config Pack
 
 Next⚙️Install
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Java Version
 
@@ -25376,7 +25460,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Select a menu and maximum
 
@@ -25954,7 +26038,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Add a product
 
@@ -26393,7 +26477,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 19 hours ago
+Last updated 1 day ago
 
 Create a navigation menu
 
@@ -26839,7 +26923,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Create a deposit menu
 
@@ -27315,7 +27399,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Inventory example
 
@@ -27718,7 +27802,7 @@ PreviousItem Sell Menus
 
 NextUI Modes
 
-Last updated 23 hours ago
+Last updated 1 day ago
 
 Open the screen
 
@@ -28057,7 +28141,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Create a shop and template
 
@@ -28528,7 +28612,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Enable ArcMenu
 
@@ -29046,7 +29130,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Enable Form
 
@@ -29557,7 +29641,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Enable native Dialog
 
@@ -29934,7 +30018,7 @@ PreviousUI Modes
 
 NextBedrock Form UI - Premium
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Select Inventory
 
@@ -30391,7 +30475,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 20 hours ago
+Last updated 1 day ago
 
 Enable Ore
 
@@ -30959,7 +31043,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 22 hours ago
+Last updated 1 day ago
 
 Available presentations
 
@@ -31461,7 +31545,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 23 hours ago
+Last updated 1 day ago
 
 A complete button menu
 
@@ -32108,7 +32192,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 19 hours ago
+Last updated 1 day ago
 
 File locations
 
@@ -32691,7 +32775,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 19 hours ago
+Last updated 1 day ago
 
 Create your first menu
 
@@ -33313,7 +33397,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 22 hours ago
+Last updated 1 day ago
 
 Start with a shared style
 
@@ -34144,7 +34228,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 19 hours ago
+Last updated 1 day ago
 
 Create a navigation menu
 
@@ -34382,7 +34466,7 @@ Previous🎉Welcome
 
 Next💬Config Pack
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 ============================================================
 URL: https://ultimateshop.superiormc.cn/other-language-wiki.md
@@ -36266,7 +36350,7 @@ Previous🗯️Custom Placeholder - Premium
 
 Next🔄Dynamic Price
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Create Conditional Placeholder
 
@@ -36796,6 +36880,14 @@ Reset Placeholder
 Reset Mode
 
 Reset Time
+
+NEVER
+
+TIMER
+
+TIMED
+
+CUSTOM
 
 Cron Reset (Weekly Reset/Monthly Reset)
 
@@ -37337,7 +37429,7 @@ Previous💹Price Modifier
 
 Next🌱Example: Stock (like in life)
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Product A - VIP Limits
 
@@ -37920,7 +38012,7 @@ Previous📅Example: Daily Shop/Rotating Shop
 
 Next🔧Built-in Placeholders
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Copy
 
@@ -38388,7 +38480,7 @@ Previous🌱Example: Stock (like in life)
 
 Next🏆Example: Daily Rewards
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Create random placeholder
 
@@ -39009,7 +39101,7 @@ Previous⚡Example: Common Usage
 
 Next📅Example: Daily Shop/Rotating Shop
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Set dynamic value for your product configs
 
@@ -39852,6 +39944,10 @@ NBT Value Modifier
 value-type
 
 SET and MULTIPLY
+
+SET
+
+MULTIPLY
 
 Invalid values
 
@@ -42394,6 +42490,16 @@ Difference between COOLDOWN_TIMED (or COOLDOWN_TIMER) and TIMED (or TIMER)
 
 Reset Time
 
+NEVER
+
+TIMER/COOLDOWN_TIMER
+
+TIMED/COOLDOWN_TIMED
+
+CUSTOM/COOLDOWN_CUSTOM - Premium
+
+RANDOM_PLACEHOLDER - Premium
+
 Reset Value - Premium
 
 Default Value - Premium
@@ -44199,9 +44305,15 @@ Previous🛒Products
 
 Next♻️Product Config: Buy/Sell Times Reset
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 What Is a Single Thing?
+
+products
+
+buy-prices
+
+sell-prices
 
 How the Plugin Uses Single Things?
 
@@ -44221,11 +44333,43 @@ Free / Empty
 
 Options for Single Things
 
+amount
+
+apply-conditions
+
+require-conditions
+
+give-actions
+
+take-actions
+
+give-item
+
+take
+
 The Difference Between apply-conditions and require-conditions
+
+apply-conditions
+
+require-conditions
 
 Different from single thing's give-actions / take-actions and item's buy-actions / sell-actions
 
+Single thing give-actions / take-actions
+
+Item buy-actions / sell-actions
+
+The most important difference: {amount}
+
+Practical rule
+
 Price-Only Options
+
+placeholder
+
+start-apply, end-apply, apply
+
+min-amount and max-amount
 
 About Modes: ANY, ALL, CLASSIC_ANY, CLASSIC_ALL
 
@@ -46309,7 +46453,7 @@ Previous♻️Product Config: Buy/Sell Times Reset
 
 Next💰Sell Multiplier - Premium
 
-Last updated 3 months ago
+Last updated 4 months ago
 
 Overview
 
