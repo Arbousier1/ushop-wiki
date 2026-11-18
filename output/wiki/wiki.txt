@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-17T05:59:44Z
+Generated UTC: 2026-11-18T05:28:58Z
 Page Count: 156
 
 ============================================================
@@ -14,6 +14,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -291,6 +294,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -583,7 +589,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Choose between two entries
 
@@ -667,13 +673,13 @@ A static layout is cached and cannot reliably select player-dependent alternativ
 | Conditional display-item variants | Which item appearance is selected |
 | Add-lore condition symbols | Which generated lore lines appear |
 
-Hiding a button does not replace trade permissions or purchase validation. Use [Condition Format](/format/condition-format.md) for condition syntax, [Display Item Format](/format/display-item-format.md) for appearance variants, and [Add Lore](/advanced-menu-configuration/display-item-add-lore.md) for conditional text.
+Hiding a button does not replace trade permissions or purchase validation. Use [Condition Format](https://ultimateshop.superiormc.cn/format/condition-format.md) for condition syntax, [Display Item Format](https://ultimateshop.superiormc.cn/format/display-item-format.md) for appearance variants, and [Add Lore](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md) for conditional text.
 
 ## Graphical alternatives
 
 Ore and ArcMenu still require placements for selected entries. Give replacement buttons compatible `ui.placement` values. Explicitly placed entries can also be collected outside root layout, so their own display conditions and visibility must express when they should appear.
 
-[Layout & Buttons](/menus-getting-started/layout-and-buttons.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: Display Item Add Lore | UltimateShop Wiki
@@ -687,6 +693,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -1155,7 +1164,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Global and per-product lore
 
@@ -1310,7 +1319,7 @@ Ore body lore is limited by `ui.products.card.lore-lines`; full applicable lore 
 | `{last-reset-buy-player}`, `{last-reset-sell-player}` | Player last reset |
 | `{last-reset-buy-server}`, `{last-reset-sell-server}` | Server last reset |
 
-Default buy/sell amounts are independent until quantity selection supplies a common count. An explicit display-item stack amount is separate from trade quantity. See [Default Trade Amounts](/shops/products.md#default-trade-amounts).
+Default buy/sell amounts are independent until quantity selection supplies a common count. An explicit display-item stack amount is separate from trade quantity. See [Default Trade Amounts](https://ultimateshop.superiormc.cn/shops/products.md#default-trade-amounts).
 
 `{buy-click}` and `{sell-click}` use global `placeholder.click`. With `placeholder.click.enabled: true`, the plugin previews operation availability and selects condition/limit/funds text from that section. The actual transaction still runs its own validation.
 
@@ -1343,9 +1352,9 @@ Keep the corresponding buy/sell condition on every relevant heading and price li
 | `auto-translate-item-name` | Automatic vanilla display-name translation on supported Paper 1.17.1+ |
 | `auto-use-sprite-item-name` | Java sprite item names on compatible Paper runtimes |
 
-Explicit custom names take precedence. See [Localized Item Name](/features/localized-item-name-premium.md) for the shared name/resource system.
+Explicit custom names take precedence. See [Localized Item Name](https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md) for the shared name/resource system.
 
-[Shop Menus](/menu-types/shop-menus.md) · [Bedrock Form](/menu-ui-modes/bedrock-menus-premium.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[Shop Menus](https://ultimateshop.superiormc.cn/menu-types/shop-menus.md) · [Bedrock Form](https://ultimateshop.superiormc.cn/menu-ui-modes/bedrock-menus-premium.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: Menu Configuration Compatibility | UltimateShop Wiki
@@ -1359,6 +1368,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -1698,7 +1710,7 @@ PreviousDisplay Item Add Lore
 
 Next📂Shops
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Configuration locations
 
@@ -1802,9 +1814,9 @@ area: content
 
 Enable global Dialog, give ordinary graphical buttons explicit placements, reload, then generate/distribute the Ore pack. Inventory slot coordinates are not converted into graphical positions. No category sidebar or Back button is inferred from old actions.
 
-Search/Favourite use native Dialog when Ore is selected. Buy More does not use graphical styles. Item Sell and Sell All remain physical inventories. Check [supported menu types](/menu-ui-modes/ui-overview.md#supported-menu-types) before adding presentation fields to those files.
+Search/Favourite use native Dialog when Ore is selected. Buy More does not use graphical styles. Item Sell and Sell All remain physical inventories. Check [supported menu types](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md#supported-menu-types) before adding presentation fields to those files.
 
-[Configuration & Inheritance](/menus-getting-started/menu-configuration.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: 💬Config Pack | UltimateShop Wiki
@@ -1818,6 +1830,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -2023,7 +2038,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 15 days ago
+Last updated 16 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -2068,6 +2083,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -4097,6 +4115,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -4498,6 +4519,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -4885,9 +4909,9 @@ Another common dynamic price formula is price changed based on the percentage, l
 
 ## Available Placeholders
 
-You can set placeholders (including PlaceholderAPI) and [Math Calculate Format](/format/math-calculate-format.md) in `buy-prices`, `sell-prices` section's `amount` option and `buy-limits`, `sell-limits` section's value in shop configs.
+You can set placeholders (including PlaceholderAPI) and [Math Calculate Format](https://ultimateshop.superiormc.cn/format/math-calculate-format.md) in `buy-prices`, `sell-prices` section's `amount` option and `buy-limits`, `sell-limits` section's value in shop configs.
 
-Available built-in placeholder, for more info about them, please view [Built-In Placeholders](/placeholders/built-in-placeholders.md) page.
+Available built-in placeholder, for more info about them, please view [Built-In Placeholders](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md) page.
 
 * {buy-times-player}
 * {buy-times-server}
@@ -4947,17 +4971,17 @@ Additionally, you need to set `menu.shop.click-update` to `true` if the related 
 
 ## Dynamic Price per player
 
-As long as you can ensure that the placeholder used in the formula is per player output value, the calculated price result will naturally be per player. In the above example, we used global placeholders such as `{buy-times-server}`, and you only need to replace the `server` with the `player` to display the player's own buy times value. The relevant content is explained in detail in the [Placeholders](/placeholders/built-in-placeholders.md) page.
+As long as you can ensure that the placeholder used in the formula is per player output value, the calculated price result will naturally be per player. In the above example, we used global placeholders such as `{buy-times-server}`, and you only need to replace the `server` with the `player` to display the player's own buy times value. The relevant content is explained in detail in the [Placeholders](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md) page.
 
 ## Set buy / sell limits for your products
 
-Please view [Products](/shops/products.md) page for info and example.
+Please view [Products](https://ultimateshop.superiormc.cn/shops/products.md) page for info and example.
 
 ## Reset dynamic price
 
 Many people ask this question, and I feel that the person asking this question simply does not understand the essence of UltimateShop. The dynamic price is determined by a formula, so you cannot reset the price directly. To reset the price, the placeholders used in your formula must be reset. If you use placeholders such as `{buy-times-server}` exactly as described in this section, they can be reset.
 
-You can reset the buy times or sell times by our auto reset feature, you can find more info at [Buy/Sell Times Reset](/shops/product-config-buy-sell-times-reset.md) page or use `/shop setbuytimes/setselltimes` command
+You can reset the buy times or sell times by our auto reset feature, you can find more info at [Buy/Sell Times Reset](https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md) page or use `/shop setbuytimes/setselltimes` command
 
 ============================================================
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
@@ -4971,6 +4995,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -5406,7 +5433,7 @@ Similarly, if we cannot find this custom language in the corresponding language 
 
 ## Advanced Message Format - Premium
 
-The default language text is directly filled into the text content that needs to be output, along with [color codes](/features/color-code.md). However, you can also utilize this feature to enable the plugin to display not only regular chat box messages, but also actionbars, titles, bossbars, sounds, and more!
+The default language text is directly filled into the text content that needs to be output, along with [color codes](https://ultimateshop.superiormc.cn/features/color-code.md). However, you can also utilize this feature to enable the plugin to display not only regular chat box messages, but also actionbars, titles, bossbars, sounds, and more!
 
 You can still use color codes (including MiniMessage) while using our advanced message format.
 
@@ -5465,6 +5492,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -5740,6 +5770,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -6116,7 +6149,7 @@ URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium.md
 * Find those contents at `config.yml` file.
 
 {% hint style="info" %}
-We support override default click event for specifed product, for more info, please view [Products](/shops/products.md) page.
+We support override default click event for specifed product, for more info, please view [Products](https://ultimateshop.superiormc.cn/shops/products.md) page.
 {% endhint %}
 
 ```yaml
@@ -6244,7 +6277,7 @@ click-event: 'select-amount'
 
 Resolution order is: sub-button setting, target product setting, global `menu.bedrock.click-event`. Java players always use their existing product/global `click-event` mapping. These overrides apply to shop products and sub buttons, not Buy More confirmation buttons.
 
-Update auto add lore using `@y` for Java hints and `@x` for a Bedrock hint such as `@x&eClick to select an amount`; see [Display Item Add Lore](/advanced-menu-configuration/display-item-add-lore.md).
+Update auto add lore using `@y` for Java hints and `@x` for a Bedrock hint such as `@x&eClick to select an amount`; see [Display Item Add Lore](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md).
 
 ### Custom Buy/Sell Actions Using Default Amounts
 
@@ -6288,6 +6321,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -6615,7 +6651,7 @@ You can parse the ItemFormat of a handheld item by using the command `/shop gene
 
 ### Third-plugin Item
 
-Items generated by [Supported Plugins](/info/compatibility.md) will auto parse it's Item ID and compare it with the item ID you set in Item Format's `hook-item` option, so no matter how it changes, it will eventually sell normally.
+Items generated by [Supported Plugins](https://ultimateshop.superiormc.cn/info/compatibility.md) will auto parse it's Item ID and compare it with the item ID you set in Item Format's `hook-item` option, so no matter how it changes, it will eventually sell normally.
 
 ## Custom Match Method for each product - Require MythicChanger
 
@@ -6666,6 +6702,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -7250,6 +7289,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -7546,6 +7588,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -7818,6 +7863,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -8128,7 +8176,7 @@ The home screen lists shops and each menu folder separately. Commands omit the `
 | `/shop editor search_menu ` | `menus/search_menus/` |
 | `/shop editor item_sell_menu ` | `menus/item_sell_menus/` |
 
-All seven scopes support command completion. The editor opens existing files. To create a menu, copy the current bundled example into its matching folder, then open it in the editor. Legacy folders are moved during startup; see [Configuration Files](/info/configuration-files.md).
+All seven scopes support command completion. The editor opens existing files. To create a menu, copy the current bundled example into its matching folder, then open it in the editor. Legacy folders are moved during startup; see [Configuration Files](https://ultimateshop.superiormc.cn/info/configuration-files.md).
 
 ## Menu and UI presets
 
@@ -8158,7 +8206,7 @@ For `visible-in`, enter a string list such as `inventory;;dialog;;ore;;arcmenu`;
 
 Follow the click hints on each field: choice fields cycle values, boolean fields toggle, and number/string fields open chat prompts. List prompts separate entries with `;;`. Right-click deletion is available where shown. Raw Section opens the YAML structure for fields outside a preset, including named layout areas, headers, price formats and extra actions. `ui.products`, `ui.actions` and areas named `content` are treated as UI settings, not trade items or executable actions.
 
-Menu-level overrides take precedence over global defaults; product/button overrides take precedence where supported. Removing a local value restores inheritance after reload. See [Unified UI and ArcMenu](/menu-ui-modes/arcmenu-menus-premium.md) for placement dimensions, precedence and a layout example.
+Menu-level overrides take precedence over global defaults; product/button overrides take precedence where supported. Removing a local value restores inheritance after reload. See [Unified UI and ArcMenu](https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium.md) for placement dimensions, precedence and a layout example.
 
 ============================================================
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
@@ -8172,6 +8220,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -8418,6 +8469,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -8697,7 +8751,7 @@ time-format: "yyyy-MM-dd HH:mm:ss"
 * {buy-or-sell}
 * {price}
 * {time} - Display the log time
-* {multiplier} - The result value of [Sell Multiplier](/shops/sell-multiplier-premium.md).
+* {multiplier} - The result value of [Sell Multiplier](https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md).
 
 ## Showcase
 
@@ -8713,6 +8767,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -8944,6 +9001,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -9265,6 +9325,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -9539,12 +9602,12 @@ Version before **3.8.4** has a bug: you need **reload** the plugin to load the s
 
 ## Create your item
 
-You can create your own item at `items` folder of plugin, just create a **yml** file and then follow [ItemFormat](/format/itemformat-tm.md) in this file. The file name is the item ID.
+You can create your own item at `items` folder of plugin, just create a **yml** file and then follow [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md) in this file. The file name is the item ID.
 
 After creating or editing an ItemFormat file, run `/shop reload`, then use `/shop givesaveitem ` in game. From the console, use `shop givesaveitem
 [amount]`. The permission is `ultimateshop.givesaveitem`.
 
-On Paper 1.21.5+ with UltimateShop Premium, nested Paper `component` sections can be used in these files. See [Component Format](/format/itemformat-tm/component-format.md) and the [component testing guide](https://github.com/ManyouTeam/UltimateShop/tree/master/docs/format/itemformat-tm/component-testing.md) for complete version-specific examples.
+On Paper 1.21.5+ with UltimateShop Premium, nested Paper `component` sections can be used in these files. See [Component Format](https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format.md) and the [component testing guide](https://github.com/ManyouTeam/UltimateShop/tree/master/docs/format/itemformat-tm/component-testing.md) for complete version-specific examples.
 
 ## Save your item
 
@@ -9553,7 +9616,7 @@ You can use command `/shop saveitem ` command to save your hold item. There are 
 * Bukkit
 * If you are using Spigot version of UltimateShop: Use BukkitAPI's method to save item. The method only support saving vanilla data and persistent data stored through BukkitAPI, and other custom NBT data from other plugins will not be saved.
 * If you are using Paper version of UltimateShop: Use PaperAPI's method to save item, this new method can 100% save item data, no data will lose. **(Paper and 1.17.1+ server only)**
-* ItemFormat: parses the item into [ItemFormat](/format/itemformat-tm.md). It follows `debuild-item-method` in `config.yml`. Set this to `COMPONENT` to save supported properties inside `component` on Paper 1.21.5+ with UltimateShop Premium; `LEGACY` uses the legacy writer.
+* ItemFormat: parses the item into [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md). It follows `debuild-item-method` in `config.yml`. Set this to `COMPONENT` to save supported properties inside `component` on Paper 1.21.5+ with UltimateShop Premium; `LEGACY` uses the legacy writer.
 
 An example for item config file that use Bukkit save item method with Paper version of UltimateShop:
 
@@ -9589,7 +9652,7 @@ mending: 1
 
 ## Use saved item
 
-You can use saved item in [ItemFormat](/format/itemformat-tm.md). In ItemFormat, there is a option called `material`, by default, you need type vanilla item ID there, but, you can also use saved item id to let plugin directly get the saved item instead of generate a whole new item with that type.
+You can use saved item in [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md). In ItemFormat, there is a option called `material`, by default, you need type vanilla item ID there, but, you can also use saved item id to let plugin directly get the saved item instead of generate a whole new item with that type.
 
 ```yaml
 display-item:
@@ -9610,6 +9673,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -10037,9 +10103,9 @@ conditions: []
 The display item of sell chest **ONLY** support use **CHEST** as material. Otherwise, it won't work!
 {% endhint %}
 
-The most thing is same as [Sell Stick](/features/sell-stick-premium.md), I will only tell you about different things:
+The most thing is same as [Sell Stick](https://ultimateshop.superiormc.cn/features/sell-stick-premium.md), I will only tell you about different things:
 
-* holograms: The content of the hologram shown above the sell chest. Requires an enabled [supported hologram plugin](/info/compatibility.md#directly-supported-protection-plugins-list-premium-1).
+* holograms: The content of the hologram shown above the sell chest. Requires an enabled [supported hologram plugin](https://ultimateshop.superiormc.cn/info/compatibility.md#directly-supported-protection-plugins-list-premium-1).
 * y-offset: The height deviation of the hologram compared to the sell chest can be adjusted according to the number of rows in the hologram.
 
 ### Hologram placeholders
@@ -10093,7 +10159,7 @@ The purpose of doing this is to save server performance. We will not set separat
 * price-empty: The text displayed in hologram if there is no history for the sell chest.
 * hologram: Settings for the hologram feature.
 * enabled: Whether display holgoram above sell chest.
-* plugin: Set hologram plugin. For list of supported plugin, please click [here](/info/compatibility.md#directly-supported-protection-plugins-list-premium-1).
+* plugin: Set hologram plugin. For list of supported plugin, please click [here](https://ultimateshop.superiormc.cn/info/compatibility.md#directly-supported-protection-plugins-list-premium-1).
 
 ## Showcase
 
@@ -10109,6 +10175,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -10379,15 +10448,15 @@ sound: 'block.note_block.pling'
 conditions: []
 ```
 
-* display-item: The display item of sell stick. Should use [Item Format](/format/itemformat-tm.md).
+* display-item: The display item of sell stick. Should use [Item Format](https://ultimateshop.superiormc.cn/format/itemformat-tm.md).
 * useage-times: Maxium usage times of this item. If this option value is less than 0 or does not exist, we will make this sell stick is infinite.
 * multiplier: The multiplier of sell stick.
-* actions: The action will execute after use this sell stick. Should use [Action format](/format/action-format.md).
-* conditions: The condition player need meet to use this sell stick. Should use [Condition Format](/format/condition-format.md).
+* actions: The action will execute after use this sell stick. Should use [Action format](https://ultimateshop.superiormc.cn/format/action-format.md).
+* conditions: The condition player need meet to use this sell stick. Should use [Condition Format](https://ultimateshop.superiormc.cn/format/condition-format.md).
 
-After confiure the sell stick, you can reload the plugin then use `/shop givesellstick` to obtain sell stick item. For more info, please view [here](/info/commands-and-permissions.md#shop-givesellstick-less-than-itemid-greater-than-less-than-playerid-greater-than-amount-premium-vers).
+After confiure the sell stick, you can reload the plugin then use `/shop givesellstick` to obtain sell stick item. For more info, please view [here](https://ultimateshop.superiormc.cn/info/commands-and-permissions.md#shop-givesellstick-less-than-itemid-greater-than-less-than-playerid-greater-than-amount-premium-vers).
 
-UltimateShop supports you prevent player use sell tick in protected area or other player's land.(OP players will not check this) You can check Supported Protection Plugins list [here](/info/compatibility.md#directly-supported-protection-plugins-list-premium). You can use permission `ultimateshop.bypass.protection` to bypass protection check for sell stick use.
+UltimateShop supports you prevent player use sell tick in protected area or other player's land.(OP players will not check this) You can check Supported Protection Plugins list [here](https://ultimateshop.superiormc.cn/info/compatibility.md#directly-supported-protection-plugins-list-premium). You can use permission `ultimateshop.bypass.protection` to bypass protection check for sell stick use.
 
 ============================================================
 Title: 🎬Action Format | UltimateShop Wiki
@@ -10401,6 +10470,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -11763,7 +11835,7 @@ entity: ZOMBIE
 
 ## Connect - Premium
 
-Require enable `bungeecord-sync.enabled` option in config.yml and correctly set the BungeeCord settings. For more info, please view [Multi Server Sync](/features/multi-server-sync-premium.md) page.
+Require enable `bungeecord-sync.enabled` option in config.yml and correctly set the BungeeCord settings. For more info, please view [Multi Server Sync](https://ultimateshop.superiormc.cn/features/multi-server-sync-premium.md) page.
 
 ```yaml
 actions:
@@ -11914,6 +11986,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -12609,6 +12684,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -12871,7 +12949,7 @@ You can use display item format in menu button and shop product's `display-item`
 
 ## Single
 
-If your display item is only one and does not have any condition to display it, simply use [Item Format](/format/itemformat-tm.md) in this section!
+If your display item is only one and does not have any condition to display it, simply use [Item Format](https://ultimateshop.superiormc.cn/format/itemformat-tm.md) in this section!
 
 ```yaml
 B:
@@ -12935,6 +13013,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -13252,6 +13333,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -13706,6 +13790,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -14086,6 +14173,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -15049,7 +15139,7 @@ Hold a item then use command `/shop generateitemformat` to parse the ItemFormat 
 
 ## Hook Item
 
-This section tells you about the built-in custom item provider, you can use ItemBridge as custom item provider instead which supports more custom item plugins, click [here](/format/itembridge.md) to know more.
+This section tells you about the built-in custom item provider, you can use ItemBridge as custom item provider instead which supports more custom item plugins, click [here](https://ultimateshop.superiormc.cn/format/itembridge.md) to know more.
 
 ### Hook Plugin
 
@@ -15118,7 +15208,7 @@ max-amount: 15
 
 ## Component (1.21.5+, Requires Paper) - Premium
 
-The `component` section uses Paper's DataComponent API to set item properties. It requires Paper 1.21.5+ and UltimateShop Premium. Newer components require newer server versions; see [Component Format](/format/itemformat-tm/component-format.md) for the version table and supported keys.
+The `component` section uses Paper's DataComponent API to set item properties. It requires Paper 1.21.5+ and UltimateShop Premium. Newer components require newer server versions; see [Component Format](https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format.md) for the version table and supported keys.
 
 Keep `material` and `amount` at the ItemFormat root. Component values are applied after the root ItemFormat options:
 
@@ -15630,7 +15720,7 @@ damage-resistant: is_fall # Damage Type Tag
 
 ## Extra Item Format Options
 
-Some additional **ItemFormat** options can be found on the [Compatibility](/info/compatibility.md) page. Their purpose is to hook with other plugins based on ItemFormat, so that other plugins can also participate in item generation.
+Some additional **ItemFormat** options can be found on the [Compatibility](https://ultimateshop.superiormc.cn/info/compatibility.md) page. Their purpose is to hook with other plugins based on ItemFormat, so that other plugins can also participate in item generation.
 
 Supported plugins at the moment:
 
@@ -15650,6 +15740,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -17035,7 +17128,7 @@ URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format.md
 
 # Component Format
 
-Paper components are configured inside the `component` section of an [ItemFormat](/format/itemformat-tm.md). This feature requires **Paper 1.21.5 or later** and **UltimateShop Premium**. Components introduced in newer Minecraft versions require the corresponding server version.
+Paper components are configured inside the `component` section of an [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md). This feature requires **Paper 1.21.5 or later** and **UltimateShop Premium**. Components introduced in newer Minecraft versions require the corresponding server version.
 
 Keep `material` and `amount` at the ItemFormat root. Put Paper component options under `component`:
 
@@ -18058,6 +18151,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -18274,6 +18370,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -19077,6 +19176,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -19568,7 +19670,7 @@ placeholder: '{amount}$'
 * settings
 * items
 
-They exist side by side at the top of the configuration. This is shop configs, so you should get available top level options at [Shops](/shops/shops.md) page. In that page, we told you available keys with very big font size.
+They exist side by side at the top of the configuration. This is shop configs, so you should get available top level options at [Shops](https://ultimateshop.superiormc.cn/shops/shops.md) page. In that page, we told you available keys with very big font size.
 
 with very detalied example.
 
@@ -19615,7 +19717,7 @@ amount: 1
 * and so on.\
 are all **children** of `A`. All of those options will only work for product A, and should not put them in other place.
 
-Since it is product config, you can get all options available at [Products](/shops/products.md) page with detalied info.
+Since it is product config, you can get all options available at [Products](https://ultimateshop.superiormc.cn/shops/products.md) page with detalied info.
 
 ```yaml
 items: # Will work.
@@ -19639,14 +19741,14 @@ Under buy-prices:
 
 * “`1`” means the first defined price set.
 
-You can set unlimited sub price and product. All of those options available at [Single Things](/shops/products-config-single-thing.md) page.
+You can set unlimited sub price and product. All of those options available at [Single Things](https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md) page.
 
 5️⃣ Level 5 Under `products` → `1`:
 
 * `material: GRASS_BLOCK` → the item type.
 * `amount: 1` → the quantity.
 
-They are following [ItemFormat](/format/itemformat-tm.md).
+They are following [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md).
 
 Under `buy-prices` → `1`:
 
@@ -19654,7 +19756,7 @@ Under `buy-prices` → `1`:
 * `amount: '0.63'` → the price.
 * `placeholder: '{amount}$'` → how the price is displayed.
 
-They are following [EconomyFormat](/format/economyformat-tm.md) and placeholder option inside price section.
+They are following [EconomyFormat](https://ultimateshop.superiormc.cn/format/economyformat-tm.md) and placeholder option inside price section.
 
 ## Hierarchical Tree Diagram
 
@@ -19719,6 +19821,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -20162,7 +20267,7 @@ URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions.md
 
 ### Does the /shop command has permission?
 
-A: Use `/shop` can directly open a menu called `main`. This is a feature called **Auto Open**, and you can disable it at `config.yml` file with `menu.auto-open.enabled` option. If you only want some players to be exposed to this command, you can set `conditions` for the menu so that only players who meet the specified conditions can open the menu. For more info, please view [Menus](/menu-types/general-menus.md) page.
+A: Use `/shop` can directly open a menu called `main`. This is a feature called **Auto Open**, and you can disable it at `config.yml` file with `menu.auto-open.enabled` option. If you only want some players to be exposed to this command, you can set `conditions` for the menu so that only players who meet the specified conditions can open the menu. For more info, please view [Menus](https://ultimateshop.superiormc.cn/menu-types/general-menus.md) page.
 
 ### Why it say condition not meet when open daily example menu?
 
@@ -20217,14 +20322,14 @@ Require `ultimateshop.reload` permission.
 ## /shop givesellstick \ \
 \[amount] **(Premium version only)**
 
-Give specifeid player specified amount (if not set, default to **1**) [sell stick](/features/sell-stick-premium.md).
+Give specifeid player specified amount (if not set, default to **1**) [sell stick](https://ultimateshop.superiormc.cn/features/sell-stick-premium.md).
 
 Require `ultimateshop.givesellstick` permission.
 
 ## /shop givesellchest \ \
 \[amount] **(Premium version only)**
 
-Give specifeid player specified amount (if not set, default to **1**) [sell chest](/features/sell-chest-premium.md).
+Give specifeid player specified amount (if not set, default to **1**) [sell chest](https://ultimateshop.superiormc.cn/features/sell-chest-premium.md).
 
 Require `ultimateshop.givesellstick` permission.
 
@@ -20245,7 +20350,7 @@ If didn't set `times` arg, we will think you are trying to reset the buy/sell ti
 {% hint style="info" %}
 The global arg means set buy/sell times for `{buy-times-server}` or `{sell-times-server}` placeholer, not means set buy/sell times for all players.
 
-It is **impossible** to set all player data at once through commands in UltimateShop. Because assuming your server has hundreds of thousands of player data, without excellent performance optimization code, the server will immediately crash. You may see very few economy plugins or item plugins providing this feature, but they are selling it as a selling point. We have not declared ourselves providing this feature on any occasion, and this feature will not be added in the future because it is very time-consuming and not very meaningful. You can achieve similar functions through the **auto reset** function, and relevant information can be viewed on [this page](/shops/product-config-buy-sell-times-reset.md).
+It is **impossible** to set all player data at once through commands in UltimateShop. Because assuming your server has hundreds of thousands of player data, without excellent performance optimization code, the server will immediately crash. You may see very few economy plugins or item plugins providing this feature, but they are selling it as a selling point. We have not declared ourselves providing this feature on any occasion, and this feature will not be added in the future because it is very time-consuming and not very meaningful. You can achieve similar functions through the **auto reset** function, and relevant information can be viewed on [this page](https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md).
 {% endhint %}
 
 ## /shop addbuytimes/addselltimes \ \
@@ -20268,7 +20373,7 @@ Require `ultimateshop.sellall` permission.
 
 ## /shop saveitem \ \
 
-Save your hold items. For more info, please view [Save Item](/features/saved-item-item-manager.md) page.
+Save your hold items. For more info, please view [Save Item](https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md) page.
 
 Require `ultimateshop.saveitem` permission.
 
@@ -20276,7 +20381,7 @@ Require `ultimateshop.saveitem` permission.
 
 Give a saved item from `plugins/UltimateShop/items/`. The ID is the file name without `.yml`. In game, `/shop givesaveitem component-test` gives the item to yourself; `/shop givesaveitem component-test PlayerName 1` targets an online player. The console must specify a player.
 
-Require `ultimateshop.givesaveitem` permission. See [Saved Item](/features/saved-item-item-manager.md) for creating and reloading ItemFormat files.
+Require `ultimateshop.givesaveitem` permission. See [Saved Item](https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md) for creating and reloading ItemFormat files.
 
 ## /shop generateitemformat
 
@@ -20345,7 +20450,7 @@ Require `ultimateshop.updategui` permission.
 
 Update GUI title for specifed player. Only gui title will be updated, buttons will not update.
 
-Require server enable title update feature, for more info, please view [this page](/menu-types/general-menus.md#title-update-premium).
+Require server enable title update feature, for more info, please view [this page](https://ultimateshop.superiormc.cn/menu-types/general-menus.md#title-update-premium).
 
 Require `ultimateshop.updateguititle` permission.
 
@@ -20353,13 +20458,13 @@ Require `ultimateshop.updateguititle` permission.
 
 Open the built-in in-game editor. Set `editor.enabled: true` in `config.yml` and reload the plugin to enable it. Back up the plugin configuration before every use. No separate editor addon is needed.
 
-Use `/shop editor ` to open a file directly. Scopes are `shop`, `menu`, `shop_menu_template`, `buy_more_menu`, `favourite_menu`, `search_menu` and `item_sell_menu`. IDs omit `.yml`; specialized menu scopes use their matching folders under `menus/`. See [In-game Editor](/features/in-game-editor-premium.md) for UI presets and saving changes.
+Use `/shop editor ` to open a file directly. Scopes are `shop`, `menu`, `shop_menu_template`, `buy_more_menu`, `favourite_menu`, `search_menu` and `item_sell_menu`. IDs omit `.yml`; specialized menu scopes use their matching folders under `menus/`. See [In-game Editor](https://ultimateshop.superiormc.cn/features/in-game-editor-premium.md) for UI presets and saving changes.
 
 Require `ultimateshop.editor` permission.
 
 ## Custom Placeholder Commands **(Premium version only)**
 
-For command list of custom placeholder feature, please view [this page](/placeholders/custom-placeholder-premium.md).
+For command list of custom placeholder feature, please view [this page](https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium.md).
 
 ============================================================
 Title: 🆚Compare | UltimateShop Wiki
@@ -20373,6 +20478,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -21131,6 +21239,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -21630,7 +21741,7 @@ Direct compatibility refers to the use of item plugins or the economy of economi
 * Nexo
 * CraftEngine
 
-You can use ItemBridge as custom item provider which supports more custom item plugins, click [here](/format/itembridge.md) to know more.
+You can use ItemBridge as custom item provider which supports more custom item plugins, click [here](https://ultimateshop.superiormc.cn/format/itembridge.md) to know more.
 
 ### Directly supported economy plugins list
 
@@ -21694,15 +21805,15 @@ Support create hologram to display sell chest info.
 
 Indirect compatibility refers to the flexible use of various features of plugins to enable them to associate with these plugins.
 
-* [Save Item](/features/saved-item-item-manager.md): We told you a command called `/shop saveitem` at [Commands](/info/commands-and-permissions.md) page, we also told you can set `material` option in [Item Format](/format/itemformat-tm.md) to the save item ID you was set to use them.
-* Buy Actions: We told you a option called `buy-actions` in shop configs at [Shops](/shops/shops.md) page. In [Actions](/format/action-format.md) page, we also told you we support use command in actions, so just use the give item command here, all is done.
-* Give Actions: We told you this feature at [Single Things](/shops/products-config-single-thing.md) page which is very similar to **Buy Actions**. What's more, we even give you an example at that page.
+* [Save Item](https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md): We told you a command called `/shop saveitem` at [Commands](https://ultimateshop.superiormc.cn/info/commands-and-permissions.md) page, we also told you can set `material` option in [Item Format](https://ultimateshop.superiormc.cn/format/itemformat-tm.md) to the save item ID you was set to use them.
+* Buy Actions: We told you a option called `buy-actions` in shop configs at [Shops](https://ultimateshop.superiormc.cn/shops/shops.md) page. In [Actions](https://ultimateshop.superiormc.cn/format/action-format.md) page, we also told you we support use command in actions, so just use the give item command here, all is done.
+* Give Actions: We told you this feature at [Single Things](https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md) page which is very similar to **Buy Actions**. What's more, we even give you an example at that page.
 
 ### Example: Use for not supported item plugins as products
 
 In this example, we first fill in the **ItemFormat** through the display item option to describe the item from an incompatible plugin, so that players can see what the item looks like in the menu.
 
-In the `products` option, we use the [Custom Sell Match](/features/custom-item-match-method.md) feature, which allows us to flexibly set the rules for selling matches for this item, such as `contains-lore`, etc. Then, we use `give-actions` format to execute the item give command, so that player can obtain this item after buy.
+In the `products` option, we use the [Custom Sell Match](https://ultimateshop.superiormc.cn/features/custom-item-match-method.md) feature, which allows us to flexibly set the rules for selling matches for this item, such as `contains-lore`, etc. Then, we use `give-actions` format to execute the item give command, so that player can obtain this item after buy.
 
 ```yaml
 display-item:
@@ -21730,7 +21841,7 @@ If you use the Paper server and the item is fixed (the items generated each time
 
 ### Example: Use for not supported economy plugins as prices.
 
-In this example, we mainly flexibly implemented different types of single thing and `give-actions` and `take-actions` options, whose functions can be found on the [Products](/shops/products.md) page. Specifically, assuming the player purchases this product, the `match-placeholder` in buy options is used to determine if the player has enough economy. If it meets the `buy-prices` requirement, the player will receive an apple in `products` section and execute `take-actions` section in buy-prices section. Similarly, during selling, as the player obtains the sell price, the `give-actions` in the sell price will be executed, and therefore the player will receive economy.
+In this example, we mainly flexibly implemented different types of single thing and `give-actions` and `take-actions` options, whose functions can be found on the [Products](https://ultimateshop.superiormc.cn/shops/products.md) page. Specifically, assuming the player purchases this product, the `match-placeholder` in buy options is used to determine if the player has enough economy. If it meets the `buy-prices` requirement, the player will receive an apple in `products` section and execute `take-actions` section in buy-prices section. Similarly, during selling, as the player obtains the sell price, the `give-actions` in the sell price will be executed, and therefore the player will receive economy.
 
 {% hint style="info" %}
 Require **PREMIUM** version of UltimateShop!
@@ -21766,7 +21877,7 @@ amount: 500
 
 ## MythicChanger: Extra Item Format option
 
-Through this hook, based on the [ItemFormat](/format/itemformat-tm.md), items can be further modified to their desired appearance.
+Through this hook, based on the [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md), items can be further modified to their desired appearance.
 
 This feature require your server must install **MythicChanger** plugin, please get it here:
 
@@ -21781,9 +21892,9 @@ set-name: '&fGood Diamond Sword'
 
 ## AdvancedEnchantments: Extra Item Format option - Premium
 
-Through this hook, based on the [ItemFormat](/format/itemformat-tm.md), items can have custom enchantments from AdvancedmentEnchantments.
+Through this hook, based on the [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md), items can have custom enchantments from AdvancedmentEnchantments.
 
-Plugin like `EcoEnchants, ExcellentEnchants` are vanilla enchants like plugin, you just need to put their enchantment ID to `enchants` option in [ItemFormat](/format/itemformat-tm.md#enchants).
+Plugin like `EcoEnchants, ExcellentEnchants` are vanilla enchants like plugin, you just need to put their enchantment ID to `enchants` option in [ItemFormat](https://ultimateshop.superiormc.cn/format/itemformat-tm.md#enchants).
 
 You can use `plugin-enchants` option to add plugin enchants for your item.
 
@@ -21824,11 +21935,11 @@ anotherNBTComponent.theNBTKey: 5
 
 ## MythicChanger: Custom Item Match
 
-[Custom Item Match Method](/features/custom-item-match-method.md) feature requires MythicChanger.
+[Custom Item Match Method](https://ultimateshop.superiormc.cn/features/custom-item-match-method.md) feature requires MythicChanger.
 
 ## PlaceholderAPI: Extra placeholders
 
-UltimateShop provides those new placeholders to PlaceholderAPI, for more info, please view [this page](/placeholders/built-in-placeholders.md#placeholderapi-support).
+UltimateShop provides those new placeholders to PlaceholderAPI, for more info, please view [this page](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md#placeholderapi-support).
 
 ============================================================
 Title: 🛠️Configuration files | UltimateShop Wiki
@@ -21842,6 +21953,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -22083,7 +22197,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Copy
 
@@ -22662,10 +22776,10 @@ The plugin generates the following configuration files, some of which will only 
 
 * `datas`: The location for storing plugin data files. It will only be generated without using a database. Do not modify any content here.
 * `items`: The location for storing saved item files.
-* `languages`: The location for storing language files. You can set the language file used by the plugin through the `config-files.language` option in the `config.yml` file. You can customize various messages within the plugin game through language files. For per player language, or send action bar/title/boss bar/sound, please view [this page](/features/advanced-language-managment.md).
+* `languages`: The location for storing language files. You can set the language file used by the plugin through the `config-files.language` option in the `config.yml` file. You can customize various messages within the plugin game through language files. For per player language, or send action bar/title/boss bar/sound, please view [this page](https://ultimateshop.superiormc.cn/features/advanced-language-managment.md).
 * `menus/common_menus`: The location for storing common menu configuration files.
 * `menus/shop_menu_templates`: The location for storing shop menu template files.
-* `ui`: Shared graphical style files (`classic.yml`, `bedrock.yml` and custom presets). Select them with `menu.ui.style` or menu `ui.style`; see [Menu Configuration & Inheritance](/menus-getting-started/menu-configuration.md).
+* `ui`: Shared graphical style files (`classic.yml`, `bedrock.yml` and custom presets). Select them with `menu.ui.style` or menu `ui.style`; see [Menu Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md).
 * `menus/buy_more_menus`: The location for storing buy more menu files.
 * `menus/favourite_menus`: The location for storing favourite menu files.
 * `menus/search_menus`: The location for storing search menu files.
@@ -22683,11 +22797,11 @@ Many people seem to be confused about one thing: what you open through the `/sho
 * `config.yml` file: The location for main common settings for plugins.
 * `generated-item-format.yml` file: When using the `/shop generateitemformat` command, we will parse the item you are holding into an **ItemFormat** and store the parsed **ItemFormat** content in this file.
 * `minecraft-resources//`: Downloaded Minecraft data, textures and language caches used by automatic menu icons and localized item names. These files are prepared automatically.
-* `XX.txt` file: The transaction record file generated by the [Log Transaction](/features/log-transaction-premium.md) feature is named using the `log-transaction.file` option in the `config.yml` file.
+* `XX.txt` file: The transaction record file generated by the [Log Transaction](https://ultimateshop.superiormc.cn/features/log-transaction-premium.md) feature is named using the `log-transaction.file` option in the `config.yml` file.
 
 Legacy top-level placeholder and specialized menu folders are automatically moved into `placeholders/` and `menus/` when the plugin starts. If both locations contain the same file, the new file is used and the old file is preserved with a console warning for manual merging. Existing common menu files and custom subfolders in `menus/` are moved into `menus/common_menus/`.
 
-For Paper component ItemFormat examples and save/rebuild checks, see [Component Format](/format/itemformat-tm/component-format.md) and [Testing Paper Components](https://github.com/ManyouTeam/UltimateShop/tree/master/docs/format/itemformat-tm/component-testing.md).
+For Paper component ItemFormat examples and save/rebuild checks, see [Component Format](https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format.md) and [Testing Paper Components](https://github.com/ManyouTeam/UltimateShop/tree/master/docs/format/itemformat-tm/component-testing.md).
 
 ## Config.yml file content
 
@@ -23273,6 +23387,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -23619,6 +23736,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -23925,7 +24045,7 @@ A: No, actually they have small different, but you dind't find them. The simples
 
 ## Q: Does the /shop command has permission?
 
-A: Use `/shop` can directly open a menu called `main`. This is a feature called **Auto Open**, and you can disable it at `config.yml` file with `menu.auto-open.enabled` option. If you only want some players to be exposed to this command, you can set `conditions` for the menu so that only players who meet the specified conditions can open the menu. For more info, please view [Menus](/menu-types/general-menus.md) page.
+A: Use `/shop` can directly open a menu called `main`. This is a feature called **Auto Open**, and you can disable it at `config.yml` file with `menu.auto-open.enabled` option. If you only want some players to be exposed to this command, you can set `conditions` for the menu so that only players who meet the specified conditions can open the menu. For more info, please view [Menus](https://ultimateshop.superiormc.cn/menu-types/general-menus.md) page.
 
 ## Q: Why it say condition not meet when open daily example menu?
 
@@ -23951,11 +24071,11 @@ A: Some other plugin or mod lead to this problem. Try enable `ignore-click-outsi
 
 ## Q: What is different from free version and premium version?
 
-A: Check [this](/info/compare.md) page for more info.
+A: Check [this](https://ultimateshop.superiormc.cn/info/compare.md) page for more info.
 
 ## Q: Can I set different add lore for each product?
 
-A: Yes, in [Shop](/shops/shops.md) page we have told you that `add-lore` also works in each product configs!
+A: Yes, in [Shop](https://ultimateshop.superiormc.cn/shops/shops.md) page we have told you that `add-lore` also works in each product configs!
 
 ## Q: Shop menu can not open after use once!
 
@@ -23963,11 +24083,11 @@ A: Make sure your `config.yml` is latest format, if not, update it. Or, you are 
 
 ## Q: How can I translate item name in buy more menu and plugin message?
 
-A: View [Localized Item Name](/features/localized-item-name-premium.md) page.
+A: View [Localized Item Name](https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md) page.
 
 ## Q: Why my item name is in Chinese?
 
-A: Disable [Localized Item Name](/features/localized-item-name-premium.md) feature.
+A: Disable [Localized Item Name](https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md) feature.
 
 ## Q: UltimateShop print Error:XXX message in console.
 
@@ -23979,7 +24099,7 @@ If there are no issues with the shop, there is no need to pay attention to it. T
 
 ## Q: How to reset dynamic price?
 
-A: View [Dynamic Price](/dynamic-prices/dynamic-price.md) page.
+A: View [Dynamic Price](https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price.md) page.
 
 ============================================================
 Title: ⚙️Install | UltimateShop Wiki
@@ -23993,6 +24113,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -24218,7 +24341,7 @@ URL: https://ultimateshop.superiormc.cn/info/install.md
 * When updating plugins, please be sure to remove old versions.
 * Previously, you used the free version, but now to upgrade to the paid version, you only need to install the paid version on the server and remove the free version. The configuration file of the plugin does not require any changes.
 * When downgrading from **a new game version** to **an old version** on the server where the plugin is located, it is important to remove the `items` folder from the configuration file.
-* When using the [Localized Item Name](/features/localized-item-name-premium.md) feature, it is important to note that when switching server game versions, the previously generated localized files need to be deleted.
+* When using the [Localized Item Name](https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md) feature, it is important to note that when switching server game versions, the previously generated localized files need to be deleted.
 * **UltimateShop** is just a shop plugin and does not provide custom economy functionality. If you need a custom economy as your server economy, please find a suitable economy plugin yourself. **Vault** is not an economy plugin, it is just a dependency plugin for many economy plugins. After installing Vault on the server, it is also necessary to install the economy plugins that support it.
 * Default configs are just helping you understand the config framework, you need modify them that meet your needs.
 
@@ -24234,6 +24357,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -24566,7 +24692,7 @@ Different from `CLASSIC_ANY, CLASSIC_ALL` mode, `ANY` and `ALL` mode, the calcul
 
 ## MMOItems/MythicMobs Item generation performance.
 
-Both plugins are spend much server resource to generate item than vanilla items. If possible and your item is static item with no things like dynamic stat or level requirement, you can try use [Save Item](/features/saved-item-item-manager.md) instead.
+Both plugins are spend much server resource to generate item than vanilla items. If possible and your item is static item with no things like dynamic stat or level requirement, you can try use [Save Item](https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md) instead.
 
 {% hint style="info" %}
 For suggestions **below**:\
@@ -24680,6 +24806,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -25017,7 +25146,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 
 # UltimateShop Wiki
 
-## 3.4.8+
+## UltimateShop Wiki
 
 - [🎉Welcome](https://ultimateshop.superiormc.cn/welcome.md)
 - [🌏Other Language Wiki](https://ultimateshop.superiormc.cn/other-language-wiki.md)
@@ -25113,6 +25242,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -25460,7 +25592,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Select a menu and maximum
 
@@ -25577,7 +25709,7 @@ max-amount: 128
 
 This is a fragment to add to an existing product. The selected quantity is clamped from 1 to its configured maximum. Preview capacity does not set that maximum.
 
-The bundled product click binding is `menu.click-event.select-amount: SHIFT_RIGHT`. Set a click binding to `NEVER` to disable it. A `buy_more_menu` action accepts `shop` and `item`; Premium actions can additionally provide `buy-more-menu.menu` and `buy-more-menu.max-amount` for that opening. See [Custom Click Event](/features/custom-click-event-premium.md#example-only-buy-more-menu).
+The bundled product click binding is `menu.click-event.select-amount: SHIFT_RIGHT`. Set a click binding to `NEVER` to disable it. A `buy_more_menu` action accepts `shop` and `item`; Premium actions can additionally provide `buy-more-menu.menu` and `buy-more-menu.max-amount` for that opening. See [Custom Click Event](https://ultimateshop.superiormc.cn/features/custom-click-event-premium.md#example-only-buy-more-menu).
 
 ## Inventory quantity example
 
@@ -25660,13 +25792,13 @@ This file supports ordinary title, size, layout, buttons and lifecycle settings.
 
 Form quantity entry belongs to the source shop flow; it does not render this file's slot controls. Dialog keeps action-specific menu/maximum overrides through input and confirmation. Global forced UI can override the normal Dialog selector.
 
-ArcMenu's `select-amount` opens product details. Quantity adjustment requires Buy More, a selected quantity menu and an available quantity operation. Right-click defaults to `select-amount`; plus/minus and scrolling adjust quantity. Compatible ArcMenu versions also provide direct [quantity text input](/menu-ui-modes/arcmenu-menus-premium.md#quantity-input). Inventory confirmation labels do not rename graphical or native information actions.
+ArcMenu's `select-amount` opens product details. Quantity adjustment requires Buy More, a selected quantity menu and an available quantity operation. Right-click defaults to `select-amount`; plus/minus and scrolling adjust quantity. Compatible ArcMenu versions also provide direct [quantity text input](https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium.md#quantity-input). Inventory confirmation labels do not rename graphical or native information actions.
 
 ## Default trade amounts
 
-Before manual quantity selection, `default-buy-amount` and `default-sell-amount` apply independently. After selection, both directions use the chosen count. Generated `{buy-amount}` and `{sell-amount}` reflect the corresponding operation; an explicit display-item stack amount remains separate. See [Default Trade Amounts](/shops/products.md#default-trade-amounts).
+Before manual quantity selection, `default-buy-amount` and `default-sell-amount` apply independently. After selection, both directions use the chosen count. Generated `{buy-amount}` and `{sell-amount}` reflect the corresponding operation; an explicit display-item stack amount remains separate. See [Default Trade Amounts](https://ultimateshop.superiormc.cn/shops/products.md#default-trade-amounts).
 
-[Shop Menus](/menu-types/shop-menus.md) · [UI Modes](/menu-ui-modes/ui-overview.md) · [Display Item Add Lore](/advanced-menu-configuration/display-item-add-lore.md)
+[Shop Menus](https://ultimateshop.superiormc.cn/menu-types/shop-menus.md) · [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) · [Display Item Add Lore](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md)
 
 ============================================================
 Title: Favourite Menus - Premium | UltimateShop Wiki
@@ -25680,6 +25812,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -26038,7 +26173,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Add a product
 
@@ -26159,11 +26294,11 @@ Form may display configured empty-slot buttons. ArcMenu needs `ui.placement` for
 
 Form editing text uses `bedrock.favourite-edit` with global `menu.bedrock.favourite-edit` fallback; Dialog uses `dialog.favourite-edit` and `menu.dialog.favourite-edit`. These contain `title`, `content` and `buttons.forward/backward/remove/back`; titles/content support `{item-name}`.
 
-ArcMenu card edit labels default to the Form labels and can be overridden with `ui.text.favourite-edit.forward/backward/remove`. Adapt editing lore to each interface with [presentation conditions](/advanced-menu-configuration/display-item-add-lore.md#presentation-conditions).
+ArcMenu card edit labels default to the Form labels and can be overridden with `ui.text.favourite-edit.forward/backward/remove`. Adapt editing lore to each interface with [presentation conditions](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md#presentation-conditions).
 
 Favourite does not render Ore graphics. Setting `dialog.layout: ore` uses native `multi-action` and generates no Ore assets for this type.
 
-[UI Modes](/menu-ui-modes/ui-overview.md) · [Custom Click Event](/features/custom-click-event-premium.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) · [Custom Click Event](https://ultimateshop.superiormc.cn/features/custom-click-event-premium.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: Common Menus | UltimateShop Wiki
@@ -26177,6 +26312,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -26477,7 +26615,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a navigation menu
 
@@ -26566,7 +26704,7 @@ Use `type: shop_menu` with `shop` to open a shop. Use `type: open_menu` with `me
 | `dialog`, `bedrock`, `arcmenu` | Presentation switches and supported native options |
 | `ui` | Ore/ArcMenu style, layout and drawing settings |
 
-Button click conditions belong in `buttons..conditions`; button display conditions belong in `buttons..display-conditions`. Root `conditions` applies to the whole menu. See [Layout & Buttons](/menus-getting-started/layout-and-buttons.md).
+Button click conditions belong in `buttons..conditions`; button display conditions belong in `buttons..display-conditions`. Root `conditions` applies to the whole menu. See [Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md).
 
 ## Use another presentation — Premium
 
@@ -26583,7 +26721,7 @@ columns: 2
 
 Also enable global `menu.dialog.enabled`. For Ore, select `dialog.layout: ore`, configure graphical placements and distribute its generated pack. For ArcMenu, enable the global/menu ArcMenu switches and configure graphical placements with a compatible integration. Bedrock Form uses the global/menu Bedrock switches.
 
-[UI Modes](/menu-ui-modes/ui-overview.md) explains priority, forced selection and supported clients. [Graphical UI Layout](/menus-getting-started/ui-layout.md) explains styles and areas.
+[UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) explains priority, forced selection and supported clients. [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md) explains styles and areas.
 
 ## Custom command — Premium
 
@@ -26599,7 +26737,7 @@ The command opens this menu for the player. Choose a name that does not conflict
 
 ## Inventory refresh and title updates
 
-Global `menu.menu-update.circle-update` refreshes item displays every second; `click-update` refreshes after clicks. Premium title updates use `menu.title-update.enabled/circle-update/click-update` and require PacketEvents. Full settings are listed in [Inventory UI](/menu-ui-modes/inventory-ui.md#clicks-visibility-and-refresh).
+Global `menu.menu-update.circle-update` refreshes item displays every second; `click-update` refreshes after clicks. Premium title updates use `menu.title-update.enabled/circle-update/click-update` and require PacketEvents. Full settings are listed in [Inventory UI](https://ultimateshop.superiormc.cn/menu-ui-modes/inventory-ui.md#clicks-visibility-and-refresh).
 
 ## Typed files in the Common folder
 
@@ -26607,7 +26745,7 @@ The dedicated Search, Favourite and Item Sell folders classify their files autom
 
 Prefer dedicated folders for new typed menus. Their specialized controls and presentation support follow their declared type, even when stored in `common_menus`.
 
-[Shop Menus](/menu-types/shop-menus.md) · [Configuration & Inheritance](/menus-getting-started/menu-configuration.md)
+[Shop Menus](https://ultimateshop.superiormc.cn/menu-types/shop-menus.md) · [Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md)
 
 ============================================================
 Title: Item Sell Menus | UltimateShop Wiki
@@ -26621,6 +26759,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -26923,7 +27064,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a deposit menu
 
@@ -26950,7 +27091,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/item-sell-menus.md
 
 # Item Sell Menus
 
-Item Sell accepts real item stacks, previews their sell value and waits for an explicit confirmation. Closing without confirming returns the items. Use [Sell All](/menu-types/sell-all-menu.md) when deposits should instead be sold on close.
+Item Sell accepts real item stacks, previews their sell value and waits for an explicit confirmation. Closing without confirming returns the items. Use [Sell All](https://ultimateshop.superiormc.cn/menu-types/sell-all-menu.md) when deposits should instead be sold on close.
 
 Save files in `menus/item_sell_menus/`. Open the bundled menu with `/shop menu item-sell` or an `open_menu` action. The folder assigns the menu type automatically; a file in `common_menus` can use root `menu-type: item-sell` (alias `item_sell`).
 
@@ -27001,7 +27142,7 @@ Save as `menus/item_sell_menus/my-sell.yml`, reload, then open `/shop menu my-se
 | `confirm-button.display-item` | Confirmation icon, name and lore |
 | `max-sell-amount` | Maximum trade units sold across all inputs per confirmation; `-1` is unlimited |
 
-Common title, layout, ordinary buttons, opening conditions and lifecycle actions are supported. Longer markers use the [normal layout token rules](/menus-getting-started/layout-and-buttons.md). The built-in confirmation control uses `confirm-button`, separate from Buy More's `confirm-items`.
+Common title, layout, ordinary buttons, opening conditions and lifecycle actions are supported. Longer markers use the [normal layout token rules](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md). The built-in confirmation control uses `confirm-button`, separate from Buy More's `confirm-items`.
 
 ## Price preview and confirmation
 
@@ -27035,7 +27176,7 @@ For these products, the `sell` and `sell-all` operations route to that menu. The
 
 Item Sell is Inventory-only for all clients. Its settings do not include Form, Dialog, Ore or ArcMenu layout, and it does not inherit graphical `menu.ui`. Global forced UI preserves this physical deposit interface.
 
-[Price Modifier](/shops/price-modifier.md) · [Sell Multiplier](/shops/sell-multiplier-premium.md) · [Inventory UI](/menu-ui-modes/inventory-ui.md)
+[Price Modifier](https://ultimateshop.superiormc.cn/shops/price-modifier.md) · [Sell Multiplier](https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md) · [Inventory UI](https://ultimateshop.superiormc.cn/menu-ui-modes/inventory-ui.md)
 
 ============================================================
 Title: Search Menus - Premium | UltimateShop Wiki
@@ -27049,6 +27190,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -27399,7 +27543,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Inventory example
 
@@ -27499,13 +27643,13 @@ Reload, then open `/shop menu my-search`. In normal selection, this uses Invento
 | `no-result-item.display-item` | No-match appearance |
 | `result-lore` | Extra result lore; `{shop}` and `{product}` refer to its source |
 
-Ordinary navigation belongs in `buttons`. Put special action/state IDs in root `layout`, reserve input/result markers, and use a valid no-result slot. Longer IDs follow [Layout & Buttons](/menus-getting-started/layout-and-buttons.md).
+Ordinary navigation belongs in `buttons`. Put special action/state IDs in root `layout`, reserve input/result markers, and use a valid no-result slot. Longer IDs follow [Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md).
 
 Status items support `{result-amount}` (all matches), `{showing-amount}` (displayed matches), `{input-amount}` (physical input count) and `{name-keyword}`. These values belong to search status rendering rather than arbitrary menu text.
 
 ## Keyword and item input
 
-Inventory physical inputs filter products linked to those items. A keyword filters product/item names; text-only search works without deposited stacks. Name matching uses the shared [localized item-name system](/features/localized-item-name-premium.md).
+Inventory physical inputs filter products linked to those items. A keyword filters product/item names; text-only search works without deposited stacks. Name matching uses the shared [localized item-name system](https://ultimateshop.superiormc.cn/features/localized-item-name-premium.md).
 
 Chat prompt keywords are global in `config.yml`:
 
@@ -27537,9 +27681,9 @@ Form labels use menu `bedrock.search.*` with global `menu.bedrock.search.*` fall
 
 Search supports ArcMenu graphics. Configure `ui.products.placement` for results and `ui.placement` on ordinary and special controls. Root result-slot capacity still limits how many source results can be shown; graphical pagination does not expand that limit.
 
-Search does not render Ore graphics or generate Ore assets. `dialog.layout: ore` selects native `multi-action` for this type. Presentation switches and forced selection follow [UI Modes](/menu-ui-modes/ui-overview.md).
+Search does not render Ore graphics or generate Ore assets. `dialog.layout: ore` selects native `multi-action` for this type. Presentation switches and forced selection follow [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md).
 
-[Favourite Menus](/menu-types/favourite-menus-premium.md) · [ArcMenu](/menu-ui-modes/arcmenu-menus-premium.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[Favourite Menus](https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium.md) · [ArcMenu](https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: Sell All Menu | UltimateShop Wiki
@@ -27553,6 +27697,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -27802,7 +27949,7 @@ PreviousItem Sell Menus
 
 NextUI Modes
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Open the screen
 
@@ -27826,7 +27973,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/sell-all-menu.md
 
 # Sell All Menu
 
-Sell All is one global Inventory screen. Players deposit items and **close the window to sell them**. It has no explicit confirmation button. [Item Sell](/menu-types/item-sell-menus.md) provides price preview and confirmation when that flow is preferred.
+Sell All is one global Inventory screen. Players deposit items and **close the window to sell them**. It has no explicit confirmation button. [Item Sell](https://ultimateshop.superiormc.cn/menu-types/item-sell-menus.md) provides price preview and confirmation when that flow is preferred.
 
 ## Open the screen
 
@@ -27871,7 +28018,7 @@ ignore-items:
 - 'farming;;A'
 ```
 
-This excludes that product reference from the Sell All flow. See [product configuration](/shops/products.md) for prices and sell requirements.
+This excludes that product reference from the Sell All flow. See [product configuration](https://ultimateshop.superiormc.cn/shops/products.md) for prices and sell requirements.
 
 ## Sale on close
 
@@ -27879,7 +28026,7 @@ Closing scans eligible shop products and runs normal selling against deposited i
 
 Unsold items return to the player, or drop when they cannot fit. An empty menu produces no reward. Products requiring item-aware price modifiers use the configured Item Sell flow.
 
-[Item Sell](/menu-types/item-sell-menus.md) · [Inventory UI](/menu-ui-modes/inventory-ui.md)
+[Item Sell](https://ultimateshop.superiormc.cn/menu-types/item-sell-menus.md) · [Inventory UI](https://ultimateshop.superiormc.cn/menu-ui-modes/inventory-ui.md)
 
 ============================================================
 Title: Shop Menus | UltimateShop Wiki
@@ -27893,6 +28040,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -28141,7 +28291,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a shop and template
 
@@ -28263,13 +28413,13 @@ ui:
 style: bedrock
 ```
 
-Overrides merge recursively into the template; lists such as `layout` replace the full list. Global graphical defaults fill missing `ui` fields afterward. `settings.menu-settings` is also usable without a template when it supplies the complete screen definition. See [Configuration & Inheritance](/menus-getting-started/menu-configuration.md).
+Overrides merge recursively into the template; lists such as `layout` replace the full list. Global graphical defaults fill missing `ui` fields afterward. `settings.menu-settings` is also usable without a template when it supplies the complete screen definition. See [Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md).
 
 ## Add products and navigation
 
 Add products under shop `items`, then reference their IDs in the template's Inventory layout. Ordinary navigation buttons can live in template `buttons` or shop `buttons`. Keep IDs distinct across these sources.
 
-Product clicks use `menu.click-event` and product overrides. Ordinary buttons use their action lists. Product pricing and rewards follow [Products](/shops/products.md); graphical layout does not change trading rules.
+Product clicks use `menu.click-event` and product overrides. Ordinary buttons use their action lists. Product pricing and rewards follow [Products](https://ultimateshop.superiormc.cn/shops/products.md); graphical layout does not change trading rules.
 
 ## Present the same shop in different interfaces — Premium
 
@@ -28279,7 +28429,7 @@ Product clicks use `menu.click-event` and product overrides. Ordinary buttons us
 
 In a graphical shop, non-dynamic product collection can include products absent from root layout, using the default product placement. Dynamic layouts retain their selected products unless additional products have explicit graphical placement. Navigation controls always need their own placement. Use `menu-visibility` and display conditions to control eligibility.
 
-[UI Modes](/menu-ui-modes/ui-overview.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md) · [Buy More](/menu-types/buy-more-menus.md)
+[UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md) · [Buy More](https://ultimateshop.superiormc.cn/menu-types/buy-more-menus.md)
 
 ============================================================
 Title: ArcMenu UI - Premium | UltimateShop Wiki
@@ -28293,6 +28443,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -28612,7 +28765,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable ArcMenu
 
@@ -28703,7 +28856,7 @@ area: sidebar
 order: 0
 ```
 
-Create `farming`, reload and open `/shop menu categories`. The selected style provides the canvas and `sidebar` area. In normal selection, Java tries ArcMenu before an enabled Dialog/Ore route and Inventory. Bedrock uses its own presentation selection. See [UI Modes](/menu-ui-modes/ui-overview.md) for global forced selection.
+Create `farming`, reload and open `/shop menu categories`. The selected style provides the canvas and `sidebar` area. In normal selection, Java tries ArcMenu before an enabled Dialog/Ore route and Inventory. Bedrock uses its own presentation selection. See [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) for global forced selection.
 
 ## Styles and layout
 
@@ -28716,7 +28869,7 @@ Use menu `ui.style: classic` or `ui.style: bedrock`, or select the global defaul
 
 The `bedrock` preset uses the named `sidebar` area for its horizontal navigation. The name identifies an area, not a fixed screen position. Both presets use existing item icons and fonts. Adapt explicit row/column positions and custom areas when changing presets.
 
-Menu-local fields override normal style defaults. A forced style can override local fields through `menu.force-ui.style`; see [Configuration & Inheritance](/menus-getting-started/menu-configuration.md). Geometry and shared card keys are documented in [Graphical UI Layout](/menus-getting-started/ui-layout.md).
+Menu-local fields override normal style defaults. A forced style can override local fields through `menu.force-ui.style`; see [Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md). Geometry and shared card keys are documented in [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md).
 
 ## Product operations
 
@@ -28780,7 +28933,7 @@ The interval is in ticks, with a minimum of 5. It can also be supplied by the se
 
 ## Backgrounds, decorations and text
 
-ArcMenu reads graphical colors from resolved `ui.theme`. Window and title backgrounds have independent enable switches. `theme.decorations` supports frames, corners and header accents; bevels and control-specific colors let a style define its appearance without depending on its file name. See the [theme reference](/menus-getting-started/ui-layout.md#theme-and-text).
+ArcMenu reads graphical colors from resolved `ui.theme`. Window and title backgrounds have independent enable switches. `theme.decorations` supports frames, corners and header accents; bevels and control-specific colors let a style define its appearance without depending on its file name. See the [theme reference](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md#theme-and-text).
 
 Tooltips wrap formatted lore in a left-aligned block and shrink oversized content to fit. Mouse layout fitting accounts for the active surface, cursor sensitivity, player preferences, cursor margin and the vertical pitch limit. Touch/Vision use the surface bounds.
 
@@ -28790,7 +28943,7 @@ Search/Favourite use ArcMenu layouts and their own controls, while root result-s
 
 ArcMenu does not use `/shop dialogpack` for its own controls; that command builds Ore assets.
 
-[Search](/menu-types/search-menus-premium.md) · [Favourite](/menu-types/favourite-menus-premium.md) · [Buy More](/menu-types/buy-more-menus.md)
+[Search](https://ultimateshop.superiormc.cn/menu-types/search-menus-premium.md) · [Favourite](https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium.md) · [Buy More](https://ultimateshop.superiormc.cn/menu-types/buy-more-menus.md)
 
 ============================================================
 Title: Bedrock Form UI - Premium | UltimateShop Wiki
@@ -28804,6 +28957,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -29130,7 +29286,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable Form
 
@@ -29293,7 +29449,7 @@ Supported options use menu `bedrock.*`, then global `menu.bedrock.*`. Player det
 
 Search and Favourite use dedicated Form flows. Item Sell and Sell All retain their physical inventories. The graphical `ui.style: bedrock` preset is a separate appearance setting for Ore/ArcMenu.
 
-[UI Modes](/menu-ui-modes/ui-overview.md) · [Buy More](/menu-types/buy-more-menus.md) · [Search](/menu-types/search-menus-premium.md) · [Favourite](/menu-types/favourite-menus-premium.md)
+[UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) · [Buy More](https://ultimateshop.superiormc.cn/menu-types/buy-more-menus.md) · [Search](https://ultimateshop.superiormc.cn/menu-types/search-menus-premium.md) · [Favourite](https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium.md)
 
 ============================================================
 Title: Native Dialog UI - Premium | UltimateShop Wiki
@@ -29307,6 +29463,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -29641,7 +29800,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable native Dialog
 
@@ -29764,9 +29923,9 @@ Search provides keyword input and result information. Favourite provides normal 
 
 ## Ore layout
 
-Select menu `dialog.layout: ore`, then configure graphical areas and placements under `ui`. Common and Shop support Ore; it also requires the [generated resource pack](/menu-ui-modes/ore-menus-premium.md). Native `button-width` and `columns` do not position Ore cards.
+Select menu `dialog.layout: ore`, then configure graphical areas and placements under `ui`. Common and Shop support Ore; it also requires the [generated resource pack](https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium.md). Native `button-width` and `columns` do not position Ore cards.
 
-[UI Modes](/menu-ui-modes/ui-overview.md) · [Buy More](/menu-types/buy-more-menus.md) · [Search](/menu-types/search-menus-premium.md) · [Favourite](/menu-types/favourite-menus-premium.md)
+[UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) · [Buy More](https://ultimateshop.superiormc.cn/menu-types/buy-more-menus.md) · [Search](https://ultimateshop.superiormc.cn/menu-types/search-menus-premium.md) · [Favourite](https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium.md)
 
 ============================================================
 Title: Inventory UI | UltimateShop Wiki
@@ -29780,6 +29939,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -30018,7 +30180,7 @@ PreviousUI Modes
 
 NextBedrock Form UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Select Inventory
 
@@ -30110,7 +30272,7 @@ actions:
 type: close
 ```
 
-With Inventory selected, reload and open `/shop menu example`. Each row resolves to nine slots. Supported sizes are `9`, `18`, `27`, `36`, `45` and `54`. Undefined IDs leave empty slots; `0` can be defined as a filler. Multi-character IDs use backticks. See [Layout & Buttons](/menus-getting-started/layout-and-buttons.md).
+With Inventory selected, reload and open `/shop menu example`. Each row resolves to nine slots. Supported sizes are `9`, `18`, `27`, `36`, `45` and `54`. Undefined IDs leave empty slots; `0` can be defined as a filler. Multi-character IDs use backticks. See [Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md).
 
 ## Clicks, visibility and refresh
 
@@ -30134,9 +30296,9 @@ resend-items-pack: false
 
 ## Physical inventory screens
 
-[Item Sell](/menu-types/item-sell-menus.md) accepts real items and requires sale confirmation. [Sell All](/menu-types/sell-all-menu.md) sells deposits on close. Both remain Inventory interfaces regardless of global presentation selection. [Buy More](/menu-types/buy-more-menus.md) has its own amount controls and product previews.
+[Item Sell](https://ultimateshop.superiormc.cn/menu-types/item-sell-menus.md) accepts real items and requires sale confirmation. [Sell All](https://ultimateshop.superiormc.cn/menu-types/sell-all-menu.md) sells deposits on close. Both remain Inventory interfaces regardless of global presentation selection. [Buy More](https://ultimateshop.superiormc.cn/menu-types/buy-more-menus.md) has its own amount controls and product previews.
 
-[UI Modes](/menu-ui-modes/ui-overview.md) · [Display Item Add Lore](/advanced-menu-configuration/display-item-add-lore.md)
+[UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) · [Display Item Add Lore](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md)
 
 ============================================================
 Title: Ore UI - Premium | UltimateShop Wiki
@@ -30150,6 +30312,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -30475,7 +30640,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable Ore
 
@@ -30584,7 +30749,7 @@ Pack generation includes Common/Shop menus using Ore, including a valid forced O
 | Global `menu.dialog.ore.show-item-icon.*` | Item icon and quantity display |
 | Global `menu.dialog.ore.pack-format` | Pack metadata format |
 
-Root Inventory layout identifies entries but does not provide graphical coordinates. Ordinary controls need explicit placements. Product cards use `ui.products.placement` unless individually overridden. See [Graphical UI Layout](/menus-getting-started/ui-layout.md) for geometry and capacity rules.
+Root Inventory layout identifies entries but does not provide graphical coordinates. Ordinary controls need explicit placements. Product cards use `ui.products.placement` unless individually overridden. See [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md) for geometry and capacity rules.
 
 ## Custom template textures
 
@@ -30610,7 +30775,7 @@ Ore uses native text rendering. ArcMenu font scale settings do not imply identic
 
 Search/Favourite use native `multi-action` when Ore is selected. Buy More uses native quantity input or Inventory. Item Sell, Sell All and the in-game editor keep physical Inventory screens.
 
-[Native Dialog](/menu-ui-modes/dialog-menus-premium.md) · [ArcMenu](/menu-ui-modes/arcmenu-menus-premium.md) · [UI Modes](/menu-ui-modes/ui-overview.md)
+[Native Dialog](https://ultimateshop.superiormc.cn/menu-ui-modes/dialog-menus-premium.md) · [ArcMenu](https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium.md) · [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md)
 
 ============================================================
 Title: UI Modes | UltimateShop Wiki
@@ -30624,6 +30789,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -31043,7 +31211,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Available presentations
 
@@ -31085,12 +31253,12 @@ A presentation displays a menu using Inventory slots, native controls or graphic
 ## Available presentations
 
 | Presentation | Client and requirements | Layout settings |
-| ----------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
-| [Inventory](/menu-ui-modes/inventory-ui.md) | Java or Bedrock; standard menu interface | Root `size`, `layout` and `buttons` |
-| [Bedrock Form — Premium](/menu-ui-modes/bedrock-menus-premium.md) | Bedrock with a supported Geyser/Floodgate setup | `bedrock.*`; entries become a list |
-| [Native Dialog — Premium](/menu-ui-modes/dialog-menus-premium.md) | Java on supported Paper 1.21.9+ | `dialog.layout: multi-action` or `item-action-list` |
-| [Ore — Premium](/menu-ui-modes/ore-menus-premium.md) | Supported Paper Dialog runtime and generated client pack | `dialog.layout: ore`, plus graphical `ui` |
-| [ArcMenu — Premium](/menu-ui-modes/arcmenu-menus-premium.md) | Java with a compatible ArcMenu installation and client setup | `arcmenu.enabled`, plus graphical `ui` |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
+| [Inventory](https://ultimateshop.superiormc.cn/menu-ui-modes/inventory-ui.md) | Java or Bedrock; standard menu interface | Root `size`, `layout` and `buttons` |
+| [Bedrock Form — Premium](https://ultimateshop.superiormc.cn/menu-ui-modes/bedrock-menus-premium.md) | Bedrock with a supported Geyser/Floodgate setup | `bedrock.*`; entries become a list |
+| [Native Dialog — Premium](https://ultimateshop.superiormc.cn/menu-ui-modes/dialog-menus-premium.md) | Java on supported Paper 1.21.9+ | `dialog.layout: multi-action` or `item-action-list` |
+| [Ore — Premium](https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium.md) | Supported Paper Dialog runtime and generated client pack | `dialog.layout: ore`, plus graphical `ui` |
+| [ArcMenu — Premium](https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium.md) | Java with a compatible ArcMenu installation and client setup | `arcmenu.enabled`, plus graphical `ui` |
 
 The native `multi-action` and `item-action-list` layouts do not require Ore's generated resource pack. ArcMenu follows its own integration's client requirements.
 
@@ -31161,7 +31329,7 @@ This overrides global and menu-local presentation enable switches. It preserves 
 
 Unsupported routes retain their supported fallback. Item Sell/Sell All remain Inventory. Buy More may use native quantity input for a forced Dialog route; ArcMenu quantity controls remain part of product details. Forcing `dialog` replaces an Ore layout with `multi-action`; an existing native item-action-list selection remains native.
 
-Set `style` to a style ID such as `bedrock` to force graphical defaults too, or leave it empty to retain normal style selection. See [Configuration & Inheritance](/menus-getting-started/menu-configuration.md#force-a-presentation-and-style). An invalid `type` reports a configuration error and restores normal selection. Reload after changing the setting.
+Set `style` to a style ID such as `bedrock` to force graphical defaults too, or leave it empty to retain normal style selection. See [Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md#force-a-presentation-and-style). An invalid `type` reports a configuration error and restores normal selection. Reload after changing the setting.
 
 ## Configure layout, content and visibility
 
@@ -31178,7 +31346,7 @@ Set `style` to a style ID such as `bedrock` to force graphical defaults too, or 
 
 Root `content` is the shared description fallback; `dialog.content`, `bedrock.content` and `arcmenu.content` override it for their route. The graphical `ui` section controls drawing and placement. It does not select a presentation with `ui.mode`.
 
-[Menu System](/menus-getting-started/menus.md) · [Layout & Buttons](/menus-getting-started/layout-and-buttons.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[Menu System](https://ultimateshop.superiormc.cn/menus-getting-started/menus.md) · [Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: Layout & Buttons | UltimateShop Wiki
@@ -31192,6 +31360,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -31545,7 +31716,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 A complete button menu
 
@@ -31652,7 +31823,7 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons
 
 # Layout & Buttons
 
-Root `layout` assigns entry IDs to Inventory slots. Ordinary entries are defined under `buttons`; a Shop menu can also resolve products and buttons from its shop file. Ore and ArcMenu use separate [graphical placements](/menus-getting-started/ui-layout.md).
+Root `layout` assigns entry IDs to Inventory slots. Ordinary entries are defined under `buttons`; a Shop menu can also resolve products and buttons from its shop file. Ore and ArcMenu use separate [graphical placements](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md).
 
 ## A complete button menu
 
@@ -31749,8 +31920,8 @@ Ordinary buttons run their `actions`. Product entries use product trade operatio
 ## Button actions and conditions
 
 | Button key | Purpose |
-| ------------------------------------- | -------------------------------------------------------------------------- |
-| `display-item` | Item appearance; see [Display Item Format](/format/display-item-format.md) |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `display-item` | Item appearance; see [Display Item Format](https://ultimateshop.superiormc.cn/format/display-item-format.md) |
 | `actions` | Actions when click conditions pass |
 | `conditions` | Conditions checked when clicking |
 | `fail-actions` | Actions when click conditions fail |
@@ -31811,7 +31982,7 @@ layout:
 - '000`A||B`00000'
 ```
 
-This row has nine slots. The runtime checks `A`, then `B`, selecting the first existing entry allowed in the presentation whose display conditions pass. If neither qualifies, the slot is empty. Put fallback entries last. See [Conditional Display](/advanced-menu-configuration/conditional-display-premium.md) for a complete example.
+This row has nine slots. The runtime checks `A`, then `B`, selecting the first existing entry allowed in the presentation whose display conditions pass. If neither qualifies, the slot is empty. Put fallback entries last. See [Conditional Display](https://ultimateshop.superiormc.cn/advanced-menu-configuration/conditional-display-premium.md) for a complete example.
 
 ## Entry placement by presentation
 
@@ -31843,7 +32014,7 @@ order: 0
 
 This uses the selected style's `sidebar` area. An explicitly placed ordinary button can appear graphically even when absent from root `layout`. Products can inherit `ui.products.placement`; product `ui.placement` overrides that default. No graphical Back/Close/category controls are generated from empty areas.
 
-[Common Menus](/menu-types/general-menus.md) · [Shop Menus](/menu-types/shop-menus.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[Common Menus](https://ultimateshop.superiormc.cn/menu-types/general-menus.md) · [Shop Menus](https://ultimateshop.superiormc.cn/menu-types/shop-menus.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: Menu Configuration & Inheritance | UltimateShop Wiki
@@ -31857,6 +32028,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -32192,7 +32366,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 File locations
 
@@ -32346,7 +32520,7 @@ ui:
 style: classic
 ```
 
-In normal selection, both global and local switches must allow a presentation. Menu `dialog.enabled` and `bedrock.enabled` default to `true`; menu `arcmenu.enabled` defaults to `false`. `menu.force-ui` overrides those switches when enabled. Platform and menu-type requirements still apply. See [UI Modes](/menu-ui-modes/ui-overview.md).
+In normal selection, both global and local switches must allow a presentation. Menu `dialog.enabled` and `bedrock.enabled` default to `true`; menu `arcmenu.enabled` defaults to `false`. `menu.force-ui` overrides those switches when enabled. Platform and menu-type requirements still apply. See [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md).
 
 Supported native labels and options are resolved from menu `dialog.*` / `bedrock.*`, then global `menu.dialog.*` / `menu.bedrock.*`. Some integration and resource-generation settings are global only; their presentation pages identify them. Screen descriptions use local `dialog.content`, `bedrock.content` or `arcmenu.content`, falling back to root `content`.
 
@@ -32438,7 +32612,7 @@ style: bedrock
 
 `type` selects the presentation globally. A nonempty `style` also overrides menu-local graphical values wherever the resolved forced defaults provide that field. Local fields absent from those defaults remain. Entry placements and product-level overrides still need to fit the chosen layout.
 
-Leave `style: ''` to force only the presentation and retain normal style selection. Both forced presentation and forced style are ignored when `enabled: false`. Supported types and client behavior are listed in [UI Modes](/menu-ui-modes/ui-overview.md#force-one-presentation).
+Leave `style: ''` to force only the presentation and retain normal style selection. Both forced presentation and forced style are ignored when `enabled: false`. Supported types and client behavior are listed in [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md#force-one-presentation).
 
 ## Product and button settings
 
@@ -32461,9 +32635,9 @@ A product displayed in Search/Favourite retains its source product settings and 
 
 Common and Shop support Ore and ArcMenu defaults. Search and Favourite inherit ArcMenu defaults but exclude Ore template and card-lore defaults. Item Sell and Buy More do not inherit graphical `menu.ui` settings. Buy More reads its own `dialog.enabled` for native quantity input; its source shop supplies Form/Dialog quantity labels. Sell All uses only its dedicated `menu.sell-all` screen configuration.
 
-Reload with `/shop reload` after editing menus, styles or selectors. Ore layout and texture changes also require rebuilding and distributing its [resource pack](/menu-ui-modes/ore-menus-premium.md#generate-the-resource-pack).
+Reload with `/shop reload` after editing menus, styles or selectors. Ore layout and texture changes also require rebuilding and distributing its [resource pack](https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium.md#generate-the-resource-pack).
 
-[Layout & Buttons](/menus-getting-started/layout-and-buttons.md) · [Graphical UI Layout](/menus-getting-started/ui-layout.md)
+[Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md) · [Graphical UI Layout](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md)
 
 ============================================================
 Title: Menu System | UltimateShop Wiki
@@ -32477,6 +32651,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -32775,7 +32952,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create your first menu
 
@@ -32823,38 +33000,38 @@ type: close
 
 Run `/shop reload`, then `/shop menu hello`. This creates a one-row Inventory with a Close button in its fifth slot. The example uses the normal presentation switches; an enabled global `menu.force-ui` takes priority over them.
 
-Each layout character represents a slot. `X` selects `buttons.X`; undefined `0` entries leave empty slots. Learn longer IDs, click actions and visibility in [Layout & Buttons](/menus-getting-started/layout-and-buttons.md).
+Each layout character represents a slot. `X` selects `buttons.X`; undefined `0` entries leave empty slots. Learn longer IDs, click actions and visibility in [Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md).
 
 ## Choose a menu type
 
 | Type | Configuration | Player flow |
-| ------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------- |
-| [Common](/menu-types/general-menus.md) | `menus/common_menus/.yml` | Navigation and custom actions |
-| [Shop](/menu-types/shop-menus.md) | `shops/.yml` and `menus/shop_menu_templates/.yml` | Browse and trade shop products |
-| [Buy More](/menu-types/buy-more-menus.md) | `menus/buy_more_menus/.yml` | Select a quantity for an existing product |
-| [Search — Premium](/menu-types/search-menus-premium.md) | `menus/search_menus/.yml` | Find products by item or name |
-| [Favourite — Premium](/menu-types/favourite-menus-premium.md) | `menus/favourite_menus/.yml` | Save products and edit their order |
-| [Item Sell](/menu-types/item-sell-menus.md) | `menus/item_sell_menus/.yml` | Deposit items, preview value and confirm |
-| [Sell All](/menu-types/sell-all-menu.md) | `config.yml` → `menu.sell-all` | Deposit items and sell on close |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------- |
+| [Common](https://ultimateshop.superiormc.cn/menu-types/general-menus.md) | `menus/common_menus/.yml` | Navigation and custom actions |
+| [Shop](https://ultimateshop.superiormc.cn/menu-types/shop-menus.md) | `shops/.yml` and `menus/shop_menu_templates/.yml` | Browse and trade shop products |
+| [Buy More](https://ultimateshop.superiormc.cn/menu-types/buy-more-menus.md) | `menus/buy_more_menus/.yml` | Select a quantity for an existing product |
+| [Search — Premium](https://ultimateshop.superiormc.cn/menu-types/search-menus-premium.md) | `menus/search_menus/.yml` | Find products by item or name |
+| [Favourite — Premium](https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium.md) | `menus/favourite_menus/.yml` | Save products and edit their order |
+| [Item Sell](https://ultimateshop.superiormc.cn/menu-types/item-sell-menus.md) | `menus/item_sell_menus/.yml` | Deposit items, preview value and confirm |
+| [Sell All](https://ultimateshop.superiormc.cn/menu-types/sell-all-menu.md) | `config.yml` → `menu.sell-all` | Deposit items and sell on close |
 
 Use `/shop menu ` for Common, Shop, Search, Favourite and Item Sell. Buy More needs a selected product; Sell All opens with `/shop sellall` or its menu action.
 
 ## Choose a presentation
 
-Inventory uses the root `size` and `layout`. Premium adds Bedrock Form, native Java Dialog, graphical Ore and ArcMenu. Availability depends on the menu type, server platform and installed integrations. See [UI Modes](/menu-ui-modes/ui-overview.md) for the support table and selection order.
+Inventory uses the root `size` and `layout`. Premium adds Bedrock Form, native Java Dialog, graphical Ore and ArcMenu. Availability depends on the menu type, server platform and installed integrations. See [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md) for the support table and selection order.
 
 Graphical styles live in `ui/`. Select a shared style with global `menu.ui.style` or a menu's `ui.style`; configure coordinates with `ui.layout` and entry `ui.placement`. The `bedrock` style is a graphical preset and is separate from Bedrock Form.
 
 ## Continue configuring
 
-* [Configuration & Inheritance](/menus-getting-started/menu-configuration.md): files, templates, styles and override priority.
-* [Layout & Buttons](/menus-getting-started/layout-and-buttons.md): slot IDs, actions, conditions and visibility.
-* [Graphical UI Layout — Premium](/menus-getting-started/ui-layout.md): areas, cards, pagination and themes.
-* [Conditional Display — Premium](/advanced-menu-configuration/conditional-display-premium.md): player-dependent entries and alternatives.
-* [Display Item Add Lore](/advanced-menu-configuration/display-item-add-lore.md): prices, limits and presentation-specific instructions.
-* [Configuration Compatibility](/advanced-menu-configuration/migration-guide.md): current keys and migration examples.
+* [Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md): files, templates, styles and override priority.
+* [Layout & Buttons](https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons.md): slot IDs, actions, conditions and visibility.
+* [Graphical UI Layout — Premium](https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md): areas, cards, pagination and themes.
+* [Conditional Display — Premium](https://ultimateshop.superiormc.cn/advanced-menu-configuration/conditional-display-premium.md): player-dependent entries and alternatives.
+* [Display Item Add Lore](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md): prices, limits and presentation-specific instructions.
+* [Configuration Compatibility](https://ultimateshop.superiormc.cn/advanced-menu-configuration/migration-guide.md): current keys and migration examples.
 
-Shared formats: [Display Item](/format/display-item-format.md), [Actions](/format/action-format.md) and [Conditions](/format/condition-format.md).
+Shared formats: [Display Item](https://ultimateshop.superiormc.cn/format/display-item-format.md), [Actions](https://ultimateshop.superiormc.cn/format/action-format.md) and [Conditions](https://ultimateshop.superiormc.cn/format/condition-format.md).
 
 ============================================================
 Title: Graphical UI Layout - Premium | UltimateShop Wiki
@@ -32868,6 +33045,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -33397,7 +33577,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Start with a shared style
 
@@ -33587,7 +33767,7 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout.md
 
 Ore and ArcMenu share graphical styles, a logical canvas, named areas and entry placements. These settings position graphical controls; Inventory uses root `layout`, and native Form/Dialog use their own controls.
 
-Common/Shop support both graphical renderers. Search/Favourite support ArcMenu; Buy More and physical selling screens do not use this canvas. See [UI Modes](/menu-ui-modes/ui-overview.md#supported-menu-types).
+Common/Shop support both graphical renderers. Search/Favourite support ArcMenu; Buy More and physical selling screens do not use this canvas. See [UI Modes](https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview.md#supported-menu-types).
 
 ## Start with a shared style
 
@@ -33623,7 +33803,7 @@ area: sidebar
 order: 0
 ```
 
-Create the target shop. For Ore, enable global Dialog, reload and [generate/distribute its pack](/menu-ui-modes/ore-menus-premium.md#generate-the-resource-pack). For ArcMenu, enable the global/menu ArcMenu switches with a compatible integration. The menu's root Inventory layout does not select graphical coordinates.
+Create the target shop. For Ore, enable global Dialog, reload and [generate/distribute its pack](https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium.md#generate-the-resource-pack). For ArcMenu, enable the global/menu ArcMenu switches with a compatible integration. The menu's root Inventory layout does not select graphical coordinates.
 
 For shop product cards, the inherited placement is normally:
 
@@ -33645,7 +33825,7 @@ area: content
 | Individual entry placement | Product/button root `ui.placement` |
 | Ordinary entry appearance | Entry `ui.appearance`, `ui.font-size`, `ui.text-align` |
 
-In normal selection, explicit menu fields win over selected defaults. A different per-menu style overlays the global defaults; missing fields are filled recursively. Forced style selection can replace local defaults. See [Configuration & Inheritance](/menus-getting-started/menu-configuration.md).
+In normal selection, explicit menu fields win over selected defaults. A different per-menu style overlays the global defaults; missing fields are filled recursively. Forced style selection can replace local defaults. See [Configuration & Inheritance](https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration.md).
 
 Graphical product action/price lookup is product → owning shop menu → global defaults. Card appearance is menu-wide. Native Form price lines use `bedrock.price-extra-line`, independently of graphical prices.
 
@@ -33862,7 +34042,7 @@ sell: 'Sell'
 
 Operation IDs come from product click bindings and custom `menu.click-event-actions`. Listing `buy` does not create a missing binding. Prices, product options and custom buy-only/sell-only restrictions filter available actions.
 
-Products can override `ui.price` and `ui.actions` at product root; card styling remains menu-wide. Compact price text represents one trade unit and uses shared dynamic price/multiplier calculation. Information/details use their applicable quantities. Original lore and applicable generated lore remain available to information/tooltips. Use [lore presentation conditions](/advanced-menu-configuration/display-item-add-lore.md#presentation-conditions) for different instructions.
+Products can override `ui.price` and `ui.actions` at product root; card styling remains menu-wide. Compact price text represents one trade unit and uses shared dynamic price/multiplier calculation. Information/details use their applicable quantities. Original lore and applicable generated lore remain available to information/tooltips. Use [lore presentation conditions](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md#presentation-conditions) for different instructions.
 
 ## Theme and text
 
@@ -33914,7 +34094,7 @@ Graphical labels live in `ui.text`: `cancel`, `no-extra`, `amount-input`, `selec
 
 Ore texture templates belong in `ui.renderers.ore.templates`; ArcMenu interaction, animation and tooltip options belong in `ui.renderers.arcmenu`. ArcMenu refresh `update-interval` is global only. Shared geometry does not promise identical font rendering or card bodies across the two renderers.
 
-[Ore](/menu-ui-modes/ore-menus-premium.md) · [ArcMenu](/menu-ui-modes/arcmenu-menus-premium.md) · [Configuration Compatibility](/advanced-menu-configuration/migration-guide.md)
+[Ore](https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium.md) · [ArcMenu](https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium.md) · [Configuration Compatibility](https://ultimateshop.superiormc.cn/advanced-menu-configuration/migration-guide.md)
 
 ============================================================
 Title: Common Menus | UltimateShop Wiki
@@ -33928,6 +34108,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -34228,7 +34411,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a navigation menu
 
@@ -34269,6 +34452,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -34495,6 +34681,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -35397,7 +35586,7 @@ Anywhere in plugin
 
 ### Sell chest hologram placeholders
 
-The sell chest hologram also supports `{id}`, `{owner}`, `{usage}`, `{multiplier}`, and `{price}`. See the [Sell Chest](/features/sell-chest-premium.md#hologram-placeholders) page for the value and behavior of each placeholder.
+The sell chest hologram also supports `{id}`, `{owner}`, `{usage}`, `{multiplier}`, and `{price}`. See the [Sell Chest](https://ultimateshop.superiormc.cn/features/sell-chest-premium.md#hologram-placeholders) page for the value and behavior of each placeholder.
 
 {% hint style="info" %}
 Use built-in placeholder in `amount` option requires you change this option in `config.yml` file from
@@ -35463,6 +35652,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -35778,12 +35970,12 @@ permission: 'group.mvp'
 * DEFAULT: The basic mode checks whether the player meets the corresponding conditions from top to bottom, and if they do, the corresponding value will be immediately returned.
 * MAX: Require all values of the placeholder to be numbers, and the maximum value that meets the condition will be returned.
 * MIN: Similar to MAX, but min value will be returned.
-* conditions: The condition of each value. Each condition id section should use [Condition Format](/format/condition-format.md).
+* conditions: The condition of each value. Each condition id section should use [Condition Format](https://ultimateshop.superiormc.cn/format/condition-format.md).
 * value: The value of each condition. A option called `default` is the value returned that if no condition meet.
 
 ## Use Placeholder
 
-Use `{conditional_}` placeholder to display it's value. For more info, please view [Placeholders](/placeholders/built-in-placeholders.md) page. For example: `{conditional_buy}`
+Use `{conditional_}` placeholder to display it's value. For more info, please view [Placeholders](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md) page. For example: `{conditional_buy}`
 
 ## Example: Conditional Product
 
@@ -35835,6 +36027,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -36097,7 +36292,7 @@ per-player-value: true
 
 ## Use Placeholder
 
-Use `{custom_}` placeholder to display it's value. For more info, please view [Placeholders](/placeholders/built-in-placeholders.md) page. For example: `{custom_example}`
+Use `{custom_}` placeholder to display it's value. For more info, please view [Placeholders](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md) page. For example: `{custom_example}`
 
 ## Set Placeholder Value
 
@@ -36120,6 +36315,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -36524,6 +36722,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -37041,7 +37242,7 @@ elements:
 The second is to use the form of subsections, where each element has options for `rate` and `conditions` to fill in. The `conditions` option is not required and only support when `per-player-element` option being set to true. **(Added in 3.12.0)**
 
 ```yaml
-per-player-element: true # ;;}` placeholder to display it's value, like `{random_daily;;2}` will query `daily` random placeholder's **second** element picked. For more info, please view [Placeholders](/placeholders/built-in-placeholders.md) page. For example of this placeholder usage, please view [Daily Shop](/shops/example-daily-shop-rotating-shop.md) page.
+per-player-element: true # ;;}` placeholder to display it's value, like `{random_daily;;2}` will query `daily` random placeholder's **second** element picked. For more info, please view [Placeholders](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md) page. For example of this placeholder usage, please view [Daily Shop](https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop.md) page.
 
 Use `{random-times_}` placeholder to display the reset time of the placeholder, like `{random-times_daily}`.
 
@@ -37190,6 +37391,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -37651,8 +37855,8 @@ sell-limits-reset-time: '00:00:00'
 
 Product A only brought an item from vanilla, let's try to obtain an item from a third-party plugin! Meanwhile, using **Vault** as an economy is too boring! Let's try something different, such as vanilla's experience points!
 
-* To get how to write `hook-plugin` option and `hook-item` option, please read [Item Format](/format/itemformat-tm.md) page.
-* To get how to write `economy-type` option or `economy-plugin` option, please read [Economy Format](/format/economyformat-tm.md) page.
+* To get how to write `hook-plugin` option and `hook-item` option, please read [Item Format](https://ultimateshop.superiormc.cn/format/itemformat-tm.md) page.
+* To get how to write `economy-type` option or `economy-plugin` option, please read [Economy Format](https://ultimateshop.superiormc.cn/format/economyformat-tm.md) page.
 
 items:
 A:
@@ -37714,7 +37918,7 @@ command: "ws give %player_name% spawner chicken 1"
 
 * You can first enter the command `/shop generateitemformat` to generate an **Item Format** and fill it into the `display-item` option. This way, even if you haven't set any items, the plugin can still display the item in the store by reading the item in the `display-item` option.
 * This product didn't set `sell-prices` option, so it can not be sold.
-* After purchase, we will execute `buy-actions` which includes execute the command you set. For more info about Actions, please read [Action Format](/format/action-format.md) page.
+* After purchase, we will execute `buy-actions` which includes execute the command you set. For more info about Actions, please read [Action Format](https://ultimateshop.superiormc.cn/format/action-format.md) page.
 
 ## Seasonal Product
 
@@ -37782,6 +37986,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -38244,6 +38451,9 @@ UltimateShop Wiki
 
 UltimateShop Wiki
 
+UltimateShop Wiki
+UltimateShop Wiki
+
 🎉Welcome
 
 🌏Other Language Wiki
@@ -38639,7 +38849,7 @@ URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop.m
 
 {% hint style="info" %}
 This example will only work for **PREMIUM** version of **UltimateShop**!\
-This example is using random placeholder to display different product in one shop, you can also use conditinal placeholder to make different condition display different product, for example of it, please view [here](/placeholders/conditional-placeholder-premium.md#example-conditional-product).
+This example is using random placeholder to display different product in one shop, you can also use conditinal placeholder to make different condition display different product, for example of it, please view [here](https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium.md#example-conditional-product).
 {% endhint %}
 
 ## Create random placeholder
@@ -38654,7 +38864,7 @@ In this example, we created a new random placeholder config called `daily.yml` a
 
 In this example, this daily shop will has 5 slots and 7 possible products, so each day, it will has 2 products be hidden, and 5 products randomly picked to display in shop.
 
-Please view [Random Placeholder](/placeholders/random-placeholder-premium.md) page for more info about random placeholder.
+Please view [Random Placeholder](https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium.md) page for more info about random placeholder.
 
 ```yaml
 reset-mode: TIMED
@@ -38674,7 +38884,7 @@ elements:
 
 ## Configure Shop
 
-The various options used in this example are detailed on the [Shops](/shops/shops.md) page. If you are unsure of the purpose of each option, please refer to that article.
+The various options used in this example are detailed on the [Shops](https://ultimateshop.superiormc.cn/shops/shops.md) page. If you are unsure of the purpose of each option, please refer to that article.
 
 Add products `A` through `G`; their IDs must match the placeholder elements.
 
@@ -38790,7 +39000,7 @@ start-apply: 0
 
 ## Configure Menu
 
-The various options used in this example are detailed on the [Menus](/menu-types/general-menus.md) page. If you are unsure of the purpose of each option, please refer to that article.
+The various options used in this example are detailed on the [Menus](https://ultimateshop.superiormc.cn/menu-types/general-menus.md) page. If you are unsure of the purpose of each option, please refer to that article.
 
 ```yaml
 # PREMIUM version only.
@@ -38836,6 +39046,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -39117,7 +39330,7 @@ URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life.md
 # 🌱Example: Stock (like in life)
 
 {% hint style="info" %}
-This means real life stock, for set limit of buy/sell times, please view [Products](/shops/products.md) page.
+This means real life stock, for set limit of buy/sell times, please view [Products](https://ultimateshop.superiormc.cn/shops/products.md) page.
 {% endhint %}
 
 UltimateShop does not store a separate warehouse inventory. Instead, use server-wide transaction counts: the number sold becomes the buy limit.
@@ -39134,7 +39347,7 @@ Player B can buy at most those 5 items
 
 ## Set dynamic value for your product configs
 
-The plugin itself does not store stock data, however, the logic of stock is essentially that player A sells an item to the shop, then the shop can sell the item sold by player A to player B. You only need to set a buy limit, and the value of the buy limit is the number of times the product is sold globally, that is, the placeholder: `{server-times-server}`. Read [dynamic prices](/dynamic-prices/dynamic-price.md) before read this page. Similar to Dynamic Prices, if you want to make stock system, do it in `buy-limits` option and put `{server-times-server}` placeholder in it, for example:
+The plugin itself does not store stock data, however, the logic of stock is essentially that player A sells an item to the shop, then the shop can sell the item sold by player A to player B. You only need to set a buy limit, and the value of the buy limit is the number of times the product is sold globally, that is, the placeholder: `{server-times-server}`. Read [dynamic prices](https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price.md) before read this page. Similar to Dynamic Prices, if you want to make stock system, do it in `buy-limits` option and put `{server-times-server}` placeholder in it, for example:
 
 ```yaml
 A:
@@ -39183,7 +39396,7 @@ In this way, we can ensure that players can only purchase items in the same quan
 
 Restocking means changing transaction counts or the formula that determines the limit.
 
-* This content of auto reset buy/sell times is introduced on [this page](/shops/product-config-buy-sell-times-reset.md).
+* This content of auto reset buy/sell times is introduced on [this page](https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md).
 * Use command `/shop setselltimes
 global `. If you want to restock 50 amount, and the now sell time is 75, then you need put 125 to ``.
 
@@ -39199,6 +39412,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -40762,7 +40978,7 @@ However, a product will only use them when the following option is enabled in th
 price-modifier: true
 ```
 
-See [Products](/shops/products.md#general-options) for more information about product options.
+See [Products](https://ultimateshop.superiormc.cn/shops/products.md#general-options) for more information about product options.
 
 ***
 
@@ -40866,7 +41082,7 @@ It does **not** remove that information from the actual item.
 For example, if `damage` is ignored during matching, the durability Price Modifier can still read the actual damage value of the item being sold.
 {% endhint %}
 
-For more information about item matching, see [Custom Item Match Method](/features/custom-item-match-method.md).
+For more information about item matching, see [Custom Item Match Method](https://ultimateshop.superiormc.cn/features/custom-item-match-method.md).
 
 You can also hold an item and use:
 
@@ -41782,7 +41998,7 @@ This applies to:
 * Price previews.
 * Final sell rewards.
 
-For more information, see [Math Calculate Format](/format/math-calculate-format.md#result-precision).
+For more information, see [Math Calculate Format](https://ultimateshop.superiormc.cn/format/math-calculate-format.md#result-precision).
 
 ***
 
@@ -42075,6 +42291,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -42758,9 +42977,9 @@ You can set maximum values for buy times and sell times, and when the maximum va
 
 Please note:
 
-* After reaching the limit, players can still continue to purchase or sell products, but the plugin will not accumulate more times. If you want players to no longer purchase or sell products, then you should use the `buy-limits` option or `sell-limits` option in [Products](/shops/products.md) config instead of this feature.
+* After reaching the limit, players can still continue to purchase or sell products, but the plugin will not accumulate more times. If you want players to no longer purchase or sell products, then you should use the `buy-limits` option or `sell-limits` option in [Products](https://ultimateshop.superiormc.cn/shops/products.md) config instead of this feature.
 * Due to the setting of an upper limit that no longer accumulates, if the set upper limit is greater than the limit value, buy limits and sell limits will no longer be useful. Other features not mentioned may also be affected.
-* You can modify the `use-times.max-value-for-total-only` option in `config.yml` to ensure that the times placeholder accumulates normally even after reaching its maximum value, but the total placeholder does not continue to accumulate after reaching its maximum value. This can solve the problem told above. For information about these two placeholders, please refer to [this page](/placeholders/built-in-placeholders.md).
+* You can modify the `use-times.max-value-for-total-only` option in `config.yml` to ensure that the times placeholder accumulates normally even after reaching its maximum value, but the total placeholder does not continue to accumulate after reaching its maximum value. This can solve the problem told above. For information about these two placeholders, please refer to [this page](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md).
 
 ## Dynamic Reset Time **- Premium**
 
@@ -42868,6 +43087,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -43606,6 +43828,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -45510,13 +45735,13 @@ Shop file
 ## General Options
 
 {% hint style="info" %}
-Click [here](/shops/shops.md) to see the detalied example of those general options.
+Click [here](https://ultimateshop.superiormc.cn/shops/shops.md) to see the detalied example of those general options.
 {% endhint %}
 
-* display-item: Product display item in shop menu, it can be different from the real item player will obtain after purchase. For virtual products, you must set `display-item` here, otherwise they can not be displayed in GUI. For real item products, you must enable `auto-set-first-product` option under `display-item` section in `config.yml` file to allow you remove this section, after enable, if `display-item` is not set, the first real item product will be used as display item. This section use [Item format](/format/itemformat-tm.md). **Optional (if not set, will use first products)**
-* display-item.modify-lore: Whether we will modify display item lore to add info about price, limits and so on. You can set add lore info at `config.yml` file or `add-lore` option in product config, for more info about it, please view [Display Item Add Lore](/advanced-menu-configuration/display-item-add-lore.md) page. **Optional (default to true)**
+* display-item: Product display item in shop menu, it can be different from the real item player will obtain after purchase. For virtual products, you must set `display-item` here, otherwise they can not be displayed in GUI. For real item products, you must enable `auto-set-first-product` option under `display-item` section in `config.yml` file to allow you remove this section, after enable, if `display-item` is not set, the first real item product will be used as display item. This section use [Item format](https://ultimateshop.superiormc.cn/format/itemformat-tm.md). **Optional (if not set, will use first products)**
+* display-item.modify-lore: Whether we will modify display item lore to add info about price, limits and so on. You can set add lore info at `config.yml` file or `add-lore` option in product config, for more info about it, please view [Display Item Add Lore](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md) page. **Optional (default to true)**
 * display-name: Set product display name in `{product}` placeholder and buy more menu display item. **Optional. (if not set, we will use the display item's name as product display name)**
-* add-lore: Set special [display item add lore](/advanced-menu-configuration/display-item-add-lore.md) for this product, if not set, we will use default value set in `config.yml`. **Optional.**
+* add-lore: Set special [display item add lore](https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore.md) for this product, if not set, we will use default value set in `config.yml`. **Optional.**
 * click-event: Set special click event for this product, if not set, we will use default value set in `config.yml`. Don't forgot also modify `add-lore` option to correspond to the modified click event. **Optional.**
 
 ```yaml
@@ -45529,7 +45754,7 @@ buy: 'DROP'
 sell: 'RIGHT'
 ```
 
-* bedrock: View [this page](/menu-ui-modes/bedrock-menus-premium.md).
+* bedrock: View [this page](https://ultimateshop.superiormc.cn/menu-ui-modes/bedrock-menus-premium.md).
 * buy-more: Set whether this product can open buy more menu. **Optional. (default to true)**
 * buy-more-menu: Set up separate buy more menu settings for the product. **Optional. Require 2.2.10+ version. (if not set, will use default value set in `config.yml` file)**
 
@@ -45544,8 +45769,8 @@ max-amount: 16
 ```
 
 * sell-all: Set whether this product can use sell all feature. **Optional, default to true. (Added in 3.9.3)**
-* price-modifier: Enables global `sell.price-modifier` rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Choosing `sell` or `sell-all` opens that menu; buy, amount-selection, and custom actions keep their normal behavior. Such products remain sellable in the item sell menu even when `sell-all` is false. See [Price Modifier](/shops/price-modifier.md). **Optional, default to false.**
-* shared-use-times: Please view [this page](/shops/shared-product-data-premium.md).
+* price-modifier: Enables global `sell.price-modifier` rules for this product. When enabled, the normal sell price is hidden and the product can only be sold through an item sell menu. Choosing `sell` or `sell-all` opens that menu; buy, amount-selection, and custom actions keep their normal behavior. Such products remain sellable in the item sell menu even when `sell-all` is false. See [Price Modifier](https://ultimateshop.superiormc.cn/shops/price-modifier.md). **Optional, default to false.**
+* shared-use-times: Please view [this page](https://ultimateshop.superiormc.cn/shops/shared-product-data-premium.md).
 * hide-message: Whether we hide the messages that will send after player buy or sell this product. **Optional, default to false. (Added in 4.2.11)**
 
 By default, only hide success buy or sell message, for fail message like limit reached or not enough money, you have 2 methods to hide them:
@@ -45554,17 +45779,17 @@ Try also set placeholder.click.enabled option value to true in your config.yml f
 
 Try also set force-display-fail-message option value to true in your config.yml file. This way is recommended. (4.2.11+)
 
-* buy-prices/sell-prices/products: Please view [this page](/shops/products-config-single-thing.md).
+* buy-prices/sell-prices/products: Please view [this page](https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md).
 * price-mode/product-mode: Support `ANY, ALL, CLASSIC_ANY, CLASSIC_ALL`. Plase see [Mode](#mode) to know more. **Required.**
-* buy-actions: The action will run after buy this product, use [Action Forma](/format/action-format.md)[t](/format/action-format.md) here. **Optional.**
-* sell-actions: The action will run after sell this product, use [Action Format](/format/action-format.md) here. **Optional.**
-* fail-actions: The action will run if we fail to buy or sell this product, use [Action Format](/format/action-format.md) here. **Optional.**
-* buy-conditions: The condition player need to meet to buy this product, use [Condition Format](/format/condition-format.md) here. **Optional**.
-* sell-conditions: The condition player need to meet to sell this product, use [Condition Format](/format/condition-format.md) here. **Optional**.
+* buy-actions: The action will run after buy this product, use [Action Forma](https://ultimateshop.superiormc.cn/format/action-format.md)[t](https://ultimateshop.superiormc.cn/format/action-format.md) here. **Optional.**
+* sell-actions: The action will run after sell this product, use [Action Format](https://ultimateshop.superiormc.cn/format/action-format.md) here. **Optional.**
+* fail-actions: The action will run if we fail to buy or sell this product, use [Action Format](https://ultimateshop.superiormc.cn/format/action-format.md) here. **Optional.**
+* buy-conditions: The condition player need to meet to buy this product, use [Condition Format](https://ultimateshop.superiormc.cn/format/condition-format.md) here. **Optional**.
+* sell-conditions: The condition player need to meet to sell this product, use [Condition Format](https://ultimateshop.superiormc.cn/format/condition-format.md) here. **Optional**.
 * buy-limits: Set the maximum times of buy/sell times. **Optional. If not set, product can be purchased with unlimited times.**
 * buy-limits.global: Global limit. **Optional.**
 * buy-limits.default: If player don't meet any condition set below, they will use this limit. **Required if you have set buy-limits.**
-* buy-limits.\: Players who meet this condition will use this limit. Condition format can be found at [Conditions](/format/condition-format.md). For example:
+* buy-limits.\: Players who meet this condition will use this limit. Condition format can be found at [Conditions](https://ultimateshop.superiormc.cn/format/condition-format.md). For example:
 
 ```yaml
 buy-limits:
@@ -45580,7 +45805,7 @@ permission: 'test.permission'
 * sell-limits: Same as buy-limits, but use for sell.
 
 {% hint style="info" %}
-For how to reset limits, please view [this page](/shops/product-config-buy-sell-times-reset.md).
+For how to reset limits, please view [this page](https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md).
 {% endhint %}
 
 ## Single Thing Options
@@ -45591,7 +45816,7 @@ This section of the configuration includes the following options:
 * sell-prices
 * products
 
-The introduction of these options is on a separate page, please [click here](/shops/products-config-single-thing.md) to view.
+The introduction of these options is on a separate page, please [click here](https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md) to view.
 
 ## Buy/Sell Times Reset Options
 
@@ -45608,15 +45833,15 @@ This section of the configuration includes the following options:
 * sell-times-reset-value
 * sell-times-max-value
 
-The introduction of these options is on a separate page, please [click here](/shops/product-config-buy-sell-times-reset.md) to view.
+The introduction of these options is on a separate page, please [click here](https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md) to view.
 
 ## Dynamic Value
 
-You can set placeholders (including PlaceholderAPI) and [Math Calculate Format](/format/math-calculate-format.md) in `buy-prices`, `sell-prices` section's `amount` option and `buy-limits`, `sell-limits` section's value in product configs.
+You can set placeholders (including PlaceholderAPI) and [Math Calculate Format](https://ultimateshop.superiormc.cn/format/math-calculate-format.md) in `buy-prices`, `sell-prices` section's `amount` option and `buy-limits`, `sell-limits` section's value in product configs.
 
-By default, dynamic values are calculated in real-time and are not refreshed periodically. However, players will not see real-time values in the GUI. We will only refresh the dynamic values displayed in the GUI after the player opens the UI or clicks the item each time. For example, if you set a dynamic value in the purchase price and the dynamic value is changed when the player opens the GUI, although the player will not notice this change in the GUI display item, the plugin will calculate the price based on the updated dynamic value at the final purchase. This is a decision made to balance server performance and save costs. If you don't want this and want to dynamic value display refresh immediately, please [click here](/menu-types/general-menus.md#all-buttons-update).
+By default, dynamic values are calculated in real-time and are not refreshed periodically. However, players will not see real-time values in the GUI. We will only refresh the dynamic values displayed in the GUI after the player opens the UI or clicks the item each time. For example, if you set a dynamic value in the purchase price and the dynamic value is changed when the player opens the GUI, although the player will not notice this change in the GUI display item, the plugin will calculate the price based on the updated dynamic value at the final purchase. This is a decision made to balance server performance and save costs. If you don't want this and want to dynamic value display refresh immediately, please [click here](https://ultimateshop.superiormc.cn/menu-types/general-menus.md#all-buttons-update).
 
-Available built-in placeholder list as below, for more info about them, please view [Built-In Placeholders](/placeholders/built-in-placeholders.md) page.
+Available built-in placeholder list as below, for more info about them, please view [Built-In Placeholders](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md) page.
 
 * {buy-times-player}
 * {buy-times-server}
@@ -45740,7 +45965,7 @@ Sometimes, you want to display same product in different menus, or you want to m
 * display-item: Supports set different display item for sub buttons.
 * as-sub-button: Type `Product ID` or `ShopID;;ProductID` here.
 
-The example config of **Sub Buttons** can be found at [Shops](/shops/shops.md) page, please check out the `C` section under `items` in the head example.
+The example config of **Sub Buttons** can be found at [Shops](https://ultimateshop.superiormc.cn/shops/shops.md) page, please check out the `C` section under `items` in the head example.
 
 {% hint style="warning" %}
 If the corresponding product of the sub button is not displayed in the shop GUI, or if the player does not meet the conditions to open the corresponding shop menu, the item cannot be traded. If this is not desired, change the `settings.secret-shop-items` option in the shop configuration to `false`.
@@ -45870,6 +46095,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -46163,7 +46391,7 @@ permission: 'group.vip'
 * `mode`: Supports `MAX` and `STACK`.
 * `MAX`: Uses the largest value among `default` and all matched entries.
 * `STACK`: Starts with `default`, then multiplies all matched entries together.
-* `value` and `value-conditions`: IDs must match exactly. Conditions use [Condition Format](/format/condition-format.md).
+* `value` and `value-conditions`: IDs must match exactly. Conditions use [Condition Format](https://ultimateshop.superiormc.cn/format/condition-format.md).
 
 For example, if `default` is `1`, `rich` is `0.9`, `vip` is `1.1`, and the player matches both conditions, `MAX` produces `1.1` while `STACK` produces `0.99`.
 
@@ -46171,7 +46399,7 @@ For example, if `default` is `1`, `rich` is `0.9`, `vip` is `1.1`, and the playe
 
 `sell.price-modifier` is separate from this global multiplier. For products with `price-modifier: true`, item-aware modifiers are applied to the actual sold stacks and then combined with `sell.multiplier` for the final sell reward.
 
-See [Price Modifier](/shops/price-modifier.md) for its configuration and behavior.
+See [Price Modifier](https://ultimateshop.superiormc.cn/shops/price-modifier.md) for its configuration and behavior.
 
 ============================================================
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
@@ -46185,6 +46413,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -46587,6 +46818,9 @@ UltimateShop Wiki
 
 ⌘Ctrlk
 
+UltimateShop Wiki
+
+UltimateShop Wiki
 UltimateShop Wiki
 
 🎉Welcome
@@ -47037,7 +47271,7 @@ start-apply: 0
 
 * menu: Shop menu name, which means menu file name. It’s the central hub that connects your shop and menu. In this example, we set it to `example-shop-menu`.
 
-You can find the menu file in the `menus/shop_menu_templates` folder; it is called `example-shop-menu.yml`. For info about menus, please view [Menus](/menu-types/general-menus.md) page.
+You can find the menu file in the `menus/shop_menu_templates` folder; it is called `example-shop-menu.yml`. For info about menus, please view [Menus](https://ultimateshop.superiormc.cn/menu-types/general-menus.md) page.
 * menu-settings: You can set up a separate menu configuration exclusively for this shop. This part will overwrite the corresponding menu configuration. You can remove `menu` option if this part include all menu options you want to.
 * buy-more: Whether product in this shop can open buy more menu.
 * shop-name: Shop display name, which used in `{shop-name}` placeholder.
@@ -47069,7 +47303,7 @@ The product configuration options set here will apply to all products. For `buy-
 
 Items is products, products can not only being real items, but also virtual items, like 100 gems economy.
 
-For more info, please view [Products](/shops/products.md) page.
+For more info, please view [Products](https://ultimateshop.superiormc.cn/shops/products.md) page.
 
 ## Buttons
 
