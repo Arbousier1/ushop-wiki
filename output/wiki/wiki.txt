@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-19T05:27:04Z
+Generated UTC: 2026-11-20T05:13:13Z
 Page Count: 79
 
 ============================================================
@@ -271,7 +271,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 1 minute ago
+Last updated 1 day ago
 
 Links
 
@@ -587,7 +587,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Choose between two entries
 
@@ -1079,7 +1079,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Global and per-product lore
 
@@ -1467,7 +1467,7 @@ PreviousDisplay Item Add Lore
 
 Next📂Shops
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Configuration locations
 
@@ -1711,7 +1711,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 17 days ago
+Last updated 18 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -5530,7 +5530,7 @@ Previous🎨Color Code
 
 Next🪄Sell Stick - Premium
 
-Last updated 2 months ago
+Last updated 3 months ago
 
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
@@ -15865,7 +15865,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Copy
 
@@ -18765,7 +18765,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Add a product
 
@@ -19091,7 +19091,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create a navigation menu
 
@@ -20104,7 +20104,7 @@ PreviousItem Sell Menus
 
 NextUI Modes
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Open the screen
 
@@ -21142,7 +21142,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Enable Form
 
@@ -21529,7 +21529,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Enable native Dialog
 
@@ -21800,7 +21800,7 @@ PreviousUI Modes
 
 NextBedrock Form UI - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Select Inventory
 
@@ -22177,7 +22177,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Enable Ore
 
@@ -22634,7 +22634,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Available presentations
 
@@ -23882,7 +23882,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create your first menu
 
@@ -24930,7 +24930,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create a navigation menu
 
