@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-20T05:13:13Z
+Generated UTC: 2026-11-21T05:05:32Z
 Page Count: 79
 
 ============================================================
@@ -271,7 +271,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Links
 
@@ -587,7 +587,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Choose between two entries
 
@@ -1079,7 +1079,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Global and per-product lore
 
@@ -1467,7 +1467,7 @@ PreviousDisplay Item Add Lore
 
 Next📂Shops
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Configuration locations
 
@@ -1711,7 +1711,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 18 days ago
+Last updated 19 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -5973,101 +5973,89 @@ On this page
 
 ✏️In-game Editor - Premium
 
-The editor is built into UltimateShop Premium. Open it with /shop editor using the ultimateshop.editor permission; no separate editor addon is required.
+Run /shop editor to open the editor. To enable it for the first time, set editor.enabled to true in plugins/UltimateShop/config.yml and run /shop reload. Players need the ultimateshop.editor permission.
 
-Enable the editor
+Open the file you want to change
 
-Set editor.enabled: true in plugins/UltimateShop/config.yml, then reload the plugin to enable the editor. Back up the plugin configuration before every use. The editor writes changes directly to YAML files; use its Reload Plugin button or /shop reload to rebuild live menus after editing.
+To edit a product, choose Edit Shops, open the shop file, then open items and choose the product. To edit a menu title, slot layout or button, choose the matching menu category on the home screen.
 
-Open a file
+Choose Configuration at the bottom of the home screen to open config.yml, shared UI styles, saved items, language files, placeholders, shared use times, sell sticks or sell chests.
 
-The home screen lists shops and each menu folder separately. Commands omit the .yml extension:
+You can also open a file by command. For example, /shop editor shop example opens shops/example.yml, and /shop editor config config opens config.yml. Leave off the .yml extension and use Tab to complete category and file names.
 
-Command
+Category
 
-Folder relative to the plugin data folder
+Folder
 
-/shop editor shop <id>
+shop
 
 shops/
 
-/shop editor menu <id>
+menu
 
 menus/common_menus/
 
-/shop editor shop_menu_template <id>
+shop_menu_template
 
 menus/shop_menu_templates/
 
-/shop editor buy_more_menu <id>
+buy_more_menu
 
 menus/buy_more_menus/
 
-/shop editor favourite_menu <id>
+favourite_menu
 
 menus/favourite_menus/
 
-/shop editor search_menu <id>
+search_menu
 
 menus/search_menus/
 
-/shop editor item_sell_menu <id>
+item_sell_menu
 
 menus/item_sell_menus/
 
-All seven scopes support command completion. The editor opens existing files. To create a menu, copy the current bundled example into its matching folder, then open it in the editor. Legacy folders are moved during startup; see Configuration Files.
+To create a new menu, copy a bundled example into the matching folder and open the copy. See Configuration files for other folders and migration from older versions.
 
-Menu and UI presets
+Change a value
 
-The menu preset edits root title, content, size, Inventory layout, conditions, actions and buttons. Open UI for the current presentation settings:
+Hover over a field to see what each click does. Click a toggle to turn it on or off. Click a field with fixed choices, such as a product's price mode or a menu's shared UI style, to cycle through its options. To set the default purchase amount to 32, hover over the field, press your Drop key (Q by default), then type 32 in chat.
 
-mode.java: inherit, inventory, dialog, ore, arcmenu.
+Open a list to add, edit or remove individual entries. For a reset time, choose the mode first. For example, use TIMER with 00:15:00 to reset 15 minutes after a trade. Use TIMED with 19:00:00 for a daily reset at 7 p.m.
 
-mode.bedrock: inherit, inventory, form.
+Common fields have their own buttons. If you can't find a setting, open Raw Section to browse or add keys in the same structure as the YAML file.
 
-layout.canvas, layout.header, layout.areas, layout.pagination: shared Ore/ArcMenu layout.
+Find layout and button settings
 
-products: default product placement, card style, price formats and operation lists.
+Inventory menus. Use size and layout in the menu file to change its size and slots. In a Buy More menu, edit quantity buttons under amount-items and confirmation buttons under confirm-items.
 
-renderers.dialog: native Dialog layout, button width and columns.
+Dialog, Bedrock forms and ArcMenu. Enable these in the menu file with dialog.enabled, bedrock.enabled and arcmenu.enabled. Choose the Dialog layout with dialog.layout. Open ui to edit Ore and ArcMenu layouts, styles and colors.
 
-renderers.form and renderers.ore: presentation settings.
+One product or button. Use menu-visibility to choose where it appears and dialog.show-sprite to show its item icon in Dialog. To change its ArcMenu position, font size or alignment, open its own ui section.
 
-renderers.arcmenu: right-click action, screen scale, update interval, animation and tooltips.
+Right-clicking a product in ArcMenu. Choose the action in ui.renderers.arcmenu.right-click-action. The default, select-amount, opens the product details. The inventory quantity buttons are edited in the Buy More menu file.
 
-Paths here are relative to the menu's ui section. The global defaults live under menu.ui in config.yml and are edited in that file. A shop's settings.menu-settings.ui uses the same menu UI preset.
+To give several menus the same look, open the shared UI style from Configuration. Global defaults live under menu.ui in config.yml, and individual menus can override them. See Unified UI and ArcMenu for layout examples.
 
-ArcMenu right-click defaults to select-amount, which opens product details. The choice field includes standard and configured custom product actions. ArcMenu does not render Inventory Buy More slots; changing amount-items or confirm-items affects the original quantity menu, not the ArcMenu details panel.
+Apply your changes
 
-Search presets also expose input/result identifiers, action buttons, state buttons, empty results and result lore. Favourite presets expose result identifiers, the edit-mode button, empty state and normal/editing lore. Quantity and item-sell presets expose their own controls.
+The editor writes each successful change to the file. When you're finished, click Reload Plugin or run /shop reload, then reopen the menu to see the result.
 
-Product and button UI
-
-Open ui from a product or ordinary button preset to edit visible-in, show-sprite, appearance, placement, font size, text alignment, price and actions. The menu ui.products preset only exposes shared product defaults. Ordinary button actions remain in the button's root actions section; ui.actions controls product operation display and does not contain numbered action definitions.
-
-For visible-in, enter a string list such as inventory;;dialog;;ore;;arcmenu; Form uses form. An empty list hides the entry everywhere. Removing the list restores the default visibility rules. dialog includes the native item-action-list layout.
-
-Saving and advanced sections
-
-Follow the click hints on each field: choice fields cycle values, boolean fields toggle, and number/string fields open chat prompts. List prompts separate entries with ;;. Right-click deletion is available where shown. Raw Section opens the YAML structure for fields outside a preset, including named layout areas, headers, price formats and extra actions. ui.products, ui.actions and areas named content are treated as UI settings, not trade items or executable actions.
-
-Menu-level overrides take precedence over global defaults; product/button overrides take precedence where supported. Removing a local value restores inheritance after reload. See Unified UI and ArcMenu for placement dimensions, precedence and a layout example.
+If a save fails because the file changed while you were editing, go back to the file list, reopen the file and enter your change again.
 
 Previous🔢Number Format
 
 Next🎮Custom Click Event - Premium
 
-Last updated 1 month ago
+Last updated 11 hours ago
 
-Enable the editor
+Open the file you want to change
 
-Open a file
+Change a value
 
-Menu and UI presets
+Find layout and button settings
 
-Product and button UI
-
-Saving and advanced sections
+Apply your changes
 
 ============================================================
 Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
@@ -15865,7 +15853,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Copy
 
@@ -18328,7 +18316,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Select a menu and maximum
 
@@ -18765,7 +18753,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Add a product
 
@@ -19091,7 +19079,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Create a navigation menu
 
@@ -19436,7 +19424,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Create a deposit menu
 
@@ -19820,7 +19808,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Inventory example
 
@@ -20104,7 +20092,7 @@ PreviousItem Sell Menus
 
 NextUI Modes
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Open the screen
 
@@ -20367,6 +20355,20 @@ Add products under shop items, then reference their IDs in the template's Invent
 
 Product clicks use menu.click-event and product overrides. Ordinary buttons use their action lists. Product pricing and rewards follow Products; graphical layout does not change trading rules.
 
+Reuse a layout across shops
+
+Use shop-items in the shop menu template to mark product slots. The four P slots below show the first four products under the shop's items section, from left to right. Spare slots stay empty if the shop has fewer products.
+
+To place numbered positions independently, use several markers such as shop-items: ['A', 'B', 'C']. In the layout, A shows the first product, B the second and C the third. Product order follows the order in the shop file.
+
+Use regular button and product IDs in other slots. For example, X can be a close button. Products still follow their display conditions and visibility settings. To override the template for one shop, set settings.menu-settings.shop-items. The in-game editor lists this setting as Product slot markers.
+
+Add page buttons to an inventory shop
+
+Repeat a single shop-items marker to make product slots. Use the layout markers as the button keys, just as with amount-items. For example, use previous-page-item.l and next-page-item.r. The layout below fits seven products per page.
+
+The previous button hides on the first page and the next button hides on the final page by default. Use hidden-item to fill the slot, or leave it unset for an empty slot. Set the relevant hide option to false to keep the arrow visible at the boundary. Normal menu buttons stay in place as products change. Both page buttons are editable in the in-game editor.
+
 Present the same shop in different interfaces — Premium
 
 Inventory uses root size and layout.
@@ -20383,13 +20385,17 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 4 days ago
+Last updated 11 hours ago
 
 Create a shop and template
 
 Override one shop's template
 
 Add products and navigation
+
+Reuse a layout across shops
+
+Add page buttons to an inventory shop
 
 Present the same shop in different interfaces — Premium
 
@@ -20426,6 +20432,38 @@ enabled: true
 content: '&7Browse farming products'
 ui:
 style: bedrock
+
+Copy
+
+size: 9
+shop-items: ['P']
+layout:
+- '0PPPP000X'
+
+Copy
+
+size: 18
+shop-items: ['P']
+layout:
+- '0PPPPPPP0'
+- 'l0000000r'
+
+previous-page-item:
+l:
+hide-on-first-page: true
+display-item:
+material: ARROW
+name: '&ePrevious page'
+hidden-item:
+material: GRAY_STAINED_GLASS_PANE
+name: ' '
+
+next-page-item:
+r:
+hide-on-last-page: true
+display-item:
+material: ARROW
+name: '&eNext page'
 
 ============================================================
 Title: ArcMenu UI - Premium | UltimateShop Wiki
@@ -20692,6 +20730,16 @@ The bedrock preset uses the named sidebar area for its horizontal navigation. Th
 
 Menu-local fields override normal style defaults. A forced style can override local fields through menu.force-ui.style; see Configuration & Inheritance. Geometry and shared card keys are documented in Graphical UI Layout.
 
+A button appears in the inventory but not in ArcMenu
+
+ArcMenu skips ordinary buttons that have no ui.placement. The root layout sets inventory slots. Products can inherit ui.products.placement, while ordinary buttons need their own placement.
+
+For example, the old blocks and blocks2 arrows used a shop_menu action to open a different shop. To make this kind of button appear in ArcMenu, add this under the existing button configuration:
+
+If the button is defined in the shop file's buttons section, keep its marker in the shop menu's layout as well.
+
+To browse more products in the same shop, use ArcMenu's own pagination. When the products fill more than one page, ui.layout.pagination positions the page controls. The shop menu's previous-page-item and next-page-item apply to inventories. See Graphical UI Layout for more placement options.
+
 Product operations
 
 Cards expose up to two available operations from ui.products.actions.primary, plus remaining or selected extra actions from ui.products.actions.extra. Operations must already exist in the configured product click bindings. Prices, conditions, quantity permissions and custom buy-only/sell-only restrictions still filter them.
@@ -20760,11 +20808,13 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 4 days ago
+Last updated 11 hours ago
 
 Enable ArcMenu
 
 Styles and layout
+
+A button appears in the inventory but not in ArcMenu
 
 Product operations
 
@@ -20775,6 +20825,13 @@ ArcMenu renderer settings
 Backgrounds, decorations and text
 
 Menu-type behavior
+
+Copy
+
+ui:
+placement:
+area: sidebar
+order: 20
 
 Copy
 
@@ -21142,7 +21199,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Enable Form
 
@@ -21529,7 +21586,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Enable native Dialog
 
@@ -21800,7 +21857,7 @@ PreviousUI Modes
 
 NextBedrock Form UI - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Select Inventory
 
@@ -22177,7 +22234,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Enable Ore
 
@@ -22634,7 +22691,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Available presentations
 
@@ -23031,7 +23088,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 A complete button menu
 
@@ -23480,7 +23537,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 File locations
 
@@ -23882,7 +23939,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Create your first menu
 
@@ -24435,7 +24492,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Start with a shared style
 
@@ -24930,7 +24987,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 4 days ago
+Last updated 5 days ago
 
 Create a navigation menu
 
@@ -28006,15 +28063,9 @@ Create random placeholder
 
 We need to create a random placeholder.
 
-In this example, we created a new random placeholder config called daily.yml at random_placeholder folder. And it's options represents:
+Save the random placeholder as placeholders/random_placeholders/daily.yml.
 
-reset-mode and reset-time: This placeholder refreshed every day.
-
-element-amount: This placeholder will randomly pick 5 elements when it refresh, this is same as the amount of slots in this daily shop.
-
-elements: The result determines what product will appear in this slot by the condition system. So the quantity of elements should be equal to the quantity of all possible products in the daily shop.
-
-In this example, this daily shop will has 5 slots and 7 possible products, so each day, it will has 2 products be hidden, and 5 products randomly picked to display in shop.
+The placeholder draws five product IDs from elements each day. The menu uses the first three results. Each ID in elements must match a key under items in the shop file.
 
 Please view Random Placeholder page for more info about random placeholder.
 
@@ -28026,13 +28077,13 @@ element-amount: 5
 per-player-element: false
 element-sort: true
 elements:
-- 'A'
-- 'B'
-- 'C'
-- 'D'
-- 'E'
-- 'F'
-- 'G'
+- 'redstone'
+- 'iron_ingot'
+- 'gold_ingot'
+- 'copper_ingot'
+- 'diamond'
+- 'lapis_lazuli'
+- 'emerald'
 
 Configure Shop
 
@@ -28044,13 +28095,15 @@ Configure Menu
 
 The various options used in this example are detailed on the Menus page. If you are unsure of the purpose of each option, please refer to that article.
 
+Each product slot tries the random placeholder first. If that product cannot appear in the slot, P shows the product in the corresponding position in the shop file.
+
 Showcase
 
 Previous🌱Example: Stock (like in life)
 
 Next🏆Example: Daily Rewards
 
-Last updated 4 months ago
+Last updated 13 hours ago
 
 Create random placeholder
 
@@ -28084,7 +28137,7 @@ sell-times-reset-mode: 'COOLDOWN_TIMED'
 sell-times-reset-time: '{random_reset}'
 
 items:
-A:
+redstone:
 products:
 1:
 material: REDSTONE
@@ -28095,7 +28148,7 @@ economy-plugin: Vault
 amount: 1
 placeholder: '&6{amount} Coins'
 start-apply: 0
-B:
+iron_ingot:
 products:
 1:
 material: IRON_INGOT
@@ -28106,7 +28159,7 @@ economy-plugin: Vault
 amount: 3
 placeholder: '&6{amount} Coins'
 start-apply: 0
-C:
+gold_ingot:
 products:
 1:
 material: GOLD_INGOT
@@ -28117,7 +28170,7 @@ economy-plugin: Vault
 amount: 1.6
 placeholder: '&6{amount} Coins'
 start-apply: 0
-D:
+copper_ingot:
 products:
 1:
 material: COPPER_INGOT
@@ -28128,7 +28181,7 @@ economy-plugin: Vault
 amount: 2
 placeholder: '&6{amount} Coins'
 start-apply: 0
-E:
+diamond:
 products:
 1:
 material: DIAMOND
@@ -28139,7 +28192,7 @@ economy-plugin: Vault
 amount: 0.8
 placeholder: '&6{amount} Coins'
 start-apply: 0
-F:
+lapis_lazuli:
 products:
 1:
 material: LAPIS_LAZULI
@@ -28158,7 +28211,7 @@ economy-plugin: Vault
 amount: 3.3
 placeholder: '&6{amount} Coins'
 start-apply: 0
-G:
+emerald:
 products:
 1:
 material: EMERALD
@@ -28184,9 +28237,11 @@ sound: item.book.page_turn
 
 dynamic-layout: true
 
+shop-items: ['P']
+
 layout:
 - '000000000'
-- '000`{random_daily;;1}``{random_daily;;2}``{random_daily;;3}`000'
+- '000`{random_daily;;1}||P``{random_daily;;2}||P``{random_daily;;3}||P`000'
 - '000000000'
 - 'a0003000b'
 
