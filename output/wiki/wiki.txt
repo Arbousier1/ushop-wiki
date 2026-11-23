@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-22T04:30:54Z
+Generated UTC: 2026-11-23T05:06:13Z
 Page Count: 79
 
 ============================================================
@@ -271,7 +271,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Links
 
@@ -587,7 +587,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Choose between two entries
 
@@ -1079,7 +1079,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Global and per-product lore
 
@@ -1467,7 +1467,7 @@ PreviousDisplay Item Add Lore
 
 Next📂Shops
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Configuration locations
 
@@ -1711,7 +1711,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 20 days ago
+Last updated 21 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -6047,7 +6047,7 @@ Previous🔢Number Format
 
 Next🎮Custom Click Event - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Open the file you want to change
 
@@ -15853,7 +15853,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Copy
 
@@ -18316,7 +18316,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Select a menu and maximum
 
@@ -18753,7 +18753,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Add a product
 
@@ -19079,7 +19079,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create a navigation menu
 
@@ -19424,7 +19424,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create a deposit menu
 
@@ -19808,7 +19808,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Inventory example
 
@@ -20092,7 +20092,7 @@ PreviousItem Sell Menus
 
 NextUI Modes
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Open the screen
 
@@ -20385,7 +20385,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a shop and template
 
@@ -20808,7 +20808,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable ArcMenu
 
@@ -21199,7 +21199,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Enable Form
 
@@ -21586,7 +21586,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Enable native Dialog
 
@@ -21857,7 +21857,7 @@ PreviousUI Modes
 
 NextBedrock Form UI - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Select Inventory
 
@@ -22234,7 +22234,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Enable Ore
 
@@ -22691,7 +22691,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Available presentations
 
@@ -23088,7 +23088,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 A complete button menu
 
@@ -23537,7 +23537,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 File locations
 
@@ -23939,7 +23939,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create your first menu
 
@@ -24492,7 +24492,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Start with a shared style
 
@@ -24987,7 +24987,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create a navigation menu
 
@@ -28103,7 +28103,7 @@ Previous🌱Example: Stock (like in life)
 
 Next🏆Example: Daily Rewards
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create random placeholder
 
