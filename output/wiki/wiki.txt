@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-23T05:06:13Z
+Generated UTC: 2026-11-24T07:53:08Z
 Page Count: 79
 
 ============================================================
@@ -8,7 +8,7 @@ URL: https://ultimateshop.superiormc.cn/
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -287,7 +287,7 @@ URL: https://ultimateshop.superiormc.cn/advanced-menu-configuration/conditional-
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -587,7 +587,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Choose between two entries
 
@@ -603,7 +603,7 @@ URL: https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -1079,7 +1079,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Global and per-product lore
 
@@ -1120,7 +1120,7 @@ URL: https://ultimateshop.superiormc.cn/advanced-menu-configuration/migration-gu
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -1467,7 +1467,7 @@ PreviousDisplay Item Add Lore
 
 Next📂Shops
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Configuration locations
 
@@ -1498,7 +1498,7 @@ URL: https://ultimateshop.superiormc.cn/config-pack
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -1711,7 +1711,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 21 days ago
+Last updated 22 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -1723,7 +1723,7 @@ URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -2933,7 +2933,7 @@ URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -3336,7 +3336,7 @@ URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-prem
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -3594,7 +3594,7 @@ URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -3955,7 +3955,7 @@ URL: https://ultimateshop.superiormc.cn/features/color-code
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -4202,7 +4202,7 @@ URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -4581,7 +4581,7 @@ URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -4875,7 +4875,7 @@ URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -5290,7 +5290,7 @@ URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -5538,7 +5538,7 @@ URL: https://ultimateshop.superiormc.cn/features/give-item-method
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -5778,7 +5778,7 @@ URL: https://ultimateshop.superiormc.cn/features/in-game-editor-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -6047,7 +6047,7 @@ Previous🔢Number Format
 
 Next🎮Custom Click Event - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Open the file you want to change
 
@@ -6063,7 +6063,7 @@ URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -6287,7 +6287,7 @@ URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -6543,7 +6543,7 @@ URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -6762,7 +6762,7 @@ URL: https://ultimateshop.superiormc.cn/features/number-format
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -7026,7 +7026,7 @@ URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
 Links: 77
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -7303,7 +7303,7 @@ URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -7674,7 +7674,7 @@ URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -7922,7 +7922,7 @@ URL: https://ultimateshop.superiormc.cn/format/action-format
 
 Links: 77
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -8834,7 +8834,7 @@ URL: https://ultimateshop.superiormc.cn/format/condition-format
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -9334,7 +9334,7 @@ URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -9601,7 +9601,7 @@ URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -9865,7 +9865,7 @@ URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -10212,7 +10212,7 @@ URL: https://ultimateshop.superiormc.cn/format/itembridge
 
 Links: 77
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -10518,7 +10518,7 @@ URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
 Links: 78
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -11477,7 +11477,7 @@ URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
 Links: 78
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -12869,7 +12869,7 @@ URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/testing-paper-compo
 
 Links: 78
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -13082,7 +13082,7 @@ URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -13777,7 +13777,7 @@ URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -14214,7 +14214,7 @@ URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -14660,7 +14660,7 @@ URL: https://ultimateshop.superiormc.cn/info/compare
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -15116,7 +15116,7 @@ URL: https://ultimateshop.superiormc.cn/info/compatibility
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -15604,7 +15604,7 @@ URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
 Links: 77
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -15853,7 +15853,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Copy
 
@@ -16427,7 +16427,7 @@ URL: https://ultimateshop.superiormc.cn/info/data
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -16719,7 +16719,7 @@ URL: https://ultimateshop.superiormc.cn/info/faq
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -17024,7 +17024,7 @@ URL: https://ultimateshop.superiormc.cn/info/install
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -17249,7 +17249,7 @@ URL: https://ultimateshop.superiormc.cn/info/performance
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -17580,7 +17580,7 @@ URL: https://ultimateshop.superiormc.cn/info/requirements
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -17871,6 +17871,8 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 
 # UltimateShop Wiki
 
+> Agents can also search and read this documentation through its [MCP server](https://ultimateshop.superiormc.cn/~gitbook/mcp).
+
 ## UltimateShop Wiki
 
 - [🎉Welcome](https://ultimateshop.superiormc.cn/welcome.md)
@@ -17961,7 +17963,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/buy-more-menus
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -18316,7 +18318,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Select a menu and maximum
 
@@ -18387,7 +18389,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -18753,7 +18755,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Add a product
 
@@ -18771,7 +18773,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/general-menus
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -19079,7 +19081,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create a navigation menu
 
@@ -19114,7 +19116,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/item-sell-menus
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -19424,7 +19426,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create a deposit menu
 
@@ -19450,7 +19452,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/search-menus-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -19808,7 +19810,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Inventory example
 
@@ -19835,7 +19837,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/sell-all-menu
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -20092,7 +20094,7 @@ PreviousItem Sell Menus
 
 NextUI Modes
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Open the screen
 
@@ -20115,7 +20117,7 @@ URL: https://ultimateshop.superiormc.cn/menu-types/shop-menus
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -20385,7 +20387,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Create a shop and template
 
@@ -20471,7 +20473,7 @@ URL: https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -20808,7 +20810,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Enable ArcMenu
 
@@ -20865,7 +20867,7 @@ URL: https://ultimateshop.superiormc.cn/menu-ui-modes/bedrock-menus-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -21199,7 +21201,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Enable Form
 
@@ -21244,7 +21246,7 @@ URL: https://ultimateshop.superiormc.cn/menu-ui-modes/dialog-menus-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -21586,7 +21588,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Enable native Dialog
 
@@ -21611,7 +21613,7 @@ URL: https://ultimateshop.superiormc.cn/menu-ui-modes/inventory-ui
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -21857,7 +21859,7 @@ PreviousUI Modes
 
 NextBedrock Form UI - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Select Inventory
 
@@ -21901,7 +21903,7 @@ URL: https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -22234,7 +22236,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Enable Ore
 
@@ -22264,7 +22266,7 @@ URL: https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -22685,13 +22687,19 @@ Entry menu-visibility.<presentation>
 
 Root content is the shared description fallback; dialog.content, bedrock.content and arcmenu.content override it for their route. The graphical ui section controls drawing and placement. It does not select a presentation with ui.mode.
 
+Text width for ArcMenu and Dialog
+
+UltimateShop now calculates text widths using the rules in plugins/UltimateShop/glyph-widths.yml. If you use a language outside the primary supported languages, the default widths may cause text to be clipped, wrap unexpectedly, or appear misaligned in parts of ArcMenu (arcmenu) or Dialog (dialog), including the Ore layout.
+
+To adjust the measurement, edit shared.width in glyph-widths.yml. Set widths in pixels for individual Unicode code points such as U+0041 or inclusive ranges such as U+0041-U+005A. Later entries in the same section override earlier ones. Ore can override shared widths under ore.width. Run /shop reload after saving, then reopen the affected menu to check the result.
+
 Menu System · Layout & Buttons · Graphical UI Layout
 
 PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 7 days ago
+Last updated 10 hours ago
 
 Available presentations
 
@@ -22702,6 +22710,8 @@ Supported menu types
 Force one presentation
 
 Configure layout, content and visibility
+
+Text width for ArcMenu and Dialog
 
 Copy
 
@@ -22727,7 +22737,7 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -23088,7 +23098,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 A complete button menu
 
@@ -23194,7 +23204,7 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -23537,7 +23547,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 File locations
 
@@ -23633,7 +23643,7 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/menus
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -23939,7 +23949,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create your first menu
 
@@ -23955,7 +23965,7 @@ URL: https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -24492,7 +24502,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Start with a shared style
 
@@ -24679,7 +24689,7 @@ URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -24987,7 +24997,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 7 days ago
+Last updated 8 days ago
 
 Create a navigation menu
 
@@ -25022,7 +25032,7 @@ URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -25235,7 +25245,7 @@ URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -25819,7 +25829,7 @@ URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-pre
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -26112,7 +26122,7 @@ URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -26359,7 +26369,7 @@ URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -26666,7 +26676,7 @@ URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -27125,7 +27135,7 @@ URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -27530,7 +27540,7 @@ URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -27861,7 +27871,7 @@ URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -28103,7 +28113,7 @@ Previous🌱Example: Stock (like in life)
 
 Next🏆Example: Daily Rewards
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Create random placeholder
 
@@ -28261,7 +28271,7 @@ URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -28548,7 +28558,7 @@ URL: https://ultimateshop.superiormc.cn/shops/price-modifier
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -30090,7 +30100,7 @@ URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-rese
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -30624,7 +30634,7 @@ URL: https://ultimateshop.superiormc.cn/shops/products
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -31364,7 +31374,7 @@ URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -32434,7 +32444,7 @@ URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -32694,7 +32704,7 @@ URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
@@ -33006,7 +33016,7 @@ URL: https://ultimateshop.superiormc.cn/shops/shops
 
 Links: 76
 
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
 
 UltimateShop Wiki
