@@ -1,12 +1,12 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-24T07:53:08Z
-Page Count: 79
+Generated UTC: 2026-11-25T06:27:02Z
+Page Count: 80
 
 ============================================================
 Title: 🎉Welcome | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -120,7 +120,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -146,7 +146,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -163,6 +163,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -271,7 +273,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 4 days ago
+Last updated 6 days ago
 
 Links
 
@@ -285,7 +287,7 @@ Info
 Title: Conditional Display - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/advanced-menu-configuration/conditional-display-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -399,7 +401,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -425,7 +427,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -442,6 +444,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -587,7 +591,7 @@ PreviousArcMenu UI - Premium
 
 NextDisplay Item Add Lore
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Choose between two entries
 
@@ -601,7 +605,7 @@ Graphical alternatives
 Title: Display Item Add Lore | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/advanced-menu-configuration/display-item-add-lore
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -715,7 +719,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -741,7 +745,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -758,6 +762,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -888,6 +894,10 @@ The opening menu is Favourite
 @p / @q
 
 Inside / outside Buy More lore context
+
+@r[shared-price-id]
+
+Product prices use the given shared price template; an empty argument matches any shared price, and multiple IDs are comma-separated
 
 @u / @v
 
@@ -1079,7 +1089,7 @@ PreviousConditional Display - Premium
 
 NextMenu Configuration Compatibility
 
-Last updated 8 days ago
+Last updated 5 hours ago
 
 Global and per-product lore
 
@@ -1118,7 +1128,7 @@ add-lore:
 Title: Menu Configuration Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/advanced-menu-configuration/migration-guide
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -1232,7 +1242,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -1258,7 +1268,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -1275,6 +1285,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -1467,7 +1479,7 @@ PreviousDisplay Item Add Lore
 
 Next📂Shops
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Configuration locations
 
@@ -1496,7 +1508,7 @@ area: content
 Title: 💬Config Pack | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/config-pack
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -1610,7 +1622,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -1636,7 +1648,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -1653,6 +1665,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -1711,7 +1725,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 22 days ago
+Last updated 23 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -1721,7 +1735,7 @@ UltimateShop - Economy Shop Config
 Title: Develop Guide | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/develop/develop-guide
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -1835,7 +1849,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -1861,7 +1875,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -1878,6 +1892,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -2931,7 +2947,7 @@ HookManager.hookManager.registerNewItemHook("MyItems", new MyItemHook());
 Title: 🔄Dynamic Price | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -3045,7 +3061,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -3071,7 +3087,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -3088,6 +3104,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -3130,37 +3148,12 @@ On this page
 
 Enable Math Feature
 
-Change your config.yml file:
-
-Change
+In config.yml, enable math and allow trade counters in price expressions:
 
 Copy
 
 math:
-# Enabled base math calculate?
-# Will support + - * / only.
-enabled: false
-
-to
-
-Copy
-
-math:
-# Enabled base math calculate?
-# Will support + - * / only.
 enabled: true
-
-Change
-
-Copy
-
-placeholder:
-data:
-can-used-in-amount: false
-
-to
-
-Copy
 
 placeholder:
 data:
@@ -3172,6 +3165,32 @@ Open one of your shop configs, find the product you want to enable dynamic price
 
 Like I want to enable for this product:
 
+Copy
+
+A:
+display-name: 'Custom Name!'
+price-mode: ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: sea_lantern
+buy-prices:
+1:
+economy-type: exp
+amount: '5+({buy-times-server}-{sell-times-server})*0.2'
+max-amount: 15
+min-amount: 1
+start-apply: 0
+placeholder: '{amount} Exp'
+sell-prices:
+1:
+economy-type: exp
+amount: '5+({buy-times-server}-{sell-times-server})*0.2'
+max-amount: 15
+min-amount: 1
+start-apply: 0
+placeholder: '{amount} Exp'
+
 First, you need set price-mode to ALL or ANY.
 
 Set amount option to the value you want here, like put a common dynamic formula here, if your math is not good, let me explain it:
@@ -3182,31 +3201,45 @@ Set amount option to the value you want here, like put a common dynamic formula 
 
 We also added max-amount and min-amount option, to avoid price is too high or too low.
 
-The formula you set here is not limited, but you need carefully check whether player can earn money by purchase them then just sell them without do anything. Because of this, the max-amount and min-amount option is very important. For example, you set:
+When setting prices, compare the cost of a whole purchase with the payout from selling it back. For example:
 
-Buy Price Formula: 2.8+{buy-times-server}*0.1-{sell-times-server}*0.06
+Buy price: 2.8 + {buy-times-server} * 0.1 - {sell-times-server} * 0.06
 
-Sell Price Formula: 2.38+{buy-times-server}*0.1-{sell-times-server}*0.06
+Sell price: 2.38 + {buy-times-server} * 0.1 - {sell-times-server} * 0.06
 
-In this way, your max-amount option should be lower than the price at the n(th) purchase or sellling time.
+With both counters at zero, a counter increase of 1 per trade, and no multiplier or price bounds, buying 18 items costs 65.70. Selling all 18 back pays 66.06. Checking one trade at a time can miss this profit.
 
-How to get the number called n? This number must meet:
+Sell All and max-sell-amount
 
-[(Buy Price Base Price - Sell Price Base Price)/(Buy Up Price - Sell Down Price)] >= Accumulation from 1 to n.
+Dynamic item quantity in products
 
-In this example: (2.8-2.38)/(0.1-0.06) >= 1+2+3+4 (if up to 5, the formula will not meet), so n max number is 4 in this example.
+Use product-mode: ALL to let the item quantity change within a batch. At a server sell count of 0, these trades take 1, 2, 3, and so on, with a fixed payout of 5 coins per trade. The stock formula uses sqrt(), so enable math.enable-function.
 
-Remerber: Your different formulas require reasonable setting of different values in max-amount and min-amount. The safest approach is to set the price of each purchase or sellling change to the same value.
+If the starting server sell count is s, the first n trades take n * (1 + s) + n * (n - 1) / 2 items. The formula finds the largest n that fits {stock}. For example, 10 sea lanterns cover four trades at s = 0, or two trades at s = 2.
 
-Another common dynamic price formula is price changed based on the percentage, like: 100 * (1.5 ^ ({buy-times-server}-{sell-times-server})). In this example:
+Dynamic payout in sell-prices
 
-100 is base price.
+Full configuration for a price that falls by a fixed amount
 
-1.5 is the multiplier of the price after each purchase or sellling.
+The sell price drops by 0.06 per trade and floors at 1.
 
-In this example, first time buy with no sell is 100, then is 150 (+50%), then is 225 (150 + 150 * 50%).
+Without Vault income limits
 
-Don't forget set min-amount option to a number near 100 to avoid the price become too low!
+With Vault income limits
+
+The formula counts trades at the falling price first, then uses the remaining allowance for trades at the minimum price. This example calculates from the daily allowance. The Vault template still checks the five-hour and weekly limits before completing the sale. It assumes two decimal places, a sell counter increase of 1 per trade, and a sell multiplier of 1.
+
+Full configuration for a price that falls by a fixed ratio
+
+Each sale divides the sell price by 1.5 until it reaches the minimum of 100.
+
+Without Vault income limits
+
+With Vault income limits
+
+The formula counts trades before the price reaches 100, then divides the remaining allowance by 100. It assumes a sell counter increase of 1 per trade, a sell multiplier of 1, and a single payout entry.
+
+The formula reads the five-hour, daily, and weekly income caps from the Vault template. The small adjustment in the first part prevents logarithm rounding from dropping a trade that fits exactly. Enable math.enabled and math.enable-function. See the math reference for functions and Single Thing for the option reference.
 
 Available Placeholders
 
@@ -3252,12 +3285,6 @@ total placeholder will keep data after reset, and will accumulate previous times
 
 {last-sell-reset-server} - PREMIUM, 3.9.0+
 
-Also in buy-prices and sell-prices section, you can set new 2 options:
-
-max-amount: Price max amount, useful for dynamic prices. Optional.
-
-min-amount: Price min amount, useful for dynamic prices. Optional.
-
 Please carefully note that if you want to use our PlaceholderAPI extansion's placeholder, you have to use our new format, for example:
 
 Additionally, you need to set menu.shop.click-update to true if the related to product is also in the menu you opened. Otherwise this price won't auto update after you sell B product.
@@ -3280,11 +3307,21 @@ Previous🔖Example: Discount
 
 Next🔴Dynamic Price Status - Premium
 
-Last updated 4 months ago
+Last updated 2 minutes ago
 
 Enable Math Feature
 
 Set dynamic value for your product configs
+
+Sell All and max-sell-amount
+
+Dynamic item quantity in products
+
+Dynamic payout in sell-prices
+
+Full configuration for a price that falls by a fixed amount
+
+Full configuration for a price that falls by a fixed ratio
 
 Available Placeholders
 
@@ -3296,29 +3333,112 @@ Reset dynamic price
 
 Copy
 
-A:
-display-name: 'Custom Name!'
+product-mode: ALL
+price-mode: CLASSIC_ALL
+sell-times-increment: 1
+products:
+1:
+material: SEA_LANTERN
+amount: '1 + {sell-times-server}'
+max-sell-amount: >-
+4 * {stock} / (
+sqrt((2 * {sell-times-server} + 1) ^ 2 + 8 * {stock})
++ 2 * {sell-times-server} + 1
+) + 0.0000000001
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 5
+placeholder: '{amount} Coins'
+
+Copy
+
 price-mode: ALL
 product-mode: CLASSIC_ALL
 products:
 1:
-material: sea_lantern
-buy-prices:
-1:
-economy-type: exp
-amount: '5+({buy-times-server}-{sell-times-server})*0.2'
-max-amount: 15
-min-amount: 1
-start-apply: 0
-placeholder: '{amount} Exp'
+material: SEA_LANTERN
+amount: 1
 sell-prices:
 1:
-economy-type: exp
-amount: '5+({buy-times-server}-{sell-times-server})*0.2'
-max-amount: 15
+economy-plugin: Vault
+amount: '2.38 + {buy-times-server} * 0.1 - {sell-times-server} * 0.06'
 min-amount: 1
-start-apply: 0
-placeholder: '{amount} Exp'
+placeholder: '{amount} Coins'
+
+Copy
+
+price-mode: ALL
+sell-prices:
+1:
+shared-price: vault-sell
+amount: '2.38 + {buy-times-server} * 0.1 - {sell-times-server} * 0.06'
+min-amount: 1
+max-sell-amount: >-
+min(
+max(0, ceil((138 + 10 * {buy-times-server} - 6 * {sell-times-server}) / 6)),
+floor((
+max(100, 238 + 10 * {buy-times-server} - 6 * {sell-times-server}) + 3
+- sqrt(max(
+0,
+(max(100, 238 + 10 * {buy-times-server} - 6 * {sell-times-server}) + 3) ^ 2
+- 1200 * max(0, {require-conditions.2.value} - {custom_sell_daily})
+))
+) / 6 + 0.0000000001)
+)
++ floor(max(
+0,
+{require-conditions.2.value} - {custom_sell_daily}
+- max(0, ceil((138 + 10 * {buy-times-server} - 6 * {sell-times-server}) / 6))
+* (241 + 10 * {buy-times-server} - 6 * {sell-times-server}
+- 3 * max(0, ceil((138 + 10 * {buy-times-server} - 6 * {sell-times-server}) / 6))) / 100
+))
+
+Copy
+
+price-mode: ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: SEA_LANTERN
+amount: 1
+sell-prices:
+1:
+economy-plugin: Vault
+amount: '100 * (1.5 ^ ({buy-times-server} - {sell-times-server}))'
+min-amount: 100
+placeholder: '{amount} Coins'
+
+Copy
+
+price-mode: ALL
+sell-prices:
+1:
+shared-price: vault-sell
+amount: '100 * (1.5 ^ ({buy-times-server} - {sell-times-server}))'
+min-amount: 100
+max-sell-amount: >-
+floor(
+max(0, {buy-times-server} - {sell-times-server})
+- log(max(
+1,
+1.5 ^ max(0, {buy-times-server} - {sell-times-server})
+- max(0, min(
+{require-conditions.1.value} - {custom_sell_5h},
+{require-conditions.2.value} - {custom_sell_daily},
+{require-conditions.3.value} - {custom_sell_weekly}
+)) / 300
+)) / log(1.5) + 0.0000000001
+)
++ floor(
+max(0, min(
+{require-conditions.1.value} - {custom_sell_5h},
+{require-conditions.2.value} - {custom_sell_daily},
+{require-conditions.3.value} - {custom_sell_weekly}
+) - 300 * (
+1.5 ^ max(0, {buy-times-server} - {sell-times-server}) - 1
+)) / 100
+)
 
 Copy
 
@@ -3334,7 +3454,7 @@ start-apply: 0
 Title: 🔴Dynamic Price Status - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -3448,7 +3568,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -3474,7 +3594,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -3491,6 +3611,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -3592,7 +3714,7 @@ same: '-'
 Title: 🌏Advanced Language Managment | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/advanced-language-managment
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -3706,7 +3828,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -3732,7 +3854,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -3749,6 +3871,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -3953,7 +4077,7 @@ welcome: '[sound=ENTITY_EXPERIENCE_ORB_PICKUP,1,1][/sound][sound=ENTITY_PLAYER_L
 Title: 🎨Color Code | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/color-code
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -4067,7 +4191,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -4093,7 +4217,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -4110,6 +4234,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -4200,7 +4326,7 @@ Built-in Color Parser
 Title: 🎮Custom Click Event - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-click-event-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -4314,7 +4440,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -4340,7 +4466,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -4357,6 +4483,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -4579,7 +4707,7 @@ amount: '{amount}'
 Title: 🔍Custom Item Match Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/custom-item-match-method
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -4693,7 +4821,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -4719,7 +4847,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -4736,6 +4864,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -4873,7 +5003,7 @@ buy-prices:
 Title: 🌈Earn Limit | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/earn-limit
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -4987,7 +5117,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -5013,7 +5143,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -5030,6 +5160,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -5288,7 +5420,7 @@ Copy
 Title: 💴Easy Prices | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/easy-prices
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -5402,7 +5534,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -5428,7 +5560,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -5445,6 +5577,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -5485,1544 +5619,30 @@ On this page
 
 💴Easy Prices
 
-The code provided for this feature has not been updated for a long time and may have potential issues. The plugin author does not plan to provide any fixes or follow-up updates for this feature. Use it at your own risk.
+Create one YAML file per template in shared_prices/. Use the filename without its extension as the template ID. Templates accept price entry fields, including apply-conditions, require-conditions, take-actions, and give-actions.
 
-You can use prices section in config.yml file to create new easy prices!
-
-For exmaple:
+Reference a template from a buy or sell price entry.
 
 Copy
 
-prices:
-example:
-economy-plugin: Vault
-placeholder: '200 Coins'
-mmoitems-example:
-hook-plugin: MMOItems
-hook-item: AXE;;TEST_AXE
-amount: 1
-placeholder: '1 Mythic Axe'
-
-This has 2 easy prices, one is example, the other is mmoitems-example. You can use them at shop products buy-prices and sell-prices section with type option. Just like:
-
-Copy
-
-products:
-A:
-give-item: true
-price-mode: ALL
-product-mode: ALL
-products:
+sell-prices:
 1:
-material: APPLE
-amount: 1
-buy-prices:
-1:
-custom-type: example # <--- New Option!
-amount: 20
-start-apply: 0
-2:
-custom-type: mmoitems-example # <--- New Option!
-placeholder: '{amount} axes'
-start-apply: 0
+shared-price: vault
+amount: 25
+
+A price entry overrides the fields it supplies and inherits the rest. The example above uses the built-in vault.yml template and sets the payout to 25. An empty {} keeps the template settings. Set an inherited section such as require-conditions or give-actions to false to disable it for that entry.
+
+For a template that shares Vault payout limits across products, see Example: Sell Income Limits.
 
 Previous🎨Color Code
 
-Next🪄Sell Stick - Premium
+Next🧪Example: Sell Income Limits
 
-Last updated 3 months ago
+Last updated 2 minutes ago
 
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/give-item-method
-
-Links: 76
-
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
-Skip to content
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-UltimateShop Wiki
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus — Getting Started
-
-📚Menu System
-
-⚙️Menu Configuration & Inheritance
-
-🧱Layout & Buttons
-
-📐Graphical UI Layout - Premium
-
-🧭Menu Types
-
-🔲Common Menus
-
-🛍️Shop Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favourite Menus - Premium
-
-💰Item Sell Menus
-
-🛒Sell All Menu
-
-🖥️Menu UI Modes
-
-🎨UI Modes
-
-📦Inventory UI
-
-🛏️Bedrock Form UI - Premium
-
-💬Native Dialog UI - Premium
-
-🪨Ore UI - Premium
-
-✨ArcMenu UI - Premium
-
-🧩Advanced Menu Configuration
-
-🔀Conditional Display - Premium
-
-🥉Display Item Add Lore
-
-🔄Menu Configuration Compatibility
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-💹Price Modifier
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-✏️In-game Editor - Premium
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-✨Features
-
-🔑Give Item Method
-
-You can change give item method at config.yml file with below content:
-
-Copy
-
-give-item:
-# Support value: BUKKIT, SMART
-# SMART will cost more server performance but will follow the vanilla max stack to give player item, also support check full.
-give-method: BUKKIT
-# Only support SMART give method.
-check-full: false
-
-Here are 2 give item method in plugin.
-
-BUKKIT
-
-The most stable way to give player item, but it will has problem when you buy more than the max stack amount of the item in once.
-
-For example, you buy x64 ender peral, plugin will stack them in one slot which is not correct.
-
-In this picture, the first slot shows you the problem.
-
-SMART - Early Alpha
-
-Smart method is provided by UltimateShop self, it will follow the vanilla max stack amount, for the same example, in this method, the item will be split into 4 stacks because the max stack limit for the Ender Pearl is 16 instead of 64. Also, this method support check inventory will full after buy.
-
-This method will cost extra plugin performance, be careful to use if you are running large server and have much online players.
-
-It is very difficult to attempt to restore the vanilla mechanism without contacting NMS, so this method may have a lot of problems and is still under testing.
-
-Previous🔍Custom Item Match Method
-
-Next💳Log Transaction - Premium
-
-Last updated 4 months ago
-
-BUKKIT
-
-SMART - Early Alpha
-
-============================================================
-Title: ✏️In-game Editor - Premium | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/in-game-editor-premium
-
-Links: 76
-
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
-Skip to content
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-UltimateShop Wiki
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus — Getting Started
-
-📚Menu System
-
-⚙️Menu Configuration & Inheritance
-
-🧱Layout & Buttons
-
-📐Graphical UI Layout - Premium
-
-🧭Menu Types
-
-🔲Common Menus
-
-🛍️Shop Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favourite Menus - Premium
-
-💰Item Sell Menus
-
-🛒Sell All Menu
-
-🖥️Menu UI Modes
-
-🎨UI Modes
-
-📦Inventory UI
-
-🛏️Bedrock Form UI - Premium
-
-💬Native Dialog UI - Premium
-
-🪨Ore UI - Premium
-
-✨ArcMenu UI - Premium
-
-🧩Advanced Menu Configuration
-
-🔀Conditional Display - Premium
-
-🥉Display Item Add Lore
-
-🔄Menu Configuration Compatibility
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-💹Price Modifier
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-✏️In-game Editor - Premium
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-✨Features
-
-✏️In-game Editor - Premium
-
-Run /shop editor to open the editor. To enable it for the first time, set editor.enabled to true in plugins/UltimateShop/config.yml and run /shop reload. Players need the ultimateshop.editor permission.
-
-Open the file you want to change
-
-To edit a product, choose Edit Shops, open the shop file, then open items and choose the product. To edit a menu title, slot layout or button, choose the matching menu category on the home screen.
-
-Choose Configuration at the bottom of the home screen to open config.yml, shared UI styles, saved items, language files, placeholders, shared use times, sell sticks or sell chests.
-
-You can also open a file by command. For example, /shop editor shop example opens shops/example.yml, and /shop editor config config opens config.yml. Leave off the .yml extension and use Tab to complete category and file names.
-
-Category
-
-Folder
-
-shop
-
-shops/
-
-menu
-
-menus/common_menus/
-
-shop_menu_template
-
-menus/shop_menu_templates/
-
-buy_more_menu
-
-menus/buy_more_menus/
-
-favourite_menu
-
-menus/favourite_menus/
-
-search_menu
-
-menus/search_menus/
-
-item_sell_menu
-
-menus/item_sell_menus/
-
-To create a new menu, copy a bundled example into the matching folder and open the copy. See Configuration files for other folders and migration from older versions.
-
-Change a value
-
-Hover over a field to see what each click does. Click a toggle to turn it on or off. Click a field with fixed choices, such as a product's price mode or a menu's shared UI style, to cycle through its options. To set the default purchase amount to 32, hover over the field, press your Drop key (Q by default), then type 32 in chat.
-
-Open a list to add, edit or remove individual entries. For a reset time, choose the mode first. For example, use TIMER with 00:15:00 to reset 15 minutes after a trade. Use TIMED with 19:00:00 for a daily reset at 7 p.m.
-
-Common fields have their own buttons. If you can't find a setting, open Raw Section to browse or add keys in the same structure as the YAML file.
-
-Find layout and button settings
-
-Inventory menus. Use size and layout in the menu file to change its size and slots. In a Buy More menu, edit quantity buttons under amount-items and confirmation buttons under confirm-items.
-
-Dialog, Bedrock forms and ArcMenu. Enable these in the menu file with dialog.enabled, bedrock.enabled and arcmenu.enabled. Choose the Dialog layout with dialog.layout. Open ui to edit Ore and ArcMenu layouts, styles and colors.
-
-One product or button. Use menu-visibility to choose where it appears and dialog.show-sprite to show its item icon in Dialog. To change its ArcMenu position, font size or alignment, open its own ui section.
-
-Right-clicking a product in ArcMenu. Choose the action in ui.renderers.arcmenu.right-click-action. The default, select-amount, opens the product details. The inventory quantity buttons are edited in the Buy More menu file.
-
-To give several menus the same look, open the shared UI style from Configuration. Global defaults live under menu.ui in config.yml, and individual menus can override them. See Unified UI and ArcMenu for layout examples.
-
-Apply your changes
-
-The editor writes each successful change to the file. When you're finished, click Reload Plugin or run /shop reload, then reopen the menu to see the result.
-
-If a save fails because the file changed while you were editing, go back to the file list, reopen the file and enter your change again.
-
-Previous🔢Number Format
-
-Next🎮Custom Click Event - Premium
-
-Last updated 3 days ago
-
-Open the file you want to change
-
-Change a value
-
-Find layout and button settings
-
-Apply your changes
-
-============================================================
-Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
-
-Links: 76
-
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
-Skip to content
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-UltimateShop Wiki
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus — Getting Started
-
-📚Menu System
-
-⚙️Menu Configuration & Inheritance
-
-🧱Layout & Buttons
-
-📐Graphical UI Layout - Premium
-
-🧭Menu Types
-
-🔲Common Menus
-
-🛍️Shop Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favourite Menus - Premium
-
-💰Item Sell Menus
-
-🛒Sell All Menu
-
-🖥️Menu UI Modes
-
-🎨UI Modes
-
-📦Inventory UI
-
-🛏️Bedrock Form UI - Premium
-
-💬Native Dialog UI - Premium
-
-🪨Ore UI - Premium
-
-✨ArcMenu UI - Premium
-
-🧩Advanced Menu Configuration
-
-🔀Conditional Display - Premium
-
-🥉Display Item Add Lore
-
-🔄Menu Configuration Compatibility
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-💹Price Modifier
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-✏️In-game Editor - Premium
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-✨Features
-
-🌍Localized Item Name - Premium
-
-Requires Premium and Minecraft 1.16+.
-
-Vanilla language files are downloaded automatically when a feature needs server-side item names. Set config-files.language to the server language and enable display-item.auto-translate-item-name. Paper retains client-side <lang:...> names, so each player sees their own Minecraft language without downloading a server language file for that path.
-
-Copy
-
-config-files:
-language: zh_CN
-display-item:
-auto-translate-item-name: true
-
-Downloads run in the background. Until the requested language is available, the existing fallback name is used. Files are cached in plugins/UltimateShop/minecraft-resources/<version>/languages/. Unknown vanilla locales fall back to English. Custom item names continue to take precedence.
-
-Minecraft client JARs, language assets, material mappings and automatic Ore icons share the same version directory. Downloads are reused across features and after restart. A server upgrade uses a new version directory automatically. Ore uses the client's default font and the 5.1.0 width estimates; it does not package vanilla fonts or language width compensation tables.
-
-The old minecraft-locate-file and minecraft-item-material-file download controls are no longer used. No enabled, generate-new-one or resource filename setting is required. Network failures are logged and retried on the next request after a cooldown; they do not block the game thread.
-
-Previous💾Saved Item (Item Manager)
-
-Next🌐Multi Server Sync - Premium
-
-Last updated 1 month ago
-
-============================================================
-Title: 💳Log Transaction - Premium | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
-
-Links: 76
-
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
-Skip to content
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-UltimateShop Wiki
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus — Getting Started
-
-📚Menu System
-
-⚙️Menu Configuration & Inheritance
-
-🧱Layout & Buttons
-
-📐Graphical UI Layout - Premium
-
-🧭Menu Types
-
-🔲Common Menus
-
-🛍️Shop Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favourite Menus - Premium
-
-💰Item Sell Menus
-
-🛒Sell All Menu
-
-🖥️Menu UI Modes
-
-🎨UI Modes
-
-📦Inventory UI
-
-🛏️Bedrock Form UI - Premium
-
-💬Native Dialog UI - Premium
-
-🪨Ore UI - Premium
-
-✨ArcMenu UI - Premium
-
-🧩Advanced Menu Configuration
-
-🔀Conditional Display - Premium
-
-🥉Display Item Add Lore
-
-🔄Menu Configuration Compatibility
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-💹Price Modifier
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-✏️In-game Editor - Premium
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-✨Features
-
-💳Log Transaction - Premium
-
-Open config.yml and find below contents:
-
-Copy
-
-# Premium version only.
-log-transaction:
-# It will cost extra performance cost.
-enabled: false
-# file | database — database requires database.enabled: true
-storage: file
-# Used when storage is file. If set to empty value, we will just print the log into console.
-file: 'log.txt'
-format: '{time} | {player} | {shop} | {buy-or-sell} | {item-name} x{amount} | {price} | Price Multiplier: x{multiplier}'
-time-format: "yyyy-MM-dd HH:mm:ss"
-
-storage: Supports file and database. database requires database.enabled: true in config.yml file.
-
-Database structured columns: created_at, player_uuid, player_name, shop_id, shop_name, item_id, item_name, action, amount, multiplier
-
-If you set file option to empty, we will just print the log into console. Otherwise, we will log into the file you put here. The file must be a txt file.
-
-Format available placeholders:
-
-{player}
-
-{player-uuid}
-
-{item} - Product ID
-
-{item-name} - Product Display Name
-
-{shop} - Shop ID
-
-{shop-name} - Shop Display Name
-
-{buy-or-sell}
-
-{price}
-
-{time} - Display the log time
-
-{multiplier} - The result value of Sell Multiplier.
-
-Showcase
-
-Previous🔑Give Item Method
-
-Next🌈Earn Limit
-
-Last updated 4 months ago
-
-Format available placeholders:
-
-Showcase
-
-============================================================
-Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
-
-Links: 76
-
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
-Skip to content
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-UltimateShop Wiki
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus — Getting Started
-
-📚Menu System
-
-⚙️Menu Configuration & Inheritance
-
-🧱Layout & Buttons
-
-📐Graphical UI Layout - Premium
-
-🧭Menu Types
-
-🔲Common Menus
-
-🛍️Shop Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favourite Menus - Premium
-
-💰Item Sell Menus
-
-🛒Sell All Menu
-
-🖥️Menu UI Modes
-
-🎨UI Modes
-
-📦Inventory UI
-
-🛏️Bedrock Form UI - Premium
-
-💬Native Dialog UI - Premium
-
-🪨Ore UI - Premium
-
-✨ArcMenu UI - Premium
-
-🧩Advanced Menu Configuration
-
-🔀Conditional Display - Premium
-
-🥉Display Item Add Lore
-
-🔄Menu Configuration Compatibility
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-💹Price Modifier
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-✏️In-game Editor - Premium
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-✨Features
-
-🌐Multi Server Sync - Premium
-
-Due to the backward compatibility of Velocity with BungeCord's Plugin Message feature, Velocity users should also be able to use this feature.
-
-Change Spigot server's spigot.yml file's bungeecord option value to true.
-
-Change proxy server's config.yml file's ip_forward option value to true.
-
-Change UltimateShop plugin's config.yml file's database.enabled option value to true, then setup your database settings.
-
-Change UltimateShop plugin's config.yml file's bungeecord-sync.enabled option value to true.
-
-Like most plugins, UltimateShop does not verify the accuracy and synchronization of data across different servers in BungeCord. If your BungeCord is experiencing data synchronization issues, you can try increasing the cache.load-delay value in the config.yml file. If your server is a large proxy server with very high synchronization requirements, we recommend that you choose other plugins.
-
-Previous🌍Localized Item Name - Premium
-
-Next🔢Number Format
-
-Last updated 4 months ago
-
-============================================================
-Title: 🔢Number Format | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/number-format
-
-Links: 76
-
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
-Skip to content
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-UltimateShop Wiki
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus — Getting Started
-
-📚Menu System
-
-⚙️Menu Configuration & Inheritance
-
-🧱Layout & Buttons
-
-📐Graphical UI Layout - Premium
-
-🧭Menu Types
-
-🔲Common Menus
-
-🛍️Shop Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favourite Menus - Premium
-
-💰Item Sell Menus
-
-🛒Sell All Menu
-
-🖥️Menu UI Modes
-
-🎨UI Modes
-
-📦Inventory UI
-
-🛏️Bedrock Form UI - Premium
-
-💬Native Dialog UI - Premium
-
-🪨Ore UI - Premium
-
-✨ArcMenu UI - Premium
-
-🧩Advanced Menu Configuration
-
-🔀Conditional Display - Premium
-
-🥉Display Item Add Lore
-
-🔄Menu Configuration Compatibility
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-💹Price Modifier
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-✏️In-game Editor - Premium
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-✨Features
-
-🔢Number Format
-
-Built-in number format
-
-You can use plugin built-in number format and set them in config.yml file.
-
-Copy
-
-number-display:
-format:
-enabled: true
-decimal: "#,##0.00##########"
-integer: "#,##0"
-strip-trailing-zeros:
-enabled: true
-
-Use other PAPI extension
-
-Set number-format.format.enabled option to false.
-
-Download and install PlaceholderAPI plugin in your server.
-
-Install Formatter expansion with this command /papi ecloud download Formatter. Click here to know more.
-
-Edit placeholder option in price configs to this: %formatter_number_format_{amount}%.
-
-Example:
-
-Copy
-
-C:
-price-mode: CLASSIC_ALL
-product-mode: CLASSIC_ALL
-products:
-1:
-material: potato
-amount: 1
-buy-prices:
-1:
-economy-plugin: Vault
-amount: 20000000
-placeholder: '&6%formatter_number_format_{amount}% Coins'
-start-apply: 0
-
-Start from 2.3.2, you can just use those options in config.yml to let plugin help you change {amount} placeholder instead of you change it manually!
-
-Previous🌐Multi Server Sync - Premium
-
-Next✏️In-game Editor - Premium
-
-Last updated 4 months ago
-
-Built-in number format
-
-Use other PAPI extension
-
-Copy
-
-placeholder:
-auto-settings:
-# If enabled, we will try change {amount} in price placeholder option to the value you set here.
-change-amount-in-all-price-placeholder:
-enabled: true # <--- Change this to true
-replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as here
-
-============================================================
-Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
 
 Links: 77
 
@@ -7138,7 +5758,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -7164,7 +5784,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -7181,6 +5801,1508 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+🔑Give Item Method
+
+You can change give item method at config.yml file with below content:
+
+Copy
+
+give-item:
+# Support value: BUKKIT, SMART
+# SMART will cost more server performance but will follow the vanilla max stack to give player item, also support check full.
+give-method: BUKKIT
+# Only support SMART give method.
+check-full: false
+
+Here are 2 give item method in plugin.
+
+BUKKIT
+
+The most stable way to give player item, but it will has problem when you buy more than the max stack amount of the item in once.
+
+For example, you buy x64 ender peral, plugin will stack them in one slot which is not correct.
+
+In this picture, the first slot shows you the problem.
+
+SMART - Early Alpha
+
+Smart method is provided by UltimateShop self, it will follow the vanilla max stack amount, for the same example, in this method, the item will be split into 4 stacks because the max stack limit for the Ender Pearl is 16 instead of 64. Also, this method support check inventory will full after buy.
+
+This method will cost extra plugin performance, be careful to use if you are running large server and have much online players.
+
+It is very difficult to attempt to restore the vanilla mechanism without contacting NMS, so this method may have a lot of problems and is still under testing.
+
+Previous🔍Custom Item Match Method
+
+Next💳Log Transaction - Premium
+
+Last updated 4 months ago
+
+BUKKIT
+
+SMART - Early Alpha
+
+============================================================
+Title: ✏️In-game Editor - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/in-game-editor-premium
+
+Links: 77
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+✏️In-game Editor - Premium
+
+Run /shop editor to open the editor. To enable it for the first time, set editor.enabled to true in plugins/UltimateShop/config.yml and run /shop reload. Players need the ultimateshop.editor permission.
+
+Open the file you want to change
+
+To edit a product, choose Edit Shops, open the shop file, then open items and choose the product. To edit a menu title, slot layout or button, choose the matching menu category on the home screen.
+
+Choose Configuration at the bottom of the home screen to open config.yml, shared UI styles, saved items, language files, placeholders, shared use times, sell sticks or sell chests.
+
+You can also open a file by command. For example, /shop editor shop example opens shops/example.yml, and /shop editor config config opens config.yml. Leave off the .yml extension and use Tab to complete category and file names.
+
+Category
+
+Folder
+
+shop
+
+shops/
+
+menu
+
+menus/common_menus/
+
+shop_menu_template
+
+menus/shop_menu_templates/
+
+buy_more_menu
+
+menus/buy_more_menus/
+
+favourite_menu
+
+menus/favourite_menus/
+
+search_menu
+
+menus/search_menus/
+
+item_sell_menu
+
+menus/item_sell_menus/
+
+To create a new menu, copy a bundled example into the matching folder and open the copy. See Configuration files for other folders and migration from older versions.
+
+Change a value
+
+Hover over a field to see what each click does. Click a toggle to turn it on or off. Click a field with fixed choices, such as a product's price mode or a menu's shared UI style, to cycle through its options. To set the default purchase amount to 32, hover over the field, press your Drop key (Q by default), then type 32 in chat.
+
+Open a list to add, edit or remove individual entries. For a reset time, choose the mode first. For example, use TIMER with 00:15:00 to reset 15 minutes after a trade. Use TIMED with 19:00:00 for a daily reset at 7 p.m.
+
+Common fields have their own buttons. If you can't find a setting, open Raw Section to browse or add keys in the same structure as the YAML file.
+
+Find layout and button settings
+
+Inventory menus. Use size and layout in the menu file to change its size and slots. In a Buy More menu, edit quantity buttons under amount-items and confirmation buttons under confirm-items.
+
+Dialog, Bedrock forms and ArcMenu. Enable these in the menu file with dialog.enabled, bedrock.enabled and arcmenu.enabled. Choose the Dialog layout with dialog.layout. Open ui to edit Ore and ArcMenu layouts, styles and colors.
+
+One product or button. Use menu-visibility to choose where it appears and dialog.show-sprite to show its item icon in Dialog. To change its ArcMenu position, font size or alignment, open its own ui section.
+
+Right-clicking a product in ArcMenu. Choose the action in ui.renderers.arcmenu.right-click-action. The default, select-amount, opens the product details. The inventory quantity buttons are edited in the Buy More menu file.
+
+To give several menus the same look, open the shared UI style from Configuration. Global defaults live under menu.ui in config.yml, and individual menus can override them. See Unified UI and ArcMenu for layout examples.
+
+Apply your changes
+
+The editor writes each successful change to the file. When you're finished, click Reload Plugin or run /shop reload, then reopen the menu to see the result.
+
+If a save fails because the file changed while you were editing, go back to the file list, reopen the file and enter your change again.
+
+Previous🔢Number Format
+
+Next🎮Custom Click Event - Premium
+
+Last updated 14 hours ago
+
+Open the file you want to change
+
+Change a value
+
+Find layout and button settings
+
+Apply your changes
+
+============================================================
+Title: 🌍Localized Item Name - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/localized-item-name-premium
+
+Links: 77
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+🌍Localized Item Name - Premium
+
+Requires Premium and Minecraft 1.16+.
+
+Vanilla language files are downloaded automatically when a feature needs server-side item names. Set config-files.language to the server language and enable display-item.auto-translate-item-name. Paper retains client-side <lang:...> names, so each player sees their own Minecraft language without downloading a server language file for that path.
+
+Copy
+
+config-files:
+language: zh_CN
+display-item:
+auto-translate-item-name: true
+
+Downloads run in the background. Until the requested language is available, the existing fallback name is used. Files are cached in plugins/UltimateShop/minecraft-resources/<version>/languages/. Unknown vanilla locales fall back to English. Custom item names continue to take precedence.
+
+Minecraft client JARs, language assets, material mappings and automatic Ore icons share the same version directory. Downloads are reused across features and after restart. A server upgrade uses a new version directory automatically. Ore uses the client's default font and the 5.1.0 width estimates; it does not package vanilla fonts or language width compensation tables.
+
+The old minecraft-locate-file and minecraft-item-material-file download controls are no longer used. No enabled, generate-new-one or resource filename setting is required. Network failures are logged and retried on the next request after a cooldown; they do not block the game thread.
+
+Previous💾Saved Item (Item Manager)
+
+Next🌐Multi Server Sync - Premium
+
+Last updated 1 month ago
+
+============================================================
+Title: 💳Log Transaction - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/log-transaction-premium
+
+Links: 77
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+💳Log Transaction - Premium
+
+Open config.yml and find below contents:
+
+Copy
+
+# Premium version only.
+log-transaction:
+# It will cost extra performance cost.
+enabled: false
+# file | database — database requires database.enabled: true
+storage: file
+# Used when storage is file. If set to empty value, we will just print the log into console.
+file: 'log.txt'
+format: '{time} | {player} | {shop} | {buy-or-sell} | {item-name} x{amount} | {price} | Price Multiplier: x{multiplier}'
+time-format: "yyyy-MM-dd HH:mm:ss"
+
+storage: Supports file and database. database requires database.enabled: true in config.yml file.
+
+Database structured columns: created_at, player_uuid, player_name, shop_id, shop_name, item_id, item_name, action, amount, multiplier
+
+If you set file option to empty, we will just print the log into console. Otherwise, we will log into the file you put here. The file must be a txt file.
+
+Format available placeholders:
+
+{player}
+
+{player-uuid}
+
+{item} - Product ID
+
+{item-name} - Product Display Name
+
+{shop} - Shop ID
+
+{shop-name} - Shop Display Name
+
+{buy-or-sell}
+
+{price}
+
+{time} - Display the log time
+
+{multiplier} - The result value of Sell Multiplier.
+
+Showcase
+
+Previous🔑Give Item Method
+
+Next🌈Earn Limit
+
+Last updated 4 months ago
+
+Format available placeholders:
+
+Showcase
+
+============================================================
+Title: 🌐Multi Server Sync - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/multi-server-sync-premium
+
+Links: 77
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+🌐Multi Server Sync - Premium
+
+Due to the backward compatibility of Velocity with BungeCord's Plugin Message feature, Velocity users should also be able to use this feature.
+
+Change Spigot server's spigot.yml file's bungeecord option value to true.
+
+Change proxy server's config.yml file's ip_forward option value to true.
+
+Change UltimateShop plugin's config.yml file's database.enabled option value to true, then setup your database settings.
+
+Change UltimateShop plugin's config.yml file's bungeecord-sync.enabled option value to true.
+
+Like most plugins, UltimateShop does not verify the accuracy and synchronization of data across different servers in BungeCord. If your BungeCord is experiencing data synchronization issues, you can try increasing the cache.load-delay value in the config.yml file. If your server is a large proxy server with very high synchronization requirements, we recommend that you choose other plugins.
+
+Previous🌍Localized Item Name - Premium
+
+Next🔢Number Format
+
+Last updated 4 months ago
+
+============================================================
+Title: 🔢Number Format | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/number-format
+
+Links: 77
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+🔢Number Format
+
+Built-in number format
+
+You can use plugin built-in number format and set them in config.yml file.
+
+Copy
+
+number-display:
+format:
+enabled: true
+decimal: "#,##0.00##########"
+integer: "#,##0"
+strip-trailing-zeros:
+enabled: true
+
+Use other PAPI extension
+
+Set number-format.format.enabled option to false.
+
+Download and install PlaceholderAPI plugin in your server.
+
+Install Formatter expansion with this command /papi ecloud download Formatter. Click here to know more.
+
+Edit placeholder option in price configs to this: %formatter_number_format_{amount}%.
+
+Example:
+
+Copy
+
+C:
+price-mode: CLASSIC_ALL
+product-mode: CLASSIC_ALL
+products:
+1:
+material: potato
+amount: 1
+buy-prices:
+1:
+economy-plugin: Vault
+amount: 20000000
+placeholder: '&6%formatter_number_format_{amount}% Coins'
+start-apply: 0
+
+Start from 2.3.2, you can just use those options in config.yml to let plugin help you change {amount} placeholder instead of you change it manually!
+
+Previous🌐Multi Server Sync - Premium
+
+Next✏️In-game Editor - Premium
+
+Last updated 4 months ago
+
+Built-in number format
+
+Use other PAPI extension
+
+Copy
+
+placeholder:
+auto-settings:
+# If enabled, we will try change {amount} in price placeholder option to the value you set here.
+change-amount-in-all-price-placeholder:
+enabled: true # <--- Change this to true
+replace-value: '%formatter_number_format_{amount}%' # <--- Change to same as here
+
+============================================================
+Title: 💾Saved Item (Item Manager) | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/saved-item-item-manager
+
+Links: 78
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -7301,7 +7423,7 @@ material: superior_sword # If saved item id is 'superior_sword'
 Title: 🎁Sell Chest - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/features/sell-chest-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -7415,7 +7537,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -7441,7 +7563,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -7458,6 +7580,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -7669,256 +7793,8 @@ enabled: true
 plugin: 'DecentHolograms'
 
 ============================================================
-Title: 🪄Sell Stick - Premium | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
-
-Links: 76
-
-For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
-Skip to content
-
-UltimateShop Wiki
-
-⌘Ctrlk
-
-UltimateShop Wiki
-
-UltimateShop Wiki
-UltimateShop Wiki
-
-🎉Welcome
-
-🌏Other Language Wiki
-
-💬Config Pack
-
-📦Info
-
-✅Requirements
-
-⚙️Install
-
-🔗Compatibility
-
-🛠️Configuration files
-
-⌨️Commands & Permissions
-
-📊Data
-
-🚀Performance
-
-❓FAQ
-
-🆚Compare
-
-📋Format
-
-📊Understanding YAML/This wiki
-
-🛒Info of ItemFormat™
-
-📝ItemFormat™
-
-🌉ItemBridge
-
-💹EconomyFormat™
-
-🖼️Display Item Format
-
-🎬Action Format
-
-⚖️Condition Format
-
-➗Math Calculate Format
-
-🔌Menus — Getting Started
-
-📚Menu System
-
-⚙️Menu Configuration & Inheritance
-
-🧱Layout & Buttons
-
-📐Graphical UI Layout - Premium
-
-🧭Menu Types
-
-🔲Common Menus
-
-🛍️Shop Menus
-
-🔽Buy More Menus
-
-🔍Search Menus - Premium
-
-❤️Favourite Menus - Premium
-
-💰Item Sell Menus
-
-🛒Sell All Menu
-
-🖥️Menu UI Modes
-
-🎨UI Modes
-
-📦Inventory UI
-
-🛏️Bedrock Form UI - Premium
-
-💬Native Dialog UI - Premium
-
-🪨Ore UI - Premium
-
-✨ArcMenu UI - Premium
-
-🧩Advanced Menu Configuration
-
-🔀Conditional Display - Premium
-
-🥉Display Item Add Lore
-
-🔄Menu Configuration Compatibility
-
-🛍️Shops
-
-📂Shops
-
-🛒Products
-
-💰Products Config: Single Thing
-
-♻️Product Config: Buy/Sell Times Reset
-
-🔗Shared Product Data - Premium
-
-💰Sell Multiplier - Premium
-
-💹Price Modifier
-
-⚡Example: Common Usage
-
-🌱Example: Stock (like in life)
-
-📅Example: Daily Shop/Rotating Shop
-
-🏆Example: Daily Rewards
-
-📍Placeholders
-
-🔧Built-in Placeholders
-
-🎲Random Placeholder - Premium
-
-⛓️Conditional Placeholder - Premium
-
-🗯️Custom Placeholder - Premium
-
-🔖Example: Discount
-
-💰Dynamic Prices
-
-🔄Dynamic Price
-
-🔴Dynamic Price Status - Premium
-
-✨Features
-
-🌏Advanced Language Managment
-
-🎨Color Code
-
-💴Easy Prices
-
-🪄Sell Stick - Premium
-
-🎁Sell Chest - Premium
-
-💾Saved Item (Item Manager)
-
-🌍Localized Item Name - Premium
-
-🌐Multi Server Sync - Premium
-
-🔢Number Format
-
-✏️In-game Editor - Premium
-
-🎮Custom Click Event - Premium
-
-🔍Custom Item Match Method
-
-🔑Give Item Method
-
-💳Log Transaction - Premium
-
-🌈Earn Limit
-
-💻Develop
-
-Develop Guide
-
-Powered by GitBook
-
-On this page
-
-Copy
-On this page
-
-✨Features
-
-🪄Sell Stick - Premium
-
-It is not possible to calculate the total earn of sell stick because UltimateShop supports multiple price types for a single product, rather than many plugins of the same type having one item stack corresponding to a double type Vault price. If that's the case, then only the logic of adding numbers can be implemented, but unfortunately, UltimateShop not only supports products Vault prices, you can even use custom fake prices, so it is very hard to calculate total earn.
-
-Products that using dynamic price is also supported in sell stick. For example, you set each time the sell price decreases by $1, with a base price of $10, selling X units of this product would result in a total of $10 + $9 + $8 + $7 + $6 + $5, etc.
-
-All sell stick configs are stored in sell_sticks folder. The file name is it's ID, for example: A.yml means it's ID is A. An example of it's config is like below:
-
-Copy
-
-display-item:
-material: STICK
-name: '&dSell Stick &7(5 times)'
-lore:
-- '&fRight click a chest to use this item!'
-- ''
-- '&cLeft usages: {times}'
-
-usage-times: 5
-
-multiplier: 1.2
-
-actions:
-1:
-type: sound
-sound: 'block.note_block.pling'
-
-conditions: []
-
-display-item: The display item of sell stick. Should use Item Format.
-
-useage-times: Maxium usage times of this item. If this option value is less than 0 or does not exist, we will make this sell stick is infinite.
-
-multiplier: The multiplier of sell stick.
-
-actions: The action will execute after use this sell stick. Should use Action format.
-
-conditions: The condition player need meet to use this sell stick. Should use Condition Format.
-
-After confiure the sell stick, you can reload the plugin then use /shop givesellstick to obtain sell stick item. For more info, please view here.
-
-UltimateShop supports you prevent player use sell tick in protected area or other player's land.(OP players will not check this) You can check Supported Protection Plugins list here. You can use permission ultimateshop.bypass.protection to bypass protection check for sell stick use.
-
-Previous💴Easy Prices
-
-Next🎁Sell Chest - Premium
-
-Last updated 4 months ago
-
-============================================================
-Title: 🎬Action Format | UltimateShop Wiki
-URL: https://ultimateshop.superiormc.cn/format/action-format
+Title: 🧪Example: Sell Income Limits | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/sell-income-limits-example
 
 Links: 77
 
@@ -8034,7 +7910,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -8060,7 +7936,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -8077,6 +7953,555 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+🧪Example: Sell Income Limits
+
+This example uses an Easy Prices template.
+
+The example vault-sell.yml limits each player to 2,000 per five-hour period, 10,000 per day, and 50,000 per week across products that use the template. Custom placeholders are available in the free version too (up to 5), so this template works in both versions.
+
+Reference the template from each product whose Vault payouts should count toward the same limits.
+
+Copy
+
+sell-prices:
+1:
+shared-price: vault-sell
+amount: 25
+
+Period
+
+Default cap
+
+Counter
+
+Reset
+
+Every 5 hours
+
+2,000
+
+{custom_sell_5h}
+
+5 hours after the first recorded payout
+
+Daily
+
+10,000
+
+{custom_sell_daily}
+
+Midnight every day
+
+Weekly
+
+50,000
+
+{custom_sell_weekly}
+
+Midnight every Monday
+
+Use type: placeholder to compare the player's current income plus {amount} with the cap. Sell price require-conditions run after sell multipliers and rounding. Price entries using the same template within one sale are checked against their combined amount.
+
+In give-actions, use type: add_custom_placeholder with a numeric custom placeholder ID in placeholder and amount: '{amount}'. Set multi-once: true so the action records the full reward amount once per price entry.
+
+Numeric custom placeholders support TIMER, TIMED, and CUSTOM reset modes. In the example, the five-hour window starts at the first recorded payout, daily totals reset at midnight, and weekly totals reset at midnight on Monday. Use {custom-times_sell_daily} to display the next reset time.
+
+The default display-item.add-lore lines in the language file use the @r[vault-sell] conditional symbol to show the used quota of the three counters under the sell price in the product lore. See Display Item Add Lore.
+
+How Sell All works out how many times to sell
+
+The default vault-sell.yml checks how much income is left under each cap. If the tightest cap has room for 80 coins and each trade pays 5 coins, the cap allows 16 trades. If the player has stock for 10 trades, Sell All sells 10.
+
+To adjust a cap, edit the condition's value. The formula reads that value. Update the formula too if you change the income counter or comparison used by the condition.
+
+The default formula uses min(), which requires math.enable-function. See max-sell-amount in the Single Entry reference to write your own formula.
+
+Adjust or remove the limits
+
+All three caps come from require-conditions in vault-sell.yml. There is no separate toggle, so editing that section is how you change the limits:
+
+Remove all limits: delete the whole require-conditions section. The template keeps counting and displaying, but never blocks a sale.
+
+Keep only some periods: delete the entries you do not need, for example keep only the five-hour one.
+
+Just raise the caps: increase value, for example '999999999'.
+
+Remove the limit for one product: add require-conditions: false to the price entry that references the template. This clears the inherited conditions for that product.
+
+After removing the conditions, give-actions still adds to sell_5h, sell_daily, and sell_weekly, so the shown quota keeps growing without blocking anything. If you do not want the display either, delete the @r[vault-sell] lines from display-item.add-lore in the language file.
+
+Previous💴Easy Prices
+
+Next🪄Sell Stick - Premium
+
+Last updated 2 minutes ago
+
+How Sell All works out how many times to sell
+
+Adjust or remove the limits
+
+Copy
+
+require-conditions:
+1:
+type: placeholder
+placeholder: '{custom_sell_5h} + {amount}'
+rule: '<='
+value: '2000'
+
+============================================================
+Title: 🪄Sell Stick - Premium | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/features/sell-stick-premium
+
+Links: 77
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
+
+🪄Sell Stick - Premium
+
+🎁Sell Chest - Premium
+
+💾Saved Item (Item Manager)
+
+🌍Localized Item Name - Premium
+
+🌐Multi Server Sync - Premium
+
+🔢Number Format
+
+✏️In-game Editor - Premium
+
+🎮Custom Click Event - Premium
+
+🔍Custom Item Match Method
+
+🔑Give Item Method
+
+💳Log Transaction - Premium
+
+🌈Earn Limit
+
+💻Develop
+
+Develop Guide
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+✨Features
+
+🪄Sell Stick - Premium
+
+It is not possible to calculate the total earn of sell stick because UltimateShop supports multiple price types for a single product, rather than many plugins of the same type having one item stack corresponding to a double type Vault price. If that's the case, then only the logic of adding numbers can be implemented, but unfortunately, UltimateShop not only supports products Vault prices, you can even use custom fake prices, so it is very hard to calculate total earn.
+
+Products that using dynamic price is also supported in sell stick. For example, you set each time the sell price decreases by $1, with a base price of $10, selling X units of this product would result in a total of $10 + $9 + $8 + $7 + $6 + $5, etc.
+
+All sell stick configs are stored in sell_sticks folder. The file name is it's ID, for example: A.yml means it's ID is A. An example of it's config is like below:
+
+Copy
+
+display-item:
+material: STICK
+name: '&dSell Stick &7(5 times)'
+lore:
+- '&fRight click a chest to use this item!'
+- ''
+- '&cLeft usages: {times}'
+
+usage-times: 5
+
+multiplier: 1.2
+
+actions:
+1:
+type: sound
+sound: 'block.note_block.pling'
+
+conditions: []
+
+display-item: The display item of sell stick. Should use Item Format.
+
+useage-times: Maxium usage times of this item. If this option value is less than 0 or does not exist, we will make this sell stick is infinite.
+
+multiplier: The multiplier of sell stick.
+
+actions: The action will execute after use this sell stick. Should use Action format.
+
+conditions: The condition player need meet to use this sell stick. Should use Condition Format.
+
+After confiure the sell stick, you can reload the plugin then use /shop givesellstick to obtain sell stick item. For more info, please view here.
+
+UltimateShop supports you prevent player use sell tick in protected area or other player's land.(OP players will not check this) You can check Supported Protection Plugins list here. You can use permission ultimateshop.bypass.protection to bypass protection check for sell stick use.
+
+Previous🧪Example: Sell Income Limits
+
+Next🎁Sell Chest - Premium
+
+Last updated 4 months ago
+
+============================================================
+Title: 🎬Action Format | UltimateShop Wiki
+URL: https://ultimateshop.superiormc.cn/format/action-format
+
+Links: 78
+
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
+Skip to content
+
+UltimateShop Wiki
+
+⌘Ctrlk
+
+UltimateShop Wiki
+
+UltimateShop Wiki
+UltimateShop Wiki
+
+🎉Welcome
+
+🌏Other Language Wiki
+
+💬Config Pack
+
+📦Info
+
+✅Requirements
+
+⚙️Install
+
+🔗Compatibility
+
+🛠️Configuration files
+
+⌨️Commands & Permissions
+
+📊Data
+
+🚀Performance
+
+❓FAQ
+
+🆚Compare
+
+📋Format
+
+📊Understanding YAML/This wiki
+
+🛒Info of ItemFormat™
+
+📝ItemFormat™
+
+🌉ItemBridge
+
+💹EconomyFormat™
+
+🖼️Display Item Format
+
+🎬Action Format
+
+⚖️Condition Format
+
+➗Math Calculate Format
+
+🔌Menus — Getting Started
+
+📚Menu System
+
+⚙️Menu Configuration & Inheritance
+
+🧱Layout & Buttons
+
+📐Graphical UI Layout - Premium
+
+🧭Menu Types
+
+🔲Common Menus
+
+🛍️Shop Menus
+
+🔽Buy More Menus
+
+🔍Search Menus - Premium
+
+❤️Favourite Menus - Premium
+
+💰Item Sell Menus
+
+🛒Sell All Menu
+
+🖥️Menu UI Modes
+
+🎨UI Modes
+
+📦Inventory UI
+
+🛏️Bedrock Form UI - Premium
+
+💬Native Dialog UI - Premium
+
+🪨Ore UI - Premium
+
+✨ArcMenu UI - Premium
+
+🧩Advanced Menu Configuration
+
+🔀Conditional Display - Premium
+
+🥉Display Item Add Lore
+
+🔄Menu Configuration Compatibility
+
+🛍️Shops
+
+📂Shops
+
+🛒Products
+
+💰Product Configuration: Single Entry
+
+♻️Product Config: Buy/Sell Times Reset
+
+🔗Shared Product Data - Premium
+
+💰Sell Multiplier - Premium
+
+💹Price Modifier
+
+⚡Example: Common Usage
+
+🌱Example: Stock (like in life)
+
+📅Example: Daily Shop/Rotating Shop
+
+🏆Example: Daily Rewards
+
+📍Placeholders
+
+🔧Built-in Placeholders
+
+🎲Random Placeholder - Premium
+
+⛓️Conditional Placeholder - Premium
+
+🗯️Custom Placeholder
+
+🔖Example: Discount
+
+💰Dynamic Prices
+
+🔄Dynamic Price
+
+🔴Dynamic Price Status - Premium
+
+✨Features
+
+🌏Advanced Language Managment
+
+🎨Color Code
+
+💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -8832,7 +9257,7 @@ shop: 'flowers'
 Title: ⚖️Condition Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/condition-format
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -8946,7 +9371,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -8972,7 +9397,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -8989,6 +9414,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -9332,7 +9759,7 @@ value: 200
 Title: 🖼️Display Item Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/display-item-format
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -9446,7 +9873,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -9472,7 +9899,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -9489,6 +9916,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -9599,7 +10028,7 @@ Multi
 Title: 💹EconomyFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/economyformat-tm
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -9713,7 +10142,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -9739,7 +10168,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -9756,6 +10185,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -9863,7 +10294,7 @@ placeholder: '5 levels'
 Title: 🛒Info of ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/info-of-itemformat-tm
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -9977,7 +10408,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -10003,7 +10434,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -10020,6 +10451,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -10210,7 +10643,7 @@ https://jd.papermc.io/paper/<version>/org/bukkit/MusicInstrument.html
 Title: 🌉ItemBridge | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itembridge
 
-Links: 77
+Links: 78
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -10324,7 +10757,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -10350,7 +10783,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -10367,6 +10800,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -10516,7 +10951,7 @@ hook-item: 'myemoji:happy'
 Title: 📝ItemFormat™ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm
 
-Links: 78
+Links: 79
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -10634,7 +11069,7 @@ Testing Paper Components
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -10660,7 +11095,7 @@ Testing Paper Components
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -10677,6 +11112,8 @@ Testing Paper Components
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -11475,7 +11912,7 @@ damage-resistant: is_fall # Damage Type Tag
 Title: Component Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/component-format
 
-Links: 78
+Links: 79
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -11593,7 +12030,7 @@ Testing Paper Components
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -11619,7 +12056,7 @@ Testing Paper Components
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -11636,6 +12073,8 @@ Testing Paper Components
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -12867,7 +13306,7 @@ visibility: 0.5
 Title: Testing Paper Components | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/itemformat-tm/testing-paper-components
 
-Links: 78
+Links: 79
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -12985,7 +13424,7 @@ Testing Paper Components
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -13011,7 +13450,7 @@ Testing Paper Components
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -13028,6 +13467,8 @@ Testing Paper Components
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -13080,7 +13521,7 @@ Last updated 1 month ago
 Title: ➗Math Calculate Format | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/math-calculate-format
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -13194,7 +13635,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -13220,7 +13661,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -13237,6 +13678,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -13293,10 +13736,6 @@ scale: 2
 For example, with scale: 2, multiplying 10 by 0.333333 produces 3.33.
 
 List of match calculate format
-
-max - Compare two number and return bigger value. (max(4,5))
-
-min - Compare two number and return smaller value. (min(4,5))
 
 () - Create a parenthetical expression which will be evaluated first (3 * (4 + 1))
 
@@ -13374,189 +13813,73 @@ false - Boolean constant representing 0
 
 Functions
 
-The math expression system provides several built-in functions for performing common calculations, including summation, minimum and maximum value selection, averages, and random number generation.
-
-These functions are available when the following option is enabled in config.yml file:
-
-When this option is disabled, custom math functions will not be registered.
-
-Available Functions
-
-sum
-
-Returns the sum of all provided numbers.
-
-Syntax
-
-Examples
-
-Result:
-
-Result:
-
-When no arguments are provided, the result is 0:
-
-Result:
-
-max
-
-Returns the largest number among all provided arguments.
-
-Syntax
-
-Examples
-
-Result:
-
-Result:
-
-When no arguments are provided, the result is 0:
-
-Result:
-
-min
-
-Returns the smallest number among all provided arguments.
-
-Syntax
-
-Examples
-
-Result:
-
-Result:
-
-When no arguments are provided, the result is 0:
-
-Result:
-
-avg
-
-Returns the arithmetic average of all provided numbers.
-
-The function adds all arguments together and divides the result by the number of arguments.
-
-Syntax
-
-Examples
-
-Result:
-
-Result:
-
-When no arguments are provided, the result is 0:
-
-Result:
-
-random
-
-Generates a random decimal number.
-
-The behavior depends on the number of arguments provided.
-
-random()
-
-Returns a random decimal number from 0, inclusive, to 1, exclusive.
-
-Example
-
-Possible results include:
-
-The result satisfies the following range:
-
-random(max)
-
-Returns a random decimal number between 0 and the provided value.
-
-Example
-
-The result satisfies:
-
-Negative values are also supported:
-
-The result satisfies:
-
-If the provided value is 0, the result is always 0:
-
-Result:
-
-random(min, max)
-
-Returns a random decimal number between the two provided values.
-
-Example
-
-The result satisfies:
-
-The argument order does not matter. The function automatically determines which value is smaller:
-
-This behaves the same as:
-
-When both values are equal, that value is returned directly:
-
-Result:
-
-Only the first two arguments are used when more than two arguments are provided:
-
-This behaves the same as:
-
-The upper boundary of a random range is exclusive. For example, random(1, 5) can return values greater than or equal to 1, but it will not return exactly 5.
-
-Function Summary
+Every function in this table, including piecewise(), requires both math.enabled: true and math.enable-function: true.
 
 Function
 
-Description
+What it returns
 
-No-argument result
+Example
 
 sum(...)
 
-Adds all provided numbers
+The sum of all arguments
 
-0
+sum(1, 2, 3) → 6
 
 max(...)
 
-Returns the largest provided number
+The largest argument
 
-0
+max(5, 12, 8) → 12
 
 min(...)
 
-Returns the smallest provided number
+The smallest argument
 
-0
+min(5, 12, 8) → 5
 
 avg(...)
 
-Returns the arithmetic average
+The arithmetic average
 
-0
+avg(10, 20, 30) → 20
 
-random()
+random(...)
 
-Returns a random value from 0 to 1
+A random decimal in the given range
 
-Random value
+random(2, 5) → at least 2 and less than 5
 
-random(max)
+piecewise(...)
 
-Returns a random value between 0 and max
+The value for the first true condition
 
-Not applicable
+piecewise(3 < 5, 10, 20) → 10
 
-random(min, max)
+sum, max, min, and avg return 0 when called without arguments.
 
-Returns a random value between two values
+Random numbers
 
-Not applicable
+random() returns a decimal from 0 up to 1.
+
+random(4) uses the range from 0 up to 4. With a negative argument, such as random(-4), the range runs from -4 up to 0.
+
+random(2, 5) uses the range from 2 up to 5. You can give the endpoints in either order. Extra arguments after the first two are ignored.
+
+The upper endpoint is excluded. Equal endpoints return that value, so random(0) returns 0 and random(5, 5) returns 5.
+
+Piecewise calculations
+
+piecewise(condition1, value1, condition2, value2, fallback) returns the value for the first true condition or the fallback. For example, piecewise(3 < 5, 10, 20) returns 10. The engine evaluates all arguments before choosing the result, so every branch expression must be valid.
+
+For a practical example using min, max, log, and floor together, see the Dynamic Price YAML.
 
 Previous⚖️Condition Format
 
 NextMenu System
 
-Last updated 2 months ago
+Last updated 35 minutes ago
 
 Result precision
 
@@ -13564,218 +13887,15 @@ List of match calculate format
 
 Functions
 
-Available Functions
+Random numbers
 
-sum
-
-max
-
-min
-
-avg
-
-random
-
-random()
-
-random(max)
-
-random(min, max)
-
-Function Summary
-
-Copy
-
-math:
-enable-function: true
-
-Copy
-
-sum(number1, number2, ...)
-
-Copy
-
-sum(1, 2, 3)
-
-Copy
-
-6
-
-Copy
-
-sum(10, -3, 2.5)
-
-Copy
-
-9.5
-
-Copy
-
-sum()
-
-Copy
-
-0
-
-Copy
-
-max(number1, number2, ...)
-
-Copy
-
-max(5, 12, 8)
-
-Copy
-
-12
-
-Copy
-
-max(-10, -3, -20)
-
-Copy
-
--3
-
-Copy
-
-max()
-
-Copy
-
-0
-
-Copy
-
-min(number1, number2, ...)
-
-Copy
-
-min(5, 12, 8)
-
-Copy
-
-5
-
-Copy
-
-min(-10, -3, -20)
-
-Copy
-
--20
-
-Copy
-
-min()
-
-Copy
-
-0
-
-Copy
-
-avg(number1, number2, ...)
-
-Copy
-
-avg(10, 20, 30)
-
-Copy
-
-20
-
-Copy
-
-avg(2, 3, 7)
-
-Copy
-
-4
-
-Copy
-
-avg()
-
-Copy
-
-0
-
-Copy
-
-random()
-
-Copy
-
-0.137
-0.5
-0.999
-
-Copy
-
-0 <= result < 1
-
-Copy
-
-random(10)
-
-Copy
-
-0 <= result < 10
-
-Copy
-
-random(-10)
-
-Copy
-
--10 <= result < 0
-
-Copy
-
-random(0)
-
-Copy
-
-0
-
-Copy
-
-random(5, 10)
-
-Copy
-
-5 <= result < 10
-
-Copy
-
-random(10, 5)
-
-Copy
-
-random(5, 10)
-
-Copy
-
-random(5, 5)
-
-Copy
-
-5
-
-Copy
-
-random(1, 10, 100)
-
-Copy
-
-random(1, 10)
+Piecewise calculations
 
 ============================================================
 Title: 📊Understanding YAML/This wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/format/understanding-yaml-this-wiki
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -13889,7 +14009,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -13915,7 +14035,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -13932,6 +14052,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -14212,7 +14334,7 @@ secret-shop-items: []
 Title: ⌨️Commands & Permissions | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/commands-and-permissions
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -14326,7 +14448,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -14352,7 +14474,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -14369,6 +14491,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -14521,7 +14645,7 @@ Generate the item held in your main hand into plugins/UltimateShop/generated-ite
 
 Require ultimateshop.generateitemformat permission.
 
-/shop getplaceholdervalue <text> (Premium version only)
+/shop getplaceholdervalue <text>
 
 Parse input text to get placeholder value in it.
 
@@ -14590,7 +14714,7 @@ Use /shop editor <scope> <id> to open a file directly. Scopes are shop, menu, sh
 
 Require ultimateshop.editor permission.
 
-Custom Placeholder Commands (Premium version only)
+Custom Placeholder Commands
 
 For command list of custom placeholder feature, please view this page.
 
@@ -14598,7 +14722,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 1 month ago
+Last updated 5 hours ago
 
 FAQ:
 
@@ -14634,7 +14758,7 @@ ultimateshop.bypass.protection
 
 /shop generateitemformat
 
-/shop getplaceholdervalue <text> (Premium version only)
+/shop getplaceholdervalue <text>
 
 /shop resetrandomplaceholder <placeholderID> [player] (Premium version only)
 
@@ -14652,13 +14776,13 @@ ultimateshop.bypass.protection
 
 /shop editor (Premium version only)
 
-Custom Placeholder Commands (Premium version only)
+Custom Placeholder Commands
 
 ============================================================
 Title: 🆚Compare | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compare
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -14772,7 +14896,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -14798,7 +14922,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -14815,6 +14939,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -14923,11 +15049,11 @@ Premium version supports use built-in conditional placeholder. For more info, pl
 ✅
 
 Custom Placeholder (Beta)
-Premium version supports custom numeric or text values, stored separately for each player or shared globally. Use commands to set values or add to numeric values, then display them with custom placeholders. For more info, please view Custom Placeholder page.
+Supports custom numeric or text values, stored separately for each player or shared globally. The free version supports up to 5 custom placeholders, the premium version has no limit. Use commands to set values or add to numeric values, then display them with custom placeholders. For more info, please view Custom Placeholder page.
 
-❌
+✅ Up to 5
 
-✅
+✅ No limit
 
 Dynamic Price Status
 Premium version allows you compare the now price and the base price of dynamic price and display the status at product info lore. For more info, please view Dynamic Price Status page.
@@ -15108,13 +15234,13 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 1 month ago
+Last updated 5 hours ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/compatibility
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -15228,7 +15354,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -15254,7 +15380,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -15271,6 +15397,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -15602,7 +15730,7 @@ anotherNBTComponent.theNBTKey: 5
 Title: 🛠️Configuration files | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/configuration-files
 
-Links: 77
+Links: 78
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -15716,7 +15844,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -15742,7 +15870,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -15759,6 +15887,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -15827,7 +15957,7 @@ shops: The location for storing shop configuration files.
 
 placeholders/random_placeholders: The loaction for storing random placeholder configuration files.
 
-placeholders/custom_placeholders: The location for storing custom placeholder configuration files.
+placeholders/custom_placeholders: The location for storing custom placeholder configuration files. The free version loads up to 5.
 
 placeholders/conditional_placeholders: The location for storing conditional placeholder configuration files.
 
@@ -15853,7 +15983,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 8 days ago
+Last updated 5 hours ago
 
 Copy
 
@@ -15931,6 +16061,7 @@ enabled: true
 # Support value: DecentHolograms, CMI, FancyHolograms
 plugin: 'DecentHolograms'
 max-amount: -1
+max-search-attempts: 5
 # Premium version only.
 shulker-box-sell: true
 # Premium version only
@@ -16416,6 +16547,7 @@ offset-seconds: 0
 auto-save:
 enabled: true
 hide-message: false
+message: '{lang:auto-save.message}'
 period-tick: 6000
 
 bypass-plugin-check:
@@ -16425,7 +16557,7 @@ bypass-plugin-check:
 Title: 📊Data | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/data
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -16539,7 +16671,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -16565,7 +16697,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -16582,6 +16714,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -16717,7 +16851,7 @@ password: 123456
 Title: ❓FAQ | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/faq
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -16831,7 +16965,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -16857,7 +16991,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -16874,6 +17008,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -16934,6 +17070,24 @@ Q: Why can I only sell 64x (or other amunt) items at once?
 
 A: The person asking this question may never know a truth: before using the plugin, you should be familiar with the config.yml file. In config.yml, there is an option called sell.max-amount, and I want you to know its purpose by looking at its name.
 
+Q: Selling reports that the 5-hour, daily, or weekly income limit is reached. How do I disable it?
+
+A: It is not a toggle in config.yml. The limits are the three require-conditions shipped in the example shared_prices/vault-sell.yml template, 2,000 / 10,000 / 50,000 by default.
+
+Delete the whole require-conditions section to remove all limits.
+
+Delete one entry to remove only that period.
+
+Raise value to loosen a limit.
+
+To exempt a single product, add require-conditions: {} to its price entry.
+
+The give-actions counters keep updating after the limits are removed, so the quota lines in the product lore keep growing. See Example: Sell Income Limits.
+
+Q: How many custom placeholders can the free version create?
+
+A: Up to 5; the premium version has no limit. On the free version, the sixth and later files in placeholders/custom_placeholders are not loaded and the console reports an error on startup. See Custom Placeholder.
+
 Q: How to change the max amount limit of buy more menu?
 
 A: There is a option called menu.buy-more.<buy more menu name>.max-amount option in config.yml file, or buy-more-menu.max-amount option in your product configs if you are setting up a separate buy more menu for a certain product.
@@ -16984,7 +17138,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 1 month ago
+Last updated 5 minutes ago
 
 Q: Player don't cost money when buy product.
 
@@ -16995,6 +17149,10 @@ Q: Does the /shop command has permission?
 Q: Why it say condition not meet when open daily example menu?
 
 Q: Why can I only sell 64x (or other amunt) items at once?
+
+Q: Selling reports that the 5-hour, daily, or weekly income limit is reached. How do I disable it?
+
+Q: How many custom placeholders can the free version create?
 
 Q: How to change the max amount limit of buy more menu?
 
@@ -17022,7 +17180,7 @@ Q: How to reset dynamic price?
 Title: ⚙️Install | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/install
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -17136,7 +17294,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -17162,7 +17320,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -17179,6 +17337,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -17247,7 +17407,7 @@ Last updated 4 months ago
 Title: 🚀Performance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/performance
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -17361,7 +17521,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -17387,7 +17547,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -17404,6 +17564,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -17578,7 +17740,7 @@ sell-method: Bukkit
 Title: ✅Requirements | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/info/requirements
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -17692,7 +17854,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -17718,7 +17880,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -17735,6 +17897,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -17920,8 +18084,8 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [Menu Configuration Compatibility](https://ultimateshop.superiormc.cn/advanced-menu-configuration/migration-guide.md)
 - [📂Shops](https://ultimateshop.superiormc.cn/shops/shops.md)
 - [🛒Products](https://ultimateshop.superiormc.cn/shops/products.md)
-- [💰Products Config: Single Thing](https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md)
-- [Another version of 💰Products Config: Single Thing page](https://ultimateshop.superiormc.cn/shops/products-config-single-thing/another-version-of-products-config-single-thing-page.md)
+- [💰Product Configuration: Single Entry](https://ultimateshop.superiormc.cn/shops/products-config-single-thing.md)
+- [💰Product Configuration: Single Entry (Alternative)](https://ultimateshop.superiormc.cn/shops/products-config-single-thing/another-version-of-products-config-single-thing-page.md)
 - [♻️Product Config: Buy/Sell Times Reset](https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset.md)
 - [🔗Shared Product Data - Premium](https://ultimateshop.superiormc.cn/shops/shared-product-data-premium.md)
 - [💰Sell Multiplier - Premium](https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium.md)
@@ -17933,13 +18097,14 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 - [🔧Built-in Placeholders](https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders.md)
 - [🎲Random Placeholder - Premium](https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium.md)
 - [⛓️Conditional Placeholder - Premium](https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium.md)
-- [🗯️Custom Placeholder - Premium](https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium.md)
+- [🗯️Custom Placeholder](https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium.md)
 - [🔖Example: Discount](https://ultimateshop.superiormc.cn/placeholders/example-discount.md)
 - [🔄Dynamic Price](https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price.md)
 - [🔴Dynamic Price Status - Premium](https://ultimateshop.superiormc.cn/dynamic-prices/dynamic-price-status-premium.md)
 - [🌏Advanced Language Managment](https://ultimateshop.superiormc.cn/features/advanced-language-managment.md)
 - [🎨Color Code](https://ultimateshop.superiormc.cn/features/color-code.md)
 - [💴Easy Prices](https://ultimateshop.superiormc.cn/features/easy-prices.md)
+- [🧪Example: Sell Income Limits](https://ultimateshop.superiormc.cn/features/sell-income-limits-example.md)
 - [🪄Sell Stick - Premium](https://ultimateshop.superiormc.cn/features/sell-stick-premium.md)
 - [🎁Sell Chest - Premium](https://ultimateshop.superiormc.cn/features/sell-chest-premium.md)
 - [💾Saved Item (Item Manager)](https://ultimateshop.superiormc.cn/features/saved-item-item-manager.md)
@@ -17961,7 +18126,7 @@ URL: https://ultimateshop.superiormc.cn/llms.txt
 Title: Buy More Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/buy-more-menus
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -18075,7 +18240,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -18101,7 +18266,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -18118,6 +18283,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -18318,7 +18485,7 @@ PreviousShop Menus
 
 NextSearch Menus - Premium
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Select a menu and maximum
 
@@ -18387,7 +18554,7 @@ modify-lore: true
 Title: Favourite Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/favourite-menus-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -18501,7 +18668,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -18527,7 +18694,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -18544,6 +18711,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -18755,7 +18924,7 @@ PreviousSearch Menus - Premium
 
 NextItem Sell Menus
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Add a product
 
@@ -18771,7 +18940,7 @@ Other presentations
 Title: Common Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/general-menus
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -18885,7 +19054,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -18911,7 +19080,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -18928,6 +19097,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -19081,7 +19252,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Create a navigation menu
 
@@ -19114,7 +19285,7 @@ description: Open the category menu
 Title: Item Sell Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/item-sell-menus
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -19228,7 +19399,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -19254,7 +19425,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -19271,6 +19442,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -19426,7 +19599,7 @@ PreviousFavourite Menus - Premium
 
 NextSell All Menu
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Create a deposit menu
 
@@ -19450,7 +19623,7 @@ menu: item-sell
 Title: Search Menus - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/search-menus-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -19564,7 +19737,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -19590,7 +19763,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -19607,6 +19780,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -19810,7 +19985,7 @@ PreviousBuy More Menus
 
 NextFavourite Menus - Premium
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Inventory example
 
@@ -19835,7 +20010,7 @@ clear-keyword: clear
 Title: Sell All Menu | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/sell-all-menu
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -19949,7 +20124,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -19975,7 +20150,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -19992,6 +20167,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -20094,7 +20271,7 @@ PreviousItem Sell Menus
 
 NextUI Modes
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Open the screen
 
@@ -20115,7 +20292,7 @@ ignore-items:
 Title: Shop Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-types/shop-menus
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -20229,7 +20406,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -20255,7 +20432,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -20272,6 +20449,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -20387,7 +20566,7 @@ PreviousCommon Menus
 
 NextBuy More Menus
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create a shop and template
 
@@ -20471,7 +20650,7 @@ name: '&eNext page'
 Title: ArcMenu UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/arcmenu-menus-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -20585,7 +20764,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -20611,7 +20790,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -20628,6 +20807,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -20810,7 +20991,7 @@ PreviousOre UI - Premium
 
 NextConditional Display - Premium
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Enable ArcMenu
 
@@ -20865,7 +21046,7 @@ update-interval: 20
 Title: Bedrock Form UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/bedrock-menus-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -20979,7 +21160,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -21005,7 +21186,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -21022,6 +21203,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -21201,7 +21384,7 @@ PreviousInventory UI
 
 NextNative Dialog UI - Premium
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Enable Form
 
@@ -21244,7 +21427,7 @@ click-event: buy
 Title: Native Dialog UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/dialog-menus-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -21358,7 +21541,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -21384,7 +21567,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -21401,6 +21584,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -21588,7 +21773,7 @@ PreviousBedrock Form UI - Premium
 
 NextOre UI - Premium
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Enable native Dialog
 
@@ -21611,7 +21796,7 @@ show-sprite: false
 Title: Inventory UI | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/inventory-ui
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -21725,7 +21910,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -21751,7 +21936,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -21768,6 +21953,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -21859,7 +22046,7 @@ PreviousUI Modes
 
 NextBedrock Form UI - Premium
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Select Inventory
 
@@ -21901,7 +22088,7 @@ resend-items-pack: false
 Title: Ore UI - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/ore-menus-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -22015,7 +22202,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -22041,7 +22228,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -22058,6 +22245,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -22236,7 +22425,7 @@ PreviousNative Dialog UI - Premium
 
 NextArcMenu UI - Premium
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Enable Ore
 
@@ -22264,7 +22453,7 @@ selected-border: '#65D98B'
 Title: UI Modes | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menu-ui-modes/ui-overview
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -22378,7 +22567,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -22404,7 +22593,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -22421,6 +22610,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -22699,7 +22890,7 @@ PreviousSell All Menu
 
 NextInventory UI
 
-Last updated 10 hours ago
+Last updated 1 day ago
 
 Available presentations
 
@@ -22735,7 +22926,7 @@ style: ''
 Title: Layout & Buttons | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus-getting-started/layout-and-buttons
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -22849,7 +23040,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -22875,7 +23066,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -22892,6 +23083,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -23098,7 +23291,7 @@ PreviousMenu Configuration & Inheritance
 
 NextGraphical UI Layout - Premium
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 A complete button menu
 
@@ -23202,7 +23395,7 @@ order: 0
 Title: Menu Configuration & Inheritance | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus-getting-started/menu-configuration
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -23316,7 +23509,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -23342,7 +23535,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -23359,6 +23552,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -23547,7 +23742,7 @@ PreviousMenu System
 
 NextLayout & Buttons
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 File locations
 
@@ -23641,7 +23836,7 @@ style: bedrock
 Title: Menu System | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus-getting-started/menus
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -23755,7 +23950,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -23781,7 +23976,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -23798,6 +23993,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -23949,7 +24146,7 @@ Previous➗Math Calculate Format
 
 NextMenu Configuration & Inheritance
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Create your first menu
 
@@ -23963,7 +24160,7 @@ Continue configuring
 Title: Graphical UI Layout - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus-getting-started/ui-layout
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -24077,7 +24274,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -24103,7 +24300,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -24120,6 +24317,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -24502,7 +24701,7 @@ PreviousLayout & Buttons
 
 NextCommon Menus
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Start with a shared style
 
@@ -24687,7 +24886,7 @@ dividers-enabled: true
 Title: Common Menus | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/menus/general-menus
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -24801,7 +25000,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -24827,7 +25026,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -24844,6 +25043,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -24997,7 +25198,7 @@ PreviousGraphical UI Layout - Premium
 
 NextShop Menus
 
-Last updated 8 days ago
+Last updated 10 days ago
 
 Create a navigation menu
 
@@ -25030,7 +25231,7 @@ description: Open the category menu
 Title: 🌏Other Language Wiki | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/other-language-wiki
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -25144,7 +25345,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -25170,7 +25371,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -25187,6 +25388,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -25243,7 +25446,7 @@ Last updated 4 months ago
 Title: 🔧Built-in Placeholders | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/built-in-placeholders
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -25357,7 +25560,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -25383,7 +25586,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -25400,6 +25603,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -25732,7 +25937,7 @@ Use custom placeholder.
 For more info, please view Custom Placeholders page.
 
 Anywhere in plugin
-PREMIUM
+Free version: up to 5
 
 {compare_
 <number1>_<number2}
@@ -25793,7 +25998,7 @@ Previous🏆Example: Daily Rewards
 
 Next🎲Random Placeholder - Premium
 
-Last updated 2 months ago
+Last updated 5 hours ago
 
 Built-in Placeholders List
 
@@ -25827,7 +26032,7 @@ unknown: "Unknown"
 Title: ⛓️Conditional Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/conditional-placeholder-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -25941,7 +26146,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -25967,7 +26172,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -25984,6 +26189,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -26077,7 +26284,7 @@ Replace yourPlaceholderName to the file name of the conditional placeholder you 
 
 Previous🎲Random Placeholder - Premium
 
-Next🗯️Custom Placeholder - Premium
+Next🗯️Custom Placeholder
 
 Last updated 1 month ago
 
@@ -26117,10 +26324,10 @@ layout:
 - 'a0003000b'
 
 ============================================================
-Title: 🗯️Custom Placeholder - Premium | UltimateShop Wiki
+Title: 🗯️Custom Placeholder | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/custom-placeholder-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -26234,7 +26441,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -26260,7 +26467,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -26277,6 +26484,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -26315,9 +26524,11 @@ On this page
 
 📍Placeholders
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 This feature was added in version 4.5.26, and still in BETA test.
+
+The free version can create up to 5 custom placeholders; the premium version has no limit.
 
 The main purpose of a custom placeholder is to record desired information, such as the quantity of same of material sold, or the earning. Simply modify the placeholder value using commands in the appropriate places to achieve the desired effect.
 
@@ -26355,7 +26566,7 @@ Previous⛓️Conditional Placeholder - Premium
 
 Next🔖Example: Discount
 
-Last updated 1 month ago
+Last updated 5 hours ago
 
 Config
 
@@ -26367,7 +26578,7 @@ Set Placeholder Value
 Title: 🔖Example: Discount | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/example-discount
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -26481,7 +26692,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -26507,7 +26718,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -26524,6 +26735,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -26603,7 +26816,7 @@ It is recommend you disable this feature for dynamic price, if you want to enabl
 
 If you want to disable this feature for specified shops, use black-shops option.
 
-Previous🗯️Custom Placeholder - Premium
+Previous🗯️Custom Placeholder
 
 Next🔄Dynamic Price
 
@@ -26674,7 +26887,7 @@ black-shops:
 Title: 🎲Random Placeholder - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/placeholders/random-placeholder-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -26788,7 +27001,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -26814,7 +27027,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -26831,6 +27044,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -27133,7 +27348,7 @@ start-apply: 0
 Title: ⚡Example: Common Usage | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-common-usage
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -27247,7 +27462,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -27273,7 +27488,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -27290,6 +27505,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -27538,7 +27755,7 @@ value: 'Winter'
 Title: 🏆Example: Daily Rewards | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-rewards
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -27652,7 +27869,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -27678,7 +27895,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -27695,6 +27912,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -27869,7 +28088,7 @@ buy-times-reset-time: '00:00:00'
 Title: 📅Example: Daily Shop/Rotating Shop | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-daily-shop-rotating-shop
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -27983,7 +28202,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -28009,7 +28228,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -28026,6 +28245,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -28113,7 +28334,7 @@ Previous🌱Example: Stock (like in life)
 
 Next🏆Example: Daily Rewards
 
-Last updated 3 days ago
+Last updated 4 days ago
 
 Create random placeholder
 
@@ -28269,7 +28490,7 @@ menu: main
 Title: 🌱Example: Stock (like in life) | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/example-stock-like-in-life
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -28383,7 +28604,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -28409,7 +28630,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -28426,6 +28647,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -28556,7 +28779,7 @@ Restock Manually
 Title: 💹Price Modifier | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/price-modifier
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -28670,7 +28893,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -28696,7 +28919,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -28713,6 +28936,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -30098,7 +30323,7 @@ price-modifier:
 Title: ♻️Product Config: Buy/Sell Times Reset | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/product-config-buy-sell-times-reset
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -30212,7 +30437,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -30238,7 +30463,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -30255,6 +30480,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -30507,7 +30734,7 @@ Reset Time Updated but Buy times/Sell times not cleared?
 
 If you must use placeholders in your reset time, switch to a reset mode that starts with COOLDOWN_.
 
-Previous💰Products Config: Single Thing
+Previous💰Product Configuration: Single Entry
 
 Next🔗Shared Product Data - Premium
 
@@ -30632,7 +30859,7 @@ sell-times-reset-time: '{cron_"0 0 0 ? * 5"}'
 Title: 🛒Products | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -30746,7 +30973,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -30772,7 +30999,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -30789,6 +31016,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -30975,6 +31204,8 @@ price-modifier: Enables global sell.price-modifier rules for this product. When 
 
 shared-use-times: Please view this page.
 
+buy-times-increment and sell-times-increment control how much one trade adds to its counter. Set them under items.<product ID>, next to products. Each defaults to 1 and accepts a positive integer. For example, if diamonds and diamond blocks share a counter and a block counts as 9, selling two blocks uses 18 uses of the shared diamond sell limit. With eight uses left, a player can still sell individual diamonds, while a block requires nine.
+
 hide-message: Whether we hide the messages that will send after player buy or sell this product. Optional, default to false. (Added in 4.2.11)
 
 By default, only hide success buy or sell message, for fail message like limit reached or not enough money, you have 2 methods to hide them:
@@ -30985,7 +31216,7 @@ Try also set force-display-fail-message option value to true in your config.yml 
 
 buy-prices/sell-prices/products: Please view this page.
 
-price-mode/product-mode: Support ANY, ALL, CLASSIC_ANY, CLASSIC_ALL. Plase see Mode to know more. Required.
+price-mode/product-mode: Supports ANY, ALL, CLASSIC_ANY, and CLASSIC_ALL. See Mode. Required.
 
 buy-actions: The action will run after buy this product, use Action Format here. Optional.
 
@@ -31212,11 +31443,9 @@ Same as CLASSIC_ALL.
 
 Support Sell All if you are using dynamic value in products amount option.
 
-No
-Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
+Yes. The plugin adds up the item requirements for each candidate quantity and checks them against an inventory copy.
 
-No
-Due to the dynamic nature of price values, plugins have no way of knowing the maximum number of times you can sell a product if you use dynamic product amount.
+Yes. The plugin adds up the item requirements for each candidate quantity and checks them against an inventory copy.
 
 Yes
 
@@ -31234,9 +31463,9 @@ Same as CLASSIC_ANY.
 
 Previous📂Shops
 
-Next💰Products Config: Single Thing
+Next💰Product Configuration: Single Entry
 
-Last updated 1 month ago
+Last updated 2 minutes ago
 
 Model
 
@@ -31369,10 +31598,10 @@ amount: 50
 placeholder: '&e50 points'
 
 ============================================================
-Title: 💰Products Config: Single Thing | UltimateShop Wiki
+Title: 💰Product Configuration: Single Entry | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/products-config-single-thing
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -31486,7 +31715,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -31512,7 +31741,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -31529,6 +31758,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -31567,7 +31798,7 @@ On this page
 
 🛍️Shops
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 This page explains the products, buy-prices, and sell-prices sections in a way that matches how the plugin actually works in code.
 
@@ -31721,13 +31952,85 @@ This can be:
 
 a fixed number
 
-a PlaceholderAPI value. For available built-in placeholders, please view this page.
+a PlaceholderAPI value. For available built-in placeholders, please view Dynamic Value.
 
-a math expression. For math calculate format, please view this page.
+a math expression. For math calculate format, please view Math Calculation Format.
 
 a dynamic formula
 
 Example:
+
+max-sell-amount
+
+Optional. Set max-sell-amount on an individual products or sell-prices entry to calculate a cap on the number of trades in one Sell All operation. The plugin rounds fractions down and treats negative results as zero. With dynamic prices, a formula tailored to your price curve can speed up Sell All by narrowing the range of quantities the plugin has to check.
+
+For example, if the sell price starts at 10 coins and rises by 10% after each sale, the first two trades pay 10 and 11 coins. With 21 coins of payout allowance left, your formula can cap Sell All at two trades. The plugin still checks stock and require-conditions before completing the sale.
+
+See Dynamic Price for complete formula examples.
+
+In ALL mode, the lowest configured product cap wins. In ANY mode, the product caps are added together when every applicable product has a formula.
+
+See Example: Sell Income Limits for a formula based on the remaining income limit.
+
+Placeholders you can use here
+
+The formula runs through the same text pipeline as amount, after the plugin fills in a few values of its own:
+
+Placeholder
+
+Where it works
+
+What it gives you
+
+{stock}
+
+products only
+
+How much of this single thing the player holds right now. Economy single things give the balance.
+
+{sell-unit-income}
+
+sell-prices only, and only in CLASSIC_ANY / CLASSIC_ALL
+
+Money one trade pays, sell multiplier included. Entries using the same Shared Price template are added together.
+
+{require-conditions.<key>.value}
+
+products and sell-prices
+
+The value of that require-conditions entry, inserted as a number
+
+{buy-times-player}, {buy-times-server}, {buy-times-increment}, {sell-times-player}, {sell-times-server}, {sell-times-increment}
+
+products and sell-prices, in any mode
+
+Trade counters before this sale, and the increment each trade adds
+
+{custom_...} and other built-in placeholders, %...%
+
+every single thing
+
+The same UltimateShop built-in placeholders and PlaceholderAPI values that amount accepts. See Built-In Placeholders.
+
+Notes:
+
+{amount} is not available here. This formula is what works out the trade count, so no amount exists yet. Read a cap from {require-conditions.<key>.value} instead.
+
+{buy-times-increment} and {sell-times-increment} come from the item's buy-times-increment / sell-times-increment options, that is, how many counter uses one trade consumes. The counter placeholders already include their own increment, so reach for these only when a formula has to turn a number of uses into a number of trades, e.g. max-sell-amount: '({require-conditions.1.value} - {buy-times-server}) / {buy-times-increment}'.
+
+{stock} is only filled in on products. Written on a sell-prices entry it stays literal text, the formula fails, and the cap is silently dropped.
+
+{sell-unit-income} is the one value that only exists on the price side, because a product has no payout of its own. In ANY / ALL price modes a formula containing it is skipped, since the price changes across the batch; use the counter placeholders there, as the dynamic price examples do.
+
+The counters are the values before this sale starts, on both products and sell-prices, so {sell-times-player} is 0 for a player who has never sold this item.
+
+A formula that cannot be evaluated is ignored, never fatal: an unknown placeholder, a division by zero, or math.enabled being off all fall back to the normal stock and limit calculation. Turn on math.enabled, plus math.enable-function for min(), max(), ceil() and friends.
+
+The result is rounded down and clamped between zero and the limit already allowed by stock, sell-limits and sell.max-amount.
+
+When a product uses price-modifier: true, the sell-prices formula is not applied.
+
+Example: cap the item side by stock and the price side by a daily income cap.
 
 apply-conditions
 
@@ -32081,7 +32384,7 @@ Previous🛒Products
 
 Next♻️Product Config: Buy/Sell Times Reset
 
-Last updated 4 months ago
+Last updated 2 minutes ago
 
 What Is a Single Thing?
 
@@ -32110,6 +32413,8 @@ Free / Empty
 Options for Single Things
 
 amount
+
+max-sell-amount
 
 apply-conditions
 
@@ -32234,6 +32539,27 @@ command: 'health take {player} {amount}'
 Copy
 
 amount: '55 + ({buy-times-server} - {sell-times-server}) * 0.1'
+
+Copy
+
+products:
+1:
+material: EMERALD
+amount: 4
+max-sell-amount: '{stock} / 4'
+
+sell-prices:
+1:
+economy-plugin: Vault
+amount: 20
+placeholder: '{amount}$'
+max-sell-amount: '({require-conditions.1.value} - {custom_sell_daily}) / {sell-unit-income}'
+require-conditions:
+1:
+type: placeholder
+placeholder: '{custom_sell_daily} + {amount}'
+rule: '<='
+value: '10000'
 
 Copy
 
@@ -32442,7 +32768,7 @@ add-price-lore:
 Title: 💰Sell Multiplier - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/sell-multiplier-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -32556,7 +32882,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -32582,7 +32908,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -32599,6 +32925,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -32702,7 +33030,7 @@ Last updated 2 months ago
 Title: 🔗Shared Product Data - Premium | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shared-product-data-premium
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -32816,7 +33144,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -32842,7 +33170,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -32859,6 +33187,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
@@ -33014,7 +33344,7 @@ buy-times-reset-time: 00:00:00
 Title: 📂Shops | UltimateShop Wiki
 URL: https://ultimateshop.superiormc.cn/shops/shops
 
-Links: 76
+Links: 77
 
 For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs. Agents can also search and read this documentation through its MCP server.
 Skip to content
@@ -33128,7 +33458,7 @@ UltimateShop Wiki
 
 🛒Products
 
-💰Products Config: Single Thing
+💰Product Configuration: Single Entry
 
 ♻️Product Config: Buy/Sell Times Reset
 
@@ -33154,7 +33484,7 @@ UltimateShop Wiki
 
 ⛓️Conditional Placeholder - Premium
 
-🗯️Custom Placeholder - Premium
+🗯️Custom Placeholder
 
 🔖Example: Discount
 
@@ -33171,6 +33501,8 @@ UltimateShop Wiki
 🎨Color Code
 
 💴Easy Prices
+
+🧪Example: Sell Income Limits
 
 🪄Sell Stick - Premium
 
