@@ -1,5 +1,5 @@
 uShop Wiki Snapshot
-Generated UTC: 2026-11-27T06:08:21Z
+Generated UTC: 2026-11-28T05:49:35Z
 Page Count: 80
 
 ============================================================
@@ -273,7 +273,7 @@ Many, many, other things...
 
 Next🌏Other Language Wiki
 
-Last updated 8 days ago
+Last updated 9 days ago
 
 Links
 
@@ -593,7 +593,7 @@ Previous✨ArcMenu UI - Premium
 
 Next🥉Display Item Add Lore
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Choose Between Two Entries
 
@@ -1093,7 +1093,7 @@ Previous🔀Conditional Display - Premium
 
 Next🔄Menu Configuration Compatibility
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Global vs. Per-Product Lore
 
@@ -1483,7 +1483,7 @@ Previous🥉Display Item Add Lore
 
 Next📂Shops
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Current File Locations
 
@@ -1729,7 +1729,7 @@ Previous🌏Other Language Wiki
 
 Next✅Requirements
 
-Last updated 25 days ago
+Last updated 26 days ago
 
 Redstone Labs - Shop Configuration
 
@@ -3323,7 +3323,7 @@ Previous🔖Example: Discount
 
 Next🔴Dynamic Price Status - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable Math Calculation
 
@@ -5662,7 +5662,7 @@ Previous🎨Color Code
 
 Next🧪Example: Sell Income Limits
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 ============================================================
 Title: 🔑Give Item Method | UltimateShop Wiki
@@ -6183,7 +6183,7 @@ Previous🔢Number Format
 
 Next🎮Custom Click Event - Premium
 
-Last updated 2 days ago
+Last updated 3 days ago
 
 Open the file you want to change
 
@@ -8106,7 +8106,7 @@ Previous💴Easy Prices
 
 Next🪄Sell Stick - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Usage
 
@@ -13917,7 +13917,7 @@ Previous⚖️Condition Format
 
 Next📚Menu System
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Result precision
 
@@ -14760,7 +14760,7 @@ Previous🛠️Configuration files
 
 Next📊Data
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 FAQ:
 
@@ -15272,7 +15272,7 @@ Previous❓FAQ
 
 Next📊Understanding YAML/This wiki
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 ============================================================
 Title: 🔗Compatibility | UltimateShop Wiki
@@ -16021,7 +16021,7 @@ Previous🔗Compatibility
 
 Next⌨️Commands & Permissions
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Copy
 
@@ -17175,7 +17175,7 @@ Previous🚀Performance
 
 Next🆚Compare
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Q: Player don't cost money when buy product.
 
@@ -18520,7 +18520,7 @@ Previous🛍️Shop Menus
 
 Next🔍Search Menus - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Choose Menus and Caps
 
@@ -18957,7 +18957,7 @@ Previous🔍Search Menus - Premium
 
 Next💰Item Sell Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Add Products to Favourites
 
@@ -19291,7 +19291,7 @@ Previous📐Graphical UI Layout - Premium
 
 Next🛍️Shop Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a Navigation Menu
 
@@ -19640,7 +19640,7 @@ Previous❤️Favourite Menus - Premium
 
 Next🛒Sell All Menu
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create an Item Deposit Menu
 
@@ -20028,7 +20028,7 @@ Previous🔽Buy More Menus
 
 Next❤️Favourite Menus - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Inventory Example
 
@@ -20314,7 +20314,7 @@ Previous💰Item Sell Menus
 
 Next🎨UI Modes
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Open the Menu
 
@@ -20617,7 +20617,7 @@ Previous🔲Common Menus
 
 Next🔽Buy More Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a Shop and Template
 
@@ -21038,7 +21038,7 @@ Previous🪨Ore UI - Premium
 
 Next🔀Conditional Display - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable ArcMenu
 
@@ -21431,7 +21431,7 @@ Previous📦Inventory UI
 
 Next💬Native Dialog UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable Forms
 
@@ -21818,7 +21818,7 @@ Previous🛏️Bedrock Form UI - Premium
 
 Next🪨Ore UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable Native Dialog
 
@@ -22095,7 +22095,7 @@ Previous🎨UI Modes
 
 Next🛏️Bedrock Form UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Select Inventory UI
 
@@ -22476,7 +22476,7 @@ Previous💬Native Dialog UI - Premium
 
 Next✨ArcMenu UI - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Enable Ore
 
@@ -22949,7 +22949,7 @@ Previous🛒Sell All Menu
 
 Next📦Inventory UI
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Available Presentations
 
@@ -23348,7 +23348,7 @@ Previous⚙️Menu Configuration & Inheritance
 
 Next📐Graphical UI Layout - Premium
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Complete Button Menu Example
 
@@ -23805,7 +23805,7 @@ Previous📚Menu System
 
 Next🧱Layout & Buttons
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 File Locations
 
@@ -24213,7 +24213,7 @@ Previous➗Math Calculate Format
 
 Next⚙️Menu Configuration & Inheritance
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create Your First Menu
 
@@ -24760,7 +24760,7 @@ Previous🧱Layout & Buttons
 
 Next🔲Common Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Start from a Shared Style
 
@@ -25263,7 +25263,7 @@ Previous📐Graphical UI Layout - Premium
 
 Next🛍️Shop Menus
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Create a Navigation Menu
 
@@ -28399,7 +28399,7 @@ Previous🌱Example: Stock (like in life)
 
 Next🏆Example: Daily Rewards
 
-Last updated 6 days ago
+Last updated 7 days ago
 
 Create random placeholder
 
@@ -31530,7 +31530,7 @@ Previous📂Shops
 
 Next💰Product Configuration: Single Entry
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 Model
 
@@ -32099,7 +32099,7 @@ Previous🛒Products
 
 Next♻️Product Config: Buy/Sell Times Reset
 
-Last updated 1 day ago
+Last updated 2 days ago
 
 What Is a Single Entry?
 
